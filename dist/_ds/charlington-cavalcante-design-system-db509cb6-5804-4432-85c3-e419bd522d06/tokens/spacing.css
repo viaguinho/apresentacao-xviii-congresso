@@ -1,0 +1,43 @@
+/* Spacing — the site ships an odd, hand-tuned scale; the link-in-bio ships a
+   base-4 scale. Both are real. New work should use the base-4 scale. */
+:root {
+  /* Site scale (verbatim from styles.css) */
+  --spacing-4: 4px;
+  --spacing-6: 6px;
+  --spacing-10: 10px;
+  --spacing-11: 11px;
+  --spacing-22: 22px;
+  --spacing-30: 30px;
+  --spacing-34: 34px;
+  --spacing-35: 35px;
+  --spacing-50: 50px;
+  --spacing-69: 69px;
+  --spacing-94: 94px;
+  --spacing-113: 113px;
+  --spacing-130: 130px;
+  --spacing-144: 144px;
+  --spacing-220: 220px;
+
+  /* Base-4 scale (docs/tokens.css) — preferred for new components */
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
+  --space-64: 64px;
+  --space-80: 80px;
+  --space-96: 96px;
+  --space-120: 120px;
+
+  /* Layout */
+  --section-gap: 94px;
+  --element-gap: 6px;
+  --content-max-width: 1200px;
+  --content-max-width-narrow: 1140px;
+  --content-max-width-prose: 800px;
+  --page-gutter: 30px;
+  --hero-gutter: 10%;
+  --touch-target-min: 44px;
+}

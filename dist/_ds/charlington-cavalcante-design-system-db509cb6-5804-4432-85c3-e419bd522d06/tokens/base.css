@@ -1,0 +1,18 @@
+/* Base — the resets the brand relies on. Deliberately tiny. */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: var(--font-sans);
+  background-color: var(--surface-page);
+  color: var(--text-body);
+  line-height: var(--leading-heading-lg);
+  letter-spacing: var(--tracking-default);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3, h4, h5, h6 { font-weight: var(--font-weight-light); }
+a { text-decoration: none; color: var(--text-accent); transition: color 200ms ease-in-out; }
+a:hover { color: var(--action-primary-press); }
+:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

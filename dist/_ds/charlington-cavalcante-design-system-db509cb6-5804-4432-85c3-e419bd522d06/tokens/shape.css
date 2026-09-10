@@ -1,0 +1,20 @@
+/* Shape — hairline through full capsule. Nothing has sharp corners. */
+:root {
+  --radius-sm: 1.8px;    /* hairline detail */
+  --radius-lg: 10px;     /* buttons, testimonial cards */
+  --radius-card: 14px;   /* modal inner blocks */
+  --radius-card-lg: 18px;/* link-in-bio card radius */
+  --radius-2xl: 20px;    /* large content cards, modal dialog */
+  --radius-3xl: 26px;    /* pill buttons */
+  --radius-full: 54px;   /* nav capsule / logo circle */
+  --radius-full-2: 63px; /* largest surface radius */
+  --radius-pill: 9999px; /* true capsule */
+
+  /* Named aliases used in site CSS */
+  --radius-buttons: var(--radius-lg);
+  --radius-pillbuttons: var(--radius-3xl);
+  --radius-misc: var(--radius-full);
+
+  --border-hairline: 1px;
+  --border-hairline-thin: 0.5px;
+}

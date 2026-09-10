@@ -1,0 +1,5 @@
+/* Inter is loaded from Google Fonts, exactly as both production codebases do.
+   Inter is a documented SUBSTITUTE for PP Neue Montreal (the original brand face).
+   If PP Neue Montreal licences/binaries are available, drop the .woff2 files into
+   assets/fonts/ and replace this @import with local @font-face rules. */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");

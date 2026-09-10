@@ -1,0 +1,81 @@
+/* Colors — base values from Site Charlington (styles.css :root) and the
+   link-in-bio tokens.css. Two palettes, one accent idea: neutral ground, one live blue. */
+:root {
+  /* --- Base: clinical light (charlington.com.br, the flagship surface) --- */
+  --color-midnight-ink: #0f1012;      /* primary text, dark sections */
+  --color-deep-graphite: #020201;     /* highest-impact headings */
+  --color-ghost-white: #f2f2f4;       /* page background */
+  --color-canvas: #fdfdfd;            /* card / pure content wells */
+  --color-skyline-gray: #868788;      /* secondary text, quiet borders */
+  --color-slate-comment: #8f8f8f;     /* help text, inactive captions */
+  --color-future-blue: #0071e3;       /* the only saturated colour */
+  --color-future-blue-press: #0066cc; /* pressed / active state of the accent */
+
+  /* --- Base: warm-neutral (link-in-bio, docs/tokens.css) --- */
+  --color-surface-warm: #f1f1ef;      /* slightly warm grey, never pure white */
+  --color-obsidian: #0a0a0c;          /* near-black, never #000 */
+  --color-ink-soft: #17181c;          /* text on warm light */
+  --color-paper-soft: #f4f5f6;        /* text on dark, primary */
+  --color-muted-dark: #9ba1ac;        /* text on dark, secondary */
+  --color-muted-light: #6c7078;       /* text on light, secondary */
+  --color-cobalt: #2f66e0;            /* accent of the warm-neutral scope */
+
+  /* --- Alpha tints (used verbatim across both codebases) --- */
+  --tint-glass-light: rgba(255, 255, 255, 0.45);
+  --tint-glass-light-hover: rgba(255, 255, 255, 0.55);
+  --tint-glass-dark: rgba(15, 16, 18, 0.45);
+  --tint-glass-dark-hover: rgba(15, 16, 18, 0.6);
+  --tint-ink-05: rgba(12, 13, 15, 0.05);
+  --tint-accent-05: rgba(0, 113, 227, 0.05);
+  --tint-accent-25: rgba(0, 113, 227, 0.25);
+  --tint-neutral-10: rgba(117, 117, 117, 0.1);
+  --tint-neutral-20: rgba(117, 117, 117, 0.2);
+  --tint-on-dark-70: rgba(242, 242, 244, 0.7);
+  --tint-on-dark-40: rgba(242, 242, 244, 0.4);
+  --tint-on-dark-30: rgba(242, 242, 244, 0.3);
+  --tint-on-dark-03: rgba(255, 255, 255, 0.03);
+
+  /* --- Borders --- */
+  --border-light-subtle: rgba(15, 16, 18, 0.08);
+  --border-dark-subtle: rgba(255, 255, 255, 0.08);
+  --border-glass-light: rgba(255, 255, 255, 0.4);
+  --border-glass-dark: rgba(255, 255, 255, 0.15);
+
+  /* --- Semantic aliases: use these in product code --- */
+  --surface-page: var(--color-ghost-white);
+  --surface-card: var(--color-canvas);
+  --surface-inverse: var(--color-midnight-ink);
+  --surface-glass: var(--tint-glass-light);
+
+  --text-body: var(--color-midnight-ink);
+  --text-heading: var(--color-midnight-ink);
+  --text-heading-max: var(--color-deep-graphite);
+  --text-secondary: var(--color-skyline-gray);
+  --text-muted: var(--color-slate-comment);
+  --text-on-inverse: var(--color-ghost-white);
+  --text-on-inverse-muted: var(--tint-on-dark-70);
+  --text-accent: var(--color-future-blue);
+
+  --action-primary: var(--color-future-blue);
+  --action-primary-press: var(--color-future-blue-press);
+  --action-quiet: var(--tint-ink-05);
+  --focus-ring: var(--color-future-blue);
+}
+
+/* Warm-neutral scope — apply to a subtree to switch the whole system to the
+   link-in-bio palette without changing any component code. */
+.theme-warm {
+  --surface-page: var(--color-surface-warm);
+  --surface-card: #ffffff;
+  --surface-inverse: var(--color-obsidian);
+  --text-body: var(--color-ink-soft);
+  --text-heading: var(--color-ink-soft);
+  --text-heading-max: var(--color-ink-soft);
+  --text-secondary: var(--color-muted-light);
+  --text-muted: var(--color-muted-light);
+  --text-on-inverse: var(--color-paper-soft);
+  --text-on-inverse-muted: var(--color-muted-dark);
+  --text-accent: var(--color-cobalt);
+  --action-primary: var(--color-cobalt);
+  --focus-ring: var(--color-cobalt);
+}

@@ -1,0 +1,47 @@
+/**
+ * Design System Additions & Polish (Impeccable)
+ * Enhances browser surfaces, font-smoothing, and consistent micro-interactions.
+ */
+
+/* Crisp typography smoothing across all platforms */
+html, body, [data-deck-active] {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Branded text selection aligned with Charlington palette */
+::selection {
+  background: rgba(0, 113, 227, 0.22);
+  color: #0f1012;
+}
+
+::-moz-selection {
+  background: rgba(0, 113, 227, 0.22);
+  color: #0f1012;
+}
+
+/* Subtle, refined scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(15, 16, 18, 0.15);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(15, 16, 18, 0.3);
+}
+
+/* Reaviz chart serenity: prevent unwanted text selection or pointer flickering */
+.reaviz-chart-container {
+  user-select: none;
+  -webkit-user-select: none;
+}

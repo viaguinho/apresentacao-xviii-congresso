@@ -1,0 +1,19 @@
+/* Motion — one easing curve does almost all the work. Never bounce, never elastic. */
+:root {
+  /* the brand curve */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1); /* @kind other */
+  /* secondary, slower settle */
+  --ease-out-soft: cubic-bezier(0.25, 1, 0.5, 1); /* @kind other */
+
+  /* click, toggle */
+  --duration-feedback: 150ms; /* @kind other */
+  /* hover, accordion */
+  --duration-state: 250ms; /* @kind other */
+  /* modal, menu */
+  --duration-overlay: 400ms; /* @kind other */
+  /* editorial slide cross-fades */
+  --duration-slide: 1200ms; /* @kind other */
+
+  --transition-hover: color 200ms ease, opacity 200ms ease, background 200ms ease; /* @kind other */
+  --transition-lift: transform 300ms var(--ease-out), box-shadow 300ms var(--ease-out); /* @kind other */
+}

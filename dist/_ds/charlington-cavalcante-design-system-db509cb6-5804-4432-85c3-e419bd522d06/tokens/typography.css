@@ -1,0 +1,44 @@
+/* Typography — one family, low weights. Site Charlington scale is authoritative;
+   the link-in-bio scale is kept as its own set of tokens. */
+:root {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  /* Historical alias kept so code copied out of the site keeps working. */
+  --font-pp-neue-montreal: var(--font-sans);
+
+  --font-weight-light: 300;   /* headings — the signature weight */
+  --font-weight-regular: 400; /* body */
+  --font-weight-medium: 500;  /* active states, emphasis */
+  --font-weight-semibold: 600;/* avatars/initials only */
+
+  /* Site scale */
+  --text-caption: 10px;
+  --leading-caption: 1.2;
+  --tracking-caption: -0.2px;
+
+  --text-meta: 13px;
+  --text-base: 14px;
+  --text-body-lg: 15px;
+
+  --text-heading-lg: 18px;
+  --leading-heading-lg: 1.2;
+  --tracking-heading-lg: -0.36px;
+
+  --text-display: 27px;
+  --leading-display: 1.2;
+  --tracking-display: -0.54px;
+
+  --text-display-xl: 64px;   /* modal title, single largest type in the system */
+  --tracking-display-xl: -0.04em;
+
+  --tracking-default: -0.02em;
+  --tracking-eyebrow: 0.12em;
+  --tracking-capsule: 0.2em;
+
+  /* Link-in-bio scale (docs/tokens.css) */
+  --text-eyebrow: 12px;
+  --text-lib-caption: 14px;
+  --text-lib-body: 17px;
+  --text-lib-section-title: 40px;
+  --text-lib-hero: 60px;
+  --measure: 70ch;
+}
