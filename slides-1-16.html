@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+<script src="./slide16-flow.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,600,700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap">
+<link rel="stylesheet" href="_ds/charlington-cavalcante-design-system-db509cb6-5804-4432-85c3-e419bd522d06/tokens/fonts.css">
+<link rel="stylesheet" href="_ds/charlington-cavalcante-design-system-db509cb6-5804-4432-85c3-e419bd522d06/tokens/colors.css">
+<link rel="stylesheet" href="_ds/charlington-cavalcante-design-system-db509cb6-5804-4432-85c3-e419bd522d06/tokens/typography.css">
+<link rel="stylesheet" href="_ds/charlington-cavalcante-design-system-db509cb6-5804-4432-85c3-e419bd522d06/tokens/spacing.css">
+<link rel="stylesheet" href="_ds/charlington-cavalcante-design-system-db509cb6-5804-4432-85c3-e419bd522d06/tokens/shape.css">
+<link rel="stylesheet" href="_ds/charlington-cavalcante-design-system-db509cb6-5804-4432-85c3-e419bd522d06/tokens/effects.css">
+<link rel="stylesheet" href="_ds/charlington-cavalcante-design-system-db509cb6-5804-4432-85c3-e419bd522d06/tokens/motion.css">
+<link rel="stylesheet" href="_ds/charlington-cavalcante-design-system-db509cb6-5804-4432-85c3-e419bd522d06/tokens/base.css">
+<link rel="stylesheet" href="dist/apresentacao-xviii-congresso.css?v=48">
+<link rel="stylesheet" href="src/styles/design-system-additions.css?v=48">
+<script src="_ds/charlington-cavalcante-design-system-db509cb6-5804-4432-85c3-e419bd522d06/_ds_bundle.js"></script>
+<script type="module" src="/src/main.tsx"></script>
+<script>
+  if (!location.port || location.protocol === 'file:') {
+    const s = document.createElement('script');
+    s.src = 'dist/slide3-react.umd.js?v=48';
+    s.defer = true;
+    document.head.appendChild(s);
+  }
+</script>
+<style>
+  /* Charlington Claro v2 — checklist "fora da cara de IA": sem cérebro neon,
+     sem gradiente vibrante, sem emoji, sem clipart, sem glow; ícone = SVG linear
+     1.5–2px; máximo 2–3 cores por lâmina; fundo sempre Canvas/Ghost White. */
+  :root {
+    --canvas: #fdfdfd; --ghost: #f2f2f4; --ink: #0f1012;
+    --gray-1: #3f4042; --gray-2: #5f6062; --border-soft: rgba(15,16,18,.08);
+    --future-blue: #0071e3;
+    --eixo-1: #0071e3; --tint-1: #e8f2fc;
+    --eixo-2: #21C6E0; --tint-2: #eaf9fa;
+    --eixo-3: #b5563a; --tint-3: #fbeee9;
+    --eixo-4: #6b4e83; --tint-4: #f1ecf5;
+    --eixo-5: #0071e3; --tint-5: #e8f2fc;
+    --eixo-6: #0071e3; --tint-6: #e8f2fc;
+    --eixo-7: #0071e3; --tint-7: #e8f2fc;
+    --type-mega: 64px; --type-display: 48px; --type-heading: 34px;
+    --type-body: 28px; --type-caption: 24px;
+    --pad-x: 100px; --pad-top: 80px; --pad-bottom: 72px;
+    --gap-section: 50px; --gap-item: 30px;
+    --ease-entrance: cubic-bezier(.16,1,.3,1);
+    --ease-chart: cubic-bezier(.85,0,.15,1);
+  }
+  html, body { margin:0; padding:0; background:#0f1012; font-family:"Satoshi", system-ui, -apple-system, sans-serif; }
+  a { color:#0071e3; text-decoration:none; }
+  a:hover { color:#0f1012; }
+  h1, h2, h3 { font-family:'Urbanist', 'Satoshi', sans-serif; }
+
+  .bio-flashcard { transition: transform .22s var(--ease-entrance), border-color .22s ease, box-shadow .22s ease; }
+  .bio-flashcard:hover { transform: translateY(-2px); border-color: rgba(0,113,227,.35) !important; box-shadow: 0 12px 28px -6px rgba(0,113,227,.12) !important; }
+  .social-badge { transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease; }
+  .social-badge:hover { transform: translateY(-1px); border-color: rgba(0,113,227,.4) !important; }
+
+  /* Roteiro radial (slide 4) */
+  .radial-menu-stage { position:relative; width:900px; height:720px; margin:0 auto; display:flex; align-items:center; justify-content:center; }
+  .radial-hub-center { position:relative; z-index:20; width:196px; height:196px; border-radius:50%; background:rgba(18, 19, 23, 0.94); backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px); border:1.5px solid rgba(0,113,227,.42); box-shadow:0 18px 48px -8px rgba(0,0,0,.75), 0 0 28px rgba(0,113,227,.22), 0 0 0 6px rgba(0,113,227,.06); display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:16px; box-sizing:border-box; cursor:default; transition: transform .3s cubic-bezier(.16,1,.3,1), box-shadow .3s ease; }
+  .radial-hub-center:hover { transform: scale(1.03); box-shadow:0 22px 54px -8px rgba(0,0,0,.85), 0 0 36px rgba(0,113,227,.32), 0 0 0 8px rgba(0,113,227,.1); }
+  @keyframes radial-pop-item {
+    0% { opacity:0; transform: translate(-50%,-50%) translate(0,0) scale(.12); }
+    68% { opacity:1; transform: translate(-50%,-50%) translate(calc(var(--tx) * 1.04), calc(var(--ty) * 1.04)) scale(1.03); }
+    100% { opacity:1; transform: translate(-50%,-50%) translate(var(--tx), var(--ty)) scale(1); }
+  }
+  .radial-menu-item { position:absolute; left:50%; top:50%; z-index:25; opacity:0; transform: translate(-50%,-50%) translate(0,0) scale(.12); }
+  [data-deck-active] .radial-menu-item { animation: radial-pop-item .9s cubic-bezier(.16,1.15,.3,1) both; animation-delay: var(--delay, 0s); }
+  .radial-node-card { display:flex; flex-direction:column; align-items:center; text-align:center; width:210px; transition: transform .24s var(--ease-entrance); }
+  .radial-node-card:hover { transform: translateY(-4px) scale(1.04); }
+  .radial-node-circle { position:relative; width:76px; height:76px; border-radius:50%; background:rgba(255,255,255,.06); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); border:1.5px solid rgba(0,113,227,.35); box-shadow:0 10px 26px -4px rgba(0,0,0,.5), inset 0 1px 0 rgba(255,255,255,.12); display:flex; align-items:center; justify-content:center; transition: border-color .24s ease, box-shadow .24s ease, transform .24s ease; }
+  .radial-node-card:hover .radial-node-circle { border-color:#0071e3; box-shadow:0 12px 30px -4px rgba(0,113,227,.4), inset 0 1px 0 rgba(255,255,255,.22); transform: scale(1.08); }
+  .radial-node-badge { position:absolute; top:-7px; right:-7px; background:#0071e3; color:#fff; font-family:'Urbanist',sans-serif; font-size:13px; font-weight:700; line-height:1; padding:4px 7px; border-radius:9999px; letter-spacing:.02em; box-shadow:0 2px 8px rgba(0,113,227,.45); }
+  .radial-node-title { margin:10px 0 0; font-family:'Urbanist',sans-serif; font-size:19px; font-weight:600; color:#f4f5f6; line-height:1.2; letter-spacing:-.01em; }
+  .radial-node-desc { margin:3px 0 0; font-family:'Satoshi',sans-serif; font-size:14px; font-weight:400; color:#9ba1ac; line-height:1.3; }
+  .radial-lines-layer { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; z-index:5; }
+  @keyframes radial-line-grow { 0% { opacity:0; transform:scale(0) } 30% { opacity:1 } 100% { opacity:1; transform:scale(1) } }
+  .radial-connector-line { transform-origin: var(--origin, 450px 360px); opacity:0; transform:scale(0); }
+  [data-deck-active] .radial-connector-line { animation: radial-line-grow .9s var(--ease-entrance) forwards; animation-delay: var(--line-delay, 0s); }
+
+  /* Tema Claro para Radial Menu (Slides 05, 21, 25, 26, 27, 34, 37, 38) */
+  .radial-theme-light .radial-hub-center {
+    background: #ffffff;
+    border: 2px solid #0071e3;
+    box-shadow: 0 14px 36px -6px rgba(0,113,227,0.18), 0 0 0 6px rgba(0,113,227,0.06);
+    color: #0f1012;
+  }
+  .radial-theme-light .radial-hub-center:hover {
+    box-shadow: 0 18px 46px -6px rgba(0,113,227,0.28), 0 0 0 8px rgba(0,113,227,0.12);
+  }
+  .radial-theme-light .radial-node-circle {
+    background: #ffffff;
+    border: 1.8px solid #0071e3;
+    box-shadow: 0 6px 16px rgba(15,16,18,0.08);
+  }
+  .radial-theme-light .radial-node-card:hover .radial-node-circle {
+    border-color: #0071e3;
+    box-shadow: 0 10px 24px -2px rgba(0,113,227,0.35);
+  }
+  .radial-theme-light .radial-node-title {
+    color: #0f1012;
+  }
+  .radial-theme-light .radial-node-desc {
+    color: #5f6062;
+  }
+  .radial-theme-light .radial-connector-line {
+    stroke: #0071e3;
+    stroke-dasharray: 6 6;
+    stroke-width: 2px;
+    opacity: 0.65;
+  }
+
+  /* Biblioteca de entrada — data-anim */
+  @keyframes dcFade { from { opacity:0 } to { opacity:1 } }
+  @keyframes dcUp { from { opacity:0; transform:translateY(16px) } to { opacity:1; transform:none } }
+  @keyframes dcUpSm { from { opacity:0; transform:translateY(8px) } to { opacity:1; transform:none } }
+  @keyframes dcLeft { from { opacity:0; transform:translateX(-20px) } to { opacity:1; transform:none } }
+  @keyframes dcRight { from { opacity:0; transform:translateX(24px) } to { opacity:1; transform:none } }
+  @keyframes dcZoom { from { opacity:0; transform:scale(.92) } to { opacity:1; transform:none } }
+  @keyframes dcPop { from { opacity:0; transform:scale(.62) } to { opacity:1; transform:none } }
+  @keyframes dcGrow { from { transform:scaleX(0) } to { transform:scaleX(1) } }
+  @keyframes dcRise { from { transform:scaleY(0) } to { transform:scaleY(1) } }
+  @keyframes dcDraw { from { stroke-dashoffset:1400 } to { stroke-dashoffset:0 } }
+  @media (prefers-reduced-motion: no-preference) {
+    [data-deck-active] [data-anim] { animation-duration:600ms; animation-timing-function:var(--ease-entrance); animation-fill-mode:both }
+    [data-deck-active] [data-anim="fade"] { animation-name:dcFade }
+    [data-deck-active] [data-anim="up"] { animation-name:dcUp }
+    [data-deck-active] [data-anim="up-sm"] { animation-name:dcUpSm }
+    [data-deck-active] [data-anim="left"] { animation-name:dcLeft }
+    [data-deck-active] [data-anim="right"] { animation-name:dcRight }
+    [data-deck-active] [data-anim="zoom"] { animation-name:dcZoom }
+    [data-deck-active] [data-anim="pop"] { animation-name:dcPop }
+    [data-deck-active] [data-anim="grow"] { animation-name:dcGrow }
+    [data-deck-active] [data-anim="rise"] { animation-name:dcRise }
+    [data-deck-active] [data-anim="draw"] { animation-name:dcDraw; animation-duration:1000ms; animation-timing-function:var(--ease-chart) }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    [data-deck-active] [data-anim] { animation: dcFade 150ms linear both !important }
+  }
+  html[data-motion="off"] [data-anim] { animation: none !important }
+  html[data-motion="off"] [data-deck-active] .radial-menu-item { animation: none !important; opacity:1; transform: translate(-50%,-50%) translate(var(--tx), var(--ty)) }
+  /* Slide 32: Matriz do Protocolo Psicológico (Heatmap Editorial) */
+  .s32-wrap {
+    display: grid;
+    grid-template-columns: 1fr 370px;
+    gap: 34px;
+    margin-top: 14px;
+    align-items: start;
+    min-height: 0;
+  }
+  .s32-matrix-area {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+  .s32-header-row {
+    display: grid;
+    grid-template-columns: 350px repeat(4, 1fr);
+    gap: 0 10px;
+    align-items: end;
+    padding: 0 8px 8px;
+    border-bottom: 1.5px solid rgba(15, 16, 18, 0.08);
+  }
+  .s32-col-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .s32-age-pill {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    color: #0f1012;
+    letter-spacing: -0.2px;
+  }
+  .s32-age-sub {
+    font-size: 12px;
+    color: #0071e3;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 2px;
+  }
+  .s32-group-divider {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 11px;
+    margin-bottom: 4px;
+    padding: 0 8px;
+  }
+  .s32-group-tag {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #0071e3;
+    white-space: nowrap;
+  }
+  .s32-group-line {
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(0, 113, 227, 0.28), rgba(0, 113, 227, 0.03));
+  }
+  .s32-row {
+    display: grid;
+    grid-template-columns: 350px repeat(4, 1fr);
+    gap: 0 10px;
+    align-items: center;
+    padding: 2.5px 8px;
+    border-radius: 6px;
+    transition: background 0.15s ease;
+  }
+  .s32-row:hover {
+    background: rgba(0, 113, 227, 0.04);
+  }
+  .s32-row-label {
+    margin: 0;
+    font-size: 18px;
+    color: #2b2c2e;
+    font-weight: 500;
+    letter-spacing: -0.1px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .s32-cell {
+    height: 25px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    transition: transform 0.15s ease, filter 0.15s ease;
+  }
+  .s32-row:hover .s32-cell {
+    filter: brightness(0.97);
+  }
+  .s32-cell:hover {
+    transform: scale(1.05);
+    z-index: 2;
+  }
+  /* Células Heatmap calibradas */
+  .s32-cell.lvl-1 { background: rgba(0, 113, 227, 0.08); border: 1px solid rgba(0, 113, 227, 0.14); }
+  .s32-cell.lvl-2 { background: rgba(0, 113, 227, 0.18); border: 1px solid rgba(0, 113, 227, 0.22); }
+  .s32-cell.lvl-3 { background: rgba(0, 113, 227, 0.36); border: 1px solid rgba(0, 113, 227, 0.38); }
+  .s32-cell.lvl-4 { background: rgba(0, 113, 227, 0.58); border: 1px solid rgba(0, 113, 227, 0.55); }
+  .s32-cell.lvl-5 { background: rgba(0, 113, 227, 0.80); border: 1px solid rgba(0, 113, 227, 0.75); }
+  .s32-cell.lvl-6 { background: #0071e3; border: 1px solid #005bb5; box-shadow: 0 2px 6px rgba(0, 113, 227, 0.28); }
+
+  /* Animação escalonada por coluna temporal */
+  @keyframes s32CellIn {
+    from { opacity: 0; transform: scale(0.88); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  [data-deck-active] .s32-col-1 { animation: s32CellIn 450ms var(--ease-entrance) both; animation-delay: 220ms; }
+  [data-deck-active] .s32-col-2 { animation: s32CellIn 450ms var(--ease-entrance) both; animation-delay: 420ms; }
+  [data-deck-active] .s32-col-3 { animation: s32CellIn 450ms var(--ease-entrance) both; animation-delay: 620ms; }
+  [data-deck-active] .s32-col-4 { animation: s32CellIn 450ms var(--ease-entrance) both; animation-delay: 820ms; }
+
+  /* Perguntas no Rodapé */
+  .s32-questions-row {
+    display: grid;
+    grid-template-columns: 350px repeat(4, 1fr);
+    gap: 0 10px;
+    align-items: stretch;
+    margin-top: 12px;
+    padding: 0 8px;
+  }
+  .s32-q-card {
+    background: #f8fbfe;
+    border: 1px solid rgba(0, 113, 227, 0.16);
+    border-radius: 10px;
+    padding: 10px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 2px 6px rgba(0, 113, 227, 0.04);
+    transition: transform 0.18s ease, border-color 0.18s ease;
+  }
+  .s32-q-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(0, 113, 227, 0.35);
+  }
+  .s32-q-text {
+    margin: 0;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 15px;
+    line-height: 1.35;
+    color: #0f1012;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  /* Painel Lateral Unificado */
+  .s32-side-card {
+    background: #ffffff;
+    border: 1px solid rgba(15, 16, 18, 0.08);
+    border-radius: 18px;
+    padding: 22px 22px;
+    box-shadow: 0 4px 18px -2px rgba(15, 16, 18, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+</style>
+</helmet>
+
+<x-import component-from-global-scope="deck-stage" from="./deck-stage.js" width="1920" height="1080" hint-size="100%,100%">
+
+  <section data-label="Capa" data-screen-label="01" data-speaker-notes="Abertura. Apresentar o tema e o enquadramento: trajetórias, não fotografias." style="background:linear-gradient(180deg,#fdfdfd 0%,#f2f2f4 100%);font-family:'Satoshi',system-ui,sans-serif;color:#0f1012;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:80px 200px 72px">
+    <video data-anim="pop" src="{{ logoSrc }}" autoplay="autoplay" loop="loop" muted="muted" playsinline="playsinline" style="width:300px;height:300px;border-radius:50%;object-fit:cover;animation-duration:400ms;margin-bottom:56px"></video>
+    <h1 style="margin:0;font-size:64px;font-weight:300;letter-spacing:-1.3px;line-height:1.1" data-anim="up" data-comment-anchor="capa-titulo">Desenvolvimento infanto-juvenil</h1>
+    <p style="margin:22px 0 0;font-size:38px;font-weight:300;letter-spacing:-0.6px;line-height:1.25;max-width:1240px" data-anim="up">Aspectos cognitivos, emocionais e sociais</p>
+    <p style="margin:34px 0 0;font-size:28px;font-weight:400;color:#6a6b6d;line-height:1.45" data-anim="up-sm">A estruturação do protocolo de psicologia em centros de tratamento de anomalias craniofaciais</p>
+    <div style="margin-top:auto;padding-top:40px;display:flex;flex-direction:column;gap:10px" data-anim="fade">
+      <p style="margin:0;font-size:24px;font-weight:400;color:#6a6b6d">Dr. Charlington Cavalcante &nbsp;|&nbsp; CRM-SP 173.176 &nbsp;|&nbsp; CRM-CE 14.212</p>
+      <p style="margin:0;font-size:24px;font-weight:400;color:#6a6b6d">XVIII Congresso Brasileiro de Cirurgia Crânio-Maxilo-Facial &nbsp;·&nbsp; XV Congresso Brasileiro de Fissuras Lábio-Palatinas e Anomalias Craniofaciais</p>
+    </div>
+  </section>
+
+  <section data-label="Palestrante" data-screen-label="02" data-speaker-notes="Formação e trajetória do Dr. Charlington Cavalcante em ordem acadêmica." style="background:#fdfdfd;font-family:'Satoshi',system-ui,sans-serif;color:#0f1012;display:flex;padding:0;overflow:hidden;position:relative">
+    <div style="position:relative;width:680px;flex:none;overflow:hidden;background:#fdfdfd" data-anim="fade">
+      <img src="assets/charlington-retrato.jpg" alt="Dr. Charlington Cavalcante" style="width:100%;height:100%;object-fit:cover;object-position:60% 18%;transform:scaleX(-1);display:block">
+      <div style="position:absolute;left:0;right:0;bottom:0;height:360px;background:linear-gradient(180deg,rgba(15,16,18,0) 0%,rgba(15,16,18,.72) 58%,rgba(15,16,18,.94) 100%);pointer-events:none"></div>
+      <div style="position:absolute;inset:0;background:linear-gradient(90deg,transparent 0%,transparent 84%,rgba(253,253,253,0.2) 90%,rgba(253,253,253,0.75) 96%,#fdfdfd 100%);pointer-events:none"></div>
+      <div style="position:absolute;left:64px;right:40px;bottom:56px;display:flex;flex-direction:column;gap:8px;z-index:2">
+        <p style="margin:0;font-family:'Urbanist',sans-serif;font-size:38px;font-weight:600;letter-spacing:-0.02em;color:#fdfdfd">Dr. Charlington Cavalcante</p>
+        <p style="margin:0;font-family:'Satoshi',sans-serif;font-size:22px;font-weight:400;color:rgba(253,253,253,.85)">Médico (UECE) &nbsp;·&nbsp; CRM-SP 173.176 &nbsp;·&nbsp; CRM-CE 14.212</p>
+      </div>
+    </div>
+
+    <div style="flex:1;min-width:0;box-sizing:border-box;padding:42px 64px 36px 32px;display:flex;flex-direction:column;justify-content:space-between">
+      <div style="text-align:right" data-anim="up">
+        <h2 style="margin:0 0 10px;font:600 48px/1.1 'Urbanist',sans-serif;letter-spacing:-.024em;color:#0f1012">Formação &amp; Trajetória</h2>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:12px;margin:12px 0;flex:1;justify-content:center">
+        <div class="bio-flashcard" data-anim="up" style="animation-delay:60ms;background:#ffffff;border:1px solid rgba(15,16,18,0.08);border-radius:18px;padding:16px 28px;box-sizing:border-box;display:grid;grid-template-columns:290px 1fr;gap:32px;align-items:center;box-shadow:0 4px 16px -2px rgba(15,16,18,0.04)">
+          <div>
+            <div style="margin-bottom:6px">
+              <span style="font:500 13px/1 'Urbanist',sans-serif;letter-spacing:.08em;color:#0071e3;background:rgba(0,113,227,0.09);padding:4px 11px;border-radius:9999px">01 · RESIDÊNCIA</span>
+            </div>
+            <h3 style="margin:0;font:600 22px/1.2 'Urbanist',sans-serif;letter-spacing:-.015em;color:#0f1012">Residência médica</h3>
+          </div>
+          <p style="margin:0;font:400 17px/1.45 'Satoshi',sans-serif;color:#3f4042;text-wrap:pretty">Pediatria (ESP-CE) · Neurologia Infantil (UNICAMP) · Neurofisiologia Clínica (UNICAMP)</p>
+        </div>
+
+        <div class="bio-flashcard" data-anim="up" style="animation-delay:120ms;background:#ffffff;border:1px solid rgba(15,16,18,0.08);border-radius:18px;padding:15px 28px;box-sizing:border-box;display:grid;grid-template-columns:290px 1fr;gap:32px;align-items:center;box-shadow:0 4px 16px -2px rgba(15,16,18,0.04)">
+          <div>
+            <div style="margin-bottom:6px">
+              <span style="font:500 13px/1 'Urbanist',sans-serif;letter-spacing:.08em;color:#0071e3;background:rgba(0,113,227,0.09);padding:4px 11px;border-radius:9999px">02 · LATO SENSU</span>
+            </div>
+            <h3 style="margin:0;font:600 22px/1.2 'Urbanist',sans-serif;letter-spacing:-.015em;color:#0f1012">Pós-graduação</h3>
+          </div>
+          <p style="margin:0;font:400 15px/1.42 'Satoshi',sans-serif;color:#3f4042;text-wrap:pretty">Medicina do Sono (Instituto do Sono, AFIP UNIFESP) · Medicina do Sono em Crianças e Adolescentes · Medicina do Sono no Transtorno do Espectro Autista · Psiquiatria da Infância e Adolescência (Pós-FG) · Transtorno do Espectro Autista e Transtorno Opositivo Desafiador (Child Behaviour Institute of Miami) · Desenvolvimento Humano (IPq / HC-FMUSP)</p>
+        </div>
+
+        <div class="bio-flashcard" data-anim="up" style="animation-delay:180ms;background:#ffffff;border:1px solid rgba(15,16,18,0.08);border-radius:18px;padding:15px 28px;box-sizing:border-box;display:grid;grid-template-columns:290px 1fr;gap:32px;align-items:center;box-shadow:0 4px 16px -2px rgba(15,16,18,0.04)">
+          <div>
+            <div style="margin-bottom:6px">
+              <span style="font:500 13px/1 'Urbanist',sans-serif;letter-spacing:.08em;color:#0071e3;background:rgba(0,113,227,0.09);padding:4px 11px;border-radius:9999px">03 · INTERNACIONAL</span>
+            </div>
+            <h3 style="margin:0;font:600 22px/1.2 'Urbanist',sans-serif;letter-spacing:-.015em;color:#0f1012">Complemento &amp; Fellowships</h3>
+          </div>
+          <p style="margin:0;font:400 15px/1.42 'Satoshi',sans-serif;color:#3f4042;text-wrap:pretty">Fellowship em Epilepsia e Neuroimagem (UNICAMP) · Observership in Neurometabolic Disorders (Sick Kids Hospital, Toronto) · Autism Spectrum Disorder (University of California) · Understanding Child Development: from Synapse to Society (Utrecht University) · Health Concepts in Chinese Medicine (The Hong Kong University)</p>
+        </div>
+
+        <div class="bio-flashcard" data-anim="up" style="animation-delay:240ms;background:#ffffff;border:1px solid rgba(15,16,18,0.08);border-radius:18px;padding:16px 28px;box-sizing:border-box;display:grid;grid-template-columns:290px 1fr;gap:32px;align-items:center;box-shadow:0 4px 16px -2px rgba(15,16,18,0.04)">
+          <div>
+            <div style="margin-bottom:6px">
+              <span style="font:500 13px/1 'Urbanist',sans-serif;letter-spacing:.08em;color:#0071e3;background:rgba(0,113,227,0.09);padding:4px 11px;border-radius:9999px">04 · STRICTO SENSU</span>
+            </div>
+            <h3 style="margin:0;font:600 22px/1.2 'Urbanist',sans-serif;letter-spacing:-.015em;color:#0f1012">Mestrado</h3>
+          </div>
+          <p style="margin:0;font:400 17px/1.45 'Satoshi',sans-serif;color:#3f4042;text-wrap:pretty">Ciências Médicas — Neurologia (UNICAMP)</p>
+        </div>
+
+        <div class="bio-flashcard" data-anim="up" style="animation-delay:300ms;background:#ffffff;border:1px solid rgba(15,16,18,0.08);border-radius:18px;padding:16px 28px;box-sizing:border-box;display:grid;grid-template-columns:290px 1fr;gap:32px;align-items:center;box-shadow:0 4px 16px -2px rgba(15,16,18,0.04)">
+          <div>
+            <div style="margin-bottom:6px">
+              <span style="font:500 13px/1 'Urbanist',sans-serif;letter-spacing:.08em;color:#0071e3;background:rgba(0,113,227,0.09);padding:4px 11px;border-radius:9999px">05 · ATUALIZAÇÃO</span>
+            </div>
+            <h3 style="margin:0;font:600 22px/1.2 'Urbanist',sans-serif;letter-spacing:-.015em;color:#0f1012">Em andamento</h3>
+          </div>
+          <p style="margin:0;font:400 17px/1.45 'Satoshi',sans-serif;color:#3f4042;text-wrap:pretty">Nutrologia Pediátrica · Metabolômica · Medicina Regenerativa · Suplementação pediátrica</p>
+        </div>
+      </div>
+
+      <div style="display:flex;align-items:center;justify-content:space-between;padding-top:8px" data-anim="fade">
+        <div style="display:flex;align-items:center;gap:14px">
+          <div class="social-badge" style="background:#ffffff;border:1px solid rgba(15,16,18,0.09);border-radius:9999px;padding:8px 18px;display:inline-flex;align-items:center;gap:10px;color:#0f1012;font:500 16px/1 'Satoshi',sans-serif">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0071e3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+            </svg>
+            <span>@charlington.cavalcante</span>
+          </div>
+          <div class="social-badge" style="background:#ffffff;border:1px solid rgba(15,16,18,0.09);border-radius:9999px;padding:8px 18px;display:inline-flex;align-items:center;gap:10px;color:#0f1012;font:500 16px/1 'Satoshi',sans-serif">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#0071e3" style="flex:none">
+              <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"></path>
+            </svg>
+            <span>in/charlington-cavalcante</span>
+          </div>
+        </div>
+        <img src="assets/image2.png" alt="Logo Dr. Charlington" style="width:38px;height:29px;object-fit:contain;opacity:.38;flex:none">
+      </div>
+    </div>
+  </section>
+
+  <section data-label="Conflitos" data-screen-label="03" data-speaker-notes="Declaração obrigatória, conforme Resolução CFM 1.595/2000 e RDC Anvisa 96/2008. Ler os três tópicos e seguir." style="background:#fdfdfd;font-family:'Satoshi',system-ui,sans-serif;color:#0f1012;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:auto 1fr;gap:24px 40px;align-content:center;height:100%;padding:80px 100px;position:relative;box-sizing:border-box">
+    <!-- Header: Row 1, Col 1 -->
+    <div style="grid-column:1;grid-row:1">
+      <p style="margin:0 0 16px;font-size:24px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#0071e3;text-align:left;" data-anim="up-sm">Transparência</p>
+      <h2 style="margin:0;font-size:56px;font-weight:300;letter-spacing:-1.1px;line-height:1.15;text-align:left;" data-anim="up">Declaração de conflitos de interesses</h2>
+    </div>
+
+    <!-- Body Text: Row 2, Col 1 -->
+    <div style="grid-column:1;grid-row:2;display:flex;flex-direction:column;justify-content:center;text-align:justify;text-justify:inter-word;">
+      <p style="margin:0;font-size:28px;font-weight:400;line-height:1.45;color:#3f4042;max-width:1400px;text-align:justify;text-justify:inter-word;" data-anim="up-sm">De acordo com a Resolução CFM nº 1.595/2000 e com a RDC Anvisa nº 96/2008, declaro que:</p>
+      <div style="display:flex;flex-direction:column;gap:18px;margin-top:24px;max-width:1560px">
+        <div style="display:grid;grid-template-columns:34px 1fr;gap:20px;align-items:start;animation-delay:140ms" data-anim="left">
+          <span style="font-size:28px;line-height:1.4;color:#0071e3">—</span>
+          <p style="margin:0;font-size:28px;font-weight:400;line-height:1.45;color:#0f1012;text-align:justify;text-justify:inter-word;text-wrap:pretty">Não sou funcionário, proprietário, sócio ou cotista e não possuo ações de empresas farmacêuticas ou de equipamentos médicos.</p>
+        </div>
+        <div style="display:grid;grid-template-columns:34px 1fr;gap:20px;align-items:start;animation-delay:140ms" data-anim="left">
+          <span style="font-size:28px;line-height:1.4;color:#0071e3">—</span>
+          <p style="margin:0;font-size:28px;font-weight:400;line-height:1.45;color:#0f1012;text-align:justify;text-justify:inter-word;text-wrap:pretty">Como condição para participar dessas atividades, preservo a autonomia do pensamento científico, a independência de opinião e a liberdade de expressão.</p>
+        </div>
+        <div style="display:grid;grid-template-columns:34px 1fr;gap:20px;align-items:start;animation-delay:140ms" data-anim="left">
+          <span style="font-size:28px;line-height:1.4;color:#0071e3">—</span>
+          <p style="margin:0;font-size:28px;font-weight:500;line-height:1.45;color:#0f1012;text-align:justify;text-justify:inter-word;text-wrap:pretty">Recebi honorários de consultoria das seguintes empresas:</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousels: Row 2, Col 2 -->
+    <div style="grid-column:2;grid-row:2;display:flex;align-items:center;justify-content:center;height:100%" data-anim="fade">
+      <div id="slide3-react-root" style="width:100%;height:100%;display:flex;justify-content:center;align-items:center;"></div>
+    </div>
+    <img src="assets/image2.png" alt="Logo Dr. Charlington" style="position:absolute;right:80px;bottom:36px;width:38px;height:29px;object-fit:contain;opacity:.38;pointer-events:none">
+  </section>
+
+  <section data-label="Roteiro" data-screen-label="04" data-speaker-notes="Mapa dos trinta minutos. Sinalizar que o eixo 1 é o núcleo conceitual e que o eixo 7 fecha o raciocínio clínico." style="background:#0f1012;font-family:'Satoshi',system-ui,sans-serif;color:#f4f5f6;display:flex;flex-direction:row;align-items:center;justify-content:space-between;padding:0 90px 0 70px;position:relative;overflow:hidden;box-sizing:border-box">
+    <div style="flex:0 0 920px;display:flex;align-items:center;justify-content:center">
+      <div class="radial-menu-stage">
+        <svg class="radial-lines-layer" viewBox="0 0 900 720">
+          <defs>
+            <radialGradient id="radial-ray-fade" cx="450" cy="360" r="176" gradientUnits="userSpaceOnUse">
+              <stop offset="58%" stop-color="#0071e3" stop-opacity="0.95" />
+              <stop offset="98%" stop-color="#0071e3" stop-opacity="0" />
+            </radialGradient>
+          </defs>
+          <line class="radial-connector-line" style="--line-delay: 0.5s;" x1="450" y1="256" x2="450" y2="188" stroke="url(#radial-ray-fade)" stroke-width="2.5" stroke-linecap="round"></line>
+          <line class="radial-connector-line" style="--line-delay: 1.0s;" x1="531" y1="295" x2="584" y2="253" stroke="url(#radial-ray-fade)" stroke-width="2.5" stroke-linecap="round"></line>
+          <line class="radial-connector-line" style="--line-delay: 1.5s;" x1="551" y1="383" x2="618" y2="398" stroke="url(#radial-ray-fade)" stroke-width="2.5" stroke-linecap="round"></line>
+          <line class="radial-connector-line" style="--line-delay: 2.0s;" x1="495" y1="454" x2="525" y2="515" stroke="url(#radial-ray-fade)" stroke-width="2.5" stroke-linecap="round"></line>
+          <line class="radial-connector-line" style="--line-delay: 2.5s;" x1="405" y1="454" x2="375" y2="515" stroke="url(#radial-ray-fade)" stroke-width="2.5" stroke-linecap="round"></line>
+          <line class="radial-connector-line" style="--line-delay: 3.0s;" x1="349" y1="383" x2="282" y2="398" stroke="url(#radial-ray-fade)" stroke-width="2.5" stroke-linecap="round"></line>
+          <line class="radial-connector-line" style="--line-delay: 3.5s;" x1="369" y1="295" x2="316" y2="253" stroke="url(#radial-ray-fade)" stroke-width="2.5" stroke-linecap="round"></line>
+        </svg>
+
+        <div class="radial-hub-center" data-anim="zoom" style="animation-delay: 0.2s;">
+          <div style="width:38px;height:38px;border-radius:50%;background:rgba(0,113,227,0.18);border:1px solid rgba(0,113,227,0.3);display:flex;align-items:center;justify-content:center;margin-bottom:8px">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0071e3" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+          </div>
+          <span style="font-family:'Urbanist',sans-serif;font-size:12px;font-weight:700;letter-spacing:0.09em;color:#0071e3;text-transform:uppercase">ROTEIRO</span>
+          <span style="font-family:'Urbanist',sans-serif;font-size:22px;font-weight:700;letter-spacing:-0.02em;color:#f4f5f6;margin:3px 0 1px">7 Eixos</span>
+          <span style="font-family:'Satoshi',sans-serif;font-size:13px;font-weight:400;color:#9ba1ac">30 minutos</span>
+        </div>
+
+        <div class="radial-menu-item" style="--tx: 0px; --ty: -270px; --delay: 0.5s;">
+          <div class="radial-node-card">
+            <div class="radial-node-circle">
+              <span class="radial-node-badge">01</span>
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#0071e3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+              </svg>
+            </div>
+            <p class="radial-node-title">Processo dinâmico</p>
+            <p class="radial-node-desc">Trajetórias e sistemas</p>
+          </div>
+        </div>
+
+        <div class="radial-menu-item" style="--tx: 211px; --ty: -168px; --delay: 1.0s;">
+          <div class="radial-node-card">
+            <div class="radial-node-circle">
+              <span class="radial-node-badge">02</span>
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#0071e3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="5" r="3"></circle>
+                <circle cx="5" cy="19" r="3"></circle>
+                <circle cx="19" cy="19" r="3"></circle>
+                <line x1="12" y1="8" x2="12" y2="12"></line>
+                <path d="M12 12 L5 16"></path>
+                <path d="M12 12 L19 16"></path>
+              </svg>
+            </div>
+            <p class="radial-node-title">Desenvolvimento cognitivo</p>
+            <p class="radial-node-desc">Atenção, memória, funções executivas</p>
+          </div>
+        </div>
+
+        <div class="radial-menu-item" style="--tx: 263px; --ty: 60px; --delay: 1.5s;">
+          <div class="radial-node-card">
+            <div class="radial-node-circle">
+              <span class="radial-node-badge">03</span>
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#0071e3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </div>
+            <p class="radial-node-title">Desenvolvimento emocional</p>
+            <p class="radial-node-desc">Co-regulação e autorregulação</p>
+          </div>
+        </div>
+
+        <div class="radial-menu-item" style="--tx: 117px; --ty: 243px; --delay: 2.0s;">
+          <div class="radial-node-card">
+            <div class="radial-node-circle">
+              <span class="radial-node-badge">04</span>
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#0071e3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <p class="radial-node-title">Desenvolvimento social</p>
+            <p class="radial-node-desc">Do cuidador aos pares</p>
+          </div>
+        </div>
+
+        <div class="radial-menu-item" style="--tx: -117px; --ty: 243px; --delay: 2.5s;">
+          <div class="radial-node-card">
+            <div class="radial-node-circle">
+              <span class="radial-node-badge">05</span>
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#0071e3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <circle cx="12" cy="12" r="4"></circle>
+                <line x1="12" y1="2" x2="12" y2="6"></line>
+                <line x1="12" y1="18" x2="12" y2="22"></line>
+                <line x1="2" y1="12" x2="6" y2="12"></line>
+                <line x1="18" y1="12" x2="22" y2="12"></line>
+              </svg>
+            </div>
+            <p class="radial-node-title">Anomalias craniofaciais</p>
+            <p class="radial-node-desc">O que muda no desenvolvimento</p>
+          </div>
+        </div>
+
+        <div class="radial-menu-item" style="--tx: -263px; --ty: 60px; --delay: 3.0s;">
+          <div class="radial-node-card">
+            <div class="radial-node-circle">
+              <span class="radial-node-badge">06</span>
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#0071e3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                <path d="M9 12l2 2 4-4"></path>
+              </svg>
+            </div>
+            <p class="radial-node-title">Protocolo psicológico</p>
+            <p class="radial-node-desc">Rastreio, aprofundamento, ciclo</p>
+          </div>
+        </div>
+
+        <div class="radial-menu-item" style="--tx: -211px; --ty: -168px; --delay: 3.5s;">
+          <div class="radial-node-card">
+            <div class="radial-node-circle">
+              <span class="radial-node-badge">07</span>
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#0071e3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 17c3-6 6-9 9-9s6 3 9 9"></path>
+                <circle cx="12" cy="8" r="2"></circle>
+                <line x1="3" y1="21" x2="21" y2="21"></line>
+              </svg>
+            </div>
+            <p class="radial-node-title">Uma fotografia não basta</p>
+            <p class="radial-node-desc">Leitura longitudinal</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;text-align:center;padding:0 40px" data-anim="right">
+      <div style="margin-bottom:20px">
+        <span style="font-family:'Urbanist',sans-serif;font-size:14px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#0071e3;background:rgba(0,113,227,0.15);padding:7px 22px;border-radius:9999px;border:1px solid rgba(0,113,227,0.3)">ESTRUTURA CLÍNICA</span>
+      </div>
+      <h2 style="margin:0 0 20px;font-family:'Urbanist',sans-serif;font-size:56px;font-weight:600;letter-spacing:-0.025em;line-height:1.15;color:#f4f5f6;max-width:620px">Roteiro da apresentação</h2>
+      <p style="margin:0 0 36px;font-family:'Satoshi',sans-serif;font-size:22px;font-weight:400;line-height:1.5;color:#9ba1ac;max-width:580px">Uma trajetória integrada em 7 eixos complementares, do conceito de desenvolvimento à estruturação do protocolo de psicologia.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;max-width:580px">
+        <div style="display:flex;align-items:center;gap:10px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);padding:10px 20px;border-radius:9999px">
+          <span style="width:8px;height:8px;border-radius:50%;background:#0071e3;box-shadow:0 0 8px rgba(0,113,227,0.8)"></span>
+          <span style="font-family:'Urbanist',sans-serif;font-size:16px;font-weight:600;color:#f4f5f6">7 eixos temáticos</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);padding:10px 20px;border-radius:9999px">
+          <span style="width:8px;height:8px;border-radius:50%;background:#0071e3;box-shadow:0 0 8px rgba(0,113,227,0.8)"></span>
+          <span style="font-family:'Urbanist',sans-serif;font-size:16px;font-weight:600;color:#f4f5f6">30 minutos</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);padding:10px 20px;border-radius:9999px">
+          <span style="width:8px;height:8px;border-radius:50%;background:#0071e3;box-shadow:0 0 8px rgba(0,113,227,0.8)"></span>
+          <span style="font-family:'Urbanist',sans-serif;font-size:16px;font-weight:600;color:#f4f5f6">Abordagem integrativa</span>
+        </div>
+      </div>
+    </div>
+
+    <img src="assets/image2.png" alt="Logo Dr. Charlington" style="position:absolute;right:80px;bottom:48px;width:38px;height:29px;object-fit:contain;opacity:.45;filter:brightness(0) invert(1);pointer-events:none">
+  </section>
+
+  <section data-label="Conceito central" data-screen-label="05" data-speaker-notes="Slide conceitual. Ler os três painéis da esquerda para a direita e fechar com a síntese: posição, direção e velocidade." style="background:#fdfdfd;font-family:'Satoshi',system-ui,sans-serif;color:#0f1012;display:flex;flex-direction:column;padding:78px 90px 58px;position:relative">
+    <h2 style="margin:0;font-size:44px;font-weight:300;letter-spacing:-0.9px;text-align:center;line-height:1.2" data-anim="up">Desenvolvimento: processo multidimensional, dinâmico e heterogêneo</h2>
+
+    <div id="slide5-react-root" style="flex:1;min-height:0;display:flex;width:100%;margin-top:28px"></div>
+
+    <div data-anim="up" style="margin-top:20px;display:flex;align-items:center;justify-content:center;gap:18px;background:#f8fbfe;border:1px solid rgba(0,113,227,0.18);border-radius:12px;padding:12px 32px;box-shadow:0 2px 8px rgba(0,113,227,0.04);max-width:1440px;margin-left:auto;margin-right:auto;animation-delay:900ms">
+      <span style="font-family:Urbanist,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#0071e3;background:rgba(0,113,227,0.08);border:1px solid rgba(0,113,227,0.2);padding:3px 8px;border-radius:4px;white-space:nowrap;line-height:1">SÍNTESE</span>
+      <p style="margin:0;font-size:22px;font-weight:500;line-height:1.35;letter-spacing:-0.2px;color:#0f1012">Desenvolvimento não é onde a criança está. É também <span style="color:#0071e3;font-weight:600">de onde ela veio</span>, <span style="color:#0071e3;font-weight:600">para onde está indo</span> e <span style="color:#0071e3;font-weight:600">em que velocidade está mudando</span>.</p>
+    </div>
+    <img src="assets/image2.png" alt="Logo Dr. Charlington" style="position:absolute;right:80px;bottom:18px;width:38px;height:29px;object-fit:contain;opacity:.38;pointer-events:none">
+  </section>
+
+  <section data-label="Média × indivíduo" data-screen-label="06" data-speaker-notes="Explicar as três etapas do método e mostrar que a curva média esconde inclinações individuais. Mulder, Dobbelaar e Achterberg, 2024." style="background:#fdfdfd;font-family:'Satoshi',system-ui,sans-serif;color:#0f1012;display:flex;flex-direction:column;padding:78px 80px 48px;position:relative">
+    <div data-anim="up-sm" style="display:flex;flex-direction:column;gap:14px">
+      <p style="margin:0;font-size:24px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#0071e3">Mensagem central</p>
+      <p style="margin:0;font-size:32px;font-weight:300;line-height:1.35;letter-spacing:-0.5px;max-width:1560px">Uma única curva descreve o comportamento médio do grupo — mas indivíduos podem seguir trajetórias distintas ao longo do desenvolvimento.</p>
+    </div>
+
+    <div style="flex:1;display:grid;grid-template-columns:44fr 56fr;gap:44px;margin-top:16px;min-height:0">
+      <div id="slide6-timeline-root" style="height:100%;min-height:0;display:flex;flex-direction:column;justify-content:center"></div>
+
+      <div style="display:flex;flex-direction:column;justify-content:center;gap:12px;min-width:0">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px">
+          <div data-anim="up-sm" style="animation-delay:400ms;background:#ffffff;border:1px solid rgba(15,16,18,0.08);border-radius:14px;padding:14px 18px 10px;box-shadow:0 2px 10px rgba(15,16,18,0.02)">
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px">
+              <p style="margin:0;font-size:18px;font-weight:600;color:#0f1012;font-family:'Urbanist','Satoshi',sans-serif">Agressividade reativa</p>
+              <span style="font-family:'Urbanist',sans-serif;font-size:10px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#0071e3;background:rgba(0,113,227,0.08);border:1px solid rgba(0,113,227,0.2);padding:1px 6px;border-radius:4px">SNAT</span>
+            </div>
+            <svg viewBox="0 0 420 230" style="width:100%;height:auto;display:block" aria-label="Trajetória média predita da resposta agressiva entre 7 e 14 anos">
+              <g stroke="#f2f2f4" stroke-width="1">
+                <line x1="72" y1="50" x2="404" y2="50"></line>
+                <line x1="72" y1="95" x2="404" y2="95"></line>
+                <line x1="72" y1="140" x2="404" y2="140"></line>
+              </g>
+              <path d="M72,140 C112,100 134,86 166,84 C208,80 250,104 300,130 C336,148 374,162 404,170 L404,190 C374,182 336,168 300,150 C250,124 208,100 166,104 C134,106 112,120 72,160 Z" fill="#e8f2fc" opacity="0.8" data-anim="fade" style="animation-delay:900ms"></path>
+              <g data-anim="fade" style="animation-duration:200ms;animation-delay:400ms">
+                <line x1="72" y1="25" x2="72" y2="185" stroke="#c9cacc" stroke-width="1.5"></line>
+                <line x1="72" y1="185" x2="404" y2="185" stroke="#c9cacc" stroke-width="1.5"></line>
+                <text x="72" y="214" text-anchor="middle" font-family="'Satoshi', sans-serif" font-size="20" fill="#5f6062">7a</text>
+                <text x="238" y="214" text-anchor="middle" font-family="'Satoshi', sans-serif" font-size="20" fill="#5f6062">10a</text>
+                <text x="404" y="214" text-anchor="middle" font-family="'Satoshi', sans-serif" font-size="20" fill="#5f6062">14a</text>
+              </g>
+              <line x1="202" y1="25" x2="202" y2="185" stroke="#0071e3" stroke-width="2" stroke-dasharray="5 5" data-anim="fade" style="animation-delay:1100ms"></line>
+              <path d="M72,150 C112,110 134,96 166,94 C208,90 250,114 300,140 C336,158 374,172 404,180" fill="none" stroke="#0071e3" stroke-width="3" stroke-linecap="round" data-anim="draw" stroke-dasharray="1400" style="animation-delay:500ms"></path>
+            </svg>
+          </div>
+
+          <div data-anim="up-sm" style="animation-delay:700ms;background:#ffffff;border:1px solid rgba(15,16,18,0.08);border-radius:14px;padding:14px 18px 10px;box-shadow:0 2px 10px rgba(15,16,18,0.02)">
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px">
+              <p style="margin:0;font-size:18px;font-weight:600;color:#0f1012;font-family:'Urbanist','Satoshi',sans-serif">Resposta neural (AI)</p>
+              <span style="font-family:'Urbanist',sans-serif;font-size:10px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#e11d48;background:rgba(225,29,72,0.08);border:1px solid rgba(225,29,72,0.25);padding:1px 6px;border-radius:4px">fMRI Ínsula</span>
+            </div>
+            <svg viewBox="0 0 420 230" style="width:100%;height:auto;display:block" aria-label="Trajetória média predita da resposta neural na ínsula anterior entre 7 e 14 anos">
+              <g stroke="#f2f2f4" stroke-width="1">
+                <line x1="72" y1="50" x2="404" y2="50"></line>
+                <line x1="72" y1="95" x2="404" y2="95"></line>
+                <line x1="72" y1="140" x2="404" y2="140"></line>
+              </g>
+              <path d="M72,130 C120,110 170,100 238,98 C300,96 356,106 404,122 L404,142 C356,126 300,116 238,118 C170,120 120,130 72,150 Z" fill="#fff1f2" opacity="0.9" data-anim="fade" style="animation-delay:1200ms"></path>
+              <g data-anim="fade" style="animation-duration:200ms;animation-delay:700ms">
+                <line x1="72" y1="25" x2="72" y2="185" stroke="#c9cacc" stroke-width="1.5"></line>
+                <line x1="72" y1="185" x2="404" y2="185" stroke="#c9cacc" stroke-width="1.5"></line>
+                <text x="72" y="214" text-anchor="middle" font-family="'Satoshi', sans-serif" font-size="20" fill="#5f6062">7a</text>
+                <text x="238" y="214" text-anchor="middle" font-family="'Satoshi', sans-serif" font-size="20" fill="#5f6062">10a</text>
+                <text x="404" y="214" text-anchor="middle" font-family="'Satoshi', sans-serif" font-size="20" fill="#5f6062">14a</text>
+              </g>
+              <line x1="202" y1="25" x2="202" y2="185" stroke="#e11d48" stroke-width="2" stroke-dasharray="5 5" data-anim="fade" style="animation-delay:1400ms"></line>
+              <path d="M72,140 C120,120 170,110 238,108 C300,106 356,116 404,132" fill="none" stroke="#e11d48" stroke-width="3" stroke-linecap="round" data-anim="draw" stroke-dasharray="1400" style="animation-delay:800ms"></path>
+            </svg>
+          </div>
+        </div>
+
+        <div style="display:flex;align-items:center;gap:12px;padding:6px 14px;background:rgba(15,16,18,0.03);border-radius:8px" data-anim="up-sm">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#5f6062" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          <p style="margin:0;font-size:13px;font-weight:500;line-height:1.35;color:#5f6062">
+            <strong>Como ler:</strong> Linha contínua = trajetória média estimada · Faixa sombreada = incerteza (intervalo crível 95%) · Tracejado vertical = idade média (~9,8 anos)
+          </p>
+        </div>
+
+        <div data-anim="zoom" style="background:linear-gradient(180deg,#ffffff 0%,#f8fbfe 100%);border:1px solid rgba(0,113,227,0.14);border-radius:14px;padding:16px 20px;display:flex;flex-direction:column;gap:10px;box-shadow:0 3px 12px rgba(0,113,227,0.04)">
+          <div style="display:flex;align-items:flex-start;gap:10px">
+            <span style="font-size:15px;color:#0071e3;flex:none;margin-top:1px">●</span>
+            <p style="margin:0;font-size:15px;font-weight:400;line-height:1.42;color:#2d2e30">
+              <strong style="color:#0f1012;font-weight:600">Tendência populacional:</strong> A média revela aumento da agressividade reativa com pico ao final da infância (~10 anos), acompanhando a maturação da rede de dor social.
+            </p>
+          </div>
+          <div style="display:flex;align-items:flex-start;gap:10px">
+            <span style="font-size:15px;color:#e11d48;flex:none;margin-top:1px">●</span>
+            <p style="margin:0;font-size:15px;font-weight:400;line-height:1.42;color:#2d2e30">
+              <strong style="color:#0f1012;font-weight:600">Heterogeneidade individual:</strong> O modelo bayesiano multinível detecta variações significativas de inclinação entre as crianças — trajetórias distintas coexistem sob a mesma curva média.
+            </p>
+          </div>
+        </div>
+
+        <div style="display:flex;align-items:center;justify-content:flex-end;gap:8px;margin-top:2px" data-anim="fade">
+          <span style="font-family:Urbanist,sans-serif;font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#0071e3;background:rgba(0,113,227,0.08);border:1px solid rgba(0,113,227,0.2);padding:2px 6px;border-radius:4px;line-height:1">REF</span>
+          <span style="font-family:Satoshi,sans-serif;font-size:13px;font-weight:500;color:#6a6b6d">Mulder JD, Dobbelaar S, Achterberg M. Dev Cogn Neurosci. 2024;66:101365.</span>
+        </div>
+      </div>
+    </div>
+
+    <div data-anim="up" style="margin-top:16px;display:flex;align-items:center;justify-content:center;gap:18px;background:#f8fbfe;border:1px solid rgba(0,113,227,0.18);border-radius:12px;padding:12px 32px;box-shadow:0 2px 8px rgba(0,113,227,0.04);max-width:1440px;margin-left:auto;margin-right:auto;animation-delay:900ms">
+      <span style="font-family:Urbanist,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#0071e3;background:rgba(0,113,227,0.08);border:1px solid rgba(0,113,227,0.2);padding:3px 8px;border-radius:4px;white-space:nowrap;line-height:1">MENSAGEM-CHAVE</span>
+      <p style="margin:0;font-size:21px;font-weight:500;line-height:1.35;letter-spacing:-0.2px;color:#0f1012">A média populacional pode esconder trajetórias individuais: <span style="color:#0071e3;font-weight:600">importa não apenas onde a criança está, mas como ela está mudando ao longo do tempo</span>.</p>
+    </div>
+    <img src="assets/image2.png" alt="Logo Dr. Charlington" style="position:absolute;right:80px;bottom:14px;width:38px;height:29px;object-fit:contain;opacity:.38;pointer-events:none">
+  </section>
+
+  <section data-label="Interação entre sistemas" data-screen-label="07" data-speaker-notes="Nenhum nível é o motor único do desenvolvimento. Percorrer os quatro níveis e insistir na bidirecionalidade das setas." style="background:#fdfdfd;font-family:'Satoshi',system-ui,sans-serif;color:#0f1012;display:grid;grid-template-columns:40fr 60fr;gap:70px;padding:76px 100px 96px;position:relative;box-sizing:border-box">
+    <div style="display:flex;flex-direction:column;min-width:0">
+      <p style="margin:0 0 16px;font-size:24px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#0071e3" data-anim="up-sm">Eixo 1 · Processo dinâmico</p>
+      <h2 style="margin:0;font-size:48px;font-weight:300;letter-spacing:-1px;line-height:1.15" data-anim="up">O desenvolvimento emerge da interação entre sistemas</h2>
+      <p style="margin:26px 0 0;font-size:28px;font-weight:400;line-height:1.45;color:#3f4042;text-wrap:pretty" data-anim="up-sm">Nenhum nível atua isoladamente: mudanças em um componente modificam — e são modificadas por — todo o sistema.</p>
+
+      <div id="slide7-cards-root" style="width:100%;margin-top:28px;margin-bottom:12px;display:flex"></div>
+
+      <p style="margin:auto 0 0;font-size:30px;font-weight:500;line-height:1.35;letter-spacing:-0.4px;color:#0071e3;padding-top:40px" data-anim="up-sm">Desenvolvimento = múltiplas interações, em múltiplos níveis, ao longo do tempo.</p>
+    </div>
+
+    <div style="display:flex;flex-direction:column;justify-content:center;min-width:0">
+      <div data-anim="zoom" style="background:linear-gradient(180deg,#ffffff 0%,#fbfcfd 100%);border:1px solid rgba(15,23,42,0.08);border-radius:24px;padding:26px 34px 22px;box-shadow:0 8px 28px -4px rgba(15,23,42,0.04),0 2px 8px -2px rgba(15,23,42,0.02);display:flex;flex-direction:column;gap:18px;position:relative">
+        <!-- Cabeçalho Integrado -->
+        <div style="display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(15,23,42,0.06);padding-bottom:16px" data-anim="fade">
+          <div style="display:flex;align-items:center;gap:12px">
+            <span style="font-family:'Urbanist',sans-serif;font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#0071e3;background:rgba(0,113,227,0.08);border:1px solid rgba(0,113,227,0.2);padding:4px 10px;border-radius:6px;line-height:1">MODELO DE SISTEMAS</span>
+            <h3 style="margin:0;font-family:'Urbanist','Satoshi',sans-serif;font-size:21px;font-weight:600;color:#0f1012;letter-spacing:-0.3px">Estrutura Relacional do Desenvolvimento</h3>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px;font-family:'Satoshi',sans-serif;font-size:13px;font-weight:500;color:#6a6b6d">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0071e3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            <span>Ontogênese individual ao longo do tempo</span>
+          </div>
+        </div>
+
+        <!-- Gráfico Conceitual (Intacto) -->
+        <div style="width:100%;padding:4px 4px 2px">
+          <svg viewBox="0 0 900 560" style="width:100%;height:auto;display:block" aria-label="Esquema conceitual de quatro níveis interconectados ao longo do desenvolvimento individual">
+            <g font-family="'Satoshi', sans-serif" font-size="26" fill="#3f4042">
+              <text x="0" y="60">Ambiente</text>
+              <text x="0" y="188">Comportamento</text>
+              <text x="0" y="316">Atividade neural</text>
+              <text x="0" y="444">Atividade genética</text>
+            </g>
+            <g stroke="#c9cacc" stroke-width="1.5">
+              <line x1="300" y1="52" x2="880" y2="52"></line>
+              <line x1="300" y1="180" x2="880" y2="180"></line>
+              <line x1="300" y1="308" x2="880" y2="308"></line>
+              <line x1="300" y1="436" x2="880" y2="436"></line>
+            </g>
+            <g stroke="#0071e3" stroke-width="2" stroke-dasharray="1400" fill="none" opacity="0.75">
+              <path d="M370,52 L470,180" data-anim="draw" style="animation-delay:300ms"></path>
+              <path d="M470,180 L370,308" data-anim="draw" style="animation-delay:380ms"></path>
+              <path d="M470,308 L570,436" data-anim="draw" style="animation-delay:460ms"></path>
+              <path d="M570,436 L670,308" data-anim="draw" style="animation-delay:540ms"></path>
+              <path d="M670,308 L770,180" data-anim="draw" style="animation-delay:620ms"></path>
+              <path d="M770,180 L840,52" data-anim="draw" style="animation-delay:700ms"></path>
+              <path d="M370,308 L470,436" data-anim="draw" style="animation-delay:780ms"></path>
+              <path d="M670,52 L570,180" data-anim="draw" style="animation-delay:860ms"></path>
+            </g>
+            <g fill="#0071e3">
+              <circle cx="370" cy="52" r="9" data-anim="pop" style="animation-delay:200ms"></circle>
+              <circle cx="670" cy="52" r="9" data-anim="pop" style="animation-delay:240ms"></circle>
+              <circle cx="840" cy="52" r="9" data-anim="pop" style="animation-delay:280ms"></circle>
+              <circle cx="470" cy="180" r="9" data-anim="pop" style="animation-delay:320ms"></circle>
+              <circle cx="570" cy="180" r="9" data-anim="pop" style="animation-delay:360ms"></circle>
+              <circle cx="770" cy="180" r="9" data-anim="pop" style="animation-delay:400ms"></circle>
+              <circle cx="370" cy="308" r="9" data-anim="pop" style="animation-delay:440ms"></circle>
+              <circle cx="470" cy="308" r="9" data-anim="pop" style="animation-delay:480ms"></circle>
+              <circle cx="670" cy="308" r="9" data-anim="pop" style="animation-delay:520ms"></circle>
+              <circle cx="470" cy="436" r="9" data-anim="pop" style="animation-delay:560ms"></circle>
+              <circle cx="570" cy="436" r="9" data-anim="pop" style="animation-delay:600ms"></circle>
+            </g>
+            <g data-anim="fade" style="animation-delay:1000ms">
+              <line x1="300" y1="516" x2="860" y2="516" stroke="#0f1012" stroke-width="2"></line>
+              <path d="M860,516 l-14,-7 v14 z" fill="#0f1012"></path>
+              <text x="300" y="552" font-family="'Satoshi', sans-serif" font-size="26" fill="#3f4042">desenvolvimento individual</text>
+            </g>
+          </svg>
+        </div>
+
+        <!-- Régua de 3 Mini-Cards Analíticos -->
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px" data-anim="up-sm">
+          <div style="background:#ffffff;border:1px solid rgba(0,113,227,0.14);border-radius:12px;padding:12px 14px;box-shadow:0 2px 8px rgba(0,113,227,0.03);display:flex;flex-direction:column;gap:6px">
+            <div style="display:flex;align-items:center;gap:8px">
+              <div style="width:26px;height:26px;border-radius:6px;background:rgba(0,113,227,0.08);display:flex;align-items:center;justify-content:center;color:#0071e3;flex-shrink:0">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="17 1 21 5 17 9"></polyline>
+                  <path d="M3 5h18"></path>
+                  <polyline points="7 23 3 19 7 15"></polyline>
+                  <path d="M21 19H3"></path>
+                </svg>
+              </div>
+              <span style="font-family:'Urbanist',sans-serif;font-size:14px;font-weight:700;color:#0f1012;letter-spacing:-0.2px">Influências Bidirecionais</span>
+            </div>
+            <p style="margin:0;font-size:12px;font-weight:400;line-height:1.35;color:#5f6062">Causalidade recursiva e mútua entre todos os níveis.</p>
+          </div>
+
+          <div style="background:#ffffff;border:1px solid rgba(0,113,227,0.14);border-radius:12px;padding:12px 14px;box-shadow:0 2px 8px rgba(0,113,227,0.03);display:flex;flex-direction:column;gap:6px">
+            <div style="display:flex;align-items:center;gap:8px">
+              <div style="width:26px;height:26px;border-radius:6px;background:rgba(0,113,227,0.08);display:flex;align-items:center;justify-content:center;color:#0071e3;flex-shrink:0">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                  <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+              </div>
+              <span style="font-family:'Urbanist',sans-serif;font-size:14px;font-weight:700;color:#0f1012;letter-spacing:-0.2px">Múltiplos Níveis</span>
+            </div>
+            <p style="margin:0;font-size:12px;font-weight:400;line-height:1.35;color:#5f6062">Da regulação genética ao contexto sociocultural.</p>
+          </div>
+
+          <div style="background:#ffffff;border:1px solid rgba(0,113,227,0.14);border-radius:12px;padding:12px 14px;box-shadow:0 2px 8px rgba(0,113,227,0.03);display:flex;flex-direction:column;gap:6px">
+            <div style="display:flex;align-items:center;gap:8px">
+              <div style="width:26px;height:26px;border-radius:6px;background:rgba(0,113,227,0.08);display:flex;align-items:center;justify-content:center;color:#0071e3;flex-shrink:0">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 14 14"></polyline>
+                </svg>
+              </div>
+              <span style="font-family:'Urbanist',sans-serif;font-size:14px;font-weight:700;color:#0f1012;letter-spacing:-0.2px">Dinâmica no Tempo</span>
+            </div>
+            <p style="margin:0;font-size:12px;font-weight:400;line-height:1.35;color:#5f6062">As relações reorganizam-se ao longo da ontogênese.</p>
+          </div>
+        </div>
+
+        <!-- Nota Técnica Integrada -->
+        <div style="display:flex;align-items:center;gap:10px;padding:8px 14px;background:rgba(15,16,18,0.025);border:1px solid rgba(15,16,18,0.05);border-radius:10px" data-anim="fade">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0071e3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          <p style="margin:0;font-size:12.5px;font-weight:500;line-height:1.35;color:#5f6062">
+            <strong style="color:#0f1012;font-weight:600">Interpretação:</strong> Traços e nós representam co-determinação recíproca contínua; nenhum nível é o motor único do desenvolvimento.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="vancouver-dock" style="position:absolute;left:90px;bottom:26px;display:flex;align-items:center;gap:10px;max-width:1450px;z-index:20;pointer-events:none">
+      <span style="font-family:Urbanist,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#0071e3;background:rgba(0,113,227,0.08);border:1px solid rgba(0,113,227,0.2);padding:3px 8px;border-radius:4px;line-height:1;white-space:nowrap">REF</span>
+      <span style="font-family:Satoshi,sans-serif;font-size:15px;font-weight:400;color:#6a6b6d;line-height:1.35;white-space:normal">Kärtner J, Köster M. Early social-cognitive development as a dynamic developmental system—a lifeworld approach. Front Psychol. 2024;15:1399903.</span>
+    </div>
+    <img src="assets/image2.png" alt="Logo Dr. Charlington" style="position:absolute;right:80px;bottom:32px;width:38px;height:29px;object-fit:contain;opacity:.38;pointer-events:none">
+  </section>
+
+  <section data-label="Campo de forças" data-screen-label="08" data-speaker-notes="Da paisagem de possibilidades ao mecanismo concreto: a co-regulação na relação com o outro." style="background:#fdfdfd;font-family:'Satoshi',system-ui,sans-serif;color:#0f1012;display:flex;flex-direction:column;padding:78px 100px 80px;position:relative;box-sizing:border-box">
+    <p style="margin:0 0 12px;font-size:24px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#0071e3" data-anim="up-sm">Eixo 1 · Processo dinâmico</p>
+    <h2 style="margin:0;font-size:48px;font-weight:300;letter-spacing:-1px;line-height:1.15" data-anim="up">Do campo de forças ao encontro com o outro</h2>
+    <p style="margin:14px 0 0;font-size:26px;font-weight:400;line-height:1.4;color:#3f4042;max-width:1500px" data-anim="up-sm">O desenvolvimento é moldado por forças dinâmicas e se concretiza nas interações recíprocas entre criança e ambiente social.</p>
+
+    <div style="flex:1;min-height:0;display:grid;grid-template-columns:1fr 140px 1fr;gap:20px;align-items:center;margin-top:24px">
+      <!-- Card 1: Paisagem Desenvolvimental -->
+      <div data-anim="zoom" style="background:linear-gradient(180deg,#ffffff 0%,#fbfcfd 100%);border:1px solid rgba(15,23,42,0.08);border-radius:24px;padding:22px 28px 20px;box-shadow:0 10px 30px -4px rgba(15,23,42,0.04),0 2px 8px -2px rgba(15,23,42,0.02);display:flex;flex-direction:column;gap:14px;position:relative">
+        <!-- Cabeçalho do Card -->
+        <div style="display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(15,23,42,0.06);padding-bottom:12px" data-anim="fade">
+          <div style="display:flex;align-items:center;gap:10px">
+            <span style="font-family:'Urbanist',sans-serif;font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#0071e3;background:rgba(0,113,227,0.08);border:1px solid rgba(0,113,227,0.2);padding:4px 10px;border-radius:6px;line-height:1">NÍVEL SISTÊMICO</span>
+            <h3 style="margin:0;font-family:'Urbanist','Satoshi',sans-serif;font-size:20px;font-weight:600;color:#0f1012;letter-spacing:-0.3px">Paisagem Desenvolvimental</h3>
+          </div>
+          <span style="font-family:'Satoshi',sans-serif;font-size:13px;font-weight:500;color:#6a6b6d">Topografia de estados</span>
+        </div>
+
+        <!-- SVG Paisagem -->
+        <div style="width:100%;padding:2px 0">
+          <svg viewBox="0 0 700 340" style="width:100%;height:auto;max-height:260px;display:block" aria-label="Esquema conceitual de paisagem desenvolvimental com estados atratores">
+            <g fill="none" stroke="#b0b5be" stroke-width="1.6" stroke-dasharray="1400" opacity="0.8">
+              <path d="M60,65 C170,35 240,95 350,60 C460,25 560,90 660,55" data-anim="draw" style="animation-delay:200ms"></path>
+              <path d="M60,110 C170,80 240,145 350,110 C460,70 560,135 660,100" data-anim="draw" style="animation-delay:260ms"></path>
+              <path d="M60,155 C170,130 240,195 350,160 C460,115 560,185 660,145" data-anim="draw" style="animation-delay:320ms"></path>
+              <path d="M60,200 C170,180 240,245 350,205 C460,165 560,230 660,190" data-anim="draw" style="animation-delay:380ms"></path>
+              <path d="M60,245 C170,230 240,295 350,255 C460,215 560,280 660,238" data-anim="draw" style="animation-delay:440ms"></path>
+            </g>
+            <!-- Curva de trajetória com vale atrator -->
+            <g fill="none" stroke="#0071e3" stroke-width="2.8" stroke-dasharray="1400">
+              <path d="M100,90 C180,140 240,220 350,228 C450,236 510,185 570,140" data-anim="draw" style="animation-delay:600ms"></path>
+            </g>
+            <!-- Ponto atrator com halo -->
+            <circle cx="350" cy="228" r="18" fill="rgba(0,113,227,0.12)" data-anim="pop" style="animation-delay:1200ms"></circle>
+            <circle cx="350" cy="228" r="8" fill="#0071e3" data-anim="pop" style="animation-delay:1300ms"></circle>
+            <!-- Badge em pílula para o Estado Atrator (sem corte nem sobreposição) -->
+            <g transform="translate(350, 274)" data-anim="fade" style="animation-delay:1400ms">
+              <rect x="-70" y="-14" width="140" height="28" rx="14" fill="#ffffff" stroke="rgba(0,113,227,0.3)" stroke-width="1.5" filter="drop-shadow(0 2px 6px rgba(0,113,227,0.1))"></rect>
+              <text x="0" y="5" text-anchor="middle" font-family="'Urbanist', sans-serif" font-size="14" font-weight="700" fill="#0071e3" letter-spacing="0.04em">ESTADO ATRATOR</text>
+            </g>
+            <!-- Eixos e referências -->
+            <g font-family="'Satoshi', sans-serif" font-size="19" font-weight="500" fill="#6a6b6d" data-anim="fade" style="animation-delay:900ms">
+              <text x="60" y="30">mudança desenvolvimental ↑</text>
+              <text x="60" y="318">indivíduo</text>
+              <text x="660" y="318" text-anchor="end">ambiente</text>
+            </g>
+          </svg>
+        </div>
+
+        <!-- 2 Micro-Cards Analíticos -->
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px" data-anim="up-sm">
+          <div style="background:#ffffff;border:1px solid rgba(0,113,227,0.14);border-radius:12px;padding:10px 14px;box-shadow:0 2px 8px rgba(0,113,227,0.03);display:flex;flex-direction:column;gap:4px">
+            <div style="display:flex;align-items:center;gap:8px">
+              <div style="width:24px;height:24px;border-radius:6px;background:rgba(0,113,227,0.08);display:flex;align-items:center;justify-content:center;color:#0071e3;flex-shrink:0">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+              </div>
+              <span style="font-family:'Urbanist',sans-serif;font-size:13px;font-weight:700;color:#0f1012">Trajetórias Dependentes</span>
+            </div>
+            <p style="margin:0;font-size:12px;font-weight:400;line-height:1.35;color:#5f6062">As trajetórias possíveis emergem do estado atual da criança e das forças ambientais.</p>
+          </div>
+
+          <div style="background:#ffffff;border:1px solid rgba(0,113,227,0.14);border-radius:12px;padding:10px 14px;box-shadow:0 2px 8px rgba(0,113,227,0.03);display:flex;flex-direction:column;gap:4px">
+            <div style="display:flex;align-items:center;gap:8px">
+              <div style="width:24px;height:24px;border-radius:6px;background:rgba(0,113,227,0.08);display:flex;align-items:center;justify-content:center;color:#0071e3;flex-shrink:0">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+              </div>
+              <span style="font-family:'Urbanist',sans-serif;font-size:13px;font-weight:700;color:#0f1012">Padrões Estáveis</span>
+            </div>
+            <p style="margin:0;font-size:12px;font-weight:400;line-height:1.35;color:#5f6062">Padrões relativamente estáveis atuam como atratores na paisagem de desenvolvimento.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Conector Central -->
+      <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:0 4px;text-align:center" data-anim="fade">
+        <div style="width:44px;height:44px;border-radius:50%;background:#e8f2fc;border:1px solid rgba(0,113,227,0.25);display:flex;align-items:center;justify-content:center;color:#0071e3;box-shadow:0 4px 14px rgba(0,113,227,0.12)">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0071e3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </div>
+        <span style="font-family:'Urbanist',sans-serif;font-size:11.5px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#0071e3;line-height:1.3">Da paisagem<br>ao mecanismo<br>interacional</span>
+      </div>
+
+      <!-- Card 2: Mecanismo Interacional -->
+      <div data-anim="zoom" style="background:linear-gradient(180deg,#ffffff 0%,#fbfcfd 100%);border:1px solid rgba(15,23,42,0.08);border-radius:24px;padding:22px 28px 20px;box-shadow:0 10px 30px -4px rgba(15,23,42,0.04),0 2px 8px -2px rgba(15,23,42,0.02);display:flex;flex-direction:column;gap:14px;position:relative">
+        <!-- Cabeçalho do Card -->
+        <div style="display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(15,23,42,0.06);padding-bottom:12px" data-anim="fade">
+          <div style="display:flex;align-items:center;gap:10px">
+            <span style="font-family:'Urbanist',sans-serif;font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#0071e3;background:rgba(0,113,227,0.08);border:1px solid rgba(0,113,227,0.2);padding:4px 10px;border-radius:6px;line-height:1">NÍVEL INTERPESSOAL</span>
+            <h3 style="margin:0;font-family:'Urbanist','Satoshi',sans-serif;font-size:20px;font-weight:600;color:#0f1012;letter-spacing:-0.3px">Mecanismo Interacional</h3>
+          </div>
+          <span style="font-family:'Satoshi',sans-serif;font-size:13px;font-weight:500;color:#6a6b6d">Co-regulação diádica</span>
+        </div>
+
+        <!-- SVG Mecanismo -->
+        <div style="width:100%;padding:2px 0">
+          <svg viewBox="0 0 700 340" style="width:100%;height:auto;max-height:260px;display:block" aria-label="Esquema conceitual da co-regulação comportamental entre criança e outro">
+            <!-- Bloco Criança -->
+            <g data-anim="up-sm" style="animation-delay:300ms">
+              <rect x="175" y="16" width="350" height="76" rx="14" fill="#ffffff" stroke="rgba(0,113,227,0.22)" stroke-width="1.5" filter="drop-shadow(0 4px 10px rgba(0,0,0,0.02))"></rect>
+              <rect x="295" y="24" width="110" height="18" rx="9" fill="rgba(0,113,227,0.08)"></rect>
+              <text x="350" y="37" text-anchor="middle" font-family="'Urbanist', sans-serif" font-size="11" font-weight="700" letter-spacing="0.1em" fill="#0071e3">CRIANÇA</text>
+              <text x="350" y="70" text-anchor="middle" font-family="'Satoshi', sans-serif" font-size="18" font-weight="500" fill="#4b5563">motivos · cognição</text>
+            </g>
+
+            <!-- Bloco O Outro -->
+            <g data-anim="up-sm" style="animation-delay:420ms">
+              <rect x="175" y="248" width="350" height="76" rx="14" fill="#ffffff" stroke="rgba(0,113,227,0.22)" stroke-width="1.5" filter="drop-shadow(0 4px 10px rgba(0,0,0,0.02))"></rect>
+              <rect x="295" y="256" width="110" height="18" rx="9" fill="rgba(0,113,227,0.08)"></rect>
+              <text x="350" y="269" text-anchor="middle" font-family="'Urbanist', sans-serif" font-size="11" font-weight="700" letter-spacing="0.1em" fill="#0071e3">O OUTRO</text>
+              <text x="350" y="302" text-anchor="middle" font-family="'Satoshi', sans-serif" font-size="18" font-weight="500" fill="#4b5563">motivos · cognição</text>
+            </g>
+
+            <!-- Bloco Central: Regulação Comportamental -->
+            <g data-anim="fade" style="animation-delay:560ms">
+              <rect x="195" y="135" width="310" height="54" rx="12" fill="#e8f2fc" stroke="rgba(0,113,227,0.2)" stroke-width="1.2"></rect>
+              <text x="350" y="157" text-anchor="middle" font-family="'Urbanist', sans-serif" font-size="14" font-weight="700" fill="#0071e3" letter-spacing="0.04em">REGULAÇÃO COMPORTAMENTAL</text>
+              <text x="350" y="176" text-anchor="middle" font-family="'Satoshi', sans-serif" font-size="13" font-weight="500" fill="#0071e3" opacity="0.9">ao longo de estados atratores</text>
+            </g>
+
+            <!-- Setas circulares de regulação -->
+            <g fill="none" stroke="#0071e3" stroke-width="2.4" stroke-dasharray="1400">
+              <path d="M175,54 C80,84 80,256 173,286" data-anim="draw" style="animation-delay:700ms"></path>
+              <path d="M525,286 C620,256 620,84 527,54" data-anim="draw" style="animation-delay:780ms"></path>
+            </g>
+            <g fill="#0071e3">
+              <path d="M173,286 l3,-14 l12,9 z" data-anim="fade" style="animation-delay:1500ms"></path>
+              <path d="M527,54 l-3,14 l-12,-9 z" data-anim="fade" style="animation-delay:1580ms"></path>
+            </g>
+
+            <!-- Badges em Pílula nas Laterais: 100% legíveis e sem cortes -->
+            <g transform="translate(46, 162) rotate(-90)" data-anim="fade" style="animation-delay:1200ms">
+              <rect x="-100" y="-13" width="200" height="26" rx="13" fill="#ffffff" stroke="rgba(15,23,42,0.12)" stroke-width="1.2" filter="drop-shadow(0 2px 5px rgba(0,0,0,0.04))"></rect>
+              <text x="0" y="5" text-anchor="middle" font-family="'Satoshi', sans-serif" font-size="13.5" font-weight="600" fill="#1f2937">comportamento da criança</text>
+            </g>
+
+            <g transform="translate(654, 162) rotate(90)" data-anim="fade" style="animation-delay:1280ms">
+              <rect x="-95" y="-13" width="190" height="26" rx="13" fill="#ffffff" stroke="rgba(15,23,42,0.12)" stroke-width="1.2" filter="drop-shadow(0 2px 5px rgba(0,0,0,0.04))"></rect>
+              <text x="0" y="5" text-anchor="middle" font-family="'Satoshi', sans-serif" font-size="13.5" font-weight="600" fill="#1f2937">comportamento do outro</text>
+            </g>
+          </svg>
+        </div>
+
+        <!-- 2 Micro-Cards Analíticos -->
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px" data-anim="up-sm">
+          <div style="background:#ffffff;border:1px solid rgba(0,113,227,0.14);border-radius:12px;padding:10px 14px;box-shadow:0 2px 8px rgba(0,113,227,0.03);display:flex;flex-direction:column;gap:4px">
+            <div style="display:flex;align-items:center;gap:8px">
+              <div style="width:24px;height:24px;border-radius:6px;background:rgba(0,113,227,0.08);display:flex;align-items:center;justify-content:center;color:#0071e3;flex-shrink:0">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="17 1 21 5 17 9"></polyline><path d="M3 5h18"></path><polyline points="7 23 3 19 7 15"></polyline><path d="M21 19H3"></path></svg>
+              </div>
+              <span style="font-family:'Urbanist',sans-serif;font-size:13px;font-weight:700;color:#0f1012">Co-regulação Mútua</span>
+            </div>
+            <p style="margin:0;font-size:12px;font-weight:400;line-height:1.35;color:#5f6062">O comportamento regula e é continuamente regulado pela resposta do outro.</p>
+          </div>
+
+          <div style="background:#ffffff;border:1px solid rgba(0,113,227,0.14);border-radius:12px;padding:10px 14px;box-shadow:0 2px 8px rgba(0,113,227,0.03);display:flex;flex-direction:column;gap:4px">
+            <div style="display:flex;align-items:center;gap:8px">
+              <div style="width:24px;height:24px;border-radius:6px;background:rgba(0,113,227,0.08);display:flex;align-items:center;justify-content:center;color:#0071e3;flex-shrink:0">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              </div>
+              <span style="font-family:'Urbanist',sans-serif;font-size:13px;font-weight:700;color:#0f1012">Reorganização Interna</span>
+            </div>
+            <p style="margin:0;font-size:12px;font-weight:400;line-height:1.35;color:#5f6062">Cognição e motivos internos são constantemente reorganizados nas trocas sociais.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Faixa Síntese -->
+    <div data-anim="up" style="margin-top:16px;display:flex;align-items:center;justify-content:center;gap:18px;background:#f8fbfe;border:1px solid rgba(0,113,227,0.18);border-radius:12px;padding:12px 32px;box-shadow:0 2px 8px rgba(0,113,227,0.04);max-width:1440px;margin-left:auto;margin-right:auto;animation-delay:1100ms">
+      <span style="font-family:Urbanist,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#0071e3;background:rgba(0,113,227,0.08);border:1px solid rgba(0,113,227,0.2);padding:3px 8px;border-radius:4px;white-space:nowrap;line-height:1">SÍNTESE</span>
+      <p style="margin:0;font-size:22px;font-weight:500;line-height:1.35;letter-spacing:-0.2px;color:#0f1012">O desenvolvimento resulta da interação entre forças individuais e ambientais — <span style="color:#0071e3;font-weight:600">e avança, na prática, por meio de processos de co-regulação nas relações sociais</span>.</p>
+    </div>
+
+    <div class="vancouver-dock" style="position:absolute;left:90px;bottom:26px;display:flex;align-items:center;gap:10px;max-width:1450px;z-index:20;pointer-events:none">
+      <span style="font-family:Urbanist,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#0071e3;background:rgba(0,113,227,0.08);border:1px solid rgba(0,113,227,0.2);padding:3px 8px;border-radius:4px;line-height:1;white-space:nowrap">REF</span>
+      <span style="font-family:Satoshi,sans-serif;font-size:15px;font-weight:400;color:#6a6b6d;line-height:1.35;white-space:normal">Esquemas conceituais originais, baseados em: Kärtner J, Köster M. Front Psychol. 2024;15:1399903.</span>
+    </div>
+    <img src="assets/image2.png" alt="Logo Dr. Charlington" style="position:absolute;right:80px;bottom:32px;width:38px;height:29px;object-fit:contain;opacity:.38;pointer-events:none">
+  </section>
+
+  <section data-label="Natureza e ambiente" data-screen-label="09" data-speaker-notes="Substituir a pergunta 'é biológico ou ambiental?' pela pergunta sobre como os dois interagem neste momento do desenvolvimento." style="background:#fdfdfd;font-family:'Satoshi',system-ui,sans-serif;color:#0f1012;display:flex;flex-direction:column;padding:78px 88px 50px;position:relative;box-sizing:border-box;justify-content:space-between">
+    <!-- Header -->
+    <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:32px">
+      <div>
+        <p style="margin:0 0 6px;font-size:20px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#0071e3" data-anim="up-sm">Eixo 1 · Processo dinâmico</p>
+        <h2 style="margin:0 0 8px;font-size:42px;font-weight:300;letter-spacing:-1px;line-height:1.15;color:#0f1012" data-anim="up">Natureza versus ambiente? A pergunta está errada.</h2>
+        <!-- Realocação do texto conforme solicitado -->
+        <p style="margin:0;font-size:20px;font-weight:450;line-height:1.4;letter-spacing:-0.2px;color:#45474a;max-width:1120px" data-anim="up">Desenvolvimento <strong style="color:#0071e3;font-weight:600">não é produto da natureza ou do ambiente isolados</strong>: é o resultado da relação recíproca entre ambos, continuamente reorganizada ao longo do tempo.</p>
+      </div>
+      <div style="display:flex;align-items:center;margin-top:6px;flex:none" data-anim="right">
+        <!-- Pílula diminuída conforme solicitado -->
+        <div style="background:rgba(0,113,227,0.05);border:1.2px solid rgba(0,113,227,0.2);border-radius:100px;padding:6px 16px;display:flex;align-items:center;gap:8px;box-shadow:0 2px 8px rgba(0,113,227,0.04)">
+          <span style="font-family:'Urbanist',sans-serif;font-size:16px;font-weight:700;letter-spacing:-0.2px;color:#0f1012">biologia</span>
+          <span style="font-size:14px;color:#0071e3;font-weight:700">×</span>
+          <span style="font-family:'Urbanist',sans-serif;font-size:16px;font-weight:700;letter-spacing:-0.2px;color:#0f1012">experiência</span>
+          <span style="font-size:14px;color:#0071e3;font-weight:700">×</span>
+          <span style="font-family:'Urbanist',sans-serif;font-size:16px;font-weight:700;letter-spacing:-0.2px;color:#0071e3">tempo</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Interactive Stage (AnimatedFeatureCards + Orbiting Circles Globe) -->
+    <div data-anim="zoom" style="flex:1;min-height:0;display:flex;align-items:center;justify-content:center;margin-top:6px;margin-bottom:6px;width:100%">
+      <div id="slide9-orbit-root" style="width:100%;display:flex;align-items:center;justify-content:center"></div>
+    </div>
+
+    <!-- Implicação Clínica Sintética -->
+    <div data-anim="up" style="display:flex;align-items:center;gap:18px;background:#f8fbfe;border:1px solid rgba(0,113,227,0.18);border-radius:14px;padding:12px 24px;box-shadow:0 2px 8px rgba(0,113,227,0.04);margin-bottom:2px">
+      <div style="display:flex;align-items:center;gap:10px;flex:none">
+        <span style="font-family:Urbanist,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#0071e3;background:rgba(0,113,227,0.08);border:1px solid rgba(0,113,227,0.22);padding:4px 9px;border-radius:6px;line-height:1;white-space:nowrap">IMPLICAÇÃO CLÍNICA</span>
+        <span style="font-family:Urbanist,sans-serif;font-size:15px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#0071e3;white-space:nowrap">Para esta aula:</span>
+      </div>
+      <p style="margin:0;font-size:17px;font-weight:500;line-height:1.4;letter-spacing:-0.2px;color:#2d2e30">Uma condição biológica não determina sozinha uma trajetória: seu impacto depende de como ela interage com experiências, relações e demandas de cada fase.</p>
+    </div>
+
+    <div class="vancouver-dock" style="position:absolute;left:90px;bottom:24px;display:flex;align-items:center;gap:10px;max-width:1450px;z-index:20;pointer-events:none">
+      <span style="font-family:Urbanist,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#0071e3;background:rgba(0,113,227,0.08);border:1px solid rgba(0,113,227,0.2);padding:3px 8px;border-radius:4px;line-height:1;white-space:nowrap">REF</span>
+      <span style="font-family:Satoshi,sans-serif;font-size:14px;font-weight:400;color:#6a6b6d;line-height:1.35;white-space:normal">Kärtner &amp; Köster. Front Psychol. 2024;15:1399903. · Steinbeis N, Crone EA, Blakemore SJ, Cohen Kadosh K. Dev Cogn Neurosci. 2017;25:1-4.</span>
+    </div>
+    <img src="assets/image2.png" alt="Logo Dr. Charlington" style="position:absolute;right:80px;bottom:26px;width:38px;height:29px;object-fit:contain;opacity:.38;pointer-events:none">
+  </section>
+
+  <section data-label="Plasticidade" data-screen-label="10" data-speaker-notes="Corrigir a leitura simplista da plasticidade: crítico não é sinônimo de sensível, e a plasticidade não desaparece após a janela." style="background:#fdfdfd;font-family:'Satoshi',system-ui,sans-serif;color:#0f1012;display:flex;flex-direction:column;padding:76px 100px 96px;position:relative;box-sizing:border-box">
+    <p style="margin:0 0 14px;font-size:24px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#0071e3" data-anim="up-sm">Eixo 1 · Processo dinâmico</p>
+    <h2 style="margin:0;font-size:48px;font-weight:300;letter-spacing:-1px;line-height:1.15;max-width:1520px" data-anim="up">Plasticidade não significa que qualquer coisa pode acontecer a qualquer momento</h2>
+
+    <div id="slide10-react-root" style="flex:1;min-height:0;display:flex;width:100%;margin-top:16px;margin-bottom:24px"></div>
+
+    <div class="vancouver-dock" style="position:absolute;left:90px;bottom:26px;display:flex;align-items:center;gap:10px;max-width:1450px;z-index:20;pointer-events:none">
+      <span style="font-family:Urbanist,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#0071e3;background:rgba(0,113,227,0.08);border:1px solid rgba(0,113,227,0.2);padding:3px 8px;border-radius:4px;line-height:1;white-space:nowrap">REF</span>
+      <span style="font-family:Satoshi,sans-serif;font-size:15px;font-weight:400;color:#6a6b6d;line-height:1.35;white-space:normal">Knudsen EI. J Cogn Neurosci. 2004;16(8):1412-1425. · Kolb B, Harker A, Gibb R. Dev Med Child Neurol. 2017;59(12):1218-1223. · Gabard-Durnam LJ, McLaughlin KA. Biol Psychiatry. 2019;85(10):789-791.</span>
+    </div>
+    <img src="assets/image2.png" alt="Logo Dr. Charlington" style="position:absolute;right:80px;bottom:32px;width:38px;height:29px;object-fit:contain;opacity:.38;pointer-events:none">
+  </section>
+
+  <section data-label="Cascatas" data-screen-label="11" data-speaker-notes="Uma habilidade modifica as experiências disponíveis. Insistir: cascata não é destino." style="background:#fdfdfd;font-family:'Satoshi',system-ui,sans-serif;color:#0f1012;display:flex;flex-direction:column;padding:76px 100px 96px;position:relative;box-sizing:border-box">
+    <p style="margin:0 0 14px;font-size:24px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#0071e3" data-anim="up-sm">Eixo 1 · Processo dinâmico</p>
+    <h2 style="margin:0;font-size:48px;font-weight:300;letter-spacing:-1px;line-height:1.15;max-width:1520px" data-anim="up">Desenvolvimento produz cascatas</h2>
+
+    <div id="slide11-react-root" style="flex:1;min-height:0;display:flex;width:100%;margin-top:16px;margin-bottom:24px"></div>
+
+    <div class="vancouver-dock" style="position:absolute;left:90px;bottom:26px;display:flex;align-items:center;gap:10px;max-width:1450px;z-index:20;pointer-events:none">
+      <span style="font-family:Urbanist,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#0071e3;background:rgba(0,113,227,0.08);border:1px solid rgba(0,113,227,0.2);padding:3px 8px;border-radius:4px;line-height:1;white-space:nowrap">REF</span>
+      <span style="font-family:Satoshi,sans-serif;font-size:15px;font-weight:400;color:#6a6b6d;line-height:1.35;white-space:normal">Schneider JL, West KL. Infant Behav Dev. 2025;80:102078. · Iverson JM, et al. Adv Child Dev Behav. 2023;64:109-134. · Masten AS, Cicchetti D. Dev Psychopathol. 2010;22(3):491-495.</span>
+    </div>
+    <img src="assets/image2.png" alt="Logo Dr. Charlington" style="position:absolute;right:80px;bottom:32px;width:38px;height:29px;object-fit:contain;opacity:.38;pointer-events:none">
+  </section>
+
+  <section data-label="Risco e resiliência" data-screen-label="12" data-speaker-notes="Risco altera probabilidades; resiliência é multissistêmica e modificável. Evitar leitura moralizante." style="background:#fdfdfd;font-family:'Satoshi',system-ui,sans-serif;color:#0f1012;display:flex;flex-direction:column;padding:76px 100px 96px;position:relative;box-sizing:border-box">
+    <p style="margin:0 0 14px;font-size:24px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#0071e3" data-anim="up-sm">Eixo 1 · Processo dinâmico</p>
+    <h2 style="margin:0;font-size:48px;font-weight:300;letter-spacing:-1px;line-height:1.15;max-width:1520px" data-anim="up">Risco não é destino: resiliência também é desenvolvimento</h2>
+
+    <div id="slide12-react-root" style="flex:1;min-height:0;display:flex;width:100%;margin-top:14px;margin-bottom:18px"></div>
+
+    <div class="vancouver-dock" style="position:absolute;left:90px;bottom:26px;display:flex;align-items:center;gap:10px;max-width:1450px;z-index:20;pointer-events:none">
+      <span style="font-family:Urbanist,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#0071e3;background:rgba(0,113,227,0.08);border:1px solid rgba(0,113,227,0.2);padding:3px 8px;border-radius:4px;line-height:1;white-space:nowrap">REF</span>
+      <span style="font-family:Satoshi,sans-serif;font-size:15px;font-weight:400;color:#6a6b6d;line-height:1.35;white-space:normal">Masten AS, Barnes AJ. Children (Basel). 2018;5(7):98. · McDorman SA, Taylor-Robinette EK, Romeo RR. Adv Child Dev Behav. 2024;67:132-163. · Speltz ML, et al. Cleft Palate Craniofac J. 1994;31(1):61-67.</span>
+    </div>
+    <img src="assets/image2.png" alt="Logo Dr. Charlington" style="position:absolute;right:80px;bottom:32px;width:38px;height:29px;object-fit:contain;opacity:.38;pointer-events:none">
+  </section>
+
+  <section data-label="Ponte: fotografia" data-screen-label="13" data-speaker-notes="Ponte do eixo 1. Deliberadamente sintético: fotografia, trajetória, contexto e funcionalidade." style="background:#fdfdfd;font-family:'Satoshi',system-ui,sans-serif;color:#0f1012;display:flex;flex-direction:column;padding:76px 100px 96px;position:relative;box-sizing:border-box">
+    <p style="margin:0 0 14px;font-size:24px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#0071e3" data-anim="up-sm">Eixo 1 · Síntese</p>
+    <h2 style="margin:0;font-size:48px;font-weight:300;letter-spacing:-1px;line-height:1.15" data-anim="up">Na clínica, uma fotografia não basta</h2>
+    <p style="margin:16px 0 0;font-size:30px;font-weight:400;line-height:1.4;color:#3f4042;max-width:1400px" data-anim="up-sm">Avaliar desenvolvimento é interpretar trajetória — não apenas medir desempenho em um único momento.</p>
+
+    <div id="slide13-react-root" style="flex:1;min-height:0;display:flex;width:100%;margin-top:14px;margin-bottom:18px"></div>
+
+    <div class="vancouver-dock" style="position:absolute;left:90px;bottom:26px;display:flex;align-items:center;gap:10px;max-width:1450px;z-index:20;pointer-events:none">
+      <span style="font-family:Urbanist,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#0071e3;background:rgba(0,113,227,0.08);border:1px solid rgba(0,113,227,0.2);padding:3px 8px;border-radius:4px;line-height:1;white-space:nowrap">REF</span>
+      <span style="font-family:Satoshi,sans-serif;font-size:15px;font-weight:400;color:#6a6b6d;line-height:1.35;white-space:normal">Lipkin PH, Macias MM. Pediatrics. 2020;145(1):e20193449. · Zubler JM, et al. Pediatrics. 2022;149(3):e2021052138. · Collett BR, Speltz ML. Orthod Craniofac Res. 2007;10(3):138-148.</span>
+    </div>
+    <img src="assets/image2.png" alt="Logo Dr. Charlington" style="position:absolute;right:80px;bottom:32px;width:38px;height:29px;object-fit:contain;opacity:.38;pointer-events:none">
+  </section>
+
+  <section data-label="Cognição em sistema" data-screen-label="14" data-speaker-notes="Abertura do eixo cognitivo. Cognição como sistema de funções parcialmente distintas e interdependentes; QI não é a cognição inteira." style="background:#fdfdfd;font-family:'Satoshi',system-ui,sans-serif;color:#0f1012;display:flex;flex-direction:column;padding:0;position:relative;box-sizing:border-box;width:100%;height:100%;overflow:hidden">
+    <div id="slide14-react-root" style="width:100%;height:100%;display:flex"></div>
+    <img src="assets/image2.png" alt="Logo Dr. Charlington" style="position:absolute;right:60px;bottom:26px;width:38px;height:29px;object-fit:contain;opacity:.38;pointer-events:none;z-index:30">
+  </section>
+
+  <section data-label="0–5 anos" data-screen-label="15" data-speaker-notes="Da reação ao controle voluntário. Faixas largas e sobrepostas: nada de marcos rígidos." style="background:#fdfdfd;font-family:'Satoshi',system-ui,sans-serif;color:#0f1012;display:flex;flex-direction:column;padding:0;position:relative;box-sizing:border-box;width:100%;height:100%;overflow:hidden">
+    <div id="slide15-react-root" style="width:100%;height:100%;display:flex"></div>
+
+    <div class="vancouver-dock" style="position:absolute;left:90px;bottom:26px;display:flex;align-items:center;gap:10px;max-width:1450px;z-index:20;pointer-events:none">
+      <span style="font-family:Urbanist,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#0d606a;background:rgba(33,198,224,0.15);border:1px solid rgba(33,198,224,0.3);padding:3px 8px;border-radius:4px;line-height:1;white-space:nowrap">REF</span>
+      <span style="font-family:Satoshi,sans-serif;font-size:15px;font-weight:400;color:#6a6b6d;line-height:1.35;white-space:normal">Reynolds GD, Romano AC. Front Syst Neurosci. 2016;10:15. · Shokrkon A, Nicoladis E. Front Psychol. 2022;13:848696. · Filipe MG, Veloso AS, Frota S. Brain Sci. 2023;13(3):470.</span>
+    </div>
+    <img src="assets/image2.png" alt="Logo Dr. Charlington" style="position:absolute;right:80px;bottom:32px;width:38px;height:29px;object-fit:contain;opacity:.38;pointer-events:none">
+  </section>
+
+  <section data-label="6–12 anos" data-screen-label="16" data-speaker-notes="Idade escolar: cognição e aprendizagem passam a construir uma à outra. Associação, não causalidade." style="background:#fdfdfd;font-family:'Satoshi',system-ui,sans-serif;color:#0f1012;display:flex;flex-direction:column;padding:76px 100px 96px;position:relative;box-sizing:border-box">
+    <p style="margin:0 0 14px;font-size:24px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#0d606a" data-anim="up-sm">Eixo 2 · Desenvolvimento cognitivo</p>
+    <h2 style="margin:0;font-size:48px;font-weight:300;letter-spacing:-1px;line-height:1.15;max-width:1560px" data-anim="up">6–12 anos: aprender passa a exigir controle sobre o próprio pensamento</h2>
+    <p style="margin:18px 0 0;font-size:28px;font-weight:400;line-height:1.4;color:#3f4042;max-width:1500px" data-anim="up-sm">Não basta processar informação: é preciso selecionar, manter, organizar, monitorar e corrigir.</p>
+
+    <div style="flex:1;min-height:0;display:grid;grid-template-columns:55fr 45fr;gap:40px;align-items:center;margin-top:24px">
+      <div id="slide16-react-root" style="width:100%;height:100%;min-height:510px;position:relative;display:flex"></div>
+      <div id="slide16-cards-root" style="width:100%;height:100%;min-height:510px;position:relative;display:flex;align-items:center;justify-content:center"></div>
+    </div>
+
+    <div class="vancouver-dock" style="position:absolute;left:90px;bottom:26px;display:flex;align-items:center;gap:10px;max-width:1450px;z-index:20;pointer-events:none">
+      <span style="font-family:Urbanist,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#0d606a;background:rgba(33,198,224,0.15);border:1px solid rgba(33,198,224,0.3);padding:3px 8px;border-radius:4px;line-height:1;white-space:nowrap">REF</span>
+      <span style="font-family:Satoshi,sans-serif;font-size:15px;font-weight:400;color:#6a6b6d;line-height:1.35;white-space:normal">Spiegel JA, Goodrich JM, Morris BM, et al. Psychol Bull. 2021;147(4):329-351. · Peng P, Kievit RA. Child Dev Perspect. 2020;14(1):15-20. · Schneider W, Tibken C, Richter T. Adv Child Dev Behav. 2022;63:273-307.</span>
+    </div>
+    <img src="assets/image2.png" alt="Logo Dr. Charlington" style="position:absolute;right:80px;bottom:32px;width:38px;height:29px;object-fit:contain;opacity:.38;pointer-events:none">
+  </section>
+
+</x-import>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;motion&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;Completa&quot;,&quot;Desligada&quot;],&quot;default&quot;:&quot;Completa&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Animação&quot;},&quot;logoFundo&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;Branco&quot;,&quot;Prata&quot;],&quot;default&quot;:&quot;Branco&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Capa&quot;}}">
+class Component extends DCLogic {
+  componentDidMount() {
+    this._syncMotion();
+    if (window.initSlide16Flow) window.initSlide16Flow();
+    if (window.initSlide3HaloReel) window.initSlide3HaloReel();
+    if (window.initSlide5ConceptCards) window.initSlide5ConceptCards();
+    if (window.initSlide6Timeline) window.initSlide6Timeline();
+    if (window.initSlide7Cards) window.initSlide7Cards();
+    if (window.initSlide9Orbiting) window.initSlide9Orbiting();
+    if (window.initSlide10Plasticity) window.initSlide10Plasticity();
+    if (window.initSlide11Cascades) window.initSlide11Cascades();
+    if (window.initSlide12Resilience) window.initSlide12Resilience();
+    if (window.initSlide19Stats) window.initSlide19Stats();
+    if (window.syncSlideVisibility) window.syncSlideVisibility();
+  }
+  componentDidUpdate() {
+    this._syncMotion();
+    if (window.initSlide16Flow) window.initSlide16Flow();
+    if (window.initSlide3HaloReel) window.initSlide3HaloReel();
+    if (window.initSlide5ConceptCards) window.initSlide5ConceptCards();
+    if (window.initSlide6Timeline) window.initSlide6Timeline();
+    if (window.initSlide7Cards) window.initSlide7Cards();
+    if (window.initSlide9Orbiting) window.initSlide9Orbiting();
+    if (window.initSlide10Plasticity) window.initSlide10Plasticity();
+    if (window.initSlide11Cascades) window.initSlide11Cascades();
+    if (window.initSlide12Resilience) window.initSlide12Resilience();
+    if (window.initSlide19Stats) window.initSlide19Stats();
+    if (window.syncSlideVisibility) window.syncSlideVisibility();
+  }
+  _syncMotion() {
+    const off = (this.props.motion || 'Completa') === 'Desligada';
+    try { document.documentElement.setAttribute('data-motion', off ? 'off' : 'on'); } catch (e) {}
+  }
+  renderVals() {
+    const prata = (this.props.logoFundo || 'Branco') === 'Prata';
+    return { logoSrc: prata ? 'assets/liquid-logo-prata.webm' : 'assets/liquid-logo-branco.webm' };
+  }
+}
+</script>
+</body>
+</html>
