@@ -36,7 +36,7 @@ export default function Slide25Cards({ isActive = true, className }: Slide25Card
   return (
     <div
       className={cn(
-        "w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[800px] mx-auto my-auto",
+        "w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[880px] mx-auto my-auto",
         className
       )}
     >
@@ -47,7 +47,7 @@ export default function Slide25Cards({ isActive = true, className }: Slide25Card
         initial={{ opacity: 0, y: 14 }}
         animate={{ opacity: isActive ? 1 : 0, y: isActive ? 0 : 14 }}
         transition={{ duration: 0.45, delay: 0.08, ease: [0.16, 1, 0.3, 1] }}
-        className="px-5 py-4 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] flex-1 relative overflow-hidden"
+        className="px-5 py-4 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] shrink-0 relative overflow-hidden"
       >
         <div className="absolute top-0 right-0 w-44 h-44 bg-[#6b4e83]/18 rounded-full blur-3xl pointer-events-none" />
 
@@ -102,7 +102,7 @@ export default function Slide25Cards({ isActive = true, className }: Slide25Card
         initial={{ opacity: 0, y: 14 }}
         animate={{ opacity: isActive ? 1 : 0, y: isActive ? 0 : 14 }}
         transition={{ duration: 0.45, delay: 0.16, ease: [0.16, 1, 0.3, 1] }}
-        className="px-5 py-4 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between flex-1"
+        className="px-5 py-4 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between flex-1 min-h-0"
       >
         <div>
           <div className="flex items-center justify-between mb-1.5">

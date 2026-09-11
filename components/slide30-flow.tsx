@@ -83,21 +83,21 @@ export default function Slide30Flow({ isActive = true, className }: Slide30FlowP
   // Left border of Hub: x = 180. Right border: x = 360.
   // Top border of Hub: y = 152. Bottom border: y = 228.
 
-  // Block dimensions: 205w x 88h.
-  // Top-Left block: center (120, 75) => right edge is x = 222, bottom edge is y = 119
-  // Top-Right block: center (420, 75) => left edge is x = 318, bottom edge is y = 119
-  // Bottom-Left block: center (120, 305) => right edge is x = 222, top edge is y = 261
-  // Bottom-Right block: center (420, 305) => left edge is x = 318, top edge is y = 261
+  // Block dimensions: 224w x 102h (half: 112w x 51h)
+  // Top-Left block: center (120, 75) => right edge x = 232, bottom edge y = 126
+  // Top-Right block: center (420, 75) => left edge x = 308, bottom edge y = 126
+  // Bottom-Left block: center (120, 305) => right edge x = 232, top edge y = 254
+  // Bottom-Right block: center (420, 305) => left edge x = 308, top edge y = 254
 
   // 1. Cross-hub Orthogonal Connectors:
-  // TL: From bottom of TL (120, 119) down to y=190, then right to hub (180, 190)
-  const pathTL = "M 120 119 L 120 190 L 180 190";
-  // TR: From bottom of TR (420, 119) down to y=190, then left to hub (360, 190)
-  const pathTR = "M 420 119 L 420 190 L 360 190";
-  // BL: From top of BL (120, 261) up to y=190, then right to hub (180, 190)
-  const pathBL = "M 120 261 L 120 190 L 180 190";
-  // BR: From top of BR (420, 261) up to y=190, then left to hub (360, 190)
-  const pathBR = "M 420 261 L 420 190 L 360 190";
+  // TL: From bottom of TL (120, 126) down to y=190, then right to hub (180, 190)
+  const pathTL = "M 120 126 L 120 190 L 180 190";
+  // TR: From bottom of TR (420, 126) down to y=190, then left to hub (360, 190)
+  const pathTR = "M 420 126 L 420 190 L 360 190";
+  // BL: From top of BL (120, 254) up to y=190, then right to hub (180, 190)
+  const pathBL = "M 120 254 L 120 190 L 180 190";
+  // BR: From top of BR (420, 254) up to y=190, then left to hub (360, 190)
+  const pathBR = "M 420 254 L 420 190 L 360 190";
 
   // 2. Continuous Outer Transactional Circuit:
   // TL (120, 75) -> TR (420, 75) -> BR (420, 305) -> BL (120, 305) -> TL (120, 75)
@@ -111,20 +111,22 @@ export default function Slide30Flow({ isActive = true, className }: Slide30FlowP
       )}
     >
       {/* Top Header Information: Clean & Integrated without card look */}
-      <div className="flex items-center justify-between pb-2 border-b border-[#8a2f3f]/15">
+      <div className="flex items-center justify-between gap-4 pb-2 border-b border-[#8a2f3f]/15">
         <div className="flex items-center gap-2">
-          <span className="text-[14px] font-bold uppercase tracking-[0.16em] text-[#8a2f3f]">
+          <span className="text-[15px] font-bold uppercase tracking-[0.12em] text-[#8a2f3f]">
             Modelo Bioecológico · Circuito Transacional
           </span>
         </div>
-        <div className="flex items-center gap-1 text-[16px] font-semibold text-[#8a2f3f] bg-[#8a2f3f]/10 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/20">
+        <div className="flex items-center gap-1.5 text-[16px] font-semibold text-[#8a2f3f] bg-[#8a2f3f]/10 px-3 py-1 rounded-full border border-[#8a2f3f]/20 whitespace-nowrap shrink-0">
           <Repeat className="w-4 h-4 animate-spin" style={{ animationDuration: "12s" }} />
           <span>Retroalimentação Contínua</span>
         </div>
       </div>
 
-      {/* Main Diagram Area with Strict 2x2 Orthogonal Geometry */}
-      <div className="relative flex-1 w-full min-h-[380px] flex items-center justify-center my-auto">
+      {/* Main Diagram Area with Strict 2x2 Orthogonal Geometry — travada na proporção do viewBox (540×380)
+          para que conectores SVG e blocos posicionados em % compartilhem a mesma geometria */}
+      <div className="relative flex-1 w-full min-h-0 flex items-center justify-center py-3">
+      <div className="relative w-full max-h-full" style={{ aspectRatio: "540 / 380" }}>
         {/* SVG Pipeline Canvas */}
         <svg
           className="pointer-events-none absolute inset-0 w-full h-full"
@@ -230,7 +232,7 @@ export default function Slide30Flow({ isActive = true, className }: Slide30FlowP
           {/* Capsule Content */}
           <motion.div
             whileHover={{ scale: 1.04 }}
-            className="relative flex flex-col items-center justify-center px-4 py-3 rounded-2xl bg-white border-2 border-[#8a2f3f] shadow-[0_4px_20px_rgba(138,47,63,0.14)] min-w-[176px]"
+            className="relative flex flex-col items-center justify-center px-5 py-3 rounded-2xl bg-white border-2 border-[#8a2f3f] shadow-[0_4px_20px_rgba(138,47,63,0.14)] min-w-[236px]"
           >
             <div className="flex items-center gap-1.5 mb-0.5">
               <span className="w-2 h-2 rounded-full bg-[#8a2f3f] animate-ping" />
@@ -239,69 +241,76 @@ export default function Slide30Flow({ isActive = true, className }: Slide30FlowP
               </span>
             </div>
 
-            <h4 className="font-['Urbanist',sans-serif] text-[16.5px] font-black text-[#1a1113] tracking-tight leading-tight text-center">
+            <h4 className="font-['Urbanist',sans-serif] text-[21px] font-black text-[#1a1113] tracking-tight leading-tight text-center">
               Sistema Familiar
             </h4>
-            <p className="text-[16px] font-semibold text-[#8a2f3f] text-center leading-tight">
+            <p className="text-[17px] font-semibold text-[#8a2f3f] text-center leading-tight">
               Dinâmica Transacional
             </p>
 
-            <div className="mt-1.5 pt-1 border-t border-[#8a2f3f]/15 flex items-center gap-1 text-[16px] font-medium text-[#6b585c]">
-              <ArrowRightLeft className="w-2.5 h-2.5 text-[#8a2f3f]" />
+            <div className="mt-1.5 pt-1 border-t border-[#8a2f3f]/15 flex items-center gap-1.5 text-[15px] font-medium text-[#6b585c]">
+              <ArrowRightLeft className="w-3.5 h-3.5 text-[#8a2f3f]" />
               <span>Interdependência Mútua</span>
             </div>
           </motion.div>
         </div>
 
-        {/* 4 Peripheral Domain Blocks: Symmetrical, Identical Dimensions */}
+        {/* 4 Peripheral Domain Blocks: Symmetrical, Perfectly Sized & Contained */}
         {domainBlocks.map((block) => {
           const Icon = block.icon;
 
           return (
-            <motion.div
+            <div
               key={block.id}
-              initial={{ opacity: 0, y: 8 }}
-              animate={{ opacity: isActive ? 1 : 0.95, y: 0 }}
-              transition={{ duration: 0.35, delay: 0.05 }}
+              className="absolute z-10 -translate-x-1/2 -translate-y-1/2"
               style={{
                 left: `${(block.x / 540) * 100}%`,
                 top: `${(block.y / 380) * 100}%`,
+                width: `${(224 / 540) * 100}%`,
+                height: `${(102 / 380) * 100}%`,
               }}
+            >
+            <motion.div
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: isActive ? 1 : 0.95, y: 0 }}
+              transition={{ duration: 0.35, delay: 0.05 }}
               className={cn(
-                "absolute z-10 flex flex-col justify-between -translate-x-1/2 -translate-y-1/2",
-                "w-[205px] h-[88px] p-2.5 rounded-2xl bg-white",
+                "w-full h-full flex flex-col justify-between",
+                "px-4 py-3 rounded-2xl bg-white",
                 "border border-[#8a2f3f]/25 shadow-[0_2px_12px_rgba(138,47,63,0.06)]",
                 "hover:border-[#8a2f3f] hover:shadow-[0_6px_20px_rgba(138,47,63,0.12)] transition-all duration-300"
               )}
             >
               {/* Top Row: Icon & Status Badge */}
-              <div className="flex items-center justify-between gap-1">
-                <div className="w-6 h-6 rounded-lg bg-[#8a2f3f]/10 border border-[#8a2f3f]/20 flex items-center justify-center text-[#8a2f3f] shrink-0">
-                  <Icon className="w-3.5 h-3.5" />
+              <div className="flex items-center justify-between gap-1.5 shrink-0">
+                <div className="w-8 h-8 rounded-lg bg-[#8a2f3f]/10 border border-[#8a2f3f]/20 flex items-center justify-center text-[#8a2f3f] shrink-0">
+                  <Icon className="w-[18px] h-[18px]" />
                 </div>
-                <span className={cn("text-[14px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full border", block.badgeStyle)}>
+                <span className={cn("text-[14px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full border whitespace-nowrap", block.badgeStyle)}>
                   {block.badge}
                 </span>
               </div>
 
-              {/* Bottom Row: Title & Subtitle */}
-              <div>
-                <h5 className="font-['Urbanist',sans-serif] text-[15px] font-bold text-[#1a1113] leading-tight">
+              {/* Bottom Row: Title & Subtitle - Cleanly contained inside card */}
+              <div className="flex flex-col justify-end min-h-0">
+                <h5 className="font-['Urbanist',sans-serif] text-[20px] font-bold text-[#1a1113] leading-snug">
                   {block.title}
                 </h5>
-                <p className="text-[16px] text-[#554347] font-normal leading-tight mt-0.5">
+                <p className="text-[16px] text-[#554347] font-medium leading-tight mt-0.5">
                   {block.subtitle}
                 </p>
               </div>
             </motion.div>
+            </div>
           );
         })}
+      </div>
       </div>
 
       {/* Bottom Floating Legend Bar */}
       <div className="flex items-center justify-center pt-2 border-t border-[#8a2f3f]/10">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-[#8a2f3f]/15 shadow-xs text-[15px] text-[#554347]">
-          <Sparkles className="w-3.5 h-3.5 text-[#8a2f3f]" />
+        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-[#8a2f3f]/15 shadow-xs text-[17px] text-[#554347]">
+          <Sparkles className="w-4 h-4 text-[#8a2f3f]" />
           <span>
             <strong className="text-[#1a1113] font-semibold">Mútua influência:</strong> Os 4 polos retroalimentam o desenvolvimento da criança e o ajuste dos pais.
           </span>

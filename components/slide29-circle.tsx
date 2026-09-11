@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { motion, useAnimationControls } from "framer-motion";
-import { Activity, Smile, Users, Heart, Pause, Play } from "lucide-react";
+import { Activity, Smile, Users, Heart } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface Slide29CircleProps {
@@ -64,10 +64,8 @@ const POSITIONS = [
 ];
 
 export default function Slide29Circle({ isActive = true }: Slide29CircleProps) {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isHovered, setIsHovered] = useState(false);
-  const [isManualPaused, setIsManualPaused] = useState(false);
   const [progressKey, setProgressKey] = useState(0);
 
   const animate = useAnimationControls();
@@ -76,19 +74,16 @@ export default function Slide29Circle({ isActive = true }: Slide29CircleProps) {
   // Trigger inward convergence when slide becomes active
   useEffect(() => {
     if (isActive) {
-      const timer = setTimeout(() => {
-        setIsOpen(true);
-      }, 100);
-      return () => clearTimeout(timer);
+      setIsOpen(true);
     } else {
       setIsOpen(false);
       setCurrentIndex(0);
     }
   }, [isActive]);
 
-  // Automatic looping spotlight: rotates every 4.5s unless hovered or paused
+  // Continuous automatic looping spotlight: seamlessly cycles through positions
   useEffect(() => {
-    if (!isOpen || isHovered || isManualPaused) {
+    if (!isActive || !isOpen) {
       if (timerRef.current) clearInterval(timerRef.current);
       return;
     }
@@ -101,7 +96,7 @@ export default function Slide29Circle({ isActive = true }: Slide29CircleProps) {
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
     };
-  }, [isOpen, isHovered, isManualPaused, currentIndex]);
+  }, [isActive, isOpen, progressKey]);
 
   const activeItem = POSITIONS[currentIndex];
 
@@ -110,15 +105,14 @@ export default function Slide29Circle({ isActive = true }: Slide29CircleProps) {
     setProgressKey((k) => k + 1);
   };
 
-  const togglePause = () => {
-    setIsManualPaused((p) => !p);
+  const handleNextNode = () => {
+    setCurrentIndex((prev) => (prev + 1) % POSITIONS.length);
+    setProgressKey((k) => k + 1);
   };
 
   return (
     <div
       className="relative flex h-[520px] w-full max-w-[820px] mx-auto items-center justify-center select-none overflow-visible"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
     >
       {/* Central Interactive Hub */}
       <div className="z-30 relative flex items-center justify-center">
@@ -138,8 +132,8 @@ export default function Slide29Circle({ isActive = true }: Slide29CircleProps) {
             stroke="rgba(15, 16, 18, 0.06)"
             strokeWidth="3.5"
           />
-          {/* Animated Countdown Progress Ring */}
-          {isOpen && !isHovered && !isManualPaused && (
+          {/* Animated Countdown Progress Ring - continuous loop */}
+          {isOpen && (
             <motion.circle
               key={`progress-${progressKey}`}
               cx="82"
@@ -166,10 +160,10 @@ export default function Slide29Circle({ isActive = true }: Slide29CircleProps) {
         {/* Central Hub Button */}
         <motion.button
           animate={animate}
-          onClick={togglePause}
+          onClick={handleNextNode}
           whileHover={{ scale: 1.04 }}
           whileTap={{ scale: 0.96 }}
-          aria-label="Pausar ou avançar ciclo"
+          aria-label="Avançar foco do ciclo"
           className={cn(
             "relative group flex flex-col items-center justify-center cursor-pointer outline-none rounded-full transition-all duration-300",
             "w-[148px] h-[148px] bg-white/95 border shadow-[0_12px_40px_rgba(138,47,63,0.12)] backdrop-blur-xl",
@@ -180,7 +174,7 @@ export default function Slide29Circle({ isActive = true }: Slide29CircleProps) {
           <motion.div
             animate={{
               backgroundColor: activeItem.bgGlow,
-              scale: isHovered || isManualPaused ? 1.05 : [1, 1.15, 1],
+              scale: [1, 1.15, 1],
               opacity: [0.6, 0.9, 0.6]
             }}
             transition={{
@@ -212,14 +206,8 @@ export default function Slide29Circle({ isActive = true }: Slide29CircleProps) {
             style={{ color: activeItem.color }}
             className="text-[14px] font-bold tracking-[0.14em] uppercase mt-1 transition-colors duration-300"
           >
-            {isHovered || isManualPaused ? "pausado" : `foco ${activeItem.step}`}
+            {`foco ${activeItem.step}`}
           </span>
-
-          {/* Pause / Play micro badge on hover */}
-          <div className="absolute -bottom-2.5 opacity-0 group-hover:opacity-100 transition-opacity bg-[#0f1012] text-white text-[16px] px-2 py-0.5 rounded-full flex items-center gap-1 shadow-md">
-            {isManualPaused ? <Play className="w-2.5 h-2.5" /> : <Pause className="w-2.5 h-2.5" />}
-            <span>{isManualPaused ? "retomar loop" : "pausar"}</span>
-          </div>
         </motion.button>
       </div>
 

@@ -43,7 +43,7 @@ export default function Slide30Cards({ isActive = true, className }: Slide30Card
   return (
     <div
       className={cn(
-        "w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[640px] mx-auto my-auto",
+        "w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[860px] mx-auto my-auto",
         className
       )}
     >

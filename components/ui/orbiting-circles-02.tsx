@@ -18,8 +18,8 @@ interface OrbitConfig {
 
 const defaultOrbits: OrbitConfig[] = [
   {
-    // Inner Ring: Cuidadores e Família (Microssistema) - Diameter 360px
-    size: "w-[400px] h-[400px]",
+    // Inner Ring: Cuidadores e Família (Microssistema) - Diameter 380px
+    size: "w-[380px] h-[380px]",
     duration: 22,
     items: [
       {
@@ -35,8 +35,8 @@ const defaultOrbits: OrbitConfig[] = [
     ],
   },
   {
-    // Middle Ring: Escola · Pares · Serviços de Saúde (Mesossistema) - Diameter 510px
-    size: "w-[570px] h-[570px]",
+    // Middle Ring: Escola · Pares · Serviços de Saúde (Mesossistema) - Diameter 540px
+    size: "w-[540px] h-[540px]",
     duration: 30,
     items: [
       {
@@ -57,8 +57,9 @@ const defaultOrbits: OrbitConfig[] = [
     ],
   },
   {
-    // Outer Ring: Comunidade · Cultura · Sociedade (Macrossistema) - Diameter 660px
-    size: "w-[740px] h-[740px]",
+    // Outer Ring: Comunidade · Cultura · Sociedade (Macrossistema) - Diameter 700px
+    // (raio 350 + meio rótulo ≈ 110px cabe na coluna central de ~900px sem corte lateral)
+    size: "w-[700px] h-[700px]",
     duration: 38,
     items: [
       {
@@ -134,7 +135,7 @@ export function OrbitingCirclesGlobe({
         return (
           <div
             key={index}
-            className={`absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 rounded-full border border-slate-200/80 dark:border-slate-700/60 pointer-events-none ${orbit.size}`}
+            className={`absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 z-[15] rounded-full border border-slate-200/80 dark:border-slate-700/60 pointer-events-none ${orbit.size}`}
           >
             {orbit.items.map((item, itemIndex) => (
               <div

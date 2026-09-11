@@ -45,9 +45,9 @@ export default function Slide9Stage({ isActive = true }: Slide9StageProps) {
           }
           imageSrc="assets/cards/biology-dna-neural-3d.png"
           imageClassName="w-32 h-32 md:w-36 md:h-36"
-          imageContainerClassName="top-3 bottom-[200px]"
+          imageContainerClassName="top-4 bottom-[210px]"
           color="blue"
-          className="h-[450px] w-full max-w-none shadow-sm border-slate-200/80 hover:border-blue-400/50 transition-colors"
+          className="h-[500px] w-full max-w-none shadow-sm border-slate-200/80 hover:border-blue-400/50 transition-colors"
         />
       </motion.div>
 
@@ -133,9 +133,9 @@ export default function Slide9Stage({ isActive = true }: Slide9StageProps) {
           }
           imageSrc="assets/cards/experience-social-3d.png"
           imageClassName="w-32 h-32 md:w-36 md:h-36"
-          imageContainerClassName="top-3 bottom-[200px]"
+          imageContainerClassName="top-4 bottom-[210px]"
           color="emerald"
-          className="h-[450px] w-full max-w-none shadow-sm border-slate-200/80 hover:border-emerald-400/50 transition-colors"
+          className="h-[500px] w-full max-w-none shadow-sm border-slate-200/80 hover:border-emerald-400/50 transition-colors"
         />
       </motion.div>
     </div>

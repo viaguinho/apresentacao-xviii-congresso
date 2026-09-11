@@ -229,7 +229,8 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
       {/* ========================================================================= */}
       {/* ÁREA ESQUERDA: MATRIZ DE HEATMAP COMPLETA (14 ITENS + 4 FASES + PERGUNTAS) */}
       {/* ========================================================================= */}
-      <div className="flex-1 flex flex-col min-h-0 bg-white/60 backdrop-blur-sm p-2.5 rounded-2xl border border-black/[0.06] shadow-[0_4px_24px_rgba(0,0,0,0.02)]">
+      <div className="flex-1 min-w-0 flex flex-col gap-3 min-h-0">
+      <div className="flex flex-col min-h-0 bg-white/60 backdrop-blur-sm p-2.5 rounded-2xl border border-black/[0.06] shadow-[0_4px_24px_rgba(0,0,0,0.02)]">
         {/* Cabeçalho das Colunas de Faixa Etária */}
         <div className="grid grid-cols-[330px_repeat(4,1fr)] gap-x-2.5 items-end px-2 pb-2 border-b border-black/[0.08]">
           <div className="flex items-center gap-2">
@@ -367,10 +368,23 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
         </div>
       </div>
 
+        {/* Síntese do Eixo (faixa sob a matriz: usa a sobra inferior e libera a coluna direita) */}
+        <div className="px-5 py-3.5 rounded-2xl bg-white border border-black/[0.08] shadow-sm flex items-center gap-6">
+          <p className="m-0 shrink-0 font-['Urbanist',sans-serif] text-[21px] font-bold tracking-tight text-[#4b6b4f] leading-tight">
+            Domínios permanecem; prioridades mudam.
+          </p>
+          <div className="self-stretch w-px bg-[#4b6b4f]/20 shrink-0" />
+          <p className="m-0 text-[17px] leading-snug text-[#3f4042]">
+            Estável para permitir comparação longitudinal; flexível para perguntar o que importa em
+            cada idade.
+          </p>
+        </div>
+      </div>
+
       {/* ========================================================================= */}
       {/* ÁREA DIREITA: RADIAL HUB (CIRCLE MENU) + PAINEL EDITORIAL UNIFICADO       */}
       {/* ========================================================================= */}
-      <div className="w-[380px] flex-none flex flex-col gap-2">
+      <div className="w-[400px] flex-none flex flex-col gap-2.5">
         {/* Hub Radial Interativo (CircleMenu) com Controle Spotlight */}
         <div className="p-2.5 rounded-2xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col items-center relative overflow-hidden">
           {/* Header do Hub com Botão Play/Pause */}
@@ -549,18 +563,6 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
           </p>
         </div>
 
-        {/* Síntese do Eixo */}
-        <div className="p-2.5 rounded-2xl bg-white border border-black/[0.08] shadow-sm">
-          <p className="m-0 font-['Urbanist',sans-serif] text-[19px] font-bold tracking-tight text-[#4b6b4f] leading-tight">
-            Domínios permanecem;
-            <br />
-            prioridades mudam.
-          </p>
-          <p className="m-0 mt-1.5 text-[15px] leading-snug text-[#3f4042]">
-            Estável para permitir comparação longitudinal; flexível para perguntar o que importa em
-            cada idade.
-          </p>
-        </div>
       </div>
     </div>
   );

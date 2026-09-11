@@ -161,18 +161,18 @@
       position: fixed;
       inset: 0;
       display: block;
-      background: #000;
-      color: #fff;
+      background: var(--canvas, #fdfdfd);
+      color: #0f1012;
       font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
       overflow: hidden;
       -webkit-tap-highlight-color: transparent;
+      transition: background 0.3s ease;
     }
     /* connectedCallback holds this until document.fonts.ready (capped 2s) so
      * the first visible paint has the deck's real typography + final rail
      * layout. opacity (not visibility) so the active slide can't un-hide
      * itself via the ::slotted([data-deck-active]) visibility:visible rule.
-     * Only the stage/rail hide — the black :host background stays, so the
-     * iframe doesn't flash the page's default white. */
+     * Only the stage/rail hide — the light :host background stays. */
     :host([data-fonts-pending]) .stage,
     :host([data-fonts-pending]) .rail { opacity: 0; pointer-events: none; }
 
@@ -188,15 +188,9 @@
       position: relative;
       transform-origin: center center;
       flex-shrink: 0;
-      background: #fff;
+      background: transparent;
       will-change: transform;
-      /* Slide edge on the black stage. Dark decks override the canvas
-       * fill toward the stage's own black, leaving nothing to mark where
-       * the slide ends — the faint white ring keeps the boundary legible
-       * there while disappearing into the white of light decks. A
-       * box-shadow, not outline/border: it follows any canvas rounding
-       * and adds no layout size. */
-      box-shadow: 0 0 0 1.5px rgba(255, 255, 255, 0.12);
+      box-shadow: none;
     }
 
     /* Slides live in light DOM (via <slot>) so authored CSS still applies.
@@ -316,27 +310,67 @@
       margin: 0 2px;
     }
 
-    /* ── Thumbnail rail ──────────────────────────────────────────────────
-       Fixed column on the left; each thumbnail is a static deep-clone of
-       the light-DOM slide scaled into a 16:9 (or design-aspect) frame. The
-       stage re-fits around it (see _fit); hidden during present / noscale
-       / print so capture geometry and fullscreen output are unchanged. */
+    /* ── Thumbnail rail (Auto-Hide Hover Drawer) ───────────────────────────
+       Floating drawer on the left; hidden off-screen by default so the stage
+       occupies the full screen in 100% width. When the cursor hovers near the
+       left edge or over the rail, it slides smoothly into view. */
+    .rail-hotzone {
+      position: fixed;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 32px;
+      z-index: 2147482490;
+      cursor: pointer;
+    }
+    .rail-indicator {
+      position: fixed;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 4px;
+      height: 56px;
+      border-radius: 0 4px 4px 0;
+      background: rgba(255,255,255,0.22);
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      z-index: 2147482495;
+      pointer-events: none;
+      transition: all 0.22s cubic-bezier(.16,1,.3,1);
+    }
+    .rail-hotzone:hover ~ .rail-indicator,
+    :host(:hover) .rail-indicator {
+      background: #0071e3;
+      box-shadow: 0 0 14px rgba(0,113,227,0.6);
+      width: 6px;
+      height: 72px;
+    }
+    .rail-indicator[data-drawer-open] {
+      opacity: 0;
+      transform: translateY(-50%) translateX(-8px);
+      pointer-events: none;
+    }
+
     .rail {
       position: fixed;
       left: 0;
       top: 0;
       bottom: 0;
-      width: var(--deck-rail-w, 188px);
-      background: #141414;
-      border-right: 1px solid rgba(255,255,255,0.08);
+      width: var(--deck-rail-w, 204px);
+      background: rgba(18, 19, 23, 0.94);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-right: 1px solid rgba(255,255,255,0.12);
       overflow-y: auto;
       overflow-x: hidden;
-      padding: 12px 10px;
+      padding: 14px 10px;
       box-sizing: border-box;
       display: flex;
       flex-direction: column;
       gap: 12px;
       z-index: 2147482500;
+      transform: translateX(-100%);
+      transition: transform 260ms cubic-bezier(.16,1,.3,1), box-shadow 260ms ease;
+      box-shadow: none;
       scrollbar-width: thin;
       scrollbar-color: rgba(255,255,255,0.18) transparent;
     }
@@ -357,25 +391,14 @@
     :host([noscale]) .rail { display: none; }
     .rail[data-presenting] { display: none; }
     @media (max-width: 640px) {
-      .rail, .rail-resize { display: none; }
+      .rail, .rail-resize, .rail-hotzone, .rail-indicator { display: none; }
     }
-    /* User-driven show/hide (the TweaksPanel toggle) slides instead of
-       popping. Transitions are gated on :host([data-rail-anim]) — set only
-       for the 200ms around the toggle — so window-resize and rail-width
-       drag (which also call _fit) don't lag behind the cursor. */
-    .rail[data-user-hidden] { transform: translateX(-100%); }
-    :host([data-rail-anim]) .rail { transition: transform 200ms cubic-bezier(.3,.7,.4,1); }
-    :host([data-rail-anim]) .stage { transition: left 200ms cubic-bezier(.3,.7,.4,1); }
-    :host([data-rail-anim]) .canvas { transition: transform 200ms cubic-bezier(.3,.7,.4,1); }
-    /* transition shorthand replaces rather than merges — repeat the base
-       .overlay opacity/transform/filter transitions so visibility changes
-       during the 200ms toggle window still fade instead of popping. */
-    :host([data-rail-anim]) .overlay {
-      transition: margin-left 200ms cubic-bezier(.3,.7,.4,1),
-                  opacity 260ms ease,
-                  transform 260ms cubic-bezier(.2,.8,.2,1),
-                  filter 260ms ease;
+    .rail:hover,
+    .rail[data-drawer-open] {
+      transform: translateX(0);
+      box-shadow: 16px 0 44px rgba(0,0,0,0.8), 0 0 0 1px rgba(255,255,255,0.08);
     }
+    .rail[data-user-hidden] { transform: translateX(-100%) !important; }
 
     .thumb {
       position: relative;
@@ -1203,6 +1226,42 @@
         else if (db < EDGE) rail.scrollTop += Math.ceil((EDGE - db) / 3);
       });
 
+      // Hover drawer listeners on rail
+      rail.addEventListener('mouseenter', () => {
+        this._railHover = true;
+        this._openRailDrawer();
+      });
+      rail.addEventListener('mouseleave', () => {
+        this._railHover = false;
+        this._closeRailDrawer();
+      });
+      rail.addEventListener('focusin', () => {
+        this._railFocus = true;
+        this._openRailDrawer();
+      });
+      rail.addEventListener('focusout', () => {
+        this._railFocus = false;
+        this._closeRailDrawer();
+      });
+
+      // Hotzone for hover detection on left screen edge
+      const hotzone = document.createElement('div');
+      hotzone.className = 'rail-hotzone export-hidden';
+      hotzone.setAttribute('data-omelette-chrome', '');
+      hotzone.addEventListener('mouseenter', () => {
+        this._hotzoneHover = true;
+        this._openRailDrawer();
+      });
+      hotzone.addEventListener('mouseleave', () => {
+        this._hotzoneHover = false;
+        this._closeRailDrawer();
+      });
+
+      // Discreet indicator pill on left edge
+      const indicator = document.createElement('div');
+      indicator.className = 'rail-indicator export-hidden';
+      indicator.setAttribute('data-omelette-chrome', '');
+
       const menu = document.createElement('div');
       menu.className = 'ctxmenu export-hidden';
       menu.setAttribute('data-omelette-chrome', '');
@@ -1287,12 +1346,14 @@
         this._focusCurrentThumb();
       });
 
-      this._root.append(style, rail, resize, stage, overlay, menu, confirm);
+      this._root.append(style, hotzone, indicator, rail, resize, stage, overlay, menu, confirm);
       this._canvas = canvas;
       this._stage = stage;
       this._slot = slot;
       this._overlay = overlay;
       this._rail = rail;
+      this._hotzone = hotzone;
+      this._railIndicator = indicator;
       this._resize = resize;
       this._menu = menu;
       this._confirm = confirm;
@@ -1300,7 +1361,7 @@
       this._totalEl = overlay.querySelector('.total');
 
       // Restore persisted rail width.
-      let rw = 188;
+      let rw = 204;
       try {
         const s = localStorage.getItem('deck-stage.railWidth');
         if (s) rw = parseInt(s, 10) || rw;
@@ -1497,6 +1558,26 @@
       }
     }
 
+    _syncStageBackground() {
+      if (!this._slides || !this._slides.length) return;
+      const cur = this._slides[this._index];
+      if (!cur) return;
+      const inlineBg = cur.style.background || cur.style.backgroundColor;
+      if (inlineBg && inlineBg !== 'none' && inlineBg !== 'transparent') {
+        this.style.background = inlineBg;
+        if (document.body) document.body.style.background = inlineBg;
+      } else {
+        const computedBg = getComputedStyle(cur).backgroundColor;
+        if (computedBg && computedBg !== 'rgba(0, 0, 0, 0)' && computedBg !== 'transparent') {
+          this.style.background = computedBg;
+          if (document.body) document.body.style.background = computedBg;
+        } else {
+          this.style.background = '#fdfdfd';
+          if (document.body) document.body.style.background = '#fdfdfd';
+        }
+      }
+    }
+
     _applyIndex({ showOverlay = true, broadcast = true, reason = 'init' } = {}) {
       if (!this._slides.length) return;
       const prev = this._prevIndex == null ? -1 : this._prevIndex;
@@ -1516,6 +1597,7 @@
       // has already restored the user's scroll position and yanking back to
       // current would undo it.
       this._syncRail(reason !== 'mutation');
+      this._syncStageBackground();
 
       if (broadcast) {
         // (1) Legacy: host-window postMessage for speaker-notes renderers.
@@ -1566,15 +1648,41 @@
       }, OVERLAY_HIDE_MS);
     }
 
+    _openRailDrawer() {
+      if (!this._rail || !this._railEnabled || this._presenting) return;
+      if (this._railCloseTimer) {
+        clearTimeout(this._railCloseTimer);
+        this._railCloseTimer = null;
+      }
+      this._rail.setAttribute('data-drawer-open', '');
+      if (this._railIndicator) this._railIndicator.setAttribute('data-drawer-open', '');
+      this._rail.inert = false;
+    }
+
+    _closeRailDrawer(immediate = false) {
+      if (!this._rail) return;
+      if (this._railCloseTimer) {
+        clearTimeout(this._railCloseTimer);
+        this._railCloseTimer = null;
+      }
+      const doClose = () => {
+        if (this._railHover || this._hotzoneHover || this._railFocus) return;
+        this._rail.removeAttribute('data-drawer-open');
+        if (this._railIndicator) this._railIndicator.removeAttribute('data-drawer-open');
+        if (!this._railHover && !this._railFocus) {
+          this._rail.inert = true;
+        }
+      };
+      if (immediate) {
+        doClose();
+      } else {
+        this._railCloseTimer = setTimeout(doClose, 220);
+      }
+    }
+
     _railWidth() {
-      // State-based, no offsetWidth: the first _fit() can run before the
-      // rail has had layout on some load paths, and a 0 there paints the
-      // slide full-width for one frame before the post-slotchange _fit()
-      // corrects it.
-      if (!this._railEnabled || !this._railVisible || this.hasAttribute('no-rail')
-          || this.hasAttribute('noscale') || this._presenting || this._previewMode
-          || NARROW_MQ.matches) return 0;
-      return this._railPx || 0;
+      // Auto-hide hover drawer allows presentation to always take 100% full screen
+      return 0;
     }
 
     _fit() {
@@ -1589,13 +1697,9 @@
         if (this._overlay) this._overlay.style.marginLeft = '0';
         return;
       }
-      const rw = this._railWidth();
-      if (stage) stage.style.left = rw + 'px';
-      // Overlay is centred on the viewport via left:50% + translate(-50%);
-      // marginLeft shifts the centre by rw/2 so it lands in the middle of
-      // the [rw, innerWidth] stage region.
-      if (this._overlay) this._overlay.style.marginLeft = (rw / 2) + 'px';
-      const vw = window.innerWidth - rw;
+      if (stage) stage.style.left = '0';
+      if (this._overlay) this._overlay.style.marginLeft = '0';
+      const vw = window.innerWidth;
       const vh = window.innerHeight;
       const s = Math.min(vw / this.designWidth, vh / this.designHeight);
       this._canvas.style.transform = `scale(${s})`;
@@ -1613,10 +1717,19 @@
       }
     }
 
-    _onMouseMove() {
+    _onMouseMove(e) {
       // Keep overlay visible while mouse moves; hide after idle. 'pointer'
       // source: mouse movement summons the controls even while presenting.
       this._flashOverlay('pointer');
+      if (e && typeof e.clientX === 'number') {
+        if (e.clientX <= 32) {
+          this._openRailDrawer();
+        } else if (e.clientX > (this._railPx || 204) + 24) {
+          if (!this._railHover && !this._hotzoneHover && !this._railFocus) {
+            this._closeRailDrawer();
+          }
+        }
+      }
     }
 
     _onMessage(e) {
@@ -1710,16 +1823,20 @@
       // data-presenting is the hard hide (display:none) for flag-off,
       // presentation mode, and the host's Preview segment — instant, no
       // transition. data-user-hidden is the soft hide (translateX(-100%))
-      // for the viewer's rail toggle, so show/hide slides under
-      // :host([data-rail-anim]).
+      // for the viewer's rail toggle.
       const hard = !this._railEnabled || this._presenting || this._previewMode;
-      if (hard) this._rail.setAttribute('data-presenting', '');
-      else this._rail.removeAttribute('data-presenting');
+      if (hard) {
+        this._rail.setAttribute('data-presenting', '');
+        if (this._hotzone) this._hotzone.style.display = 'none';
+        if (this._railIndicator) this._railIndicator.style.display = 'none';
+      } else {
+        this._rail.removeAttribute('data-presenting');
+        if (this._hotzone) this._hotzone.style.display = '';
+        if (this._railIndicator) this._railIndicator.style.display = '';
+      }
       if (!this._railVisible) this._rail.setAttribute('data-user-hidden', '');
       else this._rail.removeAttribute('data-user-hidden');
-      // translateX hide leaves thumbs (tabIndex=0) in the tab order —
-      // inert keeps them unfocusable while the rail is off-screen.
-      this._rail.inert = hard || !this._railVisible;
+      this._rail.inert = hard || !this._rail.hasAttribute('data-drawer-open');
     }
 
     _onTap(e) {
@@ -2596,7 +2713,10 @@
       const lightOk = !lightAe || lightAe === document.body || lightAe === this;
       if (!ours || !lightOk) return;
       const cur = this._thumbs && this._thumbs[this._index];
-      if (cur && this._rail && !this._rail.inert) cur.thumb.focus({ preventScroll: true });
+      if (cur && this._rail) {
+        this._openRailDrawer();
+        cur.thumb.focus({ preventScroll: true });
+      }
     }
 
     /** Selection as sorted slide indices. An empty explicit selection

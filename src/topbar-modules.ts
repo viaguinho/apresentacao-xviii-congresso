@@ -1,5 +1,5 @@
 /**
- * Sistema Universal de Micro-Roadmap e Top Bar Fixa Global (Slides 5 a 39)
+ * Sistema Universal de Micro-Roadmap e Top Bar Fixa Global (Slides 5 a 41)
  * Renderiza uma Top Bar persistente no topo do Canvas do deck-stage (1920x1080),
  * que permanece 100% estática e atualiza dinamicamente o status dos módulos
  * SEM alterar o layout interno, padding ou grids dos slides.
@@ -17,17 +17,17 @@ export interface EixoInfo {
 }
 
 export const EIXOS_DATA: EixoInfo[] = [
-  { id: 1, label: "Dinâmica Sistêmica", num: "Eixo 1", color: "#0071e3", bgTint: "#e8f2fc", module: "Módulo 01", startSlide: 5, endSlide: 13 },
-  { id: 2, label: "Cognição", num: "Eixo 2", color: "#0d6d66", bgTint: "#e6f5f3", module: "Módulo 02", startSlide: 14, endSlide: 18 },
-  { id: 3, label: "Emocional", num: "Eixo 3", color: "#b5563a", bgTint: "#fbeee9", module: "Módulo 03", startSlide: 19, endSlide: 22 },
-  { id: 4, label: "Social", num: "Eixo 4", color: "#6b4e83", bgTint: "#f1ecf5", module: "Módulo 04", startSlide: 23, endSlide: 26 },
-  { id: 5, label: "Craniofacial", num: "Eixo 5", color: "#8a2f3f", bgTint: "#f7ecee", module: "Módulo 05", startSlide: 27, endSlide: 31 },
-  { id: 6, label: "Protocolo", num: "Eixo 6", color: "#4b6b4f", bgTint: "#eef3ec", module: "Módulo 06", startSlide: 32, endSlide: 35 },
-  { id: 7, label: "Clínica Longitudinal", num: "Eixo 7", color: "#33415c", bgTint: "#edeff3", module: "Módulo 07", startSlide: 36, endSlide: 39 },
+  { id: 1, label: "Dinâmica Sistêmica", num: "Eixo 1", color: "#0071e3", bgTint: "#e8f2fc", module: "Módulo 01", startSlide: 5, endSlide: 15 },
+  { id: 2, label: "Cognição", num: "Eixo 2", color: "#0d6d66", bgTint: "#e6f5f3", module: "Módulo 02", startSlide: 16, endSlide: 20 },
+  { id: 3, label: "Emocional", num: "Eixo 3", color: "#b5563a", bgTint: "#fbeee9", module: "Módulo 03", startSlide: 21, endSlide: 24 },
+  { id: 4, label: "Social", num: "Eixo 4", color: "#6b4e83", bgTint: "#f1ecf5", module: "Módulo 04", startSlide: 25, endSlide: 28 },
+  { id: 5, label: "Craniofacial", num: "Eixo 5", color: "#8a2f3f", bgTint: "#f7ecee", module: "Módulo 05", startSlide: 29, endSlide: 33 },
+  { id: 6, label: "Protocolo", num: "Eixo 6", color: "#4b6b4f", bgTint: "#eef3ec", module: "Módulo 06", startSlide: 34, endSlide: 37 },
+  { id: 7, label: "Clínica Longitudinal", num: "Eixo 7", color: "#33415c", bgTint: "#edeff3", module: "Módulo 07", startSlide: 38, endSlide: 41 },
 ]
 
 export function getEixoForSlide(slideNum: number): EixoInfo | null {
-  if (slideNum < 5 || slideNum > 39) return null
+  if (slideNum < 5 || slideNum > 41) return null
   return EIXOS_DATA.find(e => slideNum >= e.startSlide && slideNum <= e.endSlide) || null
 }
 
@@ -86,7 +86,7 @@ export function generateTopBarInnerHTML(currentEixo: EixoInfo): string {
 }
 
 /**
- * Obtém o índice do slide atual (1 a 42)
+ * Obtém o índice do slide atual (1 a 45)
  */
 export function getCurrentSlideNumber(): number {
   const stage = document.querySelector('deck-stage') as any
@@ -157,14 +157,14 @@ export function syncGlobalModuleTopBar() {
     }
   }
 
-  // Slide fora do intervalo 5 a 39 -> Ocultar Top Bar
+  // Slide fora do intervalo 5 a 41 -> Ocultar Top Bar
   if (!currentEixo) {
     globalTopBarEl.style.display = 'none'
     globalTopBarEl.style.opacity = '0'
     return
   }
 
-  // Slide entre 5 e 39 -> Exibir Top Bar e atualizar HTML
+  // Slide entre 5 e 41 -> Exibir Top Bar e atualizar HTML
   globalTopBarEl.style.display = 'flex'
   globalTopBarEl.style.opacity = '1'
   globalTopBarEl.innerHTML = generateTopBarInnerHTML(currentEixo)

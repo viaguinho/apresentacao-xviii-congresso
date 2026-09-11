@@ -6,7 +6,6 @@ import {
   ShieldCheck,
   Activity,
   Sparkles,
-  Stethoscope,
   Compass,
 } from "lucide-react"
 import { cn } from "@/lib/utils"
@@ -179,62 +178,45 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
   ]
 
   return (
-    <div className="w-full h-full flex flex-col justify-between gap-2 font-['Satoshi',sans-serif] text-[#0f1012]">
+    <div className="w-full h-full flex flex-col justify-between gap-3 font-['Satoshi',sans-serif] text-[#0f1012]">
       
-      {/* Grade Superior: 3 Colunas Perfeitamente Calibradas */}
-      <div className="grid gap-4 flex-1 min-h-0 items-stretch" style={{ gridTemplateColumns: "8fr 7fr 9fr" }}>
+      {/* Grade Superior: 2 Colunas (os 3 cards clínicos seguem no slide seguinte) */}
+      <div className="grid gap-6 flex-1 min-h-0 items-stretch" style={{ gridTemplateColumns: "1fr 1.08fr", gridTemplateRows: "minmax(0, 1fr)" }}>
         
-        {/* COLUNA 1: Card de Trajetórias (4 cols) */}
+        {/* COLUNA 1: Card de Trajetórias */}
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: isActive ? 1 : 0, y: isActive ? 0 : 10 }}
           transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
-          className="min-w-0 p-4 rounded-2xl bg-white border border-black/[0.08] shadow-[0_4px_18px_rgba(0,0,0,0.03)] flex flex-col justify-between gap-2"
+          className="min-w-0 min-h-0 px-6 py-4 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_18px_rgba(0,0,0,0.03)] flex flex-col justify-between gap-3"
         >
           <div>
             {/* Header com Tag Apple */}
             <div className="flex items-center justify-between mb-1">
-              <span className="inline-flex items-center gap-1.5 text-[14px] font-bold uppercase tracking-[0.08em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2 py-0.5 rounded-full border border-[#0071e3]/20">
-                <Activity className="w-4 h-4" />
+              <span className="inline-flex items-center gap-2 text-[16px] font-bold uppercase tracking-[0.08em] text-[#0071e3] bg-[#0071e3]/[0.08] px-3 py-1 rounded-full border border-[#0071e3]/20">
+                <Activity className="w-5 h-5" />
                 Mapeamento de Trajetórias
               </span>
-              <span className="text-[14px] font-semibold text-[#5f6062]">
+              <span className="text-[17px] font-semibold text-[#5f6062]">
                 Masten &amp; Barnes (2018)
               </span>
             </div>
 
-            <h3 className="text-[22px] font-bold tracking-tight text-[#0f1012] leading-tight mt-1">
+            <h3 className="text-[27px] font-bold tracking-tight text-[#0f1012] leading-tight mt-1.5">
               Mesmo Risco, Trajetórias Diferentes
             </h3>
-            <p className="text-[16px] font-medium text-[#5f6062] mt-1 leading-snug">
+            <p className="text-[18px] font-medium text-[#5f6062] mt-1 leading-snug">
               O impacto do risco diverge conforme os recursos protetores e o momento da intervenção.
             </p>
 
-            {/* Seletor Interativo das 3 Curvas */}
-            <div className="flex items-center justify-between gap-1 w-full mt-1.5 p-1 bg-[#f8f9fa] rounded-lg border border-black/[0.04]">
-              {trajectories.map((t) => (
-                <button
-                  key={t.id}
-                  onClick={() => setSelectedTrajectory(selectedTrajectory === t.id ? null : (t.id as any))}
-                  className={cn(
-                    "flex-1 flex items-center justify-center gap-1.5 py-1 px-1 rounded-md text-[15px] font-semibold transition-all",
-                    selectedTrajectory === t.id
-                      ? "bg-white shadow-xs text-[#0f1012]"
-                      : "text-[#5f6062] hover:text-black"
-                  )}
-                >
-                  <span className="w-2.5 h-2.5 rounded-full shrink-0" style={{ backgroundColor: t.color }} />
-                  <span>{t.name}</span>
-                </button>
-              ))}
-            </div>
           </div>
 
-          {/* Gráfico de Área com ViewBox Ampla — Nenhuma Palavra Cortada e Aumentado Levemente */}
-          <div className="w-full flex-1 min-h-[200px] relative bg-[#fcfdfe] rounded-xl p-1.5 border border-black/[0.04] flex items-center justify-center">
+          {/* Gráfico de Área + Seletor vertical das 3 curvas (usa a sobra lateral do gráfico) */}
+          <div className="w-full flex-1 min-h-0 flex items-stretch gap-3">
+          <div className="flex-1 min-w-0 relative bg-[#fcfdfe] rounded-2xl border border-black/[0.04]">
             <svg
               viewBox="0 0 580 270"
-              className="w-full h-full display-block overflow-visible"
+              className="absolute inset-2 w-[calc(100%-16px)] h-[calc(100%-16px)] display-block overflow-visible"
               aria-label="Três trajetórias desenvolvimentais divergentes"
             >
               <defs>
@@ -336,281 +318,203 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
               </g>
             </svg>
           </div>
+            {/* Seletor Interativo das 3 Curvas */}
+            <div className="w-[196px] shrink-0 flex flex-col justify-center gap-1.5 p-1.5 bg-[#f8f9fa] rounded-2xl border border-black/[0.04]">
+              {trajectories.map((t) => (
+                <button
+                  key={t.id}
+                  onClick={() => setSelectedTrajectory(selectedTrajectory === t.id ? null : (t.id as any))}
+                  className={cn(
+                    "w-full flex items-center justify-start gap-2.5 py-2.5 px-3 rounded-xl text-[18px] font-semibold transition-all",
+                    selectedTrajectory === t.id
+                      ? "bg-white shadow-xs text-[#0f1012]"
+                      : "text-[#5f6062] hover:text-black"
+                  )}
+                >
+                  <span className="w-3 h-3 rounded-full shrink-0" style={{ backgroundColor: t.color }} />
+                  <span>{t.name}</span>
+                </button>
+              ))}
+            </div>
+          </div>
 
           {/* Frase Síntese Exclusiva na Base do Card */}
-          <div className="px-3 py-2.5 rounded-xl bg-[#f8f9fa] border border-black/[0.04] flex items-start gap-2">
-            <Compass className="w-5 h-5 text-[#0071e3] shrink-0 mt-0.5" />
-            <p className="m-0 text-[16px] font-medium text-[#3f4042] leading-snug">
+          <div className="px-4 py-2.5 rounded-2xl bg-[#f8f9fa] border border-black/[0.04] flex items-start gap-2.5">
+            <Compass className="w-6 h-6 text-[#0071e3] shrink-0 mt-0.5" />
+            <p className="m-0 text-[17px] font-medium text-[#3f4042] leading-snug">
               A trajetória depende da intensidade e duração do risco, do momento do desenvolvimento, dos recursos disponíveis e das oportunidades de intervenção.
             </p>
           </div>
         </motion.div>
 
-        {/* COLUNA 2: Sistemas da Resiliência & Círculos Maiores e Mais Próximos (4 cols) */}
+        {/* COLUNA 2: Sistemas da Resiliência */}
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: isActive ? 1 : 0, y: isActive ? 0 : 10 }}
           transition={{ duration: 0.35, delay: 0.05, ease: [0.16, 1, 0.3, 1] }}
-          className="min-w-0 p-4 rounded-2xl bg-white border border-black/[0.08] shadow-[0_4px_18px_rgba(0,0,0,0.03)] flex flex-col justify-between gap-2"
+          className="min-w-0 min-h-0 px-6 py-4 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_18px_rgba(0,0,0,0.03)] flex flex-col justify-between gap-3"
         >
-          <div>
-            {/* Header */}
-            <div className="flex items-center justify-between mb-1">
-              <span className="inline-flex items-center gap-1.5 text-[14px] font-bold uppercase tracking-[0.08em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2 py-0.5 rounded-full border border-[#0071e3]/20">
-                <ShieldCheck className="w-4 h-4" />
-                Sistemas da Resiliência
-              </span>
-              <span className="text-[14px] font-bold uppercase text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200">
-                Masten (2018)
-              </span>
-            </div>
-
-            {/* Definição Operacional */}
-            <div className="bg-[#f4f5f7] rounded-xl px-3 py-2.5 mt-1 border border-black/[0.03]">
-              <p className="m-0 text-[14px] font-bold uppercase tracking-wider text-[#0071e3]">
-                Definição Operacional
-              </p>
-              <p className="m-0 mt-1 text-[17px] font-medium text-[#0f1012] leading-snug">
-                Capacidade de um sistema dinâmico de adaptar-se diante de desafios que ameaçam seu funcionamento ou desenvolvimento.
-              </p>
-            </div>
+          {/* Header */}
+          <div className="flex items-center justify-between">
+            <span className="inline-flex items-center gap-2 text-[16px] font-bold uppercase tracking-[0.08em] text-[#0071e3] bg-[#0071e3]/[0.08] px-3 py-1 rounded-full border border-[#0071e3]/20">
+              <ShieldCheck className="w-5 h-5" />
+              Sistemas da Resiliência
+            </span>
+            <span className="text-[16px] font-bold uppercase text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md border border-emerald-200">
+              Masten (2018)
+            </span>
           </div>
 
-          {/* Diagrama dos 3 Círculos AUMENTADOS e APROXIMADOS: 120px superiores e 132px inferior */}
-          <div className="relative w-full flex-1 min-h-[244px] flex items-center justify-center overflow-visible">
+          <div className="flex-1 min-h-0 grid gap-5 items-stretch" style={{ gridTemplateColumns: "0.86fr 1.14fr" }}>
+            <div className="flex flex-col justify-between gap-3 min-w-0">
+              {/* Definição Operacional */}
+              <div className="bg-[#f4f5f7] rounded-2xl px-4 py-3 border border-black/[0.03]">
+                <p className="m-0 text-[16px] font-bold uppercase tracking-wider text-[#0071e3]">
+                  Definição Operacional
+                </p>
+                <p className="m-0 mt-1.5 text-[21px] font-medium text-[#0f1012] leading-snug">
+                  Capacidade de um sistema dinâmico de adaptar-se diante de desafios que ameaçam seu funcionamento ou desenvolvimento.
+                </p>
+              </div>
+              {/* Destaque Central: A Resiliência Está Fora da Criança */}
+              <div className="bg-gradient-to-r from-[#e8f2fc] to-indigo-50/60 rounded-2xl px-4 py-3 border border-[#0071e3]/20">
+                <div className="flex items-start gap-2 mb-1.5">
+                  <Sparkles className="w-5 h-5 text-[#0071e3] shrink-0 mt-1" />
+                  <p className="m-0 text-[20px] font-bold text-[#0071e3] leading-snug">
+                    Parte importante da resiliência da criança está fora da própria criança.
+                  </p>
+                </div>
+                <p className="m-0 text-[19px] font-medium text-[#3f4042] leading-snug">
+                  A adaptação emerge dos vínculos protetores e do suporte sustentado do ambiente.
+                </p>
+              </div>
+            </div>
+
+            {/* Diagrama dos 3 Círculos AUMENTADOS e APROXIMADOS: 120px superiores e 132px inferior */}
+            <div className="relative w-full h-full min-h-[300px] flex items-center justify-center overflow-visible">
             
-            {/* Círculo 1: Recursos da Criança (Superior Esquerdo) - Aumentado para 120px e mais próximo ao ecológico */}
-            <motion.div
-              animate={{
-                x: [0, 5, 0],
-                y: [0, 6, 0],
-              }}
-              transition={{
-                duration: 4.5,
-                repeat: Infinity,
-                ease: "easeInOut",
-              }}
-              className="absolute top-1 left-[8px] z-10"
-            >
-              <CircularBeam
-                size={144}
-                speed={32}
-                colors={["#0071e3", "#38bdf8"]}
-                isHighlighted={selectedSphere === "child"}
-                onClick={() => setSelectedSphere("child")}
-                className="bg-white/95 backdrop-blur-md"
+              {/* Círculo 1: Recursos da Criança (Superior Esquerdo) - Aumentado para 120px e mais próximo ao ecológico */}
+              <motion.div
+                animate={{
+                  x: [0, 5, 0],
+                  y: [0, 6, 0],
+                }}
+                transition={{
+                  duration: 4.5,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                }}
+                className="absolute top-[4%] left-0 z-10"
               >
-                <span className="text-[14px] font-bold uppercase tracking-wider text-[#0071e3]">
-                  recursos
-                </span>
-                <span className="text-[17px] font-bold text-[#0f1012] leading-tight">
-                  da criança
-                </span>
-                <span className="text-[14px] font-medium text-gray-700 mt-0.5 leading-tight">biologia &amp; agência</span>
-              </CircularBeam>
-            </motion.div>
+                <CircularBeam
+                  size={168}
+                  speed={32}
+                  colors={["#0071e3", "#38bdf8"]}
+                  isHighlighted={selectedSphere === "child"}
+                  onClick={() => setSelectedSphere("child")}
+                  className="bg-white/95 backdrop-blur-md"
+                >
+                  <span className="text-[15px] font-bold uppercase tracking-wider text-[#0071e3]">
+                    recursos
+                  </span>
+                  <span className="text-[20px] font-bold text-[#0f1012] leading-tight">
+                    da criança
+                  </span>
+                  <span className="text-[15px] font-medium text-gray-700 mt-0.5 leading-tight">biologia &amp; agência</span>
+                </CircularBeam>
+              </motion.div>
 
-            {/* Círculo 2: Como a Criança Responde (Superior Direito) - Aumentado para 120px e mais próximo ao ecológico */}
-            <motion.div
-              animate={{
-                x: [0, -5, 0],
-                y: [0, 6, 0],
-              }}
-              transition={{
-                duration: 4.5,
-                repeat: Infinity,
-                ease: "easeInOut",
-                delay: 0.3,
-              }}
-              className="absolute top-1 right-[8px] z-10"
-            >
-              <CircularBeam
-                size={144}
-                speed={38}
-                colors={["#0ea5e9", "#0071e3"]}
-                isHighlighted={selectedSphere === "response"}
-                onClick={() => setSelectedSphere("response")}
-                className="bg-white/95 backdrop-blur-md"
+              {/* Círculo 2: Como a Criança Responde (Superior Direito) - Aumentado para 120px e mais próximo ao ecológico */}
+              <motion.div
+                animate={{
+                  x: [0, -5, 0],
+                  y: [0, 6, 0],
+                }}
+                transition={{
+                  duration: 4.5,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                  delay: 0.3,
+                }}
+                className="absolute top-[4%] right-0 z-10"
               >
-                <span className="text-[14px] font-bold uppercase tracking-wide text-[#0284c7] leading-tight">
-                  como a criança
-                </span>
-                <span className="text-[17px] font-bold text-[#0f1012] leading-tight">
-                  responde
-                </span>
-                <span className="text-[14px] font-medium text-gray-700 mt-0.5 leading-tight">enfrentamento</span>
-              </CircularBeam>
-            </motion.div>
+                <CircularBeam
+                  size={168}
+                  speed={38}
+                  colors={["#0ea5e9", "#0071e3"]}
+                  isHighlighted={selectedSphere === "response"}
+                  onClick={() => setSelectedSphere("response")}
+                  className="bg-white/95 backdrop-blur-md"
+                >
+                  <span className="text-[15px] font-bold uppercase tracking-wide text-[#0284c7] leading-tight">
+                    como a criança
+                  </span>
+                  <span className="text-[20px] font-bold text-[#0f1012] leading-tight">
+                    responde
+                  </span>
+                  <span className="text-[15px] font-medium text-gray-700 mt-0.5 leading-tight">enfrentamento</span>
+                </CircularBeam>
+              </motion.div>
 
-            {/* Círculo 3: Recursos ao Redor da Criança (Inferior Central) - Aumentado para 132px — ESTACIONÁRIO */}
-            <div className="absolute bottom-0 z-20">
-              <CircularBeam
-                size={164}
-                speed={42}
-                colors={["#6366f1", "#0071e3"]}
-                thickness={2.4}
-                isHighlighted={selectedSphere === "surroundings"}
-                onClick={() => setSelectedSphere("surroundings")}
-                className="bg-[#f8fafd] backdrop-blur-md shadow-sm"
-              >
-                <span className="text-[14px] font-extrabold uppercase tracking-[0.08em] text-indigo-700 bg-indigo-50 px-1.5 py-0.2 rounded-sm border border-indigo-200/60 mb-0.5">
-                  ecológico
-                </span>
-                <span className="text-[17px] font-bold text-[#0f1012] leading-tight">
-                  recursos ao redor
-                </span>
-                <span className="text-[17px] font-bold text-[#0071e3] leading-tight">
-                  da criança
-                </span>
-                <span className="text-[14px] font-medium text-gray-700 mt-0.5 leading-tight">família · escola · rede</span>
-              </CircularBeam>
-            </div>
+              {/* Círculo 3: Recursos ao Redor da Criança (Inferior Central) - Aumentado para 132px — ESTACIONÁRIO */}
+              <div className="absolute bottom-[2%] z-20">
+                <CircularBeam
+                  size={196}
+                  speed={42}
+                  colors={["#6366f1", "#0071e3"]}
+                  thickness={2.4}
+                  isHighlighted={selectedSphere === "surroundings"}
+                  onClick={() => setSelectedSphere("surroundings")}
+                  className="bg-[#f8fafd] backdrop-blur-md shadow-sm"
+                >
+                  <span className="text-[15px] font-extrabold uppercase tracking-[0.08em] text-indigo-700 bg-indigo-50 px-1.5 py-0.2 rounded-sm border border-indigo-200/60 mb-0.5">
+                    ecológico
+                  </span>
+                  <span className="text-[20px] font-bold text-[#0f1012] leading-tight">
+                    recursos ao redor
+                  </span>
+                  <span className="text-[20px] font-bold text-[#0071e3] leading-tight">
+                    da criança
+                  </span>
+                  <span className="text-[15px] font-medium text-gray-700 mt-0.5 leading-tight">família · escola · rede</span>
+                </CircularBeam>
+              </div>
 
-            {/* Badge Central de Interação */}
-            <div className="absolute top-[38px] z-30 pointer-events-none">
-              <div className="px-2 py-0.5 rounded-full bg-white/95 border border-[#0071e3]/30 shadow-2xs backdrop-blur-md flex items-center gap-1">
-                <span className="w-1.5 h-1.5 rounded-full bg-[#0071e3] animate-pulse" />
-                <span className="font-['Urbanist',sans-serif] text-[14px] font-bold uppercase tracking-wider text-[#0071e3]">
-                  interação
-                </span>
+              {/* Badge Central de Interação */}
+              <div className="absolute top-[16%] z-30 pointer-events-none">
+                <div className="px-2 py-0.5 rounded-full bg-white/95 border border-[#0071e3]/30 shadow-2xs backdrop-blur-md flex items-center gap-1">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#0071e3] animate-pulse" />
+                  <span className="font-['Urbanist',sans-serif] text-[16px] font-bold uppercase tracking-wider text-[#0071e3]">
+                    interação
+                  </span>
+                </div>
               </div>
             </div>
-          </div>
-
-          {/* Destaque Central: A Resiliência Está Fora da Criança */}
-          <div className="bg-gradient-to-r from-[#e8f2fc] to-indigo-50/60 rounded-xl px-3 py-2.5 border border-[#0071e3]/20">
-            <div className="flex items-center gap-1.5 mb-0.5">
-              <Sparkles className="w-4 h-4 text-[#0071e3] shrink-0" />
-              <p className="m-0 text-[17px] font-bold text-[#0071e3] leading-snug">
-                Parte importante da resiliência da criança está fora da própria criança.
-              </p>
-            </div>
-            <p className="m-0 text-[16px] font-medium text-[#3f4042] leading-snug">
-              A adaptação emerge dos vínculos protetores e do suporte sustentado do ambiente.
-            </p>
           </div>
         </motion.div>
 
-        {/* COLUNA 3: 3 Cards Mais Próximos e Centralizados Verticalmente */}
-        <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: isActive ? 1 : 0, y: isActive ? 0 : 10 }}
-          transition={{ duration: 0.35, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-          className="min-w-0 flex flex-col justify-between gap-2.5"
-        >
-          {/* CARD 1: Equação Conceitual (risco ≠ desfecho) */}
-          <div className="px-4 py-2.5 rounded-2xl bg-white border border-[#0071e3]/20 shadow-xs flex flex-col justify-between">
-            <div className="flex items-center justify-between mb-1">
-              <span className="text-[14px] font-bold uppercase tracking-[0.08em] text-[#0071e3] bg-[#0071e3]/10 px-2 py-0.5 rounded-full border border-[#0071e3]/20">
-                Princípio Risco / Desfecho
-              </span>
-              <span className="text-[14px] font-semibold text-[#5f6062]">
-                Probabilístico
-              </span>
-            </div>
-            <div className="flex flex-col gap-1 my-0.5">
-              <p className="m-0 font-['Urbanist',sans-serif] text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight">
-                risco <span className="text-[#0071e3] font-black">≠</span> desfecho
-              </p>
-              <p className="m-0 text-[16px] font-medium text-[#3f4042] leading-snug">
-                O risco modifica probabilidades; a trajetória emerge da interação entre vulnerabilidades, recursos e experiências.
-              </p>
-            </div>
-          </div>
-
-          {/* CARD 2: Aplicação Clínica */}
-          <div className="px-4 py-2.5 rounded-2xl bg-[#e8f2fc] border border-[#0071e3]/25 shadow-2xs flex flex-col justify-between">
-            <div>
-              <div className="flex items-center justify-between mb-0.5">
-                <span className="inline-flex items-center gap-1 text-[14px] font-bold uppercase tracking-[0.08em] text-[#0071e3] bg-white px-2 py-0.5 rounded-md border border-[#0071e3]/20">
-                  <Stethoscope className="w-4 h-4 text-[#0071e3]" />
-                  Aplicação Clínica
-                </span>
-                <span className="text-[14px] font-bold text-[#0071e3]">
-                  Speltz (1994) · McDorman (2024)
-                </span>
-              </div>
-              <h4 className="text-[19px] font-bold tracking-tight text-[#0f1012] mt-0.5 leading-tight">
-                Nas Anomalias Craniofaciais
-              </h4>
-              <p className="text-[16px] font-medium text-[#0f1012] mt-1 leading-snug">
-                É uma condição de risco potencial — não um destino psicossocial. O risco deve ser compreendido no contexto de múltiplas condições individuais e familiares.
-              </p>
-            </div>
-
-            <div className="px-2.5 py-1.5 bg-white/90 rounded-lg border border-[#0071e3]/15 mt-1.5">
-              <p className="text-[15px] font-medium text-[#2d2e30] leading-snug m-0">
-                Desfechos favoráveis são a norma quando suportes ecológicos e co-regulação protetora estão presentes.
-              </p>
-            </div>
-          </div>
-
-          {/* CARD 3: Translação Diagnóstica (Card Preto com Tamanho Readequado e Proporcional) */}
-          <div className="px-4 py-2.5 rounded-2xl bg-[#0f1012] text-white border border-zinc-800 shadow-sm flex flex-col justify-between">
-            <div>
-              <div className="flex items-center justify-between mb-0.5">
-                <span className="text-[14px] font-bold uppercase tracking-[0.08em] text-zinc-400">
-                  Translação Diagnóstica
-                </span>
-                <span className="text-[14px] font-semibold text-zinc-300 bg-white/10 px-2 py-0.5 rounded-full border border-white/15">
-                  Mudança de Pergunta
-                </span>
-              </div>
-              <h4 className="text-[19px] font-bold tracking-tight text-white leading-tight mt-0.5">
-                Raciocínio Clínico em Trajetória
-              </h4>
-            </div>
-
-            <div className="flex flex-col gap-1.5 my-1.5">
-              <div className="px-2.5 py-1 bg-zinc-900/90 rounded-md border border-zinc-800 flex flex-col gap-0.2">
-                <span className="text-[14px] font-bold uppercase tracking-wide text-rose-400">
-                  A pergunta tradicional deixa de ser:
-                </span>
-                <p className="text-[16px] text-zinc-200 italic m-0 font-medium leading-snug">
-                  “Esta condição produzirá sofrimento?”
-                </p>
-              </div>
-
-              <div className="px-2.5 py-1 bg-[#0071e3]/20 rounded-md border border-[#0071e3]/45 flex flex-col gap-0.2">
-                <span className="text-[14px] font-bold uppercase tracking-wide text-[#38bdf8]">
-                  e passa a ser:
-                </span>
-                <p className="text-[16px] text-white font-medium m-0 leading-snug">
-                  “Quais fatores aumentam ou reduzem o risco nesta criança, neste momento?”
-                </p>
-              </div>
-            </div>
-
-            <div className="flex items-center justify-between gap-2 pt-1 border-t border-zinc-800 text-[15px]">
-              <span className="text-zinc-400">Objetivo Clínico:</span>
-              <span className="font-bold text-emerald-400">
-                Alvos Concretos de Intervenção
-              </span>
-            </div>
-          </div>
-        </motion.div>
       </div>
 
       {/* Grade Inferior: Banner Alinhado à ESQUERDA (rente ao card Probabilístico) e 4 Bento Cards */}
-      <div className="pt-2 border-t border-black/[0.06] flex flex-col gap-2">
+      <div className="pt-3 border-t border-black/[0.06] flex flex-col gap-3">
         
         {/* Banner de Síntese Conceitual Alinhado à Esquerda (Rente ao card Probabilístico) */}
-        <div className="self-start ml-0 mr-auto max-w-[1280px] w-full px-5 py-2 rounded-xl bg-gradient-to-r from-[#f8f9fa] via-[#e8f2fc]/45 to-[#f8f9fa] border border-[#0071e3]/18 shadow-2xs flex flex-row items-center justify-between gap-3">
+        <div className="w-full px-6 py-2 rounded-2xl bg-gradient-to-r from-[#f8f9fa] via-[#e8f2fc]/45 to-[#f8f9fa] border border-[#0071e3]/18 shadow-2xs flex flex-row items-center justify-between gap-3">
           <div className="flex flex-col gap-0.5">
             <div className="flex items-center gap-2">
-              <span className="text-[14px] font-extrabold uppercase tracking-wider text-[#0071e3] bg-[#0071e3]/10 px-2 py-0.5 rounded-md border border-[#0071e3]/20 shrink-0">
+              <span className="text-[15px] font-extrabold uppercase tracking-wider text-[#0071e3] bg-[#0071e3]/10 px-2.5 py-0.5 rounded-md border border-[#0071e3]/20 shrink-0">
                 Princípio Central
               </span>
-              <p className="text-[21px] font-bold text-[#0f1012] m-0 tracking-tight">
+              <p className="text-[23px] font-bold text-[#0f1012] m-0 tracking-tight">
                 Risco aumenta probabilidades. Resiliência modifica trajetórias.
               </p>
             </div>
-            <p className="text-[16px] font-medium text-[#3f4042] m-0 flex items-center gap-1.5 pl-0.5 leading-snug">
+            <p className="text-[17px] font-medium text-[#3f4042] m-0 flex items-center gap-2 pl-0.5 leading-snug">
               <span className="w-1.5 h-1.5 rounded-full bg-[#0071e3] shrink-0" />
               <strong className="text-[#0071e3] font-semibold">Ambos (risco e resiliência)</strong> são produzidos pela interação entre a criança, suas relações, seu ambiente e o momento do desenvolvimento.
             </p>
           </div>
-          <div className="hidden lg:flex items-center gap-1.5 text-[15px] font-semibold text-[#5f6062] shrink-0 pl-3 border-l border-black/[0.08]">
+          <div className="hidden lg:flex items-center gap-2 text-[17px] font-semibold text-[#5f6062] shrink-0 pl-3 border-l border-black/[0.08]">
             <span className="px-1.5 py-0.5 rounded bg-white border border-black/[0.06] text-[#0f1012]">Probabilidade</span>
             <span className="text-[#0071e3]">⇄</span>
             <span className="px-1.5 py-0.5 rounded bg-blue-50 border border-blue-200/80 text-[#0071e3]">Modulação</span>
@@ -618,7 +522,7 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
         </div>
 
         {/* 4 Cards Bento Apple */}
-        <div className="grid grid-cols-4 gap-3">
+        <div className="grid grid-cols-4 gap-4">
           {kpis.map((k, idx) => (
             <motion.div
               key={k.label}
@@ -626,7 +530,7 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
               animate={{ opacity: isActive ? 1 : 0, y: isActive ? 0 : 6 }}
               transition={{ duration: 0.25, delay: 0.15 + idx * 0.03 }}
               className={cn(
-                "px-4 py-2.5 rounded-xl bg-white border border-black/[0.08] shadow-2xs flex flex-col justify-between transition-colors",
+                "px-5 py-2.5 rounded-2xl bg-white border border-black/[0.08] shadow-2xs flex flex-col justify-between transition-colors",
                 k.badgeType === "blue" && "hover:border-blue-300 hover:bg-blue-50/20",
                 k.badgeType === "indigo" && "hover:border-indigo-300 hover:bg-indigo-50/20",
                 k.badgeType === "emerald" && "hover:border-emerald-300 hover:bg-emerald-50/20",
@@ -635,12 +539,12 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
             >
               <div>
                 <div className="flex items-center justify-between mb-0.5">
-                  <span className="text-[14px] font-bold uppercase tracking-wider text-[#5f6062]">
+                  <span className="text-[15px] font-bold uppercase tracking-wider text-[#5f6062]">
                     {k.label}
                   </span>
                   <span
                     className={cn(
-                      "text-[14px] font-bold px-2 py-0.5 rounded-full border",
+                      "text-[15px] font-bold px-2.5 py-0.5 rounded-full border",
                       k.badgeType === "blue" && "bg-blue-50 text-[#0071e3] border-blue-200",
                       k.badgeType === "indigo" && "bg-indigo-50 text-indigo-700 border-indigo-200",
                       k.badgeType === "emerald" && "bg-emerald-50 text-emerald-700 border-emerald-200",
@@ -650,11 +554,11 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
                     {k.badge}
                   </span>
                 </div>
-                <p className="text-[20px] font-bold text-[#0f1012] tracking-tight m-0 mt-0.5">
+                <p className="text-[22px] font-bold text-[#0f1012] tracking-tight m-0 mt-0.5">
                   {k.title}
                 </p>
               </div>
-              <p className="text-[16px] font-medium text-[#52525b] leading-snug mt-1 pt-1 border-t border-black/[0.04] m-0">
+              <p className="text-[17px] font-medium text-[#52525b] leading-snug mt-1 pt-1 border-t border-black/[0.04] m-0">
                 {k.desc}
               </p>
             </motion.div>

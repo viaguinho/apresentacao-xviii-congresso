@@ -7,8 +7,10 @@ import Slide6MethodTimeline from '../components/slide6-timeline'
 import Slide7FeatureCards from '../components/slide7-feature-cards'
 import Slide9Stage from '../components/slide9-stage'
 import Slide10Plasticity from '../components/slide10-plasticity'
+import Slide10bMechanisms, { Slide10bLegend } from '../components/slide10b-mechanisms'
 import Slide11Cascades from '../components/slide11-cascades'
 import Slide12Resilience from '../components/slide12-resilience'
+import Slide12bClinical from '../components/slide12b-clinical'
 import Slide13Synthesis from '../components/slide13-synthesis'
 import Slide14Cognition from '../components/slide14-cognition'
 import Slide15Stage from '../components/slide15-stage'
@@ -44,10 +46,13 @@ import Slide31Cards from '../components/slide31-cards'
 import Slide32Matrix from '../components/slide32-matrix'
 import Slide33Funnel from '../components/slide33-funnel'
 import Slide34RightCards, { Slide34BannerCard } from '../components/slide34-cards'
+import Slide34Circle from '../components/slide34-circle'
 import Slide35Orbit from '../components/slide35-orbit'
 import Slide35Cards from '../components/slide35-cards'
+import Slide40bBrain from '../components/slide40b-brain'
 import Slide36Cards from '../components/slide36-cards'
 import Slide37Cards from '../components/slide37-cards'
+import Slide37Integration from '../components/slide37-integration'
 import Slide38Orbit from '../components/slide38-orbit'
 import Slide38Cards from '../components/slide38-cards'
 import Slide40Cards from '../components/slide40-cards'
@@ -99,12 +104,21 @@ function renderSlide10App(active: boolean) {
   mountReactRoot(document.getElementById('slide10-react-root'), <Slide10Plasticity isActive={active} />, 'Slide10Plasticity');
 }
 
+function renderSlide10bApp(active: boolean) {
+  mountReactRoot(document.getElementById('slide10b-legend-root'), <Slide10bLegend />, 'Slide10bLegend');
+  mountReactRoot(document.getElementById('slide10b-react-root'), <Slide10bMechanisms isActive={active} />, 'Slide10bMechanisms');
+}
+
 function renderSlide11App(active: boolean) {
   mountReactRoot(document.getElementById('slide11-react-root'), <Slide11Cascades isActive={active} />, 'Slide11Cascades');
 }
 
 function renderSlide12App(active: boolean) {
   mountReactRoot(document.getElementById('slide12-react-root'), <Slide12Resilience isActive={active} />, 'Slide12Resilience');
+}
+
+function renderSlide12bApp(active: boolean) {
+  mountReactRoot(document.getElementById('slide12b-react-root'), <Slide12bClinical isActive={active} />, 'Slide12bClinical');
 }
 
 function renderSlide13App(active: boolean) {
@@ -183,6 +197,7 @@ function renderSlide36App(active: boolean) {
 }
 
 function renderSlide37App(active: boolean) {
+  mountReactRoot(document.getElementById('slide37-integration-root'), <Slide37Integration isActive={active} />, 'Slide37Integration');
   mountReactRoot(document.getElementById('slide37-cards-root'), <Slide37Cards isActive={active} />, 'Slide37Cards');
 }
 
@@ -214,6 +229,7 @@ function renderSlide33App(active: boolean) {
 }
 
 function renderSlide34App(active: boolean) {
+  mountReactRoot(document.getElementById('slide34-circle-root'), <Slide34Circle isActive={active} />, 'Slide34Circle');
   mountReactRoot(document.getElementById('slide34-banner-root'), <Slide34BannerCard isActive={active} />, 'Slide34BannerCard');
   mountReactRoot(document.getElementById('slide34-cards-root'), <Slide34RightCards isActive={active} />, 'Slide34RightCards');
 }
@@ -230,6 +246,10 @@ function renderSlide38App(active: boolean) {
 
 function renderSlide40App(active: boolean) {
   mountReactRoot(document.getElementById('slide40-cards-root'), <Slide40Cards isActive={active} />, 'Slide40Cards');
+}
+
+function renderSlide40bApp() {
+  mountReactRoot(document.getElementById('slide40b-brain-root'), <Slide40bBrain />, 'Slide40bBrain');
 }
 
 export function mountHaloReel() {
@@ -256,11 +276,19 @@ export function mountSlide10() {
   syncSlideVisibility();
 }
 
+export function mountSlide10b() {
+  syncSlideVisibility();
+}
+
 export function mountSlide11() {
   syncSlideVisibility();
 }
 
 export function mountSlide12() {
+  syncSlideVisibility();
+}
+
+export function mountSlide12b() {
   syncSlideVisibility();
 }
 
@@ -336,6 +364,10 @@ export function mountSlide32() {
   syncSlideVisibility();
 }
 
+export function mountSlide34() {
+  syncSlideVisibility();
+}
+
 export function mountSlide35() {
   syncSlideVisibility();
 }
@@ -353,6 +385,10 @@ export function mountSlide38() {
 }
 
 export function mountSlide40() {
+  syncSlideVisibility();
+}
+
+export function mountSlide40b() {
   syncSlideVisibility();
 }
 
@@ -439,22 +475,26 @@ function syncSlideVisibility() {
     ? stage._index === 19
     : (slide20?.hasAttribute('data-deck-active') ?? false);
 
-  renderSlide3App(isSlide3);
-  renderSlide5App(isSlide5 || true); // Always initialize Slide 5 for smooth display
-  renderSlide6App(isSlide6 || true); // Always initialize Slide 6 for smooth display
-  renderSlide7App(isSlide7 || true); // Always initialize Slide 7 for smooth display
-  renderSlide9App(isSlide9 || true); // Always initialize Slide 9 for smooth display
-  renderSlide10App(isSlide10 || true); // Always initialize Slide 10 for smooth display
-  renderSlide11App(isSlide11 || true); // Always initialize Slide 11 for smooth display
-  renderSlide12App(isSlide12 || true); // Always initialize Slide 12 for smooth display
-  renderSlide13App(isSlide13 || true); // Always initialize Slide 13 for smooth display
-  renderSlide14App(isSlide14 || true); // Always initialize Slide 14 for smooth display
-  renderSlide15App(isSlide15 || true); // Always initialize Slide 15 for smooth display
-  renderSlide16App(isSlide16 || true); // Always initialize Slide 16 for smooth display
-  renderSlide17App(isSlide17 || true); // Always initialize Slide 17 for smooth display
-  renderSlide18App(isSlide18 || true); // Always initialize Slide 18 for smooth display
-  renderSlide19App(isSlide19 || true); // Always initialize Slide 19 for smooth display
-  renderSlide20App(isSlide20 || true);
+  const isExportAll = typeof document !== 'undefined' && document.body.classList.contains('export-all-active');
+
+  renderSlide3App(isExportAll || isSlide3);
+  renderSlide5App(isExportAll || isSlide5);
+  renderSlide6App(isExportAll || isSlide6);
+  renderSlide7App(isExportAll || isSlide7);
+  renderSlide9App(isExportAll || isSlide9);
+  renderSlide10App(isExportAll || isSlide10);
+  renderSlide10bApp(isExportAll || isSlide11);
+  renderSlide11App(isExportAll || isSlide12);
+  renderSlide12App(isExportAll || isSlide13);
+  renderSlide12bApp(isExportAll || isSlide14);
+  renderSlide13App(isExportAll || isSlide15);
+  renderSlide14App(isExportAll || isSlide16);
+  renderSlide15App(isExportAll || isSlide17);
+  renderSlide16App(isExportAll || isSlide18);
+  renderSlide17App(isExportAll || isSlide19);
+  renderSlide18App(isExportAll || isSlide20);
+  renderSlide19App(true);
+  renderSlide20App(true);
 
   const getSlideEl = (lbl: string) =>
     document.querySelector(`section[data-screen-label^="${lbl}"], section[data-screen-label="${lbl}"]`);
@@ -519,6 +559,7 @@ function syncSlideVisibility() {
   renderSlide37App(isSlide37 || true);
   renderSlide38App(isSlide38 || true);
   renderSlide40App(isSlide40 || true);
+  renderSlide40bApp();
 
   // Injetar ou sincronizar o top bar dos 7 módulos nos slides 5 a 39
   initAllSlideModuleTopbars();
@@ -531,8 +572,10 @@ if (typeof window !== 'undefined') {
   (window as any).initSlide7Cards = mountSlide7;
   (window as any).initSlide9Orbiting = mountSlide9;
   (window as any).initSlide10Plasticity = mountSlide10;
+  (window as any).initSlide10bMechanisms = mountSlide10b;
   (window as any).initSlide11Cascades = mountSlide11;
   (window as any).initSlide12Resilience = mountSlide12;
+  (window as any).initSlide12bClinical = mountSlide12b;
   (window as any).initSlide13Synthesis = mountSlide13;
   (window as any).initSlide14Cognition = mountSlide14;
   (window as any).initSlide15Pills = mountSlide15;
@@ -556,11 +599,14 @@ if (typeof window !== 'undefined') {
   (window as any).initSlide32Matrix = mountSlide32;
   (window as any).initSlide33Funnel = () => syncSlideVisibility();
   (window as any).initSlide34Cards = renderSlide34App;
+  (window as any).initSlide34Circle = renderSlide34App;
   (window as any).initSlide35Orbit = mountSlide35;
   (window as any).initSlide36Cards = mountSlide36;
   (window as any).initSlide37Cards = mountSlide37;
   (window as any).initSlide38Orbit = mountSlide38;
+  (window as any).initSlide38Cards = mountSlide38;
   (window as any).initSlide40Cards = mountSlide40;
+  (window as any).initSlide40bBrain = mountSlide40b;
   (window as any).initAllSlideModuleTopbars = initAllSlideModuleTopbars;
   (window as any).syncSlideVisibility = syncSlideVisibility;
 
@@ -614,14 +660,14 @@ if (typeof window !== 'undefined') {
   const domObserver = new MutationObserver(() => {
     const rootIds = [
       'slide3-react-root', 'slide5-react-root', 'slide6-timeline-root', 'slide7-cards-root',
-      'slide9-orbit-root', 'slide10-react-root', 'slide11-react-root', 'slide12-react-root',
+      'slide9-orbit-root', 'slide10-react-root', 'slide10b-react-root', 'slide10b-legend-root', 'slide11-react-root', 'slide12-react-root', 'slide12b-react-root',
       'slide13-react-root', 'slide14-react-root', 'slide15-react-root', 'slide16-react-root',
       'slide16-cards-root', 'slide17-react-root', 'slide17-cards-root', 'slide18-react-root',
       'slide19-react-root', 'slide20-circle-root', 'slide20-cards-root', 'slide21-orbit-root', 'slide21-cards-root', 'slide21-right-cards-root',
       'slide22-cards-root', 'slide23-cards-root', 'slide24-orbit-root', 'slide25-orbit-root', 'slide25-cards-root',
       'slide26-orbit-root', 'slide27-orbit-root', 'slide28-cards-root', 'slide29-circle-root', 'slide29-cards-root', 'slide30-flow-root', 'slide30-cards-root',
-      'slide31-cards-root', 'slide32-react-root', 'slide33-react-root', 'slide34-banner-root', 'slide34-cards-root',
-      'slide35-orbit-root', 'slide35-cards-root', 'slide38-orbit-root', 'slide38-cards-root', 'slide40-cards-root'
+      'slide31-cards-root', 'slide32-react-root', 'slide33-react-root', 'slide34-circle-root', 'slide34-banner-root', 'slide34-cards-root',
+      'slide35-orbit-root', 'slide35-cards-root', 'slide37-integration-root', 'slide37-cards-root', 'slide38-orbit-root', 'slide38-cards-root', 'slide40-cards-root', 'slide40b-brain-root'
     ];
     const anyEmpty = rootIds.some(id => {
       const el = document.getElementById(id);

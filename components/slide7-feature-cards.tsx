@@ -86,16 +86,16 @@ export default function Slide7FeatureCards({ isActive = true }: Slide7FeatureCar
             description={card.description}
             imageSrc={card.imageSrc}
             color={card.color}
-            imageContainerClassName="top-1.5 bottom-[104px] z-10 flex items-center justify-center pointer-events-none"
+            imageContainerClassName="top-1.5 bottom-[128px] z-10 flex items-center justify-center pointer-events-none"
             imageClassName={card.imageClassName}
             imageVariants={{
               initial: { scale: 1, y: 0 },
               hover: { scale: 1.06, y: -4 },
             }}
-            tagClassName="text-[12px] font-bold tracking-wider px-2.5 py-0.5"
+            tagClassName="text-[14px] font-bold tracking-wider px-2.5 py-0.5"
             contentClassName="px-3 py-2 rounded-xl border border-white/80 shadow-xs"
-            titleClassName="text-[16px] font-bold text-slate-900 leading-snug tracking-tight"
-            descriptionClassName="mt-0.5 text-[13.5px] font-medium text-slate-600 leading-snug"
+            titleClassName="text-[19px] font-bold text-slate-900 leading-snug tracking-tight"
+            descriptionClassName="mt-0.5 text-[16px] font-medium text-slate-600 leading-snug"
             className="h-[270px] w-full max-w-none p-2.5 shadow-xs border-slate-200/70 hover:border-slate-300 transition-colors"
           />
         </motion.div>
