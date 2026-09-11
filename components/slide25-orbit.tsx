@@ -13,7 +13,7 @@ export default function Slide25Orbit({ isActive = true }: Slide25OrbitProps) {
     <div className="relative flex h-[480px] w-full max-w-[540px] mx-auto flex-col items-center justify-center overflow-hidden rounded-3xl bg-transparent select-none group">
       {/* Glow concêntrico */}
       <div className="absolute inset-0 pointer-events-none flex items-center justify-center">
-        <div className="w-[360px] h-[360px] rounded-full bg-[#0071e3]/[0.03] blur-3xl" />
+        <div className="w-[360px] h-[360px] rounded-full bg-[#6b4e83]/[0.03] blur-3xl" />
       </div>
 
       {/* Central Hub: JOVEM */}
@@ -21,15 +21,15 @@ export default function Slide25Orbit({ isActive = true }: Slide25OrbitProps) {
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: isActive ? 1 : 0.8, opacity: isActive ? 1 : 0 }}
         transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-        className="relative z-20 flex flex-col items-center justify-center w-[114px] h-[114px] rounded-full bg-white/95 border-2 border-[#0071e3]/30 shadow-[0_8px_32px_rgba(0,113,227,0.12)] backdrop-blur-md transition-transform hover:scale-105"
+        className="relative z-20 flex flex-col items-center justify-center w-[114px] h-[114px] rounded-full bg-white/95 border-2 border-[#6b4e83]/30 shadow-[0_8px_32px_rgba(107,78,131,0.12)] backdrop-blur-md transition-transform hover:scale-105"
       >
-        <div className="w-9 h-9 rounded-full bg-[#e8f2fc] flex items-center justify-center mb-1 text-[#0071e3] shadow-inner">
+        <div className="w-9 h-9 rounded-full bg-[#f1ecf5] flex items-center justify-center mb-1 text-[#6b4e83] shadow-inner">
           <User className="w-5 h-5 stroke-[2.2]" />
         </div>
         <span className="font-['Urbanist',sans-serif] text-[16px] font-bold tracking-[0.12em] text-[#0f1012]">
           JOVEM
         </span>
-        <span className="text-[14px] font-semibold text-[#0071e3] tracking-wider uppercase mt-0">
+        <span className="text-[14px] font-semibold text-[#6b4e83] tracking-wider uppercase mt-0">
           Identidade
         </span>
       </motion.div>
@@ -41,11 +41,11 @@ export default function Slide25Orbit({ isActive = true }: Slide25OrbitProps) {
         duration={28}
         delay={0}
         radius={110}
-        pathClassName="stroke-[#0071e3]/20"
+        pathClassName="stroke-[#6b4e83]/20"
         strokeDasharray="4 4"
       >
         <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
-          <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
+          <div className="w-5 h-5 rounded-full bg-[#6b4e83]/10 text-[#6b4e83] flex items-center justify-center shrink-0">
             <Home className="w-4 h-4" />
           </div>
           <span className="text-[15px] font-semibold text-[#0f1012] whitespace-nowrap">
@@ -63,7 +63,7 @@ export default function Slide25Orbit({ isActive = true }: Slide25OrbitProps) {
         path={false}
       >
         <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
-          <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
+          <div className="w-5 h-5 rounded-full bg-[#6b4e83]/10 text-[#6b4e83] flex items-center justify-center shrink-0">
             <Building2 className="w-4 h-4" />
           </div>
           <span className="text-[15px] font-semibold text-[#0f1012] whitespace-nowrap">
@@ -80,13 +80,13 @@ export default function Slide25Orbit({ isActive = true }: Slide25OrbitProps) {
         delay={0}
         radius={195}
         reverse
-        pathClassName="stroke-[#0071e3]/15"
+        pathClassName="stroke-[#6b4e83]/15"
       >
         <div className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
-          <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
+          <div className="w-5 h-5 rounded-full bg-[#6b4e83]/10 text-[#6b4e83] flex items-center justify-center shrink-0">
             <Users className="w-4 h-4" />
           </div>
-          <span className="text-[15px] font-semibold text-[#0071e3] whitespace-nowrap">
+          <span className="text-[15px] font-semibold text-[#6b4e83] whitespace-nowrap">
             amigos e grupo
           </span>
         </div>
@@ -102,7 +102,7 @@ export default function Slide25Orbit({ isActive = true }: Slide25OrbitProps) {
         path={false}
       >
         <div className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
-          <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
+          <div className="w-5 h-5 rounded-full bg-[#6b4e83]/10 text-[#6b4e83] flex items-center justify-center shrink-0">
             <Heart className="w-4 h-4" />
           </div>
           <span className="text-[15px] font-semibold text-[#0f1012] whitespace-nowrap">

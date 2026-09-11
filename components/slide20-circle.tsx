@@ -26,9 +26,9 @@ const POSITIONS = [
     title: "perceber",
     desc: "face, voz, corpo, contexto",
     icon: Eye,
-    color: "#0071e3",
-    bgGlow: "rgba(0, 113, 227, 0.16)",
-    badgeBg: "rgba(0, 113, 227, 0.12)",
+    color: "#b5563a",
+    bgGlow: "rgba(181, 86, 58, 0.16)",
+    badgeBg: "rgba(181, 86, 58, 0.12)",
     tag: "Entrada sensorial"
   },
   {
@@ -172,7 +172,7 @@ export default function Slide20Circle({ isActive = true }: Slide20CircleProps) {
           aria-label="Pausar ou avançar ciclo"
           className={cn(
             "relative group flex flex-col items-center justify-center cursor-pointer outline-none rounded-full transition-all duration-300",
-            "w-[148px] h-[148px] bg-white/95 border shadow-[0_12px_40px_rgba(0,113,227,0.12)] backdrop-blur-xl",
+            "w-[148px] h-[148px] bg-white/95 border shadow-[0_12px_40px_rgba(181,86,58,0.12)] backdrop-blur-xl",
             isOpen ? "border-black/[0.08]" : "border-black/[0.14]"
           )}
         >

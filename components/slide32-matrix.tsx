@@ -26,8 +26,8 @@ const PHASES = [
     title: "Primeira Infância",
     short: "0–5a",
     icon: Sparkles,
-    color: "#0071e3",
-    bgLight: "rgba(0, 113, 227, 0.08)",
+    color: "#4b6b4f",
+    bgLight: "rgba(75, 107, 79, 0.08)",
     question: "“Está construindo as bases para aprender, comunicar-se e regular-se?”",
     focus: "Linguagem, Comportamento e Família",
     milestone: "Diagnóstico, 18m, 3 e 5 anos"
@@ -84,12 +84,12 @@ const LEVEL_LABELS: Record<number, string> = {
 };
 
 const LEVEL_CLASSES: Record<number, string> = {
-  1: "bg-[#0071e3]/[0.08] border-[#0071e3]/[0.16]",
-  2: "bg-[#0071e3]/[0.20] border-[#0071e3]/[0.26]",
-  3: "bg-[#0071e3]/[0.40] border-[#0071e3]/[0.42]",
-  4: "bg-[#0071e3]/[0.62] border-[#0071e3]/[0.60]",
-  5: "bg-[#0071e3]/[0.82] border-[#0071e3]/[0.78]",
-  6: "bg-[#0071e3] border-[#005bb5] shadow-[0_2px_8px_rgba(0,113,227,0.32)]"
+  1: "bg-[#4b6b4f]/[0.08] border-[#4b6b4f]/[0.16]",
+  2: "bg-[#4b6b4f]/[0.20] border-[#4b6b4f]/[0.26]",
+  3: "bg-[#4b6b4f]/[0.40] border-[#4b6b4f]/[0.42]",
+  4: "bg-[#4b6b4f]/[0.62] border-[#4b6b4f]/[0.60]",
+  5: "bg-[#4b6b4f]/[0.82] border-[#4b6b4f]/[0.78]",
+  6: "bg-[#4b6b4f] border-[#365039] shadow-[0_2px_8px_rgba(75,107,79,0.32)]"
 };
 
 // Dados da Matriz divididos em 4 Grupos
@@ -250,7 +250,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
                 className={cn(
                   "relative flex flex-col items-center justify-center py-2 px-1 rounded-xl transition-all duration-200 cursor-pointer group text-center",
                   isPhaseActive
-                    ? "bg-[#0071e3]/[0.10] ring-1 ring-[#0071e3]/30 shadow-sm"
+                    ? "bg-[#4b6b4f]/[0.10] ring-1 ring-[#4b6b4f]/30 shadow-sm"
                     : "hover:bg-black/[0.03]"
                 )}
               >
@@ -258,14 +258,14 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
                 {isPhaseActive && (
                   <motion.div
                     layoutId="active-col-pill"
-                    className="absolute -top-1 w-8 h-1 bg-[#0071e3] rounded-full"
+                    className="absolute -top-1 w-8 h-1 bg-[#4b6b4f] rounded-full"
                     transition={{ type: "spring", stiffness: 350, damping: 30 }}
                   />
                 )}
                 <span
                   className={cn(
                     "font-['Urbanist',sans-serif] text-[18px] font-bold tracking-tight transition-colors leading-tight",
-                    isPhaseActive ? "text-[#0071e3]" : "text-[#0f1012]"
+                    isPhaseActive ? "text-[#4b6b4f]" : "text-[#0f1012]"
                   )}
                 >
                   {phase.range}
@@ -273,7 +273,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
                 <span
                   className={cn(
                     "text-[14px] font-bold uppercase tracking-[0.06em] mt-0.5 transition-colors",
-                    isPhaseActive ? "text-[#0071e3]" : "text-[#0071e3]/70"
+                    isPhaseActive ? "text-[#4b6b4f]" : "text-[#4b6b4f]/70"
                   )}
                 >
                   {phase.title}
@@ -289,10 +289,10 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
             <div key={group.tag} className="flex flex-col">
               {/* Divisor de Grupo */}
               <div className="flex items-center gap-3 px-2 mt-2 mb-1">
-                <span className="font-['Urbanist',sans-serif] text-[14px] font-bold uppercase tracking-[0.1em] text-[#0071e3] whitespace-nowrap">
+                <span className="font-['Urbanist',sans-serif] text-[14px] font-bold uppercase tracking-[0.1em] text-[#4b6b4f] whitespace-nowrap">
                   {group.tag}
                 </span>
-                <div className="flex-1 h-[1px] bg-gradient-to-r from-[#0071e3]/25 via-[#0071e3]/10 to-transparent" />
+                <div className="flex-1 h-[1px] bg-gradient-to-r from-[#4b6b4f]/25 via-[#4b6b4f]/10 to-transparent" />
               </div>
 
               {/* Linhas de Itens */}
@@ -318,7 +318,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
                           "h-[22px] rounded-[5px] border flex items-center justify-center cursor-pointer transition-all duration-150 relative",
                           LEVEL_CLASSES[lvl],
                           isPhaseActive
-                            ? "scale-[1.03] ring-1 ring-[#0071e3]/40 brightness-105 z-10"
+                            ? "scale-[1.03] ring-1 ring-[#4b6b4f]/40 brightness-105 z-10"
                             : "opacity-85 hover:opacity-100 hover:scale-[1.02]"
                         )}
                         title={`${PHASES[colIdx].range}: ${LEVEL_LABELS[lvl]}`}
@@ -334,7 +334,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
         {/* Perguntas Norteadoras por Faixa Etária (Rodapé da Matriz) */}
         <div className="grid grid-cols-[330px_repeat(4,1fr)] gap-x-2.5 items-stretch px-2 pt-2.5 mt-1 border-t border-black/[0.08]">
           <div className="flex items-center">
-            <span className="font-['Urbanist',sans-serif] text-[16px] font-bold uppercase tracking-[0.1em] text-[#0071e3]">
+            <span className="font-['Urbanist',sans-serif] text-[16px] font-bold uppercase tracking-[0.1em] text-[#4b6b4f]">
               Pergunta-Chave por Fase
             </span>
           </div>
@@ -349,14 +349,14 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
                 className={cn(
                   "p-2.5 rounded-xl border text-left transition-all duration-200 cursor-pointer flex flex-col justify-center",
                   isPhaseActive
-                    ? "bg-[#0071e3]/[0.08] border-[#0071e3]/40 shadow-sm ring-1 ring-[#0071e3]/30 -translate-y-0.5"
-                    : "bg-[#f8fbfe] border-[#0071e3]/15 hover:border-[#0071e3]/30 hover:bg-[#f2f8fd]"
+                    ? "bg-[#4b6b4f]/[0.08] border-[#4b6b4f]/40 shadow-sm ring-1 ring-[#4b6b4f]/30 -translate-y-0.5"
+                    : "bg-[#f6f9f6] border-[#4b6b4f]/15 hover:border-[#4b6b4f]/30 hover:bg-[#eef3ec]"
                 )}
               >
                 <p
                   className={cn(
                     "m-0 text-[15px] leading-snug font-medium transition-colors",
-                    isPhaseActive ? "text-[#0071e3] font-semibold" : "text-[#3f4042]"
+                    isPhaseActive ? "text-[#4b6b4f] font-semibold" : "text-[#3f4042]"
                   )}
                 >
                   {phase.question}
@@ -376,7 +376,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
           {/* Header do Hub com Botão Play/Pause */}
           <div className="w-full flex items-center justify-between pb-2 mb-1 border-b border-black/[0.06]">
             <div className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[#0071e3] animate-pulse" />
+              <span className="w-2 h-2 rounded-full bg-[#4b6b4f] animate-pulse" />
               <span className="text-[15px] font-bold uppercase tracking-[0.12em] text-[#5f6062]">
                 Hub de Fases · Eixo 6
               </span>
@@ -388,7 +388,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
               className={cn(
                 "flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[15px] font-semibold transition-all cursor-pointer",
                 isAutoPlay
-                  ? "bg-[#0071e3]/10 text-[#0071e3] hover:bg-[#0071e3]/15"
+                  ? "bg-[#4b6b4f]/10 text-[#4b6b4f] hover:bg-[#4b6b4f]/15"
                   : "bg-black/[0.05] text-[#6a6b6d] hover:bg-black/[0.08]"
               )}
               title={isAutoPlay ? "Pausar rotação automática" : "Iniciar rotação automática"}
@@ -419,7 +419,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
                 cy="95"
                 r={circleRadius}
                 fill="none"
-                stroke="rgba(0, 113, 227, 0.12)"
+                stroke="rgba(75, 107, 79, 0.20)"
                 strokeWidth="1.5"
                 strokeDasharray="4 4"
               />
@@ -450,8 +450,8 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
                   className={cn(
                     "rounded-full flex items-center justify-center cursor-pointer transition-all duration-200 z-10",
                     isSelected
-                      ? "bg-[#0071e3] text-white shadow-[0_4px_14px_rgba(0,113,227,0.42)] ring-4 ring-[#0071e3]/20"
-                      : "bg-[#f4f9fe] text-[#2c2d30] border border-[#0071e3]/25 hover:bg-[#0071e3]/10 hover:border-[#0071e3]"
+                      ? "bg-[#4b6b4f] text-white shadow-[0_4px_14px_rgba(75,107,79,0.42)] ring-4 ring-[#4b6b4f]/20"
+                      : "bg-[#f6f9f6] text-[#2c2d30] border border-[#4b6b4f]/25 hover:bg-[#4b6b4f]/10 hover:border-[#4b6b4f]"
                   )}
                   title={`${phase.range} - ${phase.title}`}
                 >
@@ -461,7 +461,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
                   <span
                     className={cn(
                       "absolute top-full mt-1 text-[14px] font-bold uppercase tracking-[0.03em] whitespace-nowrap transition-colors",
-                      isSelected ? "text-[#0071e3]" : "text-[#6a6b6d]"
+                      isSelected ? "text-[#4b6b4f]" : "text-[#6a6b6d]"
                     )}
                   >
                     {phase.short}
@@ -476,7 +476,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
                 scale: [1, 1.03, 1],
                 transition: { duration: 3, repeat: Infinity, ease: "easeInOut" }
               }}
-              className="z-20 flex flex-col items-center justify-center w-[64px] h-[64px] rounded-full bg-gradient-to-br from-[#0071e3] to-[#005bb5] text-white shadow-[0_4px_16px_rgba(0,113,227,0.35)] cursor-pointer"
+              className="z-20 flex flex-col items-center justify-center w-[64px] h-[64px] rounded-full bg-gradient-to-br from-[#4b6b4f] to-[#365039] text-white shadow-[0_4px_16px_rgba(75,107,79,0.35)] cursor-pointer"
               onClick={() => {
                 setActivePhaseIndex((prev) => (prev + 1) % PHASES.length);
               }}
@@ -489,9 +489,9 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
           </div>
 
           {/* Destaque da Fase Selecionada em Card Dinâmico */}
-          <div className="w-full mt-2 bg-[#f8fbfe] border border-[#0071e3]/20 rounded-xl p-2.5 flex flex-col gap-1">
+          <div className="w-full mt-2 bg-[#f6f9f6] border border-[#4b6b4f]/20 rounded-xl p-2.5 flex flex-col gap-1">
             <div className="flex items-center justify-between">
-              <span className="text-[14px] font-bold uppercase tracking-[0.1em] text-[#0071e3]">
+              <span className="text-[14px] font-bold uppercase tracking-[0.1em] text-[#4b6b4f]">
                 Fase em Foco · {currentDisplayPhase.range}
               </span>
               <span className="text-[14px] font-semibold text-[#5f6062]">
@@ -503,7 +503,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
             </p>
             <div className="flex items-center justify-between gap-2 text-[14px] text-[#5f6062] pt-1 border-t border-black/[0.05] mt-0.5">
               <span>Foco: {currentDisplayPhase.focus}</span>
-              <span className="font-medium text-[#0071e3]">{currentDisplayPhase.milestone}</span>
+              <span className="font-medium text-[#4b6b4f]">{currentDisplayPhase.milestone}</span>
             </div>
           </div>
         </div>
@@ -535,8 +535,8 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
         </div>
 
         {/* Bloco de Arquitetura Longitudinal */}
-        <div className="p-2.5 rounded-2xl bg-[#f4f9fe] border border-[#0071e3]/[0.18] shadow-sm">
-          <p className="m-0 mb-1 text-[14px] font-bold tracking-[0.08em] uppercase text-[#0071e3]">
+        <div className="p-2.5 rounded-2xl bg-[#f6f9f6] border border-[#4b6b4f]/[0.18] shadow-sm">
+          <p className="m-0 mb-1 text-[14px] font-bold tracking-[0.08em] uppercase text-[#4b6b4f]">
             Arquitetura longitudinal
           </p>
           <p className="m-0 text-[15px] leading-snug text-[#2c2d30]">
@@ -551,7 +551,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
 
         {/* Síntese do Eixo */}
         <div className="p-2.5 rounded-2xl bg-white border border-black/[0.08] shadow-sm">
-          <p className="m-0 font-['Urbanist',sans-serif] text-[19px] font-bold tracking-tight text-[#0071e3] leading-tight">
+          <p className="m-0 font-['Urbanist',sans-serif] text-[19px] font-bold tracking-tight text-[#4b6b4f] leading-tight">
             Domínios permanecem;
             <br />
             prioridades mudam.

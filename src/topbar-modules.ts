@@ -18,7 +18,7 @@ export interface EixoInfo {
 
 export const EIXOS_DATA: EixoInfo[] = [
   { id: 1, label: "Dinâmica Sistêmica", num: "Eixo 1", color: "#0071e3", bgTint: "#e8f2fc", module: "Módulo 01", startSlide: 5, endSlide: 13 },
-  { id: 2, label: "Cognição", num: "Eixo 2", color: "#21C6E0", bgTint: "#eaf9fa", module: "Módulo 02", startSlide: 14, endSlide: 18 },
+  { id: 2, label: "Cognição", num: "Eixo 2", color: "#0d6d66", bgTint: "#e6f5f3", module: "Módulo 02", startSlide: 14, endSlide: 18 },
   { id: 3, label: "Emocional", num: "Eixo 3", color: "#b5563a", bgTint: "#fbeee9", module: "Módulo 03", startSlide: 19, endSlide: 22 },
   { id: 4, label: "Social", num: "Eixo 4", color: "#6b4e83", bgTint: "#f1ecf5", module: "Módulo 04", startSlide: 23, endSlide: 26 },
   { id: 5, label: "Craniofacial", num: "Eixo 5", color: "#8a2f3f", bgTint: "#f7ecee", module: "Módulo 05", startSlide: 27, endSlide: 31 },
@@ -48,9 +48,8 @@ export function generateTopBarInnerHTML(currentEixo: EixoInfo): string {
     }
     if (eixo.id === currentEixo.id) {
       // Eixo Ativo
-      const isCyan = eixo.id === 2
-      const textColor = isCyan ? "#0f1012" : "#ffffff"
-      const dotColor = isCyan ? "#0f1012" : "#ffffff"
+      const textColor = "#ffffff"
+      const dotColor = "#ffffff"
       const hexColor = eixo.color.replace('#', '')
       const r = parseInt(hexColor.substring(0, 2), 16)
       const g = parseInt(hexColor.substring(2, 4), 16)

@@ -114,14 +114,14 @@ export default function Slide15TimelinePills({ isActive = true }: Slide15Timelin
                   <div className="flex items-center gap-2.5 w-full text-[19px] tracking-tight font-['Satoshi'] whitespace-nowrap">
                     <span
                       className={`font-semibold shrink-0 ${
-                        process.variant === "accent" ? "text-[#0071e3]" : "text-[#0f1012]"
+                        process.variant === "accent" ? "text-[#0d6d66]" : "text-[#0f1012]"
                       }`}
                     >
                       {process.action}
                     </span>
                     <span
                       className={`font-light opacity-40 shrink-0 ${
-                        process.variant === "accent" ? "text-[#0071e3]" : "text-[#5f6062]"
+                        process.variant === "accent" ? "text-[#0d6d66]" : "text-[#5f6062]"
                       }`}
                     >
                       —
@@ -129,7 +129,7 @@ export default function Slide15TimelinePills({ isActive = true }: Slide15Timelin
                     <span
                       className={`font-normal ${
                         process.variant === "accent"
-                          ? "text-[#0071e3]/90 font-medium"
+                          ? "text-[#0d6d66]/90 font-medium"
                           : "text-[#3f4042]"
                       }`}
                     >
@@ -154,16 +154,16 @@ export default function Slide15TimelinePills({ isActive = true }: Slide15Timelin
           {/* Track */}
           <div className="h-[2px] w-full bg-[#d2d4d8] rounded-full relative">
             {/* Tick Marks: Left (0%), Center (50%), Right (100%) */}
-            <div className="absolute left-0 top-1/2 -translate-y-1/2 w-2.5 h-2.5 rounded-full bg-[#0d606a] border-2 border-white shadow-xs" />
+            <div className="absolute left-0 top-1/2 -translate-y-1/2 w-2.5 h-2.5 rounded-full bg-[#0d6d66] border-2 border-white shadow-xs" />
             <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-2.5 h-2.5 rounded-full bg-[#5f6062] border-2 border-white shadow-xs" />
-            <div className="absolute right-0 top-1/2 -translate-y-1/2 w-2.5 h-2.5 rounded-full bg-[#0071e3] border-2 border-white shadow-xs" />
+            <div className="absolute right-0 top-1/2 -translate-y-1/2 w-2.5 h-2.5 rounded-full bg-[#0d6d66] border-2 border-white shadow-xs" />
           </div>
 
           {/* Milestone Labels: Perfectly centered and aligned */}
           <div className="relative w-full h-6 mt-2.5 text-[17px] sm:text-[18.5px] font-['Satoshi']">
-            <span className="absolute left-0 font-semibold text-[#0d606a] tracking-tight">primeiro ano</span>
+            <span className="absolute left-0 font-semibold text-[#0d6d66] tracking-tight">primeiro ano</span>
             <span className="absolute left-1/2 -translate-x-1/2 font-medium text-[#5f6062]">1–2 anos</span>
-            <span className="absolute right-0 font-semibold text-[#0071e3] tracking-tight">3–5 anos</span>
+            <span className="absolute right-0 font-semibold text-[#0d6d66] tracking-tight">3–5 anos</span>
           </div>
         </div>
       </motion.div>

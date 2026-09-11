@@ -35,25 +35,25 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
             <defs>
               {/* Gradiente Clinical (Ápice - Alto Contraste) */}
               <linearGradient id="pyrClinicalGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-                <stop offset="0%" stopColor="#005bb5" />
-                <stop offset="100%" stopColor="#0071e3" />
+                <stop offset="0%" stopColor="#365039" />
+                <stop offset="100%" stopColor="#4b6b4f" />
               </linearGradient>
 
               {/* Gradiente Targeted (Intermediário) */}
               <linearGradient id="pyrTargetedGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-                <stop offset="0%" stopColor="#e1eefc" />
-                <stop offset="100%" stopColor="#cde4fa" />
+                <stop offset="0%" stopColor="#e2ebe3" />
+                <stop offset="100%" stopColor="#c4dac7" />
               </linearGradient>
 
               {/* Gradiente Universal (Base Ampla) */}
               <linearGradient id="pyrUniversalGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-                <stop offset="0%" stopColor="#f3f8fd" />
-                <stop offset="100%" stopColor="#e4f0fc" />
+                <stop offset="0%" stopColor="#f5f8f5" />
+                <stop offset="100%" stopColor="#eaf1eb" />
               </linearGradient>
 
               {/* Filtro de Glow Suave para Hover */}
               <filter id="pyrGlow" x="-10%" y="-10%" width="120%" height="120%">
-                <feDropShadow dx="0" dy="4" stdDeviation="8" floodColor="#0071e3" floodOpacity="0.22" />
+                <feDropShadow dx="0" dy="4" stdDeviation="8" floodColor="#4b6b4f" floodOpacity="0.22" />
               </filter>
             </defs>
 
@@ -73,7 +73,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
               <polygon
                 points="146,218 574,218 694,318 26,318"
                 fill="url(#pyrUniversalGrad)"
-                stroke="#0071e3"
+                stroke="#4b6b4f"
                 strokeWidth={hoveredLevel === 2 ? "2" : "1.4"}
                 strokeOpacity={hoveredLevel === 2 ? "0.85" : "0.45"}
                 filter={hoveredLevel === 2 ? "url(#pyrGlow)" : undefined}
@@ -90,7 +90,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
                   height="28"
                   rx="13"
                   fill="#ffffff"
-                  stroke="#0071e3"
+                  stroke="#4b6b4f"
                   strokeWidth="1.2"
                   strokeOpacity="0.3"
                 />
@@ -100,7 +100,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
                   fontFamily="'Urbanist', sans-serif"
                   fontSize="16"
                   fontWeight="800"
-                  fill="#0071e3"
+                  fill="#4b6b4f"
                   letterSpacing="0.05em"
                 >
                   UNIVERSAL · 59,9%
@@ -113,19 +113,19 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
                   fontFamily="'Satoshi', sans-serif"
                   fontSize="16"
                   fontWeight="600"
-                  fill="#1e293b"
+                  fill="#0f172a"
                 >
-                  rastreamento para todos
+                  risco basal
                 </text>
                 <text
                   x="0"
-                  y="56"
+                  y="53"
                   fontFamily="'Satoshi', sans-serif"
-                  fontSize="16"
+                  fontSize="15"
                   fontWeight="500"
                   fill="#475569"
                 >
-                  breve · padronizado · repetível
+                  rastreio sistemático universal (ex.: PAT-CV)
                 </text>
               </g>
             </g>
@@ -146,7 +146,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
               <polygon
                 points="252,116 468,116 568,212 152,212"
                 fill="url(#pyrTargetedGrad)"
-                stroke="#0071e3"
+                stroke="#4b6b4f"
                 strokeWidth={hoveredLevel === 1 ? "2" : "1.4"}
                 strokeOpacity={hoveredLevel === 1 ? "0.9" : "0.55"}
                 filter={hoveredLevel === 1 ? "url(#pyrGlow)" : undefined}
@@ -163,7 +163,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
                   height="28"
                   rx="13"
                   fill="#ffffff"
-                  stroke="#0071e3"
+                  stroke="#4b6b4f"
                   strokeWidth="1.2"
                   strokeOpacity="0.4"
                 />
@@ -173,7 +173,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
                   fontFamily="'Urbanist', sans-serif"
                   fontSize="16"
                   fontWeight="800"
-                  fill="#005bb5"
+                  fill="#365039"
                   letterSpacing="0.06em"
                 >
                   TARGETED · 32,3%
@@ -219,15 +219,15 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
               <polygon
                 points="360,14 468,110 252,110"
                 fill="url(#pyrClinicalGrad)"
-                stroke="#0071e3"
+                stroke="#4b6b4f"
                 strokeWidth={hoveredLevel === 0 ? "2" : "1.4"}
                 filter={hoveredLevel === 0 ? "url(#pyrGlow)" : undefined}
                 className="transition-all duration-300"
               />
 
               {/* Textos Internos no terço inferior do ápice com 100% de margem e sem corte */}
-              <line x1="414" y1="62" x2="484" y2="44" stroke="#0071e3" strokeWidth="1.4" strokeOpacity="0.6" strokeDasharray="3 3" />
-              <circle cx="414" cy="62" r="3" fill="#0071e3" />
+              <line x1="414" y1="62" x2="484" y2="44" stroke="#4b6b4f" strokeWidth="1.4" strokeOpacity="0.6" strokeDasharray="3 3" />
+              <circle cx="414" cy="62" r="3" fill="#4b6b4f" />
               <g transform="translate(490, 44)" textAnchor="start">
                 {/* Pílula Compacta CLINICAL · 7,8% */}
                 <rect
@@ -236,8 +236,8 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
                   width="170"
                   height="28"
                   rx="14"
-                  fill="#0071e3"
-                  stroke="#005bb5"
+                  fill="#4b6b4f"
+                  stroke="#365039"
                   strokeWidth="1.1"
                 />
                 <text
@@ -286,18 +286,18 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
           {/* Coluna 1: Seta + Linha com Marcadores (Ticks) + Ponto Base */}
           <div className="flex flex-col items-center justify-between h-full w-5">
             {/* Seta Superior Minimalista */}
-            <div className="w-5 h-5 rounded-full bg-[#0071e3] text-white flex items-center justify-center shadow-xs">
+            <div className="w-5 h-5 rounded-full bg-[#4b6b4f] text-white flex items-center justify-center shadow-xs">
               <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
                 <path d="M12 19V5M5 12l7-7 7 7" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </div>
 
             {/* Linha Vertical com Ticks apontando para a pirâmide */}
-            <div className="relative flex-1 w-[2px] bg-gradient-to-t from-slate-300 via-[#0071e3]/60 to-[#0071e3] my-1.5">
+            <div className="relative flex-1 w-[2px] bg-gradient-to-t from-slate-300 via-[#4b6b4f]/60 to-[#4b6b4f] my-1.5">
               {/* Tick Clinical */}
-              <div className="absolute top-[18%] -left-1.5 w-3 h-[1.5px] bg-[#0071e3]" />
+              <div className="absolute top-[18%] -left-1.5 w-3 h-[1.5px] bg-[#4b6b4f]" />
               {/* Tick Targeted */}
-              <div className="absolute top-[52%] -left-1.5 w-3 h-[1.5px] bg-[#0071e3]/70" />
+              <div className="absolute top-[52%] -left-1.5 w-3 h-[1.5px] bg-[#4b6b4f]/70" />
               {/* Tick Universal */}
               <div className="absolute top-[86%] -left-1.5 w-3 h-[1.5px] bg-slate-400" />
             </div>
@@ -334,7 +334,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
             onMouseEnter={() => setHoveredLevel(2)}
             onMouseLeave={() => setHoveredLevel(null)}
           >
-            <p className="m-0 font-['Urbanist'] text-[22px] font-bold text-[#0071e3] leading-none">
+            <p className="m-0 font-['Urbanist'] text-[22px] font-bold text-[#4b6b4f] leading-none">
               59,9%
             </p>
             <p className="m-0 mt-0.5 font-['Satoshi'] text-[15px] font-semibold text-slate-500 uppercase tracking-wide">
@@ -350,7 +350,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
             onMouseEnter={() => setHoveredLevel(1)}
             onMouseLeave={() => setHoveredLevel(null)}
           >
-            <p className="m-0 font-['Urbanist'] text-[22px] font-bold text-[#0071e3] leading-none">
+            <p className="m-0 font-['Urbanist'] text-[22px] font-bold text-[#4b6b4f] leading-none">
               32,3%
             </p>
             <p className="m-0 mt-0.5 font-['Satoshi'] text-[15px] font-semibold text-slate-500 uppercase tracking-wide">
@@ -366,7 +366,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
             onMouseEnter={() => setHoveredLevel(0)}
             onMouseLeave={() => setHoveredLevel(null)}
           >
-            <p className="m-0 font-['Urbanist'] text-[22px] font-bold text-[#0071e3] leading-none">
+            <p className="m-0 font-['Urbanist'] text-[22px] font-bold text-[#4b6b4f] leading-none">
               7,8%
             </p>
             <p className="m-0 mt-0.5 font-['Satoshi'] text-[15px] font-semibold text-slate-500 uppercase tracking-wide">
@@ -388,16 +388,16 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
         initial={{ opacity: 0, y: 12 }}
         animate={{ opacity: isActive ? 1 : 0, y: isActive ? 0 : 12 }}
         transition={{ duration: 0.45, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
-        className="group relative w-full overflow-hidden rounded-3xl border border-white/12 bg-[#0f1012] text-white shadow-[0_8px_30px_rgba(0,0,0,0.18)] hover:shadow-[0_12px_36px_rgba(0,113,227,0.22)] hover:border-[#0071e3]/40 transition-all duration-300 px-4 py-3 mt-1"
+        className="group relative w-full overflow-hidden rounded-3xl border border-white/12 bg-[#0f1012] text-white shadow-[0_8px_30px_rgba(0,0,0,0.18)] hover:shadow-[0_12px_36px_rgba(75,107,79,0.22)] hover:border-[#4b6b4f]/40 transition-all duration-300 px-4 py-3 mt-1"
       >
-        {/* Ambient Glow Azul Apple */}
-        <div className="absolute top-0 right-0 w-44 h-44 bg-[#0071e3]/20 rounded-full blur-3xl pointer-events-none" />
+        {/* Ambient Glow Sálvia */}
+        <div className="absolute top-0 right-0 w-44 h-44 bg-[#4b6b4f]/20 rounded-full blur-3xl pointer-events-none" />
 
         <div className="relative z-10 flex flex-col justify-between">
           {/* Header do Card */}
           <div className="flex items-center justify-between gap-3 mb-1.5">
             <div className="flex items-center gap-2">
-              <div className="flex h-7 w-7 items-center justify-center rounded-xl border border-white/15 bg-white/5 text-[#60a5fa] shadow-xs">
+              <div className="flex h-7 w-7 items-center justify-center rounded-xl border border-white/15 bg-white/5 text-[#86efac] shadow-xs">
                 <ShieldAlert className="h-4 w-4" />
               </div>
               <h3 className="text-[20px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight">
@@ -405,8 +405,8 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
               </h3>
             </div>
 
-            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[14px] font-bold uppercase tracking-wide bg-[#0071e3]/20 text-[#93c5fd] border border-[#0071e3]/30 shrink-0">
-              <Zap className="w-3.5 h-3.5 text-[#60a5fa]" />
+            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[14px] font-bold uppercase tracking-wide bg-[#4b6b4f]/20 text-[#bbf7d0] border border-[#4b6b4f]/30 shrink-0">
+              <Zap className="w-3.5 h-3.5 text-[#86efac]" />
               Critérios de Exceção
             </span>
           </div>
@@ -416,7 +416,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
             {criteriaTags.map((tag) => (
               <span
                 key={tag}
-                className="px-2 py-0.5 rounded-lg text-[15px] font-medium bg-white/[0.07] border border-white/12 text-slate-200 hover:bg-[#0071e3]/20 hover:border-[#0071e3]/40 hover:text-white transition-colors"
+                className="px-2 py-0.5 rounded-lg text-[15px] font-medium bg-white/[0.07] border border-white/12 text-slate-200 hover:bg-[#4b6b4f]/20 hover:border-[#4b6b4f]/40 hover:text-white transition-colors"
               >
                 {tag}
               </span>
@@ -432,11 +432,11 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
           <div className="mt-1.5 pt-1.5 border-t border-white/10 flex items-center justify-between gap-2 text-[15px]">
             <div className="flex items-center gap-1.5 text-slate-300">
               <span>Conduta:</span>
-              <span className="text-[#93c5fd] font-semibold">Acesso Direto Sem Barreira</span>
+              <span className="text-[#bbf7d0] font-semibold">Acesso Direto Sem Barreira</span>
             </div>
 
-            <div className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-[#0071e3]/25 text-[#bfdbfe] border border-[#0071e3]/35 font-semibold">
-              <CheckCircle2 className="w-3.5 h-3.5 text-[#60a5fa]" />
+            <div className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-[#4b6b4f]/25 text-[#dcfce7] border border-[#4b6b4f]/35 font-semibold">
+              <CheckCircle2 className="w-3.5 h-3.5 text-[#86efac]" />
               <span>Triagem Qualificada</span>
             </div>
           </div>

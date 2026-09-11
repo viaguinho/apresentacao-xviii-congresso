@@ -26,9 +26,9 @@ const POSITIONS = [
     title: "resultado clínico",
     desc: "anatomia, oclusão, inteligibilidade",
     icon: Activity,
-    color: "#0071e3",
-    bgGlow: "rgba(0, 113, 227, 0.16)",
-    badgeBg: "rgba(0, 113, 227, 0.12)",
+    color: "#8a2f3f",
+    bgGlow: "rgba(138, 47, 63, 0.16)",
+    badgeBg: "rgba(138, 47, 63, 0.12)",
     tag: "Dimensão técnica"
   },
   {
@@ -172,7 +172,7 @@ export default function Slide29Circle({ isActive = true }: Slide29CircleProps) {
           aria-label="Pausar ou avançar ciclo"
           className={cn(
             "relative group flex flex-col items-center justify-center cursor-pointer outline-none rounded-full transition-all duration-300",
-            "w-[148px] h-[148px] bg-white/95 border shadow-[0_12px_40px_rgba(0,113,227,0.12)] backdrop-blur-xl",
+            "w-[148px] h-[148px] bg-white/95 border shadow-[0_12px_40px_rgba(138,47,63,0.12)] backdrop-blur-xl",
             isOpen ? "border-black/[0.08]" : "border-black/[0.14]"
           )}
         >

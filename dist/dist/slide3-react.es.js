@@ -15765,12 +15765,12 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 	className: "flex flex-col bg-white dark:bg-[#141517] rounded-3xl border border-black/[0.08] dark:border-white/[0.08] shadow-[0_10px_30px_rgba(0,0,0,0.05),0_20px_60px_rgba(0,0,0,0.04)] hover:shadow-[0_20px_50px_rgba(0,113,227,0.12)] transition-all duration-300 w-full overflow-hidden",
 	children: [
 		/* @__PURE__ */ (0, z.jsxs)("div", {
-			className: "pt-6 px-7 pb-4 border-b border-black/[0.04] dark:border-white/[0.04] bg-gradient-to-b from-blue-50/40 to-transparent dark:from-blue-950/20 min-h-[105px] flex flex-col justify-center",
+			className: "pt-6 px-7 pb-4 border-b border-black/[0.04] dark:border-white/[0.04] bg-gradient-to-b from-blue-50/40 to-transparent dark:from-blue-950/20 min-h-[112px] flex flex-col justify-center",
 			children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-				className: "text-[25px] font-bold tracking-tight text-[#0f1012] dark:text-white leading-tight",
+				className: "text-[28px] font-bold tracking-tight text-[#0f1012] dark:text-white leading-tight",
 				children: e
 			}), /* @__PURE__ */ (0, z.jsx)("p", {
-				className: "text-[14px] text-[#5f6062] dark:text-gray-400 mt-1.5 line-clamp-2 leading-relaxed font-sans",
+				className: "text-[18px] font-medium text-[#5f6062] dark:text-gray-600 mt-1.5 leading-snug font-sans",
 				children: t
 			})]
 		}),
@@ -15782,13 +15782,13 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 					className: "w-2.5 h-2.5 rounded-full ring-1 ring-black/10",
 					style: { backgroundColor: e.color }
 				}), /* @__PURE__ */ (0, z.jsx)("span", {
-					className: "text-gray-500 dark:text-gray-400 text-[11px] font-medium tracking-wide",
+					className: "text-gray-700 dark:text-gray-600 text-[16px] font-medium tracking-wide",
 					children: e.name
 				})]
 			}, e.name))
 		}) : /* @__PURE__ */ (0, z.jsx)("div", { className: "h-3" }),
 		/* @__PURE__ */ (0, z.jsx)("div", {
-			className: "relative w-full flex-1 min-h-[255px] px-4 flex items-center justify-center overflow-hidden",
+			className: "relative w-full flex-1 min-h-[275px] px-2 flex items-center justify-center overflow-hidden",
 			children: i
 		}),
 		/* @__PURE__ */ (0, z.jsx)("div", {
@@ -15805,24 +15805,25 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 				transition: { delay: e.delay },
 				className: "flex w-full py-2.5 items-center justify-between gap-3",
 				children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-					className: "flex flex-row gap-2.5 items-center text-[13px] font-sans text-[#5f6062] dark:text-gray-300 truncate",
-					children: [/* @__PURE__ */ (0, z.jsx)(e.Icon, { className: "w-[18px] h-[18px] flex-none" }), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "truncate font-medium",
+					className: "flex flex-row gap-2.5 items-center text-[17px] font-sans text-[#52525b] dark:text-gray-300 min-w-0",
+					children: [/* @__PURE__ */ (0, z.jsx)(e.Icon, { className: "w-[20px] h-[20px] flex-none" }), /* @__PURE__ */ (0, z.jsx)("span", {
+						className: "font-medium leading-tight",
 						title: e.tooltip,
 						children: e.label
 					})]
 				}), /* @__PURE__ */ (0, z.jsx)("div", {
 					className: "flex justify-end items-center flex-none",
 					children: /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "font-bold text-[14.5px] tracking-tight text-[#0f1012] dark:text-white",
+						className: "font-bold text-[19px] tracking-tight text-[#0f1012] dark:text-white",
 						children: e.value
 					})
 				})]
 			}, e.id))
 		})
 	]
-}), $f = () => /* @__PURE__ */ (0, z.jsxs)(z.Fragment, { children: [/* @__PURE__ */ (0, z.jsx)("style", { children: "\n        @media (min-width: 1024px) {\n          .s5-custom-grid { grid-template-columns: 0.94fr 1.03fr 1.03fr !important; }\n        }\n      " }), /* @__PURE__ */ (0, z.jsxs)("div", {
-	className: "w-full grid grid-cols-1 gap-6 h-full items-stretch s5-custom-grid",
+}), $f = () => /* @__PURE__ */ (0, z.jsxs)("div", {
+	className: "w-full grid gap-6 h-full items-stretch",
+	style: { gridTemplateColumns: "0.94fr 1.03fr 1.03fr" },
 	children: [
 		/* @__PURE__ */ (0, z.jsx)(Qf, {
 			title: "Multidimensional",
@@ -15855,7 +15856,7 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 			],
 			delay: .05,
 			children: /* @__PURE__ */ (0, z.jsx)("div", {
-				className: "w-full h-full min-h-[265px] flex items-center justify-center p-1",
+				className: "w-full h-full min-h-[285px] flex items-center justify-center p-1",
 				children: /* @__PURE__ */ (0, z.jsxs)("svg", {
 					viewBox: "0 0 460 265",
 					className: "w-full h-full overflow-visible",
@@ -16071,7 +16072,7 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 									y: "162",
 									textAnchor: "middle",
 									fontFamily: "'Urbanist', sans-serif",
-									fontSize: "11",
+									fontSize: "15",
 									fontWeight: "800",
 									fill: "#0f1012",
 									letterSpacing: "0.08em",
@@ -16116,7 +16117,7 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 							y: "22",
 							textAnchor: "middle",
 							fontFamily: "'Satoshi', sans-serif",
-							fontSize: "13.5",
+							fontSize: "15.5",
 							fontWeight: "600",
 							fill: "#0f1012",
 							children: "cognição"
@@ -16167,7 +16168,7 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 							y: "99",
 							textAnchor: "start",
 							fontFamily: "'Satoshi', sans-serif",
-							fontSize: "13.5",
+							fontSize: "15.5",
 							fontWeight: "600",
 							fill: "#0f1012",
 							children: "linguagem"
@@ -16198,7 +16199,7 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 							y: "249",
 							textAnchor: "middle",
 							fontFamily: "'Satoshi', sans-serif",
-							fontSize: "13.5",
+							fontSize: "15.5",
 							fontWeight: "600",
 							fill: "#0f1012",
 							children: "emoções"
@@ -16229,7 +16230,7 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 							y: "249",
 							textAnchor: "middle",
 							fontFamily: "'Satoshi', sans-serif",
-							fontSize: "13.5",
+							fontSize: "15.5",
 							fontWeight: "600",
 							fill: "#0f1012",
 							children: "comportamento"
@@ -16284,7 +16285,7 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 							y: "99",
 							textAnchor: "end",
 							fontFamily: "'Satoshi', sans-serif",
-							fontSize: "13.5",
+							fontSize: "15.5",
 							fontWeight: "600",
 							fill: "#0f1012",
 							children: "hab. sociais"
@@ -16338,7 +16339,7 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 			],
 			delay: .15,
 			children: /* @__PURE__ */ (0, z.jsx)("div", {
-				className: "w-full h-full p-2 flex items-center justify-center",
+				className: "w-full h-full p-1 flex items-center justify-center",
 				children: /* @__PURE__ */ (0, z.jsxs)("svg", {
 					viewBox: "0 0 500 240",
 					className: "w-full h-full overflow-visible",
@@ -16427,7 +16428,7 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 							y: "232",
 							textAnchor: "middle",
 							fontFamily: "'Satoshi', sans-serif",
-							fontSize: "13",
+							fontSize: "15",
 							fill: "#5f6062",
 							fontWeight: "500",
 							children: "tempo (anos)"
@@ -16437,7 +16438,7 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 							y: "115",
 							textAnchor: "middle",
 							fontFamily: "'Satoshi', sans-serif",
-							fontSize: "13",
+							fontSize: "15",
 							fill: "#5f6062",
 							fontWeight: "500",
 							transform: "rotate(-90 24 115)",
@@ -16468,10 +16469,10 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 							fillOpacity: "0.15"
 						}),
 						/* @__PURE__ */ (0, z.jsx)("text", {
-							x: "145",
-							y: "125",
+							x: "164",
+							y: "160",
 							fontFamily: "'Satoshi', sans-serif",
-							fontSize: "12",
+							fontSize: "16",
 							fontWeight: "600",
 							fill: "#0071e3",
 							children: "aceleração"
@@ -16494,7 +16495,7 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 							y: "66",
 							textAnchor: "middle",
 							fontFamily: "'Satoshi', sans-serif",
-							fontSize: "12",
+							fontSize: "16",
 							fontWeight: "600",
 							fill: "#5B14C5",
 							children: "platô"
@@ -16517,7 +16518,7 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 							y: "24",
 							textAnchor: "end",
 							fontFamily: "'Satoshi', sans-serif",
-							fontSize: "12",
+							fontSize: "16",
 							fontWeight: "600",
 							fill: "#028071",
 							children: "reorganização"
@@ -16575,7 +16576,7 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 			],
 			delay: .25,
 			children: /* @__PURE__ */ (0, z.jsx)("div", {
-				className: "w-full h-full p-2 flex items-center justify-center",
+				className: "w-full h-full p-1 flex items-center justify-center",
 				children: /* @__PURE__ */ (0, z.jsxs)("svg", {
 					viewBox: "0 0 500 240",
 					className: "w-full h-full overflow-visible",
@@ -16656,7 +16657,7 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 							y: "232",
 							textAnchor: "middle",
 							fontFamily: "'Satoshi', sans-serif",
-							fontSize: "13",
+							fontSize: "15",
 							fill: "#5f6062",
 							fontWeight: "500",
 							children: "tempo (anos)"
@@ -16666,7 +16667,7 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 							y: "115",
 							textAnchor: "middle",
 							fontFamily: "'Satoshi', sans-serif",
-							fontSize: "13",
+							fontSize: "15",
 							fill: "#5f6062",
 							fontWeight: "500",
 							transform: "rotate(-90 24 115)",
@@ -16754,7 +16755,7 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 							x: "80",
 							y: "218",
 							fontFamily: "'Satoshi', sans-serif",
-							fontSize: "11",
+							fontSize: "15",
 							fontWeight: "700",
 							fill: "#0071e3",
 							children: "origem comum"
@@ -16764,7 +16765,7 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 			})
 		})
 	]
-})] }), ep = ({ data: e, className: t = "", isSlideActive: n = !0 }) => {
+}), ep = ({ data: e, className: t = "", isSlideActive: n = !0 }) => {
 	let r = (0, b.useRef)(null);
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
 		ref: r,
@@ -16827,7 +16828,7 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 				className: "absolute left-0 right-0 w-full h-36 rounded-full"
 			})
 		}), /* @__PURE__ */ (0, z.jsx)("div", {
-			className: "flex flex-col justify-between gap-5 relative z-10 h-full",
+			className: "flex flex-col justify-between gap-4 relative z-10 h-full",
 			children: e.map((e, t) => {
 				let n = t === 1, r = n ? "#e11d48" : "#0071e3", i = n ? "linear-gradient(135deg, rgba(225, 29, 72, 0.08) 0%, #ffffff 100%)" : "linear-gradient(135deg, rgba(0, 113, 227, 0.08) 0%, #ffffff 100%)", a = t === 0 ? [
 					1.18,
@@ -16937,7 +16938,7 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 							/* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "flex items-center justify-between gap-2 mb-1.5",
 								children: [/* @__PURE__ */ (0, z.jsx)("span", {
-									className: "font-bold tracking-[0.1em] uppercase text-[11px] px-2.5 py-0.5 rounded-full inline-flex items-center",
+									className: "font-bold tracking-[0.08em] uppercase text-[14px] px-2.5 py-0.5 rounded-full inline-flex items-center",
 									style: {
 										fontFamily: "'Urbanist', sans-serif",
 										background: n ? "rgba(225, 29, 72, 0.08)" : "rgba(0, 113, 227, 0.08)",
@@ -16946,7 +16947,7 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 									},
 									children: e.category
 								}), e.badge && /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[12px] font-semibold tracking-tight px-2.5 py-0.5 rounded-md",
+									className: "text-[14px] font-semibold tracking-tight px-2.5 py-0.5 rounded-md",
 									style: {
 										background: n ? "rgba(225, 29, 72, 0.05)" : "rgba(15, 16, 18, 0.04)",
 										color: n ? "#be123c" : "#3f4042",
@@ -16956,18 +16957,18 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 								})]
 							}),
 							/* @__PURE__ */ (0, z.jsx)("h3", {
-								className: "m-0 text-[20px] font-semibold text-[#0f1012] leading-[1.28] tracking-[-0.3px]",
+								className: "m-0 text-[22px] font-semibold text-[#0f1012] leading-[1.22] tracking-[-0.3px]",
 								style: { fontFamily: "'Urbanist', 'Satoshi', sans-serif" },
 								children: e.title
 							}),
 							/* @__PURE__ */ (0, z.jsx)("p", {
-								className: "m-0 mt-1.5 text-[15px] font-normal leading-[1.42] text-[#5f6062]",
+								className: "m-0 mt-1.5 text-[17px] font-medium leading-[1.38] text-[#52525b]",
 								children: e.description
 							}),
 							e.detail && /* @__PURE__ */ (0, z.jsx)("div", {
 								className: "mt-2.5 pt-2 border-t border-slate-100 flex items-center flex-wrap gap-2",
 								children: typeof e.detail == "string" ? /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "inline-flex items-center gap-1.5 text-[14px] font-semibold px-3 py-1 rounded-lg",
+									className: "inline-flex items-center gap-1.5 text-[16px] font-semibold px-3 py-1 rounded-lg",
 									style: {
 										background: n ? "rgba(225, 29, 72, 0.08)" : "rgba(0, 113, 227, 0.06)",
 										color: n ? "#be123c" : "#0071e3",
@@ -16996,23 +16997,23 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 					className: "flex items-center gap-2 flex-wrap",
 					children: [
 						/* @__PURE__ */ (0, z.jsxs)("span", {
-							className: "inline-flex items-center gap-1 text-[13px] font-semibold text-[#0071e3] bg-blue-50/80 px-2.5 py-1 rounded-md border border-blue-200/60",
+							className: "inline-flex items-center gap-1 text-[16px] font-semibold text-[#0071e3] bg-blue-50/80 px-2.5 py-1 rounded-md border border-blue-200/60",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-1.5 h-1.5 rounded-full bg-[#0071e3]" }), "Onda 1: ~8 anos"]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[#868788] text-xs font-bold",
+							className: "text-[#868788] text-sm font-bold",
 							children: "→"
 						}),
 						/* @__PURE__ */ (0, z.jsxs)("span", {
-							className: "inline-flex items-center gap-1 text-[13px] font-semibold text-[#0071e3] bg-blue-50/80 px-2.5 py-1 rounded-md border border-blue-200/60",
+							className: "inline-flex items-center gap-1 text-[16px] font-semibold text-[#0071e3] bg-blue-50/80 px-2.5 py-1 rounded-md border border-blue-200/60",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-1.5 h-1.5 rounded-full bg-[#0071e3]" }), "Onda 2: ~10 anos"]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[#868788] text-xs font-bold",
+							className: "text-[#868788] text-sm font-bold",
 							children: "→"
 						}),
 						/* @__PURE__ */ (0, z.jsxs)("span", {
-							className: "inline-flex items-center gap-1 text-[13px] font-semibold text-[#0071e3] bg-blue-50/80 px-2.5 py-1 rounded-md border border-blue-200/60",
+							className: "inline-flex items-center gap-1 text-[16px] font-semibold text-[#0071e3] bg-blue-50/80 px-2.5 py-1 rounded-md border border-blue-200/60",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-1.5 h-1.5 rounded-full bg-[#0071e3]" }), "Onda 3: ~12 anos"]
 						})
 					]
@@ -17027,15 +17028,15 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 				detail: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex flex-col gap-1.5 w-full",
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-						className: "flex items-center gap-2 text-[13px] text-[#3f4042]",
+						className: "flex items-center gap-2 text-[16px] font-medium text-[#3f4042]",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "font-semibold text-[#e11d48] bg-rose-50 px-2 py-0.5 rounded border border-rose-200 text-xs",
+							className: "font-semibold text-[#e11d48] bg-rose-50 px-2 py-0.5 rounded border border-rose-200 text-[15px] shrink-0",
 							children: "Comportamental"
 						}), /* @__PURE__ */ (0, z.jsx)("span", { children: "Duração do som aversivo (*noise blast*) contra o avaliador" })]
 					}), /* @__PURE__ */ (0, z.jsxs)("div", {
-						className: "flex items-center gap-2 text-[13px] text-[#3f4042]",
+						className: "flex items-center gap-2 text-[16px] font-medium text-[#3f4042]",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "font-semibold text-[#0071e3] bg-blue-50 px-2 py-0.5 rounded border border-blue-200 text-xs",
+							className: "font-semibold text-[#0071e3] bg-blue-50 px-2 py-0.5 rounded border border-blue-200 text-[15px] shrink-0",
 							children: "Neural (fMRI)"
 						}), /* @__PURE__ */ (0, z.jsx)("span", { children: "Ativação em Ínsula Anterior (AI), MPFC e DLPFC (negativo vs. neutro)" })]
 					})]
@@ -17052,19 +17053,19 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "bg-slate-50/90 rounded-lg p-2 border border-slate-200/60",
 						children: [/* @__PURE__ */ (0, z.jsx)("div", {
-							className: "text-[11px] uppercase tracking-wider font-bold text-[#0071e3]",
+							className: "text-[14px] uppercase tracking-wider font-bold text-[#0071e3]",
 							children: "Efeitos Fixos"
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
-							className: "text-[13px] font-medium text-[#0f1012] leading-tight mt-0.5",
+							className: "text-[16px] font-medium text-[#0f1012] leading-tight mt-0.5",
 							children: "Trajetória média da população"
 						})]
 					}), /* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "bg-slate-50/90 rounded-lg p-2 border border-slate-200/60",
 						children: [/* @__PURE__ */ (0, z.jsx)("div", {
-							className: "text-[11px] uppercase tracking-wider font-bold text-[#0071e3]",
+							className: "text-[14px] uppercase tracking-wider font-bold text-[#0071e3]",
 							children: "Efeitos Aleatórios"
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
-							className: "text-[13px] font-medium text-[#0f1012] leading-tight mt-0.5",
+							className: "text-[16px] font-medium text-[#0f1012] leading-tight mt-0.5",
 							children: "Variação individual na inclinação"
 						})]
 					})]
@@ -17110,11 +17111,11 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 		"--feature-color-dark": "hsl(150, 85%, 94%)",
 		"--feature-glow": "rgba(16, 185, 129, 0.18)"
 	}
-}, rp = b.forwardRef(({ className: e, index: t, tag: n, title: r, description: i, imageSrc: a, color: o, imageClassName: s, imageContainerClassName: c, contentClassName: l, titleClassName: u, descriptionClassName: d, ...f }, p) => {
-	let m = np[o];
+}, rp = b.forwardRef(({ className: e, index: t, tag: n, title: r, description: i, imageSrc: a, color: o, imageClassName: s, imageContainerClassName: c, contentClassName: l, titleClassName: u, descriptionClassName: d, tagClassName: f, imageVariants: p, ...m }, h) => {
+	let g = np[o];
 	return /* @__PURE__ */ (0, z.jsxs)(H.div, {
-		ref: p,
-		style: m,
+		ref: h,
+		style: g,
 		className: q("relative flex h-[380px] w-full max-w-sm flex-col justify-end overflow-hidden rounded-2xl border border-slate-200/80 bg-white/70 p-4 shadow-sm cursor-pointer select-none transition-colors dark:border-white/10 dark:bg-slate-900/60", e),
 		whileHover: "hover",
 		initial: "initial",
@@ -17130,26 +17131,26 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 			stiffness: 240,
 			damping: 18
 		},
-		...f,
+		...m,
 		children: [
 			/* @__PURE__ */ (0, z.jsx)("div", {
 				className: "absolute inset-0 z-0 opacity-60 dark:opacity-30 pointer-events-none transition-opacity duration-300",
 				style: { background: "radial-gradient(circle at 50% 32%, var(--feature-color-light) 0%, transparent 72%)" }
 			}),
 			/* @__PURE__ */ (0, z.jsx)("div", {
-				className: "absolute top-3 left-4 font-mono text-xs font-bold text-slate-400 dark:text-slate-500 tracking-wider z-10",
+				className: "absolute top-3 left-4 font-mono text-[14px] font-bold text-slate-500 dark:text-slate-400 tracking-wider z-10",
 				children: t
 			}),
 			/* @__PURE__ */ (0, z.jsx)(H.div, {
 				className: q("absolute inset-x-0 top-1 bottom-12 z-10 flex items-center justify-center pointer-events-none", c),
-				variants: {
+				variants: p || {
 					initial: {
 						scale: 1,
 						y: 0
 					},
 					hover: {
-						scale: 1.12,
-						y: -8
+						scale: 1.08,
+						y: -4
 					}
 				},
 				transition: {
@@ -17176,7 +17177,7 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 					/* @__PURE__ */ (0, z.jsx)("div", {
 						className: "flex items-center justify-between mb-1",
 						children: /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "inline-block rounded-full px-2 py-0.5 text-[10px] font-bold tracking-wider uppercase border shadow-2xs",
+							className: q("inline-block rounded-full px-2.5 py-0.5 text-[14px] font-bold tracking-wider uppercase border shadow-2xs", f),
 							style: {
 								backgroundColor: "var(--feature-color-dark)",
 								color: "var(--feature-color)",
@@ -17186,11 +17187,11 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 						})
 					}),
 					/* @__PURE__ */ (0, z.jsx)("h4", {
-						className: q("text-[14px] md:text-[15px] font-bold text-slate-900 dark:text-white leading-snug tracking-tight", u),
+						className: q("text-[18px] font-bold text-slate-900 dark:text-white leading-snug tracking-tight", u),
 						children: r
 					}),
 					i && /* @__PURE__ */ (0, z.jsx)("p", {
-						className: q("mt-0.5 text-[11px] md:text-[12px] font-medium text-slate-600 dark:text-slate-300 leading-snug", d),
+						className: q("mt-0.5 text-[17px] font-medium text-slate-600 dark:text-slate-300 leading-snug", d),
 						children: i
 					})
 				]
@@ -17208,7 +17209,8 @@ var ip = [
 		title: "Genes e biologia",
 		description: "Expressão gênica dinâmica e substrato biológico.",
 		imageSrc: "assets/cards/dna-3d.png",
-		color: "blue"
+		color: "blue",
+		imageClassName: "w-[138px] h-[138px] object-contain drop-shadow-[0_14px_22px_rgba(37,99,235,0.26)]"
 	},
 	{
 		index: "02",
@@ -17216,7 +17218,8 @@ var ip = [
 		title: "Atividade neural",
 		description: "Circuitos cerebrais, conectividade e plasticidade.",
 		imageSrc: "assets/cards/brain-neural-3d.png",
-		color: "purple"
+		color: "purple",
+		imageClassName: "w-[138px] h-[138px] object-contain drop-shadow-[0_14px_22px_rgba(147,51,234,0.26)]"
 	},
 	{
 		index: "03",
@@ -17224,7 +17227,8 @@ var ip = [
 		title: "Comportamento",
 		description: "Ações observáveis, regulação e respostas ativas.",
 		imageSrc: "assets/cards/behavior-action-3d.png",
-		color: "orange"
+		color: "orange",
+		imageClassName: "w-[160px] h-[160px] object-contain drop-shadow-[0_14px_22px_rgba(245,158,11,0.26)]"
 	},
 	{
 		index: "04",
@@ -17232,7 +17236,8 @@ var ip = [
 		title: "Ambiente físico, social e cultural",
 		description: "Família, escola, pares e cultura em interação.",
 		imageSrc: "assets/cards/environment-world-3d.png",
-		color: "emerald"
+		color: "emerald",
+		imageClassName: "w-[138px] h-[138px] object-contain drop-shadow-[0_14px_22px_rgba(16,185,129,0.26)]"
 	}
 ], ap = {
 	hidden: { opacity: 0 },
@@ -17275,7 +17280,23 @@ function sp({ isActive: e = !0 }) {
 				description: e.description,
 				imageSrc: e.imageSrc,
 				color: e.color,
-				className: "h-[220px] w-full max-w-none p-3 shadow-xs border-slate-200/70 hover:border-slate-300 transition-colors"
+				imageContainerClassName: "top-1.5 bottom-[104px] z-10 flex items-center justify-center pointer-events-none",
+				imageClassName: e.imageClassName,
+				imageVariants: {
+					initial: {
+						scale: 1,
+						y: 0
+					},
+					hover: {
+						scale: 1.06,
+						y: -4
+					}
+				},
+				tagClassName: "text-[12px] font-bold tracking-wider px-2.5 py-0.5",
+				contentClassName: "px-3 py-2 rounded-xl border border-white/80 shadow-xs",
+				titleClassName: "text-[16px] font-bold text-slate-900 leading-snug tracking-tight",
+				descriptionClassName: "mt-0.5 text-[13.5px] font-medium text-slate-600 leading-snug",
+				className: "h-[270px] w-full max-w-none p-2.5 shadow-xs border-slate-200/70 hover:border-slate-300 transition-colors"
 			})
 		}, e.index))
 	});
@@ -18863,57 +18884,57 @@ var Lh = J(Ih), Rh = {
 Rh.node;
 var zh = J(Rh), Bh = [
 	{
-		size: "w-[360px] h-[360px]",
+		size: "w-[400px] h-[400px]",
 		duration: 22,
 		items: [{
 			text: "cuidadores e família",
 			angle: -50,
-			icon: /* @__PURE__ */ (0, z.jsx)(Nh, { className: "w-3.5 h-3.5 text-[#0071e3]" })
+			icon: /* @__PURE__ */ (0, z.jsx)(Nh, { className: "w-4 h-4 text-[#0071e3]" })
 		}, {
 			text: "vínculos de apego",
 			angle: 65,
-			icon: /* @__PURE__ */ (0, z.jsx)(Nh, { className: "w-3 h-3 text-blue-500" })
+			icon: /* @__PURE__ */ (0, z.jsx)(Nh, { className: "w-4 h-4 text-blue-500" })
 		}]
 	},
 	{
-		size: "w-[510px] h-[510px]",
+		size: "w-[570px] h-[570px]",
 		duration: 30,
 		items: [
 			{
 				text: "escola · pares · serviços de saúde",
 				angle: -15,
-				icon: /* @__PURE__ */ (0, z.jsx)(rh, { className: "w-3.5 h-3.5 text-[#0071e3]" })
+				icon: /* @__PURE__ */ (0, z.jsx)(rh, { className: "w-4 h-4 text-[#0071e3]" })
 			},
 			{
 				text: "pares & mediação",
 				angle: -105,
-				icon: /* @__PURE__ */ (0, z.jsx)(Nh, { className: "w-3 h-3 text-indigo-500" })
+				icon: /* @__PURE__ */ (0, z.jsx)(Nh, { className: "w-4 h-4 text-indigo-500" })
 			},
 			{
 				text: "serviços de saúde",
 				angle: 80,
-				icon: /* @__PURE__ */ (0, z.jsx)(Dm, { className: "w-3 h-3 text-rose-500" })
+				icon: /* @__PURE__ */ (0, z.jsx)(Dm, { className: "w-4 h-4 text-rose-500" })
 			}
 		]
 	},
 	{
-		size: "w-[660px] h-[660px]",
+		size: "w-[740px] h-[740px]",
 		duration: 38,
 		items: [
 			{
 				text: "comunidade · cultura · sociedade",
 				angle: -40,
-				icon: /* @__PURE__ */ (0, z.jsx)(pm, { className: "w-3.5 h-3.5 text-[#0071e3]" })
+				icon: /* @__PURE__ */ (0, z.jsx)(pm, { className: "w-4 h-4 text-[#0071e3]" })
 			},
 			{
 				text: "cultura & valores",
 				angle: 50,
-				icon: /* @__PURE__ */ (0, z.jsx)(zp, { className: "w-3 h-3 text-sky-500" })
+				icon: /* @__PURE__ */ (0, z.jsx)(zp, { className: "w-4 h-4 text-sky-500" })
 			},
 			{
 				text: "sociedade & políticas",
 				angle: 135,
-				icon: /* @__PURE__ */ (0, z.jsx)(qp, { className: "w-3 h-3 text-slate-600" })
+				icon: /* @__PURE__ */ (0, z.jsx)(qp, { className: "w-4 h-4 text-slate-600" })
 			}
 		]
 	}
@@ -18924,15 +18945,15 @@ function Vh({ className: e = "", orbits: t = Bh }) {
 		children: [
 			/* @__PURE__ */ (0, z.jsx)("style", { children: "\n        @keyframes orbit-cw {\n          from { transform: rotate(var(--start-angle)) }\n          to   { transform: rotate(calc(var(--start-angle) + 360deg)) }\n        }\n        @keyframes orbit-ccw {\n          from { transform: rotate(var(--start-angle)) }\n          to   { transform: rotate(calc(var(--start-angle) - 360deg)) }\n        }\n        @keyframes counter-cw {\n          from { transform: rotate(var(--counter-offset, 0deg)) }\n          to   { transform: rotate(calc(var(--counter-offset, 0deg) - 360deg)) }\n        }\n        @keyframes counter-ccw {\n          from { transform: rotate(var(--counter-offset, 0deg)) }\n          to   { transform: rotate(calc(var(--counter-offset, 0deg) + 360deg)) }\n        }\n      " }),
 			/* @__PURE__ */ (0, z.jsx)("div", {
-				className: "absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 aspect-square pointer-events-none w-[270px] h-[270px] z-10",
+				className: "absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 aspect-square pointer-events-none w-[300px] h-[300px] z-10",
 				children: /* @__PURE__ */ (0, z.jsx)(up, { particleCount: 3400 })
 			}),
 			/* @__PURE__ */ (0, z.jsx)("div", {
-				className: "absolute bottom-[145px] left-1/2 -translate-x-1/2 z-20 pointer-events-none flex flex-col items-center",
+				className: "absolute bottom-[160px] left-1/2 -translate-x-1/2 z-20 pointer-events-none flex flex-col items-center",
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "px-3.5 py-1 rounded-full bg-white/95 border border-blue-500/30 shadow-[0_4px_16px_rgba(0,113,227,0.16)] backdrop-blur-md flex items-center gap-1.5",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-1.5 h-1.5 rounded-full bg-[#0071e3] animate-pulse" }), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "font-['Urbanist',sans-serif] text-[11px] font-bold uppercase tracking-wider text-[#0071e3]",
+						className: "font-['Urbanist',sans-serif] text-[14px] font-bold uppercase tracking-wider text-[#0071e3]",
 						children: "criança em mudança"
 					})]
 				})
@@ -18955,12 +18976,12 @@ function Vh({ className: e = "", orbits: t = Bh }) {
 								animation: `${i} ${e.duration}s linear infinite`
 							},
 							children: /* @__PURE__ */ (0, z.jsxs)("div", {
-								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full border border-slate-200/90 bg-white/95 shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default select-none whitespace-nowrap",
+								className: "inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full border border-slate-200/90 bg-white/95 shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default select-none whitespace-nowrap",
 								children: [t.icon && /* @__PURE__ */ (0, z.jsx)("span", {
 									className: "shrink-0 flex items-center",
 									children: t.icon
 								}), /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "font-['Satoshi',sans-serif] text-[11px] font-semibold tracking-tight text-slate-800",
+									className: "font-['Satoshi',sans-serif] text-[15px] font-semibold tracking-tight text-slate-800",
 									children: t.text
 								})]
 							})
@@ -18978,7 +18999,7 @@ function Hh({ isActive: e = !0 }) {
 		className: "w-full flex items-center justify-between gap-6 px-2",
 		children: [
 			/* @__PURE__ */ (0, z.jsx)(H.div, {
-				className: "shrink-0 w-[340px]",
+				className: "shrink-0 w-[360px]",
 				initial: {
 					opacity: 0,
 					x: -30
@@ -19001,7 +19022,7 @@ function Hh({ isActive: e = !0 }) {
 					tag: "ENDÓGENO",
 					title: "Biologia individual",
 					description: /* @__PURE__ */ (0, z.jsxs)("div", {
-						className: "flex flex-col gap-1 mt-1 text-[11px] font-medium text-slate-600",
+						className: "flex flex-col gap-1 mt-1 text-[17px] font-medium text-slate-700",
 						children: [
 							/* @__PURE__ */ (0, z.jsxs)("span", {
 								className: "flex items-center gap-1.5",
@@ -19023,13 +19044,13 @@ function Hh({ isActive: e = !0 }) {
 					}),
 					imageSrc: "assets/cards/biology-dna-neural-3d.png",
 					imageClassName: "w-32 h-32 md:w-36 md:h-36",
-					imageContainerClassName: "top-3 bottom-[160px]",
+					imageContainerClassName: "top-3 bottom-[200px]",
 					color: "blue",
-					className: "h-[390px] w-full max-w-none shadow-sm border-slate-200/80 hover:border-blue-400/50 transition-colors"
+					className: "h-[450px] w-full max-w-none shadow-sm border-slate-200/80 hover:border-blue-400/50 transition-colors"
 				})
 			}),
 			/* @__PURE__ */ (0, z.jsxs)(H.div, {
-				className: "flex-1 min-w-0 flex flex-col items-center justify-center max-w-[820px]",
+				className: "flex-1 min-w-0 flex flex-col items-center justify-center max-w-[900px]",
 				initial: {
 					opacity: 0,
 					scale: .95
@@ -19054,25 +19075,25 @@ function Hh({ isActive: e = !0 }) {
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center gap-2",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
-								className: "font-['Urbanist',sans-serif] text-[10px] font-bold uppercase tracking-wider text-[#0071e3] bg-blue-50 border border-blue-200/60 px-2 py-0.5 rounded",
+								className: "font-['Urbanist',sans-serif] text-[14px] font-bold uppercase tracking-wider text-[#0071e3] bg-blue-50 border border-blue-200/60 px-2 py-0.5 rounded",
 								children: "Ecologia do Desenvolvimento"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "font-['Satoshi',sans-serif] text-[12px] font-semibold text-slate-700",
+								className: "font-['Satoshi',sans-serif] text-[18px] font-semibold text-slate-700",
 								children: "Camadas dinâmicas em torno da criança"
 							})]
 						}), /* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center gap-1.5 text-[11px] font-medium text-slate-500 bg-white/80 border border-slate-200/70 px-2 py-0.5 rounded-full shadow-2xs",
-							children: [/* @__PURE__ */ (0, z.jsx)(Dp, { className: "w-3 h-3 text-[#0071e3]" }), /* @__PURE__ */ (0, z.jsx)("span", { children: "Influências recíprocas" })]
+							className: "flex items-center gap-1.5 text-[16px] font-medium text-slate-600 bg-white/80 border border-slate-200/70 px-2 py-0.5 rounded-full shadow-2xs",
+							children: [/* @__PURE__ */ (0, z.jsx)(Dp, { className: "w-4 h-4 text-[#0071e3]" }), /* @__PURE__ */ (0, z.jsx)("span", { children: "Influências recíprocas" })]
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsx)("div", {
 						className: "w-full relative",
-						children: /* @__PURE__ */ (0, z.jsx)(Vh, { className: "h-[385px]" })
+						children: /* @__PURE__ */ (0, z.jsx)(Vh, { className: "h-[440px]" })
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "w-full mt-1 pt-1.5 border-t border-slate-200/70 flex flex-col gap-1",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center justify-between text-[11px] font-semibold font-['Urbanist',sans-serif] text-slate-600",
+							className: "flex items-center justify-between text-[17px] font-semibold font-['Urbanist',sans-serif] text-slate-600",
 							children: [
 								/* @__PURE__ */ (0, z.jsxs)("span", {
 									className: "flex items-center gap-1 text-[#0071e3]",
@@ -19099,7 +19120,7 @@ function Hh({ isActive: e = !0 }) {
 				]
 			}),
 			/* @__PURE__ */ (0, z.jsx)(H.div, {
-				className: "shrink-0 w-[340px]",
+				className: "shrink-0 w-[360px]",
 				initial: {
 					opacity: 0,
 					x: 30
@@ -19122,7 +19143,7 @@ function Hh({ isActive: e = !0 }) {
 					tag: "EXÓGENO",
 					title: "Experiência e contexto",
 					description: /* @__PURE__ */ (0, z.jsxs)("div", {
-						className: "flex flex-col gap-1 mt-1 text-[11px] font-medium text-slate-600",
+						className: "flex flex-col gap-1 mt-1 text-[17px] font-medium text-slate-700",
 						children: [
 							/* @__PURE__ */ (0, z.jsxs)("span", {
 								className: "flex items-center gap-1.5",
@@ -19144,9 +19165,9 @@ function Hh({ isActive: e = !0 }) {
 					}),
 					imageSrc: "assets/cards/experience-social-3d.png",
 					imageClassName: "w-32 h-32 md:w-36 md:h-36",
-					imageContainerClassName: "top-3 bottom-[160px]",
+					imageContainerClassName: "top-3 bottom-[200px]",
 					color: "emerald",
-					className: "h-[390px] w-full max-w-none shadow-sm border-slate-200/80 hover:border-emerald-400/50 transition-colors"
+					className: "h-[450px] w-full max-w-none shadow-sm border-slate-200/80 hover:border-emerald-400/50 transition-colors"
 				})
 			})
 		]
@@ -19158,7 +19179,7 @@ function Uh({ isActive: e = !0 }) {
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
 		className: "w-full h-full flex flex-col justify-between font-['Satoshi',sans-serif] text-[#0f1012]",
 		children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-			className: "grid grid-cols-1 lg:grid-cols-12 gap-5 flex-1 min-h-0 items-stretch",
+			className: "grid grid-cols-12 gap-5 flex-1 min-h-0 items-stretch",
 			children: [/* @__PURE__ */ (0, z.jsxs)(H.div, {
 				initial: {
 					opacity: 0,
@@ -19177,15 +19198,15 @@ function Uh({ isActive: e = !0 }) {
 						1
 					]
 				},
-				className: "lg:col-span-7 p-6 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_24px_rgba(0,0,0,0.03)] flex flex-col justify-between",
+				className: "lg:col-span-7 p-5 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_24px_rgba(0,0,0,0.03)] flex flex-col justify-between",
 				children: [
 					/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center justify-between mb-2",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[11px] font-bold uppercase tracking-[0.16em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0071e3]/20",
+							className: "text-[15px] font-bold uppercase tracking-[0.16em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0071e3]/20",
 							children: "A plasticidade muda com o tempo"
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-xs font-semibold text-[#5f6062]",
+							className: "text-[15px] font-semibold text-[#5f6062]",
 							children: "Knudsen (2004) · Gabard-Durnam & McLaughlin (2019)"
 						})]
 					}), /* @__PURE__ */ (0, z.jsx)("h3", {
@@ -19196,7 +19217,7 @@ function Uh({ isActive: e = !0 }) {
 						className: "w-full my-2 relative",
 						children: /* @__PURE__ */ (0, z.jsxs)("svg", {
 							viewBox: "0 0 940 380",
-							className: "w-full h-auto max-h-[280px] display-block overflow-visible",
+							className: "w-full h-auto max-h-[262px] display-block overflow-visible",
 							"aria-label": "Gráfico comparativo entre período crítico e sensível",
 							children: [
 								/* @__PURE__ */ (0, z.jsxs)("defs", { children: [/* @__PURE__ */ (0, z.jsxs)("linearGradient", {
@@ -19246,7 +19267,7 @@ function Uh({ isActive: e = !0 }) {
 									y: "20",
 									textAnchor: "middle",
 									fontFamily: "'Satoshi', sans-serif",
-									fontSize: "17",
+									fontSize: "21",
 									fontWeight: "700",
 									fill: "#0071e3",
 									letterSpacing: "0.04em",
@@ -19273,37 +19294,37 @@ function Uh({ isActive: e = !0 }) {
 									y: "165",
 									textAnchor: "middle",
 									fontFamily: "'Satoshi', sans-serif",
-									fontSize: "18",
+									fontSize: "21",
 									fontWeight: "600",
 									fill: "#5f6062",
 									transform: "rotate(-90 40 165)",
 									children: "plasticidade"
 								}),
 								/* @__PURE__ */ (0, z.jsx)("text", {
-									x: "95",
-									y: "338",
+									x: "85",
+									y: "342",
 									fontFamily: "'Satoshi', sans-serif",
-									fontSize: "17",
+									fontSize: "21",
 									fontWeight: "500",
 									fill: "#5f6062",
 									children: "início da vida"
 								}),
 								/* @__PURE__ */ (0, z.jsx)("text", {
 									x: "450",
-									y: "338",
+									y: "342",
 									textAnchor: "middle",
 									fontFamily: "'Satoshi', sans-serif",
-									fontSize: "17",
+									fontSize: "21",
 									fontWeight: "500",
 									fill: "#5f6062",
 									children: "infância · adolescência"
 								}),
 								/* @__PURE__ */ (0, z.jsx)("text", {
-									x: "895",
-									y: "338",
+									x: "905",
+									y: "342",
 									textAnchor: "end",
 									fontFamily: "'Satoshi', sans-serif",
-									fontSize: "17",
+									fontSize: "21",
 									fontWeight: "500",
 									fill: "#5f6062",
 									children: "vida adulta"
@@ -19334,17 +19355,17 @@ function Uh({ isActive: e = !0 }) {
 									transform: "translate(290, 88)",
 									children: [/* @__PURE__ */ (0, z.jsx)("rect", {
 										x: "-6",
-										y: "-20",
-										width: "138",
-										height: "26",
-										rx: "6",
+										y: "-26",
+										width: "190",
+										height: "34",
+										rx: "7",
 										fill: "#0071e3"
 									}), /* @__PURE__ */ (0, z.jsx)("text", {
-										x: "63",
+										x: "89",
 										y: "-2",
 										textAnchor: "middle",
 										fontFamily: "'Satoshi', sans-serif",
-										fontSize: "15",
+										fontSize: "21",
 										fontWeight: "700",
 										fill: "#ffffff",
 										children: "período crítico"
@@ -19354,17 +19375,17 @@ function Uh({ isActive: e = !0 }) {
 									transform: "translate(470, 122)",
 									children: [/* @__PURE__ */ (0, z.jsx)("rect", {
 										x: "-6",
-										y: "-20",
-										width: "144",
-										height: "26",
-										rx: "6",
+										y: "-26",
+										width: "198",
+										height: "34",
+										rx: "7",
 										fill: "#0f1012"
 									}), /* @__PURE__ */ (0, z.jsx)("text", {
-										x: "66",
+										x: "93",
 										y: "-2",
 										textAnchor: "middle",
 										fontFamily: "'Satoshi', sans-serif",
-										fontSize: "15",
+										fontSize: "21",
 										fontWeight: "700",
 										fill: "#ffffff",
 										children: "período sensível"
@@ -19373,11 +19394,11 @@ function Uh({ isActive: e = !0 }) {
 								/* @__PURE__ */ (0, z.jsxs)("g", {
 									transform: "translate(710, 276)",
 									children: [/* @__PURE__ */ (0, z.jsx)("rect", {
-										x: "-135",
-										y: "-18",
-										width: "270",
-										height: "24",
-										rx: "5",
+										x: "-176",
+										y: "-24",
+										width: "352",
+										height: "32",
+										rx: "6",
 										fill: "#f2f2f4",
 										stroke: "#c9cacc",
 										strokeWidth: "1"
@@ -19386,7 +19407,7 @@ function Uh({ isActive: e = !0 }) {
 										y: "-1",
 										textAnchor: "middle",
 										fontFamily: "'Satoshi', sans-serif",
-										fontSize: "14",
+										fontSize: "21",
 										fontWeight: "600",
 										fill: "#5f6062",
 										children: "plasticidade residual evidente"
@@ -19396,20 +19417,20 @@ function Uh({ isActive: e = !0 }) {
 						})
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
-						className: "grid grid-cols-1 md:grid-cols-2 gap-4 pt-3 border-t border-black/[0.06]",
+						className: "grid grid-cols-2 gap-4 pt-3 border-t border-black/[0.06]",
 						children: [/* @__PURE__ */ (0, z.jsx)("div", {
-							className: "bg-[#f8f9fa] rounded-2xl p-3.5 border border-black/[0.04]",
+							className: "bg-[#f8f9fa] rounded-2xl px-4 py-3 border border-black/[0.04]",
 							children: /* @__PURE__ */ (0, z.jsxs)("p", {
-								className: "m-0 text-[14px] font-normal leading-relaxed text-[#3f4042]",
+								className: "m-0 text-[17px] font-medium leading-snug text-[#3f4042]",
 								children: [/* @__PURE__ */ (0, z.jsx)("strong", {
 									className: "text-[#0071e3] font-semibold",
 									children: "Crítico:"
 								}), " uma experiência específica é necessária dentro de uma janela temporal mais restrita."]
 							})
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
-							className: "bg-[#f8f9fa] rounded-2xl p-3.5 border border-black/[0.04]",
+							className: "bg-[#f8f9fa] rounded-2xl px-4 py-3 border border-black/[0.04]",
 							children: /* @__PURE__ */ (0, z.jsxs)("p", {
-								className: "m-0 text-[14px] font-normal leading-relaxed text-[#3f4042]",
+								className: "m-0 text-[17px] font-medium leading-snug text-[#3f4042]",
 								children: [/* @__PURE__ */ (0, z.jsx)("strong", {
 									className: "text-[#0f1012] font-semibold",
 									children: "Sensível:"
@@ -19442,17 +19463,17 @@ function Uh({ isActive: e = !0 }) {
 					className: "p-5 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between flex-1",
 					children: [
 						/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-lg font-semibold font-['Urbanist',sans-serif] tracking-tight text-[#0f1012] m-0 mb-1",
+							className: "text-[21px] font-semibold font-['Urbanist',sans-serif] tracking-tight text-[#0f1012] m-0 mb-1",
 							children: "Não existe uma única curva de plasticidade"
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-xs text-[#6a6b6d] m-0 mb-2",
+							className: "text-[17px] font-medium text-[#5f6062] m-0 mb-1 leading-snug",
 							children: "Diferentes circuitos e domínios atingem seus picos em fases distintas"
 						})] }),
 						/* @__PURE__ */ (0, z.jsx)("div", {
 							className: "w-full my-1",
 							children: /* @__PURE__ */ (0, z.jsxs)("svg", {
 								viewBox: "0 0 620 280",
-								className: "w-full h-auto max-h-[190px] display-block overflow-visible",
+								className: "w-full h-auto max-h-[222px] display-block overflow-visible",
 								"aria-label": "Quatro curvas conceituais de plasticidade com picos em momentos diferentes",
 								children: [
 									/* @__PURE__ */ (0, z.jsx)("line", {
@@ -19503,22 +19524,21 @@ function Uh({ isActive: e = !0 }) {
 									}),
 									/* @__PURE__ */ (0, z.jsxs)("g", {
 										fontFamily: "'Satoshi', sans-serif",
-										fontSize: "16",
+										fontSize: "20",
 										fontWeight: "600",
 										children: [
 											/* @__PURE__ */ (0, z.jsx)("text", {
 												x: "195",
-												y: "40",
+												y: "38",
 												textAnchor: "middle",
 												fill: "#0071e3",
 												children: "sensorial"
 											}),
 											/* @__PURE__ */ (0, z.jsx)("text", {
 												x: "250",
-												y: "60",
+												y: "62",
 												textAnchor: "middle",
 												fill: "#0071e3",
-												opacity: "0.85",
 												children: "linguagem"
 											}),
 											/* @__PURE__ */ (0, z.jsx)("text", {
@@ -19529,9 +19549,8 @@ function Uh({ isActive: e = !0 }) {
 											}),
 											/* @__PURE__ */ (0, z.jsx)("text", {
 												x: "430",
-												y: "254",
-												fill: "#0f1012",
-												opacity: "0.75",
+												y: "262",
+												fill: "#3f4042",
 												children: "socioemocional"
 											})
 										]
@@ -19540,7 +19559,7 @@ function Uh({ isActive: e = !0 }) {
 							})
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[12px] text-[#6a6b6d] m-0 italic pt-1 border-t border-black/[0.05]",
+							className: "text-[16px] font-medium text-[#5f6062] m-0 italic pt-1 border-t border-black/[0.05]",
 							children: "Esquema conceitual — não representa idades universais."
 						})
 					]
@@ -19567,20 +19586,20 @@ function Uh({ isActive: e = !0 }) {
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center justify-between mb-1.5",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[11px] font-bold uppercase tracking-[0.14em] text-[#0071e3]",
+							className: "text-[15px] font-bold uppercase tracking-[0.14em] text-[#0071e3]",
 							children: "Plasticidade significa"
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] font-bold text-[#0071e3] bg-white/70 px-2 py-0.5 rounded-full border border-[#0071e3]/20",
+							className: "text-[14px] font-bold text-[#0071e3] bg-white/70 px-2 py-0.5 rounded-full border border-[#0071e3]/20",
 							children: "Kolb et al. (2017)"
 						})]
 					}), /* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-base font-medium text-[#0f1012] leading-snug m-0",
+						className: "text-[20px] font-medium text-[#0f1012] leading-snug m-0",
 						children: "O impacto da experiência depende de quando ela ocorre, sobre qual sistema atua e do estado desse sistema."
 					})]
 				})]
 			})]
 		}), /* @__PURE__ */ (0, z.jsxs)("div", {
-			className: "grid grid-cols-2 md:grid-cols-4 gap-4 pt-4",
+			className: "grid grid-cols-4 gap-4 pt-4",
 			children: [
 				/* @__PURE__ */ (0, z.jsxs)(H.div, {
 					initial: {
@@ -19595,28 +19614,28 @@ function Uh({ isActive: e = !0 }) {
 						duration: .4,
 						delay: .22
 					},
-					className: "p-4 rounded-2xl bg-white border border-black/[0.08] shadow-sm flex flex-col justify-between",
+					className: "px-5 py-4 rounded-2xl bg-white border border-black/[0.08] shadow-sm flex flex-col justify-between",
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center justify-between mb-1",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-bold uppercase tracking-wider text-[#6a6b6d]",
+								className: "text-[14px] font-bold uppercase tracking-wider text-[#5f6062]",
 								children: "Janela Estrita"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-bold px-2 py-0.5 rounded-full bg-blue-50 text-[#0071e3] border border-blue-200",
+								className: "text-[14px] font-bold px-2 py-0.5 rounded-full bg-blue-50 text-[#0071e3] border border-blue-200",
 								children: "Obrigatório"
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-base font-bold text-[#0f1012] tracking-tight",
+							className: "text-[21px] font-bold text-[#0f1012] tracking-tight leading-tight",
 							children: "Período Crítico"
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-sm font-semibold text-[#0071e3] mt-0.5",
+							className: "text-[18px] font-semibold text-[#0071e3] mt-0.5",
 							children: "Queda Pós-Janela"
 						})
 					] }), /* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[11px] text-[#5f6062] leading-snug mt-2 pt-2 border-t border-black/[0.05]",
+						className: "text-[17px] font-medium text-[#52525b] leading-snug mt-2 pt-2 border-t border-black/[0.05]",
 						children: "Experiência estritamente necessária dentro de janela temporal restrita."
 					})]
 				}),
@@ -19633,28 +19652,28 @@ function Uh({ isActive: e = !0 }) {
 						duration: .4,
 						delay: .28
 					},
-					className: "p-4 rounded-2xl bg-white border border-black/[0.08] shadow-sm flex flex-col justify-between",
+					className: "px-5 py-4 rounded-2xl bg-white border border-black/[0.08] shadow-sm flex flex-col justify-between",
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center justify-between mb-1",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-bold uppercase tracking-wider text-[#6a6b6d]",
+								className: "text-[14px] font-bold uppercase tracking-wider text-[#5f6062]",
 								children: "Regra em Humanos"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200",
+								className: "text-[14px] font-bold px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200",
 								children: "Prevalente"
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-base font-bold text-[#0f1012] tracking-tight",
+							className: "text-[21px] font-bold text-[#0f1012] tracking-tight leading-tight",
 							children: "Período Sensível"
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-sm font-semibold text-emerald-700 mt-0.5",
+							className: "text-[18px] font-semibold text-emerald-700 mt-0.5",
 							children: "Janela Flexível"
 						})
 					] }), /* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[11px] text-[#5f6062] leading-snug mt-2 pt-2 border-t border-black/[0.05]",
+						className: "text-[17px] font-medium text-[#52525b] leading-snug mt-2 pt-2 border-t border-black/[0.05]",
 						children: "Influência intensa em fase específica, mas modificações continuam possíveis depois."
 					})]
 				}),
@@ -19671,28 +19690,28 @@ function Uh({ isActive: e = !0 }) {
 						duration: .4,
 						delay: .34
 					},
-					className: "p-4 rounded-2xl bg-white border border-black/[0.08] shadow-sm flex flex-col justify-between",
+					className: "px-5 py-4 rounded-2xl bg-white border border-black/[0.08] shadow-sm flex flex-col justify-between",
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center justify-between mb-1",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-bold uppercase tracking-wider text-[#6a6b6d]",
+								className: "text-[14px] font-bold uppercase tracking-wider text-[#5f6062]",
 								children: "Neurodesenvolvimento"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-bold px-2 py-0.5 rounded-full bg-zinc-100 text-zinc-900 border border-zinc-200",
+								className: "text-[14px] font-bold px-2 py-0.5 rounded-full bg-zinc-100 text-zinc-900 border border-zinc-200",
 								children: "Modificável"
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-base font-bold text-[#0f1012] tracking-tight",
+							className: "text-[21px] font-bold text-[#0f1012] tracking-tight leading-tight",
 							children: "Capacidade Residual"
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-sm font-semibold text-[#0f1012] mt-0.5",
+							className: "text-[18px] font-semibold text-[#0f1012] mt-0.5",
 							children: "Não é Ilimitada"
 						})
 					] }), /* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[11px] text-[#5f6062] leading-snug mt-2 pt-2 border-t border-black/[0.05]",
+						className: "text-[17px] font-medium text-[#52525b] leading-snug mt-2 pt-2 border-t border-black/[0.05]",
 						children: "O cérebro permanece modificável — mas sua capacidade de mudança não é constante."
 					})]
 				}),
@@ -19709,28 +19728,28 @@ function Uh({ isActive: e = !0 }) {
 						duration: .4,
 						delay: .4
 					},
-					className: "p-4 rounded-2xl bg-white border border-black/[0.08] shadow-sm flex flex-col justify-between",
+					className: "px-5 py-4 rounded-2xl bg-white border border-black/[0.08] shadow-sm flex flex-col justify-between",
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center justify-between mb-1",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-bold uppercase tracking-wider text-[#6a6b6d]",
+								className: "text-[14px] font-bold uppercase tracking-wider text-[#5f6062]",
 								children: "Pergunta Clínica"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-bold px-2 py-0.5 rounded-full bg-purple-50 text-purple-700 border border-purple-200",
+								className: "text-[14px] font-bold px-2 py-0.5 rounded-full bg-purple-50 text-purple-700 border border-purple-200",
 								children: "Foco Prático"
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-base font-bold text-[#0f1012] tracking-tight",
+							className: "text-[21px] font-bold text-[#0f1012] tracking-tight leading-tight",
 							children: "O que, quando e como"
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-sm font-semibold text-purple-700 mt-0.5",
+							className: "text-[18px] font-semibold text-purple-700 mt-0.5",
 							children: "Resposta & Grau"
 						})
 					] }), /* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[11px] text-[#5f6062] leading-snug mt-2 pt-2 border-t border-black/[0.05]",
+						className: "text-[17px] font-medium text-[#52525b] leading-snug mt-2 pt-2 border-t border-black/[0.05]",
 						children: "A clínica indaga o que é plástico, quando, em resposta a quê e em que grau."
 					})]
 				})
@@ -19770,7 +19789,7 @@ function Wh({ isActive: e = !0 }) {
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
 		className: "w-full h-full flex flex-col justify-between font-['Satoshi',sans-serif] text-[#0f1012]",
 		children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-			className: "grid grid-cols-1 lg:grid-cols-12 gap-5 flex-1 min-h-0 items-stretch",
+			className: "grid grid-cols-12 gap-3 flex-1 min-h-0 items-stretch",
 			children: [/* @__PURE__ */ (0, z.jsxs)(H.div, {
 				initial: {
 					opacity: 0,
@@ -19789,16 +19808,16 @@ function Wh({ isActive: e = !0 }) {
 						1
 					]
 				},
-				className: "lg:col-span-7 p-6 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_24px_rgba(0,0,0,0.03)] flex flex-col justify-between",
+				className: "lg:col-span-7 p-4 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_24px_rgba(0,0,0,0.03)] flex flex-col justify-between",
 				children: [
 					/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center justify-between mb-2",
 							children: [/* @__PURE__ */ (0, z.jsxs)("span", {
-								className: "inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-[0.16em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0071e3]/20",
+								className: "inline-flex items-center gap-1.5 text-[15px] font-bold uppercase tracking-[0.16em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0071e3]/20",
 								children: [/* @__PURE__ */ (0, z.jsx)(Tp, { className: "w-3.5 h-3.5" }), "Mecanismo de Propagação"]
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-xs font-semibold text-[#5f6062]",
+								className: "text-[15px] font-semibold text-[#5f6062]",
 								children: "Schneider & West (2025) · Masten & Cicchetti (2010)"
 							})]
 						}),
@@ -19807,15 +19826,15 @@ function Wh({ isActive: e = !0 }) {
 							children: "Efeitos que se Propagam entre Domínios e ao Longo do Tempo"
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-xs text-[#5f6062] mt-0.5",
+							className: "text-[17px] font-medium text-[#5f6062] mt-0.5 leading-snug",
 							children: "Mudanças em um sistema criam novas possibilidades de ação e reconfiguram a experiência da criança."
 						})
 					] }),
 					/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-full my-2 relative bg-[#fcfdfe] rounded-2xl p-3 border border-black/[0.04]",
+						className: "w-full my-1.5 relative bg-[#fcfdfe] rounded-2xl p-1.5 border border-black/[0.04]",
 						children: /* @__PURE__ */ (0, z.jsxs)("svg", {
 							viewBox: "0 0 940 340",
-							className: "w-full h-auto max-h-[250px] display-block overflow-visible",
+							className: "w-full h-auto max-h-[300px] display-block overflow-visible",
 							"aria-label": "Diagrama de trilhas paralelas e efeitos em cascata entre domínios",
 							children: [
 								/* @__PURE__ */ (0, z.jsxs)("defs", { children: [
@@ -19897,19 +19916,19 @@ function Wh({ isActive: e = !0 }) {
 										onMouseEnter: () => n(r),
 										onMouseLeave: () => n(null),
 										children: [/* @__PURE__ */ (0, z.jsx)("rect", {
-											x: "10",
-											y: i - 18,
-											width: "155",
-											height: "36",
+											x: "6",
+											y: i - 20,
+											width: "218",
+											height: "40",
 											rx: "8",
 											fill: t === r ? "#e8f2fc" : "#f4f5f7",
 											stroke: t === r ? "#0071e3" : "transparent",
 											strokeWidth: "1"
 										}), /* @__PURE__ */ (0, z.jsx)("text", {
-											x: "24",
-											y: i + 5,
+											x: "18",
+											y: i + 6,
 											fontFamily: "'Satoshi', sans-serif",
-											fontSize: "14",
+											fontSize: "18",
 											fontWeight: "700",
 											fill: t === r ? "#0071e3" : "#3f4042",
 											letterSpacing: "-0.2px",
@@ -19975,11 +19994,11 @@ function Wh({ isActive: e = !0 }) {
 											fill: "#ffffff"
 										}),
 										/* @__PURE__ */ (0, z.jsx)("text", {
-											x: "0",
-											y: "-18",
-											textAnchor: "middle",
+											x: "-14",
+											y: "-20",
+											textAnchor: "start",
 											fontFamily: "'Satoshi', sans-serif",
-											fontSize: "13",
+											fontSize: "18",
 											fontWeight: "700",
 											fill: "#0071e3",
 											children: "1. Mudança inicial"
@@ -20003,11 +20022,11 @@ function Wh({ isActive: e = !0 }) {
 											fill: "#ffffff"
 										}),
 										/* @__PURE__ */ (0, z.jsx)("text", {
-											x: "0",
-											y: "-18",
-											textAnchor: "middle",
+											x: "-8",
+											y: "-20",
+											textAnchor: "start",
 											fontFamily: "'Satoshi', sans-serif",
-											fontSize: "13",
+											fontSize: "18",
 											fontWeight: "700",
 											fill: "#0284c7",
 											children: "2. Novas ações & exploração"
@@ -20031,11 +20050,11 @@ function Wh({ isActive: e = !0 }) {
 											fill: "#ffffff"
 										}),
 										/* @__PURE__ */ (0, z.jsx)("text", {
-											x: "0",
-											y: "-18",
-											textAnchor: "middle",
+											x: "8",
+											y: "-20",
+											textAnchor: "start",
 											fontFamily: "'Satoshi', sans-serif",
-											fontSize: "13",
+											fontSize: "18",
 											fontWeight: "700",
 											fill: "#4f46e5",
 											children: "3. Novas experiências"
@@ -20060,10 +20079,10 @@ function Wh({ isActive: e = !0 }) {
 										}),
 										/* @__PURE__ */ (0, z.jsx)("text", {
 											x: "0",
-											y: "-18",
+											y: "-20",
 											textAnchor: "middle",
 											fontFamily: "'Satoshi', sans-serif",
-											fontSize: "13",
+											fontSize: "18",
 											fontWeight: "700",
 											fill: "#7c3aed",
 											children: "4. Mudança noutro domínio"
@@ -20073,21 +20092,21 @@ function Wh({ isActive: e = !0 }) {
 								/* @__PURE__ */ (0, z.jsxs)("g", {
 									transform: "translate(520, 314)",
 									children: [/* @__PURE__ */ (0, z.jsx)("rect", {
-										x: "-140",
-										y: "-13",
-										width: "280",
-										height: "26",
-										rx: "13",
+										x: "-165",
+										y: "-15",
+										width: "330",
+										height: "30",
+										rx: "15",
 										fill: "#ffffff",
 										stroke: "#0f1012",
 										strokeWidth: "1.2",
 										strokeOpacity: "0.25"
 									}), /* @__PURE__ */ (0, z.jsx)("text", {
 										x: "0",
-										y: "4",
+										y: "6",
 										textAnchor: "middle",
 										fontFamily: "'Satoshi', sans-serif",
-										fontSize: "12",
+										fontSize: "18",
 										fontWeight: "600",
 										fill: "#2d2e30",
 										children: "↺ O ambiente responde: Co-regulação"
@@ -20099,13 +20118,13 @@ function Wh({ isActive: e = !0 }) {
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "pt-2.5 border-t border-black/[0.06] flex items-center justify-between",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center gap-1.5 text-xs text-[#5f6062]",
-							children: [/* @__PURE__ */ (0, z.jsx)(Fm, { className: "w-3.5 h-3.5 text-[#0071e3]" }), /* @__PURE__ */ (0, z.jsx)("span", {
+							className: "flex items-center gap-1.5 text-[16px] text-[#5f6062]",
+							children: [/* @__PURE__ */ (0, z.jsx)(Fm, { className: "w-4 h-4 text-[#0071e3]" }), /* @__PURE__ */ (0, z.jsx)("span", {
 								className: "font-semibold text-[#0f1012]",
 								children: "Escalas temporais integradas:"
 							})]
 						}), /* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center gap-4 text-[13px]",
+							className: "flex items-center gap-3 text-[16px]",
 							children: [
 								/* @__PURE__ */ (0, z.jsxs)("span", {
 									onMouseEnter: () => i("seg"),
@@ -20138,7 +20157,7 @@ function Wh({ isActive: e = !0 }) {
 					})
 				]
 			}), /* @__PURE__ */ (0, z.jsxs)("div", {
-				className: "lg:col-span-5 flex flex-col gap-4 justify-between",
+				className: "lg:col-span-5 flex flex-col gap-3 justify-between",
 				children: [/* @__PURE__ */ (0, z.jsxs)(H.div, {
 					initial: {
 						opacity: 0,
@@ -20158,40 +20177,40 @@ function Wh({ isActive: e = !0 }) {
 							1
 						]
 					},
-					className: "p-5 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] flex-1",
+					className: "p-4 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] flex-1",
 					children: [
 						/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 							/* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "flex items-center justify-between mb-2",
 								children: [/* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-400",
+									className: "text-[14px] font-bold uppercase tracking-[0.12em] text-zinc-400",
 									children: "Dinâmica Recíproca"
 								}), /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[10px] font-semibold text-zinc-300 bg-white/10 px-2 py-0.5 rounded-full border border-white/15",
+									className: "text-[14px] font-semibold text-zinc-300 bg-white/10 px-2 py-0.5 rounded-full border border-white/15",
 									children: "Criança ↔ Ambiente"
 								})]
 							}),
 							/* @__PURE__ */ (0, z.jsx)("h4", {
-								className: "text-xl font-bold tracking-tight text-white",
+								className: "text-[21px] font-bold tracking-tight text-white leading-tight",
 								children: "Co-regulação Desenvolvimental"
 							}),
 							/* @__PURE__ */ (0, z.jsx)("p", {
-								className: "text-[12px] font-medium text-zinc-300 mt-1.5 leading-relaxed",
+								className: "text-[17px] font-medium text-zinc-300 mt-1.5 leading-snug",
 								children: "A criança não é receptora passiva: suas conquistas alteram as respostas dos cuidadores e remodelam o input recebido."
 							})
 						] }),
 						/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex flex-col gap-2 my-2",
+							className: "grid grid-cols-2 gap-2 my-1.5",
 							children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "p-3 bg-zinc-900/90 rounded-2xl border border-zinc-800/80 flex items-start gap-2.5",
-								children: [/* @__PURE__ */ (0, z.jsx)(hh, { className: "w-4 h-4 text-[#0071e3] shrink-0 mt-0.5" }), /* @__PURE__ */ (0, z.jsx)("p", {
-									className: "text-xs text-zinc-200 leading-relaxed m-0 font-normal",
+								children: [/* @__PURE__ */ (0, z.jsx)(hh, { className: "w-5 h-5 text-[#0071e3] shrink-0 mt-0.5" }), /* @__PURE__ */ (0, z.jsx)("p", {
+									className: "text-[16px] text-zinc-200 leading-snug m-0 font-medium",
 									children: "Uma nova habilidade não muda apenas o que a criança consegue fazer: muda o que ela passa a experimentar."
 								})]
 							}), /* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "p-3 bg-zinc-900/90 rounded-2xl border border-zinc-800/80 flex items-start gap-2.5",
-								children: [/* @__PURE__ */ (0, z.jsx)(Tp, { className: "w-4 h-4 text-emerald-400 shrink-0 mt-0.5" }), /* @__PURE__ */ (0, z.jsx)("p", {
-									className: "text-xs text-zinc-300 leading-relaxed m-0 font-normal",
+								children: [/* @__PURE__ */ (0, z.jsx)(Tp, { className: "w-5 h-5 text-emerald-400 shrink-0 mt-0.5" }), /* @__PURE__ */ (0, z.jsx)("p", {
+									className: "text-[16px] text-zinc-200 leading-snug m-0 font-medium",
 									children: "Pequenas diferenças iniciais podem ganhar importância porque modificam as experiências que vêm depois."
 								})]
 							})]
@@ -20199,10 +20218,10 @@ function Wh({ isActive: e = !0 }) {
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center justify-between pt-1.5 border-t border-zinc-800",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-xs font-semibold text-zinc-400",
+								className: "text-[16px] font-semibold text-zinc-400",
 								children: "Princípio fundamental:"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-xs font-bold text-amber-300 bg-amber-400/10 px-2.5 py-0.5 rounded-full border border-amber-400/25",
+								className: "text-[16px] font-bold text-amber-300 bg-amber-400/10 px-2.5 py-0.5 rounded-full border border-amber-400/25",
 								children: "Cascata ≠ Destino"
 							})]
 						})
@@ -20226,82 +20245,82 @@ function Wh({ isActive: e = !0 }) {
 							1
 						]
 					},
-					className: "p-5 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between flex-1",
+					className: "p-4 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between flex-1",
 					children: [
 						/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 							/* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "flex items-center justify-between mb-1.5",
 								children: [/* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[10px] font-bold uppercase tracking-[0.14em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2 py-0.5 rounded-md",
+									className: "text-[14px] font-bold uppercase tracking-[0.1em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2 py-0.5 rounded-md",
 									children: "Evidência Empírica"
 								}), /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[11px] font-semibold text-[#5f6062]",
+									className: "text-[15px] font-semibold text-[#5f6062]",
 									children: "Iverson et al. (2023)"
 								})]
 							}),
 							/* @__PURE__ */ (0, z.jsx)("h4", {
-								className: "text-base font-bold text-[#0f1012] tracking-tight",
+								className: "text-[20px] font-bold text-[#0f1012] tracking-tight leading-tight",
 								children: "Um Exemplo: Aprender a Sentar"
 							}),
 							/* @__PURE__ */ (0, z.jsx)("p", {
-								className: "text-[11px] text-[#5f6062] mt-0.5",
+								className: "text-[16px] font-medium text-[#5f6062] mt-0.5 leading-snug",
 								children: "Uma habilidade motora isolada reconfigura quatro dimensões cognitivas e sociais:"
 							})
 						] }),
 						/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "grid grid-cols-2 gap-2 my-2.5",
+							className: "grid grid-cols-2 gap-2 my-1.5",
 							children: [
 								/* @__PURE__ */ (0, z.jsxs)("div", {
-									className: "p-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]",
+									className: "px-2.5 py-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]",
 									children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-										className: "flex items-center gap-1.5 text-xs font-bold text-[#0f1012]",
-										children: [/* @__PURE__ */ (0, z.jsx)(hm, { className: "w-3.5 h-3.5 text-[#0071e3]" }), /* @__PURE__ */ (0, z.jsx)("span", { children: "Campo visual" })]
+										className: "flex items-center gap-1.5 text-[16px] font-bold text-[#0f1012]",
+										children: [/* @__PURE__ */ (0, z.jsx)(hm, { className: "w-4 h-4 text-[#0071e3]" }), /* @__PURE__ */ (0, z.jsx)("span", { children: "Campo visual" })]
 									}), /* @__PURE__ */ (0, z.jsx)("p", {
-										className: "text-[11px] text-[#5f6062] mt-1 leading-snug",
+										className: "text-[16px] font-medium text-[#52525b] mt-0.5 leading-snug",
 										children: "Amplia o horizonte visual e o rastreamento face a face."
 									})]
 								}),
 								/* @__PURE__ */ (0, z.jsxs)("div", {
-									className: "p-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]",
+									className: "px-2.5 py-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]",
 									children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-										className: "flex items-center gap-1.5 text-xs font-bold text-[#0f1012]",
+										className: "flex items-center gap-1.5 text-[16px] font-bold text-[#0f1012]",
 										children: [/* @__PURE__ */ (0, z.jsx)(Cm, { className: "w-3.5 h-3.5 text-emerald-600" }), /* @__PURE__ */ (0, z.jsx)("span", { children: "Mãos livres" })]
 									}), /* @__PURE__ */ (0, z.jsx)("p", {
-										className: "text-[11px] text-[#5f6062] mt-1 leading-snug",
+										className: "text-[16px] font-medium text-[#52525b] mt-0.5 leading-snug",
 										children: "Desengate postural para explorar e manipular objetos."
 									})]
 								}),
 								/* @__PURE__ */ (0, z.jsxs)("div", {
-									className: "p-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]",
+									className: "px-2.5 py-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]",
 									children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-										className: "flex items-center gap-1.5 text-xs font-bold text-[#0f1012]",
+										className: "flex items-center gap-1.5 text-[16px] font-bold text-[#0f1012]",
 										children: [/* @__PURE__ */ (0, z.jsx)(zm, { className: "w-3.5 h-3.5 text-indigo-600" }), /* @__PURE__ */ (0, z.jsx)("span", { children: "Vocalização" })]
 									}), /* @__PURE__ */ (0, z.jsx)("p", {
-										className: "text-[11px] text-[#5f6062] mt-1 leading-snug",
+										className: "text-[16px] font-medium text-[#52525b] mt-0.5 leading-snug",
 										children: "A postura estável organiza a respiração para fonação."
 									})]
 								}),
 								/* @__PURE__ */ (0, z.jsxs)("div", {
-									className: "p-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]",
+									className: "px-2.5 py-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]",
 									children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-										className: "flex items-center gap-1.5 text-xs font-bold text-[#0f1012]",
+										className: "flex items-center gap-1.5 text-[16px] font-bold text-[#0f1012]",
 										children: [/* @__PURE__ */ (0, z.jsx)(Nh, { className: "w-3.5 h-3.5 text-purple-600" }), /* @__PURE__ */ (0, z.jsx)("span", { children: "Atenção conjunta" })]
 									}), /* @__PURE__ */ (0, z.jsx)("p", {
-										className: "text-[11px] text-[#5f6062] mt-1 leading-snug",
+										className: "text-[16px] font-medium text-[#52525b] mt-0.5 leading-snug",
 										children: "Modifica a interação dialógica com adultos e pares."
 									})]
 								})
 							]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11px] text-[#6a6b6d] italic m-0 pt-1.5 border-t border-black/[0.05]",
+							className: "text-[16px] font-medium text-[#5f6062] italic m-0 pt-1.5 border-t border-black/[0.05]",
 							children: "Exemplo de cascata — não uma sequência linear obrigatória."
 						})
 					]
 				})]
 			})]
 		}), /* @__PURE__ */ (0, z.jsx)("div", {
-			className: "grid grid-cols-2 md:grid-cols-4 gap-4 pt-4",
+			className: "grid grid-cols-4 gap-3 pt-2",
 			children: [
 				{
 					label: "CONECTIVIDADE",
@@ -20344,21 +20363,21 @@ function Wh({ isActive: e = !0 }) {
 					duration: .4,
 					delay: .2 + n * .06
 				},
-				className: q("p-4 rounded-2xl bg-white border border-black/[0.08] shadow-sm flex flex-col justify-between transition-colors", t.badgeType === "emerald" && "hover:border-emerald-300 hover:bg-emerald-50/40", t.badgeType === "blue" && "hover:border-blue-300 hover:bg-blue-50/40", t.badgeType === "indigo" && "hover:border-indigo-300 hover:bg-indigo-50/40", t.badgeType === "amber" && "hover:border-amber-300 hover:bg-amber-50/40"),
+				className: q("px-4 py-3 rounded-2xl bg-white border border-black/[0.08] shadow-sm flex flex-col justify-between transition-colors", t.badgeType === "emerald" && "hover:border-emerald-300 hover:bg-emerald-50/40", t.badgeType === "blue" && "hover:border-blue-300 hover:bg-blue-50/40", t.badgeType === "indigo" && "hover:border-indigo-300 hover:bg-indigo-50/40", t.badgeType === "amber" && "hover:border-amber-300 hover:bg-amber-50/40"),
 				children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center justify-between mb-1",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[10px] font-bold uppercase tracking-wider text-[#6a6b6d]",
+						className: "text-[14px] font-bold uppercase tracking-wider text-[#5f6062]",
 						children: t.label
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: q("text-[10px] font-bold px-2 py-0.5 rounded-full border", t.badgeType === "emerald" && "bg-emerald-50 text-emerald-700 border-emerald-200", t.badgeType === "blue" && "bg-blue-50 text-[#0071e3] border-blue-200", t.badgeType === "indigo" && "bg-indigo-50 text-indigo-700 border-indigo-200", t.badgeType === "amber" && "bg-amber-50 text-amber-700 border-amber-200"),
+						className: q("text-[14px] font-bold px-2 py-0.5 rounded-full border", t.badgeType === "emerald" && "bg-emerald-50 text-emerald-700 border-emerald-200", t.badgeType === "blue" && "bg-blue-50 text-[#0071e3] border-blue-200", t.badgeType === "indigo" && "bg-indigo-50 text-indigo-700 border-indigo-200", t.badgeType === "amber" && "bg-amber-50 text-amber-700 border-amber-200"),
 						children: t.badge
 					})]
 				}), /* @__PURE__ */ (0, z.jsx)("p", {
-					className: "text-lg font-bold text-[#0f1012] tracking-tight",
+					className: "text-[20px] font-bold text-[#0f1012] tracking-tight leading-tight",
 					children: t.title
 				})] }), /* @__PURE__ */ (0, z.jsx)("p", {
-					className: "text-[11px] text-[#5f6062] leading-snug mt-2 pt-2 border-t border-black/[0.05]",
+					className: "text-[16px] font-medium text-[#52525b] leading-snug mt-1.5 pt-1.5 border-t border-black/[0.05]",
 					children: t.desc
 				})]
 			}, t.label))
@@ -20448,9 +20467,10 @@ function Kh({ isActive: e = !0 }) {
 		}
 	];
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: "w-full h-full flex flex-col justify-between font-['Satoshi',sans-serif] text-[#0f1012] overflow-hidden",
+		className: "w-full h-full flex flex-col justify-between gap-2 font-['Satoshi',sans-serif] text-[#0f1012]",
 		children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-			className: "grid grid-cols-1 lg:grid-cols-12 gap-3.5 flex-1 min-h-0 items-stretch",
+			className: "grid gap-4 flex-1 min-h-0 items-stretch",
+			style: { gridTemplateColumns: "8fr 7fr 9fr" },
 			children: [
 				/* @__PURE__ */ (0, z.jsxs)(H.div, {
 					initial: {
@@ -20470,44 +20490,41 @@ function Kh({ isActive: e = !0 }) {
 							1
 						]
 					},
-					className: "lg:col-span-4 p-3.5 rounded-2xl bg-white border border-black/[0.08] shadow-[0_4px_18px_rgba(0,0,0,0.03)] flex flex-col justify-between",
+					className: "min-w-0 p-4 rounded-2xl bg-white border border-black/[0.08] shadow-[0_4px_18px_rgba(0,0,0,0.03)] flex flex-col justify-between gap-2",
 					children: [
 						/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 							/* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "flex items-center justify-between mb-1",
 								children: [/* @__PURE__ */ (0, z.jsxs)("span", {
-									className: "inline-flex items-center gap-1.5 text-[9.5px] font-bold uppercase tracking-[0.14em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2 py-0.5 rounded-full border border-[#0071e3]/20",
-									children: [/* @__PURE__ */ (0, z.jsx)(Tp, { className: "w-3 h-3" }), "Mapeamento de Trajetórias"]
+									className: "inline-flex items-center gap-1.5 text-[14px] font-bold uppercase tracking-[0.08em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2 py-0.5 rounded-full border border-[#0071e3]/20",
+									children: [/* @__PURE__ */ (0, z.jsx)(Tp, { className: "w-4 h-4" }), "Mapeamento de Trajetórias"]
 								}), /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[10.5px] font-semibold text-[#5f6062]",
+									className: "text-[14px] font-semibold text-[#5f6062]",
 									children: "Masten & Barnes (2018)"
 								})]
 							}),
 							/* @__PURE__ */ (0, z.jsx)("h3", {
-								className: "text-base font-bold tracking-tight text-[#0f1012] leading-tight",
+								className: "text-[22px] font-bold tracking-tight text-[#0f1012] leading-tight mt-1",
 								children: "Mesmo Risco, Trajetórias Diferentes"
 							}),
 							/* @__PURE__ */ (0, z.jsx)("p", {
-								className: "text-[10.5px] text-[#5f6062] mt-0.5 leading-snug",
+								className: "text-[16px] font-medium text-[#5f6062] mt-1 leading-snug",
 								children: "O impacto do risco diverge conforme os recursos protetores e o momento da intervenção."
 							}),
 							/* @__PURE__ */ (0, z.jsx)("div", {
 								className: "flex items-center justify-between gap-1 w-full mt-1.5 p-1 bg-[#f8f9fa] rounded-lg border border-black/[0.04]",
 								children: a.map((e) => /* @__PURE__ */ (0, z.jsxs)("button", {
 									onClick: () => n(t === e.id ? null : e.id),
-									className: q("flex-1 flex items-center justify-center gap-1.5 py-0.5 px-1 rounded-md text-[9.5px] font-semibold transition-all", t === e.id ? "bg-white shadow-xs text-[#0f1012]" : "text-[#5f6062] hover:text-black"),
+									className: q("flex-1 flex items-center justify-center gap-1.5 py-1 px-1 rounded-md text-[15px] font-semibold transition-all", t === e.id ? "bg-white shadow-xs text-[#0f1012]" : "text-[#5f6062] hover:text-black"),
 									children: [/* @__PURE__ */ (0, z.jsx)("span", {
-										className: "w-2 h-2 rounded-full shrink-0",
+										className: "w-2.5 h-2.5 rounded-full shrink-0",
 										style: { backgroundColor: e.color }
-									}), /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "truncate",
-										children: e.name
-									})]
+									}), /* @__PURE__ */ (0, z.jsx)("span", { children: e.name })]
 								}, e.id))
 							})
 						] }),
 						/* @__PURE__ */ (0, z.jsx)("div", {
-							className: "w-full my-1 flex-1 min-h-[190px] relative bg-[#fcfdfe] rounded-xl p-1.5 border border-black/[0.04] flex items-center justify-center",
+							className: "w-full flex-1 min-h-[200px] relative bg-[#fcfdfe] rounded-xl p-1.5 border border-black/[0.04] flex items-center justify-center",
 							children: /* @__PURE__ */ (0, z.jsxs)("svg", {
 								viewBox: "0 0 580 270",
 								className: "w-full h-full display-block overflow-visible",
@@ -20593,21 +20610,21 @@ function Kh({ isActive: e = !0 }) {
 											}),
 											/* @__PURE__ */ (0, z.jsx)("text", {
 												x: "70",
-												y: "260",
+												y: "262",
 												fontFamily: "'Satoshi', sans-serif",
-												fontSize: "11",
+												fontSize: "17",
 												fontWeight: "600",
-												fill: "#64748b",
+												fill: "#475569",
 												children: "infância precoce"
 											}),
 											/* @__PURE__ */ (0, z.jsx)("text", {
-												x: "440",
-												y: "260",
+												x: "445",
+												y: "262",
 												textAnchor: "end",
 												fontFamily: "'Satoshi', sans-serif",
-												fontSize: "11",
+												fontSize: "17",
 												fontWeight: "600",
-												fill: "#64748b",
+												fill: "#475569",
 												children: "adolescência"
 											}),
 											/* @__PURE__ */ (0, z.jsx)("text", {
@@ -20615,9 +20632,9 @@ function Kh({ isActive: e = !0 }) {
 												y: "130",
 												textAnchor: "middle",
 												fontFamily: "'Satoshi', sans-serif",
-												fontSize: "11",
+												fontSize: "17",
 												fontWeight: "600",
-												fill: "#64748b",
+												fill: "#475569",
 												transform: "rotate(-90 22 130)",
 												children: "Adaptação funcional"
 											})
@@ -20680,19 +20697,19 @@ function Kh({ isActive: e = !0 }) {
 												fill: "#ffffff"
 											}),
 											/* @__PURE__ */ (0, z.jsx)("rect", {
-												x: "-30",
-												y: "-26",
-												width: "60",
-												height: "18",
-												rx: "5",
+												x: "38",
+												y: "-28",
+												width: "80",
+												height: "24",
+												rx: "6",
 												fill: "#0071e3"
 											}),
 											/* @__PURE__ */ (0, z.jsx)("text", {
-												x: "0",
-												y: "-13",
+												x: "78",
+												y: "-11",
 												textAnchor: "middle",
 												fontFamily: "'Satoshi', sans-serif",
-												fontSize: "9.5",
+												fontSize: "16",
 												fontWeight: "700",
 												fill: "#ffffff",
 												children: "desafio"
@@ -20701,7 +20718,7 @@ function Kh({ isActive: e = !0 }) {
 									}),
 									/* @__PURE__ */ (0, z.jsxs)("g", {
 										fontFamily: "'Satoshi', sans-serif",
-										fontSize: "11",
+										fontSize: "18",
 										fontWeight: "700",
 										children: [
 											/* @__PURE__ */ (0, z.jsx)("text", {
@@ -20728,9 +20745,9 @@ function Kh({ isActive: e = !0 }) {
 							})
 						}),
 						/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "p-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04] flex items-center gap-2",
-							children: [/* @__PURE__ */ (0, z.jsx)(dm, { className: "w-3.5 h-3.5 text-[#0071e3] shrink-0" }), /* @__PURE__ */ (0, z.jsx)("p", {
-								className: "m-0 text-[10px] text-[#3f4042] leading-snug",
+							className: "px-3 py-2.5 rounded-xl bg-[#f8f9fa] border border-black/[0.04] flex items-start gap-2",
+							children: [/* @__PURE__ */ (0, z.jsx)(dm, { className: "w-5 h-5 text-[#0071e3] shrink-0 mt-0.5" }), /* @__PURE__ */ (0, z.jsx)("p", {
+								className: "m-0 text-[16px] font-medium text-[#3f4042] leading-snug",
 								children: "A trajetória depende da intensidade e duração do risco, do momento do desenvolvimento, dos recursos disponíveis e das oportunidades de intervenção."
 							})]
 						})
@@ -20755,29 +20772,29 @@ function Kh({ isActive: e = !0 }) {
 							1
 						]
 					},
-					className: "lg:col-span-4 p-3.5 rounded-2xl bg-white border border-black/[0.08] shadow-[0_4px_18px_rgba(0,0,0,0.03)] flex flex-col justify-between",
+					className: "min-w-0 p-4 rounded-2xl bg-white border border-black/[0.08] shadow-[0_4px_18px_rgba(0,0,0,0.03)] flex flex-col justify-between gap-2",
 					children: [
 						/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center justify-between mb-1",
 							children: [/* @__PURE__ */ (0, z.jsxs)("span", {
-								className: "inline-flex items-center gap-1.5 text-[9.5px] font-bold uppercase tracking-[0.14em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2 py-0.5 rounded-full border border-[#0071e3]/20",
-								children: [/* @__PURE__ */ (0, z.jsx)(lh, { className: "w-3 h-3" }), "Sistemas da Resiliência"]
+								className: "inline-flex items-center gap-1.5 text-[14px] font-bold uppercase tracking-[0.08em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2 py-0.5 rounded-full border border-[#0071e3]/20",
+								children: [/* @__PURE__ */ (0, z.jsx)(lh, { className: "w-4 h-4" }), "Sistemas da Resiliência"]
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[9.5px] font-bold uppercase text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200",
+								className: "text-[14px] font-bold uppercase text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200",
 								children: "Masten (2018)"
 							})]
 						}), /* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "bg-[#f4f5f7] rounded-xl p-2 border border-black/[0.03]",
+							className: "bg-[#f4f5f7] rounded-xl px-3 py-2.5 mt-1 border border-black/[0.03]",
 							children: [/* @__PURE__ */ (0, z.jsx)("p", {
-								className: "m-0 text-[9px] font-bold uppercase tracking-wider text-[#0071e3]",
+								className: "m-0 text-[14px] font-bold uppercase tracking-wider text-[#0071e3]",
 								children: "Definição Operacional"
 							}), /* @__PURE__ */ (0, z.jsx)("p", {
-								className: "m-0 mt-0.5 text-[11px] font-medium text-[#0f1012] leading-snug",
+								className: "m-0 mt-1 text-[17px] font-medium text-[#0f1012] leading-snug",
 								children: "Capacidade de um sistema dinâmico de adaptar-se diante de desafios que ameaçam seu funcionamento ou desenvolvimento."
 							})]
 						})] }),
 						/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "relative w-full h-[208px] my-1 flex items-center justify-center overflow-visible",
+							className: "relative w-full flex-1 min-h-[244px] flex items-center justify-center overflow-visible",
 							children: [
 								/* @__PURE__ */ (0, z.jsx)(H.div, {
 									animate: {
@@ -20797,9 +20814,9 @@ function Kh({ isActive: e = !0 }) {
 										repeat: Infinity,
 										ease: "easeInOut"
 									},
-									className: "absolute top-1 left-[22px] z-10",
+									className: "absolute top-1 left-[8px] z-10",
 									children: /* @__PURE__ */ (0, z.jsxs)(Gh, {
-										size: 120,
+										size: 144,
 										speed: 32,
 										colors: ["#0071e3", "#38bdf8"],
 										isHighlighted: r === "child",
@@ -20807,15 +20824,15 @@ function Kh({ isActive: e = !0 }) {
 										className: "bg-white/95 backdrop-blur-md",
 										children: [
 											/* @__PURE__ */ (0, z.jsx)("span", {
-												className: "text-[10px] font-bold uppercase tracking-wider text-[#0071e3]",
+												className: "text-[14px] font-bold uppercase tracking-wider text-[#0071e3]",
 												children: "recursos"
 											}),
 											/* @__PURE__ */ (0, z.jsx)("span", {
-												className: "text-[12.5px] font-bold text-[#0f1012] leading-tight",
+												className: "text-[17px] font-bold text-[#0f1012] leading-tight",
 												children: "da criança"
 											}),
 											/* @__PURE__ */ (0, z.jsx)("span", {
-												className: "text-[9px] text-gray-500 mt-0.5",
+												className: "text-[14px] font-medium text-gray-700 mt-0.5 leading-tight",
 												children: "biologia & agência"
 											})
 										]
@@ -20840,9 +20857,9 @@ function Kh({ isActive: e = !0 }) {
 										ease: "easeInOut",
 										delay: .3
 									},
-									className: "absolute top-1 right-[22px] z-10",
+									className: "absolute top-1 right-[8px] z-10",
 									children: /* @__PURE__ */ (0, z.jsxs)(Gh, {
-										size: 120,
+										size: 144,
 										speed: 38,
 										colors: ["#0ea5e9", "#0071e3"],
 										isHighlighted: r === "response",
@@ -20850,15 +20867,15 @@ function Kh({ isActive: e = !0 }) {
 										className: "bg-white/95 backdrop-blur-md",
 										children: [
 											/* @__PURE__ */ (0, z.jsx)("span", {
-												className: "text-[10px] font-bold uppercase tracking-wider text-[#0284c7]",
+												className: "text-[14px] font-bold uppercase tracking-wide text-[#0284c7] leading-tight",
 												children: "como a criança"
 											}),
 											/* @__PURE__ */ (0, z.jsx)("span", {
-												className: "text-[12.5px] font-bold text-[#0f1012] leading-tight",
+												className: "text-[17px] font-bold text-[#0f1012] leading-tight",
 												children: "responde"
 											}),
 											/* @__PURE__ */ (0, z.jsx)("span", {
-												className: "text-[9px] text-gray-500 mt-0.5",
+												className: "text-[14px] font-medium text-gray-700 mt-0.5 leading-tight",
 												children: "enfrentamento"
 											})
 										]
@@ -20867,7 +20884,7 @@ function Kh({ isActive: e = !0 }) {
 								/* @__PURE__ */ (0, z.jsx)("div", {
 									className: "absolute bottom-0 z-20",
 									children: /* @__PURE__ */ (0, z.jsxs)(Gh, {
-										size: 132,
+										size: 164,
 										speed: 42,
 										colors: ["#6366f1", "#0071e3"],
 										thickness: 2.4,
@@ -20876,30 +20893,30 @@ function Kh({ isActive: e = !0 }) {
 										className: "bg-[#f8fafd] backdrop-blur-md shadow-sm",
 										children: [
 											/* @__PURE__ */ (0, z.jsx)("span", {
-												className: "text-[9px] font-extrabold uppercase tracking-[0.12em] text-indigo-700 bg-indigo-50 px-1.5 py-0.2 rounded-sm border border-indigo-200/60 mb-0.5",
+												className: "text-[14px] font-extrabold uppercase tracking-[0.08em] text-indigo-700 bg-indigo-50 px-1.5 py-0.2 rounded-sm border border-indigo-200/60 mb-0.5",
 												children: "ecológico"
 											}),
 											/* @__PURE__ */ (0, z.jsx)("span", {
-												className: "text-[12px] font-bold text-[#0f1012] leading-tight",
+												className: "text-[17px] font-bold text-[#0f1012] leading-tight",
 												children: "recursos ao redor"
 											}),
 											/* @__PURE__ */ (0, z.jsx)("span", {
-												className: "text-[12px] font-bold text-[#0071e3] leading-tight",
+												className: "text-[17px] font-bold text-[#0071e3] leading-tight",
 												children: "da criança"
 											}),
 											/* @__PURE__ */ (0, z.jsx)("span", {
-												className: "text-[9.5px] text-gray-500 mt-0.5",
+												className: "text-[14px] font-medium text-gray-700 mt-0.5 leading-tight",
 												children: "família · escola · rede"
 											})
 										]
 									})
 								}),
 								/* @__PURE__ */ (0, z.jsx)("div", {
-									className: "absolute top-[72px] z-30 pointer-events-none",
+									className: "absolute top-[38px] z-30 pointer-events-none",
 									children: /* @__PURE__ */ (0, z.jsxs)("div", {
 										className: "px-2 py-0.5 rounded-full bg-white/95 border border-[#0071e3]/30 shadow-2xs backdrop-blur-md flex items-center gap-1",
 										children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-1.5 h-1.5 rounded-full bg-[#0071e3] animate-pulse" }), /* @__PURE__ */ (0, z.jsx)("span", {
-											className: "font-['Urbanist',sans-serif] text-[9px] font-bold uppercase tracking-wider text-[#0071e3]",
+											className: "font-['Urbanist',sans-serif] text-[14px] font-bold uppercase tracking-wider text-[#0071e3]",
 											children: "interação"
 										})]
 									})
@@ -20907,15 +20924,15 @@ function Kh({ isActive: e = !0 }) {
 							]
 						}),
 						/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "bg-gradient-to-r from-[#e8f2fc] to-indigo-50/60 rounded-xl p-2 border border-[#0071e3]/20",
+							className: "bg-gradient-to-r from-[#e8f2fc] to-indigo-50/60 rounded-xl px-3 py-2.5 border border-[#0071e3]/20",
 							children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "flex items-center gap-1.5 mb-0.5",
-								children: [/* @__PURE__ */ (0, z.jsx)(hh, { className: "w-3.5 h-3.5 text-[#0071e3] shrink-0" }), /* @__PURE__ */ (0, z.jsx)("p", {
-									className: "m-0 text-[11px] font-bold text-[#0071e3] leading-snug",
+								children: [/* @__PURE__ */ (0, z.jsx)(hh, { className: "w-4 h-4 text-[#0071e3] shrink-0" }), /* @__PURE__ */ (0, z.jsx)("p", {
+									className: "m-0 text-[17px] font-bold text-[#0071e3] leading-snug",
 									children: "Parte importante da resiliência da criança está fora da própria criança."
 								})]
 							}), /* @__PURE__ */ (0, z.jsx)("p", {
-								className: "m-0 text-[10px] text-[#3f4042] leading-relaxed",
+								className: "m-0 text-[16px] font-medium text-[#3f4042] leading-snug",
 								children: "A adaptação emerge dos vínculos protetores e do suporte sustentado do ambiente."
 							})]
 						})
@@ -20940,23 +20957,23 @@ function Kh({ isActive: e = !0 }) {
 							1
 						]
 					},
-					className: "lg:col-span-4 flex flex-col justify-center my-auto gap-2 py-1",
+					className: "min-w-0 flex flex-col justify-between gap-2.5",
 					children: [
 						/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "p-2.5 px-3 rounded-2xl bg-white border border-[#0071e3]/20 shadow-xs flex flex-col justify-between",
+							className: "px-4 py-2.5 rounded-2xl bg-white border border-[#0071e3]/20 shadow-xs flex flex-col justify-between",
 							children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "flex items-center justify-between mb-1",
 								children: [/* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[9px] font-bold uppercase tracking-[0.14em] text-[#0071e3] bg-[#0071e3]/10 px-2 py-0.5 rounded-full border border-[#0071e3]/20",
+									className: "text-[14px] font-bold uppercase tracking-[0.08em] text-[#0071e3] bg-[#0071e3]/10 px-2 py-0.5 rounded-full border border-[#0071e3]/20",
 									children: "Princípio Risco / Desfecho"
 								}), /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[9px] font-semibold text-[#5f6062]",
+									className: "text-[14px] font-semibold text-[#5f6062]",
 									children: "Probabilístico"
 								})]
 							}), /* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "flex flex-col gap-1 my-0.5",
 								children: [/* @__PURE__ */ (0, z.jsxs)("p", {
-									className: "m-0 font-['Urbanist',sans-serif] text-[21px] font-bold tracking-tight text-[#0f1012] leading-tight",
+									className: "m-0 font-['Urbanist',sans-serif] text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight",
 									children: [
 										"risco ",
 										/* @__PURE__ */ (0, z.jsx)("span", {
@@ -20966,80 +20983,80 @@ function Kh({ isActive: e = !0 }) {
 										" desfecho"
 									]
 								}), /* @__PURE__ */ (0, z.jsx)("p", {
-									className: "m-0 text-[10.5px] font-medium text-[#3f4042] leading-snug",
+									className: "m-0 text-[16px] font-medium text-[#3f4042] leading-snug",
 									children: "O risco modifica probabilidades; a trajetória emerge da interação entre vulnerabilidades, recursos e experiências."
 								})]
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "p-2.5 px-3 rounded-2xl bg-[#e8f2fc] border border-[#0071e3]/25 shadow-2xs flex flex-col justify-between",
+							className: "px-4 py-2.5 rounded-2xl bg-[#e8f2fc] border border-[#0071e3]/25 shadow-2xs flex flex-col justify-between",
 							children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 								/* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "flex items-center justify-between mb-0.5",
 									children: [/* @__PURE__ */ (0, z.jsxs)("span", {
-										className: "inline-flex items-center gap-1 text-[8.5px] font-bold uppercase tracking-[0.14em] text-[#0071e3] bg-white px-2 py-0.5 rounded-md border border-[#0071e3]/20",
-										children: [/* @__PURE__ */ (0, z.jsx)(yh, { className: "w-2.5 h-2.5 text-[#0071e3]" }), "Aplicação Clínica"]
+										className: "inline-flex items-center gap-1 text-[14px] font-bold uppercase tracking-[0.08em] text-[#0071e3] bg-white px-2 py-0.5 rounded-md border border-[#0071e3]/20",
+										children: [/* @__PURE__ */ (0, z.jsx)(yh, { className: "w-4 h-4 text-[#0071e3]" }), "Aplicação Clínica"]
 									}), /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[9px] font-bold text-[#0071e3]",
+										className: "text-[14px] font-bold text-[#0071e3]",
 										children: "Speltz (1994) · McDorman (2024)"
 									})]
 								}),
 								/* @__PURE__ */ (0, z.jsx)("h4", {
-									className: "text-[12.5px] font-bold tracking-tight text-[#0f1012] mt-0.5 leading-tight",
+									className: "text-[19px] font-bold tracking-tight text-[#0f1012] mt-0.5 leading-tight",
 									children: "Nas Anomalias Craniofaciais"
 								}),
 								/* @__PURE__ */ (0, z.jsx)("p", {
-									className: "text-[10.5px] font-medium text-[#0f1012] mt-0.5 leading-snug",
+									className: "text-[16px] font-medium text-[#0f1012] mt-1 leading-snug",
 									children: "É uma condição de risco potencial — não um destino psicossocial. O risco deve ser compreendido no contexto de múltiplas condições individuais e familiares."
 								})
 							] }), /* @__PURE__ */ (0, z.jsx)("div", {
-								className: "p-1.5 bg-white/90 rounded-lg border border-[#0071e3]/15 mt-1",
+								className: "px-2.5 py-1.5 bg-white/90 rounded-lg border border-[#0071e3]/15 mt-1.5",
 								children: /* @__PURE__ */ (0, z.jsx)("p", {
-									className: "text-[9.5px] text-[#2d2e30] leading-tight m-0",
+									className: "text-[15px] font-medium text-[#2d2e30] leading-snug m-0",
 									children: "Desfechos favoráveis são a norma quando suportes ecológicos e co-regulação protetora estão presentes."
 								})
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "p-2.5 rounded-2xl bg-[#0f1012] text-white border border-zinc-800 shadow-sm flex flex-col justify-between",
+							className: "px-4 py-2.5 rounded-2xl bg-[#0f1012] text-white border border-zinc-800 shadow-sm flex flex-col justify-between",
 							children: [
 								/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "flex items-center justify-between mb-0.5",
 									children: [/* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[8px] font-bold uppercase tracking-[0.16em] text-zinc-400",
+										className: "text-[14px] font-bold uppercase tracking-[0.08em] text-zinc-400",
 										children: "Translação Diagnóstica"
 									}), /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[8px] font-semibold text-zinc-300 bg-white/10 px-1.5 py-0.2 rounded-full border border-white/15",
+										className: "text-[14px] font-semibold text-zinc-300 bg-white/10 px-2 py-0.5 rounded-full border border-white/15",
 										children: "Mudança de Pergunta"
 									})]
 								}), /* @__PURE__ */ (0, z.jsx)("h4", {
-									className: "text-[11.5px] font-bold tracking-tight text-white leading-tight",
+									className: "text-[19px] font-bold tracking-tight text-white leading-tight mt-0.5",
 									children: "Raciocínio Clínico em Trajetória"
 								})] }),
 								/* @__PURE__ */ (0, z.jsxs)("div", {
-									className: "flex flex-col gap-1 my-1",
+									className: "flex flex-col gap-1.5 my-1.5",
 									children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-										className: "p-1 bg-zinc-900/90 rounded-md border border-zinc-800 flex flex-col gap-0.2",
+										className: "px-2.5 py-1 bg-zinc-900/90 rounded-md border border-zinc-800 flex flex-col gap-0.2",
 										children: [/* @__PURE__ */ (0, z.jsx)("span", {
-											className: "text-[7.5px] font-bold uppercase tracking-wider text-rose-400",
+											className: "text-[14px] font-bold uppercase tracking-wide text-rose-400",
 											children: "A pergunta tradicional deixa de ser:"
 										}), /* @__PURE__ */ (0, z.jsx)("p", {
-											className: "text-[9px] text-zinc-300 italic m-0 font-normal leading-tight",
+											className: "text-[16px] text-zinc-200 italic m-0 font-medium leading-snug",
 											children: "“Esta condição produzirá sofrimento?”"
 										})]
 									}), /* @__PURE__ */ (0, z.jsxs)("div", {
-										className: "p-1 bg-[#0071e3]/20 rounded-md border border-[#0071e3]/45 flex flex-col gap-0.2",
+										className: "px-2.5 py-1 bg-[#0071e3]/20 rounded-md border border-[#0071e3]/45 flex flex-col gap-0.2",
 										children: [/* @__PURE__ */ (0, z.jsx)("span", {
-											className: "text-[7.5px] font-bold uppercase tracking-wider text-[#38bdf8]",
+											className: "text-[14px] font-bold uppercase tracking-wide text-[#38bdf8]",
 											children: "e passa a ser:"
 										}), /* @__PURE__ */ (0, z.jsx)("p", {
-											className: "text-[9px] text-white font-medium m-0 leading-tight",
+											className: "text-[16px] text-white font-medium m-0 leading-snug",
 											children: "“Quais fatores aumentam ou reduzem o risco nesta criança, neste momento?”"
 										})]
 									})]
 								}),
 								/* @__PURE__ */ (0, z.jsxs)("div", {
-									className: "flex items-center justify-between pt-0.5 border-t border-zinc-800 text-[8.5px]",
+									className: "flex items-center justify-between gap-2 pt-1 border-t border-zinc-800 text-[15px]",
 									children: [/* @__PURE__ */ (0, z.jsx)("span", {
 										className: "text-zinc-400",
 										children: "Objetivo Clínico:"
@@ -21054,22 +21071,22 @@ function Kh({ isActive: e = !0 }) {
 				})
 			]
 		}), /* @__PURE__ */ (0, z.jsxs)("div", {
-			className: "pt-2 border-t border-black/[0.06] flex flex-col gap-1.5",
+			className: "pt-2 border-t border-black/[0.06] flex flex-col gap-2",
 			children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-				className: "self-start ml-0 mr-auto max-w-[880px] w-full px-4 py-1.5 rounded-xl bg-gradient-to-r from-[#f8f9fa] via-[#e8f2fc]/45 to-[#f8f9fa] border border-[#0071e3]/18 shadow-2xs flex flex-col md:flex-row items-center justify-between gap-3",
+				className: "self-start ml-0 mr-auto max-w-[1280px] w-full px-5 py-2 rounded-xl bg-gradient-to-r from-[#f8f9fa] via-[#e8f2fc]/45 to-[#f8f9fa] border border-[#0071e3]/18 shadow-2xs flex flex-row items-center justify-between gap-3",
 				children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex flex-col gap-0.5",
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center gap-2",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[8.5px] font-extrabold uppercase tracking-widest text-[#0071e3] bg-[#0071e3]/10 px-2 py-0.5 rounded-md border border-[#0071e3]/20 shrink-0",
+							className: "text-[14px] font-extrabold uppercase tracking-wider text-[#0071e3] bg-[#0071e3]/10 px-2 py-0.5 rounded-md border border-[#0071e3]/20 shrink-0",
 							children: "Princípio Central"
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-xs md:text-sm font-bold text-[#0f1012] m-0 tracking-tight",
+							className: "text-[21px] font-bold text-[#0f1012] m-0 tracking-tight",
 							children: "Risco aumenta probabilidades. Resiliência modifica trajetórias."
 						})]
 					}), /* @__PURE__ */ (0, z.jsxs)("p", {
-						className: "text-[10.5px] text-[#3f4042] m-0 flex items-center gap-1.5 pl-0.5 leading-tight",
+						className: "text-[16px] font-medium text-[#3f4042] m-0 flex items-center gap-1.5 pl-0.5 leading-snug",
 						children: [
 							/* @__PURE__ */ (0, z.jsx)("span", { className: "w-1.5 h-1.5 rounded-full bg-[#0071e3] shrink-0" }),
 							/* @__PURE__ */ (0, z.jsx)("strong", {
@@ -21080,7 +21097,7 @@ function Kh({ isActive: e = !0 }) {
 						]
 					})]
 				}), /* @__PURE__ */ (0, z.jsxs)("div", {
-					className: "hidden lg:flex items-center gap-1.5 text-[9.5px] font-semibold text-[#5f6062] shrink-0 pl-3 border-l border-black/[0.08]",
+					className: "hidden lg:flex items-center gap-1.5 text-[15px] font-semibold text-[#5f6062] shrink-0 pl-3 border-l border-black/[0.08]",
 					children: [
 						/* @__PURE__ */ (0, z.jsx)("span", {
 							className: "px-1.5 py-0.5 rounded bg-white border border-black/[0.06] text-[#0f1012]",
@@ -21097,7 +21114,7 @@ function Kh({ isActive: e = !0 }) {
 					]
 				})]
 			}), /* @__PURE__ */ (0, z.jsx)("div", {
-				className: "grid grid-cols-2 md:grid-cols-4 gap-2",
+				className: "grid grid-cols-4 gap-3",
 				children: [
 					{
 						label: "PROBABILÍSTICO",
@@ -21140,21 +21157,21 @@ function Kh({ isActive: e = !0 }) {
 						duration: .25,
 						delay: .15 + n * .03
 					},
-					className: q("p-2 rounded-xl bg-white border border-black/[0.08] shadow-2xs flex flex-col justify-between transition-colors", t.badgeType === "blue" && "hover:border-blue-300 hover:bg-blue-50/20", t.badgeType === "indigo" && "hover:border-indigo-300 hover:bg-indigo-50/20", t.badgeType === "emerald" && "hover:border-emerald-300 hover:bg-emerald-50/20", t.badgeType === "amber" && "hover:border-amber-300 hover:bg-amber-50/20"),
+					className: q("px-4 py-2.5 rounded-xl bg-white border border-black/[0.08] shadow-2xs flex flex-col justify-between transition-colors", t.badgeType === "blue" && "hover:border-blue-300 hover:bg-blue-50/20", t.badgeType === "indigo" && "hover:border-indigo-300 hover:bg-indigo-50/20", t.badgeType === "emerald" && "hover:border-emerald-300 hover:bg-emerald-50/20", t.badgeType === "amber" && "hover:border-amber-300 hover:bg-amber-50/20"),
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center justify-between mb-0.5",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[8px] font-bold uppercase tracking-wider text-[#6a6b6d]",
+							className: "text-[14px] font-bold uppercase tracking-wider text-[#5f6062]",
 							children: t.label
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: q("text-[8px] font-bold px-1.5 py-0.2 rounded-full border", t.badgeType === "blue" && "bg-blue-50 text-[#0071e3] border-blue-200", t.badgeType === "indigo" && "bg-indigo-50 text-indigo-700 border-indigo-200", t.badgeType === "emerald" && "bg-emerald-50 text-emerald-700 border-emerald-200", t.badgeType === "amber" && "bg-amber-50 text-amber-700 border-amber-200"),
+							className: q("text-[14px] font-bold px-2 py-0.5 rounded-full border", t.badgeType === "blue" && "bg-blue-50 text-[#0071e3] border-blue-200", t.badgeType === "indigo" && "bg-indigo-50 text-indigo-700 border-indigo-200", t.badgeType === "emerald" && "bg-emerald-50 text-emerald-700 border-emerald-200", t.badgeType === "amber" && "bg-amber-50 text-amber-700 border-amber-200"),
 							children: t.badge
 						})]
 					}), /* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[11px] font-bold text-[#0f1012] tracking-tight m-0",
+						className: "text-[20px] font-bold text-[#0f1012] tracking-tight m-0 mt-0.5",
 						children: t.title
 					})] }), /* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[9px] text-[#5f6062] leading-snug mt-1 pt-1 border-t border-black/[0.04] m-0",
+						className: "text-[16px] font-medium text-[#52525b] leading-snug mt-1 pt-1 border-t border-black/[0.04] m-0",
 						children: t.desc
 					})]
 				}, t.label))
@@ -21313,7 +21330,7 @@ function ig({ timelineData: e, theme: t = "light", compact: n = !1, radius: r, a
 		onClick: E,
 		className: `relative w-full h-full flex flex-col items-center justify-center select-none overflow-visible ${w ? "bg-transparent text-[#0f1012]" : "bg-black text-white"}`,
 		children: [/* @__PURE__ */ (0, z.jsx)("div", {
-			className: "relative w-full h-full flex items-center justify-center",
+			className: `relative w-full h-full flex items-center justify-center ${n ? "pb-[112px]" : ""}`,
 			children: /* @__PURE__ */ (0, z.jsxs)("div", {
 				ref: S,
 				className: "absolute w-full h-full flex items-center justify-center overflow-visible",
@@ -21349,16 +21366,16 @@ function ig({ timelineData: e, theme: t = "light", compact: n = !1, radius: r, a
 						},
 						className: `absolute rounded-full border pointer-events-none opacity-40 ${w ? "border-zinc-200" : "border-white/10"}`
 					}),
-					e.map((t, r) => {
-						let i = O(r, e.length), a = d[t.id], o = ee(t.id), s = t.icon, c = {
-							transform: `translate(${i.x}px, ${i.y}px)`,
+					e.map((t, n) => {
+						let r = O(n, e.length), i = d[t.id], a = ee(t.id), o = t.icon, s = {
+							transform: `translate(${r.x}px, ${r.y}px)`,
 							zIndex: 30
 						};
 						return /* @__PURE__ */ (0, z.jsxs)("div", {
 							ref: (e) => {
 								C.current[t.id] = e;
 							},
-							style: c,
+							style: s,
 							onClick: (e) => {
 								e.stopPropagation(), D(t.id);
 							},
@@ -21366,14 +21383,14 @@ function ig({ timelineData: e, theme: t = "light", compact: n = !1, radius: r, a
 							children: [/* @__PURE__ */ (0, z.jsx)("div", {
 								className: `
                     rounded-full flex items-center justify-center transition-colors duration-200 border-2
-                    ${n ? "w-10 h-10" : "w-12 h-12"}
-                    ${a ? w ? "bg-[#0071e3] text-white border-[#0071e3] shadow-md shadow-[#0071e3]/25" : "bg-white text-black border-white shadow-md shadow-white/25" : o ? w ? "bg-blue-100 text-[#0071e3] border-[#0071e3]/60" : "bg-white/60 text-black border-white" : w ? "bg-white text-[#0f1012] border-black/10 group-hover:border-[#0071e3] shadow-sm" : "bg-zinc-900 text-white border-white/30 group-hover:border-white"}
+                    w-12 h-12
+                    ${i ? w ? "bg-[#0071e3] text-white border-[#0071e3] shadow-md shadow-[#0071e3]/25" : "bg-white text-black border-white shadow-md shadow-white/25" : a ? w ? "bg-blue-100 text-[#0071e3] border-[#0071e3]/60" : "bg-white/60 text-black border-white" : w ? "bg-white text-[#0f1012] border-black/10 group-hover:border-[#0071e3] shadow-sm" : "bg-zinc-900 text-white border-white/30 group-hover:border-white"}
                   `,
-								children: /* @__PURE__ */ (0, z.jsx)(s, { size: n ? 17 : 21 })
+								children: /* @__PURE__ */ (0, z.jsx)(o, { size: 21 })
 							}), /* @__PURE__ */ (0, z.jsx)("div", {
 								className: `
-                    absolute top-11 whitespace-nowrap text-[11px] font-bold tracking-tight transition-colors duration-200
-                    ${a ? w ? "text-[#0071e3] font-extrabold" : "text-white font-extrabold" : w ? "text-[#3f4042]" : "text-white/70"}
+                    absolute top-[52px] whitespace-nowrap text-[15px] font-bold tracking-tight transition-colors duration-200
+                    ${i ? w ? "text-[#0071e3] font-extrabold" : "text-white font-extrabold" : w ? "text-[#3f4042]" : "text-white/70"}
                   `,
 								children: t.title
 							})]
@@ -21384,22 +21401,22 @@ function ig({ timelineData: e, theme: t = "light", compact: n = !1, radius: r, a
 		}), j && /* @__PURE__ */ (0, z.jsx)("div", {
 			className: "absolute bottom-1 left-2 right-2 z-40 animate-in fade-in slide-in-from-bottom-2 duration-300 pointer-events-none",
 			children: n ? /* @__PURE__ */ (0, z.jsxs)("div", {
-				className: `p-1.5 px-2.5 rounded-xl border shadow-sm ${w ? "bg-white/95 backdrop-blur-md border-[#0071e3]/20 shadow-[0_2px_12px_rgba(0,113,227,0.06)]" : "bg-black/90 backdrop-blur-lg border-white/20 text-white"}`,
+				className: `px-3 py-2 rounded-xl border shadow-sm ${w ? "bg-white/95 backdrop-blur-md border-[#0071e3]/20 shadow-[0_2px_12px_rgba(0,113,227,0.06)]" : "bg-black/90 backdrop-blur-lg border-white/20 text-white"}`,
 				children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center justify-between gap-1",
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-						className: "flex items-center gap-1.5 min-w-0",
+						className: "flex items-center gap-2 min-w-0 flex-wrap",
 						children: [
 							/* @__PURE__ */ (0, z.jsx)(Zh, {
-								className: `px-1.5 py-0 text-[8px] font-bold uppercase rounded-md border ${A(j.status)}`,
+								className: `px-1.5 py-0 text-[14px] font-bold uppercase rounded-md border ${A(j.status)}`,
 								children: j.category
 							}),
 							/* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10.5px] font-bold text-[#0f1012] truncate",
+								className: "text-[16px] font-bold text-[#0f1012]",
 								children: j.title
 							}),
 							/* @__PURE__ */ (0, z.jsxs)("span", {
-								className: "text-[9px] text-[#5f6062] truncate",
+								className: "text-[14px] font-medium text-[#5f6062]",
 								children: ["· ", j.date]
 							})
 						]
@@ -21408,7 +21425,7 @@ function ig({ timelineData: e, theme: t = "light", compact: n = !1, radius: r, a
 						children: [/* @__PURE__ */ (0, z.jsx)(zh, { size: 9 }), /* @__PURE__ */ (0, z.jsxs)("span", { children: [j.energy, "%"] })]
 					})]
 				}), /* @__PURE__ */ (0, z.jsx)("p", {
-					className: "text-[9px] text-[#5f6062] mt-0.5 leading-snug line-clamp-1",
+					className: "text-[15px] font-medium text-[#3f4042] mt-0.5 leading-snug",
 					children: j.content
 				})]
 			}) : /* @__PURE__ */ (0, z.jsxs)(Qh, {
@@ -21477,7 +21494,7 @@ function ag() {
 			/* @__PURE__ */ (0, z.jsxs)("div", {
 				className: "flex items-center gap-2 z-10 shrink-0",
 				children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-1.5 h-1.5 rounded-full bg-zinc-300" }), /* @__PURE__ */ (0, z.jsx)("span", {
-					className: "text-[11.5px] font-semibold tracking-[0.14em] uppercase text-zinc-400",
+					className: "text-[14px] font-semibold tracking-[0.12em] uppercase text-zinc-500",
 					children: "antes"
 				})]
 			}),
@@ -21494,7 +21511,7 @@ function ag() {
 			/* @__PURE__ */ (0, z.jsxs)("div", {
 				className: "flex items-center gap-2 z-10 shrink-0 px-3.5 py-1 rounded-full bg-white/90 border border-black/[0.08] shadow-[0_1px_4px_rgba(0,0,0,0.03)] backdrop-blur-md",
 				children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-2 h-2 rounded-full bg-[#0071e3]" }), /* @__PURE__ */ (0, z.jsx)("span", {
-					className: "text-[12px] font-bold tracking-[0.14em] uppercase text-[#0f1012]",
+					className: "text-[16px] font-bold tracking-[0.14em] uppercase text-[#0f1012]",
 					children: "agora"
 				})]
 			}),
@@ -21511,7 +21528,7 @@ function ag() {
 			/* @__PURE__ */ (0, z.jsxs)("div", {
 				className: "flex items-center gap-2 z-10 shrink-0",
 				children: [/* @__PURE__ */ (0, z.jsx)("span", {
-					className: "text-[11.5px] font-semibold tracking-[0.14em] uppercase text-zinc-400",
+					className: "text-[14px] font-semibold tracking-[0.12em] uppercase text-zinc-500",
 					children: "depois"
 				}), /* @__PURE__ */ (0, z.jsx)("span", { className: "w-1.5 h-1.5 rounded-full bg-zinc-300" })]
 			})
@@ -21589,7 +21606,7 @@ function og({ isActive: e = !0 }) {
 				children: /* @__PURE__ */ (0, z.jsx)(ag, {})
 			}),
 			/* @__PURE__ */ (0, z.jsxs)("div", {
-				className: "grid grid-cols-3 gap-7 flex-1 min-h-0 items-stretch my-1 px-0.5",
+				className: "grid grid-cols-3 gap-6 flex-1 min-h-0 items-stretch my-1 px-0.5",
 				children: [
 					/* @__PURE__ */ (0, z.jsxs)(H.div, {
 						initial: {
@@ -21610,25 +21627,25 @@ function og({ isActive: e = !0 }) {
 								1
 							]
 						},
-						className: "p-3.5 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_24px_rgba(0,0,0,0.03)] flex flex-col justify-between",
+						className: "p-4 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_24px_rgba(0,0,0,0.03)] flex flex-col justify-between",
 						children: [
 							/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 								/* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "flex items-center justify-between mb-1",
 									children: [/* @__PURE__ */ (0, z.jsxs)("span", {
-										className: "inline-flex items-center gap-1.5 text-[9.5px] font-bold uppercase tracking-[0.16em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0071e3]/20",
-										children: [/* @__PURE__ */ (0, z.jsx)($p, { className: "w-3 h-3" }), "Fotografia"]
+										className: "inline-flex items-center gap-1.5 text-[14px] font-bold uppercase tracking-[0.1em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0071e3]/20",
+										children: [/* @__PURE__ */ (0, z.jsx)($p, { className: "w-4 h-4" }), "Fotografia"]
 									}), /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[10px] font-semibold text-[#5f6062]",
+										className: "text-[14px] font-semibold text-[#5f6062]",
 										children: "Corte Transversal"
 									})]
 								}),
 								/* @__PURE__ */ (0, z.jsx)("h3", {
-									className: "text-[19px] font-bold tracking-tight text-[#0f1012] font-['Urbanist',sans-serif] leading-tight",
+									className: "text-[23px] font-bold tracking-tight text-[#0f1012] font-['Urbanist',sans-serif] leading-tight mt-1",
 									children: "Como está agora?"
 								}),
 								/* @__PURE__ */ (0, z.jsx)("p", {
-									className: "text-[11px] text-[#5f6062] mt-0.5 leading-snug",
+									className: "text-[17px] font-medium text-[#5f6062] mt-1 leading-snug",
 									children: "Avaliação pontual e estática do desempenho no momento da consulta."
 								})
 							] }),
@@ -21636,7 +21653,7 @@ function og({ isActive: e = !0 }) {
 								className: "w-full my-1.5 flex-1 min-h-[225px] relative bg-[#fcfdfe] rounded-2xl p-2 border border-black/[0.04] flex items-center justify-center overflow-hidden",
 								children: /* @__PURE__ */ (0, z.jsxs)("svg", {
 									viewBox: "0 0 440 220",
-									className: "w-full h-full max-h-[245px] display-block overflow-visible",
+									className: "w-full h-full max-h-[300px] display-block overflow-visible",
 									"aria-label": "Gráfico de um único ponto em idade por funcionamento",
 									children: [
 										/* @__PURE__ */ (0, z.jsx)("defs", { children: /* @__PURE__ */ (0, z.jsxs)("linearGradient", {
@@ -21706,7 +21723,7 @@ function og({ isActive: e = !0 }) {
 											x: "55",
 											y: "206",
 											fontFamily: "'Satoshi', sans-serif",
-											fontSize: "11",
+											fontSize: "15",
 											fontWeight: "600",
 											fill: "#64748b",
 											children: "idade / tempo"
@@ -21716,7 +21733,7 @@ function og({ isActive: e = !0 }) {
 											y: "100",
 											textAnchor: "middle",
 											fontFamily: "'Satoshi', sans-serif",
-											fontSize: "11",
+											fontSize: "15",
 											fontWeight: "600",
 											fill: "#64748b",
 											transform: "rotate(-90 18 100)",
@@ -21777,7 +21794,7 @@ function og({ isActive: e = !0 }) {
 													y: "-23",
 													textAnchor: "middle",
 													fontFamily: "'Satoshi', sans-serif",
-													fontSize: "12",
+													fontSize: "16",
 													fontWeight: "700",
 													fill: "#ffffff",
 													children: "hoje"
@@ -21794,7 +21811,7 @@ function og({ isActive: e = !0 }) {
 							/* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "p-2.5 rounded-2xl bg-[#f8f9fa] border border-black/[0.04] mt-1 flex items-center gap-2",
 								children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-1.5 h-1.5 rounded-full bg-[#0071e3] shrink-0" }), /* @__PURE__ */ (0, z.jsx)("p", {
-									className: "m-0 text-[12.5px] font-semibold text-[#0f1012] leading-snug",
+									className: "m-0 text-[17px] font-semibold text-[#0f1012] leading-snug",
 									children: "Um ponto informa posição — não direção."
 								})]
 							})
@@ -21819,25 +21836,25 @@ function og({ isActive: e = !0 }) {
 								1
 							]
 						},
-						className: "p-3.5 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_24px_rgba(0,0,0,0.03)] flex flex-col justify-between",
+						className: "p-4 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_24px_rgba(0,0,0,0.03)] flex flex-col justify-between",
 						children: [
 							/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 								/* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "flex items-center justify-between mb-1",
 									children: [/* @__PURE__ */ (0, z.jsxs)("span", {
-										className: "inline-flex items-center gap-1.5 text-[9.5px] font-bold uppercase tracking-[0.16em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0071e3]/20",
-										children: [/* @__PURE__ */ (0, z.jsx)(Ch, { className: "w-3 h-3" }), "Trajetória"]
+										className: "inline-flex items-center gap-1.5 text-[14px] font-bold uppercase tracking-[0.1em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0071e3]/20",
+										children: [/* @__PURE__ */ (0, z.jsx)(Ch, { className: "w-4 h-4" }), "Trajetória"]
 									}), /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[10px] font-semibold text-[#5f6062]",
+										className: "text-[14px] font-semibold text-[#5f6062]",
 										children: "Histórico Longitudinal"
 									})]
 								}),
 								/* @__PURE__ */ (0, z.jsx)("h3", {
-									className: "text-[19px] font-bold tracking-tight text-[#0f1012] font-['Urbanist',sans-serif] leading-tight",
+									className: "text-[23px] font-bold tracking-tight text-[#0f1012] font-['Urbanist',sans-serif] leading-tight mt-1",
 									children: "Como vem mudando?"
 								}),
 								/* @__PURE__ */ (0, z.jsx)("p", {
-									className: "text-[11px] text-[#5f6062] mt-0.5 leading-snug",
+									className: "text-[17px] font-medium text-[#5f6062] mt-1 leading-snug",
 									children: "A evolução no tempo revela o ritmo e o sentido real do desenvolvimento."
 								})
 							] }),
@@ -21845,7 +21862,7 @@ function og({ isActive: e = !0 }) {
 								className: "w-full my-1.5 flex-1 min-h-[225px] relative bg-[#fcfdfe] rounded-2xl p-2 border border-black/[0.04] flex items-center justify-center overflow-hidden",
 								children: /* @__PURE__ */ (0, z.jsxs)("svg", {
 									viewBox: "0 0 440 220",
-									className: "w-full h-full max-h-[245px] display-block overflow-visible",
+									className: "w-full h-full max-h-[300px] display-block overflow-visible",
 									"aria-label": "Gráfico de duas trajetórias diferentes convergindo no mesmo ponto",
 									children: [
 										/* @__PURE__ */ (0, z.jsxs)("defs", { children: [/* @__PURE__ */ (0, z.jsxs)("linearGradient", {
@@ -21897,7 +21914,7 @@ function og({ isActive: e = !0 }) {
 											x: "55",
 											y: "206",
 											fontFamily: "'Satoshi', sans-serif",
-											fontSize: "11",
+											fontSize: "15",
 											fontWeight: "600",
 											fill: "#64748b",
 											children: "idade / tempo"
@@ -21907,7 +21924,7 @@ function og({ isActive: e = !0 }) {
 											y: "100",
 											textAnchor: "middle",
 											fontFamily: "'Satoshi', sans-serif",
-											fontSize: "11",
+											fontSize: "15",
 											fontWeight: "600",
 											fill: "#64748b",
 											transform: "rotate(-90 18 100)",
@@ -21929,18 +21946,18 @@ function og({ isActive: e = !0 }) {
 										}),
 										/* @__PURE__ */ (0, z.jsx)("text", {
 											x: "80",
-											y: "36",
+											y: "34",
 											fontFamily: "'Satoshi', sans-serif",
-											fontSize: "9.5",
+											fontSize: "15",
 											fontWeight: "600",
-											fill: "#64748b",
+											fill: "#475569",
 											children: "trajetória A (declínio)"
 										}),
 										/* @__PURE__ */ (0, z.jsx)("text", {
-											x: "80",
+											x: "92",
 											y: "186",
 											fontFamily: "'Satoshi', sans-serif",
-											fontSize: "9.5",
+											fontSize: "15",
 											fontWeight: "600",
 											fill: "#0071e3",
 											children: "trajetória B (ascensão)"
@@ -21980,7 +21997,7 @@ function og({ isActive: e = !0 }) {
 													y: "-23",
 													textAnchor: "middle",
 													fontFamily: "'Satoshi', sans-serif",
-													fontSize: "12",
+													fontSize: "16",
 													fontWeight: "700",
 													fill: "#ffffff",
 													children: "hoje"
@@ -21997,7 +22014,7 @@ function og({ isActive: e = !0 }) {
 							/* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "p-2.5 rounded-2xl bg-[#f8f9fa] border border-black/[0.04] mt-1 flex items-center gap-2",
 								children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-1.5 h-1.5 rounded-full bg-[#0071e3] shrink-0" }), /* @__PURE__ */ (0, z.jsx)("p", {
-									className: "m-0 text-[12.5px] font-semibold text-[#0f1012] leading-snug",
+									className: "m-0 text-[17px] font-semibold text-[#0f1012] leading-snug",
 									children: "Mesmo resultado hoje. Histórias diferentes."
 								})]
 							})
@@ -22022,32 +22039,32 @@ function og({ isActive: e = !0 }) {
 								1
 							]
 						},
-						className: "p-3.5 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_24px_rgba(0,0,0,0.03)] flex flex-col justify-between",
+						className: "p-4 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_24px_rgba(0,0,0,0.03)] flex flex-col justify-between",
 						children: [
 							/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 								/* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "flex items-center justify-between mb-1",
 									children: [/* @__PURE__ */ (0, z.jsxs)("span", {
-										className: "inline-flex items-center gap-1.5 text-[9.5px] font-bold uppercase tracking-[0.16em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0071e3]/20",
-										children: [/* @__PURE__ */ (0, z.jsx)(dm, { className: "w-3 h-3" }), "Contexto"]
+										className: "inline-flex items-center gap-1.5 text-[14px] font-bold uppercase tracking-[0.1em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0071e3]/20",
+										children: [/* @__PURE__ */ (0, z.jsx)(dm, { className: "w-4 h-4" }), "Contexto"]
 									}), /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[10px] font-semibold text-[#5f6062]",
+										className: "text-[14px] font-semibold text-[#5f6062]",
 										children: "Ecossistema Dinâmico"
 									})]
 								}),
 								/* @__PURE__ */ (0, z.jsx)("h3", {
-									className: "text-[19px] font-bold tracking-tight text-[#0f1012] font-['Urbanist',sans-serif] leading-tight",
+									className: "text-[23px] font-bold tracking-tight text-[#0f1012] font-['Urbanist',sans-serif] leading-tight mt-1",
 									children: "Onde, quando e diante de quê?"
 								}),
 								/* @__PURE__ */ (0, z.jsx)("p", {
-									className: "text-[11px] text-[#5f6062] mt-0.5 leading-snug",
+									className: "text-[17px] font-medium text-[#5f6062] mt-1 leading-snug",
 									children: "A capacidade funcional varia conforme os suportes e desafios de cada contexto."
 								})
 							] }),
 							/* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "w-full my-1.5 flex-1 min-h-[225px] relative bg-[#fcfdfe] rounded-2xl border border-black/[0.04] flex items-center justify-center overflow-hidden",
 								children: [/* @__PURE__ */ (0, z.jsx)("div", {
-									className: "absolute inset-0 flex items-center justify-center pointer-events-none z-30",
+									className: "absolute inset-0 pb-[112px] flex items-center justify-center pointer-events-none z-30",
 									children: /* @__PURE__ */ (0, z.jsx)("video", {
 										src: "assets/memoji.mp4",
 										autoPlay: !0,
@@ -22061,7 +22078,7 @@ function og({ isActive: e = !0 }) {
 									timelineData: t,
 									theme: "light",
 									compact: !0,
-									radius: 100,
+									radius: 90,
 									autoRotateSpeed: .22,
 									autoCycleHighlight: !0,
 									cycleInterval: 3600,
@@ -22072,7 +22089,7 @@ function og({ isActive: e = !0 }) {
 							/* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "p-2.5 rounded-2xl bg-[#f8f9fa] border border-black/[0.04] mt-1 flex items-center gap-2",
 								children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-1.5 h-1.5 rounded-full bg-[#0071e3] shrink-0" }), /* @__PURE__ */ (0, z.jsx)("p", {
-									className: "m-0 text-[12px] font-semibold text-[#0f1012] leading-snug",
+									className: "m-0 text-[17px] font-semibold text-[#0f1012] leading-snug",
 									children: "As demandas mudam com a etapa: comunicação, autonomia, aprendizagem e pares, identidade."
 								})]
 							})
@@ -22096,10 +22113,10 @@ function og({ isActive: e = !0 }) {
 				},
 				className: "my-1.5 flex items-center gap-3 bg-[#f8fbfe] border border-[#0071e3]/20 rounded-2xl px-5 py-2.5 shadow-[0_2px_12px_rgba(0,113,227,0.04)]",
 				children: [/* @__PURE__ */ (0, z.jsx)("span", {
-					className: "font-['Urbanist',sans-serif] text-[11px] font-bold tracking-[0.14em] uppercase text-[#0071e3] bg-[#0071e3]/10 border border-[#0071e3]/20 px-2.5 py-1 rounded-md shrink-0",
+					className: "font-['Urbanist',sans-serif] text-[15px] font-bold tracking-[0.14em] uppercase text-[#0071e3] bg-[#0071e3]/10 border border-[#0071e3]/20 px-2.5 py-1 rounded-md shrink-0",
 					children: "IMPLICAÇÃO CLÍNICA"
 				}), /* @__PURE__ */ (0, z.jsxs)("p", {
-					className: "m-0 text-[14px] font-medium leading-snug text-[#0f1012]",
+					className: "m-0 text-[18px] font-medium leading-snug text-[#0f1012]",
 					children: [/* @__PURE__ */ (0, z.jsx)("strong", {
 						className: "text-[#0071e3] font-bold",
 						children: "Funcionalidade:"
@@ -22172,7 +22189,7 @@ var ug = b.forwardRef(({ className: e, videoSrc: t, imageUrl: n, imageAlt: r = "
 	let v = s || c;
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
 		ref: _,
-		className: q("group relative w-full overflow-hidden rounded-2xl border border-[#21C6E0]/35", "bg-gradient-to-br from-white via-[#fcfefd] to-[#21C6E0]/12", "shadow-[0_4px_24px_rgba(33,198,224,0.1)] transition-all duration-300 ease-in-out", e),
+		className: q("group relative w-full overflow-hidden rounded-2xl border border-[#0d6d66]/35", "bg-gradient-to-br from-white via-[#fcfefd] to-[#0d6d66]/12", "shadow-[0_4px_24px_rgba(13,109,102,0.1)] transition-all duration-300 ease-in-out", e),
 		...g,
 		children: [
 			m ? /* @__PURE__ */ (0, z.jsx)("div", {
@@ -22206,28 +22223,28 @@ var ug = b.forwardRef(({ className: e, videoSrc: t, imageUrl: n, imageAlt: r = "
 				children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center justify-between mb-2",
 					children: [i && /* @__PURE__ */ (0, z.jsx)("div", {
-						className: "flex h-9 w-9 items-center justify-center rounded-full border border-[#21C6E0]/40 bg-white/90 backdrop-blur-md shadow-xs text-[#0d606a]",
+						className: "flex h-9 w-9 items-center justify-center rounded-full border border-[#0d6d66]/40 bg-white/90 backdrop-blur-md shadow-xs text-[#0d6d66]",
 						children: i
 					}), a && /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-[#21C6E0]/20 text-[#0d606a] border border-[#21C6E0]/30",
+						className: "inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[14px] font-bold uppercase tracking-wider bg-[#0d6d66]/20 text-[#0d6d66] border border-[#0d6d66]/30",
 						children: a
 					})]
 				}), /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "space-y-2",
 					children: [
 						/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-							className: "text-[20px] lg:text-[22px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist']",
+							className: "text-[28px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist']",
 							children: o
 						}), v && /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11.5px] font-bold uppercase tracking-wider text-[#0d606a] mt-0.5",
+							className: "text-[15px] font-bold uppercase tracking-wider text-[#0d6d66] mt-1",
 							children: v
 						})] }),
 						l && /* @__PURE__ */ (0, z.jsx)("h4", {
-							className: "text-[10.5px] font-bold uppercase tracking-wider text-zinc-500 mt-1",
+							className: "text-[14px] font-bold uppercase tracking-wider text-zinc-600 mt-1",
 							children: l
 						}),
 						u && /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[12.5px] text-[#27272a] font-normal leading-relaxed max-w-[340px]",
+							className: "text-[18px] text-[#27272a] font-medium leading-snug max-w-[560px]",
 							children: u
 						}),
 						h
@@ -22273,9 +22290,9 @@ var dg = [
 		description: "Inibição, memória de trabalho e flexibilidade",
 		leftPercent: 28,
 		widthPercent: 70,
-		color: "#0d606a",
-		barGradient: "from-[#21C6E0] via-[#0d606a] to-[#084852]",
-		badgeBg: "bg-[#21C6E0]/15 text-[#0d606a] border-[#21C6E0]/40"
+		color: "#0d6d66",
+		barGradient: "from-[#0d6d66] via-[#0d6d66] to-[#084852]",
+		badgeBg: "bg-[#0d6d66]/15 text-[#0d6d66] border-[#0d6d66]/40"
 	},
 	{
 		id: "ordemSuperior",
@@ -22285,68 +22302,68 @@ var dg = [
 		description: "Raciocínio abstrato, metacognição e planejamento",
 		leftPercent: 54,
 		widthPercent: 46,
-		color: "#21C6E0",
-		barGradient: "from-[#21C6E0] to-emerald-500",
+		color: "#0d6d66",
+		barGradient: "from-[#0d6d66] to-emerald-500",
 		badgeBg: "bg-emerald-50 text-emerald-800 border-emerald-200"
 	}
 ];
 function fg({ isActive: e = !0 }) {
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: "w-full h-full flex flex-col justify-between bg-[#fdfdfd] text-[#0f1012] font-['Satoshi',sans-serif] px-14 pt-[74px] pb-5 select-none overflow-hidden relative",
+		className: "w-full h-full flex flex-col justify-between bg-[#fdfdfd] text-[#0f1012] font-['Satoshi',sans-serif] px-14 pt-[90px] pb-5 select-none relative",
 		children: [
 			/* @__PURE__ */ (0, z.jsx)("div", {
 				className: "w-full shrink-0 z-10",
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
-					className: "flex items-center justify-between bg-gradient-to-r from-[#21C6E0]/15 via-[#eaf9fa] to-transparent px-4 py-1.5 rounded-lg border-l-4 border-[#21C6E0]",
+					className: "flex items-center justify-between bg-gradient-to-r from-[#0d6d66]/15 via-[#e6f5f3] to-transparent px-4 py-1.5 rounded-lg border-l-4 border-[#0d6d66]",
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center gap-2.5",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "font-['Urbanist'] text-[11px] font-bold uppercase tracking-wider text-[#0d606a] bg-[#21C6E0]/20 px-2 py-0.5 rounded border border-[#21C6E0]/30",
+							className: "font-['Urbanist'] text-[15px] font-bold uppercase tracking-wider text-[#0d6d66] bg-[#0d6d66]/20 px-2 py-0.5 rounded border border-[#0d6d66]/30",
 							children: "Ponte Conceitual"
 						}), /* @__PURE__ */ (0, z.jsxs)("p", {
-							className: "text-[13px] font-medium text-[#0d606a]",
+							className: "text-[16px] font-medium text-[#0d6d66]",
 							children: [
 								"Dos fundamentos sistêmicos (Eixo 1) ",
-								/* @__PURE__ */ (0, z.jsx)(jp, { className: "w-3.5 h-3.5 inline mx-1 text-[#21C6E0]" }),
+								/* @__PURE__ */ (0, z.jsx)(jp, { className: "w-3.5 h-3.5 inline mx-1 text-[#0d6d66]" }),
 								" À arquitetura e maturação das funções mentais (Eixo 2)"
 							]
 						})]
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[11.5px] font-semibold text-zinc-400 uppercase tracking-widest hidden sm:inline",
+						className: "text-[14px] font-semibold text-zinc-500 uppercase tracking-wider hidden sm:inline",
 						children: "Abertura do Eixo"
 					})]
 				})
 			}),
 			/* @__PURE__ */ (0, z.jsxs)("div", {
-				className: "shrink-0 mt-12 mb-2",
+				className: "shrink-0 mt-5 mb-3",
 				children: [/* @__PURE__ */ (0, z.jsx)("h1", {
-					className: "font-['Urbanist'] text-[33px] lg:text-[36px] font-bold tracking-[-0.03em] text-[#0f1012] leading-[1.1]",
+					className: "font-['Urbanist'] text-[44px] font-bold tracking-[-0.03em] text-[#0f1012] leading-[1.1]",
 					children: "Cognição não amadurece em bloco"
 				}), /* @__PURE__ */ (0, z.jsx)("p", {
-					className: "text-[15px] text-[#3f4042] font-normal mt-1 leading-[1.3] max-w-[1200px]",
+					className: "text-[22px] text-[#3f4042] font-normal mt-1.5 leading-[1.3] max-w-[1400px]",
 					children: "Diferentes funções emergem, se especializam e passam a trabalhar juntas ao longo do desenvolvimento."
 				})]
 			}),
 			/* @__PURE__ */ (0, z.jsxs)("div", {
 				className: "flex-1 grid grid-cols-12 gap-6 items-center min-h-0 py-1",
 				children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-					className: "col-span-7 flex flex-col justify-center gap-3.5 h-full overflow-hidden",
+					className: "col-span-7 flex flex-col justify-center gap-3 h-full",
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex flex-col bg-transparent relative",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center justify-between mb-1.5 shrink-0",
 							children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "flex items-center gap-2",
-								children: [/* @__PURE__ */ (0, z.jsx)(Fm, { className: "w-4 h-4 text-[#21C6E0]" }), /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "font-['Urbanist'] text-[12px] font-bold uppercase tracking-widest text-[#0d606a]",
+								children: [/* @__PURE__ */ (0, z.jsx)(Fm, { className: "w-5 h-5 text-[#0d6d66]" }), /* @__PURE__ */ (0, z.jsx)("span", {
+									className: "font-['Urbanist'] text-[16px] font-bold uppercase tracking-widest text-[#0d6d66]",
 									children: "Hierarquia Funcional Interdependente"
 								})]
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[11px] text-zinc-400 font-medium",
+								className: "text-[15px] text-zinc-500 font-medium",
 								children: "Conexões ascendentes e descendentes contínuas"
 							})]
 						}), /* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "relative flex flex-col gap-2 pl-8 pr-1",
+							className: "relative flex flex-col gap-1.5 pl-8 pr-1",
 							children: [
 								/* @__PURE__ */ (0, z.jsx)("div", {
 									className: "absolute left-[11.25px] top-2.5 bottom-2.5 w-[1.5px] bg-gradient-to-b from-zinc-200 via-zinc-300/70 to-zinc-200 rounded-full overflow-hidden pointer-events-none",
@@ -22367,102 +22384,102 @@ function fg({ isActive: e = !0 }) {
 											repeat: Infinity,
 											ease: "easeInOut"
 										},
-										className: "absolute left-0 w-full h-14 bg-gradient-to-t from-[#21C6E0]/80 via-[#0d606a]/50 to-transparent rounded-full shadow-[0_0_6px_rgba(33,198,224,0.35)]"
+										className: "absolute left-0 w-full h-14 bg-gradient-to-t from-[#0d6d66]/80 via-[#0d6d66]/50 to-transparent rounded-full shadow-[0_0_6px_rgba(33,198,224,0.35)]"
 									})
 								}),
 								/* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "relative p-2.5 rounded-xl border bg-white/95 border-black/[0.08] shadow-[0_1px_4px_rgba(0,0,0,0.02)]",
 									children: [/* @__PURE__ */ (0, z.jsx)("div", {
-										className: "absolute -left-[28px] top-1/2 -translate-y-1/2 w-4 h-4 rounded-full bg-white border-[1.5px] border-[#21C6E0]/70 flex items-center justify-center shadow-xs",
-										children: /* @__PURE__ */ (0, z.jsx)("div", { className: "w-1.5 h-1.5 rounded-full bg-[#0d606a]" })
+										className: "absolute -left-[28px] top-1/2 -translate-y-1/2 w-5 h-5 rounded-full bg-white border-[1.5px] border-[#0d6d66]/70 flex items-center justify-center shadow-xs",
+										children: /* @__PURE__ */ (0, z.jsx)("div", { className: "w-1.5 h-1.5 rounded-full bg-[#0d6d66]" })
 									}), /* @__PURE__ */ (0, z.jsxs)("div", {
 										className: "flex items-center justify-between",
 										children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 											className: "flex items-center gap-2.5",
 											children: [/* @__PURE__ */ (0, z.jsx)("span", {
-												className: "w-5 h-5 rounded-md bg-[#21C6E0]/15 text-[#0d606a] font-['Urbanist'] font-bold text-[11px] flex items-center justify-center shrink-0",
+												className: "w-7 h-7 rounded-md bg-[#0d6d66]/15 text-[#0d6d66] font-['Urbanist'] font-bold text-[16px] flex items-center justify-center shrink-0",
 												children: "4"
 											}), /* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-												className: "font-['Urbanist'] text-[13.5px] font-bold text-[#0f1012] leading-tight",
+												className: "font-['Urbanist'] text-[19px] font-bold text-[#0f1012] leading-tight",
 												children: "Funções Cognitivas de Ordem Superior"
 											}), /* @__PURE__ */ (0, z.jsx)("p", {
-												className: "text-[10.5px] text-zinc-500 font-medium",
+												className: "text-[16px] text-zinc-600 font-medium leading-snug",
 												children: "Metacognição · Raciocínio Abstrato · Resolução de Problemas · Tomada de Decisão"
 											})] })]
 										}), /* @__PURE__ */ (0, z.jsx)("span", {
-											className: "text-[9.5px] font-semibold text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200 shrink-0",
+											className: "text-[14px] font-semibold text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200 shrink-0",
 											children: "Maturação Tardia (Adolescência+)"
 										})]
 									})]
 								}),
 								/* @__PURE__ */ (0, z.jsxs)("div", {
-									className: "relative p-2.5 rounded-xl border-2 bg-gradient-to-r from-[#21C6E0]/15 via-white to-white border-[#21C6E0]/70 shadow-[0_2px_8px_rgba(33,198,224,0.06)]",
+									className: "relative p-2.5 rounded-xl border-2 bg-gradient-to-r from-[#0d6d66]/15 via-white to-white border-[#0d6d66]/70 shadow-[0_2px_8px_rgba(33,198,224,0.06)]",
 									children: [
 										/* @__PURE__ */ (0, z.jsx)("div", {
-											className: "absolute -left-[28px] top-1/2 -translate-y-1/2 w-4 h-4 rounded-full bg-white border-[1.5px] border-[#21C6E0] flex items-center justify-center shadow-xs ring-2 ring-[#21C6E0]/20",
-											children: /* @__PURE__ */ (0, z.jsx)("div", { className: "w-1.5 h-1.5 rounded-full bg-[#21C6E0]" })
+											className: "absolute -left-[28px] top-1/2 -translate-y-1/2 w-5 h-5 rounded-full bg-white border-[1.5px] border-[#0d6d66] flex items-center justify-center shadow-xs ring-2 ring-[#0d6d66]/20",
+											children: /* @__PURE__ */ (0, z.jsx)("div", { className: "w-1.5 h-1.5 rounded-full bg-[#0d6d66]" })
 										}),
 										/* @__PURE__ */ (0, z.jsxs)("div", {
 											className: "flex items-center justify-between mb-1",
 											children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 												className: "flex items-center gap-2.5",
 												children: [/* @__PURE__ */ (0, z.jsx)("span", {
-													className: "w-5 h-5 rounded-md bg-[#21C6E0] text-zinc-900 font-['Urbanist'] font-bold text-[11px] flex items-center justify-center shadow-xs shrink-0",
+													className: "w-7 h-7 rounded-md bg-[#0d6d66] text-white font-['Urbanist'] font-bold text-[16px] flex items-center justify-center shadow-xs shrink-0",
 													children: "3"
 												}), /* @__PURE__ */ (0, z.jsxs)("div", {
 													className: "flex items-center gap-2",
 													children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-														className: "font-['Urbanist'] text-[14px] font-extrabold text-[#0d606a] leading-tight",
+														className: "font-['Urbanist'] text-[20px] font-extrabold text-[#0d6d66] leading-tight",
 														children: "Funções Executivas Nucleares"
 													}), /* @__PURE__ */ (0, z.jsx)("span", {
-														className: "text-[9px] font-bold uppercase tracking-wider bg-[#21C6E0] text-zinc-900 px-1.5 py-0.5 rounded",
+														className: "text-[14px] font-bold uppercase tracking-wide bg-[#0d6d66] text-white px-1.5 py-0.5 rounded",
 														children: "Núcleo Diamond (2013)"
 													})]
 												})]
 											}), /* @__PURE__ */ (0, z.jsx)("span", {
-												className: "text-[10.5px] text-[#0d606a]/90 font-medium hidden sm:inline",
+												className: "text-[15px] text-[#0d6d66] font-medium hidden sm:inline",
 												children: "Base regulatória para as capacidades complexas"
 											})]
 										}),
 										/* @__PURE__ */ (0, z.jsxs)("div", {
-											className: "grid grid-cols-3 gap-2 mt-1 pt-1.5 border-t border-[#21C6E0]/25",
+											className: "grid grid-cols-3 gap-2 mt-1 pt-1.5 border-t border-[#0d6d66]/25",
 											children: [
 												/* @__PURE__ */ (0, z.jsxs)("div", {
-													className: "bg-white/95 p-1.5 rounded-lg border border-[#21C6E0]/25",
+													className: "bg-white/95 px-2.5 py-2 rounded-lg border border-[#0d6d66]/25",
 													children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 														className: "flex items-center gap-1.5",
-														children: [/* @__PURE__ */ (0, z.jsx)(xh, { className: "w-3.5 h-3.5 text-[#0d606a]" }), /* @__PURE__ */ (0, z.jsx)("span", {
-															className: "font-['Urbanist'] text-[10.5px] font-bold text-[#0f1012]",
+														children: [/* @__PURE__ */ (0, z.jsx)(xh, { className: "w-3.5 h-3.5 text-[#0d6d66]" }), /* @__PURE__ */ (0, z.jsx)("span", {
+															className: "font-['Urbanist'] text-[16px] font-bold text-[#0f1012]",
 															children: "Controle Inibitório"
 														})]
 													}), /* @__PURE__ */ (0, z.jsx)("p", {
-														className: "text-[9px] text-zinc-500 mt-0.5 leading-tight",
+														className: "text-[15px] font-medium text-zinc-600 mt-0.5 leading-snug",
 														children: "Freio a impulsos e filtragem de distratores"
 													})]
 												}),
 												/* @__PURE__ */ (0, z.jsxs)("div", {
-													className: "bg-white/95 p-1.5 rounded-lg border border-[#21C6E0]/25",
+													className: "bg-white/95 px-2.5 py-2 rounded-lg border border-[#0d6d66]/25",
 													children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 														className: "flex items-center gap-1.5",
-														children: [/* @__PURE__ */ (0, z.jsx)(Lh, { className: "w-3.5 h-3.5 text-[#0d606a]" }), /* @__PURE__ */ (0, z.jsx)("span", {
-															className: "font-['Urbanist'] text-[10.5px] font-bold text-[#0f1012]",
+														children: [/* @__PURE__ */ (0, z.jsx)(Lh, { className: "w-3.5 h-3.5 text-[#0d6d66]" }), /* @__PURE__ */ (0, z.jsx)("span", {
+															className: "font-['Urbanist'] text-[16px] font-bold text-[#0f1012]",
 															children: "Memória de Trabalho"
 														})]
 													}), /* @__PURE__ */ (0, z.jsx)("p", {
-														className: "text-[9px] text-zinc-500 mt-0.5 leading-tight",
+														className: "text-[15px] font-medium text-zinc-600 mt-0.5 leading-snug",
 														children: "Manter e manipular dados ativamente"
 													})]
 												}),
 												/* @__PURE__ */ (0, z.jsxs)("div", {
-													className: "bg-white/95 p-1.5 rounded-lg border border-[#21C6E0]/25",
+													className: "bg-white/95 px-2.5 py-2 rounded-lg border border-[#0d6d66]/25",
 													children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 														className: "flex items-center gap-1.5",
-														children: [/* @__PURE__ */ (0, z.jsx)(_h, { className: "w-3.5 h-3.5 text-[#0d606a]" }), /* @__PURE__ */ (0, z.jsx)("span", {
-															className: "font-['Urbanist'] text-[10.5px] font-bold text-[#0f1012]",
+														children: [/* @__PURE__ */ (0, z.jsx)(_h, { className: "w-3.5 h-3.5 text-[#0d6d66]" }), /* @__PURE__ */ (0, z.jsx)("span", {
+															className: "font-['Urbanist'] text-[16px] font-bold text-[#0f1012]",
 															children: "Flexibilidade"
 														})]
 													}), /* @__PURE__ */ (0, z.jsx)("p", {
-														className: "text-[9px] text-zinc-500 mt-0.5 leading-tight",
+														className: "text-[15px] font-medium text-zinc-600 mt-0.5 leading-snug",
 														children: "Alternar regras, rotas e perspectivas"
 													})]
 												})
@@ -22473,24 +22490,24 @@ function fg({ isActive: e = !0 }) {
 								/* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "relative p-2.5 rounded-xl border bg-white/95 border-black/[0.08] shadow-[0_1px_4px_rgba(0,0,0,0.02)]",
 									children: [/* @__PURE__ */ (0, z.jsx)("div", {
-										className: "absolute -left-[28px] top-1/2 -translate-y-1/2 w-4 h-4 rounded-full bg-white border-[1.5px] border-[#14b8a6]/70 flex items-center justify-center shadow-xs",
+										className: "absolute -left-[28px] top-1/2 -translate-y-1/2 w-5 h-5 rounded-full bg-white border-[1.5px] border-[#14b8a6]/70 flex items-center justify-center shadow-xs",
 										children: /* @__PURE__ */ (0, z.jsx)("div", { className: "w-1.5 h-1.5 rounded-full bg-[#14b8a6]" })
 									}), /* @__PURE__ */ (0, z.jsxs)("div", {
 										className: "flex items-center justify-between",
 										children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 											className: "flex items-center gap-2.5",
 											children: [/* @__PURE__ */ (0, z.jsx)("span", {
-												className: "w-5 h-5 rounded-md bg-[#21C6E0]/15 text-[#0d606a] font-['Urbanist'] font-bold text-[11px] flex items-center justify-center shrink-0",
+												className: "w-7 h-7 rounded-md bg-[#0d6d66]/15 text-[#0d6d66] font-['Urbanist'] font-bold text-[16px] flex items-center justify-center shrink-0",
 												children: "2"
 											}), /* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-												className: "font-['Urbanist'] text-[13.5px] font-bold text-[#0f1012] leading-tight",
+												className: "font-['Urbanist'] text-[19px] font-bold text-[#0f1012] leading-tight",
 												children: "Memória + Linguagem"
 											}), /* @__PURE__ */ (0, z.jsx)("p", {
-												className: "text-[10.5px] text-zinc-500 font-medium",
+												className: "text-[16px] text-zinc-600 font-medium leading-snug",
 												children: "Sistemas representacionais, vocabulário, codificação e evocação semântica"
 											})] })]
 										}), /* @__PURE__ */ (0, z.jsx)("span", {
-											className: "text-[9.5px] font-semibold text-teal-800 bg-teal-50 px-2 py-0.5 rounded-md border border-teal-200 shrink-0",
+											className: "text-[14px] font-semibold text-teal-800 bg-teal-50 px-2 py-0.5 rounded-md border border-teal-200 shrink-0",
 											children: "Interação Bidirecional Contínua"
 										})]
 									})]
@@ -22498,24 +22515,24 @@ function fg({ isActive: e = !0 }) {
 								/* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "relative p-2.5 rounded-xl border bg-white/95 border-black/[0.08] shadow-[0_1px_4px_rgba(0,0,0,0.02)]",
 									children: [/* @__PURE__ */ (0, z.jsx)("div", {
-										className: "absolute -left-[28px] top-1/2 -translate-y-1/2 w-4 h-4 rounded-full bg-white border-[1.5px] border-zinc-400/70 flex items-center justify-center shadow-xs",
+										className: "absolute -left-[28px] top-1/2 -translate-y-1/2 w-5 h-5 rounded-full bg-white border-[1.5px] border-zinc-400/70 flex items-center justify-center shadow-xs",
 										children: /* @__PURE__ */ (0, z.jsx)("div", { className: "w-1.5 h-1.5 rounded-full bg-zinc-500" })
 									}), /* @__PURE__ */ (0, z.jsxs)("div", {
 										className: "flex items-center justify-between",
 										children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 											className: "flex items-center gap-2.5",
 											children: [/* @__PURE__ */ (0, z.jsx)("span", {
-												className: "w-5 h-5 rounded-md bg-zinc-100 text-zinc-700 font-['Urbanist'] font-bold text-[11px] flex items-center justify-center shrink-0",
+												className: "w-7 h-7 rounded-md bg-zinc-100 text-zinc-700 font-['Urbanist'] font-bold text-[16px] flex items-center justify-center shrink-0",
 												children: "1"
 											}), /* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-												className: "font-['Urbanist'] text-[13.5px] font-bold text-[#0f1012] leading-tight",
+												className: "font-['Urbanist'] text-[19px] font-bold text-[#0f1012] leading-tight",
 												children: "Atenção & Percepção"
 											}), /* @__PURE__ */ (0, z.jsx)("p", {
-												className: "text-[10.5px] text-zinc-500 font-medium",
+												className: "text-[16px] text-zinc-600 font-medium leading-snug",
 												children: "Orientação espacial, seleção de estímulos, alerta e sustentação fásica"
 											})] })]
 										}), /* @__PURE__ */ (0, z.jsx)("span", {
-											className: "text-[9.5px] font-semibold text-zinc-600 bg-zinc-100 px-2 py-0.5 rounded-md shrink-0",
+											className: "text-[14px] font-semibold text-zinc-700 bg-zinc-100 px-2 py-0.5 rounded-md shrink-0",
 											children: "Maturação Inicial (0–3 anos)"
 										})]
 									})]
@@ -22523,64 +22540,64 @@ function fg({ isActive: e = !0 }) {
 							]
 						})]
 					}), /* @__PURE__ */ (0, z.jsxs)("div", {
-						className: "bg-white p-3 rounded-2xl border border-black/[0.07] shadow-sm flex flex-col justify-between",
+						className: "bg-white px-3 py-2.5 rounded-2xl border border-black/[0.07] shadow-sm flex flex-col justify-between",
 						children: [
 							/* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "flex items-center justify-between mb-1",
 								children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "flex items-center gap-2",
-									children: [/* @__PURE__ */ (0, z.jsx)(Ch, { className: "w-4 h-4 text-[#21C6E0]" }), /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "font-['Urbanist'] text-[12.5px] font-bold text-[#0f1012]",
+									children: [/* @__PURE__ */ (0, z.jsx)(Ch, { className: "w-5 h-5 text-[#0d6d66]" }), /* @__PURE__ */ (0, z.jsx)("span", {
+										className: "font-['Urbanist'] text-[18px] font-bold text-[#0f1012]",
 										children: "Maturação Heterocrônica · Janelas Críticas & Ritmos"
 									})]
 								}), /* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "flex items-center gap-1.5",
-									children: [/* @__PURE__ */ (0, z.jsx)(lm, { className: "w-3.5 h-3.5 text-[#0d606a]" }), /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[10px] font-semibold text-[#0d606a] bg-[#21C6E0]/20 border border-[#21C6E0]/30 px-2 py-0.5 rounded",
+									children: [/* @__PURE__ */ (0, z.jsx)(lm, { className: "w-3.5 h-3.5 text-[#0d6d66]" }), /* @__PURE__ */ (0, z.jsx)("span", {
+										className: "text-[14px] font-semibold text-[#0d6d66] bg-[#0d6d66]/20 border border-[#0d6d66]/30 px-2 py-0.5 rounded",
 										children: "Ritmos Diferentes por Domínio"
 									})]
 								})]
 							}),
 							/* @__PURE__ */ (0, z.jsx)("p", {
-								className: "text-[10.5px] text-zinc-500 leading-tight mb-2",
+								className: "text-[16px] font-medium text-zinc-600 leading-snug mb-2",
 								children: "Cada função possui sua própria janela de especialização. As informações abaixo são fixas e mostram o curso temporal de cada domínio."
 							}),
 							/* @__PURE__ */ (0, z.jsxs)("div", {
-								className: "w-full bg-[#fbfcfc] p-2.5 rounded-xl border border-black/[0.04] flex flex-col gap-2",
+								className: "w-full bg-[#fbfcfc] px-2.5 py-2 rounded-xl border border-black/[0.04] flex flex-col gap-1.5",
 								children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "grid grid-cols-4 text-center border-b border-black/[0.06] pb-1",
 									children: [
 										/* @__PURE__ */ (0, z.jsxs)("div", {
 											className: "text-left pl-1",
 											children: [/* @__PURE__ */ (0, z.jsx)("span", {
-												className: "font-['Urbanist'] text-[10px] font-bold text-zinc-700 block",
+												className: "font-['Urbanist'] text-[15px] font-bold text-zinc-800 block",
 												children: "0–3 anos"
 											}), /* @__PURE__ */ (0, z.jsx)("span", {
-												className: "text-[8.5px] text-zinc-400",
+												className: "text-[14px] font-medium text-zinc-500",
 												children: "Primeira infância"
 											})]
 										}),
 										/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("span", {
-											className: "font-['Urbanist'] text-[10px] font-bold text-zinc-700 block",
+											className: "font-['Urbanist'] text-[15px] font-bold text-zinc-800 block",
 											children: "3–7 anos"
 										}), /* @__PURE__ */ (0, z.jsx)("span", {
-											className: "text-[8.5px] text-zinc-400",
+											className: "text-[14px] font-medium text-zinc-500",
 											children: "Pré-escolar"
 										})] }),
 										/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("span", {
-											className: "font-['Urbanist'] text-[10px] font-bold text-zinc-700 block",
+											className: "font-['Urbanist'] text-[15px] font-bold text-zinc-800 block",
 											children: "7–12 anos"
 										}), /* @__PURE__ */ (0, z.jsx)("span", {
-											className: "text-[8.5px] text-zinc-400",
+											className: "text-[14px] font-medium text-zinc-500",
 											children: "Escolar"
 										})] }),
 										/* @__PURE__ */ (0, z.jsxs)("div", {
 											className: "text-right pr-1",
 											children: [/* @__PURE__ */ (0, z.jsx)("span", {
-												className: "font-['Urbanist'] text-[10px] font-bold text-zinc-700 block",
+												className: "font-['Urbanist'] text-[15px] font-bold text-zinc-800 block",
 												children: "12–25+ anos"
 											}), /* @__PURE__ */ (0, z.jsx)("span", {
-												className: "text-[8.5px] text-zinc-400",
+												className: "text-[14px] font-medium text-zinc-500",
 												children: "Adolescência / Adulto"
 											})]
 										})
@@ -22588,20 +22605,20 @@ function fg({ isActive: e = !0 }) {
 								}), /* @__PURE__ */ (0, z.jsx)("div", {
 									className: "flex flex-col gap-1.5 pt-0.5",
 									children: dg.map((e) => /* @__PURE__ */ (0, z.jsxs)("div", {
-										className: "flex items-center gap-2 text-[10px]",
+										className: "flex items-center gap-2 text-[14px]",
 										children: [
 											/* @__PURE__ */ (0, z.jsxs)("div", {
-												className: "w-36 shrink-0 flex flex-col",
+												className: "w-48 shrink-0 flex flex-col",
 												children: [/* @__PURE__ */ (0, z.jsx)("span", {
-													className: "font-['Urbanist'] font-bold text-zinc-800 text-[10.5px] truncate",
+													className: "font-['Urbanist'] font-bold text-zinc-800 text-[16px] leading-tight",
 													children: e.label
 												}), /* @__PURE__ */ (0, z.jsxs)("span", {
-													className: "text-[8.5px] text-zinc-400 font-medium",
+													className: "text-[14px] text-zinc-500 font-medium",
 													children: ["Janela: ", e.window]
 												})]
 											}),
 											/* @__PURE__ */ (0, z.jsx)("div", {
-												className: "flex-1 h-5 bg-zinc-100/90 rounded-md relative overflow-hidden flex items-center",
+												className: "flex-1 h-7 bg-zinc-100/90 rounded-md relative overflow-hidden flex items-center",
 												children: /* @__PURE__ */ (0, z.jsx)("div", {
 													className: `h-full rounded-md bg-gradient-to-r ${e.barGradient} flex items-center px-2 shadow-xs transition-all`,
 													style: {
@@ -22609,15 +22626,15 @@ function fg({ isActive: e = !0 }) {
 														width: `${e.widthPercent}%`
 													},
 													children: /* @__PURE__ */ (0, z.jsx)("span", {
-														className: "text-[8px] font-bold text-white uppercase tracking-wider truncate drop-shadow-xs",
+														className: "text-[14px] font-bold text-white uppercase tracking-wide whitespace-nowrap drop-shadow-xs",
 														children: e.status
 													})
 												})
 											}),
 											/* @__PURE__ */ (0, z.jsx)("div", {
-												className: "w-24 shrink-0 text-right",
+												className: "w-32 shrink-0 text-right",
 												children: /* @__PURE__ */ (0, z.jsx)("span", {
-													className: `text-[8.5px] font-bold px-2 py-0.5 rounded border inline-block ${e.badgeBg}`,
+													className: `text-[14px] font-bold px-2 py-0.5 rounded border inline-block ${e.badgeBg}`,
 													children: e.status
 												})
 											})
@@ -22626,12 +22643,12 @@ function fg({ isActive: e = !0 }) {
 								})]
 							}),
 							/* @__PURE__ */ (0, z.jsxs)("div", {
-								className: "flex items-center justify-between mt-2 pt-1.5 border-t border-black/[0.04] text-[9.5px] text-zinc-500",
+								className: "flex items-center justify-between gap-3 mt-2 pt-1.5 border-t border-black/[0.04] text-[15px] text-zinc-600",
 								children: [/* @__PURE__ */ (0, z.jsx)("span", {
 									className: "font-medium",
 									children: "Consolidação hierárquica: das funções sensório-motoras às redes executivas frontais."
 								}), /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "font-semibold text-[#0d606a]",
+									className: "font-semibold text-[#0d6d66]",
 									children: "Janelas estendidas até a terceira década"
 								})]
 							})
@@ -22641,23 +22658,23 @@ function fg({ isActive: e = !0 }) {
 					className: "col-span-5 flex flex-col justify-center gap-3 h-full",
 					children: [/* @__PURE__ */ (0, z.jsx)(ug, {
 						videoSrc: "assets/blue-cubes-animation.mp4",
-						logo: /* @__PURE__ */ (0, z.jsx)(hh, { className: "w-4 h-4 text-[#21C6E0]" }),
+						logo: /* @__PURE__ */ (0, z.jsx)(hh, { className: "w-5 h-5 text-[#0d6d66]" }),
 						badge: "Alerta Clínico",
 						title: "QI ≠ cognição inteira",
 						subtitle: "Neuropsicologia do Desenvolvimento",
 						overview: "Uma pontuação global única pode mascarar discrepâncias severas entre atenção, memória operacional, velocidade de processamento e regulação executiva.",
 						className: "rounded-2xl",
 						children: /* @__PURE__ */ (0, z.jsx)("div", {
-							className: "mt-2.5 p-2.5 rounded-xl bg-white/90 backdrop-blur-xs border border-[#21C6E0]/35 shadow-xs",
+							className: "mt-2.5 p-2.5 rounded-xl bg-white/90 backdrop-blur-xs border border-[#0d6d66]/35 shadow-xs",
 							children: /* @__PURE__ */ (0, z.jsxs)("div", {
-								className: "flex items-start gap-2 text-[11px] font-semibold text-[#0d606a] leading-snug",
-								children: [/* @__PURE__ */ (0, z.jsx)(hh, { className: "w-3.5 h-3.5 text-[#21C6E0] shrink-0 mt-0.5" }), /* @__PURE__ */ (0, z.jsx)("span", { children: "Avaliação clínica requer perfil multifacetado, não apenas um escore composto." })]
+								className: "flex items-start gap-2 text-[17px] font-semibold text-[#0d6d66] leading-snug",
+								children: [/* @__PURE__ */ (0, z.jsx)(hh, { className: "w-4 h-4 text-[#0d6d66] shrink-0 mt-0.5" }), /* @__PURE__ */ (0, z.jsx)("span", { children: "Avaliação clínica requer perfil multifacetado, não apenas um escore composto." })]
 							})
 						})
 					}), /* @__PURE__ */ (0, z.jsx)("div", {
-						className: "bg-gradient-to-r from-[#0d606a] to-[#08545e] border-l-4 border-[#21C6E0] text-white px-4 py-3 rounded-xl shadow-sm flex items-center justify-between shrink-0",
+						className: "bg-gradient-to-r from-[#0d6d66] to-[#08545e] border-l-4 border-[#0d6d66] text-white px-4 py-3 rounded-xl shadow-sm flex items-center justify-between shrink-0",
 						children: /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "font-['Urbanist'] text-[12.5px] font-bold leading-snug",
+							className: "font-['Urbanist'] text-[20px] font-bold leading-snug",
 							children: "Desenvolvimento cognitivo = especialização + integração progressiva de múltiplas funções."
 						})
 					})]
@@ -22666,10 +22683,10 @@ function fg({ isActive: e = !0 }) {
 			/* @__PURE__ */ (0, z.jsxs)("div", {
 				className: "w-full flex items-center gap-3 pt-2 shrink-0 text-zinc-500 z-10",
 				children: [/* @__PURE__ */ (0, z.jsx)("span", {
-					className: "font-['Urbanist'] text-[10px] font-bold tracking-wider uppercase text-[#0d606a] bg-[#21C6E0]/15 px-2 py-0.5 rounded border border-[#21C6E0]/30",
+					className: "font-['Urbanist'] text-[14px] font-bold tracking-wider uppercase text-[#0d6d66] bg-[#0d6d66]/15 px-2 py-0.5 rounded border border-[#0d6d66]/30",
 					children: "REF"
 				}), /* @__PURE__ */ (0, z.jsxs)("p", {
-					className: "text-[11px] leading-tight text-zinc-500",
+					className: "text-[15px] leading-tight text-[#6a6b6d]",
 					children: [
 						"Diamond A. ",
 						/* @__PURE__ */ (0, z.jsx)("em", { children: "Annu Rev Psychol." }),
@@ -22827,18 +22844,18 @@ function vg({ isActive: e = !0 }) {
 							className: "w-full h-[52px] !cursor-pointer transition-all duration-300 shadow-sm hover:shadow-md",
 							contentClassName: "w-full flex items-center px-6 text-left",
 							children: /* @__PURE__ */ (0, z.jsxs)("div", {
-								className: "flex items-center gap-2.5 w-full text-[17.5px] sm:text-[19px] tracking-tight font-['Satoshi'] truncate",
+								className: "flex items-center gap-2.5 w-full text-[19px] tracking-tight font-['Satoshi'] whitespace-nowrap",
 								children: [
 									/* @__PURE__ */ (0, z.jsx)("span", {
-										className: `font-semibold shrink-0 ${r.variant === "accent" ? "text-[#0071e3]" : "text-[#0f1012]"}`,
+										className: `font-semibold shrink-0 ${r.variant === "accent" ? "text-[#0d6d66]" : "text-[#0f1012]"}`,
 										children: r.action
 									}),
 									/* @__PURE__ */ (0, z.jsx)("span", {
-										className: `font-light opacity-40 shrink-0 ${r.variant === "accent" ? "text-[#0071e3]" : "text-[#5f6062]"}`,
+										className: `font-light opacity-40 shrink-0 ${r.variant === "accent" ? "text-[#0d6d66]" : "text-[#5f6062]"}`,
 										children: "—"
 									}),
 									/* @__PURE__ */ (0, z.jsx)("span", {
-										className: `font-normal truncate ${r.variant === "accent" ? "text-[#0071e3]/90 font-medium" : "text-[#3f4042]"}`,
+										className: `font-normal ${r.variant === "accent" ? "text-[#0d6d66]/90 font-medium" : "text-[#3f4042]"}`,
 										children: r.detail
 									})
 								]
@@ -22870,15 +22887,15 @@ function vg({ isActive: e = !0 }) {
 				children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "h-[2px] w-full bg-[#d2d4d8] rounded-full relative",
 					children: [
-						/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute left-0 top-1/2 -translate-y-1/2 w-2.5 h-2.5 rounded-full bg-[#0d606a] border-2 border-white shadow-xs" }),
+						/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute left-0 top-1/2 -translate-y-1/2 w-2.5 h-2.5 rounded-full bg-[#0d6d66] border-2 border-white shadow-xs" }),
 						/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-2.5 h-2.5 rounded-full bg-[#5f6062] border-2 border-white shadow-xs" }),
-						/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute right-0 top-1/2 -translate-y-1/2 w-2.5 h-2.5 rounded-full bg-[#0071e3] border-2 border-white shadow-xs" })
+						/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute right-0 top-1/2 -translate-y-1/2 w-2.5 h-2.5 rounded-full bg-[#0d6d66] border-2 border-white shadow-xs" })
 					]
 				}), /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "relative w-full h-6 mt-2.5 text-[17px] sm:text-[18.5px] font-['Satoshi']",
 					children: [
 						/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "absolute left-0 font-semibold text-[#0d606a] tracking-tight",
+							className: "absolute left-0 font-semibold text-[#0d6d66] tracking-tight",
 							children: "primeiro ano"
 						}),
 						/* @__PURE__ */ (0, z.jsx)("span", {
@@ -22886,7 +22903,7 @@ function vg({ isActive: e = !0 }) {
 							children: "1–2 anos"
 						}),
 						/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "absolute right-0 font-semibold text-[#0071e3] tracking-tight",
+							className: "absolute right-0 font-semibold text-[#0d6d66] tracking-tight",
 							children: "3–5 anos"
 						})
 					]
@@ -22934,7 +22951,7 @@ var yg = ({ title: e = "Atenção, Memória & Linguagem", subtitle: t = "Associa
 				damping: 22
 			}
 		},
-		className: q("w-full max-w-[380px] overflow-hidden rounded-2xl border border-zinc-200/90 bg-white text-[#0f1012] shadow-[0_10px_30px_-10px_rgba(0,0,0,0.06),0_2px_8px_-2px_rgba(0,0,0,0.03)] select-none", i),
+		className: q("w-full max-w-[520px] overflow-hidden rounded-2xl border border-zinc-200/90 bg-white text-[#0f1012] shadow-[0_10px_30px_-10px_rgba(0,0,0,0.06),0_2px_8px_-2px_rgba(0,0,0,0.03)] select-none", i),
 		...a,
 		children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 			className: "relative h-[135px] w-full bg-[#0a0a0c] overflow-hidden",
@@ -22954,7 +22971,7 @@ var yg = ({ title: e = "Atenção, Memória & Linguagem", subtitle: t = "Associa
 				className: "absolute top-3 right-3 z-10",
 				children: /* @__PURE__ */ (0, z.jsx)(Zh, {
 					variant: "secondary",
-					className: "bg-black/50 text-white/90 border border-white/20 backdrop-blur-md text-[10.5px] font-semibold px-2 py-0.5",
+					className: "bg-black/50 text-white/90 border border-white/20 backdrop-blur-md text-[14px] font-semibold px-2 py-0.5",
 					children: "0–12 meses"
 				})
 			})]
@@ -22965,10 +22982,10 @@ var yg = ({ title: e = "Atenção, Memória & Linguagem", subtitle: t = "Associa
 				/* @__PURE__ */ (0, z.jsxs)(H.div, {
 					variants: s,
 					children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-						className: "text-[18px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif] mb-1",
+						className: "text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif] mb-1",
 						children: e
 					}), /* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[11px] font-bold uppercase tracking-wider text-[#0d606a]",
+						className: "text-[14px] font-bold uppercase tracking-wider text-[#0d606a]",
 						children: t
 					})]
 				}),
@@ -22976,10 +22993,10 @@ var yg = ({ title: e = "Atenção, Memória & Linguagem", subtitle: t = "Associa
 					variants: s,
 					className: "pt-0.5",
 					children: [/* @__PURE__ */ (0, z.jsx)("h4", {
-						className: "text-[10px] font-bold uppercase tracking-[0.14em] text-zinc-500 mb-1",
+						className: "text-[14px] font-bold uppercase tracking-[0.1em] text-zinc-600 mb-1",
 						children: n
 					}), /* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[12.5px] text-[#334155] leading-relaxed font-normal",
+						className: "text-[17px] text-[#334155] leading-snug font-medium",
 						children: r
 					})]
 				}),
@@ -22987,10 +23004,10 @@ var yg = ({ title: e = "Atenção, Memória & Linguagem", subtitle: t = "Associa
 					variants: s,
 					className: "pt-2 border-t border-black/[0.06] flex items-center justify-between",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[10px] font-semibold text-zinc-500",
+						className: "text-[14px] font-semibold text-zinc-600",
 						children: "Reynolds & Romano (2016)"
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[10px] font-bold text-[#0071e3] bg-[#0071e3]/10 px-2 py-0.5 rounded-md",
+						className: "text-[14px] font-bold text-[#0071e3] bg-[#0071e3]/10 px-2 py-0.5 rounded-md",
 						children: "Associação Bidirecional"
 					})]
 				})
@@ -23008,12 +23025,12 @@ function bg({ isActive: e = !0 }) {
 				className: "absolute",
 				style: {
 					left: "96px",
-					top: "56px",
+					top: "92px",
 					width: "1528px"
 				},
 				children: [
 					/* @__PURE__ */ (0, z.jsx)("p", {
-						className: "m-0 mb-2.5 text-[20px] font-semibold tracking-[0.14em] uppercase text-[#0d606a]",
+						className: "m-0 mb-2.5 text-[22px] font-semibold tracking-[0.12em] uppercase text-[#0d6d66]",
 						children: "Eixo 2 · Desenvolvimento cognitivo"
 					}),
 					/* @__PURE__ */ (0, z.jsx)("h2", {
@@ -23039,9 +23056,9 @@ function bg({ isActive: e = !0 }) {
 			/* @__PURE__ */ (0, z.jsx)("div", {
 				className: "absolute z-20",
 				style: {
-					left: "1180px",
-					top: "320px",
-					width: "380px"
+					left: "1176px",
+					top: "312px",
+					width: "500px"
 				},
 				children: /* @__PURE__ */ (0, z.jsx)(yg, {
 					className: "w-full",
@@ -23055,16 +23072,16 @@ function bg({ isActive: e = !0 }) {
 				className: "absolute",
 				style: {
 					left: "320px",
-					top: "780px",
+					top: "790px",
 					width: "1280px"
 				},
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
-					className: "flex flex-col justify-between p-6 sm:p-7 rounded-[20px] bg-gradient-to-br from-white/95 to-[#f4f8fc]/85 border border-[#0071e3]/15 shadow-[0_12px_32px_-10px_rgba(0,0,0,0.06),0_2px_8px_-2px_rgba(0,0,0,0.03)] relative overflow-hidden",
+					className: "flex flex-col justify-between p-6 sm:p-7 rounded-[20px] bg-gradient-to-br from-white/95 to-[#f4f8fc]/85 border border-[#0d6d66]/20 shadow-[0_12px_32px_-10px_rgba(0,0,0,0.06),0_2px_8px_-2px_rgba(0,0,0,0.03)] relative overflow-hidden",
 					children: [
-						/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 left-0 bottom-0 w-1.5 bg-gradient-to-b from-[#0071e3] to-[#21C6E0]" }),
+						/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 left-0 bottom-0 w-1.5 bg-gradient-to-b from-[#0d6d66] to-[#14b8a6]" }),
 						/* @__PURE__ */ (0, z.jsxs)("span", {
-							className: "font-['Urbanist'] text-[11px] font-bold tracking-[0.14em] uppercase text-[#0d606a] mb-2 inline-flex items-center gap-1.5",
-							children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-1.5 h-1.5 rounded-full bg-[#0071e3]" }), "Tese Central"]
+							className: "font-['Urbanist'] text-[15px] font-bold tracking-[0.14em] uppercase text-[#0d6d66] mb-2 inline-flex items-center gap-1.5",
+							children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-1.5 h-1.5 rounded-full bg-[#0d6d66]" }), "Tese Central"]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
 							className: "m-0 text-[24px] font-medium leading-[1.38] tracking-[-0.3px] text-[#0f1012]",
@@ -23085,7 +23102,7 @@ var xg = [
 		subtitle: "Manter & manipular",
 		role: "Retenção ativa de informações para cálculo mental, compreensão e sintaxe complexa",
 		icon: Fm,
-		color: "#0071e3",
+		color: "#0d6d66",
 		badge: "Associação mais consistente",
 		evidenceNote: "Meta-análise Spiegel (2021): preditor com maiores tamanhos de efeito",
 		yPos: 76,
@@ -23101,7 +23118,7 @@ var xg = [
 		subtitle: "Freio & foco sustentado",
 		role: "Filtrar estímulos distratores e suprimir respostas automáticas inadequadas",
 		icon: lh,
-		color: "#0d606a",
+		color: "#094e48",
 		badge: "Regulação atencional",
 		evidenceNote: "Permite engajamento sustentado em tarefas acadêmicas prolongadas",
 		yPos: 196,
@@ -23125,14 +23142,14 @@ var xg = [
 		name: "Leitura",
 		desc: "Decodificação, vocabulário e compreensão de texto",
 		icon: zp,
-		accent: "#0071e3"
+		accent: "#0d6d66"
 	},
 	{
 		id: "matematica",
 		name: "Matemática",
 		desc: "Senso numérico, cálculo mental e problemas lógicos",
 		icon: Yp,
-		accent: "#0d606a"
+		accent: "#094e48"
 	},
 	{
 		id: "linguagem",
@@ -23145,12 +23162,12 @@ var xg = [
 function Cg({ isActive: e = !0, className: t }) {
 	let n = (0, b.useId)(), [r, i] = (0, b.useState)(null), [a, o] = (0, b.useState)(null), s = a || r, c = xg.find((e) => e.id === s);
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: q("relative w-full h-full flex flex-col justify-between select-none overflow-hidden rounded-3xl bg-gradient-to-br from-white via-[#fbfdff] to-[#f0f7ff]/50 border border-black/[0.08] shadow-[0_4px_30px_rgba(0,113,227,0.06)] p-5 md:p-7 font-['Satoshi',sans-serif]", t),
+		className: q("relative w-full h-full flex flex-col justify-between select-none overflow-hidden rounded-3xl bg-gradient-to-br from-white via-[#f8fcfb] to-[#e6f5f3]/50 border border-black/[0.08] shadow-[0_4px_30px_rgba(13,109,102,0.06)] p-5 md:p-7 font-['Satoshi',sans-serif]", t),
 		children: [
 			/* @__PURE__ */ (0, z.jsx)("div", {
 				className: "absolute inset-0 opacity-25 pointer-events-none",
 				style: {
-					backgroundImage: "radial-gradient(circle, #0071e3 1px, transparent 1px)",
+					backgroundImage: "radial-gradient(circle, #0d6d66 1px, transparent 1px)",
 					backgroundSize: "26px 26px"
 				}
 			}),
@@ -23160,19 +23177,19 @@ function Cg({ isActive: e = !0, className: t }) {
 				children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-2.5",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-8 h-8 rounded-xl bg-[#0071e3]/10 border border-[#0071e3]/20 flex items-center justify-center text-[#0071e3]",
-						children: /* @__PURE__ */ (0, z.jsx)(xm, { className: "w-4 h-4" })
+						className: "w-8 h-8 rounded-xl bg-[#0d6d66]/10 border border-[#0d6d66]/20 flex items-center justify-center text-[#0d6d66]",
+						children: /* @__PURE__ */ (0, z.jsx)(xm, { className: "w-5 h-5" })
 					}), /* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center gap-2",
 						children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-							className: "font-['Urbanist',sans-serif] text-[16px] font-bold text-[#0f1012] leading-tight",
+							className: "font-['Urbanist',sans-serif] text-[20px] font-bold text-[#0f1012] leading-tight",
 							children: "Convergência Neurocognitiva"
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] font-bold uppercase tracking-wider bg-[#0071e3]/10 text-[#0071e3] px-2 py-0.5 rounded-full border border-[#0071e3]/20",
+							className: "text-[14px] font-bold uppercase tracking-wide bg-[#0d6d66]/10 text-[#0d6d66] px-2 py-0.5 rounded-full border border-[#0d6d66]/20",
 							children: "Idade Escolar (6–12 anos)"
 						})]
 					}), /* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[11.5px] text-[#5f6062] font-normal leading-tight mt-0.5",
+						className: "text-[16px] text-[#5f6062] font-medium leading-snug mt-0.5",
 						children: "Funções executivas nucleares canalizadas diretamente para as aprendizagens formais"
 					})] })]
 				}), c && /* @__PURE__ */ (0, z.jsxs)(H.div, {
@@ -23184,7 +23201,7 @@ function Cg({ isActive: e = !0, className: t }) {
 						opacity: 1,
 						x: 0
 					},
-					className: "hidden sm:flex items-center gap-1.5 px-3 py-1 rounded-lg bg-white/90 border border-[#0071e3]/30 shadow-xs text-[11px] font-medium text-[#0071e3]",
+					className: "hidden sm:flex items-center gap-1.5 px-3 py-1 rounded-lg bg-white/90 border border-[#0d6d66]/30 shadow-xs text-[15px] font-medium text-[#0d6d66]",
 					children: [/* @__PURE__ */ (0, z.jsx)(hh, { className: "w-3.5 h-3.5" }), /* @__PURE__ */ (0, z.jsx)("span", { children: c.evidenceNote })]
 				})]
 			}),
@@ -23216,7 +23233,7 @@ function Cg({ isActive: e = !0, className: t }) {
 							}),
 							/* @__PURE__ */ (0, z.jsx)("stop", {
 								offset: "100%",
-								stopColor: "#0071e3",
+								stopColor: "#0d6d66",
 								stopOpacity: "0.1"
 							})
 						]
@@ -23252,7 +23269,7 @@ function Cg({ isActive: e = !0, className: t }) {
 									cx: "590",
 									cy: "200",
 									r: t ? "5" : "3.5",
-									fill: t ? e.color : "#0071e3",
+									fill: t ? e.color : "#0d6d66",
 									opacity: t ? .9 : .4
 								})
 							]
@@ -23273,10 +23290,10 @@ function Cg({ isActive: e = !0, className: t }) {
 										scale: 1.015,
 										x: 3
 									},
-									className: q("cursor-pointer p-3.5 rounded-2xl border transition-all duration-300 relative bg-white/95 backdrop-blur-md shadow-sm", t ? "border-[#0071e3] ring-3 ring-[#0071e3]/15 shadow-[0_4px_20px_rgba(0,113,227,0.12)] bg-gradient-to-r from-white via-white to-[#0071e3]/[0.04]" : "border-black/[0.07] hover:border-black/[0.15] hover:shadow-md"),
+									className: q("cursor-pointer px-3.5 py-3 rounded-2xl border transition-all duration-300 relative bg-white/95 backdrop-blur-md shadow-sm", t ? "border-[#0d6d66] ring-3 ring-[#0d6d66]/15 shadow-[0_4px_20px_rgba(13,109,102,0.12)] bg-gradient-to-r from-white via-white to-[#0d6d66]/[0.04]" : "border-black/[0.07] hover:border-black/[0.15] hover:shadow-md"),
 									children: [
 										/* @__PURE__ */ (0, z.jsxs)("div", {
-											className: "flex items-start justify-between gap-2",
+											className: "flex items-start justify-between flex-wrap gap-x-2 gap-y-1.5",
 											children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 												className: "flex items-center gap-2.5",
 												children: [/* @__PURE__ */ (0, z.jsx)("div", {
@@ -23285,29 +23302,29 @@ function Cg({ isActive: e = !0, className: t }) {
 														backgroundColor: t ? e.color : `${e.color}15`,
 														color: t ? "#ffffff" : e.color
 													},
-													children: /* @__PURE__ */ (0, z.jsx)(n, { className: "w-4 h-4" })
+													children: /* @__PURE__ */ (0, z.jsx)(n, { className: "w-5 h-5" })
 												}), /* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("div", {
 													className: "flex items-center gap-1.5",
 													children: /* @__PURE__ */ (0, z.jsx)("h4", {
-														className: "font-['Urbanist',sans-serif] text-[14.5px] font-bold text-[#0f1012] leading-tight",
+														className: "font-['Urbanist',sans-serif] text-[19px] font-bold text-[#0f1012] leading-tight",
 														children: e.name
 													})
 												}), /* @__PURE__ */ (0, z.jsx)("p", {
-													className: "text-[11px] font-medium text-zinc-500 leading-tight",
+													className: "text-[16px] font-medium text-zinc-600 leading-tight",
 													children: e.subtitle
 												})] })]
 											}), /* @__PURE__ */ (0, z.jsx)("span", {
-												className: q("text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md border shrink-0 transition-colors", e.id === "memoria" ? "bg-[#0071e3]/10 text-[#0071e3] border-[#0071e3]/20" : "bg-zinc-100 text-zinc-600 border-zinc-200"),
+												className: q("text-[14px] font-bold uppercase tracking-wide px-2 py-0.5 rounded-md border shrink-0 transition-colors", e.id === "memoria" ? "bg-[#0d6d66]/10 text-[#0d6d66] border-[#0d6d66]/20" : "bg-zinc-100 text-zinc-600 border-zinc-200"),
 												children: e.badge
 											})]
 										}),
 										/* @__PURE__ */ (0, z.jsx)("p", {
-											className: "text-[11px] text-[#475569] mt-2 leading-relaxed",
+											className: "text-[16px] font-medium text-[#475569] mt-1.5 leading-snug",
 											children: e.role
 										}),
 										/* @__PURE__ */ (0, z.jsx)("div", {
-											className: q("absolute -right-2.5 top-1/2 -translate-y-1/2 w-5 h-5 rounded-full border-2 bg-white flex items-center justify-center shadow-xs transition-all", t ? "border-[#0071e3] ring-2 ring-[#0071e3]/30" : "border-zinc-300"),
-											children: /* @__PURE__ */ (0, z.jsx)("div", { className: q("w-2 h-2 rounded-full transition-all", t ? "bg-[#0071e3] scale-110" : "bg-zinc-400") })
+											className: q("absolute -right-2.5 top-1/2 -translate-y-1/2 w-5 h-5 rounded-full border-2 bg-white flex items-center justify-center shadow-xs transition-all", t ? "border-[#0d6d66] ring-2 ring-[#0d6d66]/30" : "border-zinc-300"),
+											children: /* @__PURE__ */ (0, z.jsx)("div", { className: q("w-2 h-2 rounded-full transition-all", t ? "bg-[#0d6d66] scale-110" : "bg-zinc-400") })
 										})
 									]
 								}, e.id);
@@ -23318,7 +23335,7 @@ function Cg({ isActive: e = !0, className: t }) {
 							children: /* @__PURE__ */ (0, z.jsx)("div", {
 								className: "px-2.5 py-1 rounded-full bg-white/90 border border-black/[0.08] shadow-xs backdrop-blur-md",
 								children: /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[10px] font-bold uppercase tracking-widest text-[#0071e3]",
+									className: "text-[14px] font-bold uppercase tracking-wide text-[#0d6d66] leading-tight block",
 									children: "Impacto direto →"
 								})
 							})
@@ -23326,28 +23343,28 @@ function Cg({ isActive: e = !0, className: t }) {
 						/* @__PURE__ */ (0, z.jsx)("div", {
 							className: "col-span-5 flex flex-col justify-center h-full py-1",
 							children: /* @__PURE__ */ (0, z.jsxs)("div", {
-								className: "relative p-5 rounded-2xl border-2 border-[#0071e3]/30 bg-gradient-to-br from-white via-[#fafcff] to-[#f0f7ff] shadow-[0_8px_30px_rgba(0,113,227,0.08)]",
+								className: "relative p-4 rounded-2xl border-2 border-[#0d6d66]/30 bg-gradient-to-br from-white via-[#f6fbfa] to-[#e6f5f3] shadow-[0_8px_30px_rgba(13,109,102,0.08)]",
 								children: [
 									/* @__PURE__ */ (0, z.jsx)("div", {
-										className: "absolute -left-3 top-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-white border-2 border-[#0071e3] flex items-center justify-center shadow-md ring-4 ring-[#0071e3]/20",
-										children: /* @__PURE__ */ (0, z.jsx)("div", { className: "w-2.5 h-2.5 rounded-full bg-[#0071e3] animate-pulse" })
+										className: "absolute -left-3 top-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-white border-2 border-[#0d6d66] flex items-center justify-center shadow-md ring-4 ring-[#0d6d66]/20",
+										children: /* @__PURE__ */ (0, z.jsx)("div", { className: "w-2.5 h-2.5 rounded-full bg-[#0d6d66] animate-pulse" })
 									}),
 									/* @__PURE__ */ (0, z.jsxs)("div", {
-										className: "flex items-center justify-between mb-3 pl-1",
+										className: "flex items-center justify-between flex-wrap gap-2 mb-3 pl-1",
 										children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 											className: "flex items-center gap-2",
 											children: [/* @__PURE__ */ (0, z.jsx)("div", {
-												className: "w-7 h-7 rounded-lg bg-[#0071e3] text-white flex items-center justify-center shadow-xs",
-												children: /* @__PURE__ */ (0, z.jsx)(xm, { className: "w-4 h-4" })
+												className: "w-7 h-7 rounded-lg bg-[#0d6d66] text-white flex items-center justify-center shadow-xs",
+												children: /* @__PURE__ */ (0, z.jsx)(xm, { className: "w-5 h-5" })
 											}), /* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("h4", {
-												className: "font-['Urbanist',sans-serif] text-[16px] font-bold text-[#0f1012] leading-tight",
+												className: "font-['Urbanist',sans-serif] text-[19px] font-bold text-[#0f1012] leading-tight",
 												children: "Aprendizagem Escolar"
 											}), /* @__PURE__ */ (0, z.jsx)("span", {
-												className: "text-[10px] font-medium text-zinc-500",
+												className: "text-[14px] font-medium text-zinc-600",
 												children: "Domínios acadêmicos nucleares"
 											})] })]
 										}), /* @__PURE__ */ (0, z.jsx)("span", {
-											className: "text-[9.5px] font-bold uppercase tracking-wider text-[#0071e3] bg-[#0071e3]/10 px-2.5 py-1 rounded-full border border-[#0071e3]/25",
+											className: "text-[14px] font-bold uppercase tracking-wide text-[#0d6d66] bg-[#0d6d66]/10 px-2.5 py-1 rounded-full border border-[#0d6d66]/25",
 											children: "Alvo de Convergência"
 										})]
 									}),
@@ -23363,27 +23380,27 @@ function Cg({ isActive: e = !0, className: t }) {
 													scale: 1,
 													x: 0
 												},
-												className: q("p-2.5 rounded-xl border transition-all duration-300 flex items-center gap-3 bg-white", n ? "border-[#0071e3] shadow-xs ring-2 ring-[#0071e3]/20 bg-[#f8fbfe]" : "border-black/[0.06]"),
+												className: q("p-2.5 rounded-xl border transition-all duration-300 flex items-center gap-3 bg-white", n ? "border-[#0d6d66] shadow-xs ring-2 ring-[#0d6d66]/20 bg-[#f0f9f8]" : "border-black/[0.06]"),
 												children: [/* @__PURE__ */ (0, z.jsx)("div", {
 													className: "w-8 h-8 rounded-lg flex items-center justify-center shrink-0",
 													style: {
 														backgroundColor: `${e.accent}15`,
 														color: e.accent
 													},
-													children: /* @__PURE__ */ (0, z.jsx)(t, { className: "w-4 h-4" })
+													children: /* @__PURE__ */ (0, z.jsx)(t, { className: "w-5 h-5" })
 												}), /* @__PURE__ */ (0, z.jsxs)("div", {
 													className: "flex-1 min-w-0",
 													children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 														className: "flex items-center justify-between",
 														children: [/* @__PURE__ */ (0, z.jsx)("span", {
-															className: "font-['Urbanist',sans-serif] text-[13.5px] font-bold text-[#0f1012]",
+															className: "font-['Urbanist',sans-serif] text-[17px] font-bold text-[#0f1012]",
 															children: e.name
 														}), n && /* @__PURE__ */ (0, z.jsx)("span", {
-															className: "text-[9px] font-bold text-[#0071e3] bg-[#0071e3]/10 px-1.5 py-0.5 rounded",
+															className: "text-[14px] font-bold text-[#0d6d66] bg-[#0d6d66]/10 px-1.5 py-0.5 rounded",
 															children: "Ativado"
 														})]
 													}), /* @__PURE__ */ (0, z.jsx)("p", {
-														className: "text-[10.5px] text-[#5f6062] leading-tight truncate",
+														className: "text-[15px] font-medium text-[#5f6062] leading-snug",
 														children: e.desc
 													})]
 												})]
@@ -23391,11 +23408,11 @@ function Cg({ isActive: e = !0, className: t }) {
 										})
 									}),
 									/* @__PURE__ */ (0, z.jsxs)("div", {
-										className: "mt-3 pt-2.5 border-t border-[#0071e3]/15 flex items-center gap-2 text-[10.5px] text-zinc-600",
-										children: [/* @__PURE__ */ (0, z.jsx)(Nm, { className: "w-3.5 h-3.5 text-[#0071e3] shrink-0" }), /* @__PURE__ */ (0, z.jsxs)("p", {
+										className: "mt-3 pt-2.5 border-t border-[#0d6d66]/15 flex items-start gap-2 text-[15px] text-zinc-700",
+										children: [/* @__PURE__ */ (0, z.jsx)(Nm, { className: "w-3.5 h-3.5 text-[#0d6d66] shrink-0" }), /* @__PURE__ */ (0, z.jsxs)("p", {
 											className: "m-0 leading-tight",
 											children: [/* @__PURE__ */ (0, z.jsx)("strong", {
-												className: "text-[#0071e3] font-semibold",
+												className: "text-[#0d6d66] font-semibold",
 												children: "Spiegel et al. (2021):"
 											}), " 299 estudos e +65 mil crianças confirmam essa base."]
 										})]
@@ -23407,24 +23424,24 @@ function Cg({ isActive: e = !0, className: t }) {
 				})]
 			}),
 			/* @__PURE__ */ (0, z.jsxs)("div", {
-				className: "relative z-20 mt-1 pt-2.5 border-t border-black/[0.06] flex items-center justify-between px-2",
+				className: "relative z-20 mt-1 pt-2.5 border-t border-black/[0.06] flex items-end justify-between gap-4 px-2",
 				children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-2.5",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-6 h-6 rounded-md bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
+						className: "w-6 h-6 rounded-md bg-[#0d6d66]/10 text-[#0d6d66] flex items-center justify-center shrink-0",
 						children: /* @__PURE__ */ (0, z.jsx)(kp, { className: "w-3.5 h-3.5" })
 					}), /* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center gap-2 flex-wrap",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "font-['Urbanist',sans-serif] text-[12px] font-bold uppercase tracking-wider text-[#0071e3]",
+							className: "font-['Urbanist',sans-serif] text-[16px] font-bold uppercase tracking-wider text-[#0d6d66]",
 							children: "Relação Bidirecional:"
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[12px] text-[#334155] font-medium",
+							className: "text-[16px] text-[#334155] font-medium",
 							children: "Cognição ⇄ Aprendizagem Escolar. A alfabetização e a instrução também refinam e consolidam as redes executivas frontais."
 						})]
 					})]
 				}), /* @__PURE__ */ (0, z.jsx)("span", {
-					className: "text-[10.5px] font-semibold text-zinc-400 shrink-0 hidden md:inline",
+					className: "text-[14px] font-semibold text-zinc-500 shrink-0 hidden md:inline",
 					children: "Peng & Kievit (2020)"
 				})]
 			})
@@ -23472,7 +23489,7 @@ function wg({ isActive: e = !0, className: t }) {
 		}
 	];
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: q("w-full h-full flex flex-col justify-center gap-4 select-none font-['Satoshi',sans-serif] max-w-[620px] mx-auto my-auto", t),
+		className: q("w-full h-full flex flex-col justify-center gap-4 select-none font-['Satoshi',sans-serif] max-w-[760px] mx-auto my-auto", t),
 		children: [/* @__PURE__ */ (0, z.jsxs)(H.div, {
 			initial: {
 				opacity: 0,
@@ -23492,38 +23509,38 @@ function wg({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: q("group relative w-full overflow-hidden rounded-3xl border border-black/[0.08]", "bg-gradient-to-br from-white via-[#fcfdff] to-[#e8f2fc]/60", "shadow-[0_4px_24px_rgba(0,113,227,0.06)] hover:shadow-[0_12px_36px_rgba(0,113,227,0.12)]", "hover:border-[#0071e3]/30 transition-all duration-400 ease-out p-5 flex flex-col justify-between"),
-			children: [/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 -mr-16 -mt-16 w-56 h-56 rounded-full bg-gradient-to-br from-[#0071e3]/10 to-[#21C6E0]/20 blur-2xl pointer-events-none transition-transform duration-700 group-hover:scale-125" }), /* @__PURE__ */ (0, z.jsxs)("div", {
+			className: q("group relative w-full overflow-hidden rounded-3xl border border-black/[0.08]", "bg-gradient-to-br from-white via-[#fcfdff] to-[#e6f5f3]/60", "shadow-[0_4px_24px_rgba(0,113,227,0.06)] hover:shadow-[0_12px_36px_rgba(0,113,227,0.12)]", "hover:border-[#0d6d66]/30 transition-all duration-400 ease-out p-5 flex flex-col justify-between"),
+			children: [/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 -mr-16 -mt-16 w-56 h-56 rounded-full bg-gradient-to-br from-[#0d6d66]/10 to-[#14b8a6]/20 blur-2xl pointer-events-none transition-transform duration-700 group-hover:scale-125" }), /* @__PURE__ */ (0, z.jsxs)("div", {
 				className: "relative z-10 flex flex-col justify-between h-full",
 				children: [
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center justify-between gap-3 mb-2.5",
 						children: [/* @__PURE__ */ (0, z.jsx)("div", {
-							className: "flex h-10 w-10 items-center justify-center rounded-2xl border border-[#0071e3]/20 bg-white/90 shadow-xs text-[#0071e3] transition-transform duration-300 group-hover:scale-105",
+							className: "flex h-10 w-10 items-center justify-center rounded-2xl border border-[#0d6d66]/20 bg-white/90 shadow-xs text-[#0d6d66] transition-transform duration-300 group-hover:scale-105",
 							children: /* @__PURE__ */ (0, z.jsx)(Lp, { className: "h-5 w-5" })
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
 							className: "flex items-center gap-1.5",
 							children: /* @__PURE__ */ (0, z.jsxs)("span", {
-								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-[#0071e3]/10 text-[#0071e3] border border-[#0071e3]/20",
-								children: [/* @__PURE__ */ (0, z.jsx)(rm, { className: "w-3 h-3 text-[#0071e3]" }), "Meta-Análise Empírica"]
+								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-[#0d6d66]/10 text-[#0d6d66] border border-[#0d6d66]/20",
+								children: [/* @__PURE__ */ (0, z.jsx)(rm, { className: "w-4 h-4 text-[#0d6d66]" }), "Meta-Análise Empírica"]
 							})
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "space-y-1.5",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-							className: "text-[21px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
+							className: "text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
 							children: "Spiegel et al. (2021)"
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[12px] font-semibold text-[#0071e3] mt-0.5",
+							className: "text-[17px] font-semibold text-[#0d6d66] mt-0.5",
 							children: "299 estudos · +65.000 crianças avaliadas no ensino fundamental"
 						})] }), /* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "pt-1",
 							children: [/* @__PURE__ */ (0, z.jsx)("h4", {
-								className: "text-[10px] font-bold uppercase tracking-[0.14em] text-zinc-500 mb-1",
+								className: "text-[14px] font-bold uppercase tracking-[0.1em] text-zinc-600 mb-1",
 								children: "EVIDÊNCIA & ASSOCIAÇÃO"
 							}), /* @__PURE__ */ (0, z.jsxs)("p", {
-								className: "text-[13px] text-[#334155] leading-relaxed font-normal",
+								className: "text-[17px] text-[#334155] leading-snug font-medium",
 								children: [
 									"Associações significativas entre funções executivas e leitura, matemática e linguagem oral no ensino fundamental — com",
 									" ",
@@ -23539,14 +23556,14 @@ function wg({ isActive: e = !0, className: t }) {
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "mt-3 pt-2.5 border-t border-black/[0.06] flex items-center justify-between",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center gap-1.5 text-[11px] font-semibold text-zinc-500",
+							className: "flex items-center gap-1.5 text-[16px] font-semibold text-zinc-600",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Rigor Metodológico:" }), /* @__PURE__ */ (0, z.jsx)("span", {
 								className: "text-[#0f1012] font-bold",
 								children: "N > 65.000"
 							})]
 						}), /* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#0071e3] text-white text-[11px] font-bold shadow-xs hover:bg-[#0071e3]/90 transition-colors",
-							children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Associação ≠ Causalidade" }), /* @__PURE__ */ (0, z.jsx)(jp, { className: "w-3 h-3 ml-0.5" })]
+							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#0d6d66] text-white text-[15px] font-bold shadow-xs hover:bg-[#0d6d66]/90 transition-colors",
+							children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Associação ≠ Causalidade" }), /* @__PURE__ */ (0, z.jsx)(jp, { className: "w-4 h-4 ml-0.5" })]
 						})]
 					})
 				]
@@ -23572,26 +23589,26 @@ function wg({ isActive: e = !0, className: t }) {
 			},
 			className: "p-5 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/10 relative overflow-hidden",
 			children: [
-				/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 w-48 h-48 bg-[#0071e3]/10 rounded-full blur-3xl pointer-events-none" }),
+				/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 w-48 h-48 bg-[#0d6d66]/10 rounded-full blur-3xl pointer-events-none" }),
 				/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "relative z-10",
 					children: [
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center justify-between mb-2",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-400",
+								className: "text-[14px] font-bold uppercase tracking-[0.12em] text-zinc-400",
 								children: "Metacognição"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-semibold text-zinc-300 bg-white/10 px-2.5 py-0.5 rounded-full border border-white/15",
+								className: "text-[14px] font-semibold text-zinc-300 bg-white/10 px-2.5 py-0.5 rounded-full border border-white/15",
 								children: "Controle do Próprio Pensamento"
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("h4", {
-							className: "text-xl font-bold tracking-tight text-white font-['Urbanist',sans-serif]",
+							className: "text-[23px] font-bold tracking-tight text-white font-['Urbanist',sans-serif]",
 							children: "Ciclo de Auto-Regulação Cognitiva"
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[12px] font-normal text-zinc-400 mt-1 leading-relaxed",
+							className: "text-[17px] font-medium text-zinc-300 mt-1 leading-snug",
 							children: "Aprender a monitorar ativamente a compreensão, identificar impasses e redirecionar a própria conduta:"
 						})
 					]
@@ -23607,21 +23624,21 @@ function wg({ isActive: e = !0, className: t }) {
 								y: -2,
 								scale: 1.02
 							},
-							className: q("p-2 rounded-xl bg-zinc-900/90 border transition-all duration-300 flex flex-col justify-between cursor-pointer text-left relative", i ? "border-white/35 bg-zinc-800/95 shadow-md" : "border-zinc-800/80 hover:border-zinc-700"),
+							className: q("px-2.5 py-2 rounded-xl bg-zinc-900/90 border transition-all duration-300 flex flex-col justify-start gap-1 cursor-pointer text-left relative", i ? "border-white/35 bg-zinc-800/95 shadow-md" : "border-zinc-800/80 hover:border-zinc-700"),
 							children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "flex items-center justify-between mb-1",
 								children: [/* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[9px] font-bold text-zinc-500 font-mono",
+									className: "text-[14px] font-bold text-zinc-400 font-mono",
 									children: e.num
 								}), /* @__PURE__ */ (0, z.jsx)("div", {
-									className: q("w-5 h-5 rounded-md flex items-center justify-center border text-xs", e.accent),
-									children: /* @__PURE__ */ (0, z.jsx)(a, { className: "w-2.5 h-2.5" })
+									className: q("w-6 h-6 rounded-md flex items-center justify-center border text-sm", e.accent),
+									children: /* @__PURE__ */ (0, z.jsx)(a, { className: "w-3.5 h-3.5" })
 								})]
 							}), /* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("h5", {
-								className: "text-[11px] font-bold text-white leading-tight",
+								className: "text-[16px] font-bold text-white leading-tight",
 								children: e.title
 							}), /* @__PURE__ */ (0, z.jsx)("p", {
-								className: "text-[9.5px] text-zinc-400 leading-snug mt-0.5 hidden xl:block",
+								className: "text-[14px] font-medium text-zinc-300 leading-snug mt-1",
 								children: e.desc
 							})] })]
 						}, e.num);
@@ -23630,10 +23647,10 @@ function wg({ isActive: e = !0, className: t }) {
 				/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "relative z-10 flex items-center justify-between pt-2 border-t border-zinc-800",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-xs font-semibold text-zinc-400",
+						className: "text-[16px] font-semibold text-zinc-400",
 						children: "Tese desenvolvimental:"
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-xs font-bold text-amber-300 bg-amber-400/10 px-3 py-0.5 rounded-full border border-amber-400/25",
+						className: "text-[16px] font-bold text-amber-300 bg-amber-400/10 px-3 py-0.5 rounded-full border border-amber-400/25",
 						children: "Cognição ⇄ Aprendizagem Escolar"
 					})]
 				})
@@ -23655,9 +23672,9 @@ var Tg = [
 	{
 		id: "velocidade",
 		name: "Velocidade de Processamento",
-		color: "#0d606a",
+		color: "#0d6d66",
 		gradientId: "gradVelocidade",
-		gradientStops: ["#0d606a", "#21C6E0"],
+		gradientStops: ["#0d6d66", "#14b8a6"],
 		data: [
 			30,
 			58,
@@ -23671,9 +23688,9 @@ var Tg = [
 	{
 		id: "inibitorio",
 		name: "Controle Inibitório",
-		color: "#21C6E0",
+		color: "#0d6d66",
 		gradientId: "gradInibitorio",
-		gradientStops: ["#21C6E0", "#0284c7"],
+		gradientStops: ["#14b8a6", "#0d6d66"],
 		data: [
 			20,
 			42,
@@ -23720,19 +23737,19 @@ var Og = () => {
 				/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center justify-between mb-2",
 					children: [/* @__PURE__ */ (0, z.jsxs)("span", {
-						className: "inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0d606a] bg-[#0d606a]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0d606a]/20",
-						children: [/* @__PURE__ */ (0, z.jsx)(Tp, { className: "w-3.5 h-3.5 text-[#0d606a]" }), "Tervo-Clemmens et al. (2023)"]
+						className: "inline-flex items-center gap-1.5 text-[14px] font-bold uppercase tracking-[0.1em] text-[#0d6d66] bg-[#0d6d66]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0d6d66]/20",
+						children: [/* @__PURE__ */ (0, z.jsx)(Tp, { className: "w-3.5 h-3.5 text-[#0d6d66]" }), "Tervo-Clemmens et al. (2023)"]
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-xs font-semibold text-[#5f6062]",
+						className: "text-[15px] font-semibold text-[#5f6062]",
 						children: "Nat Commun · N = 10.000+"
 					})]
 				}),
 				/* @__PURE__ */ (0, z.jsx)("h3", {
-					className: "text-2xl font-semibold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
+					className: "text-[26px] font-semibold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
 					children: "Maturação das Funções Executivas"
 				}),
 				/* @__PURE__ */ (0, z.jsx)("p", {
-					className: "text-xs text-[#5f6062] mt-0.5 mb-3",
+					className: "text-[17px] font-medium text-[#5f6062] mt-1 mb-3",
 					children: "Trajetórias normativas de maturação neurocognitiva observadas entre 8 e 35 anos."
 				}),
 				/* @__PURE__ */ (0, z.jsx)("div", {
@@ -23751,7 +23768,7 @@ var Og = () => {
 									transform: i ? "scale(1.3)" : "scale(1)"
 								}
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: `text-[12.5px] leading-none ${i ? "text-[#0f1012] font-bold" : "text-[#5f6062] font-medium"}`,
+								className: `text-[16px] leading-none ${i ? "text-[#0f1012] font-bold" : "text-[#5f6062] font-medium"}`,
 								children: n.name
 							})]
 						}, n.id);
@@ -23762,7 +23779,7 @@ var Og = () => {
 				className: "w-full relative bg-[#fcfdfe] rounded-2xl p-3 border border-black/[0.04] overflow-hidden my-auto",
 				children: /* @__PURE__ */ (0, z.jsxs)("svg", {
 					viewBox: "0 0 680 246",
-					className: "w-full h-auto max-h-[250px] display-block overflow-visible",
+					className: "w-full h-auto max-h-[320px] display-block overflow-visible",
 					"aria-label": "Gráfico de linhas das trajetórias de maturação das funções executivas",
 					children: [
 						/* @__PURE__ */ (0, z.jsxs)("defs", { children: [
@@ -23830,9 +23847,9 @@ var Og = () => {
 								y: t + 3.5,
 								textAnchor: "end",
 								fontFamily: "'Urbanist', sans-serif",
-								fontSize: "11",
+								fontSize: "15",
 								fontWeight: "600",
-								fill: "#8c8d8f",
+								fill: "#5f6062",
 								children: [e, "%"]
 							})] }, e);
 						}),
@@ -23855,10 +23872,10 @@ var Og = () => {
 								strokeWidth: "1.2"
 							}), /* @__PURE__ */ (0, z.jsx)("text", {
 								x: n,
-								y: 230,
+								y: 232,
 								textAnchor: "middle",
 								fontFamily: "'Urbanist', sans-serif",
-								fontSize: "13",
+								fontSize: "16",
 								fontWeight: "700",
 								fill: "#5f6062",
 								children: e
@@ -23922,10 +23939,10 @@ var Og = () => {
 													transform: "translate(0, -22)",
 													className: "pointer-events-none",
 													children: [/* @__PURE__ */ (0, z.jsx)("rect", {
-														x: "-24",
-														y: "-14",
-														width: "48",
-														height: "22",
+														x: "-28",
+														y: "-16",
+														width: "56",
+														height: "26",
 														rx: "6",
 														fill: "#0f1012",
 														opacity: "0.92",
@@ -23935,7 +23952,7 @@ var Og = () => {
 														y: "1",
 														textAnchor: "middle",
 														fontFamily: "'Urbanist', sans-serif",
-														fontSize: "11",
+														fontSize: "14",
 														fontWeight: "800",
 														fill: "#ffffff",
 														children: [o.data[i], "%"]
@@ -23951,18 +23968,18 @@ var Og = () => {
 				})
 			}),
 			/* @__PURE__ */ (0, z.jsxs)("div", {
-				className: "pt-3 mt-3 border-t border-black/[0.06] flex flex-wrap items-center justify-between gap-2 text-xs",
+				className: "pt-3 mt-3 border-t border-black/[0.06] flex flex-wrap items-center justify-between gap-2 text-[16px]",
 				children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 text-[#5f6062]",
-					children: [/* @__PURE__ */ (0, z.jsx)(Ch, { className: "w-3.5 h-3.5 text-[#0d606a]" }), /* @__PURE__ */ (0, z.jsx)("span", {
+					children: [/* @__PURE__ */ (0, z.jsx)(Ch, { className: "w-3.5 h-3.5 text-[#0d6d66]" }), /* @__PURE__ */ (0, z.jsx)("span", {
 						className: "font-semibold text-[#0f1012]",
 						children: "Fases desenvolvimentais:"
 					})]
 				}), /* @__PURE__ */ (0, z.jsxs)("div", {
-					className: "flex items-center gap-2 text-[12px]",
+					className: "flex items-center gap-2 text-[15px]",
 					children: [
 						/* @__PURE__ */ (0, z.jsxs)("span", {
-							className: "px-2.5 py-1 rounded-lg bg-[#0d606a]/[0.08] text-[#0d606a] font-semibold border border-[#0d606a]/20",
+							className: "px-2.5 py-1 rounded-lg bg-[#0d6d66]/[0.08] text-[#0d6d66] font-semibold border border-[#0d6d66]/20",
 							children: [/* @__PURE__ */ (0, z.jsx)("strong", { children: "8–11a" }), " · Aceleração"]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("span", {
@@ -23970,7 +23987,7 @@ var Og = () => {
 							children: "→"
 						}),
 						/* @__PURE__ */ (0, z.jsxs)("span", {
-							className: "px-2.5 py-1 rounded-lg bg-[#21C6E0]/[0.12] text-[#0d606a] font-semibold border border-[#21C6E0]/30",
+							className: "px-2.5 py-1 rounded-lg bg-[#0d6d66]/[0.12] text-[#0d6d66] font-semibold border border-[#0d6d66]/30",
 							children: [/* @__PURE__ */ (0, z.jsx)("strong", { children: "14–17a" }), " · Transição"]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("span", {
@@ -24016,7 +24033,7 @@ function Ag({ isActive: e = !0, className: t }) {
 		}
 	];
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: q("w-full h-full flex flex-col justify-center gap-4 select-none font-['Satoshi',sans-serif] max-w-[620px] mx-auto my-auto", t),
+		className: q("w-full h-full flex flex-col justify-center gap-4 select-none font-['Satoshi',sans-serif] max-w-[800px] mx-auto my-auto", t),
 		children: [/* @__PURE__ */ (0, z.jsxs)(H.div, {
 			initial: {
 				opacity: 0,
@@ -24036,36 +24053,36 @@ function Ag({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: q("group relative w-full overflow-hidden rounded-3xl border border-black/[0.08]", "bg-gradient-to-br from-white via-[#fcfdff] to-[#e8f2fc]/60", "shadow-[0_4px_24px_rgba(0,113,227,0.06)] hover:shadow-[0_12px_36px_rgba(0,113,227,0.12)]", "hover:border-[#0071e3]/30 transition-all duration-400 ease-out p-5 flex flex-col justify-between"),
-			children: [/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 -mr-16 -mt-16 w-56 h-56 rounded-full bg-gradient-to-br from-[#0071e3]/10 to-[#21C6E0]/20 blur-2xl pointer-events-none transition-transform duration-700 group-hover:scale-125" }), /* @__PURE__ */ (0, z.jsxs)("div", {
+			className: q("group relative w-full overflow-hidden rounded-3xl border border-black/[0.08]", "bg-gradient-to-br from-white via-[#fcfdff] to-[#e6f5f3]/60", "shadow-[0_4px_24px_rgba(0,113,227,0.06)] hover:shadow-[0_12px_36px_rgba(0,113,227,0.12)]", "hover:border-[#0d6d66]/30 transition-all duration-400 ease-out px-5 py-4 flex flex-col justify-between"),
+			children: [/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 -mr-16 -mt-16 w-56 h-56 rounded-full bg-gradient-to-br from-[#0d6d66]/10 to-[#14b8a6]/20 blur-2xl pointer-events-none transition-transform duration-700 group-hover:scale-125" }), /* @__PURE__ */ (0, z.jsxs)("div", {
 				className: "relative z-10 flex flex-col justify-between h-full",
 				children: [
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center justify-between gap-3 mb-2.5",
 						children: [/* @__PURE__ */ (0, z.jsx)("div", {
-							className: "flex h-10 w-10 items-center justify-center rounded-2xl border border-[#0071e3]/20 bg-white/90 shadow-xs text-[#0071e3] transition-transform duration-300 group-hover:scale-105",
+							className: "flex h-10 w-10 items-center justify-center rounded-2xl border border-[#0d6d66]/20 bg-white/90 shadow-xs text-[#0d6d66] transition-transform duration-300 group-hover:scale-105",
 							children: /* @__PURE__ */ (0, z.jsx)(Um, { className: "h-5 w-5" })
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
 							className: "flex items-center gap-1.5",
 							children: /* @__PURE__ */ (0, z.jsxs)("span", {
-								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-[#0071e3]/10 text-[#0071e3] border border-[#0071e3]/20",
-								children: [/* @__PURE__ */ (0, z.jsx)(hh, { className: "w-3 h-3 text-[#0071e3]" }), "Modelo Interativo Não-Linear"]
+								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wide bg-[#0d6d66]/10 text-[#0d6d66] border border-[#0d6d66]/20",
+								children: [/* @__PURE__ */ (0, z.jsx)(hh, { className: "w-4 h-4 text-[#0d6d66]" }), "Modelo Interativo Não-Linear"]
 							})
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "space-y-2",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-							className: "text-[21px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
+							className: "text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
 							children: "Desempenho Observado em Contexto"
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[12px] font-semibold text-[#0071e3] mt-0.5",
+							className: "text-[17px] font-semibold text-[#0d6d66] mt-0.5 leading-snug",
 							children: "Superação do modelo dual simplificado · Interação dinâmica multifatorial"
 						})] }), /* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "pt-1",
 							children: [
 								/* @__PURE__ */ (0, z.jsx)("h4", {
-									className: "text-[10px] font-bold uppercase tracking-[0.14em] text-zinc-500 mb-1.5",
+									className: "text-[14px] font-bold uppercase tracking-[0.1em] text-zinc-600 mb-1.5",
 									children: "EQUAÇÃO MULTIFATORIAL DA TOMADA DE DECISÃO"
 								}),
 								/* @__PURE__ */ (0, z.jsxs)("div", {
@@ -24076,14 +24093,14 @@ function Ag({ isActive: e = !0, className: t }) {
 												y: -1,
 												scale: 1.02
 											},
-											className: q("px-2.5 py-1 rounded-xl text-[11px] font-semibold border transition-all duration-200 cursor-default flex items-center gap-1.5 shadow-2xs", e.accent),
-											children: [/* @__PURE__ */ (0, z.jsx)(e.icon, { className: "w-3 h-3 shrink-0" }), /* @__PURE__ */ (0, z.jsx)("span", { children: e.label })]
+											className: q("px-2.5 py-1 rounded-xl text-[16px] font-semibold border transition-all duration-200 cursor-default flex items-center gap-1.5 shadow-2xs", e.accent),
+											children: [/* @__PURE__ */ (0, z.jsx)(e.icon, { className: "w-4 h-4 shrink-0" }), /* @__PURE__ */ (0, z.jsx)("span", { children: e.label })]
 										}), t < n.length - 1 && /* @__PURE__ */ (0, z.jsx)("span", {
-											className: "text-[12px] font-bold text-[#0071e3]/70 select-none",
+											className: "text-[16px] font-bold text-[#0d6d66]/70 select-none",
 											children: "×"
 										})] }, e.label)),
 										/* @__PURE__ */ (0, z.jsx)("span", {
-											className: "text-[12px] font-bold text-[#0071e3] ml-0.5 select-none",
+											className: "text-[16px] font-bold text-[#0d6d66] ml-0.5 select-none",
 											children: "→"
 										}),
 										/* @__PURE__ */ (0, z.jsxs)(H.div, {
@@ -24091,13 +24108,13 @@ function Ag({ isActive: e = !0, className: t }) {
 												y: -1,
 												scale: 1.02
 											},
-											className: "px-2.5 py-1 rounded-xl text-[11px] font-bold bg-[#0071e3] text-white shadow-xs flex items-center gap-1",
-											children: [/* @__PURE__ */ (0, z.jsx)(rm, { className: "w-3 h-3" }), /* @__PURE__ */ (0, z.jsx)("span", { children: "Decisão Observada" })]
+											className: "px-2.5 py-1 rounded-xl text-[16px] font-bold bg-[#0d6d66] text-white shadow-xs flex items-center gap-1",
+											children: [/* @__PURE__ */ (0, z.jsx)(rm, { className: "w-4 h-4" }), /* @__PURE__ */ (0, z.jsx)("span", { children: "Decisão Observada" })]
 										})
 									]
 								}),
 								/* @__PURE__ */ (0, z.jsxs)("p", {
-									className: "text-[12.5px] text-[#334155] leading-relaxed font-normal mt-2",
+									className: "text-[17px] text-[#334155] leading-snug font-medium mt-2",
 									children: [
 										"Incentivos contextuais e pares modificam a tomada de decisão na adolescência — gerando resultados substancialmente mais heterogêneos do que a tese dual de ",
 										/* @__PURE__ */ (0, z.jsx)("strong", {
@@ -24113,13 +24130,13 @@ function Ag({ isActive: e = !0, className: t }) {
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "mt-3 pt-2.5 border-t border-black/[0.06] flex items-center justify-between",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center gap-1.5 text-[11px] font-semibold text-zinc-500",
+							className: "flex items-center gap-1.5 text-[16px] font-semibold text-zinc-600",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Fundamento:" }), /* @__PURE__ */ (0, z.jsx)("span", {
 								className: "text-[#0f1012] font-bold",
 								children: "Heterogeneidade Real"
 							})]
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
-							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#0071e3] text-white text-[11px] font-bold shadow-xs hover:bg-[#0071e3]/90 transition-colors",
+							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#0d6d66] text-white text-[15px] font-bold shadow-xs hover:bg-[#0d6d66]/90 transition-colors",
 							children: /* @__PURE__ */ (0, z.jsx)("span", { children: "Decisão Real ≠ Teste Isolado" })
 						})]
 					})
@@ -24144,8 +24161,8 @@ function Ag({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: q("group relative w-full overflow-hidden rounded-3xl border border-white/10", "bg-[#0f1012] text-white", "shadow-[0_6px_28px_rgba(0,0,0,0.14)] hover:shadow-[0_12px_36px_rgba(0,0,0,0.28)]", "hover:border-white/20 transition-all duration-400 ease-out p-5 flex flex-col justify-between"),
-			children: [/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 w-48 h-48 bg-[#0071e3]/15 rounded-full blur-3xl pointer-events-none" }), /* @__PURE__ */ (0, z.jsxs)("div", {
+			className: q("group relative w-full overflow-hidden rounded-3xl border border-white/10", "bg-[#0f1012] text-white", "shadow-[0_6px_28px_rgba(0,0,0,0.14)] hover:shadow-[0_12px_36px_rgba(0,0,0,0.28)]", "hover:border-white/20 transition-all duration-400 ease-out px-5 py-4 flex flex-col justify-between"),
+			children: [/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 w-48 h-48 bg-[#0d6d66]/15 rounded-full blur-3xl pointer-events-none" }), /* @__PURE__ */ (0, z.jsxs)("div", {
 				className: "relative z-10 flex flex-col justify-between h-full",
 				children: [
 					/* @__PURE__ */ (0, z.jsxs)("div", {
@@ -24156,63 +24173,63 @@ function Ag({ isActive: e = !0, className: t }) {
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
 							className: "flex items-center gap-1.5",
 							children: /* @__PURE__ */ (0, z.jsxs)("span", {
-								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-cyan-500/10 text-cyan-300 border border-cyan-500/25",
-								children: [/* @__PURE__ */ (0, z.jsx)(rm, { className: "w-3 h-3 text-cyan-400" }), "Weil et al. (2013) · 11–41 anos"]
+								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wide bg-cyan-500/10 text-cyan-300 border border-cyan-500/25",
+								children: [/* @__PURE__ */ (0, z.jsx)(rm, { className: "w-4 h-4 text-cyan-400" }), "Weil et al. (2013) · 11–41 anos"]
 							})
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "space-y-2",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-							className: "text-[21px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]",
+							className: "text-[24px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]",
 							children: "Refinamento da Acurácia Metacognitiva"
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[12px] font-semibold text-cyan-400 mt-0.5",
+							className: "text-[17px] font-semibold text-cyan-400 mt-0.5 leading-snug",
 							children: "Dissociação desenvolvimental entre capacidade perceptual básica e autoavaliação"
 						})] }), /* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "pt-1",
 							children: [
 								/* @__PURE__ */ (0, z.jsx)("h4", {
-									className: "text-[10px] font-bold uppercase tracking-[0.14em] text-zinc-400 mb-1.5",
+									className: "text-[14px] font-bold uppercase tracking-[0.1em] text-zinc-400 mb-1.5",
 									children: "EVIDÊNCIA EMPÍRICA LONGITUDINAL"
 								}),
 								/* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "grid grid-cols-3 gap-2 my-2",
 									children: [
 										/* @__PURE__ */ (0, z.jsxs)("div", {
-											className: "p-2.5 rounded-xl bg-white/[0.04] border border-white/10 hover:border-white/20 transition-all text-left",
+											className: "px-3 py-2 rounded-xl bg-white/[0.04] border border-white/10 hover:border-white/20 transition-all text-left",
 											children: [/* @__PURE__ */ (0, z.jsx)("span", {
-												className: "text-[9.5px] font-bold uppercase tracking-wider text-zinc-400 block mb-0.5",
+												className: "text-[14px] font-bold uppercase tracking-wide text-zinc-400 block mb-0.5",
 												children: "Percepção Básica"
 											}), /* @__PURE__ */ (0, z.jsx)("span", {
-												className: "text-[11.5px] font-bold text-zinc-200 leading-tight block",
+												className: "text-[16px] font-bold text-zinc-200 leading-tight block",
 												children: "Estabilização Precoce"
 											})]
 										}),
 										/* @__PURE__ */ (0, z.jsxs)("div", {
-											className: "p-2.5 rounded-xl bg-cyan-500/10 border border-cyan-500/20 hover:border-cyan-500/35 transition-all text-left",
+											className: "px-3 py-2 rounded-xl bg-cyan-500/10 border border-cyan-500/20 hover:border-cyan-500/35 transition-all text-left",
 											children: [/* @__PURE__ */ (0, z.jsx)("span", {
-												className: "text-[9.5px] font-bold uppercase tracking-wider text-cyan-400 block mb-0.5",
+												className: "text-[14px] font-bold uppercase tracking-wide text-cyan-400 block mb-0.5",
 												children: "Metacognição"
 											}), /* @__PURE__ */ (0, z.jsx)("span", {
-												className: "text-[11.5px] font-bold text-cyan-200 leading-tight block",
+												className: "text-[16px] font-bold text-cyan-200 leading-tight block",
 												children: "Refinamento (11–17a+)"
 											})]
 										}),
 										/* @__PURE__ */ (0, z.jsxs)("div", {
-											className: "p-2.5 rounded-xl bg-amber-500/10 border border-amber-500/20 hover:border-amber-500/35 transition-all text-left",
+											className: "px-3 py-2 rounded-xl bg-amber-500/10 border border-amber-500/20 hover:border-amber-500/35 transition-all text-left",
 											children: [/* @__PURE__ */ (0, z.jsx)("span", {
-												className: "text-[9.5px] font-bold uppercase tracking-wider text-amber-400 block mb-0.5",
+												className: "text-[14px] font-bold uppercase tracking-wide text-amber-400 block mb-0.5",
 												children: "Controle Adulto"
 											}), /* @__PURE__ */ (0, z.jsx)("span", {
-												className: "text-[11.5px] font-bold text-amber-200 leading-tight block",
+												className: "text-[16px] font-bold text-amber-200 leading-tight block",
 												children: "Eficiência & Consistência"
 											})]
 										})
 									]
 								}),
 								/* @__PURE__ */ (0, z.jsx)("p", {
-									className: "text-[12.5px] text-zinc-300 leading-relaxed font-normal mt-2",
+									className: "text-[17px] text-zinc-300 leading-snug font-medium mt-2",
 									children: "A acurácia metacognitiva continua se aprimorando ativamente dos 11 aos 17+ anos, mesmo quando o desempenho perceptual já se estabilizou: o adolescente adquire precisão crescente para calibrar sua própria certeza."
 								})
 							]
@@ -24221,13 +24238,13 @@ function Ag({ isActive: e = !0, className: t }) {
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "mt-3 pt-2.5 border-t border-white/10 flex items-center justify-between",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center gap-1.5 text-[11px] font-semibold text-zinc-400",
+							className: "flex items-center gap-1.5 text-[16px] font-semibold text-zinc-400",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Síntese:" }), /* @__PURE__ */ (0, z.jsx)("span", {
 								className: "text-white font-bold",
 								children: "Nem incapaz, nem pronto"
 							})]
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
-							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-amber-400/15 text-amber-300 border border-amber-400/30 text-[11px] font-bold shadow-xs hover:bg-amber-400/25 transition-colors",
+							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-amber-400/15 text-amber-300 border border-amber-400/30 text-[15px] font-bold shadow-xs hover:bg-amber-400/25 transition-colors",
 							children: /* @__PURE__ */ (0, z.jsx)("span", { children: "Eficiência em Construção" })
 						})]
 					})
@@ -24252,7 +24269,7 @@ var jg = {
 			domain: "Linguagem",
 			label: "Linguagem",
 			height: 85,
-			color: "bg-[#21C6E0]",
+			color: "bg-[#0d6d66]",
 			badge: "Consistente (d = 0.55)"
 		},
 		{
@@ -24311,30 +24328,30 @@ var jg = {
 	};
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
 		ref: i,
-		className: q("w-full rounded-3xl border border-[rgba(15,16,18,0.08)] bg-white p-7 text-[#0f1012] shadow-[0_4px_24px_rgba(15,16,18,0.04)] dark:border-gray-800 dark:bg-gray-950 dark:text-white transition-all duration-300 select-none", e),
+		className: q("w-full rounded-3xl border border-[rgba(15,16,18,0.08)] bg-white px-6 py-5 text-[#0f1012] shadow-[0_4px_24px_rgba(15,16,18,0.04)] dark:border-gray-800 dark:bg-gray-950 dark:text-white transition-all duration-300 select-none", e),
 		...r,
 		children: [
 			/* @__PURE__ */ (0, z.jsxs)("div", {
-				className: "mb-6 flex items-center justify-between border-b border-[rgba(15,16,18,0.06)] pb-4",
+				className: "mb-4 flex items-center justify-between gap-3 border-b border-[rgba(15,16,18,0.06)] pb-3",
 				children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-3",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
 						className: "flex h-10 w-10 items-center justify-center rounded-xl bg-[rgba(33,198,224,0.12)] text-[#0d606a]",
 						children: /* @__PURE__ */ (0, z.jsx)(Gp, { className: "h-5 w-5" })
 					}), /* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("h2", {
-						className: "font-['Urbanist'] text-2xl font-semibold tracking-[-0.015em] text-[#0f1012] dark:text-white",
+						className: "font-['Urbanist'] text-[26px] font-semibold tracking-[-0.015em] text-[#0f1012] dark:text-white",
 						children: a
 					}), /* @__PURE__ */ (0, z.jsx)("p", {
-						className: "font-['Satoshi'] text-xs font-medium text-[#5f6062] dark:text-gray-400",
+						className: "font-['Satoshi'] text-[15px] font-medium text-[#5f6062] dark:text-gray-400",
 						children: o
 					})] })]
 				}), /* @__PURE__ */ (0, z.jsx)("span", {
-					className: "font-['Urbanist'] text-[11px] font-bold uppercase tracking-[0.08em] text-[#0d606a] bg-[rgba(33,198,224,0.12)] border border-[rgba(33,198,224,0.25)] px-2.5 py-1 rounded-[6px]",
+					className: "font-['Urbanist'] text-[14px] font-bold uppercase tracking-[0.06em] text-[#0d606a] bg-[rgba(33,198,224,0.12)] border border-[rgba(33,198,224,0.25)] px-2.5 py-1 rounded-[6px]",
 					children: "Domínios Cognitivos"
 				})]
 			}),
 			/* @__PURE__ */ (0, z.jsxs)("div", {
-				className: "mb-6 grid grid-cols-3 gap-3 rounded-2xl bg-gray-50/80 dark:bg-gray-900/50 p-4 text-center border border-gray-100 dark:border-gray-800/80 font-['Satoshi']",
+				className: "mb-4 grid grid-cols-3 gap-3 rounded-2xl bg-gray-50/80 dark:bg-gray-900/50 p-3.5 text-center border border-gray-100 dark:border-gray-800/80 font-['Satoshi']",
 				children: [
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "border-r border-gray-200/60 dark:border-gray-800 pr-2",
@@ -24345,17 +24362,17 @@ var jg = {
 								children: s
 							})]
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[12px] font-medium text-[#5f6062] dark:text-gray-400 mt-0.5",
+							className: "text-[15px] font-medium text-[#5f6062] dark:text-gray-400 mt-0.5",
 							children: c
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "border-r border-gray-200/60 dark:border-gray-800 px-2",
 						children: [/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "font-['Urbanist'] text-2xl font-bold tracking-tight text-[#21C6E0]",
+							className: "font-['Urbanist'] text-2xl font-bold tracking-tight text-[#0d6d66]",
 							children: l
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[12px] font-medium text-[#5f6062] dark:text-gray-400 mt-0.5",
+							className: "text-[15px] font-medium text-[#5f6062] dark:text-gray-400 mt-0.5",
 							children: u
 						})]
 					}),
@@ -24368,18 +24385,18 @@ var jg = {
 								children: d
 							})]
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[12px] font-medium text-[#5f6062] dark:text-gray-400 mt-0.5",
+							className: "text-[15px] font-medium text-[#5f6062] dark:text-gray-400 mt-0.5",
 							children: f
 						})]
 					})
 				]
 			}),
 			/* @__PURE__ */ (0, z.jsxs)("div", {
-				className: "rounded-2xl bg-gray-50/60 dark:bg-gray-900/40 p-5 border border-gray-100 dark:border-gray-800/60",
+				className: "rounded-2xl bg-gray-50/60 dark:bg-gray-900/40 px-5 py-4 border border-gray-100 dark:border-gray-800/60",
 				"aria-label": "Gráfico de consistência da evidência por domínio",
 				role: "figure",
 				children: [/* @__PURE__ */ (0, z.jsx)("div", {
-					className: "mb-2 flex justify-between items-center text-xs font-medium text-[#5f6062] dark:text-gray-400 font-['Satoshi']",
+					className: "mb-2 flex justify-between items-center text-[15px] font-medium text-[#5f6062] dark:text-gray-400 font-['Satoshi']",
 					children: /* @__PURE__ */ (0, z.jsx)("span", { children: "Escala relativa de consistência da evidência" })
 				}), /* @__PURE__ */ (0, z.jsx)(H.div, {
 					className: "flex h-40 w-full items-end justify-between gap-3 px-2 pt-2 pb-1",
@@ -24403,7 +24420,7 @@ var jg = {
 									delay: .25,
 									duration: .25
 								},
-								className: "mb-1.5 font-['Urbanist'] text-[13px] font-bold tracking-tight text-[#0d606a] dark:text-cyan-400",
+								className: "mb-1.5 font-['Urbanist'] text-[16px] font-bold tracking-tight text-[#0d606a] dark:text-cyan-400",
 								children: [e.height, "%"]
 							}), /* @__PURE__ */ (0, z.jsx)(H.div, {
 								className: q("w-full rounded-full transition-shadow duration-200 shadow-sm", e.color),
@@ -24415,14 +24432,14 @@ var jg = {
 								title: `${e.label} (${e.badge})`
 							})]
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "mt-2.5 font-['Urbanist'] text-[13px] font-semibold tracking-tight text-[#0f1012] dark:text-gray-200 truncate max-w-full text-center",
+							className: "mt-2.5 font-['Urbanist'] text-[16px] font-semibold tracking-tight text-[#0f1012] dark:text-gray-200 text-center leading-tight",
 							children: e.label
 						})]
 					}, e.domain))
 				})]
 			}),
 			/* @__PURE__ */ (0, z.jsx)("div", {
-				className: "mt-5 grid grid-cols-2 gap-x-4 gap-y-2.5 border-t border-[rgba(15,16,18,0.06)] pt-4 sm:grid-cols-3 font-['Satoshi']",
+				className: "mt-4 grid grid-cols-2 gap-x-4 gap-y-2 border-t border-[rgba(15,16,18,0.06)] pt-3 sm:grid-cols-3 font-['Satoshi']",
 				children: p.map((e) => /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-2",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", {
@@ -24431,10 +24448,10 @@ var jg = {
 					}), /* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "min-w-0",
 						children: [/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[13px] font-semibold text-[#0f1012] dark:text-gray-200 truncate",
+							className: "text-[16px] font-semibold text-[#0f1012] dark:text-gray-200 leading-tight",
 							children: e.label
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11px] text-[#5f6062] dark:text-gray-400 truncate",
+							className: "text-[14px] font-medium text-[#5f6062] dark:text-gray-400 leading-tight",
 							children: e.badge
 						})]
 					})]
@@ -24448,7 +24465,7 @@ Mg.displayName = "SleepTrackerCard";
 //#region components/slide18-cards.tsx
 function Ng({ isActive: e = !0, className: t }) {
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: q("w-full h-full flex flex-col justify-center gap-4 select-none font-['Satoshi',sans-serif] max-w-[620px] mx-auto my-auto", t),
+		className: q("w-full h-full flex flex-col justify-center gap-3 select-none font-['Satoshi',sans-serif] max-w-[800px] mx-auto my-auto", t),
 		children: [/* @__PURE__ */ (0, z.jsxs)(H.div, {
 			initial: {
 				opacity: 0,
@@ -24468,7 +24485,7 @@ function Ng({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: "p-5 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] flex-1 relative overflow-hidden",
+			className: "px-5 py-4 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] flex-1 relative overflow-hidden",
 			children: [
 				/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 w-44 h-44 bg-[#0d6d66]/15 rounded-full blur-3xl pointer-events-none" }),
 				/* @__PURE__ */ (0, z.jsxs)("div", {
@@ -24477,62 +24494,62 @@ function Ng({ isActive: e = !0, className: t }) {
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center justify-between mb-2",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-400 font-['Urbanist',sans-serif]",
+								className: "text-[14px] font-bold uppercase tracking-[0.1em] text-zinc-400 font-['Urbanist',sans-serif]",
 								children: "Axioma Clínico Transdisciplinar"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-semibold text-teal-200 bg-[#0d6d66]/30 px-2 py-0.5 rounded-full border border-teal-500/30",
+								className: "text-[14px] font-semibold text-teal-200 bg-[#0d6d66]/30 px-2 py-0.5 rounded-full border border-teal-500/30",
 								children: "Eixo 2 · Cognição"
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("h4", {
-							className: "text-[19px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
+							className: "text-[22px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
 							children: "Fala Alterada ≠ Linguagem Alterada ≠ Inteligência Reduzida"
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[12px] font-medium text-zinc-300 mt-1.5 leading-relaxed",
+							className: "text-[17px] font-medium text-zinc-300 mt-1 leading-snug",
 							children: "Diferenciação estrutural e neurocognitiva na prática clínica com anomalias craniofaciais."
 						})
 					]
 				}),
 				/* @__PURE__ */ (0, z.jsxs)("div", {
-					className: "grid grid-cols-3 gap-2 my-2.5 relative z-10",
+					className: "grid grid-cols-3 gap-2 my-2 relative z-10",
 					children: [
 						/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "p-2.5 bg-zinc-900/90 rounded-2xl border border-zinc-800/80 flex flex-col justify-between",
+							className: "px-3 py-2 bg-zinc-900/90 rounded-2xl border border-zinc-800/80 flex flex-col justify-between",
 							children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "flex items-center gap-1.5 mb-1",
 								children: [/* @__PURE__ */ (0, z.jsx)(Vm, { className: "w-3.5 h-3.5 text-cyan-400 shrink-0" }), /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[10px] font-bold uppercase tracking-wider text-zinc-400",
+									className: "text-[14px] font-bold uppercase tracking-wide text-zinc-400",
 									children: "Fala"
 								})]
 							}), /* @__PURE__ */ (0, z.jsx)("p", {
-								className: "text-[11.5px] text-zinc-200 leading-snug font-medium",
+								className: "text-[16px] text-zinc-200 leading-snug font-medium",
 								children: "Articulação & Fonação mecânica"
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "p-2.5 rounded-2xl border border-teal-500/30 bg-teal-950/20 flex flex-col justify-between",
+							className: "px-3 py-2 rounded-2xl border border-teal-500/30 bg-teal-950/20 flex flex-col justify-between",
 							children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "flex items-center gap-1.5 mb-1",
 								children: [/* @__PURE__ */ (0, z.jsx)(zm, { className: "w-3.5 h-3.5 text-teal-400 shrink-0" }), /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[10px] font-bold uppercase tracking-wider text-teal-300",
+									className: "text-[14px] font-bold uppercase tracking-wide text-teal-300",
 									children: "Linguagem"
 								})]
 							}), /* @__PURE__ */ (0, z.jsx)("p", {
-								className: "text-[11.5px] text-teal-100 leading-snug font-medium",
+								className: "text-[16px] text-teal-100 leading-snug font-medium",
 								children: "Sistema Simbólico & Semântica"
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "p-2.5 rounded-2xl border border-emerald-500/30 bg-emerald-950/20 flex flex-col justify-between",
+							className: "px-3 py-2 rounded-2xl border border-emerald-500/30 bg-emerald-950/20 flex flex-col justify-between",
 							children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "flex items-center gap-1.5 mb-1",
 								children: [/* @__PURE__ */ (0, z.jsx)(Gp, { className: "w-3.5 h-3.5 text-emerald-400 shrink-0" }), /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[10px] font-bold uppercase tracking-wider text-emerald-300",
+									className: "text-[14px] font-bold uppercase tracking-wide text-emerald-300",
 									children: "Inteligência"
 								})]
 							}), /* @__PURE__ */ (0, z.jsx)("p", {
-								className: "text-[11.5px] text-emerald-100 leading-snug font-medium",
+								className: "text-[16px] text-emerald-100 leading-snug font-medium",
 								children: "Potencial & Funções Executivas"
 							})]
 						})
@@ -24541,15 +24558,15 @@ function Ng({ isActive: e = !0, className: t }) {
 				/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "relative z-10",
 					children: [/* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[11.5px] text-zinc-300 leading-relaxed font-normal mb-2.5",
+						className: "text-[16px] text-zinc-300 leading-snug font-medium mb-2",
 						children: "O objetivo não é procurar um déficit cognitivo da fissura, mas identificar quais processos favorecem ou limitam a aprendizagem e a participação naquele momento específico da trajetória."
 					}), /* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center justify-between pt-2 border-t border-zinc-800",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-xs font-semibold text-zinc-400",
+							className: "text-[16px] font-semibold text-zinc-400",
 							children: "Diretriz clínica:"
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-xs font-bold text-teal-300 bg-teal-500/15 px-2.5 py-0.5 rounded-full border border-teal-400/25",
+							className: "text-[16px] font-bold text-teal-300 bg-teal-500/15 px-2.5 py-0.5 rounded-full border border-teal-400/25",
 							children: "Perfis Singulares ≠ Destino"
 						})]
 					})]
@@ -24574,25 +24591,25 @@ function Ng({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: "p-5 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between flex-1",
+			className: "px-5 py-4 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between flex-1",
 			children: [
 				/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center justify-between mb-1.5",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] font-bold uppercase tracking-[0.14em] text-[#0d6d66] bg-[#0d6d66]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0d6d66]/20 font-['Urbanist',sans-serif]",
+							className: "text-[14px] font-bold uppercase tracking-[0.08em] text-[#0d6d66] bg-[#0d6d66]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0d6d66]/20 font-['Urbanist',sans-serif]",
 							children: "Evidência Empírica · CPT"
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[11px] font-semibold text-[#5f6062]",
+							className: "text-[15px] font-semibold text-[#5f6062]",
 							children: "Estudo unicêntrico · 6–16 anos"
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsx)("h4", {
-						className: "text-base font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif]",
+						className: "text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif]",
 						children: "Atenção Sustentada em Tarefa Contínua"
 					}),
 					/* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[11px] text-[#5f6062] mt-0.5",
+						className: "text-[16px] font-medium text-[#5f6062] mt-0.5",
 						children: "Comparação controlada de desempenho em medidas contínuas:"
 					})
 				] }),
@@ -24601,43 +24618,43 @@ function Ng({ isActive: e = !0, className: t }) {
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "p-2.5 rounded-xl bg-[#f8f9fa] border border-black/[0.04]",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center justify-between text-xs font-bold text-[#0f1012]",
+							className: "flex items-center justify-between text-[16px] font-bold text-[#0f1012]",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
-								className: "font-['Urbanist',sans-serif] text-[#71717a]",
+								className: "font-['Urbanist',sans-serif] text-[#5f6062]",
 								children: "Grupo Controle"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] text-zinc-400 font-semibold",
+								className: "text-[14px] text-zinc-500 font-semibold",
 								children: "N basal"
 							})]
 						}), /* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "font-['Urbanist',sans-serif] text-[22px] font-bold tracking-tight text-[#0f1012] mt-0.5",
 							children: ["59,46 ", /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[12px] font-normal text-[#71717a]",
+								className: "text-[16px] font-normal text-[#71717a]",
 								children: "± 14,90"
 							})]
 						})]
 					}), /* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "p-2.5 rounded-xl bg-[#f0faf9] border border-[#0d6d66]/20",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center justify-between text-xs font-bold text-[#0d6d66]",
+							className: "flex items-center justify-between text-[16px] font-bold text-[#0d6d66]",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
 								className: "font-['Urbanist',sans-serif]",
 								children: "Fissura Orofacial"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-bold text-[#0d6d66] bg-[#0d6d66]/10 px-1.5 py-0.2 rounded",
+								className: "text-[14px] font-bold text-[#0d6d66] bg-[#0d6d66]/10 px-1.5 py-0.5 rounded",
 								children: "p = 0,022"
 							})]
 						}), /* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "font-['Urbanist',sans-serif] text-[22px] font-bold tracking-tight text-[#0d6d66] mt-0.5",
 							children: ["51,03 ", /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[12px] font-normal text-[#0d6d66]/70",
+								className: "text-[16px] font-normal text-[#0d6d66]/70",
 								children: "± 15,66"
 							})]
 						})]
 					})]
 				}),
 				/* @__PURE__ */ (0, z.jsxs)("p", {
-					className: "text-[11.5px] text-[#334155] leading-relaxed m-0 font-normal",
+					className: "text-[16px] text-[#334155] leading-snug m-0 font-medium",
 					children: [
 						"Nas demais tarefas executivas avaliadas não houve diferenças significativas e nenhum participante apresentou escores abaixo da média nos domínios do WISC-IV: ",
 						/* @__PURE__ */ (0, z.jsx)("strong", {
@@ -24648,7 +24665,7 @@ function Ng({ isActive: e = !0, className: t }) {
 					]
 				}),
 				/* @__PURE__ */ (0, z.jsxs)("p", {
-					className: "text-[11px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between",
+					className: "text-[15px] text-[#5f6062] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between gap-3",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Evidência: WISC-IV preservado" }), /* @__PURE__ */ (0, z.jsx)("span", {
 						className: "font-semibold text-[#0d6d66]",
 						children: "Média de grupo ≠ Destino individual"
@@ -24661,17 +24678,17 @@ function Ng({ isActive: e = !0, className: t }) {
 //#endregion
 //#region components/slide18-stage.tsx
 var Pg = ({ isActive: e = !0 }) => /* @__PURE__ */ (0, z.jsxs)("div", {
-	className: "grid grid-cols-1 lg:grid-cols-12 gap-8 items-center w-full",
+	className: "grid grid-cols-12 gap-8 items-center w-full",
 	children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 		className: "lg:col-span-6 xl:col-span-6 flex flex-col gap-3",
 		children: [/* @__PURE__ */ (0, z.jsx)(Mg, { isActive: e }), /* @__PURE__ */ (0, z.jsx)("p", {
-			className: "font-['Satoshi'] text-[13px] font-normal leading-relaxed text-[#6a6b6d] dark:text-gray-400",
+			className: "font-['Satoshi'] text-[15px] font-normal leading-relaxed text-[#6a6b6d] dark:text-gray-600",
 			children: "Escala de consistência da evidência, não de gravidade. Na meta-análise de Roberts et al. (29 estudos), linguagem foi o único domínio com déficit moderado, significativo, não heterogêneo e sem indicação de viés de publicação; revisões posteriores encontram resultados heterogêneos nos demais domínios."
 		})]
 	}), /* @__PURE__ */ (0, z.jsxs)("div", {
 		className: "lg:col-span-6 xl:col-span-6 flex flex-col gap-2",
 		children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-			className: "font-['Urbanist'] text-[28px] font-bold tracking-tight text-[#0d606a] mb-1",
+			className: "font-['Urbanist'] text-[28px] font-bold tracking-tight text-[#0d6d66] mb-1",
 			children: "Média do grupo ≠ destino individual"
 		}), /* @__PURE__ */ (0, z.jsx)(Ng, { isActive: e })]
 	})]
@@ -40716,21 +40733,21 @@ function SZ({ active: e, payload: t, label: n }) {
 	if (!e || !t?.length) return null;
 	let r = bZ.find((e) => e.phase === n);
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: "bg-white/98 backdrop-blur-md border border-black/10 shadow-xl rounded-2xl p-3.5 max-w-[280px] font-['Satoshi',sans-serif] text-xs",
+		className: "bg-white/98 backdrop-blur-md border border-black/10 shadow-xl rounded-2xl p-3.5 max-w-[340px] font-['Satoshi',sans-serif] text-[14px]",
 		children: [
 			/* @__PURE__ */ (0, z.jsx)("p", {
-				className: "font-['Urbanist',sans-serif] font-bold text-[13.5px] text-zinc-900 mb-1 border-b border-black/[0.06] pb-1",
+				className: "font-['Urbanist',sans-serif] font-bold text-[16px] text-zinc-900 mb-1 border-b border-black/[0.06] pb-1",
 				children: n
 			}),
 			/* @__PURE__ */ (0, z.jsx)("p", {
-				className: "text-zinc-500 text-[11px] mb-2.5 leading-relaxed font-normal",
+				className: "text-zinc-600 text-[14px] mb-2.5 leading-snug font-medium",
 				children: r?.detail
 			}),
 			/* @__PURE__ */ (0, z.jsxs)("div", {
 				className: "space-y-1.5 pt-0.5",
 				children: [
 					/* @__PURE__ */ (0, z.jsxs)("div", {
-						className: "flex items-center justify-between text-[11px]",
+						className: "flex items-center justify-between gap-2 text-[14px]",
 						children: [/* @__PURE__ */ (0, z.jsxs)("span", {
 							className: "flex items-center gap-1.5 font-medium text-zinc-600",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-2 h-2 rounded-full bg-[#0071e3]" }), "Reg. Externa (Azul):"]
@@ -40740,7 +40757,7 @@ function SZ({ active: e, payload: t, label: n }) {
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
-						className: "flex items-center justify-between text-[11px]",
+						className: "flex items-center justify-between gap-2 text-[14px]",
 						children: [/* @__PURE__ */ (0, z.jsxs)("span", {
 							className: "flex items-center gap-1.5 font-bold text-[#b5563a]",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-2 h-2 rounded-full bg-[#b5563a]" }), "Co-regulação (Laranja):"]
@@ -40750,7 +40767,7 @@ function SZ({ active: e, payload: t, label: n }) {
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
-						className: "flex items-center justify-between text-[11px]",
+						className: "flex items-center justify-between gap-2 text-[14px]",
 						children: [/* @__PURE__ */ (0, z.jsxs)("span", {
 							className: "flex items-center gap-1.5 font-medium text-zinc-600",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-2 h-2 rounded-full bg-[#0d606a]" }), "Autorregulação (Verde):"]
@@ -40774,25 +40791,25 @@ function CZ() {
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center gap-2 mb-1",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-[#b5563a]/15 text-[#8c3e27] border border-[#b5563a]/30",
+							className: "inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[14px] font-bold uppercase tracking-wide bg-[#b5563a]/15 text-[#8c3e27] border border-[#b5563a]/30",
 							children: "Trajetória Desenvolvimental"
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[11px] font-semibold text-zinc-400",
+							className: "text-[14px] font-semibold text-zinc-500",
 							children: "Infância à Adolescência"
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsx)("h3", {
-						className: "text-[20px] lg:text-[22px] font-bold tracking-tight text-zinc-900 font-['Urbanist',sans-serif] leading-tight",
+						className: "text-[25px] font-bold tracking-tight text-zinc-900 font-['Urbanist',sans-serif] leading-tight",
 						children: "Transição da Dependência Regulamentar"
 					}),
 					/* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[13px] text-zinc-500 mt-0.5",
+						className: "text-[17px] font-medium text-zinc-600 mt-0.5",
 						children: "Evolução concomitante: o aumento da autorregulação não extingue a co-regulação."
 					})
 				] }), /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-xl bg-[#fdf6f3] border border-[#b5563a]/25 shadow-xs",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "size-2 rounded-full bg-[#b5563a] animate-pulse" }), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[11.5px] font-bold text-[#8c3e27]",
+						className: "text-[15px] font-bold text-[#8c3e27]",
 						children: "Co-regulação Persistente"
 					})]
 				})]
@@ -40804,8 +40821,8 @@ function CZ() {
 					data: bZ,
 					margin: {
 						top: 14,
-						right: 20,
-						left: -6,
+						right: 76,
+						left: 0,
 						bottom: 6
 					},
 					children: [
@@ -40821,7 +40838,7 @@ function CZ() {
 							tickMargin: 10,
 							tick: {
 								fill: "#52525b",
-								fontSize: 12,
+								fontSize: 15,
 								fontWeight: 600
 							}
 						}),
@@ -40829,6 +40846,7 @@ function CZ() {
 							tickLine: !1,
 							axisLine: !1,
 							tickMargin: 6,
+							width: 84,
 							ticks: [
 								20,
 								55,
@@ -40837,9 +40855,9 @@ function CZ() {
 							tickFormatter: (e) => e >= 80 ? "Alta" : e >= 45 ? "Moderada" : "Baixa",
 							domain: [0, 100],
 							tick: {
-								fill: "#71717a",
-								fontSize: 11,
-								fontWeight: 500
+								fill: "#52525b",
+								fontSize: 15,
+								fontWeight: 600
 							}
 						}),
 						/* @__PURE__ */ (0, z.jsx)(sH, { content: /* @__PURE__ */ (0, z.jsx)(SZ, {}) }),
@@ -40904,7 +40922,7 @@ function CZ() {
 				})
 			}),
 			/* @__PURE__ */ (0, z.jsxs)("div", {
-				className: "flex flex-wrap items-center justify-center gap-7 pt-3 mt-1 border-t border-black/[0.05] text-[12px] font-medium",
+				className: "flex flex-wrap items-center justify-center gap-x-7 gap-y-1 pt-3 mt-1 border-t border-black/[0.05] text-[16px] font-medium",
 				children: [
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center gap-2",
@@ -41009,7 +41027,7 @@ function EZ({ isActive: e = !0, className: t }) {
 		children: /* @__PURE__ */ (0, z.jsxs)("div", {
 			className: "w-full",
 			children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-				className: "grid grid-cols-1 lg:grid-cols-12 gap-6",
+				className: "grid grid-cols-12 gap-6",
 				children: [/* @__PURE__ */ (0, z.jsxs)(wZ, {
 					animationNum: 1,
 					timelineRef: n,
@@ -41029,29 +41047,29 @@ function EZ({ isActive: e = !0, className: t }) {
 								/* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "flex items-center justify-between mb-2",
 									children: [/* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[10px] font-bold uppercase tracking-[0.2em] text-[#e07a5f] bg-[#b5563a]/25 px-2.5 py-0.5 rounded-full border border-[#b5563a]/40",
+										className: "text-[14px] font-bold uppercase tracking-[0.1em] text-[#e07a5f] bg-[#b5563a]/25 px-2.5 py-0.5 rounded-full border border-[#b5563a]/40",
 										children: "Tese Central · Eixo 3"
 									}), /* @__PURE__ */ (0, z.jsx)(hh, { className: "w-3.5 h-3.5 text-[#e07a5f]" })]
 								}),
 								/* @__PURE__ */ (0, z.jsx)("h4", {
-									className: "text-[20px] font-bold tracking-tight font-['Urbanist',sans-serif] text-white leading-tight",
+									className: "text-[23px] font-bold tracking-tight font-['Urbanist',sans-serif] text-white leading-tight",
 									children: "Autonomia ≠ Independência"
 								}),
 								/* @__PURE__ */ (0, z.jsx)("p", {
-									className: "text-[12.5px] text-zinc-300 font-normal leading-relaxed mt-1.5",
+									className: "text-[16px] text-zinc-300 font-medium leading-snug mt-1.5",
 									children: "A maturação emocional não elimina a necessidade do outro: pessoas maduras continuam usando vínculos interpessoais como amortecedores de estresse."
 								})
 							] }),
 							/* @__PURE__ */ (0, z.jsxs)("div", {
-								className: "mt-5 pt-3 border-t border-white/[0.1]",
+								className: "mt-3 pt-3 border-t border-white/[0.1]",
 								children: [
 									/* @__PURE__ */ (0, z.jsxs)("div", {
-										className: "flex justify-between items-end mb-2",
+										className: "flex justify-between items-end flex-wrap gap-2 mb-2",
 										children: [/* @__PURE__ */ (0, z.jsx)("span", {
 											className: "text-[18px] font-bold tracking-tight text-white font-['Urbanist',sans-serif]",
 											children: "Recurso Permanente"
 										}), /* @__PURE__ */ (0, z.jsx)("span", {
-											className: "text-[10px] font-bold uppercase tracking-wider text-[#e07a5f] bg-[#b5563a]/25 px-2 py-0.5 rounded border border-[#b5563a]/35",
+											className: "text-[14px] font-bold uppercase tracking-wide text-[#e07a5f] bg-[#b5563a]/25 px-2 py-0.5 rounded border border-[#b5563a]/35",
 											children: "Ao Longo de Toda a Vida"
 										})]
 									}),
@@ -41060,7 +41078,7 @@ function EZ({ isActive: e = !0, className: t }) {
 										children: /* @__PURE__ */ (0, z.jsx)("div", { className: "h-full bg-gradient-to-r from-[#0071e3] via-[#b5563a] to-[#0d606a] w-full rounded-full shadow-[0_0_8px_rgba(181,86,58,0.5)]" })
 									}),
 									/* @__PURE__ */ (0, z.jsx)("p", {
-										className: "text-[11px] text-zinc-400 mt-1.5 leading-tight",
+										className: "text-[15px] font-medium text-zinc-300 mt-1.5 leading-snug",
 										children: "O vínculo seguro permanece como o modulador primário sob estresse agudo."
 									})
 								]
@@ -41077,19 +41095,19 @@ function EZ({ isActive: e = !0, className: t }) {
 								className: "size-8 rounded-xl bg-[#b5563a]/15 flex items-center justify-center border border-[#b5563a]/25 text-[#b5563a]",
 								children: /* @__PURE__ */ (0, z.jsx)(Tm, { className: "w-4 h-4" })
 							}), /* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("h4", {
-								className: "font-bold text-[14.5px] text-zinc-900 font-['Urbanist',sans-serif] leading-tight",
+								className: "font-bold text-[20px] text-zinc-900 font-['Urbanist',sans-serif] leading-tight",
 								children: "Três Vias Familiares"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] text-zinc-400 font-medium",
+								className: "text-[14px] text-zinc-500 font-medium",
 								children: "Morris et al. (2007)"
 							})] })]
 						}), /* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex flex-col gap-1.5 text-[11.5px]",
+							className: "flex flex-col gap-1.5 text-[16px]",
 							children: [
 								/* @__PURE__ */ (0, z.jsxs)("div", {
-									className: "flex items-start gap-2 p-1.5 rounded-lg bg-white/80 border border-black/[0.04]",
-									children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-1.5 h-1.5 rounded-full bg-[#475569] mt-1.5 shrink-0" }), /* @__PURE__ */ (0, z.jsxs)("p", {
-										className: "text-zinc-600 leading-tight",
+									className: "flex items-start gap-2 px-2 py-1.5 rounded-lg bg-white/80 border border-black/[0.04]",
+									children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-2 h-2 rounded-full bg-[#475569] mt-2 shrink-0" }), /* @__PURE__ */ (0, z.jsxs)("p", {
+										className: "text-zinc-600 leading-snug",
 										children: [/* @__PURE__ */ (0, z.jsx)("strong", {
 											className: "text-zinc-900 font-semibold",
 											children: "Modelagem:"
@@ -41097,9 +41115,9 @@ function EZ({ isActive: e = !0, className: t }) {
 									})]
 								}),
 								/* @__PURE__ */ (0, z.jsxs)("div", {
-									className: "flex items-start gap-2 p-1.5 rounded-lg bg-white/80 border border-black/[0.04]",
-									children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-1.5 h-1.5 rounded-full bg-[#b5563a] mt-1.5 shrink-0" }), /* @__PURE__ */ (0, z.jsxs)("p", {
-										className: "text-zinc-600 leading-tight",
+									className: "flex items-start gap-2 px-2 py-1.5 rounded-lg bg-white/80 border border-black/[0.04]",
+									children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-2 h-2 rounded-full bg-[#b5563a] mt-2 shrink-0" }), /* @__PURE__ */ (0, z.jsxs)("p", {
+										className: "text-zinc-600 leading-snug",
 										children: [/* @__PURE__ */ (0, z.jsx)("strong", {
 											className: "text-zinc-900 font-semibold",
 											children: "Socialização:"
@@ -41107,9 +41125,9 @@ function EZ({ isActive: e = !0, className: t }) {
 									})]
 								}),
 								/* @__PURE__ */ (0, z.jsxs)("div", {
-									className: "flex items-start gap-2 p-1.5 rounded-lg bg-white/80 border border-black/[0.04]",
-									children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-1.5 h-1.5 rounded-full bg-[#0d606a] mt-1.5 shrink-0" }), /* @__PURE__ */ (0, z.jsxs)("p", {
-										className: "text-zinc-600 leading-tight",
+									className: "flex items-start gap-2 px-2 py-1.5 rounded-lg bg-white/80 border border-black/[0.04]",
+									children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-2 h-2 rounded-full bg-[#0d606a] mt-2 shrink-0" }), /* @__PURE__ */ (0, z.jsxs)("p", {
+										className: "text-zinc-600 leading-snug",
 										children: [/* @__PURE__ */ (0, z.jsx)("strong", {
 											className: "text-zinc-900 font-semibold",
 											children: "Clima Emocional:"
@@ -41121,17 +41139,17 @@ function EZ({ isActive: e = !0, className: t }) {
 					})]
 				})]
 			}), /* @__PURE__ */ (0, z.jsx)("div", {
-				className: "grid grid-cols-2 md:grid-cols-4 gap-4 pt-5",
+				className: "grid grid-cols-4 gap-4 pt-4",
 				children: TZ.map((t, r) => /* @__PURE__ */ (0, z.jsxs)(wZ, {
 					animationNum: 4 + r,
 					timelineRef: n,
 					isActive: e,
-					className: q("p-4 lg:p-5 rounded-2xl border bg-white border-black/[0.06] shadow-xs transition-all duration-300 group", "hover:border-[#b5563a]/40 hover:bg-gradient-to-b hover:from-white hover:to-[#fdf6f3] hover:shadow-md"),
+					className: q("px-4 py-3.5 rounded-2xl border bg-white border-black/[0.06] shadow-xs transition-all duration-300 group", "hover:border-[#b5563a]/40 hover:bg-gradient-to-b hover:from-white hover:to-[#fdf6f3] hover:shadow-md"),
 					children: [
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center justify-between mb-2",
 							children: [/* @__PURE__ */ (0, z.jsx)("p", {
-								className: "text-[10px] font-bold text-zinc-400 uppercase tracking-wider font-['Urbanist',sans-serif]",
+								className: "text-[14px] font-bold text-zinc-500 uppercase tracking-wide font-['Urbanist',sans-serif]",
 								children: t.phase
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
 								className: "size-2 rounded-full transition-transform group-hover:scale-125",
@@ -41141,12 +41159,12 @@ function EZ({ isActive: e = !0, className: t }) {
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "mb-2",
 							children: [/* @__PURE__ */ (0, z.jsx)("h4", {
-								className: "text-[17px] font-bold text-zinc-900 tracking-tight font-['Urbanist',sans-serif] leading-snug",
+								className: "text-[20px] font-bold text-zinc-900 tracking-tight font-['Urbanist',sans-serif] leading-snug",
 								children: t.status
 							}), /* @__PURE__ */ (0, z.jsx)("div", {
 								className: "mt-1",
 								children: /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[9.5px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md border inline-block",
+									className: "text-[14px] font-bold uppercase tracking-wide px-2 py-0.5 rounded-md border inline-block",
 									style: {
 										backgroundColor: `${t.accent}12`,
 										color: t.accent,
@@ -41157,11 +41175,11 @@ function EZ({ isActive: e = !0, className: t }) {
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11.5px] font-semibold text-zinc-700",
+							className: "text-[16px] font-semibold text-zinc-700",
 							children: t.sublabel
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11px] text-zinc-500 mt-1 leading-snug",
+							className: "text-[16px] font-medium text-zinc-600 mt-1 leading-snug",
 							children: t.desc
 						})
 					]
@@ -41187,25 +41205,25 @@ var OZ = {
 	{
 		id: "perceber",
 		step: "01",
-		targetX: -215,
-		targetY: -124,
-		startX: -440,
-		startY: -250,
+		targetX: -240,
+		targetY: -139,
+		startX: -493,
+		startY: -280,
 		title: "perceber",
 		desc: "face, voz, corpo, contexto",
 		icon: hm,
-		color: "#0071e3",
-		bgGlow: "rgba(0, 113, 227, 0.16)",
-		badgeBg: "rgba(0, 113, 227, 0.12)",
+		color: "#b5563a",
+		bgGlow: "rgba(181, 86, 58, 0.16)",
+		badgeBg: "rgba(181, 86, 58, 0.12)",
 		tag: "Entrada sensorial"
 	},
 	{
 		id: "compreender",
 		step: "02",
-		targetX: 215,
-		targetY: -124,
-		startX: 440,
-		startY: -250,
+		targetX: 240,
+		targetY: -139,
+		startX: 493,
+		startY: -280,
 		title: "compreender",
 		desc: "situação, intenção, consequência",
 		icon: Gp,
@@ -41218,9 +41236,9 @@ var OZ = {
 		id: "regular",
 		step: "03",
 		targetX: 0,
-		targetY: 175,
+		targetY: 196,
 		startX: 0,
-		startY: 360,
+		startY: 403,
 		title: "regular",
 		desc: "intensidade, duração, expressão",
 		icon: ph,
@@ -41260,7 +41278,7 @@ function AZ({ isActive: e = !0 }) {
 		i(e), u((e) => e + 1);
 	};
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: "relative flex h-[520px] w-full max-w-[820px] mx-auto items-center justify-center select-none overflow-visible",
+		className: "relative flex h-[520px] w-full max-w-[860px] mx-auto items-center justify-center select-none overflow-visible",
 		onMouseEnter: () => o(!0),
 		onMouseLeave: () => o(!1),
 		children: [/* @__PURE__ */ (0, z.jsxs)("div", {
@@ -41302,7 +41320,7 @@ function AZ({ isActive: e = !0 }) {
 				whileHover: { scale: 1.04 },
 				whileTap: { scale: .96 },
 				"aria-label": "Pausar ou avançar ciclo",
-				className: q("relative group flex flex-col items-center justify-center cursor-pointer outline-none rounded-full transition-all duration-300", "w-[148px] h-[148px] bg-white/95 border shadow-[0_12px_40px_rgba(0,113,227,0.12)] backdrop-blur-xl", t ? "border-black/[0.08]" : "border-black/[0.14]"),
+				className: q("relative group flex flex-col items-center justify-center cursor-pointer outline-none rounded-full transition-all duration-300", "w-[148px] h-[148px] bg-white/95 border shadow-[0_12px_40px_rgba(181,86,58,0.12)] backdrop-blur-xl", t ? "border-black/[0.08]" : "border-black/[0.14]"),
 				children: [
 					/* @__PURE__ */ (0, z.jsx)(H.div, {
 						animate: {
@@ -41335,16 +41353,16 @@ function AZ({ isActive: e = !0 }) {
 						children: /* @__PURE__ */ (0, z.jsx)(hh, { className: "w-5 h-5 stroke-[2.2]" })
 					}),
 					/* @__PURE__ */ (0, z.jsx)("span", {
-						className: "font-['Urbanist',sans-serif] text-[14.5px] font-bold tracking-tight text-[#0f1012] leading-tight text-center px-2",
+						className: "font-['Urbanist',sans-serif] text-[18px] font-bold tracking-tight text-[#0f1012] leading-tight text-center px-2",
 						children: "competência emocional"
 					}),
 					/* @__PURE__ */ (0, z.jsx)("span", {
 						style: { color: p.color },
-						className: "text-[9.5px] font-bold tracking-[0.14em] uppercase mt-1 transition-colors duration-300",
+						className: "text-[14px] font-bold tracking-[0.08em] uppercase mt-1 transition-colors duration-300",
 						children: a || s ? "pausado" : `foco ${p.step}`
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
-						className: "absolute -bottom-2.5 opacity-0 group-hover:opacity-100 transition-opacity bg-[#0f1012] text-white text-[9px] px-2 py-0.5 rounded-full flex items-center gap-1 shadow-md",
+						className: "absolute -bottom-2.5 opacity-0 group-hover:opacity-100 transition-opacity bg-[#0f1012] text-white text-[14px] px-2 py-0.5 rounded-full flex items-center gap-1 shadow-md whitespace-nowrap",
 						children: [s ? /* @__PURE__ */ (0, z.jsx)(qm, { className: "w-2.5 h-2.5" }) : /* @__PURE__ */ (0, z.jsx)(Gm, { className: "w-2.5 h-2.5" }), /* @__PURE__ */ (0, z.jsx)("span", { children: s ? "retomar loop" : "pausar" })]
 					})
 				]
@@ -41430,7 +41448,7 @@ function AZ({ isActive: e = !0 }) {
 									backgroundColor: "rgba(255, 255, 255, 0.96)",
 									border: i ? `1px solid ${e.color}40` : "1px solid rgba(15, 16, 18, 0.08)"
 								},
-								className: q("relative z-10 flex items-center gap-3.5 px-4 py-3 rounded-[15px] backdrop-blur-xl transition-all duration-200", "w-[236px]"),
+								className: q("relative z-10 flex items-center gap-3.5 px-4 py-3 rounded-[15px] backdrop-blur-xl transition-all duration-200", "w-[264px]"),
 								children: [/* @__PURE__ */ (0, z.jsx)("div", {
 									style: {
 										backgroundColor: e.badgeBg,
@@ -41439,16 +41457,16 @@ function AZ({ isActive: e = !0 }) {
 									className: "w-11 h-11 rounded-xl flex items-center justify-center shrink-0 shadow-inner transition-transform duration-200 group-hover:scale-105",
 									children: /* @__PURE__ */ (0, z.jsx)(a, { className: "w-5 h-5 stroke-[2.2]" })
 								}), /* @__PURE__ */ (0, z.jsxs)("div", {
-									className: "flex flex-col text-left overflow-hidden",
+									className: "flex flex-col text-left min-w-0",
 									children: [/* @__PURE__ */ (0, z.jsx)("div", {
 										className: "flex items-center gap-1.5",
 										children: /* @__PURE__ */ (0, z.jsx)("span", {
 											style: { color: e.color },
-											className: "font-['Satoshi',sans-serif] text-[18px] font-bold tracking-tight capitalize",
+											className: "font-['Satoshi',sans-serif] text-[20px] font-bold tracking-tight capitalize",
 											children: e.title
 										})
 									}), /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "font-['Satoshi',sans-serif] text-[13px] font-medium text-[#5f6062] leading-snug mt-0.5",
+										className: "font-['Satoshi',sans-serif] text-[16px] font-medium text-[#52525b] leading-snug mt-0.5",
 										children: e.desc
 									})]
 								})]
@@ -41491,7 +41509,7 @@ function jZ({ isActive: e = !0, className: t }) {
 		}
 	];
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: q("w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[620px] mx-auto my-auto", t),
+		className: q("w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[780px] mx-auto my-auto", t),
 		children: [/* @__PURE__ */ (0, z.jsxs)(H.div, {
 			initial: {
 				opacity: 0,
@@ -41511,25 +41529,25 @@ function jZ({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: "p-5 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between flex-1",
+			className: "px-5 py-4 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between flex-1",
 			children: [
 				/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center justify-between mb-1.5",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] font-bold uppercase tracking-[0.14em] text-[#8c3e27] bg-[#b5563a]/[0.10] px-2.5 py-0.5 rounded-full border border-[#b5563a]/25 font-['Urbanist',sans-serif]",
+							className: "text-[14px] font-bold uppercase tracking-[0.08em] text-[#8c3e27] bg-[#b5563a]/[0.10] px-2.5 py-0.5 rounded-full border border-[#b5563a]/25 font-['Urbanist',sans-serif]",
 							children: "Riddell et al. (2024) · Meta-análise"
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[11px] font-semibold text-[#5f6062]",
+							className: "text-[15px] font-semibold text-[#5f6062]",
 							children: "129 estudos · N = 31.101"
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsx)("h4", {
-						className: "text-[17px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
+						className: "text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
 						children: "Reconhecimento Emocional na Infância"
 					}),
 					/* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[11px] text-[#5f6062] mt-0.5",
+						className: "text-[16px] font-medium text-[#5f6062] mt-0.5",
 						children: "Acurácia progressiva no reconhecimento de expressões faciais entre 2 e 12 anos:"
 					})
 				] }),
@@ -41537,7 +41555,7 @@ function jZ({ isActive: e = !0, className: t }) {
 					className: "my-1.5 bg-[#fcfdfe] rounded-2xl p-2.5 border border-black/[0.04]",
 					children: /* @__PURE__ */ (0, z.jsxs)("svg", {
 						viewBox: "0 0 580 155",
-						className: "w-full h-auto max-h-[140px] display-block overflow-visible",
+						className: "w-full h-auto max-h-[172px] display-block overflow-visible",
 						"aria-label": "Curva de acurácia de reconhecimento de emoções",
 						children: [
 							/* @__PURE__ */ (0, z.jsxs)("defs", { children: [/* @__PURE__ */ (0, z.jsxs)("linearGradient", {
@@ -41621,7 +41639,7 @@ function jZ({ isActive: e = !0, className: t }) {
 								x: "50",
 								y: "145",
 								fontFamily: "'Urbanist', sans-serif",
-								fontSize: "13",
+								fontSize: "15",
 								fontWeight: "700",
 								fill: "#8c3e27",
 								children: "2 anos"
@@ -41631,9 +41649,9 @@ function jZ({ isActive: e = !0, className: t }) {
 								y: "145",
 								textAnchor: "middle",
 								fontFamily: "'Urbanist', sans-serif",
-								fontSize: "12",
+								fontSize: "16",
 								fontWeight: "600",
-								fill: "#71717a",
+								fill: "#52525b",
 								children: "6 anos"
 							}),
 							/* @__PURE__ */ (0, z.jsx)("text", {
@@ -41641,7 +41659,7 @@ function jZ({ isActive: e = !0, className: t }) {
 								y: "145",
 								textAnchor: "end",
 								fontFamily: "'Urbanist', sans-serif",
-								fontSize: "13",
+								fontSize: "15",
 								fontWeight: "700",
 								fill: "#8c3e27",
 								children: "12 anos"
@@ -41714,21 +41732,21 @@ function jZ({ isActive: e = !0, className: t }) {
 							/* @__PURE__ */ (0, z.jsxs)("g", {
 								transform: "translate(260, 24)",
 								children: [/* @__PURE__ */ (0, z.jsx)("rect", {
-									x: "-85",
-									y: "-10",
-									width: "170",
-									height: "20",
-									rx: "10",
+									x: "-106",
+									y: "-13",
+									width: "212",
+									height: "26",
+									rx: "13",
 									fill: "#ffffff",
 									stroke: "#b5563a",
 									strokeWidth: "1",
 									strokeOpacity: "0.35"
 								}), /* @__PURE__ */ (0, z.jsx)("text", {
 									x: "0",
-									y: "4",
+									y: "5",
 									textAnchor: "middle",
 									fontFamily: "'Urbanist', sans-serif",
-									fontSize: "10.5",
+									fontSize: "15",
 									fontWeight: "700",
 									fill: "#8c3e27",
 									children: "↗ Acurácia Progressiva"
@@ -41740,27 +41758,27 @@ function jZ({ isActive: e = !0, className: t }) {
 				/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "grid grid-cols-2 gap-2 my-1",
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-						className: "p-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]",
+						className: "px-3 py-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] font-bold uppercase tracking-wider text-emerald-700 block",
+							className: "text-[14px] font-bold uppercase tracking-wide text-emerald-700 block",
 							children: "Felicidade"
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11px] text-[#5f6062] mt-0.5 leading-snug",
+							className: "text-[16px] font-medium text-[#52525b] mt-0.5 leading-snug",
 							children: "Mais precocemente e facilmente reconhecida."
 						})]
 					}), /* @__PURE__ */ (0, z.jsxs)("div", {
-						className: "p-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]",
+						className: "px-3 py-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] font-bold uppercase tracking-wider text-amber-700 block",
+							className: "text-[14px] font-bold uppercase tracking-wide text-amber-700 block",
 							children: "Medo e Nojo"
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11px] text-[#5f6062] mt-0.5 leading-snug",
+							className: "text-[16px] font-medium text-[#52525b] mt-0.5 leading-snug",
 							children: "Entre as mais tardias e difíceis de discriminar."
 						})]
 					})]
 				}),
 				/* @__PURE__ */ (0, z.jsxs)("p", {
-					className: "text-[11px] text-[#6a6b6d] italic m-0 pt-1.5 border-t border-black/[0.05] flex items-center justify-between",
+					className: "text-[15px] text-[#5f6062] italic m-0 pt-1.5 border-t border-black/[0.05] flex items-center justify-between gap-3",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "129 estudos sintetizados" }), /* @__PURE__ */ (0, z.jsx)("span", {
 						className: "font-semibold text-[#8c3e27]",
 						children: "Acurácia melhora de 2 a 12 anos"
@@ -41786,7 +41804,7 @@ function jZ({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: "p-5 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] flex-1 relative overflow-hidden",
+			className: "px-5 py-4 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] flex-1 relative overflow-hidden",
 			children: [
 				/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 w-44 h-44 bg-[#b5563a]/15 rounded-full blur-3xl pointer-events-none" }),
 				/* @__PURE__ */ (0, z.jsxs)("div", {
@@ -41795,31 +41813,31 @@ function jZ({ isActive: e = !0, className: t }) {
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center justify-between mb-1.5",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-400 font-['Urbanist',sans-serif]",
+								className: "text-[14px] font-bold uppercase tracking-[0.1em] text-zinc-400 font-['Urbanist',sans-serif]",
 								children: "Integração Transdomínio"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-semibold text-[#f8d7ce] bg-[#b5563a]/25 px-2.5 py-0.5 rounded-full border border-[#b5563a]/40",
+								className: "text-[14px] font-semibold text-[#f8d7ce] bg-[#b5563a]/25 px-2.5 py-0.5 rounded-full border border-[#b5563a]/40",
 								children: "Eixo 3 · Emocional"
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("h4", {
-							className: "text-[18px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
+							className: "text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
 							children: "E Dependem de Outros Domínios"
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11.5px] font-medium text-zinc-300 mt-1 leading-relaxed",
+							className: "text-[16px] font-medium text-zinc-300 mt-1 leading-snug",
 							children: "O reconhecimento e a regulação emocional constroem-se em estreita interdependência:"
 						})
 					]
 				}),
 				/* @__PURE__ */ (0, z.jsx)("div", {
-					className: "flex flex-wrap gap-1.5 my-2.5 relative z-10",
+					className: "flex flex-wrap gap-1.5 my-2 relative z-10",
 					children: n.map((e) => {
 						let t = e.icon;
 						return /* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "inline-flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-zinc-900/90 border border-zinc-800 hover:border-[#b5563a]/40 transition-colors",
-							children: [/* @__PURE__ */ (0, z.jsx)(t, { className: "w-3 h-3 text-[#cf6647] shrink-0" }), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[11px] font-semibold text-zinc-200",
+							children: [/* @__PURE__ */ (0, z.jsx)(t, { className: "w-4 h-4 text-[#cf6647] shrink-0" }), /* @__PURE__ */ (0, z.jsx)("span", {
+								className: "text-[15px] font-semibold text-zinc-200",
 								children: e.label
 							})]
 						}, e.label);
@@ -41827,18 +41845,18 @@ function jZ({ isActive: e = !0, className: t }) {
 				}),
 				/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "p-3 bg-zinc-900/95 rounded-2xl border border-zinc-800/90 flex items-start gap-2.5 relative z-10 my-1",
-					children: [/* @__PURE__ */ (0, z.jsx)(ph, { className: "w-4 h-4 text-[#cf6647] shrink-0 mt-0.5" }), /* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-xs text-zinc-200 leading-relaxed m-0 font-normal",
+					children: [/* @__PURE__ */ (0, z.jsx)(ph, { className: "w-5 h-5 text-[#cf6647] shrink-0 mt-0.5" }), /* @__PURE__ */ (0, z.jsx)("p", {
+						className: "text-[16px] text-zinc-200 leading-snug m-0 font-medium",
 						children: "Regular emoções exige mais do que controlar-se: é reconhecer o que está acontecendo, atribuir significado e selecionar uma resposta adequada ao contexto."
 					})]
 				}),
 				/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-xs font-semibold text-zinc-400",
+						className: "text-[16px] font-semibold text-zinc-400",
 						children: "Processo integrado:"
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-xs font-bold text-[#f8d7ce] bg-[#b5563a]/20 px-2.5 py-0.5 rounded-full border border-[#b5563a]/30",
+						className: "text-[16px] font-bold text-[#f8d7ce] bg-[#b5563a]/20 px-2.5 py-0.5 rounded-full border border-[#b5563a]/30",
 						children: "Perceber ↔ Compreender ↔ Regular"
 					})]
 				})
@@ -41876,11 +41894,11 @@ function MZ({ className: e, children: t, reverse: n, duration: r = 20, delay: i 
 //#region components/slide21-orbit.tsx
 function NZ({ isActive: e = !0 }) {
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: "relative flex h-[480px] w-full max-w-[540px] mx-auto flex-col items-center justify-center overflow-hidden rounded-3xl bg-transparent select-none group",
+		className: "relative flex h-[480px] w-full max-w-[560px] mx-auto flex-col items-center justify-center overflow-hidden rounded-3xl bg-transparent select-none group",
 		children: [
 			/* @__PURE__ */ (0, z.jsx)("div", {
 				className: "absolute inset-0 pointer-events-none flex items-center justify-center",
-				children: /* @__PURE__ */ (0, z.jsx)("div", { className: "w-[360px] h-[360px] rounded-full bg-[#0071e3]/[0.03] blur-3xl" })
+				children: /* @__PURE__ */ (0, z.jsx)("div", { className: "w-[360px] h-[360px] rounded-full bg-[#b5563a]/[0.03] blur-3xl" })
 			}),
 			/* @__PURE__ */ (0, z.jsxs)(H.div, {
 				initial: {
@@ -41900,10 +41918,10 @@ function NZ({ isActive: e = !0 }) {
 						1
 					]
 				},
-				className: "relative z-20 flex flex-col items-center justify-center w-[114px] h-[114px] rounded-full bg-white/95 border-2 border-[#0071e3]/30 shadow-[0_8px_32px_rgba(0,113,227,0.12)] backdrop-blur-md transition-transform hover:scale-105",
+				className: "relative z-20 flex flex-col items-center justify-center w-[114px] h-[114px] rounded-full bg-white/95 border-2 border-[#b5563a]/30 shadow-[0_8px_32px_rgba(0,113,227,0.12)] backdrop-blur-md transition-transform hover:scale-105",
 				children: [
 					/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-9 h-9 rounded-full bg-[#e8f2fc] flex items-center justify-center mb-1 text-[#0071e3] shadow-inner",
+						className: "w-9 h-9 rounded-full bg-[#fbeee9] flex items-center justify-center mb-1 text-[#b5563a] shadow-inner",
 						children: /* @__PURE__ */ (0, z.jsx)(kh, { className: "w-5 h-5 stroke-[2.2]" })
 					}),
 					/* @__PURE__ */ (0, z.jsx)("span", {
@@ -41911,7 +41929,7 @@ function NZ({ isActive: e = !0 }) {
 						children: "SELF"
 					}),
 					/* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[10px] font-semibold text-[#0071e3] tracking-wider uppercase -mt-0.5",
+						className: "text-[14px] font-semibold text-[#b5563a] tracking-wider uppercase mt-0",
 						children: "Núcleo"
 					})
 				]
@@ -41921,15 +41939,15 @@ function NZ({ isActive: e = !0 }) {
 				duration: 28,
 				delay: 0,
 				radius: 110,
-				pathClassName: "stroke-[#0071e3]/20",
+				pathClassName: "stroke-[#b5563a]/20",
 				strokeDasharray: "4 4",
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-						children: /* @__PURE__ */ (0, z.jsx)(hh, { className: "w-3 h-3" })
+						className: "w-5 h-5 rounded-full bg-[#b5563a]/10 text-[#b5563a] flex items-center justify-center shrink-0",
+						children: /* @__PURE__ */ (0, z.jsx)(hh, { className: "w-4 h-4" })
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap",
+						className: "text-[15px] font-semibold text-[#0f1012] whitespace-nowrap",
 						children: "aparência"
 					})]
 				})
@@ -41943,10 +41961,10 @@ function NZ({ isActive: e = !0 }) {
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-						children: /* @__PURE__ */ (0, z.jsx)(xm, { className: "w-3 h-3" })
+						className: "w-5 h-5 rounded-full bg-[#b5563a]/10 text-[#b5563a] flex items-center justify-center shrink-0",
+						children: /* @__PURE__ */ (0, z.jsx)(xm, { className: "w-4 h-4" })
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap",
+						className: "text-[15px] font-semibold text-[#0f1012] whitespace-nowrap",
 						children: "acadêmico"
 					})]
 				})
@@ -41960,10 +41978,10 @@ function NZ({ isActive: e = !0 }) {
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-						children: /* @__PURE__ */ (0, z.jsx)(dm, { className: "w-3 h-3" })
+						className: "w-5 h-5 rounded-full bg-[#b5563a]/10 text-[#b5563a] flex items-center justify-center shrink-0",
+						children: /* @__PURE__ */ (0, z.jsx)(dm, { className: "w-4 h-4" })
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap",
+						className: "text-[15px] font-semibold text-[#0f1012] whitespace-nowrap",
 						children: "valores"
 					})]
 				})
@@ -41972,16 +41990,16 @@ function NZ({ isActive: e = !0 }) {
 				className: "border-none bg-transparent",
 				duration: 36,
 				delay: 0,
-				radius: 195,
+				radius: 178,
 				reverse: !0,
-				pathClassName: "stroke-[#0071e3]/15",
+				pathClassName: "stroke-[#b5563a]/15",
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-						children: /* @__PURE__ */ (0, z.jsx)(Nh, { className: "w-3 h-3" })
+						className: "w-5 h-5 rounded-full bg-[#b5563a]/10 text-[#b5563a] flex items-center justify-center shrink-0",
+						children: /* @__PURE__ */ (0, z.jsx)(Nh, { className: "w-4 h-4" })
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[13px] font-semibold text-[#0f1012] whitespace-nowrap",
+						className: "text-[15px] font-semibold text-[#0f1012] whitespace-nowrap",
 						children: "social"
 					})]
 				})
@@ -41990,16 +42008,16 @@ function NZ({ isActive: e = !0 }) {
 				className: "border-none bg-transparent",
 				duration: 36,
 				delay: 12,
-				radius: 195,
+				radius: 178,
 				reverse: !0,
 				path: !1,
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-						children: /* @__PURE__ */ (0, z.jsx)(Tm, { className: "w-3 h-3" })
+						className: "w-5 h-5 rounded-full bg-[#b5563a]/10 text-[#b5563a] flex items-center justify-center shrink-0",
+						children: /* @__PURE__ */ (0, z.jsx)(Tm, { className: "w-4 h-4" })
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[13px] font-semibold text-[#0f1012] whitespace-nowrap",
+						className: "text-[15px] font-semibold text-[#0f1012] whitespace-nowrap",
 						children: "prossocial"
 					})]
 				})
@@ -42008,16 +42026,16 @@ function NZ({ isActive: e = !0 }) {
 				className: "border-none bg-transparent",
 				duration: 36,
 				delay: 24,
-				radius: 195,
+				radius: 178,
 				reverse: !0,
 				path: !1,
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-						children: /* @__PURE__ */ (0, z.jsx)(_m, { className: "w-3 h-3" })
+						className: "w-5 h-5 rounded-full bg-[#b5563a]/10 text-[#b5563a] flex items-center justify-center shrink-0",
+						children: /* @__PURE__ */ (0, z.jsx)(_m, { className: "w-4 h-4" })
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[13px] font-semibold text-[#0f1012] whitespace-nowrap",
+						className: "text-[15px] font-semibold text-[#0f1012] whitespace-nowrap",
 						children: "emocional"
 					})]
 				})
@@ -42070,9 +42088,9 @@ function FZ({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: q("group relative w-full overflow-hidden rounded-3xl border border-black/[0.09]", "bg-white/65 backdrop-blur-md text-[#0f1012]", "shadow-[0_4px_24px_rgba(51,65,92,0.06)] hover:shadow-[0_12px_36px_rgba(51,65,92,0.12)]", "hover:border-[#33415c]/35 transition-all duration-400 ease-out p-6 flex flex-col justify-between"),
+			className: q("group relative w-full overflow-hidden rounded-3xl border border-black/[0.09]", "bg-white/65 backdrop-blur-md text-[#0f1012]", "shadow-[0_4px_24px_rgba(51,65,92,0.06)] hover:shadow-[0_12px_36px_rgba(51,65,92,0.12)]", "hover:border-[#33415c]/35 transition-all duration-400 ease-out px-5 py-5 flex flex-col justify-between"),
 			children: [/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 w-48 h-48 bg-[#33415c]/10 rounded-full blur-3xl pointer-events-none" }), /* @__PURE__ */ (0, z.jsxs)("div", {
-				className: "relative z-10 flex flex-col justify-between h-full space-y-4",
+				className: "relative z-10 flex flex-col justify-between h-full space-y-3",
 				children: [
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center justify-between gap-3 mb-1",
@@ -42082,30 +42100,30 @@ function FZ({ isActive: e = !0, className: t }) {
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
 							className: "flex items-center gap-1.5",
 							children: /* @__PURE__ */ (0, z.jsxs)("span", {
-								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-[#33415c]/10 text-[#33415c] border border-[#33415c]/20 font-['Urbanist',sans-serif]",
-								children: [/* @__PURE__ */ (0, z.jsx)(rm, { className: "w-3 h-3 text-[#33415c]" }), "Evolução do Autoconceito"]
+								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-[#33415c]/10 text-[#33415c] border border-[#33415c]/20 font-['Urbanist',sans-serif]",
+								children: [/* @__PURE__ */ (0, z.jsx)(rm, { className: "w-4 h-4 text-[#33415c]" }), "Evolução do Autoconceito"]
 							})
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "space-y-1",
 						children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-							className: "text-[21px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
+							className: "text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
 							children: "A Pergunta Que o Jovem Faz Sobre Si"
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[12.5px] font-semibold text-[#33415c] leading-snug",
+							className: "text-[16px] font-semibold text-[#33415c] leading-snug",
 							children: "Da observação de comportamentos concretos à integração abstrata da identidade"
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "space-y-2.5 pt-0.5",
 						children: [/* @__PURE__ */ (0, z.jsx)("h4", {
-							className: "text-[10px] font-bold uppercase tracking-[0.14em] text-zinc-500 font-['Urbanist',sans-serif]",
+							className: "text-[14px] font-bold uppercase tracking-[0.14em] text-zinc-500 font-['Urbanist',sans-serif]",
 							children: "ETAPAS DO DESENVOLVIMENTO DO AUTOCONCEITO:"
 						}), PZ.map((e) => /* @__PURE__ */ (0, z.jsxs)("div", {
-							className: q("flex items-start gap-3 p-2.5 rounded-xl transition-all duration-200 border", e.isHighlight ? "bg-white/85 border-[#33415c]/25 shadow-xs" : "bg-white/50 border-black/[0.06] hover:border-[#33415c]/20 hover:bg-white/75"),
+							className: q("flex items-start gap-3 px-3 py-2 rounded-xl transition-all duration-200 border", e.isHighlight ? "bg-white/85 border-[#33415c]/25 shadow-xs" : "bg-white/50 border-black/[0.06] hover:border-[#33415c]/20 hover:bg-white/75"),
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
-								className: q("w-5 h-5 rounded-full text-[10px] font-bold flex items-center justify-center shrink-0 mt-0.5", e.isHighlight ? "bg-[#33415c] text-white" : "bg-[#33415c]/15 text-[#33415c] border border-[#33415c]/20"),
+								className: q("w-7 h-7 rounded-full text-[14px] font-bold flex items-center justify-center shrink-0 mt-0.5", e.isHighlight ? "bg-[#33415c] text-white" : "bg-[#33415c]/15 text-[#33415c] border border-[#33415c]/20"),
 								children: e.step
 							}), /* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "space-y-0.5 min-w-0",
@@ -42113,16 +42131,16 @@ function FZ({ isActive: e = !0, className: t }) {
 									/* @__PURE__ */ (0, z.jsx)("div", {
 										className: "flex items-center gap-2",
 										children: /* @__PURE__ */ (0, z.jsx)("span", {
-											className: q("text-[10px] font-bold uppercase tracking-wider font-['Urbanist',sans-serif]", e.isHighlight ? "text-[#33415c] font-extrabold" : "text-zinc-500"),
+											className: q("text-[14px] font-bold uppercase tracking-wider font-['Urbanist',sans-serif]", e.isHighlight ? "text-[#33415c] font-extrabold" : "text-zinc-500"),
 											children: e.phase
 										})
 									}),
 									/* @__PURE__ */ (0, z.jsx)("p", {
-										className: "text-[13.5px] font-bold text-[#0f1012] leading-snug font-['Urbanist',sans-serif]",
+										className: "text-[17px] font-bold text-[#0f1012] leading-snug font-['Urbanist',sans-serif]",
 										children: e.quote
 									}),
 									/* @__PURE__ */ (0, z.jsx)("p", {
-										className: "text-[11.5px] text-[#4a4b4e] font-normal leading-normal",
+										className: "text-[16px] text-[#4a4b4e] font-medium leading-snug",
 										children: e.description
 									})
 								]
@@ -42130,15 +42148,15 @@ function FZ({ isActive: e = !0, className: t }) {
 						}, e.step))]
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
-						className: "mt-2 pt-2.5 border-t border-black/[0.06] flex items-center justify-between",
+						className: "mt-2 pt-2.5 border-t border-black/[0.06] flex items-center justify-between flex-wrap gap-2",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center gap-1.5 text-[11px] font-semibold text-zinc-500",
+							className: "flex items-center gap-1.5 text-[15px] font-semibold text-zinc-600",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Transição:" }), /* @__PURE__ */ (0, z.jsx)("span", {
 								className: "text-[#0f1012] font-bold",
 								children: "Identidade em Contexto"
 							})]
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
-							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#33415c]/10 text-[#33415c] border border-[#33415c]/20 text-[10.5px] font-bold shadow-xs",
+							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#33415c]/10 text-[#33415c] border border-[#33415c]/20 text-[15px] font-bold shadow-xs",
 							children: /* @__PURE__ */ (0, z.jsx)("span", { children: "3 Fases Desenvolvimentais" })
 						})]
 					})
@@ -42149,7 +42167,7 @@ function FZ({ isActive: e = !0, className: t }) {
 }
 function IZ({ isActive: e = !0, className: t }) {
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: q("w-full h-full flex flex-col justify-center gap-4 select-none font-['Satoshi',sans-serif] max-w-[560px] mx-auto my-auto", t),
+		className: q("w-full h-full flex flex-col justify-center gap-3 select-none font-['Satoshi',sans-serif] max-w-[700px] mx-auto my-auto", t),
 		children: [/* @__PURE__ */ (0, z.jsxs)(H.div, {
 			initial: {
 				opacity: 0,
@@ -42169,7 +42187,7 @@ function IZ({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: "p-5 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] flex-1 relative overflow-hidden",
+			className: "px-5 py-4 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] flex-1 relative overflow-hidden",
 			children: [
 				/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 w-40 h-40 bg-[#b5563a]/15 rounded-full blur-3xl pointer-events-none" }),
 				/* @__PURE__ */ (0, z.jsxs)("div", {
@@ -42178,27 +42196,27 @@ function IZ({ isActive: e = !0, className: t }) {
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center justify-between mb-2",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-400 font-['Urbanist',sans-serif]",
+								className: "text-[14px] font-bold uppercase tracking-[0.1em] text-zinc-400 font-['Urbanist',sans-serif]",
 								children: "Percepção & Autoconceito"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-semibold text-[#f8d7ce] bg-[#b5563a]/25 px-2.5 py-0.5 rounded-full border border-[#b5563a]/35",
+								className: "text-[14px] font-semibold text-[#f8d7ce] bg-[#b5563a]/25 px-2.5 py-0.5 rounded-full border border-[#b5563a]/35",
 								children: "Eixo 3 · Identidade"
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("h4", {
-							className: "text-[18px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
+							className: "text-[22px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
 							children: "Significado Emocional da Característica Física"
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[12px] font-medium text-zinc-300 mt-1.5 leading-relaxed",
+							className: "text-[16px] font-medium text-zinc-300 mt-1 leading-snug",
 							children: "A mesma condição adquire novo peso à medida que a autoimagem é reconfigurada:"
 						})
 					]
 				}),
 				/* @__PURE__ */ (0, z.jsx)("div", {
-					className: "p-3.5 bg-zinc-900/95 rounded-2xl border border-zinc-800/90 my-2.5 relative z-10",
+					className: "px-3.5 py-2.5 bg-zinc-900/95 rounded-2xl border border-zinc-800/90 my-2 relative z-10",
 					children: /* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[13px] text-zinc-100 font-medium leading-relaxed m-0 font-['Urbanist',sans-serif]",
+						className: "text-[16px] text-zinc-100 font-medium leading-snug m-0 font-['Urbanist',sans-serif]",
 						children: "“A mesma característica física pode adquirir significado emocional diferente quando muda a forma como o jovem se percebe e imagina ser percebido.”"
 					})
 				}),
@@ -42207,19 +42225,19 @@ function IZ({ isActive: e = !0, className: t }) {
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "p-2 rounded-xl bg-zinc-900/80 border border-zinc-800",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] font-bold uppercase tracking-wider text-[#cf6647] block",
+							className: "text-[14px] font-bold uppercase tracking-wider text-[#cf6647] block",
 							children: "Autoavaliação"
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11px] text-zinc-300 mt-0.5 leading-tight",
+							className: "text-[15px] text-zinc-300 mt-0.5 leading-snug",
 							children: "Maior sensibilidade à mirada e julgamento de pares."
 						})]
 					}), /* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "p-2 rounded-xl bg-zinc-900/80 border border-zinc-800",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] font-bold uppercase tracking-wider text-[#cf6647] block",
+							className: "text-[14px] font-bold uppercase tracking-wider text-[#cf6647] block",
 							children: "Subjetivação"
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11px] text-zinc-300 mt-0.5 leading-tight",
+							className: "text-[15px] text-zinc-300 mt-0.5 leading-snug",
 							children: "Da forma anatômica ao valor identitário construído."
 						})]
 					})]
@@ -42227,10 +42245,10 @@ function IZ({ isActive: e = !0, className: t }) {
 				/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-xs font-semibold text-zinc-400",
+						className: "text-[16px] font-semibold text-zinc-400",
 						children: "Fundamento clínico:"
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-xs font-bold text-[#f8d7ce] bg-[#b5563a]/20 px-2.5 py-0.5 rounded-full border border-[#b5563a]/30",
+						className: "text-[16px] font-bold text-[#f8d7ce] bg-[#b5563a]/20 px-2.5 py-0.5 rounded-full border border-[#b5563a]/30",
 						children: "Avaliação Social Subjetiva"
 					})]
 				})
@@ -42254,52 +42272,52 @@ function IZ({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: "p-5 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between flex-1",
+			className: "px-5 py-4 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between flex-1",
 			children: [
 				/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center justify-between mb-1.5",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] font-bold uppercase tracking-[0.14em] text-[#8c3e27] bg-[#b5563a]/[0.10] px-2.5 py-0.5 rounded-full border border-[#b5563a]/25 font-['Urbanist',sans-serif]",
+							className: "text-[14px] font-bold uppercase tracking-[0.14em] text-[#8c3e27] bg-[#b5563a]/[0.10] px-2.5 py-0.5 rounded-full border border-[#b5563a]/25 font-['Urbanist',sans-serif]",
 							children: "Processo Dinâmico"
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[11px] font-semibold text-[#5f6062]",
+							className: "text-[15px] font-semibold text-[#5f6062]",
 							children: "Capacidade × Demanda"
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsx)("h4", {
-						className: "text-[17px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
+						className: "text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
 						children: "A Regulação Continua em Desenvolvimento"
 					}),
 					/* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[11px] text-[#5f6062] mt-0.5",
+						className: "text-[16px] font-medium text-[#5f6062] mt-0.5 leading-snug",
 						children: "A capacidade regulatória aumenta — mas as demandas emocionais e sociais também:"
 					})
 				] }),
 				/* @__PURE__ */ (0, z.jsxs)("div", {
-					className: "grid grid-cols-2 gap-2 my-2.5",
+					className: "grid grid-cols-2 gap-2 my-2",
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "p-2.5 rounded-xl bg-[#f8f9fa] border border-black/[0.04]",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center gap-1.5 text-xs font-bold text-[#0f1012]",
+							className: "flex items-center gap-1.5 text-[16px] font-bold text-[#0f1012]",
 							children: [/* @__PURE__ */ (0, z.jsx)(Ch, { className: "w-3.5 h-3.5 text-[#b5563a]" }), /* @__PURE__ */ (0, z.jsx)("span", { children: "Capacidade" })]
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11px] text-[#5f6062] mt-1 leading-snug",
+							className: "text-[15px] text-[#5f6062] mt-1 leading-snug",
 							children: "Melhora nas estratégias cognitivas de reavaliação e modulação."
 						})]
 					}), /* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "p-2.5 rounded-xl bg-[#f8f9fa] border border-black/[0.04]",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center gap-1.5 text-xs font-bold text-[#0f1012]",
+							className: "flex items-center gap-1.5 text-[16px] font-bold text-[#0f1012]",
 							children: [/* @__PURE__ */ (0, z.jsx)(Tp, { className: "w-3.5 h-3.5 text-amber-700" }), /* @__PURE__ */ (0, z.jsx)("span", { children: "Demandas" })]
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11px] text-[#5f6062] mt-1 leading-snug",
+							className: "text-[15px] text-[#5f6062] mt-1 leading-snug",
 							children: "Ambiência escolar, pertença grupal e novas cobranças relacionais."
 						})]
 					})]
 				}),
 				/* @__PURE__ */ (0, z.jsxs)("p", {
-					className: "text-[11.5px] text-[#334155] leading-relaxed m-0 font-normal",
+					className: "text-[16px] text-[#334155] leading-snug m-0 font-medium",
 					children: [
 						"Período dinâmico, com melhora importante para muitos jovens e ",
 						/* @__PURE__ */ (0, z.jsx)("strong", {
@@ -42310,7 +42328,7 @@ function IZ({ isActive: e = !0, className: t }) {
 					]
 				}),
 				/* @__PURE__ */ (0, z.jsxs)("p", {
-					className: "text-[11px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between",
+					className: "text-[15px] text-[#5f6062] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between gap-3",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Princípio: Não há linearidade rígida" }), /* @__PURE__ */ (0, z.jsx)("span", {
 						className: "font-semibold text-[#8c3e27]",
 						children: "Variabilidade Interindividual"
@@ -42371,10 +42389,10 @@ function RZ({ title: e, description: t, items: n, className: r, colorTheme: i = 
 		children: [(e || t) && /* @__PURE__ */ (0, z.jsxs)($h, {
 			className: "pb-3 pt-5 px-6",
 			children: [e && /* @__PURE__ */ (0, z.jsx)(eg, {
-				className: "font-['Urbanist',sans-serif] text-[20px] font-bold tracking-tight text-[#0f1012]",
+				className: "font-['Urbanist',sans-serif] text-[23px] font-bold tracking-tight text-[#0f1012]",
 				children: e
 			}), t && /* @__PURE__ */ (0, z.jsx)(tg, {
-				className: "font-['Satoshi',sans-serif] text-[13px] text-[#5f6062] mt-0.5 leading-relaxed",
+				className: "font-['Satoshi',sans-serif] text-[17px] font-medium text-[#5f6062] mt-0.5 leading-snug",
 				children: t
 			})]
 		}), /* @__PURE__ */ (0, z.jsxs)(ng, {
@@ -42444,7 +42462,7 @@ function RZ({ title: e, description: t, items: n, className: r, colorTheme: i = 
 									/* @__PURE__ */ (0, z.jsx)("div", {
 										className: "mb-2",
 										children: /* @__PURE__ */ (0, z.jsx)("span", {
-											className: "inline-flex items-center px-2.5 py-0.5 rounded-full text-[11px] font-['Urbanist',sans-serif] font-bold tracking-[0.06em] uppercase transition-colors",
+											className: "inline-flex items-center px-2.5 py-0.5 rounded-full text-[14px] font-['Urbanist',sans-serif] font-bold tracking-[0.04em] uppercase transition-colors",
 											style: {
 												backgroundColor: i ? s.badgeBg : "#f2f2f4",
 												color: i ? s.badgeText : "#6a6b6d",
@@ -42454,11 +42472,11 @@ function RZ({ title: e, description: t, items: n, className: r, colorTheme: i = 
 										})
 									}),
 									/* @__PURE__ */ (0, z.jsx)("h4", {
-										className: "font-['Urbanist',sans-serif] text-[15px] font-bold text-[#0f1012] leading-snug tracking-tight px-1 group-hover/item:text-black transition-colors",
+										className: "font-['Urbanist',sans-serif] text-[19px] font-bold text-[#0f1012] leading-snug tracking-tight px-1 group-hover/item:text-black transition-colors",
 										children: e.title
 									}),
 									e.description && /* @__PURE__ */ (0, z.jsx)("p", {
-										className: "font-['Satoshi',sans-serif] text-[12.5px] text-[#52525b] mt-1.5 leading-relaxed px-1",
+										className: "font-['Satoshi',sans-serif] text-[16px] font-medium text-[#52525b] mt-1.5 leading-snug px-1",
 										children: e.description
 									}),
 									e.detail && /* @__PURE__ */ (0, z.jsx)("div", {
@@ -42471,7 +42489,7 @@ function RZ({ title: e, description: t, items: n, className: r, colorTheme: i = 
 					})
 				]
 			}), o && /* @__PURE__ */ (0, z.jsx)("div", {
-				className: "mt-6 pt-4 border-t border-black/[0.06]",
+				className: "mt-5 pt-4 border-t border-black/[0.06]",
 				children: o
 			})]
 		})]
@@ -42527,12 +42545,12 @@ function zZ({ isActive: e = !0 }) {
 					duration: .5,
 					delay: .55
 				},
-				className: "flex items-center gap-3 p-3.5 rounded-xl bg-white/80 border border-[#b5563a]/20 shadow-sm",
+				className: "flex items-center gap-3 px-4 py-3 rounded-xl bg-white/80 border border-[#b5563a]/20 shadow-sm",
 				children: [/* @__PURE__ */ (0, z.jsx)("div", {
 					className: "w-8 h-8 rounded-full bg-[#fbeee9] flex items-center justify-center shrink-0 text-[#b5563a]",
-					children: /* @__PURE__ */ (0, z.jsx)(hh, { className: "w-4 h-4" })
+					children: /* @__PURE__ */ (0, z.jsx)(hh, { className: "w-5 h-5" })
 				}), /* @__PURE__ */ (0, z.jsxs)("p", {
-					className: "font-['Satoshi',sans-serif] text-[14px] font-medium text-[#0f1012] leading-snug",
+					className: "font-['Satoshi',sans-serif] text-[17px] font-medium text-[#0f1012] leading-snug",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", {
 						className: "font-bold text-[#b5563a]",
 						children: "Princípio Clínico: "
@@ -42599,12 +42617,12 @@ function UZ({ isActive: e = !0 }) {
 				description: e.description,
 				imageSrc: e.imageSrc,
 				color: e.color,
-				contentClassName: "min-h-[175px] p-4 flex flex-col justify-start",
-				titleClassName: "text-[16px] md:text-[17px] font-bold text-slate-900 tracking-tight mb-1",
-				descriptionClassName: "text-[12.5px] md:text-[13px] leading-relaxed text-slate-600 font-normal",
-				imageContainerClassName: "bottom-[148px] top-[-10px] flex items-end justify-center pointer-events-none",
+				contentClassName: "min-h-[210px] p-4 flex flex-col justify-start",
+				titleClassName: "text-[20px] font-bold text-slate-900 tracking-tight mb-1 leading-tight",
+				descriptionClassName: "text-[16px] leading-snug text-slate-700 font-medium",
+				imageContainerClassName: "bottom-[190px] top-[-10px] flex items-end justify-center pointer-events-none",
 				imageClassName: "w-44 h-44 md:w-48 md:h-48 object-contain drop-shadow-[0_18px_24px_rgba(181,86,58,0.22)]",
-				className: "h-[350px] w-full max-w-none p-3.5 shadow-xs border-stone-200/80 hover:border-[#b5563a]/40 transition-colors"
+				className: "h-[400px] w-full max-w-none p-3.5 shadow-xs border-stone-200/80 hover:border-[#b5563a]/40 transition-colors"
 			})
 		}, e.index))
 	});
@@ -42652,7 +42670,7 @@ function GZ({ isActive: e = !0 }) {
 						opacity: 0
 					},
 					transition: { delay: .5 + n * .08 },
-					className: "inline-flex items-center px-2.5 py-0.5 rounded-full text-[11.5px] font-semibold bg-[#f1ecf5] text-[#6b4e83] border border-[#6b4e83]/20 shadow-xs",
+					className: "inline-flex items-center px-2.5 py-0.5 rounded-full text-[14px] font-semibold bg-[#f1ecf5] text-[#6b4e83] border border-[#6b4e83]/20 shadow-xs",
 					children: t
 				}, t))
 			})
@@ -42668,21 +42686,21 @@ function GZ({ isActive: e = !0 }) {
 			isActive: e,
 			className: "border-[#6b4e83]/20 bg-gradient-to-br from-white/95 via-[#f1ecf5]/30 to-white/90 shadow-[0_12px_36px_rgba(107,78,131,0.06)]",
 			children: /* @__PURE__ */ (0, z.jsxs)("div", {
-				className: "flex items-center justify-between px-2 pt-1 text-[13px] text-[#5f6062] font-['Satoshi',sans-serif]",
+				className: "flex items-center justify-between px-2 pt-1 text-[15px] text-[#5f6062] font-['Satoshi',sans-serif]",
 				children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-2",
 					children: [
-						/* @__PURE__ */ (0, z.jsx)(jh, { className: "w-4 h-4 text-[#6b4e83]" }),
+						/* @__PURE__ */ (0, z.jsx)(jh, { className: "w-5 h-5 text-[#6b4e83]" }),
 						/* @__PURE__ */ (0, z.jsx)("span", {
 							className: "font-medium text-[#0f1012]",
 							children: "Trajetória relacional:"
 						}),
 						/* @__PURE__ */ (0, z.jsx)("span", { children: "Vínculo primário de apego" }),
-						/* @__PURE__ */ (0, z.jsx)(jp, { className: "w-3 h-3 text-[#6b4e83]" }),
+						/* @__PURE__ */ (0, z.jsx)(jp, { className: "w-4 h-4 text-[#6b4e83]" }),
 						/* @__PURE__ */ (0, z.jsx)("span", { children: "Socialização horizontal com pares de mesma idade" })
 					]
 				}), /* @__PURE__ */ (0, z.jsx)("span", {
-					className: "text-[12px] font-['Urbanist',sans-serif] font-bold text-[#6b4e83] uppercase tracking-wider bg-[#f1ecf5] px-2.5 py-0.5 rounded-md border border-[#6b4e83]/20",
+					className: "text-[14px] font-['Urbanist',sans-serif] font-bold text-[#6b4e83] uppercase tracking-wider bg-[#f1ecf5] px-2.5 py-0.5 rounded-md border border-[#6b4e83]/20",
 					children: "Módulo 04 · Eixo 4"
 				})]
 			})
@@ -42715,7 +42733,7 @@ function KZ({ isActive: e = !0, className: t }) {
 		}
 	];
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: q("w-full grid grid-cols-1 md:grid-cols-2 gap-5 items-stretch select-none font-['Satoshi',sans-serif]", t),
+		className: q("w-full grid grid-cols-2 gap-5 items-stretch select-none font-['Satoshi',sans-serif]", t),
 		children: [/* @__PURE__ */ (0, z.jsxs)(H.div, {
 			initial: {
 				opacity: 0,
@@ -42735,7 +42753,7 @@ function KZ({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: "p-5 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] relative overflow-hidden",
+			className: "px-5 py-4 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] relative overflow-hidden",
 			children: [
 				/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 w-44 h-44 bg-[#6b4e83]/18 rounded-full blur-3xl pointer-events-none" }),
 				/* @__PURE__ */ (0, z.jsxs)("div", {
@@ -42744,19 +42762,19 @@ function KZ({ isActive: e = !0, className: t }) {
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center justify-between mb-2",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-400 font-['Urbanist',sans-serif]",
+								className: "text-[14px] font-bold uppercase tracking-[0.2em] text-zinc-400 font-['Urbanist',sans-serif]",
 								children: "Definição Clínica"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-semibold text-[#e9dff0] bg-[#6b4e83]/30 px-2.5 py-0.5 rounded-full border border-[#6b4e83]/40",
+								className: "text-[14px] font-semibold text-[#e9dff0] bg-[#6b4e83]/30 px-2.5 py-0.5 rounded-full border border-[#6b4e83]/40",
 								children: "Eixo 4 · Social"
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("h4", {
-							className: "text-[19px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
+							className: "text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
 							children: "Competência Social ≠ Extroversão"
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[12px] font-medium text-zinc-300 mt-1.5 leading-relaxed",
+							className: "text-[16px] font-medium text-zinc-300 mt-1.5 leading-snug",
 							children: "É alcançar objetivos sociais preservando, ao mesmo tempo, relações adequadas e recíprocas com os outros."
 						})
 					]
@@ -42768,7 +42786,7 @@ function KZ({ isActive: e = !0, className: t }) {
 						return /* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "inline-flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-zinc-900/90 border border-zinc-800 hover:border-[#6b4e83]/40 transition-colors",
 							children: [/* @__PURE__ */ (0, z.jsx)(t, { className: "w-3.5 h-3.5 text-[#a882c7] shrink-0" }), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[11px] font-medium text-zinc-200",
+								className: "text-[15px] font-medium text-zinc-200",
 								children: e.label
 							})]
 						}, e.label);
@@ -42777,10 +42795,10 @@ function KZ({ isActive: e = !0, className: t }) {
 				/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-xs font-semibold text-zinc-400",
+						className: "text-[16px] font-semibold text-zinc-400",
 						children: "Equilíbrio funcional:"
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-xs font-bold text-[#e9dff0] bg-[#6b4e83]/25 px-2.5 py-0.5 rounded-full border border-[#6b4e83]/35",
+						className: "text-[16px] font-bold text-[#e9dff0] bg-[#6b4e83]/25 px-2.5 py-0.5 rounded-full border border-[#6b4e83]/35",
 						children: "Objetivos Pessoais ↔ Vínculo com Pares"
 					})]
 				})
@@ -42804,50 +42822,50 @@ function KZ({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: "p-5 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between",
+			className: "px-5 py-4 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between",
 			children: [
 				/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center justify-between mb-1.5",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] font-bold uppercase tracking-[0.14em] text-[#6b4e83] bg-[#6b4e83]/[0.10] px-2.5 py-0.5 rounded-full border border-[#6b4e83]/20 font-['Urbanist',sans-serif]",
+							className: "text-[14px] font-bold uppercase tracking-[0.14em] text-[#6b4e83] bg-[#6b4e83]/[0.10] px-2.5 py-0.5 rounded-full border border-[#6b4e83]/20 font-['Urbanist',sans-serif]",
 							children: "Evidência Empírica · Meta-análise"
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[11px] font-semibold text-[#5f6062]",
+							className: "text-[15px] font-semibold text-[#5f6062]",
 							children: "80 amostras · N = 4.441"
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsx)("h4", {
-						className: "text-[17px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
+						className: "text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
 						children: "Vínculo Inicial e Competência com Pares"
 					}),
 					/* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[11.5px] text-[#5f6062] mt-0.5",
+						className: "text-[16px] text-[#5f6062] mt-0.5",
 						children: "Segurança do apego primário associada longitudinalmente à competência social:"
 					})
 				] }),
 				/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "p-3 rounded-2xl bg-[#f7f4f9] border border-[#6b4e83]/20 my-2 flex items-center justify-between",
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[10px] font-bold uppercase tracking-wider text-[#6b4e83] block",
+						className: "text-[14px] font-bold uppercase tracking-wider text-[#6b4e83] block",
 						children: "Tamanho de Efeito Meta-analítico"
 					}), /* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "font-['Urbanist',sans-serif] text-[24px] font-bold tracking-tight text-[#6b4e83]",
 						children: ["d = 0,39 ", /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[12px] font-normal text-zinc-600",
+							className: "text-[16px] font-normal text-zinc-600",
 							children: "(IC 95% 0,32–0,47)"
 						})]
 					})] }), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[10.5px] font-bold text-[#6b4e83] bg-white px-2.5 py-1 rounded-full border border-[#6b4e83]/20 shadow-2xs",
+						className: "text-[14px] font-bold text-[#6b4e83] bg-white px-2.5 py-1 rounded-full border border-[#6b4e83]/20 shadow-2xs",
 						children: "Associação Robusta"
 					})]
 				}),
 				/* @__PURE__ */ (0, z.jsx)("p", {
-					className: "text-[11.5px] text-[#334155] leading-relaxed m-0 font-normal",
+					className: "text-[16px] text-[#334155] leading-snug m-0 font-normal",
 					children: "A associação permaneceu significativa quando a competência social foi avaliada em idades escolares posteriores."
 				}),
 				/* @__PURE__ */ (0, z.jsxs)("p", {
-					className: "text-[11px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between",
+					className: "text-[15px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Associação probabilística — não determinística" }), /* @__PURE__ */ (0, z.jsx)("span", {
 						className: "font-semibold text-[#6b4e83]",
 						children: "A base não é destino"
@@ -42861,11 +42879,11 @@ function KZ({ isActive: e = !0, className: t }) {
 //#region components/slide24-orbit.tsx
 function qZ({ isActive: e = !0 }) {
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: "relative flex h-[520px] w-full max-w-[580px] mx-auto flex-col items-center justify-center overflow-hidden rounded-3xl bg-transparent select-none group",
+		className: "relative flex h-[520px] w-full max-w-[720px] mx-auto flex-col items-center justify-center overflow-hidden rounded-3xl bg-transparent select-none group",
 		children: [
 			/* @__PURE__ */ (0, z.jsx)("div", {
 				className: "absolute inset-0 pointer-events-none flex items-center justify-center",
-				children: /* @__PURE__ */ (0, z.jsx)("div", { className: "w-[420px] h-[420px] rounded-full bg-[#0071e3]/[0.03] blur-3xl" })
+				children: /* @__PURE__ */ (0, z.jsx)("div", { className: "w-[420px] h-[420px] rounded-full bg-[#6b4e83]/[0.03] blur-3xl" })
 			}),
 			/* @__PURE__ */ (0, z.jsxs)(H.div, {
 				initial: {
@@ -42885,12 +42903,12 @@ function qZ({ isActive: e = !0 }) {
 						1
 					]
 				},
-				className: "relative z-20 flex flex-col items-center justify-center w-[116px] h-[116px] rounded-full bg-white/95 border-2 border-[#0071e3]/30 shadow-[0_8px_32px_rgba(0,113,227,0.12)] backdrop-blur-md transition-transform hover:scale-105",
+				className: "relative z-20 flex flex-col items-center justify-center w-[116px] h-[116px] rounded-full bg-white/95 border-2 border-[#6b4e83]/30 shadow-[0_8px_32px_rgba(107,78,131,0.12)] backdrop-blur-md transition-transform hover:scale-105",
 				children: [/* @__PURE__ */ (0, z.jsx)("div", {
-					className: "w-9 h-9 rounded-full bg-[#e8f2fc] flex items-center justify-center mb-1 text-[#0071e3] shadow-inner",
+					className: "w-9 h-9 rounded-full bg-[#f1ecf5] flex items-center justify-center mb-1 text-[#6b4e83] shadow-inner",
 					children: /* @__PURE__ */ (0, z.jsx)(Tm, { className: "w-5 h-5 stroke-[2.2]" })
 				}), /* @__PURE__ */ (0, z.jsxs)("span", {
-					className: "font-['Urbanist',sans-serif] text-[13px] font-bold tracking-[0.08em] text-[#0f1012] text-center leading-tight",
+					className: "font-['Urbanist',sans-serif] text-[15px] font-bold tracking-[0.08em] text-[#0f1012] text-center leading-tight",
 					children: [
 						"REDE",
 						/* @__PURE__ */ (0, z.jsx)("br", {}),
@@ -42903,21 +42921,21 @@ function qZ({ isActive: e = !0 }) {
 				duration: 26,
 				delay: 0,
 				radius: 95,
-				pathClassName: "stroke-[#0071e3]/30",
+				pathClassName: "stroke-[#6b4e83]/30",
 				strokeWidth: 1.5,
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
-					className: "flex flex-col items-start px-3 py-1.5 rounded-2xl bg-white/95 border border-[#0071e3]/25 shadow-[0_3px_14px_rgba(0,113,227,0.08)] backdrop-blur-md cursor-default max-w-[170px]",
+					className: "flex flex-col items-start px-3 py-1.5 rounded-2xl bg-white/95 border border-[#6b4e83]/25 shadow-[0_3px_14px_rgba(107,78,131,0.08)] backdrop-blur-md cursor-default max-w-[170px]",
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center gap-1.5 w-full",
 						children: [/* @__PURE__ */ (0, z.jsx)("div", {
-							className: "w-4 h-4 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
+							className: "w-5 h-5 rounded-full bg-[#6b4e83]/10 text-[#6b4e83] flex items-center justify-center shrink-0",
 							children: /* @__PURE__ */ (0, z.jsx)(Dh, { className: "w-2.5 h-2.5 stroke-[2.5]" })
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[12.5px] font-bold text-[#0071e3] leading-none whitespace-nowrap",
+							className: "text-[15px] font-bold text-[#6b4e83] leading-none whitespace-nowrap",
 							children: "amizade"
 						})]
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[10px] font-medium text-[#5f6062] mt-0.5 leading-tight",
+						className: "text-[15px] font-medium text-[#52525b] mt-0.5 leading-tight",
 						children: "reciprocidade"
 					})]
 				})
@@ -42928,7 +42946,7 @@ function qZ({ isActive: e = !0 }) {
 				delay: 0,
 				radius: 165,
 				reverse: !0,
-				pathClassName: "stroke-[#0071e3]/20",
+				pathClassName: "stroke-[#6b4e83]/20",
 				strokeWidth: 1.5,
 				strokeDasharray: "4 4",
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
@@ -42936,14 +42954,14 @@ function qZ({ isActive: e = !0 }) {
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center gap-1.5 w-full",
 						children: [/* @__PURE__ */ (0, z.jsx)("div", {
-							className: "w-4 h-4 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
+							className: "w-5 h-5 rounded-full bg-[#6b4e83]/10 text-[#6b4e83] flex items-center justify-center shrink-0",
 							children: /* @__PURE__ */ (0, z.jsx)(Nh, { className: "w-2.5 h-2.5 stroke-[2.5]" })
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[12.5px] font-bold text-[#0f1012] leading-none whitespace-nowrap",
+							className: "text-[15px] font-bold text-[#0f1012] leading-none whitespace-nowrap",
 							children: "aceitação e status"
 						})]
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[10px] font-medium text-[#5f6062] mt-0.5 leading-tight",
+						className: "text-[15px] font-medium text-[#52525b] mt-0.5 leading-tight",
 						children: "reputação · participação no grupo"
 					})]
 				})
@@ -42953,21 +42971,21 @@ function qZ({ isActive: e = !0 }) {
 				duration: 48,
 				delay: 0,
 				radius: 235,
-				pathClassName: "stroke-[#0071e3]/15",
+				pathClassName: "stroke-[#6b4e83]/15",
 				strokeWidth: 1.5,
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
-					className: "flex flex-col items-start px-3.5 py-2 rounded-2xl bg-white/95 border border-black/[0.08] shadow-[0_6px_20px_rgba(0,0,0,0.07)] backdrop-blur-md cursor-default max-w-[260px]",
+					className: "flex flex-col items-start px-3.5 py-2 rounded-2xl bg-white/95 border border-black/[0.08] shadow-[0_6px_20px_rgba(0,0,0,0.07)] backdrop-blur-md cursor-default max-w-[230px]",
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center gap-1.5 w-full",
 						children: [/* @__PURE__ */ (0, z.jsx)("div", {
-							className: "w-4 h-4 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
+							className: "w-5 h-5 rounded-full bg-[#6b4e83]/10 text-[#6b4e83] flex items-center justify-center shrink-0",
 							children: /* @__PURE__ */ (0, z.jsx)(lh, { className: "w-2.5 h-2.5 stroke-[2.5]" })
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[12.5px] font-bold text-[#0f1012] leading-none whitespace-nowrap",
+							className: "text-[15px] font-bold text-[#0f1012] leading-none whitespace-nowrap",
 							children: "pertencimento"
 						})]
 					}), /* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[10px] font-medium text-[#5f6062] mt-1 leading-snug",
+						className: "text-[15px] font-medium text-[#52525b] mt-1 leading-snug",
 						children: "“eu faço parte daqui?” · identificação · inclusão · segurança"
 					})]
 				})
@@ -42998,7 +43016,7 @@ function JZ({ isActive: e = !0, className: t }) {
 		"Reparar a relação"
 	];
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: q("w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[620px] mx-auto my-auto", t),
+		className: q("w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[800px] mx-auto my-auto", t),
 		children: [/* @__PURE__ */ (0, z.jsxs)(H.div, {
 			initial: {
 				opacity: 0,
@@ -43030,18 +43048,18 @@ function JZ({ isActive: e = !0, className: t }) {
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
 							className: "flex items-center gap-1.5",
 							children: /* @__PURE__ */ (0, z.jsxs)("span", {
-								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-[#6b4e83]/10 text-[#6b4e83] border border-[#6b4e83]/20",
-								children: [/* @__PURE__ */ (0, z.jsx)(hh, { className: "w-3 h-3 text-[#6b4e83]" }), "Evidência · n = 314 · 7–11 anos"]
+								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-[#6b4e83]/10 text-[#6b4e83] border border-[#6b4e83]/20",
+								children: [/* @__PURE__ */ (0, z.jsx)(hh, { className: "w-4 h-4 text-[#6b4e83]" }), "Evidência · n = 314 · 7–11 anos"]
 							})
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "space-y-2",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-							className: "text-[20px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
+							className: "text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
 							children: "Díade Protetora e Identificação com Pares"
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[12px] font-semibold text-[#6b4e83] mt-0.5",
+							className: "text-[16px] font-semibold text-[#6b4e83] mt-0.5",
 							children: "Maunder & Monks (2019) · Diferenciação entre popularidade e apego entre pares"
 						})] }), /* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "pt-1",
@@ -43050,12 +43068,12 @@ function JZ({ isActive: e = !0, className: t }) {
 								children: n.map((e, t) => /* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "flex items-center gap-1.5",
 									children: [/* @__PURE__ */ (0, z.jsx)("span", {
-										className: q("px-2.5 py-1 rounded-xl text-[11px] font-bold border shadow-2xs", e.accent),
+										className: q("px-2.5 py-1 rounded-xl text-[15px] font-bold border shadow-2xs", e.accent),
 										children: e.label
-									}), t < n.length - 1 && /* @__PURE__ */ (0, z.jsx)(jp, { className: "w-3 h-3 text-[#6b4e83]/70 shrink-0" })]
+									}), t < n.length - 1 && /* @__PURE__ */ (0, z.jsx)(jp, { className: "w-4 h-4 text-[#6b4e83]/70 shrink-0" })]
 								}, e.label))
 							}), /* @__PURE__ */ (0, z.jsxs)("p", {
-								className: "text-[12px] text-[#334155] leading-relaxed font-normal mt-2",
+								className: "text-[16px] text-[#334155] leading-snug font-normal mt-2",
 								children: ["Uma criança pode ser pouco popular e ainda ter uma amizade íntima e protetora — ou ser aceita pelo grupo sem possuir amizade próxima. ", /* @__PURE__ */ (0, z.jsx)("strong", {
 									className: "text-[#0f1012] font-semibold",
 									children: "A reciprocidade foi especialmente relevante para a autoestima e identificação social."
@@ -43066,13 +43084,13 @@ function JZ({ isActive: e = !0, className: t }) {
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "mt-2.5 pt-2 border-t border-black/[0.06] flex items-center justify-between",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center gap-1.5 text-[11px] font-semibold text-zinc-500",
+							className: "flex items-center gap-1.5 text-[15px] font-semibold text-zinc-500",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Fundamento:" }), /* @__PURE__ */ (0, z.jsx)("span", {
 								className: "text-[#0f1012] font-bold",
 								children: "Qualidade vs Quantidade"
 							})]
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
-							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#6b4e83] text-white text-[10.5px] font-bold shadow-xs",
+							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#6b4e83] text-white text-[16px] font-bold shadow-xs",
 							children: /* @__PURE__ */ (0, z.jsx)("span", { children: "Reciprocidade Protege" })
 						})]
 					})
@@ -43109,24 +43127,24 @@ function JZ({ isActive: e = !0, className: t }) {
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
 							className: "flex items-center gap-1.5",
 							children: /* @__PURE__ */ (0, z.jsxs)("span", {
-								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-purple-500/10 text-purple-300 border border-purple-500/25",
-								children: [/* @__PURE__ */ (0, z.jsx)(rm, { className: "w-3 h-3 text-purple-400" }), "Competência & Avaliação Clínica"]
+								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-purple-500/10 text-purple-300 border border-purple-500/25",
+								children: [/* @__PURE__ */ (0, z.jsx)(rm, { className: "w-4 h-4 text-purple-400" }), "Competência & Avaliação Clínica"]
 							})
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "space-y-2",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-							className: "text-[20px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]",
+							className: "text-[24px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]",
 							children: "Preferir Poucos Amigos ≠ Dificuldade Social"
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[12px] font-semibold text-purple-300 mt-0.5",
+							className: "text-[16px] font-semibold text-purple-300 mt-0.5",
 							children: "Conflito não é ausência de competência — é a arena de aprendizagem relacional"
 						})] }), /* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "pt-0.5",
 							children: [
 								/* @__PURE__ */ (0, z.jsx)("h4", {
-									className: "text-[10px] font-bold uppercase tracking-[0.14em] text-zinc-400 mb-1.5",
+									className: "text-[14px] font-bold uppercase tracking-[0.14em] text-zinc-400 mb-1.5",
 									children: "COMO OCORRE A COMPETÊNCIA SOCIAL NOS CONFLITOS:"
 								}),
 								/* @__PURE__ */ (0, z.jsx)("div", {
@@ -43134,16 +43152,16 @@ function JZ({ isActive: e = !0, className: t }) {
 									children: r.map((e, t) => /* @__PURE__ */ (0, z.jsxs)("div", {
 										className: "flex items-center gap-1",
 										children: [/* @__PURE__ */ (0, z.jsx)("span", {
-											className: "px-2 py-0.5 rounded-lg text-[10.5px] font-semibold bg-white/[0.06] border border-white/10 text-zinc-200",
+											className: "px-2 py-0.5 rounded-lg text-[14px] font-semibold bg-white/[0.06] border border-white/10 text-zinc-200",
 											children: e
 										}), t < r.length - 1 && /* @__PURE__ */ (0, z.jsx)("span", {
-											className: "text-[10px] text-purple-400 font-bold",
+											className: "text-[16px] text-purple-400 font-bold",
 											children: "→"
 										})]
 									}, e))
 								}),
 								/* @__PURE__ */ (0, z.jsxs)("p", {
-									className: "text-[12px] text-zinc-300 leading-relaxed font-normal mt-2",
+									className: "text-[16px] text-zinc-300 leading-snug font-normal mt-2",
 									children: [/* @__PURE__ */ (0, z.jsx)("strong", {
 										className: "text-white font-semibold",
 										children: "O que avaliar na clínica:"
@@ -43155,13 +43173,13 @@ function JZ({ isActive: e = !0, className: t }) {
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "mt-2.5 pt-2 border-t border-white/10 flex items-center justify-between",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center gap-1.5 text-[11px] font-semibold text-zinc-400",
+							className: "flex items-center gap-1.5 text-[15px] font-semibold text-zinc-400",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Critério:" }), /* @__PURE__ */ (0, z.jsx)("span", {
 								className: "text-white font-bold",
 								children: "Prejuízo Funcional Real"
 							})]
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
-							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-purple-500/20 text-purple-200 border border-purple-500/30 text-[10.5px] font-bold shadow-xs",
+							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-purple-500/20 text-purple-200 border border-purple-500/30 text-[16px] font-bold shadow-xs",
 							children: /* @__PURE__ */ (0, z.jsx)("span", { children: "Intencionalidade ≠ Déficit" })
 						})]
 					})
@@ -43178,7 +43196,7 @@ function YZ({ isActive: e = !0 }) {
 		children: [
 			/* @__PURE__ */ (0, z.jsx)("div", {
 				className: "absolute inset-0 pointer-events-none flex items-center justify-center",
-				children: /* @__PURE__ */ (0, z.jsx)("div", { className: "w-[360px] h-[360px] rounded-full bg-[#0071e3]/[0.03] blur-3xl" })
+				children: /* @__PURE__ */ (0, z.jsx)("div", { className: "w-[360px] h-[360px] rounded-full bg-[#6b4e83]/[0.03] blur-3xl" })
 			}),
 			/* @__PURE__ */ (0, z.jsxs)(H.div, {
 				initial: {
@@ -43198,10 +43216,10 @@ function YZ({ isActive: e = !0 }) {
 						1
 					]
 				},
-				className: "relative z-20 flex flex-col items-center justify-center w-[114px] h-[114px] rounded-full bg-white/95 border-2 border-[#0071e3]/30 shadow-[0_8px_32px_rgba(0,113,227,0.12)] backdrop-blur-md transition-transform hover:scale-105",
+				className: "relative z-20 flex flex-col items-center justify-center w-[114px] h-[114px] rounded-full bg-white/95 border-2 border-[#6b4e83]/30 shadow-[0_8px_32px_rgba(107,78,131,0.12)] backdrop-blur-md transition-transform hover:scale-105",
 				children: [
 					/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-9 h-9 rounded-full bg-[#e8f2fc] flex items-center justify-center mb-1 text-[#0071e3] shadow-inner",
+						className: "w-9 h-9 rounded-full bg-[#f1ecf5] flex items-center justify-center mb-1 text-[#6b4e83] shadow-inner",
 						children: /* @__PURE__ */ (0, z.jsx)(kh, { className: "w-5 h-5 stroke-[2.2]" })
 					}),
 					/* @__PURE__ */ (0, z.jsx)("span", {
@@ -43209,7 +43227,7 @@ function YZ({ isActive: e = !0 }) {
 						children: "JOVEM"
 					}),
 					/* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[10px] font-semibold text-[#0071e3] tracking-wider uppercase -mt-0.5",
+						className: "text-[14px] font-semibold text-[#6b4e83] tracking-wider uppercase mt-0",
 						children: "Identidade"
 					})
 				]
@@ -43219,15 +43237,15 @@ function YZ({ isActive: e = !0 }) {
 				duration: 28,
 				delay: 0,
 				radius: 110,
-				pathClassName: "stroke-[#0071e3]/20",
+				pathClassName: "stroke-[#6b4e83]/20",
 				strokeDasharray: "4 4",
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-						children: /* @__PURE__ */ (0, z.jsx)(jm, { className: "w-3 h-3" })
+						className: "w-5 h-5 rounded-full bg-[#6b4e83]/10 text-[#6b4e83] flex items-center justify-center shrink-0",
+						children: /* @__PURE__ */ (0, z.jsx)(jm, { className: "w-4 h-4" })
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[13px] font-semibold text-[#0f1012] whitespace-nowrap",
+						className: "text-[15px] font-semibold text-[#0f1012] whitespace-nowrap",
 						children: "família"
 					})]
 				})
@@ -43241,10 +43259,10 @@ function YZ({ isActive: e = !0 }) {
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-						children: /* @__PURE__ */ (0, z.jsx)(qp, { className: "w-3 h-3" })
+						className: "w-5 h-5 rounded-full bg-[#6b4e83]/10 text-[#6b4e83] flex items-center justify-center shrink-0",
+						children: /* @__PURE__ */ (0, z.jsx)(qp, { className: "w-4 h-4" })
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[13px] font-semibold text-[#0f1012] whitespace-nowrap",
+						className: "text-[15px] font-semibold text-[#0f1012] whitespace-nowrap",
 						children: "escola e comunidade"
 					})]
 				})
@@ -43255,14 +43273,14 @@ function YZ({ isActive: e = !0 }) {
 				delay: 0,
 				radius: 195,
 				reverse: !0,
-				pathClassName: "stroke-[#0071e3]/15",
+				pathClassName: "stroke-[#6b4e83]/15",
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-						children: /* @__PURE__ */ (0, z.jsx)(Nh, { className: "w-3 h-3" })
+						className: "w-5 h-5 rounded-full bg-[#6b4e83]/10 text-[#6b4e83] flex items-center justify-center shrink-0",
+						children: /* @__PURE__ */ (0, z.jsx)(Nh, { className: "w-4 h-4" })
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[13px] font-semibold text-[#0071e3] whitespace-nowrap",
+						className: "text-[15px] font-semibold text-[#6b4e83] whitespace-nowrap",
 						children: "amigos e grupo"
 					})]
 				})
@@ -43277,10 +43295,10 @@ function YZ({ isActive: e = !0 }) {
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-						children: /* @__PURE__ */ (0, z.jsx)(km, { className: "w-3 h-3" })
+						className: "w-5 h-5 rounded-full bg-[#6b4e83]/10 text-[#6b4e83] flex items-center justify-center shrink-0",
+						children: /* @__PURE__ */ (0, z.jsx)(km, { className: "w-4 h-4" })
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[13px] font-semibold text-[#0f1012] whitespace-nowrap",
+						className: "text-[15px] font-semibold text-[#0f1012] whitespace-nowrap",
 						children: "relações afetivas"
 					})]
 				})
@@ -43314,7 +43332,7 @@ function XZ({ isActive: e = !0, className: t }) {
 		}
 	];
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: q("w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[620px] mx-auto my-auto", t),
+		className: q("w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[800px] mx-auto my-auto", t),
 		children: [/* @__PURE__ */ (0, z.jsxs)(H.div, {
 			initial: {
 				opacity: 0,
@@ -43334,7 +43352,7 @@ function XZ({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: "p-5 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] flex-1 relative overflow-hidden",
+			className: "px-5 py-4 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] flex-1 relative overflow-hidden",
 			children: [
 				/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 w-44 h-44 bg-[#6b4e83]/18 rounded-full blur-3xl pointer-events-none" }),
 				/* @__PURE__ */ (0, z.jsxs)("div", {
@@ -43343,19 +43361,19 @@ function XZ({ isActive: e = !0, className: t }) {
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center justify-between mb-1.5",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-400 font-['Urbanist',sans-serif]",
+								className: "text-[14px] font-bold uppercase tracking-[0.2em] text-zinc-400 font-['Urbanist',sans-serif]",
 								children: "Reorientação Social na Adolescência"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-semibold text-[#e9dff0] bg-[#6b4e83]/30 px-2.5 py-0.5 rounded-full border border-[#6b4e83]/40",
+								className: "text-[14px] font-semibold text-[#e9dff0] bg-[#6b4e83]/30 px-2.5 py-0.5 rounded-full border border-[#6b4e83]/40",
 								children: "Eixo 4 · Social"
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("h4", {
-							className: "text-[18px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
+							className: "text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
 							children: "Os Pares como Nova Referência para o “Eu”"
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11.5px] font-medium text-zinc-300 mt-1 leading-relaxed",
+							className: "text-[16px] font-medium text-zinc-300 mt-1 leading-snug",
 							children: "Pertencer, ser avaliado e compreender a perspectiva alheia ganham nova relevância:"
 						})
 					]
@@ -43369,11 +43387,11 @@ function XZ({ isActive: e = !0, className: t }) {
 							children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "flex items-center gap-1.5 mb-1",
 								children: [/* @__PURE__ */ (0, z.jsx)(t, { className: "w-3.5 h-3.5 text-[#a882c7] shrink-0" }), /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[11px] font-bold text-zinc-200 font-['Urbanist',sans-serif]",
+									className: "text-[15px] font-bold text-zinc-200 font-['Urbanist',sans-serif]",
 									children: e.label
 								})]
 							}), /* @__PURE__ */ (0, z.jsx)("p", {
-								className: "text-[11px] text-zinc-400 leading-snug font-normal m-0",
+								className: "text-[15px] text-zinc-400 leading-snug font-normal m-0",
 								children: e.desc
 							})]
 						}, e.label);
@@ -43382,10 +43400,10 @@ function XZ({ isActive: e = !0, className: t }) {
 				/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-xs font-semibold text-zinc-400",
+						className: "text-[16px] font-semibold text-zinc-400",
 						children: "Axioma sistêmico:"
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-xs font-bold text-[#e9dff0] bg-[#6b4e83]/25 px-2.5 py-0.5 rounded-full border border-[#6b4e83]/35",
+						className: "text-[16px] font-bold text-[#e9dff0] bg-[#6b4e83]/25 px-2.5 py-0.5 rounded-full border border-[#6b4e83]/35",
 						children: "Reorientação Social ≠ Substituição da Família"
 					})]
 				})
@@ -43409,25 +43427,25 @@ function XZ({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: "p-5 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between flex-1",
+			className: "px-5 py-4 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between flex-1",
 			children: [
 				/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center justify-between mb-1.5",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] font-bold uppercase tracking-[0.14em] text-[#6b4e83] bg-[#6b4e83]/[0.10] px-2.5 py-0.5 rounded-full border border-[#6b4e83]/20 font-['Urbanist',sans-serif]",
+							className: "text-[14px] font-bold uppercase tracking-[0.14em] text-[#6b4e83] bg-[#6b4e83]/[0.10] px-2.5 py-0.5 rounded-full border border-[#6b4e83]/20 font-['Urbanist',sans-serif]",
 							children: "Evidência Empírica · Meta-análise"
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[11px] font-semibold text-[#5f6062]",
+							className: "text-[15px] font-semibold text-[#5f6062]",
 							children: "60 estudos · 233 efeitos"
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsx)("h4", {
-						className: "text-[17px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
+						className: "text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
 						children: "A Influência dos Pares é um Mecanismo"
 					}),
 					/* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[11.5px] text-[#5f6062] mt-0.5",
+						className: "text-[16px] text-[#5f6062] mt-0.5",
 						children: "Mecanismo de mediação contextual — não um desfecho negativo por si só:"
 					})
 				] }),
@@ -43436,7 +43454,7 @@ function XZ({ isActive: e = !0, className: t }) {
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
 						className: "flex-1",
 						children: /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11.5px] text-[#2d2e30] leading-snug m-0",
+							className: "text-[16px] text-[#2d2e30] leading-snug m-0",
 							children: "Pode aumentar comportamentos pró-sociais (cooperação, engajamento) ou de risco, dependendo do contexto."
 						})
 					}), /* @__PURE__ */ (0, z.jsxs)("div", {
@@ -43445,17 +43463,17 @@ function XZ({ isActive: e = !0, className: t }) {
 							className: "font-['Urbanist',sans-serif] text-[26px] font-bold text-[#6b4e83] leading-none block",
 							children: "β = 0,08"
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] font-semibold text-[#5f6062] block mt-0.5",
+							className: "text-[16px] font-semibold text-[#5f6062] block mt-0.5",
 							children: "efeito pequeno, porém robusto"
 						})]
 					})]
 				}),
 				/* @__PURE__ */ (0, z.jsx)("p", {
-					className: "text-[11.5px] text-[#334155] leading-relaxed m-0 font-normal",
+					className: "text-[16px] text-[#334155] leading-snug m-0 font-normal",
 					children: "Os pares passam a fornecer informação crítica sobre identidade, pertencimento, normas e valor social."
 				}),
 				/* @__PURE__ */ (0, z.jsxs)("p", {
-					className: "text-[11px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between",
+					className: "text-[15px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Papel formativo na adolescência" }), /* @__PURE__ */ (0, z.jsx)("span", {
 						className: "font-semibold text-[#6b4e83]",
 						children: "Mecanismo de Socialização"
@@ -43473,7 +43491,7 @@ function ZZ({ isActive: e = !0 }) {
 		children: [
 			/* @__PURE__ */ (0, z.jsx)("div", {
 				className: "absolute inset-0 pointer-events-none flex items-center justify-center",
-				children: /* @__PURE__ */ (0, z.jsx)("div", { className: "w-[380px] h-[380px] rounded-full bg-[#0071e3]/[0.03] blur-3xl" })
+				children: /* @__PURE__ */ (0, z.jsx)("div", { className: "w-[380px] h-[380px] rounded-full bg-[#6b4e83]/[0.03] blur-3xl" })
 			}),
 			/* @__PURE__ */ (0, z.jsxs)(H.div, {
 				initial: {
@@ -43493,18 +43511,18 @@ function ZZ({ isActive: e = !0 }) {
 						1
 					]
 				},
-				className: "relative z-20 flex flex-col items-center justify-center w-[124px] h-[124px] rounded-full bg-white/95 border-2 border-[#0071e3]/30 shadow-[0_8px_32px_rgba(0,113,227,0.12)] backdrop-blur-md transition-transform hover:scale-105",
+				className: "relative z-20 flex flex-col items-center justify-center w-[124px] h-[124px] rounded-full bg-white/95 border-2 border-[#6b4e83]/30 shadow-[0_8px_32px_rgba(107,78,131,0.12)] backdrop-blur-md transition-transform hover:scale-105",
 				children: [
 					/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-9 h-9 rounded-full bg-[#e8f2fc] flex items-center justify-center mb-1 text-[#0071e3] shadow-inner",
+						className: "w-9 h-9 rounded-full bg-[#f1ecf5] flex items-center justify-center mb-1 text-[#6b4e83] shadow-inner",
 						children: /* @__PURE__ */ (0, z.jsx)(ah, { className: "w-5 h-5 stroke-[2.2]" })
 					}),
 					/* @__PURE__ */ (0, z.jsx)("span", {
-						className: "font-['Urbanist',sans-serif] text-[12.5px] font-bold tracking-[0.06em] text-[#0f1012] leading-tight text-center",
+						className: "font-['Urbanist',sans-serif] text-[15px] font-bold tracking-[0.06em] text-[#0f1012] leading-tight text-center",
 						children: "PARTICIPAÇÃO"
 					}),
 					/* @__PURE__ */ (0, z.jsx)("span", {
-						className: "font-['Urbanist',sans-serif] text-[12px] font-bold tracking-[0.06em] text-[#0071e3] leading-tight text-center",
+						className: "font-['Urbanist',sans-serif] text-[16px] font-bold tracking-[0.06em] text-[#6b4e83] leading-tight text-center",
 						children: "SOCIAL"
 					})
 				]
@@ -43514,15 +43532,15 @@ function ZZ({ isActive: e = !0 }) {
 				duration: 30,
 				delay: 0,
 				radius: 112,
-				pathClassName: "stroke-[#0071e3]/20",
+				pathClassName: "stroke-[#6b4e83]/20",
 				strokeDasharray: "4 4",
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-						children: /* @__PURE__ */ (0, z.jsx)(zm, { className: "w-3 h-3" })
+						className: "w-5 h-5 rounded-full bg-[#6b4e83]/10 text-[#6b4e83] flex items-center justify-center shrink-0",
+						children: /* @__PURE__ */ (0, z.jsx)(zm, { className: "w-4 h-4" })
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[12px] font-semibold text-[#0f1012] whitespace-nowrap",
+						className: "text-[16px] font-semibold text-[#0f1012] whitespace-nowrap",
 						children: "fala e comunicação"
 					})]
 				})
@@ -43536,10 +43554,10 @@ function ZZ({ isActive: e = !0 }) {
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-						children: /* @__PURE__ */ (0, z.jsx)(Up, { className: "w-3 h-3" })
+						className: "w-5 h-5 rounded-full bg-[#6b4e83]/10 text-[#6b4e83] flex items-center justify-center shrink-0",
+						children: /* @__PURE__ */ (0, z.jsx)(Up, { className: "w-4 h-4" })
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[12px] font-semibold text-[#0f1012] whitespace-nowrap",
+						className: "text-[16px] font-semibold text-[#0f1012] whitespace-nowrap",
 						children: "competências sociais"
 					})]
 				})
@@ -43553,10 +43571,10 @@ function ZZ({ isActive: e = !0 }) {
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-						children: /* @__PURE__ */ (0, z.jsx)(hh, { className: "w-3 h-3" })
+						className: "w-5 h-5 rounded-full bg-[#6b4e83]/10 text-[#6b4e83] flex items-center justify-center shrink-0",
+						children: /* @__PURE__ */ (0, z.jsx)(hh, { className: "w-4 h-4" })
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[12px] font-semibold text-[#0f1012] whitespace-nowrap",
+						className: "text-[16px] font-semibold text-[#0f1012] whitespace-nowrap",
 						children: "aparência"
 					})]
 				})
@@ -43567,14 +43585,14 @@ function ZZ({ isActive: e = !0 }) {
 				delay: 0,
 				radius: 200,
 				reverse: !0,
-				pathClassName: "stroke-[#0071e3]/15",
+				pathClassName: "stroke-[#6b4e83]/15",
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-						children: /* @__PURE__ */ (0, z.jsx)(Nh, { className: "w-3 h-3" })
+						className: "w-5 h-5 rounded-full bg-[#6b4e83]/10 text-[#6b4e83] flex items-center justify-center shrink-0",
+						children: /* @__PURE__ */ (0, z.jsx)(Nh, { className: "w-4 h-4" })
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap",
+						className: "text-[15px] font-semibold text-[#0f1012] whitespace-nowrap",
 						children: "pares"
 					})]
 				})
@@ -43589,10 +43607,10 @@ function ZZ({ isActive: e = !0 }) {
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-						children: /* @__PURE__ */ (0, z.jsx)($m, { className: "w-3 h-3" })
+						className: "w-5 h-5 rounded-full bg-[#6b4e83]/10 text-[#6b4e83] flex items-center justify-center shrink-0",
+						children: /* @__PURE__ */ (0, z.jsx)($m, { className: "w-4 h-4" })
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap",
+						className: "text-[15px] font-semibold text-[#0f1012] whitespace-nowrap",
 						children: "experiências"
 					})]
 				})
@@ -43607,10 +43625,10 @@ function ZZ({ isActive: e = !0 }) {
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-						children: /* @__PURE__ */ (0, z.jsx)(ym, { className: "w-3 h-3" })
+						className: "w-5 h-5 rounded-full bg-[#6b4e83]/10 text-[#6b4e83] flex items-center justify-center shrink-0",
+						children: /* @__PURE__ */ (0, z.jsx)(ym, { className: "w-4 h-4" })
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap",
+						className: "text-[15px] font-semibold text-[#0f1012] whitespace-nowrap",
 						children: "contexto"
 					})]
 				})
@@ -43622,7 +43640,7 @@ function ZZ({ isActive: e = !0 }) {
 //#region components/slide26-cards.tsx
 function QZ({ isActive: e = !0, className: t }) {
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: q("w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[620px] mx-auto my-auto", t),
+		className: q("w-full h-full flex flex-col justify-center gap-2.5 select-none font-['Satoshi',sans-serif] max-w-[960px] mx-auto my-auto", t),
 		children: [/* @__PURE__ */ (0, z.jsxs)(H.div, {
 			initial: {
 				opacity: 0,
@@ -43642,7 +43660,7 @@ function QZ({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: q("group relative w-full overflow-hidden rounded-3xl border border-black/[0.08]", "bg-gradient-to-br from-white via-[#fcfdff] to-[#f1ecf5]/70", "shadow-[0_4px_24px_rgba(107,78,131,0.06)] hover:shadow-[0_12px_36px_rgba(107,78,131,0.12)]", "hover:border-[#6b4e83]/30 transition-all duration-400 ease-out p-5 flex flex-col justify-between"),
+			className: q("group relative w-full overflow-hidden rounded-3xl border border-black/[0.08]", "bg-gradient-to-br from-white via-[#fcfdff] to-[#f1ecf5]/70", "shadow-[0_4px_24px_rgba(107,78,131,0.06)] hover:shadow-[0_12px_36px_rgba(107,78,131,0.12)]", "hover:border-[#6b4e83]/30 transition-all duration-400 ease-out p-4 flex flex-col justify-between"),
 			children: [/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 -mr-16 -mt-16 w-56 h-56 rounded-full bg-gradient-to-br from-[#6b4e83]/15 to-[#4d3460]/10 blur-2xl pointer-events-none transition-transform duration-700 group-hover:scale-125" }), /* @__PURE__ */ (0, z.jsxs)("div", {
 				className: "relative z-10 flex flex-col justify-between h-full",
 				children: [
@@ -43654,8 +43672,8 @@ function QZ({ isActive: e = !0, className: t }) {
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
 							className: "flex items-center gap-1.5",
 							children: /* @__PURE__ */ (0, z.jsxs)("span", {
-								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-[#6b4e83]/10 text-[#6b4e83] border border-[#6b4e83]/20",
-								children: [/* @__PURE__ */ (0, z.jsx)(hh, { className: "w-3 h-3 text-[#6b4e83]" }), "n = 661 (fissuras visíveis e não visíveis)"]
+								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-[#6b4e83]/10 text-[#6b4e83] border border-[#6b4e83]/20",
+								children: [/* @__PURE__ */ (0, z.jsx)(hh, { className: "w-4 h-4 text-[#6b4e83]" }), "n = 661 (fissuras visíveis e não visíveis)"]
 							})
 						})]
 					}),
@@ -43663,10 +43681,10 @@ function QZ({ isActive: e = !0, className: t }) {
 						className: "space-y-2",
 						children: [
 							/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-								className: "text-[20px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
+								className: "text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
 								children: "O Risco Social Está na Interação — Não Apenas na Face"
 							}), /* @__PURE__ */ (0, z.jsx)("p", {
-								className: "text-[12px] font-semibold text-[#6b4e83] mt-0.5",
+								className: "text-[16px] font-semibold text-[#6b4e83] mt-0.5",
 								children: "Visibilidade isolada ≠ rejeição imediata · Mediação relacional do estigma"
 							})] }),
 							/* @__PURE__ */ (0, z.jsxs)("div", {
@@ -43676,11 +43694,11 @@ function QZ({ isActive: e = !0, className: t }) {
 									children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 										className: "flex items-center gap-1 text-rose-700 mb-0.5",
 										children: [/* @__PURE__ */ (0, z.jsx)(sh, { className: "w-3.5 h-3.5" }), /* @__PURE__ */ (0, z.jsx)("span", {
-											className: "text-[10px] font-bold uppercase tracking-wider",
+											className: "text-[14px] font-bold uppercase tracking-wider",
 											children: "Bullying / Teasing"
 										})]
 									}), /* @__PURE__ */ (0, z.jsx)("p", {
-										className: "text-[11.5px] font-semibold text-rose-900 leading-snug",
+										className: "text-[16px] font-semibold text-rose-900 leading-snug",
 										children: "Prediz maior dificuldade psicossocial no desenvolvimento"
 									})]
 								}), /* @__PURE__ */ (0, z.jsxs)("div", {
@@ -43688,17 +43706,17 @@ function QZ({ isActive: e = !0, className: t }) {
 									children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 										className: "flex items-center gap-1 text-emerald-700 mb-0.5",
 										children: [/* @__PURE__ */ (0, z.jsx)(lh, { className: "w-3.5 h-3.5" }), /* @__PURE__ */ (0, z.jsx)("span", {
-											className: "text-[10px] font-bold uppercase tracking-wider",
+											className: "text-[14px] font-bold uppercase tracking-wider",
 											children: "Ter um Bom Amigo"
 										})]
 									}), /* @__PURE__ */ (0, z.jsx)("p", {
-										className: "text-[11.5px] font-semibold text-emerald-900 leading-snug",
+										className: "text-[16px] font-semibold text-emerald-900 leading-snug",
 										children: "Fator protetor: prediz menor dificuldade psicossocial"
 									})]
 								})]
 							}),
 							/* @__PURE__ */ (0, z.jsxs)("p", {
-								className: "text-[12px] text-[#334155] leading-relaxed font-normal mt-1.5",
+								className: "text-[16px] text-[#334155] leading-snug font-normal mt-1.5",
 								children: [
 									"Aos 10 anos, a visibilidade isoladamente não se associou a maior insatisfação com aparência nem a assédio. Em adolescentes, ",
 									/* @__PURE__ */ (0, z.jsx)("strong", {
@@ -43713,13 +43731,13 @@ function QZ({ isActive: e = !0, className: t }) {
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "mt-2.5 pt-2 border-t border-black/[0.06] flex items-center justify-between",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center gap-1.5 text-[11px] font-semibold text-zinc-500",
+							className: "flex items-center gap-1.5 text-[15px] font-semibold text-zinc-500",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Mecanismo:" }), /* @__PURE__ */ (0, z.jsx)("span", {
 								className: "text-[#0f1012] font-bold",
 								children: "Mediação Interpessoal"
 							})]
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
-							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#6b4e83] text-white text-[10.5px] font-bold shadow-xs",
+							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#6b4e83] text-white text-[16px] font-bold shadow-xs",
 							children: /* @__PURE__ */ (0, z.jsx)("span", { children: "Visibilidade ≠ Rejeição" })
 						})]
 					})
@@ -43744,7 +43762,7 @@ function QZ({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: q("group relative w-full overflow-hidden rounded-3xl border border-white/10", "bg-[#0f1012] text-white", "shadow-[0_6px_28px_rgba(0,0,0,0.14)] hover:shadow-[0_12px_36px_rgba(0,0,0,0.28)]", "hover:border-[#6b4e83]/40 transition-all duration-400 ease-out p-5 flex flex-col justify-between"),
+			className: q("group relative w-full overflow-hidden rounded-3xl border border-white/10", "bg-[#0f1012] text-white", "shadow-[0_6px_28px_rgba(0,0,0,0.14)] hover:shadow-[0_12px_36px_rgba(0,0,0,0.28)]", "hover:border-[#6b4e83]/40 transition-all duration-400 ease-out p-4 flex flex-col justify-between"),
 			children: [/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 w-48 h-48 bg-[#6b4e83]/20 rounded-full blur-3xl pointer-events-none" }), /* @__PURE__ */ (0, z.jsxs)("div", {
 				className: "relative z-10 flex flex-col justify-between h-full",
 				children: [
@@ -43756,24 +43774,24 @@ function QZ({ isActive: e = !0, className: t }) {
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
 							className: "flex items-center gap-1.5",
 							children: /* @__PURE__ */ (0, z.jsxs)("span", {
-								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-purple-500/10 text-purple-300 border border-purple-500/25",
-								children: [/* @__PURE__ */ (0, z.jsx)(rm, { className: "w-3 h-3 text-purple-400" }), "Diretriz do Protocolo de Psicologia"]
+								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-purple-500/10 text-purple-300 border border-purple-500/25",
+								children: [/* @__PURE__ */ (0, z.jsx)(rm, { className: "w-4 h-4 text-purple-400" }), "Diretriz do Protocolo de Psicologia"]
 							})
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "space-y-2",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-							className: "text-[20px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]",
+							className: "text-[24px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]",
 							children: "Protocolo Social — Investigar Ativamente em Cada Fase"
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[12px] font-semibold text-purple-300 mt-0.5",
+							className: "text-[16px] font-semibold text-purple-300 mt-0.5",
 							children: "Não presumir estigma — mas perguntar ativamente e sistematicamente sobre ele"
 						})] }), /* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "pt-0.5",
 							children: [
 								/* @__PURE__ */ (0, z.jsx)("h4", {
-									className: "text-[10px] font-bold uppercase tracking-[0.14em] text-zinc-400 mb-1.5",
+									className: "text-[14px] font-bold uppercase tracking-[0.14em] text-zinc-400 mb-1.5",
 									children: "DIMENSÕES SOCIAIS A RASTREAR NO SEGUIMENTO:"
 								}),
 								/* @__PURE__ */ (0, z.jsx)("div", {
@@ -43786,12 +43804,12 @@ function QZ({ isActive: e = !0, className: t }) {
 										"comunicação social",
 										"coping social"
 									].map((e) => /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "px-2.5 py-0.5 rounded-lg text-[10.5px] font-semibold bg-white/[0.06] border border-white/10 text-zinc-200",
+										className: "px-2.5 py-0.5 rounded-lg text-[14px] font-semibold bg-white/[0.06] border border-white/10 text-zinc-200",
 										children: e
 									}, e))
 								}),
 								/* @__PURE__ */ (0, z.jsx)("p", {
-									className: "text-[12px] text-zinc-300 leading-relaxed font-normal mt-2",
+									className: "text-[16px] text-zinc-300 leading-snug font-normal mt-2",
 									children: "Avaliar o ecossistema social da criança é tão crucial quanto o acompanhamento cirúrgico e anatômico: a qualidade das interações e a proteção contra o estigma determinam a trajetória de adaptação."
 								})
 							]
@@ -43800,13 +43818,13 @@ function QZ({ isActive: e = !0, className: t }) {
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "mt-2.5 pt-2 border-t border-white/10 flex items-center justify-between",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center gap-1.5 text-[11px] font-semibold text-zinc-400",
+							className: "flex items-center gap-1.5 text-[15px] font-semibold text-zinc-400",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Conduta:" }), /* @__PURE__ */ (0, z.jsx)("span", {
 								className: "text-white font-bold",
 								children: "Investigação Ativa"
 							})]
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
-							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-purple-500/20 text-purple-200 border border-purple-500/30 text-[10.5px] font-bold shadow-xs",
+							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-purple-500/20 text-purple-200 border border-purple-500/30 text-[16px] font-bold shadow-xs",
 							children: /* @__PURE__ */ (0, z.jsx)("span", { children: "Perguntar em Cada Fase" })
 						})]
 					})
@@ -43823,7 +43841,7 @@ function $Z({ isActive: e = !0 }) {
 		children: [
 			/* @__PURE__ */ (0, z.jsx)("div", {
 				className: "absolute inset-0 pointer-events-none flex items-center justify-center",
-				children: /* @__PURE__ */ (0, z.jsx)("div", { className: "w-[380px] h-[380px] rounded-full bg-[#0071e3]/[0.03] blur-3xl" })
+				children: /* @__PURE__ */ (0, z.jsx)("div", { className: "w-[380px] h-[380px] rounded-full bg-[#8a2f3f]/[0.03] blur-3xl" })
 			}),
 			/* @__PURE__ */ (0, z.jsxs)(H.div, {
 				initial: {
@@ -43843,18 +43861,18 @@ function $Z({ isActive: e = !0 }) {
 						1
 					]
 				},
-				className: "relative z-20 flex flex-col items-center justify-center w-[124px] h-[124px] rounded-full bg-white/95 border-2 border-[#0071e3]/30 shadow-[0_8px_32px_rgba(0,113,227,0.12)] backdrop-blur-md transition-transform hover:scale-105",
+				className: "relative z-20 flex flex-col items-center justify-center w-[124px] h-[124px] rounded-full bg-white/95 border-2 border-[#8a2f3f]/30 shadow-[0_8px_32px_rgba(0,113,227,0.12)] backdrop-blur-md transition-transform hover:scale-105",
 				children: [
 					/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-9 h-9 rounded-full bg-[#e8f2fc] flex items-center justify-center mb-1 text-[#0071e3] shadow-inner",
+						className: "w-9 h-9 rounded-full bg-[#f7ecee] flex items-center justify-center mb-1 text-[#8a2f3f] shadow-inner",
 						children: /* @__PURE__ */ (0, z.jsx)(xh, { className: "w-5 h-5 stroke-[2.2]" })
 					}),
 					/* @__PURE__ */ (0, z.jsx)("span", {
-						className: "font-['Urbanist',sans-serif] text-[12.5px] font-bold tracking-[0.06em] text-[#0f1012] leading-tight text-center",
+						className: "font-['Urbanist',sans-serif] text-[15px] font-bold tracking-[0.06em] text-[#0f1012] leading-tight text-center",
 						children: "DESFECHO"
 					}),
 					/* @__PURE__ */ (0, z.jsx)("span", {
-						className: "font-['Urbanist',sans-serif] text-[10.5px] font-bold tracking-[0.04em] text-[#0071e3] leading-tight text-center",
+						className: "font-['Urbanist',sans-serif] text-[14px] font-bold tracking-[0.04em] text-[#8a2f3f] leading-tight text-center",
 						children: "DESENVOLVIMENTAL"
 					})
 				]
@@ -43864,15 +43882,15 @@ function $Z({ isActive: e = !0 }) {
 				duration: 28,
 				delay: 0,
 				radius: 110,
-				pathClassName: "stroke-[#0071e3]/20",
+				pathClassName: "stroke-[#8a2f3f]/20",
 				strokeDasharray: "4 4",
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-						children: /* @__PURE__ */ (0, z.jsx)(Tp, { className: "w-3 h-3" })
+						className: "w-5 h-5 rounded-full bg-[#8a2f3f]/10 text-[#8a2f3f] flex items-center justify-center shrink-0",
+						children: /* @__PURE__ */ (0, z.jsx)(Tp, { className: "w-4 h-4" })
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap",
+						className: "text-[15px] font-semibold text-[#0f1012] whitespace-nowrap",
 						children: "função"
 					})]
 				})
@@ -43886,10 +43904,10 @@ function $Z({ isActive: e = !0 }) {
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-						children: /* @__PURE__ */ (0, z.jsx)(Fm, { className: "w-3 h-3" })
+						className: "w-5 h-5 rounded-full bg-[#8a2f3f]/10 text-[#8a2f3f] flex items-center justify-center shrink-0",
+						children: /* @__PURE__ */ (0, z.jsx)(Fm, { className: "w-4 h-4" })
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap",
+						className: "text-[15px] font-semibold text-[#0f1012] whitespace-nowrap",
 						children: "condições associadas"
 					})]
 				})
@@ -43900,14 +43918,14 @@ function $Z({ isActive: e = !0 }) {
 				delay: 0,
 				radius: 195,
 				reverse: !0,
-				pathClassName: "stroke-[#0071e3]/15",
+				pathClassName: "stroke-[#8a2f3f]/15",
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-						children: /* @__PURE__ */ (0, z.jsx)(hm, { className: "w-3 h-3" })
+						className: "w-5 h-5 rounded-full bg-[#8a2f3f]/10 text-[#8a2f3f] flex items-center justify-center shrink-0",
+						children: /* @__PURE__ */ (0, z.jsx)(hm, { className: "w-4 h-4" })
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap",
+						className: "text-[15px] font-semibold text-[#0f1012] whitespace-nowrap",
 						children: "morfologia e visibilidade"
 					})]
 				})
@@ -43922,10 +43940,10 @@ function $Z({ isActive: e = !0 }) {
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-						children: /* @__PURE__ */ (0, z.jsx)(yh, { className: "w-3 h-3" })
+						className: "w-5 h-5 rounded-full bg-[#8a2f3f]/10 text-[#8a2f3f] flex items-center justify-center shrink-0",
+						children: /* @__PURE__ */ (0, z.jsx)(yh, { className: "w-4 h-4" })
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap",
+						className: "text-[15px] font-semibold text-[#0f1012] whitespace-nowrap",
 						children: "trajetória de tratamento"
 					})]
 				})
@@ -43940,10 +43958,10 @@ function $Z({ isActive: e = !0 }) {
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-						children: /* @__PURE__ */ (0, z.jsx)(dm, { className: "w-3 h-3" })
+						className: "w-5 h-5 rounded-full bg-[#8a2f3f]/10 text-[#8a2f3f] flex items-center justify-center shrink-0",
+						children: /* @__PURE__ */ (0, z.jsx)(dm, { className: "w-4 h-4" })
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap",
+						className: "text-[15px] font-semibold text-[#0f1012] whitespace-nowrap",
 						children: "contexto"
 					})]
 				})
@@ -43955,7 +43973,7 @@ function $Z({ isActive: e = !0 }) {
 //#region components/slide27-cards.tsx
 function eQ({ isActive: e = !0, className: t }) {
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: q("w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[620px] mx-auto my-auto", t),
+		className: q("w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[800px] mx-auto my-auto", t),
 		children: [/* @__PURE__ */ (0, z.jsxs)(H.div, {
 			initial: {
 				opacity: 0,
@@ -43987,24 +44005,24 @@ function eQ({ isActive: e = !0, className: t }) {
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
 							className: "flex items-center gap-1.5",
 							children: /* @__PURE__ */ (0, z.jsxs)("span", {
-								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-[#8a2f3f]/10 text-[#8a2f3f] border border-[#8a2f3f]/20",
-								children: [/* @__PURE__ */ (0, z.jsx)(hh, { className: "w-3 h-3 text-[#8a2f3f]" }), "408 Pacientes · 2–18 anos · 6 Grupos"]
+								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-[#8a2f3f]/10 text-[#8a2f3f] border border-[#8a2f3f]/20",
+								children: [/* @__PURE__ */ (0, z.jsx)(hh, { className: "w-4 h-4 text-[#8a2f3f]" }), "408 Pacientes · 2–18 anos · 6 Grupos"]
 							})
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "space-y-2",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-							className: "text-[20px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
+							className: "text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
 							children: "Heterogeneidade Psicossocial nos Diagnósticos"
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[12px] font-semibold text-[#8a2f3f] mt-0.5",
+							className: "text-[16px] font-semibold text-[#8a2f3f] mt-0.5",
 							children: "Mesmo diagnóstico ≠ mesma experiência · Mesma anatomia ≠ mesma trajetória"
 						})] }), /* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "pt-0.5",
 							children: [
 								/* @__PURE__ */ (0, z.jsx)("h4", {
-									className: "text-[10px] font-bold uppercase tracking-[0.14em] text-zinc-500 mb-1",
+									className: "text-[14px] font-bold uppercase tracking-[0.14em] text-zinc-500 mb-1",
 									children: "GRUPOS ANATÔMICOS COMPARADOS:"
 								}),
 								/* @__PURE__ */ (0, z.jsx)("div", {
@@ -44017,12 +44035,12 @@ function eQ({ isActive: e = !0, className: t }) {
 										"Microssomia Hemifacial",
 										"Hemangioma"
 									].map((e) => /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "px-2 py-0.5 rounded-lg text-[10px] font-semibold bg-white border border-black/[0.07] text-[#3f4042] shadow-2xs",
+										className: "px-2 py-0.5 rounded-lg text-[14px] font-semibold bg-white border border-black/[0.07] text-[#3f4042] shadow-2xs",
 										children: e
 									}, e))
 								}),
 								/* @__PURE__ */ (0, z.jsxs)("p", {
-									className: "text-[12px] text-[#334155] leading-relaxed font-normal mt-1.5",
+									className: "text-[16px] text-[#334155] leading-snug font-normal mt-1.5",
 									children: [
 										"Os padrões de dificuldades psicossociais foram diferentes entre os 6 grupos: ",
 										/* @__PURE__ */ (0, z.jsx)("strong", {
@@ -44038,13 +44056,13 @@ function eQ({ isActive: e = !0, className: t }) {
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "mt-2.5 pt-2 border-t border-black/[0.06] flex items-center justify-between",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center gap-1.5 text-[11px] font-semibold text-zinc-500",
+							className: "flex items-center gap-1.5 text-[15px] font-semibold text-zinc-500",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Evidência:" }), /* @__PURE__ */ (0, z.jsx)("span", {
 								className: "text-[#0f1012] font-bold",
 								children: "Fenótipo Heterogêneo"
 							})]
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
-							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#8a2f3f] text-white text-[10.5px] font-bold shadow-xs",
+							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#8a2f3f] text-white text-[16px] font-bold shadow-xs",
 							children: /* @__PURE__ */ (0, z.jsx)("span", { children: "Anatomia ≠ Destino" })
 						})]
 					})
@@ -44081,8 +44099,8 @@ function eQ({ isActive: e = !0, className: t }) {
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
 							className: "flex items-center gap-1.5",
 							children: /* @__PURE__ */ (0, z.jsxs)("span", {
-								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-rose-500/10 text-rose-300 border border-rose-500/25",
-								children: [/* @__PURE__ */ (0, z.jsx)(rm, { className: "w-3 h-3 text-rose-400" }), "Matriz Clínica Multidimensional"]
+								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-rose-500/10 text-rose-300 border border-rose-500/25",
+								children: [/* @__PURE__ */ (0, z.jsx)(rm, { className: "w-4 h-4 text-rose-400" }), "Matriz Clínica Multidimensional"]
 							})
 						})]
 					}),
@@ -44090,10 +44108,10 @@ function eQ({ isActive: e = !0, className: t }) {
 						className: "space-y-2",
 						children: [
 							/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-								className: "text-[20px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]",
+								className: "text-[24px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]",
 								children: "Organizar por Domínios, Não Apenas por Diagnóstico"
 							}), /* @__PURE__ */ (0, z.jsx)("p", {
-								className: "text-[12px] font-semibold text-rose-300 mt-0.5",
+								className: "text-[16px] font-semibold text-rose-300 mt-0.5",
 								children: "Quais dimensões da condição estão entrando na trajetória desta criança?"
 							})] }),
 							/* @__PURE__ */ (0, z.jsx)("div", {
@@ -44114,16 +44132,16 @@ function eQ({ isActive: e = !0, className: t }) {
 								].map((e) => /* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "p-2 rounded-xl bg-white/[0.04] border border-white/10 text-left",
 									children: [/* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[9.5px] font-bold uppercase tracking-wider text-rose-300 block mb-0.5",
+										className: "text-[14px] font-bold uppercase tracking-wider text-rose-300 block mb-0.5",
 										children: e.name
 									}), /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[10.5px] text-zinc-300 leading-snug block",
+										className: "text-[16px] text-zinc-300 leading-snug block",
 										children: e.desc
 									})]
 								}, e.name))
 							}),
 							/* @__PURE__ */ (0, z.jsxs)("p", {
-								className: "text-[12px] text-zinc-300 leading-relaxed font-normal mt-1.5",
+								className: "text-[16px] text-zinc-300 leading-snug font-normal mt-1.5",
 								children: [
 									"A pergunta clínica relevante não é apenas qual é o rótulo da anomalia, mas ",
 									/* @__PURE__ */ (0, z.jsx)("strong", {
@@ -44138,13 +44156,13 @@ function eQ({ isActive: e = !0, className: t }) {
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "mt-2.5 pt-2 border-t border-white/10 flex items-center justify-between",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center gap-1.5 text-[11px] font-semibold text-zinc-400",
+							className: "flex items-center gap-1.5 text-[15px] font-semibold text-zinc-400",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Diretriz:" }), /* @__PURE__ */ (0, z.jsx)("span", {
 								className: "text-white font-bold",
 								children: "Foco na Funcionalidade"
 							})]
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
-							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-rose-500/20 text-rose-200 border border-rose-500/30 text-[10.5px] font-bold shadow-xs",
+							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-rose-500/20 text-rose-200 border border-rose-500/30 text-[16px] font-bold shadow-xs",
 							children: /* @__PURE__ */ (0, z.jsx)("span", { children: "Avaliação por Domínios" })
 						})]
 					})
@@ -44223,32 +44241,32 @@ function nQ({ isActive: e = !0 }) {
 		children: /* @__PURE__ */ (0, z.jsxs)(Qh, {
 			className: "w-full bg-white/95 backdrop-blur-md border border-[#8a2f3f]/20 shadow-[0_12px_36px_rgba(138,47,63,0.06)] overflow-hidden",
 			children: [/* @__PURE__ */ (0, z.jsx)($h, {
-				className: "pb-3 pt-5 px-8",
+				className: "pb-2 pt-4 px-7",
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center justify-between",
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)(eg, {
-						className: "font-['Urbanist',sans-serif] text-[21px] font-bold text-[#0f1012] tracking-tight",
+						className: "font-['Urbanist',sans-serif] text-[23px] font-bold text-[#0f1012] tracking-tight",
 						children: "Trajetória Terapêutica Dupla: Desenvolvimento Humano × Processo de Cuidado"
 					}), /* @__PURE__ */ (0, z.jsx)(tg, {
-						className: "font-['Satoshi',sans-serif] text-[13px] text-[#5f6062] mt-1",
+						className: "font-['Satoshi',sans-serif] text-[17px] font-medium text-[#5f6062] mt-1",
 						children: "A criança não apenas cresce com uma condição craniofacial — ela cresce atravessando uma sequência clínica assistencial interdependente."
 					})] }), /* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center gap-2 bg-[#f7ecee] px-3.5 py-1.5 rounded-full border border-[#8a2f3f]/20 shrink-0",
-						children: [/* @__PURE__ */ (0, z.jsx)(lm, { className: "w-4 h-4 text-[#8a2f3f]" }), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "font-['Urbanist',sans-serif] text-[12px] font-bold tracking-wider uppercase text-[#8a2f3f]",
+						children: [/* @__PURE__ */ (0, z.jsx)(lm, { className: "w-5 h-5 text-[#8a2f3f]" }), /* @__PURE__ */ (0, z.jsx)("span", {
+							className: "font-['Urbanist',sans-serif] text-[15px] font-bold tracking-wider uppercase text-[#8a2f3f]",
 							children: "O TIMING IMPORTA"
 						})]
 					})]
 				})
 			}), /* @__PURE__ */ (0, z.jsxs)(ng, {
-				className: "px-8 pb-5 pt-3",
+				className: "px-7 pb-4 pt-2",
 				children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-					className: "relative flex flex-col gap-6",
+					className: "relative flex flex-col gap-2.5",
 					children: [
 						/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center gap-2 mb-2",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-2 h-2 rounded-full bg-[#0f1012]" }), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "font-['Urbanist',sans-serif] text-[12.5px] font-bold tracking-[0.1em] uppercase text-[#0f1012]",
+								className: "font-['Urbanist',sans-serif] text-[14px] font-bold tracking-[0.1em] uppercase text-[#0f1012]",
 								children: "Trajetória do Desenvolvimento Psicomotor & Social"
 							})]
 						}), /* @__PURE__ */ (0, z.jsxs)("div", {
@@ -44270,7 +44288,7 @@ function nQ({ isActive: e = !0 }) {
 									}
 								}),
 								/* @__PURE__ */ (0, z.jsx)("div", {
-									className: "grid grid-cols-5 gap-3 relative z-10",
+									className: "grid grid-cols-5 gap-2 relative z-10",
 									children: tQ.map((t, n) => /* @__PURE__ */ (0, z.jsxs)(H.div, {
 										initial: {
 											opacity: 0,
@@ -44294,15 +44312,15 @@ function nQ({ isActive: e = !0 }) {
 												children: /* @__PURE__ */ (0, z.jsx)("div", { className: "w-1.5 h-1.5 rounded-full bg-[#0f1012]" })
 											}),
 											/* @__PURE__ */ (0, z.jsx)("span", {
-												className: "text-[10.5px] font-['Urbanist',sans-serif] font-bold text-[#71717a] uppercase tracking-wider",
+												className: "text-[14px] font-['Urbanist',sans-serif] font-bold text-[#71717a] uppercase tracking-wider",
 												children: t.ageRef
 											}),
 											/* @__PURE__ */ (0, z.jsx)("h4", {
-												className: "font-['Urbanist',sans-serif] text-[15px] font-bold text-[#0f1012] leading-tight mt-0.5",
+												className: "font-['Urbanist',sans-serif] text-[19px] font-bold text-[#0f1012] leading-tight mt-0.5",
 												children: t.development.title
 											}),
 											/* @__PURE__ */ (0, z.jsx)("p", {
-												className: "font-['Satoshi',sans-serif] text-[11.5px] text-[#52525b] mt-1 leading-snug line-clamp-2 px-1",
+												className: "font-['Satoshi',sans-serif] text-[16px] text-[#52525b] mt-1 leading-snug px-1",
 												children: t.development.desc
 											})
 										]
@@ -44311,7 +44329,7 @@ function nQ({ isActive: e = !0 }) {
 							]
 						})] }),
 						/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "relative py-1.5 flex items-center justify-center",
+							className: "relative py-4 flex items-center justify-center",
 							children: [/* @__PURE__ */ (0, z.jsx)("div", { className: "w-full h-px border-b border-dashed border-[#8a2f3f]/30" }), /* @__PURE__ */ (0, z.jsxs)(H.div, {
 								initial: {
 									scale: .8,
@@ -44330,7 +44348,7 @@ function nQ({ isActive: e = !0 }) {
 								},
 								className: "absolute bg-white px-4 py-1.5 rounded-full border border-[#8a2f3f]/30 shadow-xs flex items-center gap-2",
 								children: [/* @__PURE__ */ (0, z.jsx)(Tp, { className: "w-3.5 h-3.5 text-[#8a2f3f]" }), /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "font-['Urbanist',sans-serif] text-[11.5px] font-bold text-[#8a2f3f] tracking-wide",
+									className: "font-['Urbanist',sans-serif] text-[16px] font-bold text-[#8a2f3f] tracking-wide",
 									children: "Sincronia Clínica: Intervenções no Momento Desenvolvimental Adequado"
 								})]
 							})]
@@ -44338,7 +44356,7 @@ function nQ({ isActive: e = !0 }) {
 						/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center gap-2 mb-2",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-2 h-2 rounded-full bg-[#8a2f3f]" }), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "font-['Urbanist',sans-serif] text-[12.5px] font-bold tracking-[0.1em] uppercase text-[#8a2f3f]",
+								className: "font-['Urbanist',sans-serif] text-[14px] font-bold tracking-[0.1em] uppercase text-[#8a2f3f]",
 								children: "Trajetória Assistencial Multidisciplinar (Equipe Hospitalar)"
 							})]
 						}), /* @__PURE__ */ (0, z.jsxs)("div", {
@@ -44361,7 +44379,7 @@ function nQ({ isActive: e = !0 }) {
 									}
 								}),
 								/* @__PURE__ */ (0, z.jsx)("div", {
-									className: "grid grid-cols-5 gap-3 relative z-10",
+									className: "grid grid-cols-5 gap-2 relative z-10",
 									children: tQ.map((t, n) => /* @__PURE__ */ (0, z.jsxs)(H.div, {
 										initial: {
 											opacity: 0,
@@ -44385,15 +44403,15 @@ function nQ({ isActive: e = !0 }) {
 												children: /* @__PURE__ */ (0, z.jsx)("div", { className: "w-1.5 h-1.5 rounded-full bg-[#8a2f3f]" })
 											}),
 											/* @__PURE__ */ (0, z.jsx)("span", {
-												className: "inline-flex items-center px-2 py-0.2 rounded-full text-[10px] font-['Urbanist',sans-serif] font-bold text-[#8a2f3f] bg-[#f7ecee] border border-[#8a2f3f]/20 uppercase",
+												className: "inline-flex items-center px-2 py-0.2 rounded-full text-[14px] font-['Urbanist',sans-serif] font-bold text-[#8a2f3f] bg-[#f7ecee] border border-[#8a2f3f]/20 uppercase",
 												children: t.stage
 											}),
 											/* @__PURE__ */ (0, z.jsx)("h4", {
-												className: "font-['Urbanist',sans-serif] text-[15px] font-bold text-[#8a2f3f] leading-tight mt-0.5",
+												className: "font-['Urbanist',sans-serif] text-[19px] font-bold text-[#8a2f3f] leading-tight mt-0.5",
 												children: t.assistential.title
 											}),
 											/* @__PURE__ */ (0, z.jsx)("p", {
-												className: "font-['Satoshi',sans-serif] text-[11.5px] text-[#52525b] mt-1 leading-snug line-clamp-2 px-1",
+												className: "font-['Satoshi',sans-serif] text-[16px] text-[#52525b] mt-1 leading-snug px-1",
 												children: t.assistential.desc
 											})
 										]
@@ -44403,11 +44421,11 @@ function nQ({ isActive: e = !0 }) {
 						})] })
 					]
 				}), /* @__PURE__ */ (0, z.jsxs)("div", {
-					className: "mt-5 pt-3 border-t border-black/[0.06] flex items-center justify-between text-[13px] text-[#5f6062]",
+					className: "mt-3 pt-2.5 border-t border-black/[0.06] flex items-center justify-between gap-4 text-[16px] text-[#5f6062]",
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-						className: "flex items-center gap-2",
+						className: "flex items-center gap-2 flex-wrap",
 						children: [
-							/* @__PURE__ */ (0, z.jsx)(Dm, { className: "w-4 h-4 text-[#8a2f3f] shrink-0" }),
+							/* @__PURE__ */ (0, z.jsx)(Dm, { className: "w-5 h-5 text-[#8a2f3f] shrink-0" }),
 							/* @__PURE__ */ (0, z.jsx)("span", {
 								className: "font-semibold text-[#0f1012]",
 								children: "Princípio Norteador do Protocolo:"
@@ -44415,7 +44433,7 @@ function nQ({ isActive: e = !0 }) {
 							/* @__PURE__ */ (0, z.jsx)("span", { children: "A intervenção bem-sucedida respeita a janela em que a habilidade ou demanda social está se estruturando." })
 						]
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "font-['Urbanist',sans-serif] font-bold text-[11.5px] text-[#8a2f3f] uppercase tracking-wider shrink-0",
+						className: "font-['Urbanist',sans-serif] font-bold text-[14px] text-[#8a2f3f] uppercase tracking-wider shrink-0",
 						children: "Eixo 5 · Síntese do Cuidado"
 					})]
 				})]
@@ -44429,7 +44447,7 @@ function rQ({ isActive: e = !0, className: t }) {
 	return /* @__PURE__ */ (0, z.jsx)("div", {
 		className: q("w-full flex justify-center select-none font-['Satoshi',sans-serif]", t),
 		children: /* @__PURE__ */ (0, z.jsxs)("div", {
-			className: "w-full max-w-[1440px] flex flex-row items-stretch gap-4",
+			className: "w-full flex flex-row items-stretch gap-4",
 			children: [/* @__PURE__ */ (0, z.jsxs)(H.div, {
 				initial: {
 					opacity: 0,
@@ -44452,26 +44470,26 @@ function rQ({ isActive: e = !0, className: t }) {
 				children: [
 					/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-1/4 w-80 h-32 bg-[#8a2f3f]/15 rounded-full blur-3xl pointer-events-none group-hover:bg-[#8a2f3f]/25 transition-all duration-500" }),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
-						className: "flex-1 min-w-0 p-4 flex flex-col justify-between relative z-10",
+						className: "flex-1 min-w-0 px-4 py-3 flex flex-col justify-between relative z-10",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 							/* @__PURE__ */ (0, z.jsxs)("div", {
-								className: "flex items-center justify-between gap-2 mb-2",
+								className: "flex items-center justify-between flex-wrap gap-2 mb-2",
 								children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "flex items-center gap-1.5",
 									children: [/* @__PURE__ */ (0, z.jsx)("div", {
 										className: "w-6 h-6 rounded-lg bg-[#8a2f3f]/20 border border-[#8a2f3f]/40 flex items-center justify-center text-[#e8909c]",
 										children: /* @__PURE__ */ (0, z.jsx)(Fh, { className: "w-3.5 h-3.5" })
 									}), /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[10px] font-bold uppercase tracking-[0.14em] text-zinc-400 font-['Urbanist',sans-serif]",
+										className: "text-[14px] font-bold uppercase tracking-[0.14em] text-zinc-400 font-['Urbanist',sans-serif]",
 										children: "Audição & Fala"
 									})]
 								}), /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[9.5px] font-semibold text-[#e8909c] bg-[#8a2f3f]/20 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/30 shrink-0",
+									className: "text-[14px] font-semibold text-[#e8909c] bg-[#8a2f3f]/20 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/30 shrink-0",
 									children: "Amostra 5–13a"
 								})]
 							}),
 							/* @__PURE__ */ (0, z.jsx)("h4", {
-								className: "text-[15px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
+								className: "text-[19px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
 								children: "Audição, Fala e Linguagem"
 							}),
 							/* @__PURE__ */ (0, z.jsxs)("div", {
@@ -44483,13 +44501,13 @@ function rQ({ isActive: e = !0, className: t }) {
 											className: "text-[22px] font-extrabold tracking-tight text-[#f09ca8] font-['Urbanist',sans-serif] leading-none",
 											children: "27,6%"
 										}), /* @__PURE__ */ (0, z.jsx)("span", {
-											className: "text-[9px] uppercase font-bold text-zinc-500 tracking-wider mt-0.5",
+											className: "text-[14px] uppercase font-bold text-zinc-500 tracking-wider mt-0.5",
 											children: "das orelhas"
 										})]
 									}),
 									/* @__PURE__ */ (0, z.jsx)("div", { className: "h-7 w-[1px] bg-zinc-800 shrink-0" }),
 									/* @__PURE__ */ (0, z.jsxs)("p", {
-										className: "text-[11px] text-zinc-300 leading-snug font-medium",
+										className: "text-[15px] text-zinc-300 leading-snug font-medium",
 										children: [
 											"apresentavam ",
 											/* @__PURE__ */ (0, z.jsx)("strong", {
@@ -44502,41 +44520,41 @@ function rQ({ isActive: e = !0, className: t }) {
 								]
 							})
 						] }), /* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "pt-2 mt-3 border-t border-zinc-800/80 flex items-center justify-between text-[10.5px]",
+							className: "pt-2 mt-2 border-t border-zinc-800/80 flex items-center justify-between flex-wrap gap-1.5 text-[16px]",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
 								className: "font-medium text-zinc-400",
 								children: "Ressalva clínica:"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "font-bold text-[#e8909c] bg-[#8a2f3f]/15 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/30 text-[9.5px]",
+								className: "font-bold text-[#e8909c] bg-[#8a2f3f]/15 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/30 text-[14px]",
 								children: "Amostra ≠ Universal"
 							})]
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
-						className: "flex-1 min-w-0 p-4 flex flex-col justify-between relative z-10",
+						className: "flex-1 min-w-0 px-4 py-3 flex flex-col justify-between relative z-10",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 							/* @__PURE__ */ (0, z.jsxs)("div", {
-								className: "flex items-center justify-between gap-2 mb-2",
+								className: "flex items-center justify-between flex-wrap gap-2 mb-2",
 								children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "flex items-center gap-1.5",
 									children: [/* @__PURE__ */ (0, z.jsx)("div", {
 										className: "w-6 h-6 rounded-lg bg-[#8a2f3f]/20 border border-[#8a2f3f]/40 flex items-center justify-center text-[#e8909c]",
 										children: /* @__PURE__ */ (0, z.jsx)(xm, { className: "w-3.5 h-3.5" })
 									}), /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[10px] font-bold uppercase tracking-[0.14em] text-zinc-400 font-['Urbanist',sans-serif]",
+										className: "text-[14px] font-bold uppercase tracking-[0.14em] text-zinc-400 font-['Urbanist',sans-serif]",
 										children: "Ambiente Escolar"
 									})]
 								}), /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[9.5px] font-semibold text-[#e8909c] bg-[#8a2f3f]/20 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/30 shrink-0",
+									className: "text-[14px] font-semibold text-[#e8909c] bg-[#8a2f3f]/20 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/30 shrink-0",
 									children: "Alerta"
 								})]
 							}),
 							/* @__PURE__ */ (0, z.jsx)("h4", {
-								className: "text-[15px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
+								className: "text-[19px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
 								children: "Dificuldade Escolar"
 							}),
 							/* @__PURE__ */ (0, z.jsx)("p", {
-								className: "text-[11px] font-medium text-zinc-300 mt-1.5 leading-snug",
+								className: "text-[15px] font-medium text-zinc-300 mt-1.5 leading-snug",
 								children: "Não atribuir automaticamente à aparência; investigar:"
 							}),
 							/* @__PURE__ */ (0, z.jsx)("div", {
@@ -44548,42 +44566,42 @@ function rQ({ isActive: e = !0, className: t }) {
 									"Escolarização",
 									"Contexto Socioeconômico"
 								].map((e) => /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "px-2 py-0.5 rounded-lg bg-zinc-900/90 border border-zinc-800/90 text-[10px] font-medium text-zinc-200 hover:border-[#8a2f3f]/50 hover:bg-[#8a2f3f]/10 transition-colors",
+									className: "px-2 py-0.5 rounded-lg bg-zinc-900/90 border border-zinc-800/90 text-[14px] font-medium text-zinc-200 hover:border-[#8a2f3f]/50 hover:bg-[#8a2f3f]/10 transition-colors",
 									children: e
 								}, e))
 							})
 						] }), /* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "pt-2 mt-3 border-t border-zinc-800/80 flex items-center justify-between text-[10.5px]",
+							className: "pt-2 mt-2 border-t border-zinc-800/80 flex items-center justify-between flex-wrap gap-1.5 text-[16px]",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
 								className: "font-medium text-zinc-400",
 								children: "Diretriz:"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "font-bold text-[#e8909c] bg-[#8a2f3f]/15 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/30 text-[9.5px]",
+								className: "font-bold text-[#e8909c] bg-[#8a2f3f]/15 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/30 text-[14px]",
 								children: "Investigação Multifatorial"
 							})]
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
-						className: "flex-1 min-w-0 p-4 flex flex-col justify-between relative z-10",
+						className: "flex-1 min-w-0 px-4 py-3 flex flex-col justify-between relative z-10",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 							/* @__PURE__ */ (0, z.jsxs)("div", {
-								className: "flex items-center justify-between gap-2 mb-2",
+								className: "flex items-center justify-between flex-wrap gap-2 mb-2",
 								children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "flex items-center gap-1.5",
 									children: [/* @__PURE__ */ (0, z.jsx)("div", {
 										className: "w-6 h-6 rounded-lg bg-[#8a2f3f]/20 border border-[#8a2f3f]/40 flex items-center justify-center text-[#e8909c]",
 										children: /* @__PURE__ */ (0, z.jsx)(th, { className: "w-3.5 h-3.5" })
 									}), /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[10px] font-bold uppercase tracking-[0.14em] text-zinc-400 font-['Urbanist',sans-serif]",
+										className: "text-[14px] font-bold uppercase tracking-[0.14em] text-zinc-400 font-['Urbanist',sans-serif]",
 										children: "Processo Cirúrgico"
 									})]
 								}), /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[9.5px] font-semibold text-[#e8909c] bg-[#8a2f3f]/20 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/30 shrink-0",
+									className: "text-[14px] font-semibold text-[#e8909c] bg-[#8a2f3f]/20 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/30 shrink-0",
 									children: "Coexistência"
 								})]
 							}),
 							/* @__PURE__ */ (0, z.jsx)("h4", {
-								className: "text-[15px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
+								className: "text-[19px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
 								children: "O Tratamento Tem Carga"
 							}),
 							/* @__PURE__ */ (0, z.jsxs)("div", {
@@ -44591,30 +44609,30 @@ function rQ({ isActive: e = !0, className: t }) {
 								children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "p-2 rounded-xl bg-zinc-900/90 border border-zinc-800/90 flex flex-col justify-between",
 									children: [/* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[9px] font-bold uppercase tracking-wider text-rose-400",
+										className: "text-[14px] font-bold uppercase tracking-wider text-rose-400",
 										children: "Sobrecarga"
 									}), /* @__PURE__ */ (0, z.jsx)("p", {
-										className: "text-[10.5px] text-zinc-300 font-medium leading-tight mt-1",
+										className: "text-[16px] text-zinc-300 font-medium leading-tight mt-1",
 										children: "Incertezas, restrições e recuperação"
 									})]
 								}), /* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "p-2 rounded-xl bg-[#8a2f3f]/10 border border-[#8a2f3f]/30 flex flex-col justify-between",
 									children: [/* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[9px] font-bold uppercase tracking-wider text-[#e8909c]",
+										className: "text-[14px] font-bold uppercase tracking-wider text-[#e8909c]",
 										children: "Ganhos"
 									}), /* @__PURE__ */ (0, z.jsx)("p", {
-										className: "text-[10.5px] text-zinc-200 font-medium leading-tight mt-1",
+										className: "text-[16px] text-zinc-200 font-medium leading-tight mt-1",
 										children: "Benefícios funcionais e expectativas"
 									})]
 								})]
 							})
 						] }), /* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "pt-2 mt-3 border-t border-zinc-800/80 flex items-center justify-between text-[10.5px]",
+							className: "pt-2 mt-2 border-t border-zinc-800/80 flex items-center justify-between flex-wrap gap-1.5 text-[16px]",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
 								className: "font-medium text-zinc-400",
 								children: "Estudos:"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "font-bold text-[#e8909c] bg-[#8a2f3f]/15 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/30 text-[9.5px]",
+								className: "font-bold text-[#e8909c] bg-[#8a2f3f]/15 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/30 text-[14px]",
 								children: "Associação ≠ Causalidade"
 							})]
 						})]
@@ -44639,30 +44657,30 @@ function rQ({ isActive: e = !0, className: t }) {
 						1
 					]
 				},
-				className: "flex-1 min-w-0 rounded-2xl bg-[#0f1012]/95 backdrop-blur-md border border-[#8a2f3f]/35 shadow-[0_10px_36px_rgba(138,47,63,0.18)] p-4 flex flex-col justify-between relative overflow-hidden group hover:border-[#8a2f3f]/60 transition-all duration-300",
+				className: "flex-1 min-w-0 rounded-2xl bg-[#0f1012]/95 backdrop-blur-md border border-[#8a2f3f]/35 shadow-[0_10px_36px_rgba(138,47,63,0.18)] px-4 py-3 flex flex-col justify-between relative overflow-hidden group hover:border-[#8a2f3f]/60 transition-all duration-300",
 				children: [
 					/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute -bottom-10 -right-10 w-44 h-44 bg-[#8a2f3f]/25 rounded-full blur-2xl pointer-events-none group-hover:bg-[#8a2f3f]/40 transition-all duration-500" }),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "relative z-10",
 						children: [
 							/* @__PURE__ */ (0, z.jsxs)("div", {
-								className: "flex items-center justify-between gap-2 mb-2",
+								className: "flex items-center justify-between flex-wrap gap-2 mb-2",
 								children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "flex items-center gap-1.5",
 									children: [/* @__PURE__ */ (0, z.jsx)("div", {
 										className: "w-6 h-6 rounded-lg bg-[#8a2f3f]/25 border border-[#8a2f3f]/40 flex items-center justify-center text-[#e8909c]",
 										children: /* @__PURE__ */ (0, z.jsx)(lm, { className: "w-3.5 h-3.5" })
 									}), /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[10px] font-bold uppercase tracking-[0.14em] text-zinc-400 font-['Urbanist',sans-serif]",
+										className: "text-[14px] font-bold uppercase tracking-[0.14em] text-zinc-400 font-['Urbanist',sans-serif]",
 										children: "Síntese & Fechamento"
 									})]
 								}), /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[9.5px] font-bold text-[#e8909c] bg-[#8a2f3f]/20 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/35 uppercase tracking-wider shrink-0",
+									className: "text-[14px] font-bold text-[#e8909c] bg-[#8a2f3f]/20 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/35 uppercase tracking-wider shrink-0",
 									children: "O Timing Importa"
 								})]
 							}),
 							/* @__PURE__ */ (0, z.jsxs)("p", {
-								className: "text-[13.5px] text-white font-medium leading-snug mt-2",
+								className: "text-[16px] text-white font-medium leading-snug mt-2",
 								children: [
 									"A mesma experiência médica pode ter ",
 									/* @__PURE__ */ (0, z.jsx)("strong", {
@@ -44675,7 +44693,7 @@ function rQ({ isActive: e = !0, className: t }) {
 							/* @__PURE__ */ (0, z.jsx)("div", {
 								className: "mt-3 pt-2.5 border-t border-white/[0.08]",
 								children: /* @__PURE__ */ (0, z.jsxs)("p", {
-									className: "text-[12px] text-zinc-200 leading-relaxed italic font-['Satoshi',sans-serif]",
+									className: "text-[16px] text-zinc-200 leading-snug italic font-['Satoshi',sans-serif]",
 									children: [
 										"“Em uma condição tratada longitudinalmente, a ",
 										/* @__PURE__ */ (0, z.jsx)("strong", {
@@ -44694,7 +44712,7 @@ function rQ({ isActive: e = !0, className: t }) {
 						]
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
-						className: "pt-2 mt-3 border-t border-[#8a2f3f]/25 flex items-center justify-between text-[10.5px] relative z-10",
+						className: "pt-2 mt-2 border-t border-[#8a2f3f]/25 flex items-center justify-between text-[16px] relative z-10",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
 							className: "font-medium text-zinc-400",
 							children: "Princípio Integrador"
@@ -44724,9 +44742,9 @@ var iQ = {
 		title: "resultado clínico",
 		desc: "anatomia, oclusão, inteligibilidade",
 		icon: Tp,
-		color: "#0071e3",
-		bgGlow: "rgba(0, 113, 227, 0.16)",
-		badgeBg: "rgba(0, 113, 227, 0.12)",
+		color: "#8a2f3f",
+		bgGlow: "rgba(138, 47, 63, 0.16)",
+		badgeBg: "rgba(138, 47, 63, 0.12)",
 		tag: "Dimensão técnica"
 	},
 	{
@@ -44832,7 +44850,7 @@ function oQ({ isActive: e = !0 }) {
 				whileHover: { scale: 1.04 },
 				whileTap: { scale: .96 },
 				"aria-label": "Pausar ou avançar ciclo",
-				className: q("relative group flex flex-col items-center justify-center cursor-pointer outline-none rounded-full transition-all duration-300", "w-[148px] h-[148px] bg-white/95 border shadow-[0_12px_40px_rgba(0,113,227,0.12)] backdrop-blur-xl", t ? "border-black/[0.08]" : "border-black/[0.14]"),
+				className: q("relative group flex flex-col items-center justify-center cursor-pointer outline-none rounded-full transition-all duration-300", "w-[148px] h-[148px] bg-white/95 border shadow-[0_12px_40px_rgba(138,47,63,0.12)] backdrop-blur-xl", t ? "border-black/[0.08]" : "border-black/[0.14]"),
 				children: [
 					/* @__PURE__ */ (0, z.jsx)(H.div, {
 						animate: {
@@ -44870,11 +44888,11 @@ function oQ({ isActive: e = !0 }) {
 					}),
 					/* @__PURE__ */ (0, z.jsx)("span", {
 						style: { color: p.color },
-						className: "text-[9.5px] font-bold tracking-[0.14em] uppercase mt-1 transition-colors duration-300",
+						className: "text-[14px] font-bold tracking-[0.14em] uppercase mt-1 transition-colors duration-300",
 						children: a || s ? "pausado" : `foco ${p.step}`
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
-						className: "absolute -bottom-2.5 opacity-0 group-hover:opacity-100 transition-opacity bg-[#0f1012] text-white text-[9px] px-2 py-0.5 rounded-full flex items-center gap-1 shadow-md",
+						className: "absolute -bottom-2.5 opacity-0 group-hover:opacity-100 transition-opacity bg-[#0f1012] text-white text-[16px] px-2 py-0.5 rounded-full flex items-center gap-1 shadow-md",
 						children: [s ? /* @__PURE__ */ (0, z.jsx)(qm, { className: "w-2.5 h-2.5" }) : /* @__PURE__ */ (0, z.jsx)(Gm, { className: "w-2.5 h-2.5" }), /* @__PURE__ */ (0, z.jsx)("span", { children: s ? "retomar loop" : "pausar" })]
 					})
 				]
@@ -44978,7 +44996,7 @@ function oQ({ isActive: e = !0 }) {
 											children: e.title
 										})
 									}), /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "font-['Satoshi',sans-serif] text-[13px] font-medium text-[#5f6062] leading-snug mt-0.5",
+										className: "font-['Satoshi',sans-serif] text-[15px] font-medium text-[#5f6062] leading-snug mt-0.5",
 										children: e.desc
 									})]
 								})]
@@ -44994,7 +45012,7 @@ function oQ({ isActive: e = !0 }) {
 //#region components/slide29-cards.tsx
 function sQ({ isActive: e = !0, className: t }) {
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: q("w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[620px] mx-auto my-auto", t),
+		className: q("w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[800px] mx-auto my-auto", t),
 		children: [/* @__PURE__ */ (0, z.jsxs)(H.div, {
 			initial: {
 				opacity: 0,
@@ -45014,25 +45032,25 @@ function sQ({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: "p-5 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between flex-1",
+			className: "px-5 py-4 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between flex-1",
 			children: [
 				/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center justify-between mb-1.5",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] font-bold uppercase tracking-[0.14em] text-[#8a2f3f] bg-[#8a2f3f]/[0.10] px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/25 font-['Urbanist',sans-serif]",
+							className: "text-[14px] font-bold uppercase tracking-[0.14em] text-[#8a2f3f] bg-[#8a2f3f]/[0.10] px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/25 font-['Urbanist',sans-serif]",
 							children: "Desfechos Centrados no Paciente"
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[11px] font-semibold text-[#5f6062]",
+							className: "text-[15px] font-semibold text-[#5f6062]",
 							children: "136 entrevistas · 6 países"
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsx)("h4", {
-						className: "text-[17px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
+						className: "text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
 						children: "O Que Realmente Importa para os Pacientes"
 					}),
 					/* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[11.5px] text-[#5f6062] mt-0.5",
+						className: "text-[16px] text-[#5f6062] mt-0.5",
 						children: "Preocupações nucleares identificadas internacionalmente em estudos com PROs:"
 					})
 				] }),
@@ -45042,37 +45060,37 @@ function sQ({ isActive: e = !0, className: t }) {
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "p-2.5 rounded-xl bg-[#f8f9fa] border border-black/[0.04]",
 							children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-								className: "flex items-center gap-1.5 text-xs font-bold text-[#0f1012] mb-1",
+								className: "flex items-center gap-1.5 text-[16px] font-bold text-[#0f1012] mb-1",
 								children: [/* @__PURE__ */ (0, z.jsx)(_m, { className: "w-3.5 h-3.5 text-[#8a2f3f]" }), /* @__PURE__ */ (0, z.jsx)("span", { children: "Aparência" })]
 							}), /* @__PURE__ */ (0, z.jsx)("p", {
-								className: "text-[11px] text-[#5f6062] leading-snug m-0",
+								className: "text-[15px] text-[#5f6062] leading-snug m-0",
 								children: "Face, nariz, lábios, dentes, mandíbula e cicatriz."
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "p-2.5 rounded-xl bg-[#f8f9fa] border border-black/[0.04]",
 							children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-								className: "flex items-center gap-1.5 text-xs font-bold text-[#0f1012] mb-1",
+								className: "flex items-center gap-1.5 text-[16px] font-bold text-[#0f1012] mb-1",
 								children: [/* @__PURE__ */ (0, z.jsx)(Tp, { className: "w-3.5 h-3.5 text-[#8a2f3f]" }), /* @__PURE__ */ (0, z.jsx)("span", { children: "Função" })]
 							}), /* @__PURE__ */ (0, z.jsx)("p", {
-								className: "text-[11px] text-[#5f6062] leading-snug m-0",
+								className: "text-[15px] text-[#5f6062] leading-snug m-0",
 								children: "Fala compreensível, alimentação, sucção e fonação."
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "p-2.5 rounded-xl bg-[#f8f9fa] border border-black/[0.04]",
 							children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-								className: "flex items-center gap-1.5 text-xs font-bold text-[#0f1012] mb-1",
+								className: "flex items-center gap-1.5 text-[16px] font-bold text-[#0f1012] mb-1",
 								children: [/* @__PURE__ */ (0, z.jsx)(km, { className: "w-3.5 h-3.5 text-[#8a2f3f]" }), /* @__PURE__ */ (0, z.jsx)("span", { children: "Qualidade de Vida" })]
 							}), /* @__PURE__ */ (0, z.jsx)("p", {
-								className: "text-[11px] text-[#5f6062] leading-snug m-0",
+								className: "text-[15px] text-[#5f6062] leading-snug m-0",
 								children: "Psicológica, social, escolar e conforto com a fala."
 							})]
 						})
 					]
 				}),
 				/* @__PURE__ */ (0, z.jsxs)("p", {
-					className: "text-[11px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between",
+					className: "text-[15px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Os participantes relatam:" }), /* @__PURE__ */ (0, z.jsx)("span", {
 						className: "font-semibold text-[#8a2f3f]",
 						children: "Preocupações mudam ao longo do tempo"
@@ -45098,7 +45116,7 @@ function sQ({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: "p-5 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] flex-1 relative overflow-hidden",
+			className: "px-5 py-4 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] flex-1 relative overflow-hidden",
 			children: [
 				/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 w-44 h-44 bg-[#8a2f3f]/18 rounded-full blur-3xl pointer-events-none" }),
 				/* @__PURE__ */ (0, z.jsxs)("div", {
@@ -45107,19 +45125,19 @@ function sQ({ isActive: e = !0, className: t }) {
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center justify-between mb-1.5",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-400 font-['Urbanist',sans-serif]",
+								className: "text-[14px] font-bold uppercase tracking-[0.2em] text-zinc-400 font-['Urbanist',sans-serif]",
 								children: "Perspectivas em Diálogo"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-semibold text-[#f8d7dc] bg-[#8a2f3f]/30 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/40",
+								className: "text-[14px] font-semibold text-[#f8d7dc] bg-[#8a2f3f]/30 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/40",
 								children: "Eixo 5 · Craniofacial"
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("h4", {
-							className: "text-[18px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
+							className: "text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
 							children: "Resultado Técnico ≠ Desfecho Percebido"
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11.5px] font-medium text-zinc-300 mt-1 leading-relaxed",
+							className: "text-[16px] font-medium text-zinc-300 mt-1 leading-snug",
 							children: "Perguntas diferentes que precisam convergir na formulação do cuidado:"
 						})
 					]
@@ -45129,19 +45147,19 @@ function sQ({ isActive: e = !0, className: t }) {
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "p-2.5 rounded-2xl bg-zinc-900/90 border border-zinc-800",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] font-bold uppercase tracking-wider text-zinc-400 block mb-1 font-['Urbanist',sans-serif]",
+							className: "text-[14px] font-bold uppercase tracking-wider text-zinc-400 block mb-1 font-['Urbanist',sans-serif]",
 							children: "Profissional"
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[12px] text-zinc-200 font-medium leading-snug m-0",
+							className: "text-[16px] text-zinc-200 font-medium leading-snug m-0",
 							children: "“Tecnicamente, o resultado cirúrgico está muito bom.”"
 						})]
 					}), /* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "p-2.5 rounded-2xl bg-[#8a2f3f]/15 border border-[#8a2f3f]/30",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] font-bold uppercase tracking-wider text-[#f8a5b2] block mb-1 font-['Urbanist',sans-serif]",
+							className: "text-[14px] font-bold uppercase tracking-wider text-[#f8a5b2] block mb-1 font-['Urbanist',sans-serif]",
 							children: "Paciente"
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[12px] text-white font-medium leading-snug m-0",
+							className: "text-[16px] text-white font-medium leading-snug m-0",
 							children: "“Mas isso resolveu aquilo que era importante para mim?”"
 						})]
 					})]
@@ -45149,7 +45167,7 @@ function sQ({ isActive: e = !0, className: t }) {
 				/* @__PURE__ */ (0, z.jsx)("div", {
 					className: "p-2.5 bg-zinc-900/95 rounded-2xl border border-zinc-800/90 relative z-10 mb-1",
 					children: /* @__PURE__ */ (0, z.jsxs)("p", {
-						className: "text-[11.5px] text-zinc-200 leading-snug m-0",
+						className: "text-[16px] text-zinc-200 leading-snug m-0",
 						children: [
 							"Um bom resultado técnico é necessário — mas não suficiente para definir um bom desfecho. Avaliação objetiva e medidas relatadas pelo paciente (PROs) são ",
 							/* @__PURE__ */ (0, z.jsx)("strong", {
@@ -45163,10 +45181,10 @@ function sQ({ isActive: e = !0, className: t }) {
 				/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-xs font-semibold text-zinc-400",
+						className: "text-[16px] font-semibold text-zinc-400",
 						children: "Axioma de conduta:"
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-xs font-bold text-[#f8d7dc] bg-[#8a2f3f]/25 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/35",
+						className: "text-[16px] font-bold text-[#f8d7dc] bg-[#8a2f3f]/25 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/35",
 						children: "Cuidado Centrado na Experiência"
 					})]
 				})
@@ -45228,13 +45246,13 @@ function lQ({ isActive: e = !0, className: t }) {
 				children: [/* @__PURE__ */ (0, z.jsx)("div", {
 					className: "flex items-center gap-2",
 					children: /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[10.5px] font-bold uppercase tracking-[0.16em] text-[#8a2f3f]",
+						className: "text-[14px] font-bold uppercase tracking-[0.16em] text-[#8a2f3f]",
 						children: "Modelo Bioecológico · Circuito Transacional"
 					})
 				}), /* @__PURE__ */ (0, z.jsxs)("div", {
-					className: "flex items-center gap-1 text-[10px] font-semibold text-[#8a2f3f] bg-[#8a2f3f]/10 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/20",
+					className: "flex items-center gap-1 text-[16px] font-semibold text-[#8a2f3f] bg-[#8a2f3f]/10 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/20",
 					children: [/* @__PURE__ */ (0, z.jsx)(Zm, {
-						className: "w-3 h-3 animate-spin",
+						className: "w-4 h-4 animate-spin",
 						style: { animationDuration: "12s" }
 					}), /* @__PURE__ */ (0, z.jsx)("span", { children: "Retroalimentação Contínua" })]
 				})]
@@ -45433,20 +45451,20 @@ function lQ({ isActive: e = !0, className: t }) {
 								/* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "flex items-center gap-1.5 mb-0.5",
 									children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-2 h-2 rounded-full bg-[#8a2f3f] animate-ping" }), /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[9px] font-black uppercase tracking-widest text-[#8a2f3f]",
+										className: "text-[14px] font-black uppercase tracking-widest text-[#8a2f3f]",
 										children: "Núcleo Sistêmico"
 									})]
 								}),
 								/* @__PURE__ */ (0, z.jsx)("h4", {
-									className: "font-['Urbanist',sans-serif] text-[14.5px] font-black text-[#1a1113] tracking-tight leading-tight text-center",
+									className: "font-['Urbanist',sans-serif] text-[16.5px] font-black text-[#1a1113] tracking-tight leading-tight text-center",
 									children: "Sistema Familiar"
 								}),
 								/* @__PURE__ */ (0, z.jsx)("p", {
-									className: "text-[10px] font-semibold text-[#8a2f3f] text-center leading-tight",
+									className: "text-[16px] font-semibold text-[#8a2f3f] text-center leading-tight",
 									children: "Dinâmica Transacional"
 								}),
 								/* @__PURE__ */ (0, z.jsxs)("div", {
-									className: "mt-1.5 pt-1 border-t border-[#8a2f3f]/15 flex items-center gap-1 text-[8.5px] font-medium text-[#6b585c]",
+									className: "mt-1.5 pt-1 border-t border-[#8a2f3f]/15 flex items-center gap-1 text-[16px] font-medium text-[#6b585c]",
 									children: [/* @__PURE__ */ (0, z.jsx)(kp, { className: "w-2.5 h-2.5 text-[#8a2f3f]" }), /* @__PURE__ */ (0, z.jsx)("span", { children: "Interdependência Mútua" })]
 								})
 							]
@@ -45478,14 +45496,14 @@ function lQ({ isActive: e = !0, className: t }) {
 									className: "w-6 h-6 rounded-lg bg-[#8a2f3f]/10 border border-[#8a2f3f]/20 flex items-center justify-center text-[#8a2f3f] shrink-0",
 									children: /* @__PURE__ */ (0, z.jsx)(n, { className: "w-3.5 h-3.5" })
 								}), /* @__PURE__ */ (0, z.jsx)("span", {
-									className: q("text-[8.5px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full border", t.badgeStyle),
+									className: q("text-[14px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full border", t.badgeStyle),
 									children: t.badge
 								})]
 							}), /* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("h5", {
-								className: "font-['Urbanist',sans-serif] text-[13px] font-bold text-[#1a1113] leading-tight truncate",
+								className: "font-['Urbanist',sans-serif] text-[15px] font-bold text-[#1a1113] leading-tight",
 								children: t.title
 							}), /* @__PURE__ */ (0, z.jsx)("p", {
-								className: "text-[10px] text-[#554347] font-normal leading-tight mt-0.5 truncate",
+								className: "text-[16px] text-[#554347] font-normal leading-tight mt-0.5",
 								children: t.subtitle
 							})] })]
 						}, t.id);
@@ -45495,7 +45513,7 @@ function lQ({ isActive: e = !0, className: t }) {
 			/* @__PURE__ */ (0, z.jsx)("div", {
 				className: "flex items-center justify-center pt-2 border-t border-[#8a2f3f]/10",
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
-					className: "inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-[#8a2f3f]/15 shadow-xs text-[11px] text-[#554347]",
+					className: "inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-[#8a2f3f]/15 shadow-xs text-[15px] text-[#554347]",
 					children: [/* @__PURE__ */ (0, z.jsx)(hh, { className: "w-3.5 h-3.5 text-[#8a2f3f]" }), /* @__PURE__ */ (0, z.jsxs)("span", { children: [/* @__PURE__ */ (0, z.jsx)("strong", {
 						className: "text-[#1a1113] font-semibold",
 						children: "Mútua influência:"
@@ -45541,34 +45559,34 @@ function uQ({ isActive: e = !0, className: t }) {
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
 							className: "flex items-center gap-1.5",
 							children: /* @__PURE__ */ (0, z.jsxs)("span", {
-								className: "inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider bg-[#8a2f3f]/10 text-[#8a2f3f] border border-[#8a2f3f]/20",
-								children: [/* @__PURE__ */ (0, z.jsx)(Vp, { className: "w-3 h-3 text-[#8a2f3f]" }), "Evidência Empírica Multicêntrica"]
+								className: "inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full text-[14px] font-bold uppercase tracking-wider bg-[#8a2f3f]/10 text-[#8a2f3f] border border-[#8a2f3f]/20",
+								children: [/* @__PURE__ */ (0, z.jsx)(Vp, { className: "w-4 h-4 text-[#8a2f3f]" }), "Evidência Empírica Multicêntrica"]
 							})
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "space-y-1.5",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-							className: "text-[19px] font-bold tracking-tight text-[#1a1113] leading-tight font-['Urbanist',sans-serif]",
+							className: "text-[24px] font-bold tracking-tight text-[#1a1113] leading-tight font-['Urbanist',sans-serif]",
 							children: "n = 1.200 famílias · 6 centros de fissuras"
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11.5px] font-semibold text-[#8a2f3f] mt-0.5",
+							className: "text-[16px] font-semibold text-[#8a2f3f] mt-0.5",
 							children: "Crerand et al. (2015) · Avaliação padronizada do clima relacional"
 						})] }), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[12.5px] text-[#423639] leading-relaxed font-normal pt-1",
+							className: "text-[16px] text-[#423639] leading-snug font-normal pt-1",
 							children: "Os escores médios de coesão familiar, expressividade e conflito ficaram dentro da faixa média das amostras normativas, com diferenças relacionadas a fatores sociodemográficos e ao tipo de recomendação cirúrgica."
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "mt-3 pt-2.5 border-t border-[#8a2f3f]/10 flex items-center justify-between",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center gap-1.5 text-[11px] font-semibold text-[#6b585c]",
+							className: "flex items-center gap-1.5 text-[15px] font-semibold text-[#6b585c]",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Faixa Normativa:" }), /* @__PURE__ */ (0, z.jsx)("span", {
 								className: "text-[#1a1113] font-bold",
 								children: "Coesão & Expressividade"
 							})]
 						}), /* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#8a2f3f] text-white text-[11px] font-bold shadow-xs hover:bg-[#6b212f] transition-colors",
+							className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#8a2f3f] text-white text-[15px] font-bold shadow-xs hover:bg-[#6b212f] transition-colors",
 							children: [/* @__PURE__ */ (0, z.jsx)(th, { className: "w-3.5 h-3.5" }), /* @__PURE__ */ (0, z.jsx)("span", { children: "Necessidade de cuidado adicional ≠ família disfuncional" })]
 						})]
 					})
@@ -45593,7 +45611,7 @@ function uQ({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: "p-5 rounded-3xl bg-[#0f0c0e] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.22)] border border-[#8a2f3f]/25 relative overflow-hidden",
+			className: "px-5 py-4 rounded-3xl bg-[#0f0c0e] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.22)] border border-[#8a2f3f]/25 relative overflow-hidden",
 			children: [
 				/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 w-52 h-52 bg-[#8a2f3f]/15 rounded-full blur-3xl pointer-events-none" }),
 				/* @__PURE__ */ (0, z.jsxs)("div", {
@@ -45602,19 +45620,19 @@ function uQ({ isActive: e = !0, className: t }) {
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center justify-between mb-2",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-bold uppercase tracking-[0.18em] text-[#e88d9d]",
+								className: "text-[14px] font-bold uppercase tracking-[0.18em] text-[#e88d9d]",
 								children: "Coorte de Nascimento · 1.163 Pais"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-semibold text-zinc-300 bg-white/10 px-2.5 py-0.5 rounded-full border border-white/15",
+								className: "text-[14px] font-semibold text-zinc-300 bg-white/10 px-2.5 py-0.5 rounded-full border border-white/15",
 								children: "Stock et al. (2025)"
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("h4", {
-							className: "text-[17px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
+							className: "text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
 							children: "Adaptação Parental: Fatores de Ajuste & Risco"
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11.5px] font-normal text-zinc-400 mt-1 leading-relaxed",
+							className: "text-[16px] font-normal text-zinc-400 mt-1 leading-snug",
 							children: "Em geral houve boa adaptação ao diagnóstico, com fatores de risco e proteção identificáveis. Não é um checklist diagnóstico:"
 						})
 					]
@@ -45626,7 +45644,7 @@ function uQ({ isActive: e = !0, className: t }) {
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center gap-1.5 mb-2 pb-1.5 border-b border-white/5",
 							children: [/* @__PURE__ */ (0, z.jsx)(rm, { className: "w-3.5 h-3.5 text-emerald-400 shrink-0" }), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10.5px] font-bold text-emerald-300 uppercase tracking-wide",
+								className: "text-[14px] font-bold text-emerald-300 uppercase tracking-wide",
 								children: "Associados a melhor ajuste"
 							})]
 						}), /* @__PURE__ */ (0, z.jsx)("ul", {
@@ -45637,7 +45655,7 @@ function uQ({ isActive: e = !0, className: t }) {
 								"satisfação no relacionamento",
 								"apoio de amizades"
 							].map((e, t) => /* @__PURE__ */ (0, z.jsxs)("li", {
-								className: "flex items-start gap-1.5 text-[11px] text-zinc-300 leading-snug",
+								className: "flex items-start gap-1.5 text-[15px] text-zinc-300 leading-snug",
 								children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-1 h-1 rounded-full bg-emerald-400 mt-1.5 shrink-0" }), /* @__PURE__ */ (0, z.jsx)("span", { children: e })]
 							}, t))
 						})]
@@ -45646,7 +45664,7 @@ function uQ({ isActive: e = !0, className: t }) {
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center gap-1.5 mb-2 pb-1.5 border-b border-white/5",
 							children: [/* @__PURE__ */ (0, z.jsx)(Th, { className: "w-3.5 h-3.5 text-amber-400 shrink-0" }), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10.5px] font-bold text-amber-300 uppercase tracking-wide",
+								className: "text-[14px] font-bold text-amber-300 uppercase tracking-wide",
 								children: "Fatores de vulnerabilidade"
 							})]
 						}), /* @__PURE__ */ (0, z.jsx)("ul", {
@@ -45656,7 +45674,7 @@ function uQ({ isActive: e = !0, className: t }) {
 								"eventos de vida estressantes",
 								"outros fatores individuais e contextuais"
 							].map((e, t) => /* @__PURE__ */ (0, z.jsxs)("li", {
-								className: "flex items-start gap-1.5 text-[11px] text-zinc-300 leading-snug",
+								className: "flex items-start gap-1.5 text-[15px] text-zinc-300 leading-snug",
 								children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-1 h-1 rounded-full bg-amber-400 mt-1.5 shrink-0" }), /* @__PURE__ */ (0, z.jsx)("span", { children: e })]
 							}, t))
 						})]
@@ -45667,7 +45685,7 @@ function uQ({ isActive: e = !0, className: t }) {
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center justify-between flex-wrap gap-2",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10.5px] font-medium text-zinc-400",
+							className: "text-[16px] font-medium text-zinc-400",
 							children: "126 estudos · 2009–2024 · três áreas da experiência parental:"
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
 							className: "flex items-center gap-1.5 flex-wrap",
@@ -45676,16 +45694,16 @@ function uQ({ isActive: e = !0, className: t }) {
 								"experiências sociais",
 								"prestação do cuidado"
 							].map((e, t) => /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[9.5px] font-semibold text-[#f5c2cb] bg-[#8a2f3f]/30 px-2 py-0.5 rounded-full border border-[#8a2f3f]/40",
+								className: "text-[14px] font-semibold text-[#f5c2cb] bg-[#8a2f3f]/30 px-2 py-0.5 rounded-full border border-[#8a2f3f]/40",
 								children: e
 							}, t))
 						})]
 					}), /* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "p-2.5 rounded-xl bg-gradient-to-r from-[#8a2f3f]/25 to-transparent border border-[#8a2f3f]/30 flex items-center justify-between",
 						children: [/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[12px] font-semibold text-zinc-100 leading-snug",
+							className: "text-[16px] font-semibold text-zinc-100 leading-snug",
 							children: "Ao avaliar a criança, avaliar também o sistema que sustenta sua trajetória."
-						}), /* @__PURE__ */ (0, z.jsx)(hh, { className: "w-4 h-4 text-[#e88d9d] shrink-0 ml-2" })]
+						}), /* @__PURE__ */ (0, z.jsx)(hh, { className: "w-5 h-5 text-[#e88d9d] shrink-0 ml-2" })]
 					})]
 				})
 			]
@@ -45696,7 +45714,7 @@ function uQ({ isActive: e = !0, className: t }) {
 //#region components/slide31-cards.tsx
 function dQ({ isActive: e = !0, className: t }) {
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: q("w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[620px] mx-auto my-auto", t),
+		className: q("w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[800px] mx-auto my-auto", t),
 		children: [/* @__PURE__ */ (0, z.jsxs)(H.div, {
 			initial: {
 				opacity: 0,
@@ -45716,7 +45734,7 @@ function dQ({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: "p-5 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] flex-1 relative overflow-hidden",
+			className: "px-5 py-4 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] flex-1 relative overflow-hidden",
 			children: [
 				/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 w-44 h-44 bg-[#8a2f3f]/18 rounded-full blur-3xl pointer-events-none" }),
 				/* @__PURE__ */ (0, z.jsxs)("div", {
@@ -45725,19 +45743,19 @@ function dQ({ isActive: e = !0, className: t }) {
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center justify-between mb-1.5",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-400 font-['Urbanist',sans-serif]",
+								className: "text-[14px] font-bold uppercase tracking-[0.2em] text-zinc-400 font-['Urbanist',sans-serif]",
 								children: "Tríade Deliberativa"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-semibold text-[#f8d7dc] bg-[#8a2f3f]/30 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/40",
+								className: "text-[14px] font-semibold text-[#f8d7dc] bg-[#8a2f3f]/30 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/40",
 								children: "Eixo 5 · Síntese"
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("h4", {
-							className: "text-[18px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
+							className: "text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
 							children: "Na Adolescência, Tratar É Compartilhar Decisões"
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11.5px] font-medium text-zinc-300 mt-1 leading-relaxed",
+							className: "text-[16px] font-medium text-zinc-300 mt-1 leading-snug",
 							children: "Três perspectivas distintas que necessitam de alinhamento e escuta mútua:"
 						})
 					]
@@ -45750,11 +45768,11 @@ function dQ({ isActive: e = !0, className: t }) {
 							children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "flex items-center gap-1.5 mb-1",
 								children: [/* @__PURE__ */ (0, z.jsx)(yh, { className: "w-3.5 h-3.5 text-zinc-400 shrink-0" }), /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[10px] font-bold uppercase tracking-wider text-zinc-400 font-['Urbanist',sans-serif]",
+									className: "text-[14px] font-bold uppercase tracking-wider text-zinc-400 font-['Urbanist',sans-serif]",
 									children: "Equipe"
 								})]
 							}), /* @__PURE__ */ (0, z.jsx)("p", {
-								className: "text-[11px] text-zinc-200 leading-snug font-medium m-0",
+								className: "text-[15px] text-zinc-200 leading-snug font-medium m-0",
 								children: "“Qual resultado técnico podemos alcançar?”"
 							})]
 						}),
@@ -45763,11 +45781,11 @@ function dQ({ isActive: e = !0, className: t }) {
 							children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "flex items-center gap-1.5 mb-1",
 								children: [/* @__PURE__ */ (0, z.jsx)(Nh, { className: "w-3.5 h-3.5 text-zinc-400 shrink-0" }), /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[10px] font-bold uppercase tracking-wider text-zinc-400 font-['Urbanist',sans-serif]",
+									className: "text-[14px] font-bold uppercase tracking-wider text-zinc-400 font-['Urbanist',sans-serif]",
 									children: "Família"
 								})]
 							}), /* @__PURE__ */ (0, z.jsx)("p", {
-								className: "text-[11px] text-zinc-200 leading-snug font-medium m-0",
+								className: "text-[15px] text-zinc-200 leading-snug font-medium m-0",
 								children: "“O que acreditamos ser melhor para o futuro?”"
 							})]
 						}),
@@ -45776,27 +45794,27 @@ function dQ({ isActive: e = !0, className: t }) {
 							children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "flex items-center gap-1.5 mb-1",
 								children: [/* @__PURE__ */ (0, z.jsx)(kh, { className: "w-3.5 h-3.5 text-[#f8a5b2] shrink-0" }), /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[10px] font-bold uppercase tracking-wider text-[#f8a5b2] font-['Urbanist',sans-serif]",
+									className: "text-[14px] font-bold uppercase tracking-wider text-[#f8a5b2] font-['Urbanist',sans-serif]",
 									children: "Adolescente"
 								})]
 							}), /* @__PURE__ */ (0, z.jsx)("p", {
-								className: "text-[11px] text-white leading-snug font-semibold m-0",
+								className: "text-[15px] text-white leading-snug font-semibold m-0",
 								children: "“O que é realmente importante para mim?”"
 							})]
 						})
 					]
 				}),
 				/* @__PURE__ */ (0, z.jsx)("p", {
-					className: "text-[11.5px] text-zinc-300 leading-snug m-0 relative z-10 font-normal",
+					className: "text-[16px] text-zinc-300 leading-snug m-0 relative z-10 font-normal",
 					children: "A condição craniofacial muda o desenvolvimento porque introduz experiências adicionais que interagem com cada etapa da trajetória."
 				}),
 				/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-xs font-semibold text-zinc-400",
+						className: "text-[16px] font-semibold text-zinc-400",
 						children: "Princípio decisório:"
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-xs font-bold text-[#f8d7dc] bg-[#8a2f3f]/25 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/35",
+						className: "text-[16px] font-bold text-[#f8d7dc] bg-[#8a2f3f]/25 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/35",
 						children: "Autonomia Crescente ≠ Decidir Sozinho"
 					})]
 				})
@@ -45820,25 +45838,25 @@ function dQ({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: "p-5 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between flex-1",
+			className: "px-5 py-4 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between flex-1",
 			children: [
 				/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center justify-between mb-1.5",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] font-bold uppercase tracking-[0.14em] text-[#8a2f3f] bg-[#8a2f3f]/[0.10] px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/25 font-['Urbanist',sans-serif]",
+							className: "text-[14px] font-bold uppercase tracking-[0.14em] text-[#8a2f3f] bg-[#8a2f3f]/[0.10] px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/25 font-['Urbanist',sans-serif]",
 							children: "Atuação Interdisciplinar"
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[11px] font-semibold text-[#5f6062]",
+							className: "text-[15px] font-semibold text-[#5f6062]",
 							children: "Esclarecimento Clínico"
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsx)("h4", {
-						className: "text-[17px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
+						className: "text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
 						children: "A Psicologia no Processo Decisório"
 					}),
 					/* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[11.5px] text-[#5f6062] mt-0.5",
+						className: "text-[16px] text-[#5f6062] mt-0.5",
 						children: "Papel de escuta clínica, alinhamento de expectativas e mediação reflexiva:"
 					})
 				] }),
@@ -45852,19 +45870,19 @@ function dQ({ isActive: e = !0, className: t }) {
 						"Pressões externas",
 						"Expressão de preferências"
 					].map((e) => /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "px-2.5 py-1 rounded-xl bg-[#f8f9fa] border border-black/[0.06] text-[11px] font-medium text-[#2d2e30]",
+						className: "px-2.5 py-1 rounded-xl bg-[#f8f9fa] border border-black/[0.06] text-[15px] font-medium text-[#2d2e30]",
 						children: e
 					}, e))
 				}),
 				/* @__PURE__ */ (0, z.jsx)("div", {
 					className: "p-2.5 rounded-2xl bg-[#fdf5f6] border border-[#8a2f3f]/20 my-1",
 					children: /* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[11.5px] text-[#8a2f3f] font-semibold m-0 leading-snug",
+						className: "text-[16px] text-[#8a2f3f] font-semibold m-0 leading-snug",
 						children: "Sem atribuir à Psicologia a função de autorizar ou vetar cirurgia — a escuta apoia a deliberação conjunta."
 					})
 				}),
 				/* @__PURE__ */ (0, z.jsxs)("p", {
-					className: "text-[11px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between",
+					className: "text-[15px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Desafio do protocolo clínico:" }), /* @__PURE__ */ (0, z.jsx)("span", {
 						className: "font-semibold text-[#8a2f3f]",
 						children: "Saber quando, onde e para quem agir"
@@ -45884,8 +45902,8 @@ var fQ = [
 		title: "Primeira Infância",
 		short: "0–5a",
 		icon: hh,
-		color: "#0071e3",
-		bgLight: "rgba(0, 113, 227, 0.08)",
+		color: "#4b6b4f",
+		bgLight: "rgba(75, 107, 79, 0.08)",
 		question: "“Está construindo as bases para aprender, comunicar-se e regular-se?”",
 		focus: "Linguagem, Comportamento e Família",
 		milestone: "Diagnóstico, 18m, 3 e 5 anos"
@@ -45937,12 +45955,12 @@ var fQ = [
 	5: "Alto",
 	6: "Foco prioritário"
 }, mQ = {
-	1: "bg-[#0071e3]/[0.08] border-[#0071e3]/[0.16]",
-	2: "bg-[#0071e3]/[0.20] border-[#0071e3]/[0.26]",
-	3: "bg-[#0071e3]/[0.40] border-[#0071e3]/[0.42]",
-	4: "bg-[#0071e3]/[0.62] border-[#0071e3]/[0.60]",
-	5: "bg-[#0071e3]/[0.82] border-[#0071e3]/[0.78]",
-	6: "bg-[#0071e3] border-[#005bb5] shadow-[0_2px_8px_rgba(0,113,227,0.32)]"
+	1: "bg-[#4b6b4f]/[0.08] border-[#4b6b4f]/[0.16]",
+	2: "bg-[#4b6b4f]/[0.20] border-[#4b6b4f]/[0.26]",
+	3: "bg-[#4b6b4f]/[0.40] border-[#4b6b4f]/[0.42]",
+	4: "bg-[#4b6b4f]/[0.62] border-[#4b6b4f]/[0.60]",
+	5: "bg-[#4b6b4f]/[0.82] border-[#4b6b4f]/[0.78]",
+	6: "bg-[#4b6b4f] border-[#365039] shadow-[0_2px_8px_rgba(75,107,79,0.32)]"
 }, hQ = [
 	{
 		tag: "A · Desenvolvimento e funcionamento",
@@ -46114,16 +46132,16 @@ function _Q({ isActive: e = !0 }) {
 		n(e);
 	}, l = a === null ? t : a, u = fQ[l];
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: "w-full h-full flex flex-row gap-7 items-start min-h-0 font-['Satoshi',sans-serif] text-[#0f1012]",
+		className: "w-full h-full flex flex-row gap-4 items-start min-h-0 font-['Satoshi',sans-serif] text-[#0f1012]",
 		children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-			className: "flex-1 flex flex-col min-h-0 bg-white/60 backdrop-blur-sm p-4 rounded-2xl border border-black/[0.06] shadow-[0_4px_24px_rgba(0,0,0,0.02)]",
+			className: "flex-1 flex flex-col min-h-0 bg-white/60 backdrop-blur-sm p-2.5 rounded-2xl border border-black/[0.06] shadow-[0_4px_24px_rgba(0,0,0,0.02)]",
 			children: [
 				/* @__PURE__ */ (0, z.jsxs)("div", {
-					className: "grid grid-cols-[330px_repeat(4,1fr)] gap-x-2.5 items-end px-2 pb-2.5 border-b border-black/[0.08]",
+					className: "grid grid-cols-[330px_repeat(4,1fr)] gap-x-2.5 items-end px-2 pb-2 border-b border-black/[0.08]",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
 						className: "flex items-center gap-2",
 						children: /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[11px] font-bold uppercase tracking-[0.14em] text-[#5f6062]",
+							className: "text-[14px] font-bold uppercase tracking-[0.14em] text-[#5f6062]",
 							children: "Domínios e Linhas de Cuidado"
 						})
 					}), fQ.map((e, t) => {
@@ -46133,11 +46151,11 @@ function _Q({ isActive: e = !0 }) {
 							onClick: () => c(t),
 							onMouseEnter: () => o(t),
 							onMouseLeave: () => o(null),
-							className: q("relative flex flex-col items-center justify-center py-2 px-1 rounded-xl transition-all duration-200 cursor-pointer group text-center", n ? "bg-[#0071e3]/[0.10] ring-1 ring-[#0071e3]/30 shadow-sm" : "hover:bg-black/[0.03]"),
+							className: q("relative flex flex-col items-center justify-center py-2 px-1 rounded-xl transition-all duration-200 cursor-pointer group text-center", n ? "bg-[#4b6b4f]/[0.10] ring-1 ring-[#4b6b4f]/30 shadow-sm" : "hover:bg-black/[0.03]"),
 							children: [
 								n && /* @__PURE__ */ (0, z.jsx)(H.div, {
 									layoutId: "active-col-pill",
-									className: "absolute -top-1 w-8 h-1 bg-[#0071e3] rounded-full",
+									className: "absolute -top-1 w-8 h-1 bg-[#4b6b4f] rounded-full",
 									transition: {
 										type: "spring",
 										stiffness: 350,
@@ -46145,11 +46163,11 @@ function _Q({ isActive: e = !0 }) {
 									}
 								}),
 								/* @__PURE__ */ (0, z.jsx)("span", {
-									className: q("font-['Urbanist',sans-serif] text-[20px] font-bold tracking-tight transition-colors leading-tight", n ? "text-[#0071e3]" : "text-[#0f1012]"),
+									className: q("font-['Urbanist',sans-serif] text-[18px] font-bold tracking-tight transition-colors leading-tight", n ? "text-[#4b6b4f]" : "text-[#0f1012]"),
 									children: e.range
 								}),
 								/* @__PURE__ */ (0, z.jsx)("span", {
-									className: q("text-[11px] font-bold uppercase tracking-[0.06em] mt-0.5 transition-colors", n ? "text-[#0071e3]" : "text-[#0071e3]/70"),
+									className: q("text-[14px] font-bold uppercase tracking-[0.06em] mt-0.5 transition-colors", n ? "text-[#4b6b4f]" : "text-[#4b6b4f]/70"),
 									children: e.title
 								})
 							]
@@ -46163,20 +46181,20 @@ function _Q({ isActive: e = !0 }) {
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center gap-3 px-2 mt-2 mb-1",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
-								className: "font-['Urbanist',sans-serif] text-[13px] font-bold uppercase tracking-[0.1em] text-[#0071e3] whitespace-nowrap",
+								className: "font-['Urbanist',sans-serif] text-[14px] font-bold uppercase tracking-[0.1em] text-[#4b6b4f] whitespace-nowrap",
 								children: e.tag
-							}), /* @__PURE__ */ (0, z.jsx)("div", { className: "flex-1 h-[1px] bg-gradient-to-r from-[#0071e3]/25 via-[#0071e3]/10 to-transparent" })]
+							}), /* @__PURE__ */ (0, z.jsx)("div", { className: "flex-1 h-[1px] bg-gradient-to-r from-[#4b6b4f]/25 via-[#4b6b4f]/10 to-transparent" })]
 						}), e.rows.map((e) => /* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "grid grid-cols-[330px_repeat(4,1fr)] gap-x-2.5 items-center px-2 py-[2.5px] rounded-lg hover:bg-black/[0.02] transition-colors group/row",
 							children: [/* @__PURE__ */ (0, z.jsx)("p", {
-								className: "m-0 text-[15px] font-medium text-[#2c2d30] tracking-[-0.1px] truncate group-hover/row:text-[#0f1012]",
+								className: "m-0 text-[16px] font-medium text-[#2c2d30] tracking-[-0.1px] leading-tight group-hover/row:text-[#0f1012]",
 								title: e.label,
 								children: e.label
 							}), e.levels.map((e, t) => {
 								let n = l === t;
 								return /* @__PURE__ */ (0, z.jsx)("div", {
 									onClick: () => c(t),
-									className: q("h-[22px] rounded-[5px] border flex items-center justify-center cursor-pointer transition-all duration-150 relative", mQ[e], n ? "scale-[1.03] ring-1 ring-[#0071e3]/40 brightness-105 z-10" : "opacity-85 hover:opacity-100 hover:scale-[1.02]"),
+									className: q("h-[22px] rounded-[5px] border flex items-center justify-center cursor-pointer transition-all duration-150 relative", mQ[e], n ? "scale-[1.03] ring-1 ring-[#4b6b4f]/40 brightness-105 z-10" : "opacity-85 hover:opacity-100 hover:scale-[1.02]"),
 									title: `${fQ[t].range}: ${pQ[e]}`
 								}, t);
 							})]
@@ -46188,7 +46206,7 @@ function _Q({ isActive: e = !0 }) {
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
 						className: "flex items-center",
 						children: /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "font-['Urbanist',sans-serif] text-[12px] font-bold uppercase tracking-[0.1em] text-[#0071e3]",
+							className: "font-['Urbanist',sans-serif] text-[16px] font-bold uppercase tracking-[0.1em] text-[#4b6b4f]",
 							children: "Pergunta-Chave por Fase"
 						})
 					}), fQ.map((e, t) => {
@@ -46196,9 +46214,9 @@ function _Q({ isActive: e = !0 }) {
 						return /* @__PURE__ */ (0, z.jsx)("button", {
 							type: "button",
 							onClick: () => c(t),
-							className: q("p-2.5 rounded-xl border text-left transition-all duration-200 cursor-pointer flex flex-col justify-center", n ? "bg-[#0071e3]/[0.08] border-[#0071e3]/40 shadow-sm ring-1 ring-[#0071e3]/30 -translate-y-0.5" : "bg-[#f8fbfe] border-[#0071e3]/15 hover:border-[#0071e3]/30 hover:bg-[#f2f8fd]"),
+							className: q("p-2.5 rounded-xl border text-left transition-all duration-200 cursor-pointer flex flex-col justify-center", n ? "bg-[#4b6b4f]/[0.08] border-[#4b6b4f]/40 shadow-sm ring-1 ring-[#4b6b4f]/30 -translate-y-0.5" : "bg-[#f6f9f6] border-[#4b6b4f]/15 hover:border-[#4b6b4f]/30 hover:bg-[#eef3ec]"),
 							children: /* @__PURE__ */ (0, z.jsx)("p", {
-								className: q("m-0 text-[12px] leading-snug font-medium transition-colors", n ? "text-[#0071e3] font-semibold" : "text-[#3f4042]"),
+								className: q("m-0 text-[15px] leading-snug font-medium transition-colors", n ? "text-[#4b6b4f] font-semibold" : "text-[#3f4042]"),
 								children: e.question
 							})
 						}, `q-${e.id}`);
@@ -46206,35 +46224,35 @@ function _Q({ isActive: e = !0 }) {
 				})
 			]
 		}), /* @__PURE__ */ (0, z.jsxs)("div", {
-			className: "w-[360px] flex-none flex flex-col gap-3.5",
+			className: "w-[380px] flex-none flex flex-col gap-2",
 			children: [
 				/* @__PURE__ */ (0, z.jsxs)("div", {
-					className: "p-4 rounded-2xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col items-center relative overflow-hidden",
+					className: "p-2.5 rounded-2xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col items-center relative overflow-hidden",
 					children: [
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "w-full flex items-center justify-between pb-2 mb-1 border-b border-black/[0.06]",
 							children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "flex items-center gap-2",
-								children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-2 h-2 rounded-full bg-[#0071e3] animate-pulse" }), /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[11px] font-bold uppercase tracking-[0.12em] text-[#5f6062]",
+								children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-2 h-2 rounded-full bg-[#4b6b4f] animate-pulse" }), /* @__PURE__ */ (0, z.jsx)("span", {
+									className: "text-[15px] font-bold uppercase tracking-[0.12em] text-[#5f6062]",
 									children: "Hub de Fases · Eixo 6"
 								})]
 							}), /* @__PURE__ */ (0, z.jsx)("button", {
 								type: "button",
 								onClick: () => i(!r),
-								className: q("flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-semibold transition-all cursor-pointer", r ? "bg-[#0071e3]/10 text-[#0071e3] hover:bg-[#0071e3]/15" : "bg-black/[0.05] text-[#6a6b6d] hover:bg-black/[0.08]"),
+								className: q("flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[15px] font-semibold transition-all cursor-pointer", r ? "bg-[#4b6b4f]/10 text-[#4b6b4f] hover:bg-[#4b6b4f]/15" : "bg-black/[0.05] text-[#6a6b6d] hover:bg-black/[0.08]"),
 								title: r ? "Pausar rotação automática" : "Iniciar rotação automática",
 								children: r ? /* @__PURE__ */ (0, z.jsxs)(z.Fragment, { children: [/* @__PURE__ */ (0, z.jsx)(Gm, {
-									size: 12,
+									size: 16,
 									className: "fill-current"
 								}), /* @__PURE__ */ (0, z.jsx)("span", { children: "Spotlight" })] }) : /* @__PURE__ */ (0, z.jsxs)(z.Fragment, { children: [/* @__PURE__ */ (0, z.jsx)(qm, {
-									size: 12,
+									size: 16,
 									className: "fill-current"
 								}), /* @__PURE__ */ (0, z.jsx)("span", { children: "Pausado" })] })
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "relative w-[210px] h-[190px] flex items-center justify-center my-1",
+							className: "relative w-[210px] h-[190px] flex items-center justify-center mt-1 mb-6",
 							children: [
 								/* @__PURE__ */ (0, z.jsx)("svg", {
 									className: "absolute inset-0 w-full h-full pointer-events-none",
@@ -46244,7 +46262,7 @@ function _Q({ isActive: e = !0 }) {
 										cy: "95",
 										r: 76,
 										fill: "none",
-										stroke: "rgba(0, 113, 227, 0.12)",
+										stroke: "rgba(75, 107, 79, 0.20)",
 										strokeWidth: "1.5",
 										strokeDasharray: "4 4"
 									})
@@ -46265,10 +46283,10 @@ function _Q({ isActive: e = !0 }) {
 											width: 42,
 											height: 42
 										},
-										className: q("rounded-full flex items-center justify-center cursor-pointer transition-all duration-200 z-10", i ? "bg-[#0071e3] text-white shadow-[0_4px_14px_rgba(0,113,227,0.42)] ring-4 ring-[#0071e3]/20" : "bg-[#f4f9fe] text-[#2c2d30] border border-[#0071e3]/25 hover:bg-[#0071e3]/10 hover:border-[#0071e3]"),
+										className: q("rounded-full flex items-center justify-center cursor-pointer transition-all duration-200 z-10", i ? "bg-[#4b6b4f] text-white shadow-[0_4px_14px_rgba(75,107,79,0.42)] ring-4 ring-[#4b6b4f]/20" : "bg-[#f6f9f6] text-[#2c2d30] border border-[#4b6b4f]/25 hover:bg-[#4b6b4f]/10 hover:border-[#4b6b4f]"),
 										title: `${e.range} - ${e.title}`,
 										children: [/* @__PURE__ */ (0, z.jsx)(a, { size: 18 }), /* @__PURE__ */ (0, z.jsx)("span", {
-											className: q("absolute top-full mt-1 text-[10px] font-bold uppercase tracking-[0.05em] whitespace-nowrap transition-colors", i ? "text-[#0071e3]" : "text-[#6a6b6d]"),
+											className: q("absolute top-full mt-1 text-[14px] font-bold uppercase tracking-[0.03em] whitespace-nowrap transition-colors", i ? "text-[#4b6b4f]" : "text-[#6a6b6d]"),
 											children: e.short
 										})]
 									}, e.id);
@@ -46286,38 +46304,38 @@ function _Q({ isActive: e = !0 }) {
 											ease: "easeInOut"
 										}
 									},
-									className: "z-20 flex flex-col items-center justify-center w-[64px] h-[64px] rounded-full bg-gradient-to-br from-[#0071e3] to-[#005bb5] text-white shadow-[0_4px_16px_rgba(0,113,227,0.35)] cursor-pointer",
+									className: "z-20 flex flex-col items-center justify-center w-[64px] h-[64px] rounded-full bg-gradient-to-br from-[#4b6b4f] to-[#365039] text-white shadow-[0_4px_16px_rgba(75,107,79,0.35)] cursor-pointer",
 									onClick: () => {
 										n((e) => (e + 1) % fQ.length);
 									},
 									children: [/* @__PURE__ */ (0, z.jsx)(Fm, { size: 18 }), /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[9px] font-bold tracking-[0.04em] uppercase mt-0.5",
+										className: "text-[14px] font-bold tracking-[0.02em] uppercase mt-0.5 leading-none",
 										children: "Eixo 6"
 									})]
 								})
 							]
 						}),
 						/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "w-full mt-2 bg-[#f8fbfe] border border-[#0071e3]/20 rounded-xl p-2.5 flex flex-col gap-1",
+							className: "w-full mt-2 bg-[#f6f9f6] border border-[#4b6b4f]/20 rounded-xl p-2.5 flex flex-col gap-1",
 							children: [
 								/* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "flex items-center justify-between",
 									children: [/* @__PURE__ */ (0, z.jsxs)("span", {
-										className: "text-[11px] font-bold uppercase tracking-[0.1em] text-[#0071e3]",
+										className: "text-[14px] font-bold uppercase tracking-[0.1em] text-[#4b6b4f]",
 										children: ["Fase em Foco · ", u.range]
 									}), /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[11px] font-semibold text-[#5f6062]",
+										className: "text-[14px] font-semibold text-[#5f6062]",
 										children: u.title
 									})]
 								}),
 								/* @__PURE__ */ (0, z.jsx)("p", {
-									className: "m-0 text-[13px] text-[#0f1012] font-semibold leading-tight",
+									className: "m-0 text-[15px] text-[#0f1012] font-semibold leading-snug",
 									children: u.question
 								}),
 								/* @__PURE__ */ (0, z.jsxs)("div", {
-									className: "flex items-center justify-between text-[11px] text-[#6a6b6d] pt-1 border-t border-black/[0.05] mt-0.5",
+									className: "flex items-center justify-between gap-2 text-[14px] text-[#5f6062] pt-1 border-t border-black/[0.05] mt-0.5",
 									children: [/* @__PURE__ */ (0, z.jsxs)("span", { children: ["Foco: ", u.focus] }), /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "font-medium text-[#0071e3]",
+										className: "font-medium text-[#4b6b4f]",
 										children: u.milestone
 									})]
 								})
@@ -46326,15 +46344,15 @@ function _Q({ isActive: e = !0 }) {
 					]
 				}),
 				/* @__PURE__ */ (0, z.jsxs)("div", {
-					className: "p-3.5 rounded-2xl bg-white border border-black/[0.08] shadow-[0_2px_12px_rgba(0,0,0,0.02)]",
+					className: "p-2.5 rounded-2xl bg-white border border-black/[0.08] shadow-[0_2px_12px_rgba(0,0,0,0.02)]",
 					children: [
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex justify-between items-center",
 							children: [/* @__PURE__ */ (0, z.jsx)("p", {
-								className: "m-0 text-[12px] font-bold tracking-[0.1em] uppercase text-[#5f6062]",
+								className: "m-0 text-[14px] font-bold tracking-[0.1em] uppercase text-[#5f6062]",
 								children: "Relevância relativa"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[11px] text-[#868788]",
+								className: "text-[14px] text-[#5f6062]",
 								children: "Qualitativa"
 							})]
 						}),
@@ -46353,24 +46371,24 @@ function _Q({ isActive: e = !0 }) {
 							}, e))
 						}),
 						/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex justify-between text-[11px] text-[#6a6b6d]",
+							className: "flex justify-between text-[14px] text-[#5f6062]",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "menor" }), /* @__PURE__ */ (0, z.jsx)("span", { children: "maior" })]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "m-0 mt-1.5 text-[11px] leading-[1.35] text-[#6a6b6d]",
+							className: "m-0 mt-1.5 text-[14px] leading-[1.35] text-[#5f6062]",
 							children: "Escala qualitativa — sem valores numéricos."
 						})
 					]
 				}),
 				/* @__PURE__ */ (0, z.jsxs)("div", {
-					className: "p-3.5 rounded-2xl bg-[#f4f9fe] border border-[#0071e3]/[0.18] shadow-sm",
+					className: "p-2.5 rounded-2xl bg-[#f6f9f6] border border-[#4b6b4f]/[0.18] shadow-sm",
 					children: [
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "m-0 mb-1 text-[12px] font-bold tracking-[0.08em] uppercase text-[#0071e3]",
+							className: "m-0 mb-1 text-[14px] font-bold tracking-[0.08em] uppercase text-[#4b6b4f]",
 							children: "Arquitetura longitudinal"
 						}),
 						/* @__PURE__ */ (0, z.jsxs)("p", {
-							className: "m-0 text-[14px] leading-snug text-[#2c2d30]",
+							className: "m-0 text-[15px] leading-snug text-[#2c2d30]",
 							children: [
 								"Domínios avaliados em pontos-chave:",
 								" ",
@@ -46382,22 +46400,22 @@ function _Q({ isActive: e = !0 }) {
 							]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "m-0 mt-1 text-[11px] text-[#6a6b6d] leading-tight",
+							className: "m-0 mt-1 text-[14px] text-[#5f6062] leading-snug",
 							children: "Exemplo de arquitetura, não calendário obrigatório."
 						})
 					]
 				}),
 				/* @__PURE__ */ (0, z.jsxs)("div", {
-					className: "p-3.5 rounded-2xl bg-white border border-black/[0.08] shadow-sm",
+					className: "p-2.5 rounded-2xl bg-white border border-black/[0.08] shadow-sm",
 					children: [/* @__PURE__ */ (0, z.jsxs)("p", {
-						className: "m-0 font-['Urbanist',sans-serif] text-[18px] font-bold tracking-tight text-[#0071e3] leading-tight",
+						className: "m-0 font-['Urbanist',sans-serif] text-[19px] font-bold tracking-tight text-[#4b6b4f] leading-tight",
 						children: [
 							"Domínios permanecem;",
 							/* @__PURE__ */ (0, z.jsx)("br", {}),
 							"prioridades mudam."
 						]
 					}), /* @__PURE__ */ (0, z.jsx)("p", {
-						className: "m-0 mt-1.5 text-[13px] leading-relaxed text-[#3f4042]",
+						className: "m-0 mt-1.5 text-[15px] leading-snug text-[#3f4042]",
 						children: "Estável para permitir comparação longitudinal; flexível para perguntar o que importa em cada idade."
 					})]
 				})
@@ -46430,10 +46448,10 @@ function vQ({ isActive: e = !0 }) {
 									y2: "100%",
 									children: [/* @__PURE__ */ (0, z.jsx)("stop", {
 										offset: "0%",
-										stopColor: "#005bb5"
+										stopColor: "#365039"
 									}), /* @__PURE__ */ (0, z.jsx)("stop", {
 										offset: "100%",
-										stopColor: "#0071e3"
+										stopColor: "#4b6b4f"
 									})]
 								}),
 								/* @__PURE__ */ (0, z.jsxs)("linearGradient", {
@@ -46444,10 +46462,10 @@ function vQ({ isActive: e = !0 }) {
 									y2: "100%",
 									children: [/* @__PURE__ */ (0, z.jsx)("stop", {
 										offset: "0%",
-										stopColor: "#e1eefc"
+										stopColor: "#e2ebe3"
 									}), /* @__PURE__ */ (0, z.jsx)("stop", {
 										offset: "100%",
-										stopColor: "#cde4fa"
+										stopColor: "#c4dac7"
 									})]
 								}),
 								/* @__PURE__ */ (0, z.jsxs)("linearGradient", {
@@ -46458,10 +46476,10 @@ function vQ({ isActive: e = !0 }) {
 									y2: "100%",
 									children: [/* @__PURE__ */ (0, z.jsx)("stop", {
 										offset: "0%",
-										stopColor: "#f3f8fd"
+										stopColor: "#f5f8f5"
 									}), /* @__PURE__ */ (0, z.jsx)("stop", {
 										offset: "100%",
-										stopColor: "#e4f0fc"
+										stopColor: "#eaf1eb"
 									})]
 								}),
 								/* @__PURE__ */ (0, z.jsx)("filter", {
@@ -46474,7 +46492,7 @@ function vQ({ isActive: e = !0 }) {
 										dx: "0",
 										dy: "4",
 										stdDeviation: "8",
-										floodColor: "#0071e3",
+										floodColor: "#4b6b4f",
 										floodOpacity: "0.22"
 									})
 								})
@@ -46490,7 +46508,7 @@ function vQ({ isActive: e = !0 }) {
 								children: [/* @__PURE__ */ (0, z.jsx)("polygon", {
 									points: "146,218 574,218 694,318 26,318",
 									fill: "url(#pyrUniversalGrad)",
-									stroke: "#0071e3",
+									stroke: "#4b6b4f",
 									strokeWidth: t === 2 ? "2" : "1.4",
 									strokeOpacity: t === 2 ? "0.85" : "0.45",
 									filter: t === 2 ? "url(#pyrGlow)" : void 0,
@@ -46500,13 +46518,13 @@ function vQ({ isActive: e = !0 }) {
 									textAnchor: "middle",
 									children: [
 										/* @__PURE__ */ (0, z.jsx)("rect", {
-											x: "-96",
-											y: "-14",
-											width: "192",
-											height: "26",
+											x: "-106",
+											y: "-15",
+											width: "212",
+											height: "28",
 											rx: "13",
 											fill: "#ffffff",
-											stroke: "#0071e3",
+											stroke: "#4b6b4f",
 											strokeWidth: "1.2",
 											strokeOpacity: "0.3"
 										}),
@@ -46514,29 +46532,29 @@ function vQ({ isActive: e = !0 }) {
 											x: "0",
 											y: "4",
 											fontFamily: "'Urbanist', sans-serif",
-											fontSize: "15",
+											fontSize: "16",
 											fontWeight: "800",
-											fill: "#0071e3",
-											letterSpacing: "0.06em",
+											fill: "#4b6b4f",
+											letterSpacing: "0.05em",
 											children: "UNIVERSAL · 59,9%"
 										}),
 										/* @__PURE__ */ (0, z.jsx)("text", {
 											x: "0",
 											y: "34",
 											fontFamily: "'Satoshi', sans-serif",
-											fontSize: "13.5",
+											fontSize: "16",
 											fontWeight: "600",
-											fill: "#1e293b",
-											children: "rastreamento para todos"
+											fill: "#0f172a",
+											children: "risco basal"
 										}),
 										/* @__PURE__ */ (0, z.jsx)("text", {
 											x: "0",
-											y: "52",
+											y: "53",
 											fontFamily: "'Satoshi', sans-serif",
-											fontSize: "12",
+											fontSize: "15",
 											fontWeight: "500",
-											fill: "#64748b",
-											children: "breve · padronizado · repetível"
+											fill: "#475569",
+											children: "rastreio sistemático universal (ex.: PAT-CV)"
 										})
 									]
 								})]
@@ -46552,7 +46570,7 @@ function vQ({ isActive: e = !0 }) {
 								children: [/* @__PURE__ */ (0, z.jsx)("polygon", {
 									points: "252,116 468,116 568,212 152,212",
 									fill: "url(#pyrTargetedGrad)",
-									stroke: "#0071e3",
+									stroke: "#4b6b4f",
 									strokeWidth: t === 1 ? "2" : "1.4",
 									strokeOpacity: t === 1 ? "0.9" : "0.55",
 									filter: t === 1 ? "url(#pyrGlow)" : void 0,
@@ -46562,13 +46580,13 @@ function vQ({ isActive: e = !0 }) {
 									textAnchor: "middle",
 									children: [
 										/* @__PURE__ */ (0, z.jsx)("rect", {
-											x: "-92",
-											y: "-14",
-											width: "184",
-											height: "26",
+											x: "-104",
+											y: "-15",
+											width: "208",
+											height: "28",
 											rx: "13",
 											fill: "#ffffff",
-											stroke: "#0071e3",
+											stroke: "#4b6b4f",
 											strokeWidth: "1.2",
 											strokeOpacity: "0.4"
 										}),
@@ -46576,26 +46594,26 @@ function vQ({ isActive: e = !0 }) {
 											x: "0",
 											y: "4",
 											fontFamily: "'Urbanist', sans-serif",
-											fontSize: "14.5",
+											fontSize: "16",
 											fontWeight: "800",
-											fill: "#005bb5",
+											fill: "#365039",
 											letterSpacing: "0.06em",
 											children: "TARGETED · 32,3%"
 										}),
 										/* @__PURE__ */ (0, z.jsx)("text", {
 											x: "0",
-											y: "33",
+											y: "34",
 											fontFamily: "'Satoshi', sans-serif",
-											fontSize: "13",
+											fontSize: "16",
 											fontWeight: "600",
 											fill: "#0f172a",
 											children: "risco aumentado ou preocupação"
 										}),
 										/* @__PURE__ */ (0, z.jsx)("text", {
 											x: "0",
-											y: "50",
+											y: "53",
 											fontFamily: "'Satoshi', sans-serif",
-											fontSize: "11.5",
+											fontSize: "15",
 											fontWeight: "500",
 											fill: "#475569",
 											children: "entrevista ampliada · instrumentos específicos"
@@ -46611,58 +46629,77 @@ function vQ({ isActive: e = !0 }) {
 									opacity: t !== null && t !== 0 ? .45 : 1,
 									transform: t === 0 ? "translateY(-1.5px)" : "translateY(0)"
 								},
-								children: [/* @__PURE__ */ (0, z.jsx)("polygon", {
-									points: "360,14 468,110 252,110",
-									fill: "url(#pyrClinicalGrad)",
-									stroke: "#0071e3",
-									strokeWidth: t === 0 ? "2" : "1.4",
-									filter: t === 0 ? "url(#pyrGlow)" : void 0,
-									className: "transition-all duration-300"
-								}), /* @__PURE__ */ (0, z.jsxs)("g", {
-									transform: "translate(360, 68)",
-									textAnchor: "middle",
-									children: [
-										/* @__PURE__ */ (0, z.jsx)("rect", {
-											x: "-54",
-											y: "-11",
-											width: "108",
-											height: "22",
-											rx: "11",
-											fill: "rgba(255,255,255,0.25)",
-											stroke: "#ffffff",
-											strokeWidth: "1.1",
-											strokeOpacity: "0.75"
-										}),
-										/* @__PURE__ */ (0, z.jsx)("text", {
-											x: "0",
-											y: "4.5",
-											fontFamily: "'Urbanist', sans-serif",
-											fontSize: "11.5",
-											fontWeight: "800",
-											fill: "#ffffff",
-											letterSpacing: "0.06em",
-											children: "CLINICAL · 7,8%"
-										}),
-										/* @__PURE__ */ (0, z.jsx)("text", {
-											x: "0",
-											y: "22",
-											fontFamily: "'Satoshi', sans-serif",
-											fontSize: "11",
-											fontWeight: "600",
-											fill: "#ffffff",
-											children: "avaliação diagnóstica"
-										}),
-										/* @__PURE__ */ (0, z.jsx)("text", {
-											x: "0",
-											y: "34",
-											fontFamily: "'Satoshi', sans-serif",
-											fontSize: "10",
-											fontWeight: "500",
-											fill: "#e2e8f0",
-											children: "intervenção · encaminhamento"
-										})
-									]
-								})]
+								children: [
+									/* @__PURE__ */ (0, z.jsx)("polygon", {
+										points: "360,14 468,110 252,110",
+										fill: "url(#pyrClinicalGrad)",
+										stroke: "#4b6b4f",
+										strokeWidth: t === 0 ? "2" : "1.4",
+										filter: t === 0 ? "url(#pyrGlow)" : void 0,
+										className: "transition-all duration-300"
+									}),
+									/* @__PURE__ */ (0, z.jsx)("line", {
+										x1: "414",
+										y1: "62",
+										x2: "484",
+										y2: "44",
+										stroke: "#4b6b4f",
+										strokeWidth: "1.4",
+										strokeOpacity: "0.6",
+										strokeDasharray: "3 3"
+									}),
+									/* @__PURE__ */ (0, z.jsx)("circle", {
+										cx: "414",
+										cy: "62",
+										r: "3",
+										fill: "#4b6b4f"
+									}),
+									/* @__PURE__ */ (0, z.jsxs)("g", {
+										transform: "translate(490, 44)",
+										textAnchor: "start",
+										children: [
+											/* @__PURE__ */ (0, z.jsx)("rect", {
+												x: "0",
+												y: "-15",
+												width: "170",
+												height: "28",
+												rx: "14",
+												fill: "#4b6b4f",
+												stroke: "#365039",
+												strokeWidth: "1.1"
+											}),
+											/* @__PURE__ */ (0, z.jsx)("text", {
+												x: "85",
+												y: "5",
+												textAnchor: "middle",
+												fontFamily: "'Urbanist', sans-serif",
+												fontSize: "16",
+												fontWeight: "800",
+												fill: "#ffffff",
+												letterSpacing: "0.05em",
+												children: "CLINICAL · 7,8%"
+											}),
+											/* @__PURE__ */ (0, z.jsx)("text", {
+												x: "2",
+												y: "36",
+												fontFamily: "'Satoshi', sans-serif",
+												fontSize: "16",
+												fontWeight: "600",
+												fill: "#0f172a",
+												children: "avaliação diagnóstica"
+											}),
+											/* @__PURE__ */ (0, z.jsx)("text", {
+												x: "2",
+												y: "56",
+												fontFamily: "'Satoshi', sans-serif",
+												fontSize: "16",
+												fontWeight: "500",
+												fill: "#475569",
+												children: "intervenção · encaminhamento"
+											})
+										]
+									})
+								]
 							})
 						]
 					})
@@ -46672,9 +46709,9 @@ function vQ({ isActive: e = !0 }) {
 						className: "flex flex-col items-center justify-between h-full w-5",
 						children: [
 							/* @__PURE__ */ (0, z.jsx)("div", {
-								className: "w-5 h-5 rounded-full bg-[#0071e3] text-white flex items-center justify-center shadow-xs",
+								className: "w-5 h-5 rounded-full bg-[#4b6b4f] text-white flex items-center justify-center shadow-xs",
 								children: /* @__PURE__ */ (0, z.jsx)("svg", {
-									className: "w-3 h-3",
+									className: "w-4 h-4",
 									fill: "none",
 									stroke: "currentColor",
 									strokeWidth: "2.5",
@@ -46687,10 +46724,10 @@ function vQ({ isActive: e = !0 }) {
 								})
 							}),
 							/* @__PURE__ */ (0, z.jsxs)("div", {
-								className: "relative flex-1 w-[2px] bg-gradient-to-t from-slate-300 via-[#0071e3]/60 to-[#0071e3] my-1.5",
+								className: "relative flex-1 w-[2px] bg-gradient-to-t from-slate-300 via-[#4b6b4f]/60 to-[#4b6b4f] my-1.5",
 								children: [
-									/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-[18%] -left-1.5 w-3 h-[1.5px] bg-[#0071e3]" }),
-									/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-[52%] -left-1.5 w-3 h-[1.5px] bg-[#0071e3]/70" }),
+									/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-[18%] -left-1.5 w-3 h-[1.5px] bg-[#4b6b4f]" }),
+									/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-[52%] -left-1.5 w-3 h-[1.5px] bg-[#4b6b4f]/70" }),
 									/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-[86%] -left-1.5 w-3 h-[1.5px] bg-slate-400" })
 								]
 							}),
@@ -46699,7 +46736,7 @@ function vQ({ isActive: e = !0 }) {
 					}), /* @__PURE__ */ (0, z.jsx)("div", {
 						className: "flex items-center justify-center h-full",
 						children: /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "font-['Urbanist'] text-[11px] font-bold text-slate-500 tracking-[0.16em] uppercase whitespace-nowrap",
+							className: "font-['Urbanist'] text-[15px] font-bold text-slate-500 tracking-[0.16em] uppercase whitespace-nowrap",
 							style: {
 								writingMode: "vertical-rl",
 								transform: "rotate(180deg)"
@@ -46719,10 +46756,10 @@ function vQ({ isActive: e = !0 }) {
 							onMouseEnter: () => n(2),
 							onMouseLeave: () => n(null),
 							children: [/* @__PURE__ */ (0, z.jsx)("p", {
-								className: "m-0 font-['Urbanist'] text-[22px] font-bold text-[#0071e3] leading-none",
+								className: "m-0 font-['Urbanist'] text-[22px] font-bold text-[#4b6b4f] leading-none",
 								children: "59,9%"
 							}), /* @__PURE__ */ (0, z.jsx)("p", {
-								className: "m-0 mt-0.5 font-['Satoshi'] text-[11px] font-semibold text-slate-500 uppercase tracking-wide",
+								className: "m-0 mt-0.5 font-['Satoshi'] text-[15px] font-semibold text-slate-500 uppercase tracking-wide",
 								children: "universal"
 							})]
 						}),
@@ -46731,10 +46768,10 @@ function vQ({ isActive: e = !0 }) {
 							onMouseEnter: () => n(1),
 							onMouseLeave: () => n(null),
 							children: [/* @__PURE__ */ (0, z.jsx)("p", {
-								className: "m-0 font-['Urbanist'] text-[22px] font-bold text-[#0071e3] leading-none",
+								className: "m-0 font-['Urbanist'] text-[22px] font-bold text-[#4b6b4f] leading-none",
 								children: "32,3%"
 							}), /* @__PURE__ */ (0, z.jsx)("p", {
-								className: "m-0 mt-0.5 font-['Satoshi'] text-[11px] font-semibold text-slate-500 uppercase tracking-wide",
+								className: "m-0 mt-0.5 font-['Satoshi'] text-[15px] font-semibold text-slate-500 uppercase tracking-wide",
 								children: "targeted"
 							})]
 						}),
@@ -46743,15 +46780,15 @@ function vQ({ isActive: e = !0 }) {
 							onMouseEnter: () => n(0),
 							onMouseLeave: () => n(null),
 							children: [/* @__PURE__ */ (0, z.jsx)("p", {
-								className: "m-0 font-['Urbanist'] text-[22px] font-bold text-[#0071e3] leading-none",
+								className: "m-0 font-['Urbanist'] text-[22px] font-bold text-[#4b6b4f] leading-none",
 								children: "7,8%"
 							}), /* @__PURE__ */ (0, z.jsx)("p", {
-								className: "m-0 mt-0.5 font-['Satoshi'] text-[11px] font-semibold text-slate-500 uppercase tracking-wide",
+								className: "m-0 mt-0.5 font-['Satoshi'] text-[15px] font-semibold text-slate-500 uppercase tracking-wide",
 								children: "clinical"
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsxs)("p", {
-							className: "m-0 flex-1 font-['Satoshi'] text-[11px] leading-snug text-slate-500 pl-3 border-l border-slate-200",
+							className: "m-0 flex-1 font-['Satoshi'] text-[15px] leading-snug text-slate-600 pl-3 border-l border-slate-200",
 							children: [/* @__PURE__ */ (0, z.jsx)("strong", {
 								className: "text-slate-700",
 								children: "PAT-CV"
@@ -46779,8 +46816,8 @@ function vQ({ isActive: e = !0 }) {
 						1
 					]
 				},
-				className: "group relative w-full overflow-hidden rounded-3xl border border-white/12 bg-[#0f1012] text-white shadow-[0_8px_30px_rgba(0,0,0,0.18)] hover:shadow-[0_12px_36px_rgba(0,113,227,0.22)] hover:border-[#0071e3]/40 transition-all duration-300 p-3.5 mt-1",
-				children: [/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 w-44 h-44 bg-[#0071e3]/20 rounded-full blur-3xl pointer-events-none" }), /* @__PURE__ */ (0, z.jsxs)("div", {
+				className: "group relative w-full overflow-hidden rounded-3xl border border-white/12 bg-[#0f1012] text-white shadow-[0_8px_30px_rgba(0,0,0,0.18)] hover:shadow-[0_12px_36px_rgba(75,107,79,0.22)] hover:border-[#4b6b4f]/40 transition-all duration-300 px-4 py-3 mt-1",
+				children: [/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 w-44 h-44 bg-[#4b6b4f]/20 rounded-full blur-3xl pointer-events-none" }), /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "relative z-10 flex flex-col justify-between",
 					children: [
 						/* @__PURE__ */ (0, z.jsxs)("div", {
@@ -46788,15 +46825,15 @@ function vQ({ isActive: e = !0 }) {
 							children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 								className: "flex items-center gap-2",
 								children: [/* @__PURE__ */ (0, z.jsx)("div", {
-									className: "flex h-7 w-7 items-center justify-center rounded-xl border border-white/15 bg-white/5 text-[#60a5fa] shadow-xs",
-									children: /* @__PURE__ */ (0, z.jsx)(sh, { className: "h-3.5 w-3.5" })
+									className: "flex h-7 w-7 items-center justify-center rounded-xl border border-white/15 bg-white/5 text-[#86efac] shadow-xs",
+									children: /* @__PURE__ */ (0, z.jsx)(sh, { className: "h-4 w-4" })
 								}), /* @__PURE__ */ (0, z.jsx)("h3", {
-									className: "text-[15.5px] font-bold tracking-tight text-white font-['Urbanist',sans-serif]",
+									className: "text-[20px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
 									children: "Podem furar direto para avaliação aprofundada"
 								})]
 							}), /* @__PURE__ */ (0, z.jsxs)("span", {
-								className: "inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[9.5px] font-bold uppercase tracking-wider bg-[#0071e3]/20 text-[#93c5fd] border border-[#0071e3]/30",
-								children: [/* @__PURE__ */ (0, z.jsx)(zh, { className: "w-2.5 h-2.5 text-[#60a5fa]" }), "Critérios de Exceção"]
+								className: "inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[14px] font-bold uppercase tracking-wide bg-[#4b6b4f]/20 text-[#bbf7d0] border border-[#4b6b4f]/30 shrink-0",
+								children: [/* @__PURE__ */ (0, z.jsx)(zh, { className: "w-3.5 h-3.5 text-[#86efac]" }), "Critérios de Exceção"]
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("div", {
@@ -46808,28 +46845,28 @@ function vQ({ isActive: e = !0 }) {
 								"mudança abrupta de funcionamento",
 								"evento adverso significativo"
 							].map((e) => /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "px-2 py-0.5 rounded-lg text-[10.5px] font-medium bg-white/[0.07] border border-white/12 text-slate-200 hover:bg-[#0071e3]/20 hover:border-[#0071e3]/40 hover:text-white transition-colors",
+								className: "px-2 py-0.5 rounded-lg text-[15px] font-medium bg-white/[0.07] border border-white/12 text-slate-200 hover:bg-[#4b6b4f]/20 hover:border-[#4b6b4f]/40 hover:text-white transition-colors",
 								children: e
 							}, e))
 						}),
 						/* @__PURE__ */ (0, z.jsxs)("p", {
-							className: "text-[12px] text-slate-300 leading-relaxed font-normal mt-1.5 pt-1.5 border-t border-white/10",
+							className: "text-[17px] text-slate-300 leading-snug font-medium mt-1.5 pt-1.5 border-t border-white/10",
 							children: ["Um bom protocolo não avalia profundamente todo mundo: ", /* @__PURE__ */ (0, z.jsx)("strong", {
 								className: "text-white font-semibold",
 								children: "garante que ninguém com necessidade relevante passe despercebido."
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "mt-1.5 pt-1.5 border-t border-white/10 flex items-center justify-between text-[10px]",
+							className: "mt-1.5 pt-1.5 border-t border-white/10 flex items-center justify-between gap-2 text-[15px]",
 							children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-								className: "flex items-center gap-1.5 text-slate-400",
+								className: "flex items-center gap-1.5 text-slate-300",
 								children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Conduta:" }), /* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[#93c5fd] font-semibold",
+									className: "text-[#bbf7d0] font-semibold",
 									children: "Acesso Direto Sem Barreira"
 								})]
 							}), /* @__PURE__ */ (0, z.jsxs)("div", {
-								className: "inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-[#0071e3]/25 text-[#bfdbfe] border border-[#0071e3]/35 font-semibold",
-								children: [/* @__PURE__ */ (0, z.jsx)(rm, { className: "w-2.5 h-2.5 text-[#60a5fa]" }), /* @__PURE__ */ (0, z.jsx)("span", { children: "Triagem Qualificada" })]
+								className: "inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-[#4b6b4f]/25 text-[#dcfce7] border border-[#4b6b4f]/35 font-semibold",
+								children: [/* @__PURE__ */ (0, z.jsx)(rm, { className: "w-3.5 h-3.5 text-[#86efac]" }), /* @__PURE__ */ (0, z.jsx)("span", { children: "Triagem Qualificada" })]
 							})]
 						})
 					]
@@ -46869,7 +46906,7 @@ function yQ({ isActive: e = !0, className: t }) {
 					className: "flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl border border-white/15 bg-white/5 text-emerald-400",
 					children: /* @__PURE__ */ (0, z.jsx)(hh, { className: "w-5 h-5" })
 				}), /* @__PURE__ */ (0, z.jsxs)("p", {
-					className: "text-[14px] font-medium text-zinc-100 leading-snug m-0 font-['Urbanist',sans-serif]",
+					className: "text-[16px] font-medium text-zinc-100 leading-snug m-0 font-['Urbanist',sans-serif]",
 					children: ["Instrumento não substitui entrevista. Entrevista não substitui instrumento. ", /* @__PURE__ */ (0, z.jsx)("strong", {
 						className: "text-emerald-300 font-bold",
 						children: "E nenhum dos dois substitui a voz da criança."
@@ -46877,7 +46914,7 @@ function yQ({ isActive: e = !0, className: t }) {
 				})]
 			}),
 			/* @__PURE__ */ (0, z.jsx)("span", {
-				className: "shrink-0 text-[10.5px] font-bold text-emerald-300 bg-emerald-500/15 px-3 py-1 rounded-full border border-emerald-500/30 whitespace-nowrap",
+				className: "shrink-0 text-[14px] font-bold text-emerald-300 bg-emerald-500/15 px-3 py-1 rounded-full border border-emerald-500/30 whitespace-nowrap",
 				children: "Tríade Avaliativa"
 			})
 		]
@@ -46885,7 +46922,7 @@ function yQ({ isActive: e = !0, className: t }) {
 }
 function bQ({ isActive: e = !0, className: t }) {
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: q("w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[640px] mx-auto my-auto", t),
+		className: q("w-full h-full flex flex-col justify-center gap-3 select-none font-['Satoshi',sans-serif] max-w-[860px] mx-auto my-auto", t),
 		children: [/* @__PURE__ */ (0, z.jsxs)(H.div, {
 			initial: {
 				opacity: 0,
@@ -46905,7 +46942,7 @@ function bQ({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: "p-5 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] flex-1 relative overflow-hidden",
+			className: "px-5 py-4 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] relative overflow-hidden",
 			children: [
 				/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 w-44 h-44 bg-[#4b6b4f]/18 rounded-full blur-3xl pointer-events-none" }),
 				/* @__PURE__ */ (0, z.jsxs)("div", {
@@ -46914,19 +46951,19 @@ function bQ({ isActive: e = !0, className: t }) {
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center justify-between mb-1.5",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-400 font-['Urbanist',sans-serif]",
+								className: "text-[14px] font-bold uppercase tracking-[0.1em] text-zinc-400 font-['Urbanist',sans-serif]",
 								children: "Evidência Empírica de Informantes"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-semibold text-[#d5e4d7] bg-[#4b6b4f]/30 px-2.5 py-0.5 rounded-full border border-[#4b6b4f]/40",
+								className: "text-[14px] font-semibold text-[#d5e4d7] bg-[#4b6b4f]/30 px-2.5 py-0.5 rounded-full border border-[#4b6b4f]/40",
 								children: "Eixo 6 · Protocolo"
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("h4", {
-							className: "text-[18px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
+							className: "text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
 							children: "Pais e Filhos Realmente Discordam"
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11.5px] font-medium text-zinc-300 mt-1 leading-relaxed",
+							className: "text-[16px] font-medium text-zinc-300 mt-1 leading-snug",
 							children: "A discrepância entre respondentes é frequente e contém informação clínica valiosa:"
 						})
 					]
@@ -46936,34 +46973,34 @@ function bQ({ isActive: e = !0, className: t }) {
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "p-2.5 rounded-2xl bg-zinc-900/90 border border-zinc-800",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] font-bold uppercase tracking-wider text-emerald-400 block mb-1",
+							className: "text-[14px] font-bold uppercase tracking-wider text-emerald-400 block mb-1",
 							children: "PROMIS · 221 Crianças"
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11px] text-zinc-300 leading-snug m-0",
+							className: "text-[16px] text-zinc-300 leading-snug m-0",
 							children: "Divergência por idade e domínio — sem correlação em ansiedade entre 8–10 anos."
 						})]
 					}), /* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "p-2.5 rounded-2xl bg-zinc-900/90 border border-zinc-800",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] font-bold uppercase tracking-wider text-emerald-400 block mb-1",
+							className: "text-[14px] font-bold uppercase tracking-wider text-emerald-400 block mb-1",
 							children: "PedsQL · 338 Crianças"
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11px] text-zinc-300 leading-snug m-0",
+							className: "text-[16px] text-zinc-300 leading-snug m-0",
 							children: "Baixa concordância entre pais e filhos de 8–10 anos em grande parte dos domínios."
 						})]
 					})]
 				}),
 				/* @__PURE__ */ (0, z.jsx)("p", {
-					className: "text-[11.5px] text-zinc-300 leading-snug m-0 relative z-10 font-normal",
+					className: "text-[16px] text-zinc-300 leading-snug m-0 relative z-10 font-normal",
 					children: "Discordância não é erro de mensuração: representa perspectivas de ambientes diferentes."
 				}),
 				/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-xs font-semibold text-zinc-400",
+						className: "text-[16px] font-semibold text-zinc-400",
 						children: "Diretriz:"
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-xs font-bold text-emerald-300 bg-emerald-500/15 px-2.5 py-0.5 rounded-full border border-emerald-500/30",
+						className: "text-[16px] font-bold text-emerald-300 bg-emerald-500/15 px-2.5 py-0.5 rounded-full border border-emerald-500/30",
 						children: "Integrar, Não Anular"
 					})]
 				})
@@ -46987,25 +47024,25 @@ function bQ({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: "p-5 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between flex-1",
+			className: "px-5 py-4 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between",
 			children: [
 				/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center justify-between mb-1.5",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] font-bold uppercase tracking-[0.14em] text-[#4b6b4f] bg-[#4b6b4f]/[0.10] px-2.5 py-0.5 rounded-full border border-[#4b6b4f]/25 font-['Urbanist',sans-serif]",
+							className: "text-[14px] font-bold uppercase tracking-[0.14em] text-[#4b6b4f] bg-[#4b6b4f]/[0.10] px-2.5 py-0.5 rounded-full border border-[#4b6b4f]/25 font-['Urbanist',sans-serif]",
 							children: "Bateria e Aplicação Clínica"
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[11px] font-semibold text-[#5f6062]",
+							className: "text-[14px] font-semibold text-[#5f6062]",
 							children: "Seleção Escalonada"
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsx)("h4", {
-						className: "text-[17px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
+						className: "text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
 						children: "Tipologia de Instrumentos & Decisão"
 					}),
 					/* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[11px] text-[#5f6062] mt-0.5",
+						className: "text-[16px] font-medium text-[#5f6062] mt-0.5",
 						children: "Estratificação de instrumentos padronizados para o protocolo:"
 					})
 				] }),
@@ -47013,52 +47050,52 @@ function bQ({ isActive: e = !0, className: t }) {
 					className: "grid grid-cols-3 gap-2 my-2",
 					children: [
 						/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "p-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]",
+							className: "px-3 py-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]",
 							children: [
 								/* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[9.5px] font-bold uppercase tracking-wider text-[#4b6b4f] block",
+									className: "text-[14px] font-bold uppercase tracking-wider text-[#4b6b4f] block",
 									children: "Genérico"
 								}),
 								/* @__PURE__ */ (0, z.jsx)("p", {
-									className: "text-[11px] font-bold text-[#0f1012] leading-tight mt-0.5",
+									className: "text-[16px] font-bold text-[#0f1012] leading-tight mt-0.5",
 									children: "PROMIS · SDQ · PedsQL"
 								}),
 								/* @__PURE__ */ (0, z.jsx)("p", {
-									className: "text-[10px] text-[#5f6062] leading-tight mt-0.5",
+									className: "text-[15px] font-medium text-[#5f6062] leading-snug mt-0.5",
 									children: "Não aplicar juntos."
 								})
 							]
 						}),
 						/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "p-2 rounded-xl bg-[#f0faf2] border border-[#4b6b4f]/20",
+							className: "px-3 py-2 rounded-xl bg-[#f0faf2] border border-[#4b6b4f]/20",
 							children: [
 								/* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[9.5px] font-bold uppercase tracking-wider text-[#4b6b4f] block",
+									className: "text-[14px] font-bold uppercase tracking-wider text-[#4b6b4f] block",
 									children: "Específico"
 								}),
 								/* @__PURE__ */ (0, z.jsx)("p", {
-									className: "text-[11px] font-bold text-[#4b6b4f] leading-tight mt-0.5",
+									className: "text-[16px] font-bold text-[#4b6b4f] leading-tight mt-0.5",
 									children: "CLEFT-Q · FACE-Q"
 								}),
 								/* @__PURE__ */ (0, z.jsx)("p", {
-									className: "text-[10px] text-[#5f6062] leading-tight mt-0.5",
+									className: "text-[15px] font-medium text-[#5f6062] leading-snug mt-0.5",
 									children: "8–29a · 12 escalas."
 								})
 							]
 						}),
 						/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "p-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]",
+							className: "px-3 py-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]",
 							children: [
 								/* @__PURE__ */ (0, z.jsx)("span", {
-									className: "text-[9.5px] font-bold uppercase tracking-wider text-[#4b6b4f] block",
+									className: "text-[14px] font-bold uppercase tracking-wider text-[#4b6b4f] block",
 									children: "Risco Familiar"
 								}),
 								/* @__PURE__ */ (0, z.jsx)("p", {
-									className: "text-[11px] font-bold text-[#0f1012] leading-tight mt-0.5",
+									className: "text-[16px] font-bold text-[#0f1012] leading-tight mt-0.5",
 									children: "PAT-CV"
 								}),
 								/* @__PURE__ */ (0, z.jsx)("p", {
-									className: "text-[10px] text-[#5f6062] leading-tight mt-0.5",
+									className: "text-[15px] font-medium text-[#5f6062] leading-snug mt-0.5",
 									children: "Risco psicossocial."
 								})
 							]
@@ -47066,9 +47103,9 @@ function bQ({ isActive: e = !0, className: t }) {
 					]
 				}),
 				/* @__PURE__ */ (0, z.jsxs)("div", {
-					className: "p-2.5 rounded-2xl bg-[#f8f9fa] border border-black/[0.05] flex items-center justify-between gap-3",
+					className: "p-2 rounded-2xl bg-[#f8f9fa] border border-black/[0.05] flex items-center justify-between gap-3",
 					children: [/* @__PURE__ */ (0, z.jsxs)("p", {
-						className: "text-[11px] text-[#334155] leading-snug m-0",
+						className: "text-[16px] font-medium text-[#334155] leading-snug m-0",
 						children: [
 							"Em 70 consultas com CLEFT-Q (média 12,7a), discordância com entrevista em 36%: a integração ",
 							/* @__PURE__ */ (0, z.jsx)("strong", {
@@ -47083,7 +47120,7 @@ function bQ({ isActive: e = !0, className: t }) {
 					})]
 				}),
 				/* @__PURE__ */ (0, z.jsxs)("p", {
-					className: "text-[11px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between",
+					className: "text-[15px] text-[#5f6062] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between gap-3",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Até 8 anos: observação e cuidadores" }), /* @__PURE__ */ (0, z.jsx)("span", {
 						className: "font-semibold text-[#4b6b4f]",
 						children: "Entrevista + PRO = Nova Informação"
@@ -47101,7 +47138,7 @@ function xQ({ isActive: e = !0 }) {
 		children: [
 			/* @__PURE__ */ (0, z.jsx)("div", {
 				className: "absolute inset-0 pointer-events-none flex items-center justify-center",
-				children: /* @__PURE__ */ (0, z.jsx)("div", { className: "w-[420px] h-[420px] rounded-full bg-[#0071e3]/[0.03] blur-3xl" })
+				children: /* @__PURE__ */ (0, z.jsx)("div", { className: "w-[420px] h-[420px] rounded-full bg-[#4b6b4f]/[0.05] blur-3xl" })
 			}),
 			/* @__PURE__ */ (0, z.jsxs)(H.div, {
 				initial: {
@@ -47121,18 +47158,18 @@ function xQ({ isActive: e = !0 }) {
 						1
 					]
 				},
-				className: "relative z-20 flex flex-col items-center justify-center w-[160px] h-[160px] rounded-full bg-white/95 border-2 border-[#0071e3]/30 shadow-[0_8px_32px_rgba(0,113,227,0.12)] backdrop-blur-md text-center p-3 transition-transform hover:scale-105",
+				className: "relative z-20 flex flex-col items-center justify-center w-[160px] h-[160px] rounded-full bg-white/95 border-2 border-[#4b6b4f]/30 shadow-[0_8px_32px_rgba(75,107,79,0.12)] backdrop-blur-md text-center p-3 transition-transform hover:scale-105",
 				children: [
 					/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-8 h-8 rounded-full bg-[#e8f2fc] flex items-center justify-center mb-1 text-[#0071e3] shadow-inner",
-						children: /* @__PURE__ */ (0, z.jsx)(Ym, { className: "w-4 h-4 stroke-[2.2]" })
+						className: "w-8 h-8 rounded-full bg-[#eef3ec] flex items-center justify-center mb-1 text-[#4b6b4f] shadow-inner",
+						children: /* @__PURE__ */ (0, z.jsx)(Ym, { className: "w-5 h-5 stroke-[2.2]" })
 					}),
 					/* @__PURE__ */ (0, z.jsx)("span", {
-						className: "font-['Urbanist',sans-serif] text-[13px] font-bold tracking-[0.08em] text-[#0071e3] leading-none uppercase",
+						className: "font-['Urbanist',sans-serif] text-[15px] font-bold tracking-[0.08em] text-[#4b6b4f] leading-none uppercase",
 						children: "Ciclo Clínico"
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
-						className: "mt-1.5 pt-1.5 border-t border-black/[0.06] text-[11px] font-semibold text-[#0f1012] leading-tight flex flex-col",
+						className: "mt-1.5 pt-1.5 border-t border-black/[0.06] text-[15px] font-semibold text-[#0f1012] leading-tight flex flex-col",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "idade + trajetória" }), /* @__PURE__ */ (0, z.jsx)("span", {
 							className: "text-[#5f6062] font-medium",
 							children: "+ contexto + função"
@@ -47145,16 +47182,16 @@ function xQ({ isActive: e = !0 }) {
 				duration: 40,
 				delay: 0,
 				radius: 190,
-				pathClassName: "stroke-[#0071e3]/25",
+				pathClassName: "stroke-[#4b6b4f]/25",
 				strokeWidth: 1.8,
 				strokeDasharray: "6 4",
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
-					className: "flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-[#0071e3]/30 shadow-[0_4px_16px_rgba(0,113,227,0.10)] backdrop-blur-md cursor-default",
+					className: "flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-[#4b6b4f]/30 shadow-[0_4px_16px_rgba(75,107,79,0.10)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#0071e3] text-white flex items-center justify-center shrink-0 text-[10px] font-bold",
+						className: "w-6 h-6 rounded-full bg-[#4b6b4f] text-white flex items-center justify-center shrink-0 text-[14px] font-bold",
 						children: "1"
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[12px] font-bold text-[#0071e3] tracking-wide whitespace-nowrap",
+						className: "text-[16px] font-bold text-[#4b6b4f] tracking-wide whitespace-nowrap",
 						children: "RASTREAR"
 					})]
 				})
@@ -47168,10 +47205,10 @@ function xQ({ isActive: e = !0 }) {
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#e8f2fc] text-[#0071e3] flex items-center justify-center shrink-0 text-[10px] font-bold",
+						className: "w-6 h-6 rounded-full bg-[#eef3ec] text-[#4b6b4f] flex items-center justify-center shrink-0 text-[14px] font-bold",
 						children: "2"
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[12px] font-bold text-[#0f1012] tracking-wide whitespace-nowrap",
+						className: "text-[16px] font-bold text-[#0f1012] tracking-wide whitespace-nowrap",
 						children: "CONTEXTUALIZAR"
 					})]
 				})
@@ -47185,10 +47222,10 @@ function xQ({ isActive: e = !0 }) {
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#e8f2fc] text-[#0071e3] flex items-center justify-center shrink-0 text-[10px] font-bold",
+						className: "w-6 h-6 rounded-full bg-[#eef3ec] text-[#4b6b4f] flex items-center justify-center shrink-0 text-[14px] font-bold",
 						children: "3"
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[12px] font-bold text-[#0f1012] tracking-wide whitespace-nowrap",
+						className: "text-[16px] font-bold text-[#0f1012] tracking-wide whitespace-nowrap",
 						children: "ESTRATIFICAR"
 					})]
 				})
@@ -47202,10 +47239,10 @@ function xQ({ isActive: e = !0 }) {
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#e8f2fc] text-[#0071e3] flex items-center justify-center shrink-0 text-[10px] font-bold",
+						className: "w-6 h-6 rounded-full bg-[#eef3ec] text-[#4b6b4f] flex items-center justify-center shrink-0 text-[14px] font-bold",
 						children: "4"
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[12px] font-bold text-[#0f1012] tracking-wide whitespace-nowrap",
+						className: "text-[16px] font-bold text-[#0f1012] tracking-wide whitespace-nowrap",
 						children: "AGIR"
 					})]
 				})
@@ -47219,10 +47256,10 @@ function xQ({ isActive: e = !0 }) {
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default",
 					children: [/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-5 h-5 rounded-full bg-[#e8f2fc] text-[#0071e3] flex items-center justify-center shrink-0 text-[10px] font-bold",
+						className: "w-6 h-6 rounded-full bg-[#eef3ec] text-[#4b6b4f] flex items-center justify-center shrink-0 text-[14px] font-bold",
 						children: "5"
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-[12px] font-bold text-[#0f1012] tracking-wide whitespace-nowrap",
+						className: "text-[16px] font-bold text-[#0f1012] tracking-wide whitespace-nowrap",
 						children: "REAVALIAR"
 					})]
 				})
@@ -47234,7 +47271,7 @@ function xQ({ isActive: e = !0 }) {
 //#region components/slide35-cards.tsx
 function SQ({ isActive: e = !0, className: t }) {
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: q("w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[620px] mx-auto my-auto", t),
+		className: q("w-full h-full flex flex-col justify-center gap-3 select-none font-['Satoshi',sans-serif] max-w-[800px] mx-auto my-auto", t),
 		children: [/* @__PURE__ */ (0, z.jsxs)(H.div, {
 			initial: {
 				opacity: 0,
@@ -47254,25 +47291,25 @@ function SQ({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: "p-5 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between flex-1",
+			className: "px-5 py-4 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between",
 			children: [
 				/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center justify-between mb-1.5",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] font-bold uppercase tracking-[0.14em] text-[#4b6b4f] bg-[#4b6b4f]/[0.10] px-2.5 py-0.5 rounded-full border border-[#4b6b4f]/25 font-['Urbanist',sans-serif]",
+							className: "text-[14px] font-bold uppercase tracking-[0.14em] text-[#4b6b4f] bg-[#4b6b4f]/[0.10] px-2.5 py-0.5 rounded-full border border-[#4b6b4f]/25 font-['Urbanist',sans-serif]",
 							children: "Fluxo do Protocolo"
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[11px] font-semibold text-[#5f6062]",
+							className: "text-[15px] font-semibold text-[#5f6062]",
 							children: "Tempo & Gatilhos Clínicos"
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsx)("h4", {
-						className: "text-[17px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
+						className: "text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
 						children: "Avaliação Programada vs. Disparada por Evento"
 					}),
 					/* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[11px] text-[#5f6062] mt-0.5",
+						className: "text-[15px] text-[#5f6062] mt-0.5",
 						children: "Duas vias complementares de vigilância longitudinal:"
 					})
 				] }),
@@ -47281,31 +47318,31 @@ function SQ({ isActive: e = !0, className: t }) {
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "p-2.5 rounded-xl bg-[#f8f9fa] border border-black/[0.04] flex flex-col justify-between",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center gap-1.5 text-xs font-bold text-[#0f1012] mb-1",
+							className: "flex items-center gap-1.5 text-[16px] font-bold text-[#0f1012] mb-1",
 							children: [/* @__PURE__ */ (0, z.jsx)(Zp, { className: "w-3.5 h-3.5 text-[#4b6b4f]" }), /* @__PURE__ */ (0, z.jsx)("span", { children: "Programada" })]
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11px] text-[#5f6062] leading-snug m-0",
+							className: "text-[15px] text-[#5f6062] leading-snug m-0",
 							children: "Dx → 18m → 3a → 5a → 8a; depois 8a → 10a → 12a → 15a → 18a."
 						})] }), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] text-zinc-400 italic mt-1 block",
+							className: "text-[16px] text-zinc-400 italic mt-1 block",
 							children: "Exemplo — calendário flexível."
 						})]
 					}), /* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "p-2.5 rounded-xl bg-[#f8f9fa] border border-black/[0.04] flex flex-col justify-between",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center gap-1.5 text-xs font-bold text-[#0f1012] mb-1",
+							className: "flex items-center gap-1.5 text-[16px] font-bold text-[#0f1012] mb-1",
 							children: [/* @__PURE__ */ (0, z.jsx)(Fp, { className: "w-3.5 h-3.5 text-amber-700" }), /* @__PURE__ */ (0, z.jsx)("span", { children: "Por Evento" })]
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11px] text-[#5f6062] leading-snug m-0",
+							className: "text-[15px] text-[#5f6062] leading-snug m-0",
 							children: "Cirurgias, transição escolar, bullying, fonação, aparência ou demanda expressa."
 						})] }), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] text-amber-700 font-semibold mt-1 block",
+							className: "text-[16px] text-amber-700 font-semibold mt-1 block",
 							children: "Resposta adaptativa à queixa."
 						})]
 					})]
 				}),
 				/* @__PURE__ */ (0, z.jsxs)("p", {
-					className: "text-[11px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between",
+					className: "text-[15px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "O calendário cronológico não pode impedir:" }), /* @__PURE__ */ (0, z.jsx)("span", {
 						className: "font-semibold text-[#4b6b4f]",
 						children: "Avaliar quando a trajetória muda"
@@ -47331,7 +47368,7 @@ function SQ({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: "p-5 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] flex-1 relative overflow-hidden",
+			className: "px-5 py-4 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] relative overflow-hidden",
 			children: [
 				/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 w-44 h-44 bg-red-950/25 rounded-full blur-3xl pointer-events-none" }),
 				/* @__PURE__ */ (0, z.jsxs)("div", {
@@ -47340,19 +47377,19 @@ function SQ({ isActive: e = !0, className: t }) {
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center justify-between mb-1.5",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-bold uppercase tracking-[0.2em] text-red-300 font-['Urbanist',sans-serif]",
+								className: "text-[14px] font-bold uppercase tracking-[0.2em] text-red-300 font-['Urbanist',sans-serif]",
 								children: "Segurança & Triagem Crítica"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-semibold text-red-200 bg-red-900/30 px-2.5 py-0.5 rounded-full border border-red-500/40",
+								className: "text-[14px] font-semibold text-red-200 bg-red-900/30 px-2.5 py-0.5 rounded-full border border-red-500/40",
 								children: "Avaliação Imediata"
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("h4", {
-							className: "text-[18px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
+							className: "text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
 							children: "Gatilhos de Proteção e Urgência"
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11.5px] font-medium text-zinc-300 mt-1 leading-relaxed",
+							className: "text-[16px] font-medium text-zinc-300 mt-1 leading-snug",
 							children: "Situações que sobrepõem qualquer agendamento e exigem suporte ágil:"
 						})
 					]
@@ -47365,14 +47402,14 @@ function SQ({ isActive: e = !0, className: t }) {
 						"Risco de violência / negligência",
 						"Declínio funcional abrupto"
 					].map((e) => /* @__PURE__ */ (0, z.jsxs)("span", {
-						className: "inline-flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-red-950/30 border border-red-800/40 text-[10.5px] font-medium text-red-200",
-						children: [/* @__PURE__ */ (0, z.jsx)(Th, { className: "w-3 h-3 text-red-400 shrink-0" }), e]
+						className: "inline-flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-red-950/30 border border-red-800/40 text-[16px] font-medium text-red-200",
+						children: [/* @__PURE__ */ (0, z.jsx)(Th, { className: "w-4 h-4 text-red-400 shrink-0" }), e]
 					}, e))
 				}),
 				/* @__PURE__ */ (0, z.jsx)("div", {
 					className: "p-2.5 bg-zinc-900/95 rounded-2xl border border-zinc-800/90 relative z-10 mb-1",
 					children: /* @__PURE__ */ (0, z.jsxs)("p", {
-						className: "text-[11px] text-zinc-200 leading-snug m-0",
+						className: "text-[15px] text-zinc-200 leading-snug m-0",
 						children: [
 							"Em 305 pacientes com fissura (≥6 anos), 16,7% relataram ideação suicida prévia; piores escores no CLEFT-Q correlacionaram-se ao risco. ",
 							/* @__PURE__ */ (0, z.jsx)("strong", {
@@ -47386,10 +47423,10 @@ function SQ({ isActive: e = !0, className: t }) {
 				/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-xs font-semibold text-zinc-400",
+						className: "text-[16px] font-semibold text-zinc-400",
 						children: "Diretriz:"
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-xs font-bold text-red-300 bg-red-500/15 px-2.5 py-0.5 rounded-full border border-red-500/30",
+						className: "text-[16px] font-bold text-red-300 bg-red-500/15 px-2.5 py-0.5 rounded-full border border-red-500/30",
 						children: "Prioridade de Segurança"
 					})]
 				})
@@ -47401,7 +47438,7 @@ function SQ({ isActive: e = !0, className: t }) {
 //#region components/slide36-cards.tsx
 function CQ({ isActive: e = !0, className: t }) {
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: q("w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[620px] mx-auto my-auto", t),
+		className: q("w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[800px] mx-auto my-auto", t),
 		children: [/* @__PURE__ */ (0, z.jsxs)(H.div, {
 			initial: {
 				opacity: 0,
@@ -47433,24 +47470,24 @@ function CQ({ isActive: e = !0, className: t }) {
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
 							className: "flex items-center gap-1.5",
 							children: /* @__PURE__ */ (0, z.jsxs)("span", {
-								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-[#33415c]/10 text-[#33415c] border border-[#33415c]/20",
-								children: [/* @__PURE__ */ (0, z.jsx)(hh, { className: "w-3 h-3 text-[#33415c]" }), "Vigilância Contínua ≠ Rastreio Pontual"]
+								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-[#33415c]/10 text-[#33415c] border border-[#33415c]/20",
+								children: [/* @__PURE__ */ (0, z.jsx)(hh, { className: "w-4 h-4 text-[#33415c]" }), "Vigilância Contínua ≠ Rastreio Pontual"]
 							})
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "space-y-2",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-							className: "text-[20px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
+							className: "text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
 							children: "Transversal (\"Como Está?\") × Longitudinal (\"Como Muda?\")"
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[12px] font-semibold text-[#33415c] mt-0.5",
+							className: "text-[16px] font-semibold text-[#33415c] mt-0.5",
 							children: "Uma medida pontual informa apenas posição estática — não a direção evolutiva"
 						})] }), /* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "pt-0.5",
 							children: [
 								/* @__PURE__ */ (0, z.jsx)("h4", {
-									className: "text-[10px] font-bold uppercase tracking-[0.14em] text-zinc-500 mb-1",
+									className: "text-[14px] font-bold uppercase tracking-[0.14em] text-zinc-500 mb-1",
 									children: "PARÂMETROS DA VIGILÂNCIA LONGITUDINAL:"
 								}),
 								/* @__PURE__ */ (0, z.jsx)("div", {
@@ -47463,12 +47500,12 @@ function CQ({ isActive: e = !0, className: t }) {
 										"platô",
 										"regressão"
 									].map((e) => /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "px-2 py-0.5 rounded-lg text-[10.5px] font-semibold bg-white border border-black/[0.07] text-[#1e293b] shadow-2xs",
+										className: "px-2 py-0.5 rounded-lg text-[14px] font-semibold bg-white border border-black/[0.07] text-[#1e293b] shadow-2xs",
 										children: e
 									}, e))
 								}),
 								/* @__PURE__ */ (0, z.jsxs)("p", {
-									className: "text-[12px] text-[#334155] leading-relaxed font-normal mt-1.5",
+									className: "text-[16px] text-[#334155] leading-snug font-normal mt-1.5",
 									children: [
 										"A vigilância do desenvolvimento é um processo contínuo e repetido (história, preocupações, observação e seguimento). Marcos auxiliam a vigilância, mas ",
 										/* @__PURE__ */ (0, z.jsx)("strong", {
@@ -47484,13 +47521,13 @@ function CQ({ isActive: e = !0, className: t }) {
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "mt-2.5 pt-2 border-t border-black/[0.06] flex items-center justify-between",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center gap-1.5 text-[11px] font-semibold text-zinc-500",
+							className: "flex items-center gap-1.5 text-[15px] font-semibold text-zinc-500",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Princípio:" }), /* @__PURE__ */ (0, z.jsx)("span", {
 								className: "text-[#0f1012] font-bold",
 								children: "Variável de Mudança"
 							})]
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
-							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#33415c] text-white text-[10.5px] font-bold shadow-xs",
+							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#33415c] text-white text-[16px] font-bold shadow-xs",
 							children: /* @__PURE__ */ (0, z.jsx)("span", { children: "Direção > Posição" })
 						})]
 					})
@@ -47527,8 +47564,8 @@ function CQ({ isActive: e = !0, className: t }) {
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
 							className: "flex items-center gap-1.5",
 							children: /* @__PURE__ */ (0, z.jsxs)("span", {
-								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-slate-500/15 text-slate-300 border border-slate-500/30",
-								children: [/* @__PURE__ */ (0, z.jsx)(rm, { className: "w-3 h-3 text-slate-300" }), "Exemplo Clínico Ilustrativo"]
+								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-slate-500/15 text-slate-300 border border-slate-500/30",
+								children: [/* @__PURE__ */ (0, z.jsx)(rm, { className: "w-4 h-4 text-slate-300" }), "Exemplo Clínico Ilustrativo"]
 							})
 						})]
 					}),
@@ -47536,10 +47573,10 @@ function CQ({ isActive: e = !0, className: t }) {
 						className: "space-y-2",
 						children: [
 							/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-								className: "text-[20px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]",
+								className: "text-[24px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]",
 								children: "Mesma Fotografia Clínica — Histórias Opostas"
 							}), /* @__PURE__ */ (0, z.jsx)("p", {
-								className: "text-[12px] font-semibold text-slate-300 mt-0.5",
+								className: "text-[16px] font-semibold text-slate-300 mt-0.5",
 								children: "Duas crianças com idêntico escore de satisfação com aparência hoje"
 							})] }),
 							/* @__PURE__ */ (0, z.jsxs)("div", {
@@ -47547,25 +47584,25 @@ function CQ({ isActive: e = !0, className: t }) {
 								children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "p-2.5 rounded-xl bg-emerald-500/10 border border-emerald-500/25 text-left",
 									children: [/* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[9px] font-bold uppercase tracking-wider text-emerald-400 block mb-0.5",
+										className: "text-[14px] font-bold uppercase tracking-wider text-emerald-400 block mb-0.5",
 										children: "Trajetória Ascendente"
 									}), /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[11px] font-bold text-emerald-200 leading-tight block",
+										className: "text-[15px] font-bold text-emerald-200 leading-tight block",
 										children: "Estável e adaptada há vários anos consecutivos"
 									})]
 								}), /* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "p-2.5 rounded-xl bg-rose-500/10 border border-rose-500/25 text-left",
 									children: [/* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[9px] font-bold uppercase tracking-wider text-rose-400 block mb-0.5",
+										className: "text-[14px] font-bold uppercase tracking-wider text-rose-400 block mb-0.5",
 										children: "Trajetória Descendente"
 									}), /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[11px] font-bold text-rose-200 leading-tight block",
+										className: "text-[15px] font-bold text-rose-200 leading-tight block",
 										children: "Queda progressiva na transição para a adolescência"
 									})]
 								})]
 							}),
 							/* @__PURE__ */ (0, z.jsxs)("p", {
-								className: "text-[12px] text-zinc-300 leading-relaxed font-normal mt-1.5",
+								className: "text-[16px] text-zinc-300 leading-snug font-normal mt-1.5",
 								children: [/* @__PURE__ */ (0, z.jsx)("strong", {
 									className: "text-white font-semibold",
 									children: "O escore atual é realmente a informação mais importante?"
@@ -47576,13 +47613,13 @@ function CQ({ isActive: e = !0, className: t }) {
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "mt-2.5 pt-2 border-t border-white/10 flex items-center justify-between",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center gap-1.5 text-[11px] font-semibold text-zinc-400",
+							className: "flex items-center gap-1.5 text-[15px] font-semibold text-zinc-400",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Alerta:" }), /* @__PURE__ */ (0, z.jsx)("span", {
 								className: "text-white font-bold",
 								children: "O Filme Supera a Foto"
 							})]
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
-							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-slate-500/20 text-slate-200 border border-slate-500/30 text-[10.5px] font-bold shadow-xs",
+							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-slate-500/20 text-slate-200 border border-slate-500/30 text-[16px] font-bold shadow-xs",
 							children: /* @__PURE__ */ (0, z.jsx)("span", { children: "Para Onde a Curva Aponta?" })
 						})]
 					})
@@ -47595,7 +47632,7 @@ function CQ({ isActive: e = !0, className: t }) {
 //#region components/slide37-cards.tsx
 function wQ({ isActive: e = !0, className: t }) {
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: q("w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[620px] mx-auto my-auto", t),
+		className: q("w-full h-full flex flex-col justify-center gap-3 select-none font-['Satoshi',sans-serif] max-w-[800px] mx-auto my-auto", t),
 		children: [/* @__PURE__ */ (0, z.jsxs)(H.div, {
 			initial: {
 				opacity: 0,
@@ -47615,7 +47652,7 @@ function wQ({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: q("group relative w-full overflow-hidden rounded-3xl border border-black/[0.08]", "bg-gradient-to-br from-white via-[#fcfdff] to-[#edeff3]/70", "shadow-[0_4px_24px_rgba(51,65,92,0.06)] hover:shadow-[0_12px_36px_rgba(51,65,92,0.12)]", "hover:border-[#33415c]/30 transition-all duration-400 ease-out p-5 flex flex-col justify-between"),
+			className: q("group relative w-full overflow-hidden rounded-3xl border border-black/[0.08]", "bg-gradient-to-br from-white via-[#fcfdff] to-[#edeff3]/70", "shadow-[0_4px_24px_rgba(51,65,92,0.06)] hover:shadow-[0_12px_36px_rgba(51,65,92,0.12)]", "hover:border-[#33415c]/30 transition-all duration-400 ease-out px-5 py-4 flex flex-col justify-between"),
 			children: [/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 -mr-16 -mt-16 w-56 h-56 rounded-full bg-gradient-to-br from-[#33415c]/15 to-[#1e293b]/10 blur-2xl pointer-events-none transition-transform duration-700 group-hover:scale-125" }), /* @__PURE__ */ (0, z.jsxs)("div", {
 				className: "relative z-10 flex flex-col justify-between h-full",
 				children: [
@@ -47627,18 +47664,18 @@ function wQ({ isActive: e = !0, className: t }) {
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
 							className: "flex items-center gap-1.5",
 							children: /* @__PURE__ */ (0, z.jsxs)("span", {
-								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-[#33415c]/10 text-[#33415c] border border-[#33415c]/20",
-								children: [/* @__PURE__ */ (0, z.jsx)(hh, { className: "w-3 h-3 text-[#33415c]" }), "Funcionalidade & Contexto"]
+								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-[#33415c]/10 text-[#33415c] border border-[#33415c]/20",
+								children: [/* @__PURE__ */ (0, z.jsx)(hh, { className: "w-4 h-4 text-[#33415c]" }), "Funcionalidade & Contexto"]
 							})
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "space-y-2",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-							className: "text-[20px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
+							className: "text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
 							children: "Sintomas e Prejuízo Funcional Não São a Mesma Coisa"
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[12px] font-semibold text-[#33415c] mt-0.5",
+							className: "text-[16px] font-semibold text-[#33415c] mt-0.5",
 							children: "O prejuízo funcional é o componente nuclear da relevância diagnóstica"
 						})] }), /* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "pt-0.5",
@@ -47652,14 +47689,14 @@ function wQ({ isActive: e = !0, className: t }) {
 										"regular-se",
 										"participar"
 									].map((e) => /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "px-2.5 py-0.5 rounded-lg text-[10.5px] font-semibold bg-white border border-[#33415c]/20 text-[#33415c] shadow-2xs",
+										className: "px-2.5 py-0.5 rounded-lg text-[14px] font-semibold bg-white border border-[#33415c]/20 text-[#33415c] shadow-2xs",
 										children: e
 									}, e))
 								}),
 								/* @__PURE__ */ (0, z.jsxs)("div", {
 									className: "mt-2 p-2 rounded-xl bg-white/80 border border-black/[0.06] flex items-center justify-between px-3",
 									children: [/* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[11px] font-bold text-[#0f1012]",
+										className: "text-[15px] font-bold text-[#0f1012]",
 										children: "“Só acontece na escola” não torna o dado menos verdadeiro:"
 									}), /* @__PURE__ */ (0, z.jsx)("div", {
 										className: "flex items-center gap-2",
@@ -47669,13 +47706,13 @@ function wQ({ isActive: e = !0, className: t }) {
 											"pares",
 											"consultório"
 										].map((e) => /* @__PURE__ */ (0, z.jsxs)("div", {
-											className: "flex items-center gap-1 text-[10px] text-[#5f6062]",
+											className: "flex items-center gap-1 text-[16px] text-[#5f6062]",
 											children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-2 h-2 rounded-full bg-[#33415c]" }), /* @__PURE__ */ (0, z.jsx)("span", { children: e })]
 										}, e))
 									})]
 								}),
 								/* @__PURE__ */ (0, z.jsx)("p", {
-									className: "text-[12px] text-[#334155] leading-relaxed font-normal mt-1.5",
+									className: "text-[16px] text-[#334155] leading-snug font-normal mt-1.5",
 									children: "A variabilidade entre situações pode ser informação clinicamente significativa — não erro entre avaliadores — e ajuda a localizar o mecanismo concreto do problema."
 								})
 							]
@@ -47684,13 +47721,13 @@ function wQ({ isActive: e = !0, className: t }) {
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "mt-2.5 pt-2 border-t border-black/[0.06] flex items-center justify-between",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center gap-1.5 text-[11px] font-semibold text-zinc-500",
+							className: "flex items-center gap-1.5 text-[15px] font-semibold text-zinc-500",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Fundamento:" }), /* @__PURE__ */ (0, z.jsx)("span", {
 								className: "text-[#0f1012] font-bold",
 								children: "Avaliação Situacional"
 							})]
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
-							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#33415c] text-white text-[10.5px] font-bold shadow-xs",
+							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#33415c] text-white text-[16px] font-bold shadow-xs",
 							children: /* @__PURE__ */ (0, z.jsx)("span", { children: "Prejuízo Funcional Real" })
 						})]
 					})
@@ -47715,7 +47752,7 @@ function wQ({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: q("group relative w-full overflow-hidden rounded-3xl border border-white/10", "bg-[#0f1012] text-white", "shadow-[0_6px_28px_rgba(0,0,0,0.14)] hover:shadow-[0_12px_36px_rgba(0,0,0,0.28)]", "hover:border-[#33415c]/50 transition-all duration-400 ease-out p-5 flex flex-col justify-between"),
+			className: q("group relative w-full overflow-hidden rounded-3xl border border-white/10", "bg-[#0f1012] text-white", "shadow-[0_6px_28px_rgba(0,0,0,0.14)] hover:shadow-[0_12px_36px_rgba(0,0,0,0.28)]", "hover:border-[#33415c]/50 transition-all duration-400 ease-out px-5 py-4 flex flex-col justify-between"),
 			children: [/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 w-48 h-48 bg-[#33415c]/25 rounded-full blur-3xl pointer-events-none" }), /* @__PURE__ */ (0, z.jsxs)("div", {
 				className: "relative z-10 flex flex-col justify-between h-full",
 				children: [
@@ -47727,23 +47764,23 @@ function wQ({ isActive: e = !0, className: t }) {
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
 							className: "flex items-center gap-1.5",
 							children: /* @__PURE__ */ (0, z.jsxs)("span", {
-								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-slate-500/15 text-slate-300 border border-slate-500/30",
-								children: [/* @__PURE__ */ (0, z.jsx)(rm, { className: "w-3 h-3 text-slate-300" }), "Raciocínio Clínico em 5 Etapas"]
+								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-slate-500/15 text-slate-300 border border-slate-500/30",
+								children: [/* @__PURE__ */ (0, z.jsx)(rm, { className: "w-4 h-4 text-slate-300" }), "Raciocínio Clínico em 5 Etapas"]
 							})
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "space-y-2",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-							className: "text-[20px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]",
+							className: "text-[24px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]",
 							children: "O Significado Muda com a Idade: Checklist Diagnóstico"
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[12px] font-semibold text-slate-300 mt-0.5",
+							className: "text-[16px] font-semibold text-slate-300 mt-0.5",
 							children: "Dependência dos pais aos 3 anos ≠ dependência dos pais aos 16 anos"
 						})] }), /* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "pt-0.5",
 							children: [/* @__PURE__ */ (0, z.jsx)("h4", {
-								className: "text-[10px] font-bold uppercase tracking-[0.14em] text-zinc-400 mb-1",
+								className: "text-[14px] font-bold uppercase tracking-[0.14em] text-zinc-400 mb-1",
 								children: "ANTES DE PERGUNTAR QUAL É O DIAGNÓSTICO:"
 							}), /* @__PURE__ */ (0, z.jsx)("div", {
 								className: "grid grid-cols-1 gap-1 my-1",
@@ -47754,12 +47791,12 @@ function wQ({ isActive: e = !0, className: t }) {
 									"Onde acontece?",
 									"Quanto interfere no funcionamento?"
 								].map((e, t) => /* @__PURE__ */ (0, z.jsxs)("div", {
-									className: "flex items-center gap-2 p-1.5 rounded-lg bg-white/[0.04] border border-white/10",
+									className: "flex items-center gap-2 px-2 py-1 rounded-lg bg-white/[0.04] border border-white/10",
 									children: [/* @__PURE__ */ (0, z.jsx)("span", {
-										className: "w-4 h-4 rounded-full bg-slate-500/30 text-slate-200 text-[9.5px] font-bold flex items-center justify-center shrink-0",
+										className: "w-6 h-6 rounded-full bg-slate-500/30 text-slate-200 text-[14px] font-bold flex items-center justify-center shrink-0",
 										children: t + 1
 									}), /* @__PURE__ */ (0, z.jsx)("span", {
-										className: "text-[11px] font-medium text-zinc-200 leading-tight",
+										className: "text-[16px] font-medium text-zinc-200 leading-tight",
 										children: e
 									})]
 								}, e))
@@ -47769,13 +47806,13 @@ function wQ({ isActive: e = !0, className: t }) {
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "mt-2.5 pt-2 border-t border-white/10 flex items-center justify-between",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
-							className: "flex items-center gap-1.5 text-[11px] font-semibold text-zinc-400",
+							className: "flex items-center gap-1.5 text-[15px] font-semibold text-zinc-400",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Conduta:" }), /* @__PURE__ */ (0, z.jsx)("span", {
 								className: "text-white font-bold",
 								children: "Investigação Sistêmica"
 							})]
 						}), /* @__PURE__ */ (0, z.jsx)("div", {
-							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-slate-500/20 text-slate-200 border border-slate-500/30 text-[10.5px] font-bold shadow-xs",
+							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-slate-500/20 text-slate-200 border border-slate-500/30 text-[16px] font-bold shadow-xs",
 							children: /* @__PURE__ */ (0, z.jsx)("span", { children: "Significado ≠ Sintoma" })
 						})]
 					})
@@ -47792,7 +47829,7 @@ function TQ({ isActive: e = !0 }) {
 		children: [
 			/* @__PURE__ */ (0, z.jsx)("div", {
 				className: "absolute inset-0 pointer-events-none flex items-center justify-center",
-				children: /* @__PURE__ */ (0, z.jsx)("div", { className: "w-[440px] h-[440px] rounded-full bg-[#0071e3]/[0.03] blur-3xl" })
+				children: /* @__PURE__ */ (0, z.jsx)("div", { className: "w-[440px] h-[440px] rounded-full bg-[#33415c]/[0.05] blur-3xl" })
 			}),
 			/* @__PURE__ */ (0, z.jsxs)(H.div, {
 				initial: {
@@ -47812,18 +47849,18 @@ function TQ({ isActive: e = !0 }) {
 						1
 					]
 				},
-				className: "relative z-20 flex flex-col items-center justify-center w-[136px] h-[136px] rounded-full bg-white/95 border-2 border-[#0071e3]/30 shadow-[0_8px_32px_rgba(0,113,227,0.12)] backdrop-blur-md transition-transform hover:scale-105 text-center p-2",
+				className: "relative z-20 flex flex-col items-center justify-center w-[136px] h-[136px] rounded-full bg-white/95 border-2 border-[#33415c]/30 shadow-[0_8px_32px_rgba(51,65,92,0.12)] backdrop-blur-md transition-transform hover:scale-105 text-center p-2",
 				children: [
 					/* @__PURE__ */ (0, z.jsx)("div", {
-						className: "w-8 h-8 rounded-full bg-[#e8f2fc] flex items-center justify-center mb-1 text-[#0071e3] shadow-inner",
-						children: /* @__PURE__ */ (0, z.jsx)(Fm, { className: "w-4 h-4 stroke-[2.2]" })
+						className: "w-8 h-8 rounded-full bg-[#edeff3] flex items-center justify-center mb-1 text-[#33415c] shadow-inner",
+						children: /* @__PURE__ */ (0, z.jsx)(Fm, { className: "w-5 h-5 stroke-[2.2]" })
 					}),
 					/* @__PURE__ */ (0, z.jsx)("span", {
-						className: "font-['Urbanist',sans-serif] text-[12px] font-bold tracking-[0.06em] text-[#0071e3] leading-tight",
+						className: "font-['Urbanist',sans-serif] text-[16px] font-bold tracking-[0.06em] text-[#33415c] leading-tight",
 						children: "PERSPECTIVAS"
 					}),
 					/* @__PURE__ */ (0, z.jsx)("span", {
-						className: "font-['Urbanist',sans-serif] text-[10.5px] font-semibold tracking-[0.04em] text-[#0f1012] leading-tight",
+						className: "font-['Urbanist',sans-serif] text-[14px] font-semibold tracking-[0.04em] text-[#0f1012] leading-tight",
 						children: "COMPLEMENTARES"
 					})
 				]
@@ -47833,7 +47870,7 @@ function TQ({ isActive: e = !0 }) {
 				duration: 44,
 				delay: 0,
 				radius: 205,
-				pathClassName: "stroke-[#0071e3]/20",
+				pathClassName: "stroke-[#33415c]/25",
 				strokeWidth: 1.5,
 				strokeDasharray: "4 4",
 				children: /* @__PURE__ */ (0, z.jsxs)("div", {
@@ -47841,14 +47878,14 @@ function TQ({ isActive: e = !0 }) {
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center gap-1.5 w-full",
 						children: [/* @__PURE__ */ (0, z.jsx)("div", {
-							className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-							children: /* @__PURE__ */ (0, z.jsx)(kh, { className: "w-3 h-3 stroke-[2.5]" })
+							className: "w-5 h-5 rounded-full bg-[#33415c]/10 text-[#33415c] flex items-center justify-center shrink-0",
+							children: /* @__PURE__ */ (0, z.jsx)(kh, { className: "w-4 h-4 stroke-[2.5]" })
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[13px] font-bold text-[#0071e3] leading-none",
+							className: "text-[15px] font-bold text-[#33415c] leading-none",
 							children: "autorrelato"
 						})]
 					}), /* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[10px] font-medium text-[#5f6062] mt-1.5 leading-snug",
+						className: "text-[15px] font-medium text-[#52525b] mt-1.5 leading-snug",
 						children: "experiência subjetiva · ansiedade · tristeza · aparência · pertencimento"
 					})]
 				})
@@ -47864,14 +47901,14 @@ function TQ({ isActive: e = !0 }) {
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center gap-1.5 w-full",
 						children: [/* @__PURE__ */ (0, z.jsx)("div", {
-							className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-							children: /* @__PURE__ */ (0, z.jsx)(yh, { className: "w-3 h-3 stroke-[2.5]" })
+							className: "w-5 h-5 rounded-full bg-[#33415c]/10 text-[#33415c] flex items-center justify-center shrink-0",
+							children: /* @__PURE__ */ (0, z.jsx)(yh, { className: "w-4 h-4 stroke-[2.5]" })
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[13px] font-bold text-[#0071e3] leading-none",
+							className: "text-[15px] font-bold text-[#33415c] leading-none",
 							children: "equipe"
 						})]
 					}), /* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[10px] font-medium text-[#5f6062] mt-1.5 leading-snug",
+						className: "text-[15px] font-medium text-[#52525b] mt-1.5 leading-snug",
 						children: "função · comunicação · tratamento · evolução clínica"
 					})]
 				})
@@ -47887,14 +47924,14 @@ function TQ({ isActive: e = !0 }) {
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center gap-1.5 w-full",
 						children: [/* @__PURE__ */ (0, z.jsx)("div", {
-							className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-							children: /* @__PURE__ */ (0, z.jsx)(Tm, { className: "w-3 h-3 stroke-[2.5]" })
+							className: "w-5 h-5 rounded-full bg-[#33415c]/10 text-[#33415c] flex items-center justify-center shrink-0",
+							children: /* @__PURE__ */ (0, z.jsx)(Tm, { className: "w-4 h-4 stroke-[2.5]" })
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[13px] font-bold text-[#0071e3] leading-none",
+							className: "text-[15px] font-bold text-[#33415c] leading-none",
 							children: "pais e cuidadores"
 						})]
 					}), /* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[10px] font-medium text-[#5f6062] mt-1.5 leading-snug",
+						className: "text-[15px] font-medium text-[#52525b] mt-1.5 leading-snug",
 						children: "trajetória · cotidiano · organização · mudanças no tempo"
 					})]
 				})
@@ -47910,14 +47947,14 @@ function TQ({ isActive: e = !0 }) {
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center gap-1.5 w-full",
 						children: [/* @__PURE__ */ (0, z.jsx)("div", {
-							className: "w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0",
-							children: /* @__PURE__ */ (0, z.jsx)(xm, { className: "w-3 h-3 stroke-[2.5]" })
+							className: "w-5 h-5 rounded-full bg-[#33415c]/10 text-[#33415c] flex items-center justify-center shrink-0",
+							children: /* @__PURE__ */ (0, z.jsx)(xm, { className: "w-4 h-4 stroke-[2.5]" })
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[13px] font-bold text-[#0071e3] leading-none",
+							className: "text-[15px] font-bold text-[#33415c] leading-none",
 							children: "escola"
 						})]
 					}), /* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[10px] font-medium text-[#5f6062] mt-1.5 leading-snug",
+						className: "text-[15px] font-medium text-[#52525b] mt-1.5 leading-snug",
 						children: "participação · pares · aprendizagem · atenção"
 					})]
 				})
@@ -47929,7 +47966,7 @@ function TQ({ isActive: e = !0 }) {
 //#region components/slide38-cards.tsx
 function EQ({ isActive: e = !0, className: t }) {
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
-		className: q("w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[640px] mx-auto my-auto", t),
+		className: q("w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[820px] mx-auto my-auto", t),
 		children: [/* @__PURE__ */ (0, z.jsxs)(H.div, {
 			initial: {
 				opacity: 0,
@@ -47949,7 +47986,7 @@ function EQ({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: "p-5 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] flex-1 relative overflow-hidden",
+			className: "px-5 py-4 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] flex-1 relative overflow-hidden",
 			children: [
 				/* @__PURE__ */ (0, z.jsx)("div", { className: "absolute top-0 right-0 w-44 h-44 bg-[#33415c]/25 rounded-full blur-3xl pointer-events-none" }),
 				/* @__PURE__ */ (0, z.jsxs)("div", {
@@ -47958,19 +47995,19 @@ function EQ({ isActive: e = !0, className: t }) {
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "flex items-center justify-between mb-1.5",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-400 font-['Urbanist',sans-serif]",
+								className: "text-[14px] font-bold uppercase tracking-[0.1em] text-zinc-400 font-['Urbanist',sans-serif]",
 								children: "Discordância Informativa"
 							}), /* @__PURE__ */ (0, z.jsx)("span", {
-								className: "text-[10px] font-semibold text-slate-300 bg-[#33415c]/35 px-2.5 py-0.5 rounded-full border border-slate-400/30",
+								className: "text-[14px] font-semibold text-slate-300 bg-[#33415c]/35 px-2.5 py-0.5 rounded-full border border-slate-400/30",
 								children: "Eixo 7 · Longitude"
 							})]
 						}),
 						/* @__PURE__ */ (0, z.jsx)("h4", {
-							className: "text-[18px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
+							className: "text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
 							children: "Discrepância Não É Erro: É Informação"
 						}),
 						/* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11.5px] font-medium text-zinc-300 mt-1 leading-relaxed",
+							className: "text-[16px] font-medium text-zinc-300 mt-1 leading-snug",
 							children: "221 crianças (8–17 anos, PROMIS): a concordância variou amplamente com a idade e o domínio avaliado."
 						})
 					]
@@ -47980,19 +48017,19 @@ function EQ({ isActive: e = !0, className: t }) {
 					children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "p-2.5 rounded-2xl bg-zinc-900/90 border border-zinc-800",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] font-bold uppercase tracking-wider text-zinc-400 block mb-1 font-['Urbanist',sans-serif]",
+							className: "text-[14px] font-bold uppercase tracking-wider text-zinc-400 block mb-1 font-['Urbanist',sans-serif]",
 							children: "Pai / Cuidador"
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11.5px] text-zinc-200 leading-snug m-0",
+							className: "text-[16px] text-zinc-200 leading-snug m-0",
 							children: "“Não vejo qualquer dificuldade com os colegas.”"
 						})]
 					}), /* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "p-2.5 rounded-2xl bg-[#33415c]/25 border border-slate-400/30",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] font-bold uppercase tracking-wider text-slate-300 block mb-1 font-['Urbanist',sans-serif]",
+							className: "text-[14px] font-bold uppercase tracking-wider text-slate-300 block mb-1 font-['Urbanist',sans-serif]",
 							children: "Adolescente"
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "text-[11.5px] text-white leading-snug m-0",
+							className: "text-[16px] text-white leading-snug m-0",
 							children: "“Evito o recreio porque não me sinto parte do grupo.”"
 						})]
 					})]
@@ -48000,7 +48037,7 @@ function EQ({ isActive: e = !0, className: t }) {
 				/* @__PURE__ */ (0, z.jsx)("div", {
 					className: "p-2.5 bg-zinc-900/95 rounded-2xl border border-zinc-800/90 relative z-10 mb-1",
 					children: /* @__PURE__ */ (0, z.jsxs)("p", {
-						className: "text-[11px] text-zinc-200 leading-snug m-0",
+						className: "text-[15px] text-zinc-200 leading-snug m-0",
 						children: ["Duas perspectivas descrevem contextos diferentes da mesma realidade. ", /* @__PURE__ */ (0, z.jsx)("strong", {
 							className: "text-white font-semibold",
 							children: "Não tente fazer os relatos coincidirem. Integre-os na formulação clínica."
@@ -48010,10 +48047,10 @@ function EQ({ isActive: e = !0, className: t }) {
 				/* @__PURE__ */ (0, z.jsxs)("div", {
 					className: "flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-xs font-semibold text-zinc-400",
+						className: "text-[16px] font-semibold text-zinc-400",
 						children: "Interpretação clínica:"
 					}), /* @__PURE__ */ (0, z.jsx)("span", {
-						className: "text-xs font-bold text-slate-300 bg-slate-500/20 px-2.5 py-0.5 rounded-full border border-slate-400/30",
+						className: "text-[16px] font-bold text-slate-300 bg-slate-500/20 px-2.5 py-0.5 rounded-full border border-slate-400/30",
 						children: "Quem × O Quê × Contexto × Idade"
 					})]
 				})
@@ -48037,25 +48074,25 @@ function EQ({ isActive: e = !0, className: t }) {
 					1
 				]
 			},
-			className: "p-5 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between flex-1",
+			className: "px-5 py-4 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between flex-1",
 			children: [
 				/* @__PURE__ */ (0, z.jsxs)("div", { children: [
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "flex items-center justify-between mb-1.5",
 						children: [/* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[10px] font-bold uppercase tracking-[0.14em] text-[#33415c] bg-[#33415c]/[0.10] px-2.5 py-0.5 rounded-full border border-[#33415c]/25 font-['Urbanist',sans-serif]",
+							className: "text-[14px] font-bold uppercase tracking-[0.14em] text-[#33415c] bg-[#33415c]/[0.10] px-2.5 py-0.5 rounded-full border border-[#33415c]/25 font-['Urbanist',sans-serif]",
 							children: "Volpicelli et al. 2020 · Bous et al. 2020"
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "text-[11px] font-semibold text-[#5f6062]",
+							className: "text-[15px] font-semibold text-[#5f6062]",
 							children: "Multi-informante"
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsx)("h4", {
-						className: "text-[17px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
+						className: "text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
 						children: "Evolução das Fontes de Informação"
 					}),
 					/* @__PURE__ */ (0, z.jsx)("p", {
-						className: "text-[11px] text-[#5f6062] mt-0.5",
+						className: "text-[16px] font-medium text-[#5f6062] mt-0.5",
 						children: "Quem informa melhor muda com a idade: peso relativo do relato do cuidador e do paciente:"
 					})
 				] }),
@@ -48063,7 +48100,7 @@ function EQ({ isActive: e = !0, className: t }) {
 					className: "my-1.5 bg-[#fcfdfe] rounded-2xl p-2 border border-black/[0.04]",
 					children: /* @__PURE__ */ (0, z.jsxs)("svg", {
 						viewBox: "0 0 580 150",
-						className: "w-full h-auto max-h-[135px] display-block overflow-visible",
+						className: "w-full h-auto max-h-[172px] display-block overflow-visible",
 						"aria-label": "Curvas de transição de peso de informante",
 						children: [
 							/* @__PURE__ */ (0, z.jsxs)("defs", { children: [
@@ -48149,7 +48186,7 @@ function EQ({ isActive: e = !0, className: t }) {
 								x: "45",
 								y: "130",
 								fontFamily: "'Urbanist', sans-serif",
-								fontSize: "12",
+								fontSize: "16",
 								fontWeight: "700",
 								fill: "#5f6062",
 								children: "criança pequena"
@@ -48159,7 +48196,7 @@ function EQ({ isActive: e = !0, className: t }) {
 								y: "130",
 								textAnchor: "middle",
 								fontFamily: "'Urbanist', sans-serif",
-								fontSize: "12",
+								fontSize: "16",
 								fontWeight: "700",
 								fill: "#5f6062",
 								children: "escolar"
@@ -48169,7 +48206,7 @@ function EQ({ isActive: e = !0, className: t }) {
 								y: "130",
 								textAnchor: "end",
 								fontFamily: "'Urbanist', sans-serif",
-								fontSize: "12",
+								fontSize: "16",
 								fontWeight: "700",
 								fill: "#33415c",
 								children: "adolescente"
@@ -48225,21 +48262,21 @@ function EQ({ isActive: e = !0, className: t }) {
 							/* @__PURE__ */ (0, z.jsxs)("g", {
 								transform: "translate(290, 18)",
 								children: [/* @__PURE__ */ (0, z.jsx)("rect", {
-									x: "-80",
-									y: "-9",
-									width: "160",
-									height: "18",
-									rx: "9",
+									x: "-138",
+									y: "-12",
+									width: "276",
+									height: "24",
+									rx: "12",
 									fill: "#ffffff",
 									stroke: "#33415c",
 									strokeWidth: "1",
 									strokeOpacity: "0.35"
 								}), /* @__PURE__ */ (0, z.jsx)("text", {
 									x: "0",
-									y: "4",
+									y: "5.5",
 									textAnchor: "middle",
 									fontFamily: "'Urbanist', sans-serif",
-									fontSize: "10",
+									fontSize: "16",
 									fontWeight: "800",
 									fill: "#1e293b",
 									children: "✦ TRANSIÇÃO DE PERSPECTIVA"
@@ -48249,11 +48286,11 @@ function EQ({ isActive: e = !0, className: t }) {
 					})
 				}),
 				/* @__PURE__ */ (0, z.jsx)("p", {
-					className: "text-[11.5px] text-[#334155] leading-snug m-0 font-normal",
+					className: "text-[16px] text-[#334155] leading-snug m-0 font-normal",
 					children: "O relato do cuidador nunca chega a zero: à medida que a idade avança, o relato do jovem ganha precisão e protagonismo."
 				}),
 				/* @__PURE__ */ (0, z.jsxs)("p", {
-					className: "text-[11px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between",
+					className: "text-[15px] text-[#5f6062] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between gap-3",
 					children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Quem relata × O que relata" }), /* @__PURE__ */ (0, z.jsx)("span", {
 						className: "font-semibold text-[#33415c]",
 						children: "Integração de Perspectivas Complementares"
@@ -48336,7 +48373,7 @@ var DQ = ({ className: e }) => /* @__PURE__ */ (0, z.jsx)("svg", {
 ];
 function AQ({ isActive: e = !0, className: t }) {
 	return /* @__PURE__ */ (0, z.jsx)("div", {
-		className: q("w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-5", t),
+		className: q("w-full grid grid-cols-3 gap-4 lg:gap-5", t),
 		children: kQ.map((t, n) => {
 			let r = t.icon;
 			return /* @__PURE__ */ (0, z.jsxs)(H.div, {
@@ -48358,7 +48395,7 @@ function AQ({ isActive: e = !0, className: t }) {
 						1
 					]
 				},
-				className: q("group relative border border-dashed border-zinc-300/90 hover:border-[#0071e3]/60", "rounded-xl p-5 bg-white/95 shadow-[0_2px_10px_rgba(0,0,0,0.02)]", "hover:shadow-[0_8px_24px_rgba(0,113,227,0.08)] hover:bg-[#fbfdff]", "transition-all duration-300 flex flex-col justify-between min-h-[190px] select-none hover:-translate-y-0.5"),
+				className: q("group relative border border-dashed border-zinc-300/90 hover:border-[#0071e3]/60", "rounded-xl p-5 bg-white/95 shadow-[0_2px_10px_rgba(0,0,0,0.02)]", "hover:shadow-[0_8px_24px_rgba(0,113,227,0.08)] hover:bg-[#fbfdff]", "transition-all duration-300 flex flex-col justify-between min-h-[262px] select-none hover:-translate-y-0.5"),
 				children: [
 					/* @__PURE__ */ (0, z.jsx)(OQ, { className: "text-zinc-400 group-hover:text-[#0071e3] transition-colors duration-300" }),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
@@ -48367,27 +48404,27 @@ function AQ({ isActive: e = !0, className: t }) {
 							className: "flex h-9 w-9 items-center justify-center rounded-lg bg-[#e8f2fc] text-[#0071e3] border border-[#0071e3]/20 shadow-xs transition-transform duration-300 group-hover:scale-105",
 							children: /* @__PURE__ */ (0, z.jsx)(r, { className: "h-4.5 w-4.5" })
 						}), /* @__PURE__ */ (0, z.jsx)("span", {
-							className: "inline-flex items-center px-2.5 py-0.5 rounded-md text-[10px] font-bold uppercase tracking-wider bg-zinc-100/90 text-zinc-600 border border-zinc-200/80 group-hover:border-[#0071e3]/25 group-hover:bg-[#e8f2fc]/50 group-hover:text-[#0071e3] transition-colors font-['Urbanist',sans-serif]",
+							className: "inline-flex items-center px-2.5 py-0.5 rounded-md text-[14px] font-bold uppercase tracking-wide bg-zinc-100/90 text-zinc-600 border border-zinc-200/80 group-hover:border-[#0071e3]/25 group-hover:bg-[#e8f2fc]/50 group-hover:text-[#0071e3] transition-colors font-['Urbanist',sans-serif]",
 							children: t.eixoBadge
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "relative z-10 space-y-1.5 flex-1 flex flex-col justify-start",
 						children: [/* @__PURE__ */ (0, z.jsx)("h3", {
-							className: "font-['Urbanist',sans-serif] text-[18px] font-bold tracking-tight text-[#0f1012] leading-snug group-hover:text-[#0071e3] transition-colors duration-200",
+							className: "font-['Urbanist',sans-serif] text-[22px] font-bold tracking-tight text-[#0f1012] leading-snug group-hover:text-[#0071e3] transition-colors duration-200",
 							children: t.title
 						}), /* @__PURE__ */ (0, z.jsx)("p", {
-							className: "font-['Satoshi',sans-serif] text-[14px] leading-[1.44] text-[#3f4042]",
+							className: "font-['Satoshi',sans-serif] text-[18px] font-medium leading-[1.4] text-[#3f4042]",
 							children: t.description
 						})]
 					}),
 					/* @__PURE__ */ (0, z.jsxs)("div", {
 						className: "relative z-10 mt-3 pt-2 border-t border-zinc-100 flex items-center justify-between",
 						children: [/* @__PURE__ */ (0, z.jsxs)("span", {
-							className: "inline-flex items-center gap-1.5 text-[11px] font-semibold text-zinc-400 group-hover:text-[#0071e3]/80 transition-colors",
+							className: "inline-flex items-center gap-1.5 text-[15px] font-semibold text-zinc-500 group-hover:text-[#0071e3]/80 transition-colors",
 							children: [/* @__PURE__ */ (0, z.jsx)("span", { className: "w-1.5 h-1.5 rounded-full bg-[#0071e3]/60" }), t.footerTag]
 						}), /* @__PURE__ */ (0, z.jsxs)("span", {
-							className: "text-[10.5px] font-bold font-['Urbanist',sans-serif] text-zinc-400 group-hover:text-[#0071e3] transition-colors",
+							className: "text-[14px] font-bold font-['Urbanist',sans-serif] text-zinc-500 group-hover:text-[#0071e3] transition-colors",
 							children: [
 								"0",
 								t.number,
@@ -48417,8 +48454,8 @@ var jQ = [
 		id: 2,
 		label: "Cognição",
 		num: "Eixo 2",
-		color: "#21C6E0",
-		bgTint: "#eaf9fa",
+		color: "#0d6d66",
+		bgTint: "#e6f5f3",
 		module: "Módulo 02",
 		startSlide: 14,
 		endSlide: 18
@@ -48482,34 +48519,34 @@ function NQ(e) {
     <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
       ${jQ.map((t) => {
 		if (t.id < e.id) return `
-        <div style="display:inline-flex;align-items:center;gap:5px;padding:3.5px 10px;border-radius:9999px;background:#ecfdf5;color:#047857;border:1px solid rgba(5,150,105,0.3);font-size:11px;font-weight:500;white-space:nowrap;transition:all 0.2s ease;">
-          <svg style="width:12px;height:12px;color:#059669;flex-shrink:0;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <div style="display:inline-flex;align-items:center;gap:5px;padding:4px 11px;border-radius:9999px;background:#ecfdf5;color:#047857;border:1px solid rgba(5,150,105,0.3);font-size:14px;font-weight:500;white-space:nowrap;transition:all 0.2s ease;">
+          <svg style="width:14px;height:14px;color:#059669;flex-shrink:0;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
             <polyline points="22 4 12 14.01 9 11.01"></polyline>
           </svg>
           <span style="font-family:'Urbanist',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;">${t.num}</span>
-          <span style="opacity:0.8;font-size:10.5px;">· ${t.label}</span>
+          <span style="opacity:0.9;font-size:14px;">· ${t.label}</span>
         </div>
       `;
 		if (t.id === e.id) {
-			let e = t.id === 2, n = e ? "#0f1012" : "#ffffff", r = e ? "#0f1012" : "#ffffff", i = t.color.replace("#", ""), a = `rgba(${parseInt(i.substring(0, 2), 16)}, ${parseInt(i.substring(2, 4), 16)}, ${parseInt(i.substring(4, 6), 16)}, 0.38)`;
+			let e = "#ffffff", n = t.color.replace("#", ""), r = `rgba(${parseInt(n.substring(0, 2), 16)}, ${parseInt(n.substring(2, 4), 16)}, ${parseInt(n.substring(4, 6), 16)}, 0.38)`;
 			return `
-        <div style="display:inline-flex;align-items:center;gap:6px;padding:4px 13px;border-radius:9999px;background:${t.color};color:${n};border:1px solid ${t.color};font-size:11.5px;font-weight:700;box-shadow:0 3px 14px ${a}, 0 1px 3px rgba(0,0,0,0.08);white-space:nowrap;transition:all 0.2s ease;">
-          <span style="width:6px;height:6px;border-radius:9999px;background:${r};display:inline-block;animation:pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;"></span>
+        <div style="display:inline-flex;align-items:center;gap:6px;padding:5px 14px;border-radius:9999px;background:${t.color};color:${e};border:1px solid ${t.color};font-size:15px;font-weight:700;box-shadow:0 3px 14px ${r}, 0 1px 3px rgba(0,0,0,0.08);white-space:nowrap;transition:all 0.2s ease;">
+          <span style="width:6px;height:6px;border-radius:9999px;background:#ffffff;display:inline-block;animation:pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;"></span>
           <span style="font-family:'Urbanist',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:0.05em;">${t.num}</span>
-          <span style="color:${n};font-size:11px;font-weight:600;">· ${t.label}</span>
+          <span style="color:${e};font-size:15px;font-weight:600;">· ${t.label}</span>
         </div>
       `;
 		}
 		return `
-      <div style="display:inline-flex;align-items:center;gap:4px;padding:3.5px 9px;border-radius:9999px;background:rgba(0,0,0,0.02);color:#9ca3af;border:1px solid rgba(0,0,0,0.05);font-size:10.5px;white-space:nowrap;transition:all 0.2s ease;">
+      <div style="display:inline-flex;align-items:center;gap:4px;padding:4px 10px;border-radius:9999px;background:rgba(0,0,0,0.02);color:#5f6062;border:1px solid rgba(0,0,0,0.08);font-size:14px;white-space:nowrap;transition:all 0.2s ease;">
         <span style="font-family:'Urbanist',sans-serif;font-weight:600;">${t.num}</span>
-        <span style="font-size:10px;opacity:0.85;">${t.label}</span>
+        <span style="font-size:14px;font-weight:500;">${t.label}</span>
       </div>
     `;
 	}).join("")}
     </div>
-    <div style="display:flex;align-items:center;gap:8px;font-size:12px;font-weight:500;color:#71717a;flex-shrink:0;">
+    <div style="display:flex;align-items:center;gap:8px;font-size:15px;font-weight:500;color:#52525b;flex-shrink:0;">
       <span style="width:6px;height:6px;border-radius:9999px;background:${e.color};"></span>
       <span style="font-family:'Urbanist',sans-serif;font-weight:700;color:${e.color};text-transform:uppercase;letter-spacing:0.06em;">${e.module}</span>
       <span>/ 07</span>
