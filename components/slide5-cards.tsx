@@ -273,14 +273,8 @@ export const Slide5ConceptCards: React.FC = () => {
   ];
 
   return (
-    <>
-      <style>{`
-        @media (min-width: 1024px) {
-          .s5-custom-grid { grid-template-columns: 0.94fr 1.03fr 1.03fr !important; }
-        }
-      `}</style>
-      <div className="w-full grid grid-cols-1 gap-6 h-full items-stretch s5-custom-grid">
-        {/* CARD 1: MULTIDIMENSIONAL */}
+    <div className="w-full grid gap-6 h-full items-stretch" style={{ gridTemplateColumns: '0.94fr 1.03fr 1.03fr' }}>
+      {/* CARD 1: MULTIDIMENSIONAL */}
       <SlideCardShell
         title="Multidimensional"
         subtitle="cognição, linguagem, comportamento, emoções, habilidades sociais"
@@ -588,7 +582,6 @@ export const Slide5ConceptCards: React.FC = () => {
         </div>
       </SlideCardShell>
     </div>
-    </>
   );
 };
 
