@@ -182,7 +182,7 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
     <div className="w-full h-full flex flex-col justify-between font-['Satoshi',sans-serif] text-[#0f1012] overflow-hidden">
       
       {/* Grade Superior: 3 Colunas Perfeitamente Calibradas */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-3.5 flex-1 min-h-0 items-stretch">
+      <div className="grid grid-cols-12 gap-3.5 flex-1 min-h-0 items-stretch">
         
         {/* COLUNA 1: Card de Trajetórias (4 cols) */}
         <motion.div
@@ -595,7 +595,7 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
       <div className="pt-2 border-t border-black/[0.06] flex flex-col gap-1.5">
         
         {/* Banner de Síntese Conceitual Alinhado à Esquerda (Rente ao card Probabilístico) */}
-        <div className="self-start ml-0 mr-auto max-w-[880px] w-full px-4 py-1.5 rounded-xl bg-gradient-to-r from-[#f8f9fa] via-[#e8f2fc]/45 to-[#f8f9fa] border border-[#0071e3]/18 shadow-2xs flex flex-col md:flex-row items-center justify-between gap-3">
+        <div className="self-start ml-0 mr-auto max-w-[880px] w-full px-4 py-1.5 rounded-xl bg-gradient-to-r from-[#f8f9fa] via-[#e8f2fc]/45 to-[#f8f9fa] border border-[#0071e3]/18 shadow-2xs flex flex-row items-center justify-between gap-3">
           <div className="flex flex-col gap-0.5">
             <div className="flex items-center gap-2">
               <span className="text-[8.5px] font-extrabold uppercase tracking-widest text-[#0071e3] bg-[#0071e3]/10 px-2 py-0.5 rounded-md border border-[#0071e3]/20 shrink-0">
@@ -618,7 +618,7 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
         </div>
 
         {/* 4 Cards Bento Apple */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+        <div className="grid grid-cols-4 gap-2">
           {kpis.map((k, idx) => (
             <motion.div
               key={k.label}

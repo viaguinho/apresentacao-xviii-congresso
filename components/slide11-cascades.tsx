@@ -54,7 +54,7 @@ export default function Slide11Cascades({ isActive = true }: Slide11CascadesProp
   return (
     <div className="w-full h-full flex flex-col justify-between font-['Satoshi',sans-serif] text-[#0f1012]">
       {/* Grade Superior: Mecanismo Geral da Cascata (7 cols) + Painel Empírico e Co-regulação (5 cols) */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 flex-1 min-h-0 items-stretch">
+      <div className="grid grid-cols-12 gap-5 flex-1 min-h-0 items-stretch">
         
         {/* Card Principal: Mecanismo Geral das Cascatas (Schneider & West, 2025; Masten & Cicchetti, 2010) */}
         <motion.div
@@ -468,7 +468,7 @@ export default function Slide11Cascades({ isActive = true }: Slide11CascadesProp
       </div>
 
       {/* Grid Inferior: Os 4 Cards de KPI / Princípios Essenciais (Advanced Stats Row) */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-4">
+      <div className="grid grid-cols-4 gap-4 pt-4">
         {kpis.map((kpi, index) => (
           <motion.div
             key={kpi.label}

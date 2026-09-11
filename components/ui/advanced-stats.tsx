@@ -58,7 +58,7 @@ export default function AdvancedStats({ isActive = true, className }: AdvancedSt
       )}
     >
       <div className="w-full">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+        <div className="grid grid-cols-12 gap-6">
           {/* Seção Principal: Gráfico de Área */}
           <TimelineAnimation
             animationNum={1}
@@ -158,7 +158,7 @@ export default function AdvancedStats({ isActive = true, className }: AdvancedSt
         </div>
 
         {/* Linha dos 4 KPIs Desenvolvimentais (Sem nenhuma porcentagem) */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-5">
+        <div className="grid grid-cols-4 gap-4 pt-5">
           {developmentalKpis.map((kpi, index) => (
             <TimelineAnimation
               animationNum={4 + index}

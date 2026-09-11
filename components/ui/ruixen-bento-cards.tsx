@@ -113,7 +113,7 @@ export default function RuixenBentoCards() {
     <section className="bg-white dark:bg-black dark:bg-transparent border border-gray-200 dark:border-gray-800">
       <div className="mx-auto container border border-gray-200 dark:border-gray-800 py-12 border-t-0 px-4">
         {/* Responsive Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 auto-rows-auto gap-4">
+        <div className="grid grid-cols-6 auto-rows-auto gap-4">
           <PlusCard {...cardContents[0]} className="lg:col-span-3 lg:row-span-2" />
           <PlusCard {...cardContents[1]} className="lg:col-span-2 lg:row-span-2" />
           <PlusCard {...cardContents[2]} className="lg:col-span-4 lg:row-span-1" />

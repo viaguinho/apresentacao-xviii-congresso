@@ -12,7 +12,7 @@ export default function Slide10Plasticity({ isActive = true }: Slide10Plasticity
   return (
     <div className="w-full h-full flex flex-col justify-between font-['Satoshi',sans-serif] text-[#0f1012]">
       {/* Grade Superior: Gráfico 1 (2 cols) + Painel Lateral com Gráfico 2 e Síntese (1 col) */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 flex-1 min-h-0 items-stretch">
+      <div className="grid grid-cols-12 gap-5 flex-1 min-h-0 items-stretch">
         
         {/* Card Principal: Gráfico 1 (Knudsen / Gabard-Durnam) — ocupa 7 colunas */}
         <motion.div
@@ -162,7 +162,7 @@ export default function Slide10Plasticity({ isActive = true }: Slide10Plasticity
           </div>
 
           {/* Definições Conceituais Exatas do Slide Original */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-3 border-t border-black/[0.06]">
+          <div className="grid grid-cols-2 gap-4 pt-3 border-t border-black/[0.06]">
             <div className="bg-[#f8f9fa] rounded-2xl p-3.5 border border-black/[0.04]">
               <p className="m-0 text-[14px] font-normal leading-relaxed text-[#3f4042]">
                 <strong className="text-[#0071e3] font-semibold">Crítico:</strong> uma experiência específica é necessária dentro de uma janela temporal mais restrita.
@@ -289,7 +289,7 @@ export default function Slide10Plasticity({ isActive = true }: Slide10Plasticity
       </div>
 
       {/* Grid Inferior: Os 4 Cards de KPI / Síntese Clínica (Estilo Advanced Stats) */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-4">
+      <div className="grid grid-cols-4 gap-4 pt-4">
         
         {/* Card 1: Período Crítico */}
         <motion.div

@@ -339,20 +339,13 @@
     flex-direction: column;
     gap: 18px;
   }
-  .logo-img-fallback { display: none; }
-  /* iOS Safari detection to replace WebM alpha (which renders black) with a static image */
-  @supports (-webkit-touch-callout: none) {
-    .logo-video { display: none !important; }
-    .logo-img-fallback { display: block !important; }
-  }
 </style>
 </helmet>
 
 <x-import component-from-global-scope="deck-stage" from="./deck-stage.js" width="1920" height="1080" hint-size="100%,100%">
 
   <section data-label="Capa" data-screen-label="01" data-speaker-notes="Abertura. Apresentar o tema e o enquadramento: trajetórias, não fotografias." style="background:linear-gradient(180deg,#fdfdfd 0%,#f2f2f4 100%);font-family:'Satoshi',system-ui,sans-serif;color:#0f1012;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:80px 200px 72px">
-    <video class="logo-video" data-anim="pop" src="{{ logoSrc }}" autoplay="autoplay" loop="loop" muted="muted" playsinline="playsinline" style="width:300px;height:300px;object-fit:cover;animation-duration:400ms;margin-bottom:56px;mix-blend-mode:multiply;background:transparent;"></video>
-    <img class="logo-img-fallback" data-anim="pop" src="{{ logoFallbackSrc }}" style="width:300px;height:300px;object-fit:cover;animation-duration:400ms;margin-bottom:56px;mix-blend-mode:multiply;background:transparent;" />
+    <video data-anim="pop" src="{{ logoSrc }}" autoplay="autoplay" loop="loop" muted="muted" playsinline="playsinline" style="width:300px;height:300px;object-fit:cover;animation-duration:400ms;margin-bottom:56px;mix-blend-mode:multiply;background:transparent;"></video>
     <h1 style="margin:0;font-size:64px;font-weight:300;letter-spacing:-1.3px;line-height:1.1" data-anim="up" data-comment-anchor="capa-titulo">Desenvolvimento infanto-juvenil</h1>
     <p style="margin:22px 0 0;font-size:38px;font-weight:300;letter-spacing:-0.6px;line-height:1.25;max-width:1240px" data-anim="up">Aspectos cognitivos, emocionais e sociais</p>
     <p style="margin:34px 0 0;font-size:28px;font-weight:400;color:#6a6b6d;line-height:1.45" data-anim="up-sm">A estruturação do protocolo de psicologia em centros de tratamento de anomalias craniofaciais</p>
@@ -2529,8 +2522,7 @@
   </section>
 
   <section data-label="Contato" data-screen-label="42" data-speaker-notes="Encerramento. Agradecer e abrir para perguntas." style="background:linear-gradient(180deg,#fdfdfd 0%,#f2f2f4 100%);font-family:'Satoshi',system-ui,sans-serif;color:#0f1012;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:90px 200px">
-    <video class="logo-video" data-anim="pop" src="{{ logoSrc }}" autoplay="autoplay" loop="loop" muted="muted" playsinline="playsinline" style="width:220px;height:220px;object-fit:cover;animation-duration:400ms;margin-bottom:48px;mix-blend-mode:multiply;background:transparent;"></video>
-    <img class="logo-img-fallback" data-anim="pop" src="{{ logoFallbackSrc }}" style="width:220px;height:220px;object-fit:cover;animation-duration:400ms;margin-bottom:48px;mix-blend-mode:multiply;background:transparent;" />
+    <video data-anim="pop" src="{{ logoSrc }}" autoplay="autoplay" loop="loop" muted="muted" playsinline="playsinline" style="width:220px;height:220px;object-fit:cover;animation-duration:400ms;margin-bottom:48px;mix-blend-mode:multiply;background:transparent;"></video>
     <h2 style="margin:0;font-size:52px;font-weight:300;letter-spacing:-1px;line-height:1.15" data-anim="up">Entre em contato</h2>
     <p style="margin:30px 0 0;font-family:'Urbanist',sans-serif;font-size:38px;font-weight:600;letter-spacing:-0.5px" data-anim="up">Dr. Charlington Cavalcante</p>
     <p style="margin:12px 0 0;font-size:26px;font-weight:400;color:#5f6062;line-height:1.5" data-anim="up-sm">Neurologia infantil e neurofisiologia clínica &nbsp;·&nbsp; CRM-SP 173.176 &nbsp;|&nbsp; CRM-CE 14.212</p>
@@ -2593,10 +2585,7 @@ class Component extends DCLogic {
   }
   renderVals() {
     const prata = (this.props.logoFundo || 'Branco') === 'Prata';
-    return { 
-      logoSrc: prata ? 'assets/liquid-logo-prata.webm' : 'assets/liquid-logo-branco.webm',
-      logoFallbackSrc: prata ? 'assets/logo-prata-mobile-fallback.jpg' : 'assets/logo-mobile-fallback.jpg'
-    };
+    return { logoSrc: prata ? 'assets/liquid-logo-prata.webm' : 'assets/liquid-logo-branco.webm' };
   }
 }
 </script>

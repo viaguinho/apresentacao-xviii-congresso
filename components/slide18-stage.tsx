@@ -8,7 +8,7 @@ export interface Slide18StageProps {
 
 export const Slide18Stage: React.FC<Slide18StageProps> = ({ isActive = true }) => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center w-full">
+    <div className="grid grid-cols-12 gap-8 items-center w-full">
       {/* Coluna Esquerda: Gráfico Meta-análise Apple Health */}
       <div className="lg:col-span-6 xl:col-span-6 flex flex-col gap-3">
         <SleepTrackerCard isActive={isActive} />

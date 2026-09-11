@@ -21,7 +21,7 @@ export default function Slide23Cards({ isActive = true, className }: Slide23Card
   return (
     <div
       className={cn(
-        "w-full grid grid-cols-1 md:grid-cols-2 gap-5 items-stretch select-none font-['Satoshi',sans-serif]",
+        "w-full grid grid-cols-2 gap-5 items-stretch select-none font-['Satoshi',sans-serif]",
         className
       )}
     >
