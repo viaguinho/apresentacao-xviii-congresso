@@ -185,7 +185,7 @@ export default function RadialOrbitalTimeline({
         isLight ? "bg-transparent text-[#0f1012]" : "bg-black text-white"
       }`}
     >
-      <div className="relative w-full h-full flex items-center justify-center">
+      <div className={`relative w-full h-full flex items-center justify-center ${compact ? "pb-[112px]" : ""}`}>
         <div
           ref={orbitRef}
           className="absolute w-full h-full flex items-center justify-center overflow-visible"
@@ -268,7 +268,7 @@ export default function RadialOrbitalTimeline({
                 <div
                   className={`
                     rounded-full flex items-center justify-center transition-colors duration-200 border-2
-                    ${compact ? "w-10 h-10" : "w-12 h-12"}
+                    ${compact ? "w-12 h-12" : "w-12 h-12"}
                     ${
                       isExpanded
                         ? isLight
@@ -284,13 +284,13 @@ export default function RadialOrbitalTimeline({
                     }
                   `}
                 >
-                  <Icon size={compact ? 17 : 21} />
+                  <Icon size={compact ? 21 : 21} />
                 </div>
 
                 {/* Rótulo do Nó */}
                 <div
                   className={`
-                    absolute top-11 whitespace-nowrap text-[11px] font-bold tracking-tight transition-colors duration-200
+                    absolute top-[52px] whitespace-nowrap text-[15px] font-bold tracking-tight transition-colors duration-200
                     ${
                       isExpanded
                         ? isLight
@@ -315,21 +315,21 @@ export default function RadialOrbitalTimeline({
         <div className="absolute bottom-1 left-2 right-2 z-40 animate-in fade-in slide-in-from-bottom-2 duration-300 pointer-events-none">
           {compact ? (
             <div
-              className={`p-1.5 px-2.5 rounded-xl border shadow-sm ${
+              className={`px-3 py-2 rounded-xl border shadow-sm ${
                 isLight
                   ? "bg-white/95 backdrop-blur-md border-[#0071e3]/20 shadow-[0_2px_12px_rgba(0,113,227,0.06)]"
                   : "bg-black/90 backdrop-blur-lg border-white/20 text-white"
               }`}
             >
               <div className="flex items-center justify-between gap-1">
-                <div className="flex items-center gap-1.5 min-w-0">
-                  <Badge className={`px-1.5 py-0 text-[8px] font-bold uppercase rounded-md border ${getStatusBadge(activeItem.status)}`}>
+                <div className="flex items-center gap-2 min-w-0 flex-wrap">
+                  <Badge className={`px-1.5 py-0 text-[14px] font-bold uppercase rounded-md border ${getStatusBadge(activeItem.status)}`}>
                     {activeItem.category}
                   </Badge>
-                  <span className="text-[10.5px] font-bold text-[#0f1012] truncate">
+                  <span className="text-[16px] font-bold text-[#0f1012]">
                     {activeItem.title}
                   </span>
-                  <span className="text-[9px] text-[#5f6062] truncate">
+                  <span className="text-[14px] font-medium text-[#5f6062]">
                     · {activeItem.date}
                   </span>
                 </div>
@@ -340,7 +340,7 @@ export default function RadialOrbitalTimeline({
                   </div>
                 )}
               </div>
-              <p className="text-[9px] text-[#5f6062] mt-0.5 leading-snug line-clamp-1">
+              <p className="text-[15px] font-medium text-[#3f4042] mt-0.5 leading-snug">
                 {activeItem.content}
               </p>
             </div>

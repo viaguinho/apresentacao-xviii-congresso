@@ -70,23 +70,23 @@ export default function Slide11Cascades({ isActive = true }: Slide11CascadesProp
                 <Activity className="w-3.5 h-3.5" />
                 Mecanismo de Propagação
               </span>
-              <span className="text-sm font-semibold text-[#5f6062]">
+              <span className="text-[15px] font-semibold text-[#5f6062]">
                 Schneider & West (2025) · Masten & Cicchetti (2010)
               </span>
             </div>
             <h3 className="text-2xl font-semibold tracking-tight text-[#0f1012] leading-tight">
               Efeitos que se Propagam entre Domínios e ao Longo do Tempo
             </h3>
-            <p className="text-sm text-[#5f6062] mt-0.5">
+            <p className="text-[17px] font-medium text-[#5f6062] mt-0.5 leading-snug">
               Mudanças em um sistema criam novas possibilidades de ação e reconfiguram a experiência da criança.
             </p>
           </div>
 
           {/* Diagrama Vetorial Nítido das 4 Trilhas com Cascatas e Conexões Diagonais */}
-          <div className="w-full my-2 relative bg-[#fcfdfe] rounded-2xl p-2 border border-black/[0.04]">
+          <div className="w-full my-1.5 relative bg-[#fcfdfe] rounded-2xl p-1.5 border border-black/[0.04]">
             <svg
               viewBox="0 0 940 340"
-              className="w-full h-auto max-h-[190px] display-block overflow-visible"
+              className="w-full h-auto max-h-[300px] display-block overflow-visible"
               aria-label="Diagrama de trilhas paralelas e efeitos em cascata entre domínios"
             >
               <defs>
@@ -154,20 +154,20 @@ export default function Slide11Cascades({ isActive = true }: Slide11CascadesProp
                       onMouseLeave={() => setActiveDomain(null)}
                     >
                       <rect
-                        x="10"
-                        y={y - 18}
-                        width="155"
-                        height="36"
+                        x="6"
+                        y={y - 20}
+                        width="218"
+                        height="40"
                         rx="8"
                         fill={activeDomain === i ? "#e8f2fc" : "#f4f5f7"}
                         stroke={activeDomain === i ? "#0071e3" : "transparent"}
                         strokeWidth="1"
                       />
                       <text
-                        x="24"
-                        y={y + 5}
+                        x="18"
+                        y={y + 6}
                         fontFamily="'Satoshi', sans-serif"
-                        fontSize="16"
+                        fontSize="18"
                         fontWeight="700"
                         fill={activeDomain === i ? "#0071e3" : "#3f4042"}
                         letterSpacing="-0.2px"
@@ -237,7 +237,7 @@ export default function Slide11Cascades({ isActive = true }: Slide11CascadesProp
                 <circle r="16" fill="#0071e3" fillOpacity="0.15" />
                 <circle r="8" fill="#0071e3" />
                 <circle r="3.5" fill="#ffffff" />
-                <text x="0" y="-18" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="15" fontWeight="700" fill="#0071e3">
+                <text x="-14" y="-20" textAnchor="start" fontFamily="'Satoshi', sans-serif" fontSize="18" fontWeight="700" fill="#0071e3">
                   1. Mudança inicial
                 </text>
               </g>
@@ -247,7 +247,7 @@ export default function Slide11Cascades({ isActive = true }: Slide11CascadesProp
                 <circle r="16" fill="#0ea5e9" fillOpacity="0.15" />
                 <circle r="8" fill="#0ea5e9" />
                 <circle r="3.5" fill="#ffffff" />
-                <text x="0" y="-18" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="15" fontWeight="700" fill="#0284c7">
+                <text x="-8" y="-20" textAnchor="start" fontFamily="'Satoshi', sans-serif" fontSize="18" fontWeight="700" fill="#0284c7">
                   2. Novas ações &amp; exploração
                 </text>
               </g>
@@ -257,7 +257,7 @@ export default function Slide11Cascades({ isActive = true }: Slide11CascadesProp
                 <circle r="16" fill="#6366f1" fillOpacity="0.15" />
                 <circle r="8" fill="#6366f1" />
                 <circle r="3.5" fill="#ffffff" />
-                <text x="0" y="-18" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="15" fontWeight="700" fill="#4f46e5">
+                <text x="8" y="-20" textAnchor="start" fontFamily="'Satoshi', sans-serif" fontSize="18" fontWeight="700" fill="#4f46e5">
                   3. Novas experiências
                 </text>
               </g>
@@ -267,15 +267,15 @@ export default function Slide11Cascades({ isActive = true }: Slide11CascadesProp
                 <circle r="16" fill="#8b5cf6" fillOpacity="0.15" />
                 <circle r="8" fill="#8b5cf6" />
                 <circle r="3.5" fill="#ffffff" />
-                <text x="0" y="-18" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="15" fontWeight="700" fill="#7c3aed">
+                <text x="0" y="-20" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="18" fontWeight="700" fill="#7c3aed">
                   4. Mudança noutro domínio
                 </text>
               </g>
 
               {/* Tag Flutuante: O ambiente responde em co-regulação */}
               <g transform="translate(520, 314)">
-                <rect x="-140" y="-13" width="280" height="26" rx="13" fill="#ffffff" stroke="#0f1012" strokeWidth="1.2" strokeOpacity="0.25" />
-                <text x="0" y="4" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="16" fontWeight="600" fill="#2d2e30">
+                <rect x="-165" y="-15" width="330" height="30" rx="15" fill="#ffffff" stroke="#0f1012" strokeWidth="1.2" strokeOpacity="0.25" />
+                <text x="0" y="6" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="18" fontWeight="600" fill="#2d2e30">
                   ↺ O ambiente responde: Co-regulação
                 </text>
               </g>
@@ -284,12 +284,12 @@ export default function Slide11Cascades({ isActive = true }: Slide11CascadesProp
 
           {/* Marcadores de Escalas Temporais (Momento a Momento -> Aprendizagem -> Trajetória) */}
           <div className="pt-2.5 border-t border-black/[0.06] flex items-center justify-between">
-            <div className="flex items-center gap-1.5 text-sm text-[#5f6062]">
-              <Layers className="w-3.5 h-3.5 text-[#0071e3]" />
+            <div className="flex items-center gap-1.5 text-[16px] text-[#5f6062]">
+              <Layers className="w-4 h-4 text-[#0071e3]" />
               <span className="font-semibold text-[#0f1012]">Escalas temporais integradas:</span>
             </div>
             
-            <div className="flex items-center gap-4 text-[15px]">
+            <div className="flex items-center gap-3 text-[16px]">
               <span
                 onMouseEnter={() => setHoveredScale("seg")}
                 onMouseLeave={() => setHoveredScale(null)}
@@ -337,7 +337,7 @@ export default function Slide11Cascades({ isActive = true }: Slide11CascadesProp
         </motion.div>
 
         {/* Lado Direito: Breakdown Section (Dois Cards: Co-regulação & Exemplo Empírico de Sentar) */}
-        <div className="lg:col-span-5 flex flex-col gap-4 justify-between">
+        <div className="lg:col-span-5 flex flex-col gap-3 justify-between">
           
           {/* Card 1: Card Obsidian Escuro Apple — Dinâmica Recíproca e Cascatas */}
           <motion.div
@@ -348,27 +348,27 @@ export default function Slide11Cascades({ isActive = true }: Slide11CascadesProp
           >
             <div>
               <div className="flex items-center justify-between mb-2">
-                <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-400">
+                <span className="text-[14px] font-bold uppercase tracking-[0.12em] text-zinc-400">
                   Dinâmica Recíproca
                 </span>
-                <span className="text-[10px] font-semibold text-zinc-300 bg-white/10 px-2 py-0.5 rounded-full border border-white/15">
+                <span className="text-[14px] font-semibold text-zinc-300 bg-white/10 px-2 py-0.5 rounded-full border border-white/15">
                   Criança ↔ Ambiente
                 </span>
               </div>
-              <h4 className="text-[18px] font-bold tracking-tight text-white">
+              <h4 className="text-[21px] font-bold tracking-tight text-white leading-tight">
                 Co-regulação Desenvolvimental
               </h4>
-              <p className="text-[15px] font-medium text-zinc-300 mt-1.5 leading-relaxed">
+              <p className="text-[17px] font-medium text-zinc-300 mt-1.5 leading-snug">
                 A criança não é receptora passiva: suas conquistas alteram as respostas dos cuidadores e remodelam o input recebido.
               </p>
             </div>
 
             {/* Dois Blocos de Destaque Formatados */}
-            <div className="flex flex-col gap-2 my-2">
+            <div className="grid grid-cols-2 gap-2 my-1.5">
               {/* Bloco 1: Nova Habilidade */}
               <div className="p-3 bg-zinc-900/90 rounded-2xl border border-zinc-800/80 flex items-start gap-2.5">
                 <Sparkles className="w-5 h-5 text-[#0071e3] shrink-0 mt-0.5" />
-                <p className="text-[13px] text-zinc-200 leading-relaxed m-0 font-normal">
+                <p className="text-[16px] text-zinc-200 leading-snug m-0 font-medium">
                   Uma nova habilidade não muda apenas o que a criança consegue fazer: muda o que ela passa a experimentar.
                 </p>
               </div>
@@ -376,17 +376,17 @@ export default function Slide11Cascades({ isActive = true }: Slide11CascadesProp
               {/* Bloco 2: Diferenças Iniciais */}
               <div className="p-3 bg-zinc-900/90 rounded-2xl border border-zinc-800/80 flex items-start gap-2.5">
                 <Activity className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
-                <p className="text-[13px] text-zinc-300 leading-relaxed m-0 font-normal">
+                <p className="text-[16px] text-zinc-200 leading-snug m-0 font-medium">
                   Pequenas diferenças iniciais podem ganhar importância porque modificam as experiências que vêm depois.
                 </p>
               </div>
             </div>
 
             <div className="flex items-center justify-between pt-1.5 border-t border-zinc-800">
-              <span className="text-sm font-semibold text-zinc-400">
+              <span className="text-[16px] font-semibold text-zinc-400">
                 Princípio fundamental:
               </span>
-              <span className="text-sm font-bold text-amber-300 bg-amber-400/10 px-2.5 py-0.5 rounded-full border border-amber-400/25">
+              <span className="text-[16px] font-bold text-amber-300 bg-amber-400/10 px-2.5 py-0.5 rounded-full border border-amber-400/25">
                 Cascata ≠ Destino
               </span>
             </div>
@@ -401,65 +401,65 @@ export default function Slide11Cascades({ isActive = true }: Slide11CascadesProp
           >
             <div>
               <div className="flex items-center justify-between mb-1.5">
-                <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2 py-0.5 rounded-md">
+                <span className="text-[14px] font-bold uppercase tracking-[0.1em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2 py-0.5 rounded-md">
                   Evidência Empírica
                 </span>
                 <span className="text-[15px] font-semibold text-[#5f6062]">
                   Iverson et al. (2023)
                 </span>
               </div>
-              <h4 className="text-[17px] font-bold text-[#0f1012] tracking-tight">
+              <h4 className="text-[20px] font-bold text-[#0f1012] tracking-tight leading-tight">
                 Um Exemplo: Aprender a Sentar
               </h4>
-              <p className="text-[14px] text-[#5f6062] mt-0.5">
+              <p className="text-[16px] font-medium text-[#5f6062] mt-0.5 leading-snug">
                 Uma habilidade motora isolada reconfigura quatro dimensões cognitivas e sociais:
               </p>
             </div>
 
             {/* 4 Ramificações Clínicas em Mini-Grid Elegante */}
-            <div className="grid grid-cols-2 gap-2 my-2.5">
-              <div className="p-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]">
-                <div className="flex items-center gap-1.5 text-sm font-bold text-[#0f1012]">
-                  <Eye className="w-3.5 h-3.5 text-[#0071e3]" />
+            <div className="grid grid-cols-2 gap-2 my-1.5">
+              <div className="px-2.5 py-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]">
+                <div className="flex items-center gap-1.5 text-[16px] font-bold text-[#0f1012]">
+                  <Eye className="w-4 h-4 text-[#0071e3]" />
                   <span>Campo visual</span>
                 </div>
-                <p className="text-[14px] text-[#5f6062] mt-1 leading-snug">
+                <p className="text-[16px] font-medium text-[#52525b] mt-0.5 leading-snug">
                   Amplia o horizonte visual e o rastreamento face a face.
                 </p>
               </div>
 
-              <div className="p-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]">
-                <div className="flex items-center gap-1.5 text-sm font-bold text-[#0f1012]">
+              <div className="px-2.5 py-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]">
+                <div className="flex items-center gap-1.5 text-[16px] font-bold text-[#0f1012]">
                   <Hand className="w-3.5 h-3.5 text-emerald-600" />
                   <span>Mãos livres</span>
                 </div>
-                <p className="text-[14px] text-[#5f6062] mt-1 leading-snug">
+                <p className="text-[16px] font-medium text-[#52525b] mt-0.5 leading-snug">
                   Desengate postural para explorar e manipular objetos.
                 </p>
               </div>
 
-              <div className="p-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]">
-                <div className="flex items-center gap-1.5 text-sm font-bold text-[#0f1012]">
+              <div className="px-2.5 py-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]">
+                <div className="flex items-center gap-1.5 text-[16px] font-bold text-[#0f1012]">
                   <MessageSquare className="w-3.5 h-3.5 text-indigo-600" />
                   <span>Vocalização</span>
                 </div>
-                <p className="text-[14px] text-[#5f6062] mt-1 leading-snug">
+                <p className="text-[16px] font-medium text-[#52525b] mt-0.5 leading-snug">
                   A postura estável organiza a respiração para fonação.
                 </p>
               </div>
 
-              <div className="p-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]">
-                <div className="flex items-center gap-1.5 text-sm font-bold text-[#0f1012]">
+              <div className="px-2.5 py-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]">
+                <div className="flex items-center gap-1.5 text-[16px] font-bold text-[#0f1012]">
                   <Users className="w-3.5 h-3.5 text-purple-600" />
                   <span>Atenção conjunta</span>
                 </div>
-                <p className="text-[14px] text-[#5f6062] mt-1 leading-snug">
+                <p className="text-[16px] font-medium text-[#52525b] mt-0.5 leading-snug">
                   Modifica a interação dialógica com adultos e pares.
                 </p>
               </div>
             </div>
 
-            <p className="text-[15px] text-[#6a6b6d] italic m-0 pt-1.5 border-t border-black/[0.05]">
+            <p className="text-[16px] font-medium text-[#5f6062] italic m-0 pt-1.5 border-t border-black/[0.05]">
               Exemplo de cascata — não uma sequência linear obrigatória.
             </p>
           </motion.div>
@@ -476,7 +476,7 @@ export default function Slide11Cascades({ isActive = true }: Slide11CascadesProp
             animate={{ opacity: isActive ? 1 : 0, y: isActive ? 0 : 12 }}
             transition={{ duration: 0.4, delay: 0.2 + index * 0.06 }}
             className={cn(
-              "p-3 rounded-2xl bg-white border border-black/[0.08] shadow-sm flex flex-col justify-between transition-colors",
+              "px-4 py-3 rounded-2xl bg-white border border-black/[0.08] shadow-sm flex flex-col justify-between transition-colors",
               kpi.badgeType === "emerald" && "hover:border-emerald-300 hover:bg-emerald-50/40",
               kpi.badgeType === "blue" && "hover:border-blue-300 hover:bg-blue-50/40",
               kpi.badgeType === "indigo" && "hover:border-indigo-300 hover:bg-indigo-50/40",
@@ -485,12 +485,12 @@ export default function Slide11Cascades({ isActive = true }: Slide11CascadesProp
           >
             <div>
               <div className="flex items-center justify-between mb-1">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-[#6a6b6d]">
+                <span className="text-[14px] font-bold uppercase tracking-wider text-[#5f6062]">
                   {kpi.label}
                 </span>
                 <span
                   className={cn(
-                    "text-[10px] font-bold px-2 py-0.5 rounded-full border",
+                    "text-[14px] font-bold px-2 py-0.5 rounded-full border",
                     kpi.badgeType === "emerald" && "bg-emerald-50 text-emerald-700 border-emerald-200",
                     kpi.badgeType === "blue" && "bg-blue-50 text-[#0071e3] border-blue-200",
                     kpi.badgeType === "indigo" && "bg-indigo-50 text-indigo-700 border-indigo-200",
@@ -500,9 +500,9 @@ export default function Slide11Cascades({ isActive = true }: Slide11CascadesProp
                   {kpi.badge}
                 </span>
               </div>
-              <p className="text-[16px] font-bold text-[#0f1012] tracking-tight">{kpi.title}</p>
+              <p className="text-[20px] font-bold text-[#0f1012] tracking-tight leading-tight">{kpi.title}</p>
             </div>
-            <p className="text-[14px] text-[#5f6062] leading-snug mt-2 pt-2 border-t border-black/[0.05]">
+            <p className="text-[16px] font-medium text-[#52525b] leading-snug mt-1.5 pt-1.5 border-t border-black/[0.05]">
               {kpi.desc}
             </p>
           </motion.div>

@@ -19,62 +19,62 @@ interface OrbitConfig {
 const defaultOrbits: OrbitConfig[] = [
   {
     // Inner Ring: Cuidadores e Família (Microssistema) - Diameter 360px
-    size: "w-[360px] h-[360px]",
+    size: "w-[400px] h-[400px]",
     duration: 22,
     items: [
       {
         text: "cuidadores e família",
         angle: -50,
-        icon: <Users className="w-3.5 h-3.5 text-[#0071e3]" />,
+        icon: <Users className="w-4 h-4 text-[#0071e3]" />,
       },
       {
         text: "vínculos de apego",
         angle: 65,
-        icon: <Users className="w-3 h-3 text-blue-500" />,
+        icon: <Users className="w-4 h-4 text-blue-500" />,
       },
     ],
   },
   {
     // Middle Ring: Escola · Pares · Serviços de Saúde (Mesossistema) - Diameter 510px
-    size: "w-[510px] h-[510px]",
+    size: "w-[570px] h-[570px]",
     duration: 30,
     items: [
       {
         text: "escola · pares · serviços de saúde",
         angle: -15,
-        icon: <School className="w-3.5 h-3.5 text-[#0071e3]" />,
+        icon: <School className="w-4 h-4 text-[#0071e3]" />,
       },
       {
         text: "pares & mediação",
         angle: -105,
-        icon: <Users className="w-3 h-3 text-indigo-500" />,
+        icon: <Users className="w-4 h-4 text-indigo-500" />,
       },
       {
         text: "serviços de saúde",
         angle: 80,
-        icon: <HeartPulse className="w-3 h-3 text-rose-500" />,
+        icon: <HeartPulse className="w-4 h-4 text-rose-500" />,
       },
     ],
   },
   {
     // Outer Ring: Comunidade · Cultura · Sociedade (Macrossistema) - Diameter 660px
-    size: "w-[660px] h-[660px]",
+    size: "w-[740px] h-[740px]",
     duration: 38,
     items: [
       {
         text: "comunidade · cultura · sociedade",
         angle: -40,
-        icon: <Globe2 className="w-3.5 h-3.5 text-[#0071e3]" />,
+        icon: <Globe2 className="w-4 h-4 text-[#0071e3]" />,
       },
       {
         text: "cultura & valores",
         angle: 50,
-        icon: <BookOpen className="w-3 h-3 text-sky-500" />,
+        icon: <BookOpen className="w-4 h-4 text-sky-500" />,
       },
       {
         text: "sociedade & políticas",
         angle: 135,
-        icon: <Building2 className="w-3 h-3 text-slate-600" />,
+        icon: <Building2 className="w-4 h-4 text-slate-600" />,
       },
     ],
   },
@@ -111,15 +111,15 @@ export function OrbitingCirclesGlobe({
       `}</style>
 
       {/* Center 3D particle globe from reference */}
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 aspect-square pointer-events-none w-[270px] h-[270px] z-10">
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 aspect-square pointer-events-none w-[300px] h-[300px] z-10">
         <ParticleSphereAnimation particleCount={3400} />
       </div>
 
       {/* Floating Center Badge at the Top Apex of the Globe */}
-      <div className="absolute bottom-[145px] left-1/2 -translate-x-1/2 z-20 pointer-events-none flex flex-col items-center">
+      <div className="absolute bottom-[160px] left-1/2 -translate-x-1/2 z-20 pointer-events-none flex flex-col items-center">
         <div className="px-3.5 py-1 rounded-full bg-white/95 border border-blue-500/30 shadow-[0_4px_16px_rgba(0,113,227,0.16)] backdrop-blur-md flex items-center gap-1.5">
           <span className="w-1.5 h-1.5 rounded-full bg-[#0071e3] animate-pulse" />
-          <span className="font-['Urbanist',sans-serif] text-[11px] font-bold uppercase tracking-wider text-[#0071e3]">
+          <span className="font-['Urbanist',sans-serif] text-[14px] font-bold uppercase tracking-wider text-[#0071e3]">
             criança em mudança
           </span>
         </div>
@@ -157,9 +157,9 @@ export function OrbitingCirclesGlobe({
                     } as React.CSSProperties
                   }
                 >
-                  <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full border border-slate-200/90 bg-white/95 shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default select-none whitespace-nowrap">
+                  <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full border border-slate-200/90 bg-white/95 shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default select-none whitespace-nowrap">
                     {item.icon && <span className="shrink-0 flex items-center">{item.icon}</span>}
-                    <span className="font-['Satoshi',sans-serif] text-[11px] font-semibold tracking-tight text-slate-800">
+                    <span className="font-['Satoshi',sans-serif] text-[15px] font-semibold tracking-tight text-slate-800">
                       {item.text}
                     </span>
                   </div>

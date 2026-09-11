@@ -73,7 +73,7 @@ export const Timeline: React.FC<TimelineProps> = ({ data, className = "", isSlid
       </div>
 
       {/* Itens da Timeline */}
-      <div className="flex flex-col justify-between gap-5 relative z-10 h-full">
+      <div className="flex flex-col justify-between gap-4 relative z-10 h-full">
         {data.map((item, index) => {
           const isRed = index === 1; // Etapa 2 em Carmim Clínico (#e11d48)
           const nodeBorderColor = isRed ? "#e11d48" : "#0071e3";
@@ -160,7 +160,7 @@ export const Timeline: React.FC<TimelineProps> = ({ data, className = "", isSlid
                 {/* Cabeçalho da Etapa: Categoria / Tag */}
                 <div className="flex items-center justify-between gap-2 mb-1.5">
                   <span
-                    className="font-bold tracking-[0.1em] uppercase text-[11px] px-2.5 py-0.5 rounded-full inline-flex items-center"
+                    className="font-bold tracking-[0.08em] uppercase text-[14px] px-2.5 py-0.5 rounded-full inline-flex items-center"
                     style={{
                       fontFamily: "'Urbanist', sans-serif",
                       background: isRed ? "rgba(225, 29, 72, 0.08)" : "rgba(0, 113, 227, 0.08)",
@@ -173,7 +173,7 @@ export const Timeline: React.FC<TimelineProps> = ({ data, className = "", isSlid
 
                   {item.badge && (
                     <span
-                      className="text-[12px] font-semibold tracking-tight px-2.5 py-0.5 rounded-md"
+                      className="text-[14px] font-semibold tracking-tight px-2.5 py-0.5 rounded-md"
                       style={{
                         background: isRed ? "rgba(225, 29, 72, 0.05)" : "rgba(15, 16, 18, 0.04)",
                         color: isRed ? "#be123c" : "#3f4042",
@@ -187,14 +187,14 @@ export const Timeline: React.FC<TimelineProps> = ({ data, className = "", isSlid
 
                 {/* Título Principal da Etapa */}
                 <h3
-                  className="m-0 text-[20px] font-semibold text-[#0f1012] leading-[1.28] tracking-[-0.3px]"
+                  className="m-0 text-[22px] font-semibold text-[#0f1012] leading-[1.22] tracking-[-0.3px]"
                   style={{ fontFamily: "'Urbanist', 'Satoshi', sans-serif" }}
                 >
                   {item.title}
                 </h3>
 
                 {/* Descrição Metodológica */}
-                <p className="m-0 mt-1.5 text-[15px] font-normal leading-[1.42] text-[#5f6062]">
+                <p className="m-0 mt-1.5 text-[17px] font-medium leading-[1.38] text-[#52525b]">
                   {item.description}
                 </p>
 
@@ -203,7 +203,7 @@ export const Timeline: React.FC<TimelineProps> = ({ data, className = "", isSlid
                   <div className="mt-2.5 pt-2 border-t border-slate-100 flex items-center flex-wrap gap-2">
                     {typeof item.detail === "string" ? (
                       <span
-                        className="inline-flex items-center gap-1.5 text-[14px] font-semibold px-3 py-1 rounded-lg"
+                        className="inline-flex items-center gap-1.5 text-[16px] font-semibold px-3 py-1 rounded-lg"
                         style={{
                           background: isRed ? "rgba(225, 29, 72, 0.08)" : "rgba(0, 113, 227, 0.06)",
                           color: isRed ? "#be123c" : "#0071e3",

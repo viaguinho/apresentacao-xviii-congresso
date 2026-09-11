@@ -52,7 +52,7 @@ function ConvergingBeamTimeline() {
       {/* Estação: ANTES */}
       <div className="flex items-center gap-2 z-10 shrink-0">
         <span className="w-1.5 h-1.5 rounded-full bg-zinc-300" />
-        <span className="text-[11.5px] font-semibold tracking-[0.14em] uppercase text-zinc-400">
+        <span className="text-[14px] font-semibold tracking-[0.12em] uppercase text-zinc-500">
           antes
         </span>
       </div>
@@ -91,7 +91,7 @@ function ConvergingBeamTimeline() {
 
       {/* Estação: DEPOIS */}
       <div className="flex items-center gap-2 z-10 shrink-0">
-        <span className="text-[11.5px] font-semibold tracking-[0.14em] uppercase text-zinc-400">
+        <span className="text-[14px] font-semibold tracking-[0.12em] uppercase text-zinc-500">
           depois
         </span>
         <span className="w-1.5 h-1.5 rounded-full bg-zinc-300" />
@@ -163,30 +163,30 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
       </motion.div>
 
       {/* Grid Central: Cards Desgrudados com gap-7 e maior amplitude */}
-      <div className="grid grid-cols-3 gap-7 flex-1 min-h-0 items-stretch my-1 px-0.5">
+      <div className="grid grid-cols-3 gap-6 flex-1 min-h-0 items-stretch my-1 px-0.5">
         
         {/* CARD 1: FOTOGRAFIA */}
         <motion.div
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: isActive ? 1 : 0, y: isActive ? 0 : 12 }}
           transition={{ duration: 0.4, delay: 0.05, ease: [0.16, 1, 0.3, 1] }}
-          className="p-3.5 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_24px_rgba(0,0,0,0.03)] flex flex-col justify-between"
+          className="p-4 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_24px_rgba(0,0,0,0.03)] flex flex-col justify-between"
         >
           {/* Header do Card */}
           <div>
             <div className="flex items-center justify-between mb-1">
-              <span className="inline-flex items-center gap-1.5 text-[9.5px] font-bold uppercase tracking-[0.16em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0071e3]/20">
+              <span className="inline-flex items-center gap-1.5 text-[14px] font-bold uppercase tracking-[0.1em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0071e3]/20">
                 <Camera className="w-4 h-4" />
                 Fotografia
               </span>
-              <span className="text-[10px] font-semibold text-[#5f6062]">
+              <span className="text-[14px] font-semibold text-[#5f6062]">
                 Corte Transversal
               </span>
             </div>
-            <h3 className="text-[19px] font-bold tracking-tight text-[#0f1012] font-['Urbanist',sans-serif] leading-tight">
+            <h3 className="text-[23px] font-bold tracking-tight text-[#0f1012] font-['Urbanist',sans-serif] leading-tight mt-1">
               Como está agora?
             </h3>
-            <p className="text-[15px] text-[#5f6062] mt-0.5 leading-snug">
+            <p className="text-[17px] font-medium text-[#5f6062] mt-1 leading-snug">
               Avaliação pontual e estática do desempenho no momento da consulta.
             </p>
           </div>
@@ -195,7 +195,7 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
           <div className="w-full my-1.5 flex-1 min-h-[225px] relative bg-[#fcfdfe] rounded-2xl p-2 border border-black/[0.04] flex items-center justify-center overflow-hidden">
             <svg
               viewBox="0 0 440 220"
-              className="w-full h-full max-h-[245px] display-block overflow-visible"
+              className="w-full h-full max-h-[300px] display-block overflow-visible"
               aria-label="Gráfico de um único ponto em idade por funcionamento"
             >
               <defs>
@@ -266,7 +266,7 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
           {/* Takeaway Obrigatório Preservado */}
           <div className="p-2.5 rounded-2xl bg-[#f8f9fa] border border-black/[0.04] mt-1 flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-[#0071e3] shrink-0" />
-            <p className="m-0 text-[12.5px] font-semibold text-[#0f1012] leading-snug">
+            <p className="m-0 text-[17px] font-semibold text-[#0f1012] leading-snug">
               Um ponto informa posição — não direção.
             </p>
           </div>
@@ -277,23 +277,23 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: isActive ? 1 : 0, y: isActive ? 0 : 12 }}
           transition={{ duration: 0.4, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-          className="p-3.5 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_24px_rgba(0,0,0,0.03)] flex flex-col justify-between"
+          className="p-4 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_24px_rgba(0,0,0,0.03)] flex flex-col justify-between"
         >
           {/* Header do Card */}
           <div>
             <div className="flex items-center justify-between mb-1">
-              <span className="inline-flex items-center gap-1.5 text-[9.5px] font-bold uppercase tracking-[0.16em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0071e3]/20">
+              <span className="inline-flex items-center gap-1.5 text-[14px] font-bold uppercase tracking-[0.1em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0071e3]/20">
                 <TrendingUp className="w-4 h-4" />
                 Trajetória
               </span>
-              <span className="text-[10px] font-semibold text-[#5f6062]">
+              <span className="text-[14px] font-semibold text-[#5f6062]">
                 Histórico Longitudinal
               </span>
             </div>
-            <h3 className="text-[19px] font-bold tracking-tight text-[#0f1012] font-['Urbanist',sans-serif] leading-tight">
+            <h3 className="text-[23px] font-bold tracking-tight text-[#0f1012] font-['Urbanist',sans-serif] leading-tight mt-1">
               Como vem mudando?
             </h3>
-            <p className="text-[15px] text-[#5f6062] mt-0.5 leading-snug">
+            <p className="text-[17px] font-medium text-[#5f6062] mt-1 leading-snug">
               A evolução no tempo revela o ritmo e o sentido real do desenvolvimento.
             </p>
           </div>
@@ -302,7 +302,7 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
           <div className="w-full my-1.5 flex-1 min-h-[225px] relative bg-[#fcfdfe] rounded-2xl p-2 border border-black/[0.04] flex items-center justify-center overflow-hidden">
             <svg
               viewBox="0 0 440 220"
-              className="w-full h-full max-h-[245px] display-block overflow-visible"
+              className="w-full h-full max-h-[300px] display-block overflow-visible"
               aria-label="Gráfico de duas trajetórias diferentes convergindo no mesmo ponto"
             >
               <defs>
@@ -358,10 +358,10 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
               />
 
               {/* Rótulos discretos nas origens das curvas */}
-              <text x="80" y="36" fontFamily="'Satoshi', sans-serif" fontSize="9.5" fontWeight="600" fill="#64748b">
+              <text x="80" y="34" fontFamily="'Satoshi', sans-serif" fontSize="15" fontWeight="600" fill="#475569">
                 trajetória A (declínio)
               </text>
-              <text x="80" y="186" fontFamily="'Satoshi', sans-serif" fontSize="9.5" fontWeight="600" fill="#0071e3">
+              <text x="92" y="186" fontFamily="'Satoshi', sans-serif" fontSize="15" fontWeight="600" fill="#0071e3">
                 trajetória B (ascensão)
               </text>
 
@@ -393,7 +393,7 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
           {/* Takeaway Obrigatório Preservado */}
           <div className="p-2.5 rounded-2xl bg-[#f8f9fa] border border-black/[0.04] mt-1 flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-[#0071e3] shrink-0" />
-            <p className="m-0 text-[12.5px] font-semibold text-[#0f1012] leading-snug">
+            <p className="m-0 text-[17px] font-semibold text-[#0f1012] leading-snug">
               Mesmo resultado hoje. Histórias diferentes.
             </p>
           </div>
@@ -404,23 +404,23 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: isActive ? 1 : 0, y: isActive ? 0 : 12 }}
           transition={{ duration: 0.4, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
-          className="p-3.5 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_24px_rgba(0,0,0,0.03)] flex flex-col justify-between"
+          className="p-4 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_24px_rgba(0,0,0,0.03)] flex flex-col justify-between"
         >
           {/* Header do Card */}
           <div>
             <div className="flex items-center justify-between mb-1">
-              <span className="inline-flex items-center gap-1.5 text-[9.5px] font-bold uppercase tracking-[0.16em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0071e3]/20">
+              <span className="inline-flex items-center gap-1.5 text-[14px] font-bold uppercase tracking-[0.1em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0071e3]/20">
                 <Compass className="w-4 h-4" />
                 Contexto
               </span>
-              <span className="text-[10px] font-semibold text-[#5f6062]">
+              <span className="text-[14px] font-semibold text-[#5f6062]">
                 Ecossistema Dinâmico
               </span>
             </div>
-            <h3 className="text-[19px] font-bold tracking-tight text-[#0f1012] font-['Urbanist',sans-serif] leading-tight">
+            <h3 className="text-[23px] font-bold tracking-tight text-[#0f1012] font-['Urbanist',sans-serif] leading-tight mt-1">
               Onde, quando e diante de quê?
             </h3>
-            <p className="text-[15px] text-[#5f6062] mt-0.5 leading-snug">
+            <p className="text-[17px] font-medium text-[#5f6062] mt-1 leading-snug">
               A capacidade funcional varia conforme os suportes e desafios de cada contexto.
             </p>
           </div>
@@ -428,7 +428,7 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
           {/* Componente Radial Orbital Timeline (Gráfico Puro) */}
           <div className="w-full my-1.5 flex-1 min-h-[225px] relative bg-[#fcfdfe] rounded-2xl border border-black/[0.04] flex items-center justify-center overflow-hidden">
             {/* MP4 Memoji Separado e Desgrudado, flutuando no centro do gráfico */}
-            <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-30">
+            <div className="absolute inset-0 pb-[112px] flex items-center justify-center pointer-events-none z-30">
               <video
                 src="assets/memoji.mp4"
                 autoPlay
@@ -444,7 +444,7 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
               timelineData={contextTimelineData}
               theme="light"
               compact={true}
-              radius={100}
+              radius={90}
               autoRotateSpeed={0.22}
               autoCycleHighlight={true}
               cycleInterval={3600}
@@ -458,7 +458,7 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
           {/* Takeaway Obrigatório Preservado */}
           <div className="p-2.5 rounded-2xl bg-[#f8f9fa] border border-black/[0.04] mt-1 flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-[#0071e3] shrink-0" />
-            <p className="m-0 text-[16px] font-semibold text-[#0f1012] leading-snug">
+            <p className="m-0 text-[17px] font-semibold text-[#0f1012] leading-snug">
               As demandas mudam com a etapa: comunicação, autonomia, aprendizagem e pares, identidade.
             </p>
           </div>
@@ -476,7 +476,7 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
         <span className="font-['Urbanist',sans-serif] text-[15px] font-bold tracking-[0.14em] uppercase text-[#0071e3] bg-[#0071e3]/10 border border-[#0071e3]/20 px-2.5 py-1 rounded-md shrink-0">
           IMPLICAÇÃO CLÍNICA
         </span>
-        <p className="m-0 text-[16px] font-medium leading-snug text-[#0f1012]">
+        <p className="m-0 text-[18px] font-medium leading-snug text-[#0f1012]">
           <strong className="text-[#0071e3] font-bold">Funcionalidade:</strong> isso interfere na capacidade da criança de aprender, comunicar-se, regular-se, relacionar-se ou participar ativamente da vida cotidiana?
         </p>
       </motion.div>

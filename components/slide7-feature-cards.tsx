@@ -83,7 +83,7 @@ export default function Slide7FeatureCards({ isActive = true }: Slide7FeatureCar
             description={card.description}
             imageSrc={card.imageSrc}
             color={card.color}
-            className="h-[220px] w-full max-w-none p-3 shadow-xs border-slate-200/70 hover:border-slate-300 transition-colors"
+            className="h-[252px] w-full max-w-none p-3 shadow-xs border-slate-200/70 hover:border-slate-300 transition-colors"
           />
         </motion.div>
       ))}

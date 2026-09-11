@@ -104,7 +104,7 @@ const AnimatedFeatureCard = React.forwardRef<
       />
 
       {/* Index Number */}
-      <div className="absolute top-3 left-4 font-mono text-xs font-bold text-slate-400 dark:text-slate-500 tracking-wider z-10">
+      <div className="absolute top-3 left-4 font-mono text-[14px] font-bold text-slate-500 dark:text-slate-400 tracking-wider z-10">
         {index}
       </div>
 
@@ -147,7 +147,7 @@ const AnimatedFeatureCard = React.forwardRef<
       >
         <div className="flex items-center justify-between mb-1">
           <span
-            className="inline-block rounded-full px-2 py-0.5 text-[10px] font-bold tracking-wider uppercase border shadow-2xs"
+            className="inline-block rounded-full px-2.5 py-0.5 text-[14px] font-bold tracking-wider uppercase border shadow-2xs"
             style={{
               backgroundColor: "var(--feature-color-dark)",
               color: "var(--feature-color)",
@@ -157,11 +157,11 @@ const AnimatedFeatureCard = React.forwardRef<
             {tag}
           </span>
         </div>
-        <h4 className={cn("text-[14px] md:text-[15px] font-bold text-slate-900 dark:text-white leading-snug tracking-tight", titleClassName)}>
+        <h4 className={cn("text-[18px] font-bold text-slate-900 dark:text-white leading-snug tracking-tight", titleClassName)}>
           {title}
         </h4>
         {description && (
-          <p className={cn("mt-0.5 text-[11px] md:text-[12px] font-medium text-slate-600 dark:text-slate-300 leading-snug", descriptionClassName)}>
+          <p className={cn("mt-0.5 text-[17px] font-medium text-slate-600 dark:text-slate-300 leading-snug", descriptionClassName)}>
             {description}
           </p>
         )}

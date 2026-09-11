@@ -126,11 +126,11 @@ const SlideCardShell: React.FC<CardProps> = ({
       className="flex flex-col bg-white dark:bg-[#141517] rounded-3xl border border-black/[0.08] dark:border-white/[0.08] shadow-[0_10px_30px_rgba(0,0,0,0.05),0_20px_60px_rgba(0,0,0,0.04)] hover:shadow-[0_20px_50px_rgba(0,113,227,0.12)] transition-all duration-300 w-full overflow-hidden"
     >
       {/* Header com altura padronizada para alinhamento perfeito entre os cards */}
-      <div className="pt-6 px-7 pb-4 border-b border-black/[0.04] dark:border-white/[0.04] bg-gradient-to-b from-blue-50/40 to-transparent dark:from-blue-950/20 min-h-[105px] flex flex-col justify-center">
+      <div className="pt-6 px-7 pb-4 border-b border-black/[0.04] dark:border-white/[0.04] bg-gradient-to-b from-blue-50/40 to-transparent dark:from-blue-950/20 min-h-[112px] flex flex-col justify-center">
         <h3 className="text-[28px] font-bold tracking-tight text-[#0f1012] dark:text-white leading-tight">
           {title}
         </h3>
-        <p className="text-[16px] text-[#5f6062] dark:text-gray-600 mt-1.5 line-clamp-2 leading-relaxed font-sans">
+        <p className="text-[18px] font-medium text-[#5f6062] dark:text-gray-600 mt-1.5 leading-snug font-sans">
           {subtitle}
         </p>
       </div>
@@ -144,7 +144,7 @@ const SlideCardShell: React.FC<CardProps> = ({
                 className="w-2.5 h-2.5 rounded-full ring-1 ring-black/10"
                 style={{ backgroundColor: item.color }}
               />
-              <span className="text-gray-700 dark:text-gray-600 text-[15px] font-medium tracking-wide">
+              <span className="text-gray-700 dark:text-gray-600 text-[16px] font-medium tracking-wide">
                 {item.name}
               </span>
             </div>
@@ -155,7 +155,7 @@ const SlideCardShell: React.FC<CardProps> = ({
       )}
 
       {/* Center Visual / Graph Area */}
-      <div className="relative w-full flex-1 min-h-[275px] px-4 flex items-center justify-center overflow-hidden">
+      <div className="relative w-full flex-1 min-h-[275px] px-2 flex items-center justify-center overflow-hidden">
         {children}
       </div>
 
@@ -169,14 +169,14 @@ const SlideCardShell: React.FC<CardProps> = ({
             transition={{ delay: metric.delay }}
             className="flex w-full py-2.5 items-center justify-between gap-3"
           >
-            <div className="flex flex-row gap-2.5 items-center text-[15px] font-sans text-[#5f6062] dark:text-gray-300 truncate">
-              <metric.Icon className="w-[18px] h-[18px] flex-none" />
-              <span className="truncate font-medium" title={metric.tooltip}>
+            <div className="flex flex-row gap-2.5 items-center text-[17px] font-sans text-[#52525b] dark:text-gray-300 min-w-0">
+              <metric.Icon className="w-[20px] h-[20px] flex-none" />
+              <span className="font-medium leading-tight" title={metric.tooltip}>
                 {metric.label}
               </span>
             </div>
             <div className="flex justify-end items-center flex-none">
-              <span className="font-bold text-[16.5px] tracking-tight text-[#0f1012] dark:text-white">
+              <span className="font-bold text-[19px] tracking-tight text-[#0f1012] dark:text-white">
                 {metric.value}
               </span>
             </div>
@@ -427,7 +427,7 @@ export const Slide5ConceptCards: React.FC = () => {
         metrics={dinamicoMetrics}
         delay={0.15}
       >
-        <div className="w-full h-full p-2 flex items-center justify-center">
+        <div className="w-full h-full p-1 flex items-center justify-center">
           <svg viewBox="0 0 500 240" className="w-full h-full overflow-visible" aria-label="Curva de desenvolvimento não linear com aceleração, platô e reorganização">
             <defs>
               <linearGradient id="curveGradient" x1="0" y1="0" x2="0" y2="1">
@@ -470,7 +470,7 @@ export const Slide5ConceptCards: React.FC = () => {
 
             <circle cx="150" cy="140" r="5" fill="#0071e3" />
             <circle cx="150" cy="140" r="10" fill="#0071e3" fillOpacity="0.15" />
-            <text x="145" y="125" fontFamily="'Satoshi', sans-serif" fontSize="16" fontWeight="600" fill="#0071e3">
+            <text x="164" y="160" fontFamily="'Satoshi', sans-serif" fontSize="16" fontWeight="600" fill="#0071e3">
               aceleração
             </text>
 
@@ -502,7 +502,7 @@ export const Slide5ConceptCards: React.FC = () => {
         metrics={heterogeneoMetrics}
         delay={0.25}
       >
-        <div className="w-full h-full p-2 flex items-center justify-center">
+        <div className="w-full h-full p-1 flex items-center justify-center">
           <svg viewBox="0 0 500 240" className="w-full h-full overflow-visible" aria-label="Quatro trajetórias individuais divergentes a partir de um mesmo ponto">
             <defs>
               <linearGradient id="hetGradient" x1="0" y1="0" x2="0" y2="1">
