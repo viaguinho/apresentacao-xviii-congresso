@@ -71,7 +71,7 @@ const MATURATION_TRACKS = [
 
 export default function Slide14Cognition({ isActive = true }: Slide14CognitionProps) {
   return (
-    <div className="w-full h-full flex flex-col justify-between bg-[#fdfdfd] text-[#0f1012] font-['Satoshi',sans-serif] px-14 pt-[74px] pb-5 select-none overflow-hidden relative">
+    <div className="w-full h-full flex flex-col justify-between bg-[#fdfdfd] text-[#0f1012] font-['Satoshi',sans-serif] px-14 pt-[90px] pb-5 select-none relative">
       
       {/* 1. BANNER DE TRANSIÇÃO E PONTE CONCEITUAL DO EIXO 2 */}
       <div className="w-full shrink-0 z-10">
@@ -80,22 +80,22 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
             <span className="font-['Urbanist'] text-[15px] font-bold uppercase tracking-wider text-[#0d606a] bg-[#21C6E0]/20 px-2 py-0.5 rounded border border-[#21C6E0]/30">
               Ponte Conceitual
             </span>
-            <p className="text-[15px] font-medium text-[#0d606a]">
+            <p className="text-[16px] font-medium text-[#0d606a]">
               Dos fundamentos sistêmicos (Eixo 1) <ArrowRight className="w-3.5 h-3.5 inline mx-1 text-[#21C6E0]" /> À arquitetura e maturação das funções mentais (Eixo 2)
             </p>
           </div>
-          <span className="text-[11.5px] font-semibold text-zinc-400 uppercase tracking-widest hidden sm:inline">
+          <span className="text-[14px] font-semibold text-zinc-500 uppercase tracking-wider hidden sm:inline">
             Abertura do Eixo
           </span>
         </div>
       </div>
 
       {/* 2. HEADER PRINCIPAL */}
-      <div className="shrink-0 mt-12 mb-2">
-        <h1 className="font-['Urbanist'] text-[33px] lg:text-[36px] font-bold tracking-[-0.03em] text-[#0f1012] leading-[1.1]">
+      <div className="shrink-0 mt-5 mb-3">
+        <h1 className="font-['Urbanist'] text-[44px] font-bold tracking-[-0.03em] text-[#0f1012] leading-[1.1]">
           Cognição não amadurece em bloco
         </h1>
-        <p className="text-[15px] text-[#3f4042] font-normal mt-1 leading-[1.3] max-w-[1200px]">
+        <p className="text-[22px] text-[#3f4042] font-normal mt-1.5 leading-[1.3] max-w-[1400px]">
           Diferentes funções emergem, se especializam e passam a trabalhar juntas ao longo do desenvolvimento.
         </p>
       </div>
@@ -104,7 +104,7 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
       <div className="flex-1 grid grid-cols-12 gap-6 items-center min-h-0 py-1">
         
         {/* COLUNA ESQUERDA: HIERARQUIA + MATURAÇÃO HETEROCRÔNICA (7 colunas, centralizadas verticalmente) */}
-        <div className="col-span-7 flex flex-col justify-center gap-3.5 h-full overflow-hidden">
+        <div className="col-span-7 flex flex-col justify-center gap-3 h-full">
           
           {/* BLOCO 1: HIERARQUIA FUNCIONAL INTERDEPENDENTE */}
           <div className="flex flex-col bg-transparent relative">
@@ -115,13 +115,13 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
                   Hierarquia Funcional Interdependente
                 </span>
               </div>
-              <span className="text-[15px] text-zinc-400 font-medium">
+              <span className="text-[15px] text-zinc-500 font-medium">
                 Conexões ascendentes e descendentes contínuas
               </span>
             </div>
 
             {/* Linha do Tempo com Trilha e Feixe Luminoso */}
-            <div className="relative flex flex-col gap-2 pl-8 pr-1">
+            <div className="relative flex flex-col gap-1.5 pl-8 pr-1">
               
               {/* Trilha Guia Vertical Minimalista */}
               <div className="absolute left-[11.25px] top-2.5 bottom-2.5 w-[1.5px] bg-gradient-to-b from-zinc-200 via-zinc-300/70 to-zinc-200 rounded-full overflow-hidden pointer-events-none">
@@ -150,19 +150,19 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
                 </div>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2.5">
-                    <span className="w-5 h-5 rounded-md bg-[#21C6E0]/15 text-[#0d606a] font-['Urbanist'] font-bold text-[15px] flex items-center justify-center shrink-0">
+                    <span className="w-7 h-7 rounded-md bg-[#21C6E0]/15 text-[#0d606a] font-['Urbanist'] font-bold text-[16px] flex items-center justify-center shrink-0">
                       4
                     </span>
                     <div>
-                      <h3 className="font-['Urbanist'] text-[13.5px] font-bold text-[#0f1012] leading-tight">
+                      <h3 className="font-['Urbanist'] text-[19px] font-bold text-[#0f1012] leading-tight">
                         Funções Cognitivas de Ordem Superior
                       </h3>
-                      <p className="text-[10.5px] text-zinc-500 font-medium">
+                      <p className="text-[16px] text-zinc-600 font-medium leading-snug">
                         Metacognição · Raciocínio Abstrato · Resolução de Problemas · Tomada de Decisão
                       </p>
                     </div>
                   </div>
-                  <span className="text-[9.5px] font-semibold text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200 shrink-0">
+                  <span className="text-[14px] font-semibold text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200 shrink-0">
                     Maturação Tardia (Adolescência+)
                   </span>
                 </div>
@@ -175,47 +175,47 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
                 </div>
                 <div className="flex items-center justify-between mb-1">
                   <div className="flex items-center gap-2.5">
-                    <span className="w-5 h-5 rounded-md bg-[#21C6E0] text-zinc-900 font-['Urbanist'] font-bold text-[15px] flex items-center justify-center shadow-xs shrink-0">
+                    <span className="w-7 h-7 rounded-md bg-[#21C6E0] text-zinc-900 font-['Urbanist'] font-bold text-[16px] flex items-center justify-center shadow-xs shrink-0">
                       3
                     </span>
                     <div className="flex items-center gap-2">
-                      <h3 className="font-['Urbanist'] text-[16px] font-extrabold text-[#0d606a] leading-tight">
+                      <h3 className="font-['Urbanist'] text-[20px] font-extrabold text-[#0d606a] leading-tight">
                         Funções Executivas Nucleares
                       </h3>
-                      <span className="text-[9px] font-bold uppercase tracking-wider bg-[#21C6E0] text-zinc-900 px-1.5 py-0.5 rounded">
+                      <span className="text-[14px] font-bold uppercase tracking-wide bg-[#21C6E0] text-zinc-900 px-1.5 py-0.5 rounded">
                         Núcleo Diamond (2013)
                       </span>
                     </div>
                   </div>
-                  <span className="text-[10.5px] text-[#0d606a]/90 font-medium hidden sm:inline">
+                  <span className="text-[15px] text-[#0d606a] font-medium hidden sm:inline">
                     Base regulatória para as capacidades complexas
                   </span>
                 </div>
 
                 {/* 3 Pilares Nucleares */}
                 <div className="grid grid-cols-3 gap-2 mt-1 pt-1.5 border-t border-[#21C6E0]/25">
-                  <div className="bg-white/95 p-1.5 rounded-lg border border-[#21C6E0]/25">
+                  <div className="bg-white/95 px-2.5 py-2 rounded-lg border border-[#21C6E0]/25">
                     <div className="flex items-center gap-1.5">
                       <Target className="w-3.5 h-3.5 text-[#0d606a]" />
-                      <span className="font-['Urbanist'] text-[10.5px] font-bold text-[#0f1012]">Controle Inibitório</span>
+                      <span className="font-['Urbanist'] text-[16px] font-bold text-[#0f1012]">Controle Inibitório</span>
                     </div>
-                    <p className="text-[9px] text-zinc-500 mt-0.5 leading-tight">Freio a impulsos e filtragem de distratores</p>
+                    <p className="text-[15px] font-medium text-zinc-600 mt-0.5 leading-snug">Freio a impulsos e filtragem de distratores</p>
                   </div>
 
-                  <div className="bg-white/95 p-1.5 rounded-lg border border-[#21C6E0]/25">
+                  <div className="bg-white/95 px-2.5 py-2 rounded-lg border border-[#21C6E0]/25">
                     <div className="flex items-center gap-1.5">
                       <Workflow className="w-3.5 h-3.5 text-[#0d606a]" />
-                      <span className="font-['Urbanist'] text-[10.5px] font-bold text-[#0f1012]">Memória de Trabalho</span>
+                      <span className="font-['Urbanist'] text-[16px] font-bold text-[#0f1012]">Memória de Trabalho</span>
                     </div>
-                    <p className="text-[9px] text-zinc-500 mt-0.5 leading-tight">Manter e manipular dados ativamente</p>
+                    <p className="text-[15px] font-medium text-zinc-600 mt-0.5 leading-snug">Manter e manipular dados ativamente</p>
                   </div>
 
-                  <div className="bg-white/95 p-1.5 rounded-lg border border-[#21C6E0]/25">
+                  <div className="bg-white/95 px-2.5 py-2 rounded-lg border border-[#21C6E0]/25">
                     <div className="flex items-center gap-1.5">
                       <Split className="w-3.5 h-3.5 text-[#0d606a]" />
-                      <span className="font-['Urbanist'] text-[10.5px] font-bold text-[#0f1012]">Flexibilidade</span>
+                      <span className="font-['Urbanist'] text-[16px] font-bold text-[#0f1012]">Flexibilidade</span>
                     </div>
-                    <p className="text-[9px] text-zinc-500 mt-0.5 leading-tight">Alternar regras, rotas e perspectivas</p>
+                    <p className="text-[15px] font-medium text-zinc-600 mt-0.5 leading-snug">Alternar regras, rotas e perspectivas</p>
                   </div>
                 </div>
               </div>
@@ -227,19 +227,19 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
                 </div>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2.5">
-                    <span className="w-5 h-5 rounded-md bg-[#21C6E0]/15 text-[#0d606a] font-['Urbanist'] font-bold text-[15px] flex items-center justify-center shrink-0">
+                    <span className="w-7 h-7 rounded-md bg-[#21C6E0]/15 text-[#0d606a] font-['Urbanist'] font-bold text-[16px] flex items-center justify-center shrink-0">
                       2
                     </span>
                     <div>
-                      <h3 className="font-['Urbanist'] text-[13.5px] font-bold text-[#0f1012] leading-tight">
+                      <h3 className="font-['Urbanist'] text-[19px] font-bold text-[#0f1012] leading-tight">
                         Memória + Linguagem
                       </h3>
-                      <p className="text-[10.5px] text-zinc-500 font-medium">
+                      <p className="text-[16px] text-zinc-600 font-medium leading-snug">
                         Sistemas representacionais, vocabulário, codificação e evocação semântica
                       </p>
                     </div>
                   </div>
-                  <span className="text-[9.5px] font-semibold text-teal-800 bg-teal-50 px-2 py-0.5 rounded-md border border-teal-200 shrink-0">
+                  <span className="text-[14px] font-semibold text-teal-800 bg-teal-50 px-2 py-0.5 rounded-md border border-teal-200 shrink-0">
                     Interação Bidirecional Contínua
                   </span>
                 </div>
@@ -252,19 +252,19 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
                 </div>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2.5">
-                    <span className="w-5 h-5 rounded-md bg-zinc-100 text-zinc-700 font-['Urbanist'] font-bold text-[15px] flex items-center justify-center shrink-0">
+                    <span className="w-7 h-7 rounded-md bg-zinc-100 text-zinc-700 font-['Urbanist'] font-bold text-[16px] flex items-center justify-center shrink-0">
                       1
                     </span>
                     <div>
-                      <h3 className="font-['Urbanist'] text-[13.5px] font-bold text-[#0f1012] leading-tight">
+                      <h3 className="font-['Urbanist'] text-[19px] font-bold text-[#0f1012] leading-tight">
                         Atenção & Percepção
                       </h3>
-                      <p className="text-[10.5px] text-zinc-500 font-medium">
+                      <p className="text-[16px] text-zinc-600 font-medium leading-snug">
                         Orientação espacial, seleção de estímulos, alerta e sustentação fásica
                       </p>
                     </div>
                   </div>
-                  <span className="text-[9.5px] font-semibold text-zinc-600 bg-zinc-100 px-2 py-0.5 rounded-md shrink-0">
+                  <span className="text-[14px] font-semibold text-zinc-700 bg-zinc-100 px-2 py-0.5 rounded-md shrink-0">
                     Maturação Inicial (0–3 anos)
                   </span>
                 </div>
@@ -274,65 +274,65 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
           </div>
 
           {/* BLOCO 2: MATURAÇÃO HETEROCRÔNICA (LINHA DO TEMPO QUALITATIVA 100% ESTÁTICA, SEM HOVER) */}
-          <div className="bg-white p-3 rounded-2xl border border-black/[0.07] shadow-sm flex flex-col justify-between">
+          <div className="bg-white px-3 py-2.5 rounded-2xl border border-black/[0.07] shadow-sm flex flex-col justify-between">
             <div className="flex items-center justify-between mb-1">
               <div className="flex items-center gap-2">
                 <TrendingUp className="w-5 h-5 text-[#21C6E0]" />
-                <span className="font-['Urbanist'] text-[12.5px] font-bold text-[#0f1012]">
+                <span className="font-['Urbanist'] text-[18px] font-bold text-[#0f1012]">
                   Maturação Heterocrônica · Janelas Críticas & Ritmos
                 </span>
               </div>
               <div className="flex items-center gap-1.5">
                 <Clock className="w-3.5 h-3.5 text-[#0d606a]" />
-                <span className="text-[10px] font-semibold text-[#0d606a] bg-[#21C6E0]/20 border border-[#21C6E0]/30 px-2 py-0.5 rounded">
+                <span className="text-[14px] font-semibold text-[#0d606a] bg-[#21C6E0]/20 border border-[#21C6E0]/30 px-2 py-0.5 rounded">
                   Ritmos Diferentes por Domínio
                 </span>
               </div>
             </div>
 
-            <p className="text-[10.5px] text-zinc-500 leading-tight mb-2">
+            <p className="text-[16px] font-medium text-zinc-600 leading-snug mb-2">
               Cada função possui sua própria janela de especialização. As informações abaixo são fixas e mostram o curso temporal de cada domínio.
             </p>
 
             {/* Linha do Tempo Visual de Faixas Qualitativas (Sem Números Inventados) */}
-            <div className="w-full bg-[#fbfcfc] p-2.5 rounded-xl border border-black/[0.04] flex flex-col gap-2">
+            <div className="w-full bg-[#fbfcfc] px-2.5 py-2 rounded-xl border border-black/[0.04] flex flex-col gap-1.5">
               
               {/* Régua de Faixas Etárias Guia */}
               <div className="grid grid-cols-4 text-center border-b border-black/[0.06] pb-1">
                 <div className="text-left pl-1">
-                  <span className="font-['Urbanist'] text-[10px] font-bold text-zinc-700 block">0–3 anos</span>
-                  <span className="text-[8.5px] text-zinc-400">Primeira infância</span>
+                  <span className="font-['Urbanist'] text-[15px] font-bold text-zinc-800 block">0–3 anos</span>
+                  <span className="text-[14px] font-medium text-zinc-500">Primeira infância</span>
                 </div>
                 <div>
-                  <span className="font-['Urbanist'] text-[10px] font-bold text-zinc-700 block">3–7 anos</span>
-                  <span className="text-[8.5px] text-zinc-400">Pré-escolar</span>
+                  <span className="font-['Urbanist'] text-[15px] font-bold text-zinc-800 block">3–7 anos</span>
+                  <span className="text-[14px] font-medium text-zinc-500">Pré-escolar</span>
                 </div>
                 <div>
-                  <span className="font-['Urbanist'] text-[10px] font-bold text-zinc-700 block">7–12 anos</span>
-                  <span className="text-[8.5px] text-zinc-400">Escolar</span>
+                  <span className="font-['Urbanist'] text-[15px] font-bold text-zinc-800 block">7–12 anos</span>
+                  <span className="text-[14px] font-medium text-zinc-500">Escolar</span>
                 </div>
                 <div className="text-right pr-1">
-                  <span className="font-['Urbanist'] text-[10px] font-bold text-zinc-700 block">12–25+ anos</span>
-                  <span className="text-[8.5px] text-zinc-400">Adolescência / Adulto</span>
+                  <span className="font-['Urbanist'] text-[15px] font-bold text-zinc-800 block">12–25+ anos</span>
+                  <span className="text-[14px] font-medium text-zinc-500">Adolescência / Adulto</span>
                 </div>
               </div>
 
               {/* Trilhas das 4 Funções Cognitivas */}
               <div className="flex flex-col gap-1.5 pt-0.5">
                 {MATURATION_TRACKS.map((track) => (
-                  <div key={track.id} className="flex items-center gap-2 text-[10px]">
+                  <div key={track.id} className="flex items-center gap-2 text-[14px]">
                     {/* Nome do Domínio e Janela Fixa */}
-                    <div className="w-36 shrink-0 flex flex-col">
-                      <span className="font-['Urbanist'] font-bold text-zinc-800 text-[10.5px] truncate">
+                    <div className="w-48 shrink-0 flex flex-col">
+                      <span className="font-['Urbanist'] font-bold text-zinc-800 text-[16px] leading-tight">
                         {track.label}
                       </span>
-                      <span className="text-[8.5px] text-zinc-400 font-medium">
+                      <span className="text-[14px] text-zinc-500 font-medium">
                         Janela: {track.window}
                       </span>
                     </div>
 
                     {/* Barra de Percurso Temporal Relativo */}
-                    <div className="flex-1 h-5 bg-zinc-100/90 rounded-md relative overflow-hidden flex items-center">
+                    <div className="flex-1 h-7 bg-zinc-100/90 rounded-md relative overflow-hidden flex items-center">
                       <div
                         className={`h-full rounded-md bg-gradient-to-r ${track.barGradient} flex items-center px-2 shadow-xs transition-all`}
                         style={{
@@ -340,15 +340,15 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
                           width: `${track.widthPercent}%`,
                         }}
                       >
-                        <span className="text-[8px] font-bold text-white uppercase tracking-wider truncate drop-shadow-xs">
+                        <span className="text-[14px] font-bold text-white uppercase tracking-wide whitespace-nowrap drop-shadow-xs">
                           {track.status}
                         </span>
                       </div>
                     </div>
 
                     {/* Badge de Status / Ritmo */}
-                    <div className="w-24 shrink-0 text-right">
-                      <span className={`text-[8.5px] font-bold px-2 py-0.5 rounded border inline-block ${track.badgeBg}`}>
+                    <div className="w-32 shrink-0 text-right">
+                      <span className={`text-[14px] font-bold px-2 py-0.5 rounded border inline-block ${track.badgeBg}`}>
                         {track.status}
                       </span>
                     </div>
@@ -359,7 +359,7 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
             </div>
 
             {/* Rodapé explicativo da maturação */}
-            <div className="flex items-center justify-between mt-2 pt-1.5 border-t border-black/[0.04] text-[9.5px] text-zinc-500">
+            <div className="flex items-center justify-between gap-3 mt-2 pt-1.5 border-t border-black/[0.04] text-[15px] text-zinc-600">
               <span className="font-medium">
                 Consolidação hierárquica: das funções sensório-motoras às redes executivas frontais.
               </span>
@@ -387,8 +387,8 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
           >
             {/* Box de Recomendação Clínica */}
             <div className="mt-2.5 p-2.5 rounded-xl bg-white/90 backdrop-blur-xs border border-[#21C6E0]/35 shadow-xs">
-              <div className="flex items-start gap-2 text-[15px] font-semibold text-[#0d606a] leading-snug">
-                <Sparkles className="w-3.5 h-3.5 text-[#21C6E0] shrink-0 mt-0.5" />
+              <div className="flex items-start gap-2 text-[17px] font-semibold text-[#0d606a] leading-snug">
+                <Sparkles className="w-4 h-4 text-[#21C6E0] shrink-0 mt-0.5" />
                 <span>Avaliação clínica requer perfil multifacetado, não apenas um escore composto.</span>
               </div>
             </div>
@@ -396,7 +396,7 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
 
           {/* CARD DE DESENVOLVIMENTO COGNITIVO (IMEDIATAMENTE ABAIXO DO QI, CENTRALIZADO) */}
           <div className="bg-gradient-to-r from-[#0d606a] to-[#08545e] border-l-4 border-[#21C6E0] text-white px-4 py-3 rounded-xl shadow-sm flex items-center justify-between shrink-0">
-            <p className="font-['Urbanist'] text-[12.5px] font-bold leading-snug">
+            <p className="font-['Urbanist'] text-[20px] font-bold leading-snug">
               Desenvolvimento cognitivo = especialização + integração progressiva de múltiplas funções.
             </p>
           </div>
@@ -407,10 +407,10 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
 
       {/* 4. RODAPÉ VANCOUVER */}
       <div className="w-full flex items-center gap-3 pt-2 shrink-0 text-zinc-500 z-10">
-        <span className="font-['Urbanist'] text-[10px] font-bold tracking-wider uppercase text-[#0d606a] bg-[#21C6E0]/15 px-2 py-0.5 rounded border border-[#21C6E0]/30">
+        <span className="font-['Urbanist'] text-[14px] font-bold tracking-wider uppercase text-[#0d606a] bg-[#21C6E0]/15 px-2 py-0.5 rounded border border-[#21C6E0]/30">
           REF
         </span>
-        <p className="text-[15px] leading-tight text-zinc-500">
+        <p className="text-[15px] leading-tight text-[#6a6b6d]">
           Diamond A. <em>Annu Rev Psychol.</em> 2013;64:135-168. · Anderson P. <em>Child Neuropsychol.</em> 2002;8(2):71-82. · Shokrkon A, Nicoladis E. <em>Front Psychol.</em> 2022;13:848696.
         </p>
       </div>

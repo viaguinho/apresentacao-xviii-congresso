@@ -100,7 +100,7 @@ const Card7 = React.forwardRef<HTMLDivElement, Card7Props>(
               </div>
             )}
             {badge && (
-              <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-[#21C6E0]/20 text-[#0d606a] border border-[#21C6E0]/30">
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[14px] font-bold uppercase tracking-wider bg-[#21C6E0]/20 text-[#0d606a] border border-[#21C6E0]/30">
                 {badge}
               </span>
             )}
@@ -109,24 +109,24 @@ const Card7 = React.forwardRef<HTMLDivElement, Card7Props>(
           {/* Middle Section: Title, Subtitle & Overview */}
           <div className="space-y-2">
             <div>
-              <h3 className="text-[20px] lg:text-[22px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist']">
+              <h3 className="text-[28px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist']">
                 {title}
               </h3>
               {displaySubtitle && (
-                <p className="text-[11.5px] font-bold uppercase tracking-wider text-[#0d606a] mt-0.5">
+                <p className="text-[15px] font-bold uppercase tracking-wider text-[#0d606a] mt-1">
                   {displaySubtitle}
                 </p>
               )}
             </div>
 
             {overviewHeading && (
-              <h4 className="text-[10.5px] font-bold uppercase tracking-wider text-zinc-500 mt-1">
+              <h4 className="text-[14px] font-bold uppercase tracking-wider text-zinc-600 mt-1">
                 {overviewHeading}
               </h4>
             )}
 
             {overview && (
-              <p className="text-[12.5px] text-[#27272a] font-normal leading-relaxed max-w-[340px]">
+              <p className="text-[18px] text-[#27272a] font-medium leading-snug max-w-[560px]">
                 {overview}
               </p>
             )}

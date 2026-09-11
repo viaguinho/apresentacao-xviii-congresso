@@ -47,7 +47,7 @@ export default function Slide17Cards({ isActive = true, className }: Slide17Card
   return (
     <div
       className={cn(
-        "w-full h-full flex flex-col justify-center gap-4 select-none font-['Satoshi',sans-serif] max-w-[620px] mx-auto my-auto",
+        "w-full h-full flex flex-col justify-center gap-4 select-none font-['Satoshi',sans-serif] max-w-[800px] mx-auto my-auto",
         className
       )}
     >
@@ -62,7 +62,7 @@ export default function Slide17Cards({ isActive = true, className }: Slide17Card
           "group relative w-full overflow-hidden rounded-3xl border border-black/[0.08]",
           "bg-gradient-to-br from-white via-[#fcfdff] to-[#e8f2fc]/60",
           "shadow-[0_4px_24px_rgba(0,113,227,0.06)] hover:shadow-[0_12px_36px_rgba(0,113,227,0.12)]",
-          "hover:border-[#0071e3]/30 transition-all duration-400 ease-out p-5 flex flex-col justify-between"
+          "hover:border-[#0071e3]/30 transition-all duration-400 ease-out px-5 py-4 flex flex-col justify-between"
         )}
       >
         {/* Subtle Decorative Gradient Mesh Accent */}
@@ -77,7 +77,7 @@ export default function Slide17Cards({ isActive = true, className }: Slide17Card
             </div>
 
             <div className="flex items-center gap-1.5">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-[#0071e3]/10 text-[#0071e3] border border-[#0071e3]/20">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wide bg-[#0071e3]/10 text-[#0071e3] border border-[#0071e3]/20">
                 <Sparkles className="w-4 h-4 text-[#0071e3]" />
                 Modelo Interativo Não-Linear
               </span>
@@ -87,17 +87,17 @@ export default function Slide17Cards({ isActive = true, className }: Slide17Card
           {/* Middle Section: Title, Subtitle & Interactive Equation */}
           <div className="space-y-2">
             <div>
-              <h3 className="text-[21px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
+              <h3 className="text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
                 Desempenho Observado em Contexto
               </h3>
-              <p className="text-[16px] font-semibold text-[#0071e3] mt-0.5">
+              <p className="text-[17px] font-semibold text-[#0071e3] mt-0.5 leading-snug">
                 Superação do modelo dual simplificado · Interação dinâmica multifatorial
               </p>
             </div>
 
             {/* Formula Chips */}
             <div className="pt-1">
-              <h4 className="text-[10px] font-bold uppercase tracking-[0.14em] text-zinc-500 mb-1.5">
+              <h4 className="text-[14px] font-bold uppercase tracking-[0.1em] text-zinc-600 mb-1.5">
                 EQUAÇÃO MULTIFATORIAL DA TOMADA DE DECISÃO
               </h4>
               <div className="flex flex-wrap items-center gap-1.5 my-1.5">
@@ -106,7 +106,7 @@ export default function Slide17Cards({ isActive = true, className }: Slide17Card
                     <motion.div
                       whileHover={{ y: -1, scale: 1.02 }}
                       className={cn(
-                        "px-2.5 py-1 rounded-xl text-[15px] font-semibold border transition-all duration-200 cursor-default flex items-center gap-1.5 shadow-2xs",
+                        "px-2.5 py-1 rounded-xl text-[16px] font-semibold border transition-all duration-200 cursor-default flex items-center gap-1.5 shadow-2xs",
                         factor.accent
                       )}
                     >
@@ -121,14 +121,14 @@ export default function Slide17Cards({ isActive = true, className }: Slide17Card
                 <span className="text-[16px] font-bold text-[#0071e3] ml-0.5 select-none">→</span>
                 <motion.div
                   whileHover={{ y: -1, scale: 1.02 }}
-                  className="px-2.5 py-1 rounded-xl text-[15px] font-bold bg-[#0071e3] text-white shadow-xs flex items-center gap-1"
+                  className="px-2.5 py-1 rounded-xl text-[16px] font-bold bg-[#0071e3] text-white shadow-xs flex items-center gap-1"
                 >
                   <CheckCircle2 className="w-4 h-4" />
                   <span>Decisão Observada</span>
                 </motion.div>
               </div>
 
-              <p className="text-[12.5px] text-[#334155] leading-relaxed font-normal mt-2">
+              <p className="text-[17px] text-[#334155] leading-snug font-medium mt-2">
                 Incentivos contextuais e pares modificam a tomada de decisão na adolescência — gerando resultados substancialmente mais heterogêneos do que a tese dual de <strong className="text-[#0f1012] font-semibold">"límbico desenvolvido vs. pré-frontal imaturo"</strong>.
               </p>
             </div>
@@ -136,7 +136,7 @@ export default function Slide17Cards({ isActive = true, className }: Slide17Card
 
           {/* Bottom Section: Principle Highlight & Action Pill */}
           <div className="mt-3 pt-2.5 border-t border-black/[0.06] flex items-center justify-between">
-            <div className="flex items-center gap-1.5 text-[15px] font-semibold text-zinc-500">
+            <div className="flex items-center gap-1.5 text-[16px] font-semibold text-zinc-600">
               <span>Fundamento:</span>
               <span className="text-[#0f1012] font-bold">Heterogeneidade Real</span>
             </div>
@@ -159,7 +159,7 @@ export default function Slide17Cards({ isActive = true, className }: Slide17Card
           "group relative w-full overflow-hidden rounded-3xl border border-white/10",
           "bg-[#0f1012] text-white",
           "shadow-[0_6px_28px_rgba(0,0,0,0.14)] hover:shadow-[0_12px_36px_rgba(0,0,0,0.28)]",
-          "hover:border-white/20 transition-all duration-400 ease-out p-5 flex flex-col justify-between"
+          "hover:border-white/20 transition-all duration-400 ease-out px-5 py-4 flex flex-col justify-between"
         )}
       >
         {/* Subtle Ambient Glow */}
@@ -174,7 +174,7 @@ export default function Slide17Cards({ isActive = true, className }: Slide17Card
             </div>
 
             <div className="flex items-center gap-1.5">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-cyan-500/10 text-cyan-300 border border-cyan-500/25">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wide bg-cyan-500/10 text-cyan-300 border border-cyan-500/25">
                 <CheckCircle2 className="w-4 h-4 text-cyan-400" />
                 Weil et al. (2013) · 11–41 anos
               </span>
@@ -184,50 +184,50 @@ export default function Slide17Cards({ isActive = true, className }: Slide17Card
           {/* Middle Section: Title, Subtitle & Evidence */}
           <div className="space-y-2">
             <div>
-              <h3 className="text-[21px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]">
+              <h3 className="text-[24px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]">
                 Refinamento da Acurácia Metacognitiva
               </h3>
-              <p className="text-[16px] font-semibold text-cyan-400 mt-0.5">
+              <p className="text-[17px] font-semibold text-cyan-400 mt-0.5 leading-snug">
                 Dissociação desenvolvimental entre capacidade perceptual básica e autoavaliação
               </p>
             </div>
 
             <div className="pt-1">
-              <h4 className="text-[10px] font-bold uppercase tracking-[0.14em] text-zinc-400 mb-1.5">
+              <h4 className="text-[14px] font-bold uppercase tracking-[0.1em] text-zinc-400 mb-1.5">
                 EVIDÊNCIA EMPÍRICA LONGITUDINAL
               </h4>
 
               {/* Comparative Vector Chips */}
               <div className="grid grid-cols-3 gap-2 my-2">
-                <div className="p-2.5 rounded-xl bg-white/[0.04] border border-white/10 hover:border-white/20 transition-all text-left">
-                  <span className="text-[9.5px] font-bold uppercase tracking-wider text-zinc-400 block mb-0.5">
+                <div className="px-3 py-2 rounded-xl bg-white/[0.04] border border-white/10 hover:border-white/20 transition-all text-left">
+                  <span className="text-[14px] font-bold uppercase tracking-wide text-zinc-400 block mb-0.5">
                     Percepção Básica
                   </span>
-                  <span className="text-[11.5px] font-bold text-zinc-200 leading-tight block">
+                  <span className="text-[16px] font-bold text-zinc-200 leading-tight block">
                     Estabilização Precoce
                   </span>
                 </div>
 
-                <div className="p-2.5 rounded-xl bg-cyan-500/10 border border-cyan-500/20 hover:border-cyan-500/35 transition-all text-left">
-                  <span className="text-[9.5px] font-bold uppercase tracking-wider text-cyan-400 block mb-0.5">
+                <div className="px-3 py-2 rounded-xl bg-cyan-500/10 border border-cyan-500/20 hover:border-cyan-500/35 transition-all text-left">
+                  <span className="text-[14px] font-bold uppercase tracking-wide text-cyan-400 block mb-0.5">
                     Metacognição
                   </span>
-                  <span className="text-[11.5px] font-bold text-cyan-200 leading-tight block">
+                  <span className="text-[16px] font-bold text-cyan-200 leading-tight block">
                     Refinamento (11–17a+)
                   </span>
                 </div>
 
-                <div className="p-2.5 rounded-xl bg-amber-500/10 border border-amber-500/20 hover:border-amber-500/35 transition-all text-left">
-                  <span className="text-[9.5px] font-bold uppercase tracking-wider text-amber-400 block mb-0.5">
+                <div className="px-3 py-2 rounded-xl bg-amber-500/10 border border-amber-500/20 hover:border-amber-500/35 transition-all text-left">
+                  <span className="text-[14px] font-bold uppercase tracking-wide text-amber-400 block mb-0.5">
                     Controle Adulto
                   </span>
-                  <span className="text-[11.5px] font-bold text-amber-200 leading-tight block">
+                  <span className="text-[16px] font-bold text-amber-200 leading-tight block">
                     Eficiência & Consistência
                   </span>
                 </div>
               </div>
 
-              <p className="text-[12.5px] text-zinc-300 leading-relaxed font-normal mt-2">
+              <p className="text-[17px] text-zinc-300 leading-snug font-medium mt-2">
                 A acurácia metacognitiva continua se aprimorando ativamente dos 11 aos 17+ anos, mesmo quando o desempenho perceptual já se estabilizou: o adolescente adquire precisão crescente para calibrar sua própria certeza.
               </p>
             </div>
@@ -235,7 +235,7 @@ export default function Slide17Cards({ isActive = true, className }: Slide17Card
 
           {/* Bottom Section: Principle Highlight & Action Pill */}
           <div className="mt-3 pt-2.5 border-t border-white/10 flex items-center justify-between">
-            <div className="flex items-center gap-1.5 text-[15px] font-semibold text-zinc-400">
+            <div className="flex items-center gap-1.5 text-[16px] font-semibold text-zinc-400">
               <span>Síntese:</span>
               <span className="text-white font-bold">Nem incapaz, nem pronto</span>
             </div>

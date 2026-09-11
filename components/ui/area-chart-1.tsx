@@ -93,19 +93,19 @@ export const IncidentReportCard: React.FC = () => {
       <div>
         {/* Header com Tag Apple inspirada no Slide 11 */}
         <div className="flex items-center justify-between mb-2">
-          <span className="inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0d606a] bg-[#0d606a]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0d606a]/20">
+          <span className="inline-flex items-center gap-1.5 text-[14px] font-bold uppercase tracking-[0.1em] text-[#0d606a] bg-[#0d606a]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0d606a]/20">
             <Activity className="w-3.5 h-3.5 text-[#0d606a]" />
             Tervo-Clemmens et al. (2023)
           </span>
-          <span className="text-xs font-semibold text-[#5f6062]">
+          <span className="text-[15px] font-semibold text-[#5f6062]">
             Nat Commun · N = 10.000+
           </span>
         </div>
 
-        <h3 className="text-2xl font-semibold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
+        <h3 className="text-[26px] font-semibold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
           Maturação das Funções Executivas
         </h3>
-        <p className="text-xs text-[#5f6062] mt-0.5 mb-3">
+        <p className="text-[17px] font-medium text-[#5f6062] mt-1 mb-3">
           Trajetórias normativas de maturação neurocognitiva observadas entre 8 e 35 anos.
         </p>
 
@@ -136,7 +136,7 @@ export const IncidentReportCard: React.FC = () => {
                   }}
                 />
                 <span
-                  className={`text-[12.5px] leading-none ${
+                  className={`text-[16px] leading-none ${
                     isSelected ? 'text-[#0f1012] font-bold' : 'text-[#5f6062] font-medium'
                   }`}
                 >
@@ -152,7 +152,7 @@ export const IncidentReportCard: React.FC = () => {
       <div className="w-full relative bg-[#fcfdfe] rounded-2xl p-3 border border-black/[0.04] overflow-hidden my-auto">
         <svg
           viewBox={`0 0 ${width} ${height}`}
-          className="w-full h-auto max-h-[250px] display-block overflow-visible"
+          className="w-full h-auto max-h-[320px] display-block overflow-visible"
           aria-label="Gráfico de linhas das trajetórias de maturação das funções executivas"
         >
           <defs>
@@ -197,9 +197,9 @@ export const IncidentReportCard: React.FC = () => {
                   y={y + 3.5}
                   textAnchor="end"
                   fontFamily="'Urbanist', sans-serif"
-                  fontSize="11"
+                  fontSize="15"
                   fontWeight="600"
-                  fill="#8c8d8f"
+                  fill="#5f6062"
                 >
                   {tick}%
                 </text>
@@ -232,10 +232,10 @@ export const IncidentReportCard: React.FC = () => {
                 />
                 <text
                   x={x}
-                  y={paddingTop + chartH + 20}
+                  y={paddingTop + chartH + 22}
                   textAnchor="middle"
                   fontFamily="'Urbanist', sans-serif"
-                  fontSize="13"
+                  fontSize="16"
                   fontWeight="700"
                   fill="#5f6062"
                 >
@@ -321,10 +321,10 @@ export const IncidentReportCard: React.FC = () => {
                       {isPtHovered && (
                         <g transform="translate(0, -22)" className="pointer-events-none">
                           <rect
-                            x="-24"
-                            y="-14"
-                            width="48"
-                            height="22"
+                            x="-28"
+                            y="-16"
+                            width="56"
+                            height="26"
                             rx="6"
                             fill="#0f1012"
                             opacity="0.92"
@@ -335,7 +335,7 @@ export const IncidentReportCard: React.FC = () => {
                             y="1"
                             textAnchor="middle"
                             fontFamily="'Urbanist', sans-serif"
-                            fontSize="11"
+                            fontSize="14"
                             fontWeight="800"
                             fill="#ffffff"
                           >
@@ -353,13 +353,13 @@ export const IncidentReportCard: React.FC = () => {
       </div>
 
       {/* Marcadores de Fases Temporais Integradas (Design Refinado) */}
-      <div className="pt-3 mt-3 border-t border-black/[0.06] flex flex-wrap items-center justify-between gap-2 text-xs">
+      <div className="pt-3 mt-3 border-t border-black/[0.06] flex flex-wrap items-center justify-between gap-2 text-[16px]">
         <div className="flex items-center gap-1.5 text-[#5f6062]">
           <TrendingUp className="w-3.5 h-3.5 text-[#0d606a]" />
           <span className="font-semibold text-[#0f1012]">Fases desenvolvimentais:</span>
         </div>
 
-        <div className="flex items-center gap-2 text-[12px]">
+        <div className="flex items-center gap-2 text-[15px]">
           <span className="px-2.5 py-1 rounded-lg bg-[#0d606a]/[0.08] text-[#0d606a] font-semibold border border-[#0d606a]/20">
             <strong>8–11a</strong> · Aceleração
           </span>

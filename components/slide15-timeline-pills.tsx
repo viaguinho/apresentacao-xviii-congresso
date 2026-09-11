@@ -111,7 +111,7 @@ export default function Slide15TimelinePills({ isActive = true }: Slide15Timelin
                   className="w-full h-[52px] !cursor-pointer transition-all duration-300 shadow-sm hover:shadow-md"
                   contentClassName="w-full flex items-center px-6 text-left"
                 >
-                  <div className="flex items-center gap-2.5 w-full text-[17.5px] sm:text-[19px] tracking-tight font-['Satoshi'] truncate">
+                  <div className="flex items-center gap-2.5 w-full text-[19px] tracking-tight font-['Satoshi'] whitespace-nowrap">
                     <span
                       className={`font-semibold shrink-0 ${
                         process.variant === "accent" ? "text-[#0071e3]" : "text-[#0f1012]"
@@ -127,7 +127,7 @@ export default function Slide15TimelinePills({ isActive = true }: Slide15Timelin
                       —
                     </span>
                     <span
-                      className={`font-normal truncate ${
+                      className={`font-normal ${
                         process.variant === "accent"
                           ? "text-[#0071e3]/90 font-medium"
                           : "text-[#3f4042]"

@@ -46,7 +46,7 @@ export const CognitivePlaceCard = ({
         transition: { type: "spring", stiffness: 320, damping: 22 },
       }}
       className={cn(
-        "w-full max-w-[380px] overflow-hidden rounded-2xl border border-zinc-200/90 bg-white text-[#0f1012] shadow-[0_10px_30px_-10px_rgba(0,0,0,0.06),0_2px_8px_-2px_rgba(0,0,0,0.03)] select-none",
+        "w-full max-w-[520px] overflow-hidden rounded-2xl border border-zinc-200/90 bg-white text-[#0f1012] shadow-[0_10px_30px_-10px_rgba(0,0,0,0.06),0_2px_8px_-2px_rgba(0,0,0,0.03)] select-none",
         className
       )}
       {...props}
@@ -67,7 +67,7 @@ export const CognitivePlaceCard = ({
         <div className="absolute top-3 right-3 z-10">
           <Badge
             variant="secondary"
-            className="bg-black/50 text-white/90 border border-white/20 backdrop-blur-md text-[10.5px] font-semibold px-2 py-0.5"
+            className="bg-black/50 text-white/90 border border-white/20 backdrop-blur-md text-[14px] font-semibold px-2 py-0.5"
           >
             0–12 meses
           </Badge>
@@ -78,20 +78,20 @@ export const CognitivePlaceCard = ({
       <motion.div variants={contentVariants} className="p-5 space-y-3">
         {/* Title & Subtitle */}
         <motion.div variants={itemVariants}>
-          <h3 className="text-[18px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif] mb-1">
+          <h3 className="text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif] mb-1">
             {title}
           </h3>
-          <p className="text-[11px] font-bold uppercase tracking-wider text-[#0d606a]">
+          <p className="text-[14px] font-bold uppercase tracking-wider text-[#0d606a]">
             {subtitle}
           </p>
         </motion.div>
 
         {/* Overview Text */}
         <motion.div variants={itemVariants} className="pt-0.5">
-          <h4 className="text-[10px] font-bold uppercase tracking-[0.14em] text-zinc-500 mb-1">
+          <h4 className="text-[14px] font-bold uppercase tracking-[0.1em] text-zinc-600 mb-1">
             {overviewHeading}
           </h4>
-          <p className="text-[12.5px] text-[#334155] leading-relaxed font-normal">
+          <p className="text-[17px] text-[#334155] leading-snug font-medium">
             {overview}
           </p>
         </motion.div>
@@ -101,10 +101,10 @@ export const CognitivePlaceCard = ({
           variants={itemVariants}
           className="pt-2 border-t border-black/[0.06] flex items-center justify-between"
         >
-          <span className="text-[10px] font-semibold text-zinc-500">
+          <span className="text-[14px] font-semibold text-zinc-600">
             Reynolds & Romano (2016)
           </span>
-          <span className="text-[10px] font-bold text-[#0071e3] bg-[#0071e3]/10 px-2 py-0.5 rounded-md">
+          <span className="text-[14px] font-bold text-[#0071e3] bg-[#0071e3]/10 px-2 py-0.5 rounded-md">
             Associação Bidirecional
           </span>
         </motion.div>

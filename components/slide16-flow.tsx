@@ -131,14 +131,14 @@ export default function Slide16Flow({ isActive = true, className }: Slide16FlowP
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <h3 className="font-['Urbanist',sans-serif] text-[16px] font-bold text-[#0f1012] leading-tight">
+              <h3 className="font-['Urbanist',sans-serif] text-[20px] font-bold text-[#0f1012] leading-tight">
                 Convergência Neurocognitiva
               </h3>
-              <span className="text-[10px] font-bold uppercase tracking-wider bg-[#0071e3]/10 text-[#0071e3] px-2 py-0.5 rounded-full border border-[#0071e3]/20">
+              <span className="text-[14px] font-bold uppercase tracking-wide bg-[#0071e3]/10 text-[#0071e3] px-2 py-0.5 rounded-full border border-[#0071e3]/20">
                 Idade Escolar (6–12 anos)
               </span>
             </div>
-            <p className="text-[11.5px] text-[#5f6062] font-normal leading-tight mt-0.5">
+            <p className="text-[16px] text-[#5f6062] font-medium leading-snug mt-0.5">
               Funções executivas nucleares canalizadas diretamente para as aprendizagens formais
             </p>
           </div>
@@ -248,13 +248,13 @@ export default function Slide16Flow({ isActive = true, className }: Slide16FlowP
                   onClick={() => setSelectedId(selectedId === fn.id ? null : fn.id)}
                   whileHover={{ scale: 1.015, x: 3 }}
                   className={cn(
-                    "cursor-pointer p-3.5 rounded-2xl border transition-all duration-300 relative bg-white/95 backdrop-blur-md shadow-sm",
+                    "cursor-pointer px-3.5 py-3 rounded-2xl border transition-all duration-300 relative bg-white/95 backdrop-blur-md shadow-sm",
                     isSelected
                       ? "border-[#0071e3] ring-3 ring-[#0071e3]/15 shadow-[0_4px_20px_rgba(0,113,227,0.12)] bg-gradient-to-r from-white via-white to-[#0071e3]/[0.04]"
                       : "border-black/[0.07] hover:border-black/[0.15] hover:shadow-md"
                   )}
                 >
-                  <div className="flex items-start justify-between gap-2">
+                  <div className="flex items-start justify-between flex-wrap gap-x-2 gap-y-1.5">
                     <div className="flex items-center gap-2.5">
                       <div
                         className="w-9 h-9 rounded-xl flex items-center justify-center shrink-0 shadow-xs transition-colors"
@@ -267,11 +267,11 @@ export default function Slide16Flow({ isActive = true, className }: Slide16FlowP
                       </div>
                       <div>
                         <div className="flex items-center gap-1.5">
-                          <h4 className="font-['Urbanist',sans-serif] text-[16.5px] font-bold text-[#0f1012] leading-tight">
+                          <h4 className="font-['Urbanist',sans-serif] text-[19px] font-bold text-[#0f1012] leading-tight">
                             {fn.name}
                           </h4>
                         </div>
-                        <p className="text-[15px] font-medium text-zinc-500 leading-tight">
+                        <p className="text-[16px] font-medium text-zinc-600 leading-tight">
                           {fn.subtitle}
                         </p>
                       </div>
@@ -279,7 +279,7 @@ export default function Slide16Flow({ isActive = true, className }: Slide16FlowP
 
                     <span
                       className={cn(
-                        "text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md border shrink-0 transition-colors",
+                        "text-[14px] font-bold uppercase tracking-wide px-2 py-0.5 rounded-md border shrink-0 transition-colors",
                         fn.id === "memoria"
                           ? "bg-[#0071e3]/10 text-[#0071e3] border-[#0071e3]/20"
                           : "bg-zinc-100 text-zinc-600 border-zinc-200"
@@ -289,7 +289,7 @@ export default function Slide16Flow({ isActive = true, className }: Slide16FlowP
                     </span>
                   </div>
 
-                  <p className="text-[15px] text-[#475569] mt-2 leading-relaxed">
+                  <p className="text-[16px] font-medium text-[#475569] mt-1.5 leading-snug">
                     {fn.role}
                   </p>
 
@@ -315,7 +315,7 @@ export default function Slide16Flow({ isActive = true, className }: Slide16FlowP
           {/* Center Gap for SVG Beams (2 cols) */}
           <div className="col-span-2 pointer-events-none flex flex-col items-center justify-center text-center">
             <div className="px-2.5 py-1 rounded-full bg-white/90 border border-black/[0.08] shadow-xs backdrop-blur-md">
-              <span className="text-[10px] font-bold uppercase tracking-widest text-[#0071e3]">
+              <span className="text-[14px] font-bold uppercase tracking-wide text-[#0071e3] leading-tight block">
                 Impacto direto →
               </span>
             </div>
@@ -323,28 +323,28 @@ export default function Slide16Flow({ isActive = true, className }: Slide16FlowP
 
           {/* Right Column (5 cols): Convergence Target - Aprendizagem Escolar */}
           <div className="col-span-5 flex flex-col justify-center h-full py-1">
-            <div className="relative p-5 rounded-2xl border-2 border-[#0071e3]/30 bg-gradient-to-br from-white via-[#fafcff] to-[#f0f7ff] shadow-[0_8px_30px_rgba(0,113,227,0.08)]">
+            <div className="relative p-4 rounded-2xl border-2 border-[#0071e3]/30 bg-gradient-to-br from-white via-[#fafcff] to-[#f0f7ff] shadow-[0_8px_30px_rgba(0,113,227,0.08)]">
               {/* Convergence input port badge on left edge */}
               <div className="absolute -left-3 top-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-white border-2 border-[#0071e3] flex items-center justify-center shadow-md ring-4 ring-[#0071e3]/20">
                 <div className="w-2.5 h-2.5 rounded-full bg-[#0071e3] animate-pulse" />
               </div>
 
-              <div className="flex items-center justify-between mb-3 pl-1">
+              <div className="flex items-center justify-between flex-wrap gap-2 mb-3 pl-1">
                 <div className="flex items-center gap-2">
                   <div className="w-7 h-7 rounded-lg bg-[#0071e3] text-white flex items-center justify-center shadow-xs">
                     <GraduationCap className="w-5 h-5" />
                   </div>
                   <div>
-                    <h4 className="font-['Urbanist',sans-serif] text-[16px] font-bold text-[#0f1012] leading-tight">
+                    <h4 className="font-['Urbanist',sans-serif] text-[19px] font-bold text-[#0f1012] leading-tight">
                       Aprendizagem Escolar
                     </h4>
-                    <span className="text-[10px] font-medium text-zinc-500">
+                    <span className="text-[14px] font-medium text-zinc-600">
                       Domínios acadêmicos nucleares
                     </span>
                   </div>
                 </div>
 
-                <span className="text-[9.5px] font-bold uppercase tracking-wider text-[#0071e3] bg-[#0071e3]/10 px-2.5 py-1 rounded-full border border-[#0071e3]/25">
+                <span className="text-[14px] font-bold uppercase tracking-wide text-[#0071e3] bg-[#0071e3]/10 px-2.5 py-1 rounded-full border border-[#0071e3]/25">
                   Alvo de Convergência
                 </span>
               </div>
@@ -383,16 +383,16 @@ export default function Slide16Flow({ isActive = true, className }: Slide16FlowP
 
                       <div className="flex-1 min-w-0">
                         <div className="flex items-center justify-between">
-                          <span className="font-['Urbanist',sans-serif] text-[13.5px] font-bold text-[#0f1012]">
+                          <span className="font-['Urbanist',sans-serif] text-[17px] font-bold text-[#0f1012]">
                             {dom.name}
                           </span>
                           {isDomainTargeted && (
-                            <span className="text-[9px] font-bold text-[#0071e3] bg-[#0071e3]/10 px-1.5 py-0.5 rounded">
+                            <span className="text-[14px] font-bold text-[#0071e3] bg-[#0071e3]/10 px-1.5 py-0.5 rounded">
                               Ativado
                             </span>
                           )}
                         </div>
-                        <p className="text-[10.5px] text-[#5f6062] leading-tight truncate">
+                        <p className="text-[15px] font-medium text-[#5f6062] leading-snug">
                           {dom.desc}
                         </p>
                       </div>
@@ -402,7 +402,7 @@ export default function Slide16Flow({ isActive = true, className }: Slide16FlowP
               </div>
 
               {/* Meta-analysis callout pill inside target box */}
-              <div className="mt-3 pt-2.5 border-t border-[#0071e3]/15 flex items-center gap-2 text-[10.5px] text-zinc-600">
+              <div className="mt-3 pt-2.5 border-t border-[#0071e3]/15 flex items-start gap-2 text-[15px] text-zinc-700">
                 <Info className="w-3.5 h-3.5 text-[#0071e3] shrink-0" />
                 <p className="m-0 leading-tight">
                   <strong className="text-[#0071e3] font-semibold">Spiegel et al. (2021):</strong> 299 estudos e +65 mil crianças confirmam essa base.
@@ -414,7 +414,7 @@ export default function Slide16Flow({ isActive = true, className }: Slide16FlowP
       </div>
 
       {/* Bottom Reciprocal / Bidirectional Loop Banner */}
-      <div className="relative z-20 mt-1 pt-2.5 border-t border-black/[0.06] flex items-center justify-between px-2">
+      <div className="relative z-20 mt-1 pt-2.5 border-t border-black/[0.06] flex items-end justify-between gap-4 px-2">
         <div className="flex items-center gap-2.5">
           <div className="w-6 h-6 rounded-md bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
             <ArrowRightLeft className="w-3.5 h-3.5" />
@@ -429,7 +429,7 @@ export default function Slide16Flow({ isActive = true, className }: Slide16FlowP
           </div>
         </div>
 
-        <span className="text-[10.5px] font-semibold text-zinc-400 shrink-0 hidden md:inline">
+        <span className="text-[14px] font-semibold text-zinc-500 shrink-0 hidden md:inline">
           Peng & Kievit (2020)
         </span>
       </div>
