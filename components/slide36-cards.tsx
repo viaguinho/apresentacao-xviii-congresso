@@ -22,7 +22,7 @@ export default function Slide36Cards({ isActive = true, className }: Slide36Card
   return (
     <div
       className={cn(
-        "w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[620px] mx-auto my-auto",
+        "w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[800px] mx-auto my-auto",
         className
       )}
     >
@@ -51,7 +51,7 @@ export default function Slide36Cards({ isActive = true, className }: Slide36Card
             </div>
 
             <div className="flex items-center gap-1.5">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-[#33415c]/10 text-[#33415c] border border-[#33415c]/20">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-[#33415c]/10 text-[#33415c] border border-[#33415c]/20">
                 <Sparkles className="w-4 h-4 text-[#33415c]" />
                 Vigilância Contínua ≠ Rastreio Pontual
               </span>
@@ -61,7 +61,7 @@ export default function Slide36Cards({ isActive = true, className }: Slide36Card
           {/* Middle Section */}
           <div className="space-y-2">
             <div>
-              <h3 className="text-[20px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
+              <h3 className="text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
                 Transversal ("Como Está?") × Longitudinal ("Como Muda?")
               </h3>
               <p className="text-[16px] font-semibold text-[#33415c] mt-0.5">
@@ -71,21 +71,21 @@ export default function Slide36Cards({ isActive = true, className }: Slide36Card
 
             {/* Trajectory Dynamic Parameters */}
             <div className="pt-0.5">
-              <h4 className="text-[10px] font-bold uppercase tracking-[0.14em] text-zinc-500 mb-1">
+              <h4 className="text-[14px] font-bold uppercase tracking-[0.14em] text-zinc-500 mb-1">
                 PARÂMETROS DA VIGILÂNCIA LONGITUDINAL:
               </h4>
               <div className="flex flex-wrap items-center gap-1 my-1">
                 {trajectoryParams.map((param) => (
                   <span
                     key={param}
-                    className="px-2 py-0.5 rounded-lg text-[10.5px] font-semibold bg-white border border-black/[0.07] text-[#1e293b] shadow-2xs"
+                    className="px-2 py-0.5 rounded-lg text-[14px] font-semibold bg-white border border-black/[0.07] text-[#1e293b] shadow-2xs"
                   >
                     {param}
                   </span>
                 ))}
               </div>
 
-              <p className="text-[16px] text-[#334155] leading-relaxed font-normal mt-1.5">
+              <p className="text-[16px] text-[#334155] leading-snug font-normal mt-1.5">
                 A vigilância do desenvolvimento é um processo contínuo e repetido (história, preocupações, observação e seguimento). Marcos auxiliam a vigilância, mas <strong className="text-[#0f1012] font-semibold">não substituem instrumentos padronizados</strong> quando há preocupação clínica.
               </p>
             </div>
@@ -98,7 +98,7 @@ export default function Slide36Cards({ isActive = true, className }: Slide36Card
               <span className="text-[#0f1012] font-bold">Variável de Mudança</span>
             </div>
 
-            <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#33415c] text-white text-[10.5px] font-bold shadow-xs">
+            <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#33415c] text-white text-[16px] font-bold shadow-xs">
               <span>Direção &gt; Posição</span>
             </div>
           </div>
@@ -130,7 +130,7 @@ export default function Slide36Cards({ isActive = true, className }: Slide36Card
             </div>
 
             <div className="flex items-center gap-1.5">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-slate-500/15 text-slate-300 border border-slate-500/30">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-slate-500/15 text-slate-300 border border-slate-500/30">
                 <CheckCircle2 className="w-4 h-4 text-slate-300" />
                 Exemplo Clínico Ilustrativo
               </span>
@@ -140,7 +140,7 @@ export default function Slide36Cards({ isActive = true, className }: Slide36Card
           {/* Middle Section */}
           <div className="space-y-2">
             <div>
-              <h3 className="text-[20px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]">
+              <h3 className="text-[24px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]">
                 Mesma Fotografia Clínica — Histórias Opostas
               </h3>
               <p className="text-[16px] font-semibold text-slate-300 mt-0.5">
@@ -151,7 +151,7 @@ export default function Slide36Cards({ isActive = true, className }: Slide36Card
             {/* Trajectory Comparison Grid */}
             <div className="grid grid-cols-2 gap-2.5 my-1.5">
               <div className="p-2.5 rounded-xl bg-emerald-500/10 border border-emerald-500/25 text-left">
-                <span className="text-[9px] font-bold uppercase tracking-wider text-emerald-400 block mb-0.5">
+                <span className="text-[14px] font-bold uppercase tracking-wider text-emerald-400 block mb-0.5">
                   Trajetória Ascendente
                 </span>
                 <span className="text-[15px] font-bold text-emerald-200 leading-tight block">
@@ -160,7 +160,7 @@ export default function Slide36Cards({ isActive = true, className }: Slide36Card
               </div>
 
               <div className="p-2.5 rounded-xl bg-rose-500/10 border border-rose-500/25 text-left">
-                <span className="text-[9px] font-bold uppercase tracking-wider text-rose-400 block mb-0.5">
+                <span className="text-[14px] font-bold uppercase tracking-wider text-rose-400 block mb-0.5">
                   Trajetória Descendente
                 </span>
                 <span className="text-[15px] font-bold text-rose-200 leading-tight block">
@@ -169,7 +169,7 @@ export default function Slide36Cards({ isActive = true, className }: Slide36Card
               </div>
             </div>
 
-            <p className="text-[16px] text-zinc-300 leading-relaxed font-normal mt-1.5">
+            <p className="text-[16px] text-zinc-300 leading-snug font-normal mt-1.5">
               <strong className="text-white font-semibold">O escore atual é realmente a informação mais importante?</strong> Avaliar apenas o estado estático hoje esconde a direção da trajetória e pode atrasar intervenções preventivas oportunas.
             </p>
           </div>
@@ -181,7 +181,7 @@ export default function Slide36Cards({ isActive = true, className }: Slide36Card
               <span className="text-white font-bold">O Filme Supera a Foto</span>
             </div>
 
-            <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-slate-500/20 text-slate-200 border border-slate-500/30 text-[10.5px] font-bold shadow-xs">
+            <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-slate-500/20 text-slate-200 border border-slate-500/30 text-[16px] font-bold shadow-xs">
               <span>Para Onde a Curva Aponta?</span>
             </div>
           </div>

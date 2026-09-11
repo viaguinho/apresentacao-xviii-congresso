@@ -31,7 +31,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
   return (
     <div
       className={cn(
-        "w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[620px] mx-auto my-auto",
+        "w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[800px] mx-auto my-auto",
         className
       )}
     >
@@ -60,7 +60,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
             </div>
 
             <div className="flex items-center gap-1.5">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-[#33415c]/10 text-[#33415c] border border-[#33415c]/20">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-[#33415c]/10 text-[#33415c] border border-[#33415c]/20">
                 <Sparkles className="w-4 h-4 text-[#33415c]" />
                 Funcionalidade & Contexto
               </span>
@@ -70,7 +70,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
           {/* Middle Section */}
           <div className="space-y-2">
             <div>
-              <h3 className="text-[20px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
+              <h3 className="text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
                 Sintomas e Prejuízo Funcional Não São a Mesma Coisa
               </h3>
               <p className="text-[16px] font-semibold text-[#33415c] mt-0.5">
@@ -84,7 +84,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
                 {functionalDomains.map((dom) => (
                   <span
                     key={dom}
-                    className="px-2.5 py-0.5 rounded-lg text-[10.5px] font-semibold bg-white border border-[#33415c]/20 text-[#33415c] shadow-2xs"
+                    className="px-2.5 py-0.5 rounded-lg text-[14px] font-semibold bg-white border border-[#33415c]/20 text-[#33415c] shadow-2xs"
                   >
                     {dom}
                   </span>
@@ -98,7 +98,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
                 </span>
                 <div className="flex items-center gap-2">
                   {contexts.map((ctx) => (
-                    <div key={ctx} className="flex items-center gap-1 text-[10px] text-[#5f6062]">
+                    <div key={ctx} className="flex items-center gap-1 text-[16px] text-[#5f6062]">
                       <span className="w-2 h-2 rounded-full bg-[#33415c]" />
                       <span>{ctx}</span>
                     </div>
@@ -106,7 +106,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
                 </div>
               </div>
 
-              <p className="text-[16px] text-[#334155] leading-relaxed font-normal mt-1.5">
+              <p className="text-[16px] text-[#334155] leading-snug font-normal mt-1.5">
                 A variabilidade entre situações pode ser informação clinicamente significativa — não erro entre avaliadores — e ajuda a localizar o mecanismo concreto do problema.
               </p>
             </div>
@@ -119,7 +119,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
               <span className="text-[#0f1012] font-bold">Avaliação Situacional</span>
             </div>
 
-            <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#33415c] text-white text-[10.5px] font-bold shadow-xs">
+            <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#33415c] text-white text-[16px] font-bold shadow-xs">
               <span>Prejuízo Funcional Real</span>
             </div>
           </div>
@@ -151,7 +151,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
             </div>
 
             <div className="flex items-center gap-1.5">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-slate-500/15 text-slate-300 border border-slate-500/30">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-slate-500/15 text-slate-300 border border-slate-500/30">
                 <CheckCircle2 className="w-4 h-4 text-slate-300" />
                 Raciocínio Clínico em 5 Etapas
               </span>
@@ -161,7 +161,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
           {/* Middle Section */}
           <div className="space-y-2">
             <div>
-              <h3 className="text-[20px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]">
+              <h3 className="text-[24px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]">
                 O Significado Muda com a Idade: Checklist Diagnóstico
               </h3>
               <p className="text-[16px] font-semibold text-slate-300 mt-0.5">
@@ -171,7 +171,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
 
             {/* Checklist items */}
             <div className="pt-0.5">
-              <h4 className="text-[10px] font-bold uppercase tracking-[0.14em] text-zinc-400 mb-1">
+              <h4 className="text-[14px] font-bold uppercase tracking-[0.14em] text-zinc-400 mb-1">
                 ANTES DE PERGUNTAR QUAL É O DIAGNÓSTICO:
               </h4>
               <div className="grid grid-cols-1 gap-1 my-1">
@@ -180,7 +180,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
                     key={q}
                     className="flex items-center gap-2 p-1.5 rounded-lg bg-white/[0.04] border border-white/10"
                   >
-                    <span className="w-5 h-5 rounded-full bg-slate-500/30 text-slate-200 text-[9.5px] font-bold flex items-center justify-center shrink-0">
+                    <span className="w-5 h-5 rounded-full bg-slate-500/30 text-slate-200 text-[16px] font-bold flex items-center justify-center shrink-0">
                       {idx + 1}
                     </span>
                     <span className="text-[15px] font-medium text-zinc-200 leading-tight">
@@ -199,7 +199,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
               <span className="text-white font-bold">Investigação Sistêmica</span>
             </div>
 
-            <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-slate-500/20 text-slate-200 border border-slate-500/30 text-[10.5px] font-bold shadow-xs">
+            <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-slate-500/20 text-slate-200 border border-slate-500/30 text-[16px] font-bold shadow-xs">
               <span>Significado ≠ Sintoma</span>
             </div>
           </div>

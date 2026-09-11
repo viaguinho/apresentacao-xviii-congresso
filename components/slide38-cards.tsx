@@ -23,23 +23,23 @@ export default function Slide38Cards({ isActive = true, className }: Slide38Card
         initial={{ opacity: 0, y: 14 }}
         animate={{ opacity: isActive ? 1 : 0, y: isActive ? 0 : 14 }}
         transition={{ duration: 0.45, delay: 0.08, ease: [0.16, 1, 0.3, 1] }}
-        className="p-5 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] flex-1 relative overflow-hidden"
+        className="px-5 py-4 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] flex-1 relative overflow-hidden"
       >
         <div className="absolute top-0 right-0 w-44 h-44 bg-[#33415c]/25 rounded-full blur-3xl pointer-events-none" />
 
         <div className="relative z-10">
           <div className="flex items-center justify-between mb-1.5">
-            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-400 font-['Urbanist',sans-serif]">
+            <span className="text-[14px] font-bold uppercase tracking-[0.2em] text-zinc-400 font-['Urbanist',sans-serif]">
               Discordância Informativa
             </span>
-            <span className="text-[10px] font-semibold text-slate-300 bg-[#33415c]/35 px-2.5 py-0.5 rounded-full border border-slate-400/30">
+            <span className="text-[14px] font-semibold text-slate-300 bg-[#33415c]/35 px-2.5 py-0.5 rounded-full border border-slate-400/30">
               Eixo 7 · Longitude
             </span>
           </div>
-          <h4 className="text-[18px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight">
+          <h4 className="text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight">
             Discrepância Não É Erro: É Informação
           </h4>
-          <p className="text-[11.5px] font-medium text-zinc-300 mt-1 leading-relaxed">
+          <p className="text-[16px] font-medium text-zinc-300 mt-1 leading-snug">
             221 crianças (8–17 anos, PROMIS): a concordância variou amplamente com a idade e o domínio avaliado.
           </p>
         </div>
@@ -47,19 +47,19 @@ export default function Slide38Cards({ isActive = true, className }: Slide38Card
         {/* 2 Diálogos de Perspectivas em Contraste */}
         <div className="grid grid-cols-2 gap-2 my-2 relative z-10">
           <div className="p-2.5 rounded-2xl bg-zinc-900/90 border border-zinc-800">
-            <span className="text-[10px] font-bold uppercase tracking-wider text-zinc-400 block mb-1 font-['Urbanist',sans-serif]">
+            <span className="text-[14px] font-bold uppercase tracking-wider text-zinc-400 block mb-1 font-['Urbanist',sans-serif]">
               Pai / Cuidador
             </span>
-            <p className="text-[11.5px] text-zinc-200 leading-snug m-0">
+            <p className="text-[16px] text-zinc-200 leading-snug m-0">
               “Não vejo qualquer dificuldade com os colegas.”
             </p>
           </div>
 
           <div className="p-2.5 rounded-2xl bg-[#33415c]/25 border border-slate-400/30">
-            <span className="text-[10px] font-bold uppercase tracking-wider text-slate-300 block mb-1 font-['Urbanist',sans-serif]">
+            <span className="text-[14px] font-bold uppercase tracking-wider text-slate-300 block mb-1 font-['Urbanist',sans-serif]">
               Adolescente
             </span>
-            <p className="text-[11.5px] text-white leading-snug m-0">
+            <p className="text-[16px] text-white leading-snug m-0">
               “Evito o recreio porque não me sinto parte do grupo.”
             </p>
           </div>
@@ -73,8 +73,8 @@ export default function Slide38Cards({ isActive = true, className }: Slide38Card
         </div>
 
         <div className="flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10">
-          <span className="text-sm font-semibold text-zinc-400">Interpretação clínica:</span>
-          <span className="text-sm font-bold text-slate-300 bg-slate-500/20 px-2.5 py-0.5 rounded-full border border-slate-400/30">
+          <span className="text-[16px] font-semibold text-zinc-400">Interpretação clínica:</span>
+          <span className="text-[16px] font-bold text-slate-300 bg-slate-500/20 px-2.5 py-0.5 rounded-full border border-slate-400/30">
             Quem × O Quê × Contexto × Idade
           </span>
         </div>
@@ -87,18 +87,18 @@ export default function Slide38Cards({ isActive = true, className }: Slide38Card
         initial={{ opacity: 0, y: 14 }}
         animate={{ opacity: isActive ? 1 : 0, y: isActive ? 0 : 14 }}
         transition={{ duration: 0.45, delay: 0.16, ease: [0.16, 1, 0.3, 1] }}
-        className="p-5 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between flex-1"
+        className="px-5 py-4 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between flex-1"
       >
         <div>
           <div className="flex items-center justify-between mb-1.5">
-            <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-[#33415c] bg-[#33415c]/[0.10] px-2.5 py-0.5 rounded-full border border-[#33415c]/25 font-['Urbanist',sans-serif]">
+            <span className="text-[14px] font-bold uppercase tracking-[0.14em] text-[#33415c] bg-[#33415c]/[0.10] px-2.5 py-0.5 rounded-full border border-[#33415c]/25 font-['Urbanist',sans-serif]">
               Volpicelli et al. 2020 · Bous et al. 2020
             </span>
             <span className="text-[15px] font-semibold text-[#5f6062]">
               Multi-informante
             </span>
           </div>
-          <h4 className="text-[17px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight">
+          <h4 className="text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight">
             Evolução das Fontes de Informação
           </h4>
           <p className="text-[15px] text-[#5f6062] mt-0.5">
@@ -161,7 +161,7 @@ export default function Slide38Cards({ isActive = true, className }: Slide38Card
           </svg>
         </div>
 
-        <p className="text-[11.5px] text-[#334155] leading-snug m-0 font-normal">
+        <p className="text-[16px] text-[#334155] leading-snug m-0 font-normal">
           O relato do cuidador nunca chega a zero: à medida que a idade avança, o relato do jovem ganha precisão e protagonismo.
         </p>
 

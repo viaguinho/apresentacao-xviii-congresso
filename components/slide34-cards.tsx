@@ -34,7 +34,7 @@ export function Slide34BannerCard({ isActive = true, className }: Slide34Props) 
         </p>
       </div>
 
-      <span className="shrink-0 text-[10.5px] font-bold text-emerald-300 bg-emerald-500/15 px-3 py-1 rounded-full border border-emerald-500/30 whitespace-nowrap">
+      <span className="shrink-0 text-[14px] font-bold text-emerald-300 bg-emerald-500/15 px-3 py-1 rounded-full border border-emerald-500/30 whitespace-nowrap">
         Tríade Avaliativa
       </span>
     </motion.div>
@@ -48,7 +48,7 @@ export default function Slide34RightCards({ isActive = true, className }: Slide3
   return (
     <div
       className={cn(
-        "w-full h-full flex flex-col justify-center gap-2 select-none font-['Satoshi',sans-serif] max-w-[680px] mx-auto my-auto",
+        "w-full h-full flex flex-col justify-center gap-3 select-none font-['Satoshi',sans-serif] max-w-[860px] mx-auto my-auto",
         className
       )}
     >
@@ -59,23 +59,23 @@ export default function Slide34RightCards({ isActive = true, className }: Slide3
         initial={{ opacity: 0, y: 14 }}
         animate={{ opacity: isActive ? 1 : 0, y: isActive ? 0 : 14 }}
         transition={{ duration: 0.45, delay: 0.08, ease: [0.16, 1, 0.3, 1] }}
-        className="p-3.5 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] flex-1 relative overflow-hidden"
+        className="px-5 py-4 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/[0.08] relative overflow-hidden"
       >
         <div className="absolute top-0 right-0 w-44 h-44 bg-[#4b6b4f]/18 rounded-full blur-3xl pointer-events-none" />
 
         <div className="relative z-10">
           <div className="flex items-center justify-between mb-1.5">
-            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-400 font-['Urbanist',sans-serif]">
+            <span className="text-[14px] font-bold uppercase tracking-[0.1em] text-zinc-400 font-['Urbanist',sans-serif]">
               Evidência Empírica de Informantes
             </span>
-            <span className="text-[10px] font-semibold text-[#d5e4d7] bg-[#4b6b4f]/30 px-2.5 py-0.5 rounded-full border border-[#4b6b4f]/40">
+            <span className="text-[14px] font-semibold text-[#d5e4d7] bg-[#4b6b4f]/30 px-2.5 py-0.5 rounded-full border border-[#4b6b4f]/40">
               Eixo 6 · Protocolo
             </span>
           </div>
-          <h4 className="text-[17px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight">
+          <h4 className="text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight">
             Pais e Filhos Realmente Discordam
           </h4>
-          <p className="text-[12.5px] font-medium text-zinc-300 mt-1 leading-relaxed">
+          <p className="text-[16px] font-medium text-zinc-300 mt-1 leading-snug">
             A discrepância entre respondentes é frequente e contém informação clínica valiosa:
           </p>
         </div>
@@ -83,31 +83,31 @@ export default function Slide34RightCards({ isActive = true, className }: Slide3
         {/* 2 Estudos em Mini-Blocos Escuros */}
         <div className="grid grid-cols-2 gap-2 my-2 relative z-10">
           <div className="p-2.5 rounded-2xl bg-zinc-900/90 border border-zinc-800">
-            <span className="text-[10px] font-bold uppercase tracking-wider text-emerald-400 block mb-1">
+            <span className="text-[14px] font-bold uppercase tracking-wider text-emerald-400 block mb-1">
               PROMIS · 221 Crianças
             </span>
-            <p className="text-[13px] text-zinc-300 leading-snug m-0">
+            <p className="text-[16px] text-zinc-300 leading-snug m-0">
               Divergência por idade e domínio — sem correlação em ansiedade entre 8–10 anos.
             </p>
           </div>
 
           <div className="p-2.5 rounded-2xl bg-zinc-900/90 border border-zinc-800">
-            <span className="text-[10px] font-bold uppercase tracking-wider text-emerald-400 block mb-1">
+            <span className="text-[14px] font-bold uppercase tracking-wider text-emerald-400 block mb-1">
               PedsQL · 338 Crianças
             </span>
-            <p className="text-[13px] text-zinc-300 leading-snug m-0">
+            <p className="text-[16px] text-zinc-300 leading-snug m-0">
               Baixa concordância entre pais e filhos de 8–10 anos em grande parte dos domínios.
             </p>
           </div>
         </div>
 
-        <p className="text-[11.5px] text-zinc-300 leading-snug m-0 relative z-10 font-normal">
+        <p className="text-[16px] text-zinc-300 leading-snug m-0 relative z-10 font-normal">
           Discordância não é erro de mensuração: representa perspectivas de ambientes diferentes.
         </p>
 
         <div className="flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10">
-          <span className="text-sm font-semibold text-zinc-400">Diretriz:</span>
-          <span className="text-sm font-bold text-emerald-300 bg-emerald-500/15 px-2.5 py-0.5 rounded-full border border-emerald-500/30">
+          <span className="text-[16px] font-semibold text-zinc-400">Diretriz:</span>
+          <span className="text-[16px] font-bold text-emerald-300 bg-emerald-500/15 px-2.5 py-0.5 rounded-full border border-emerald-500/30">
             Integrar, Não Anular
           </span>
         </div>
@@ -120,49 +120,49 @@ export default function Slide34RightCards({ isActive = true, className }: Slide3
         initial={{ opacity: 0, y: 14 }}
         animate={{ opacity: isActive ? 1 : 0, y: isActive ? 0 : 14 }}
         transition={{ duration: 0.45, delay: 0.16, ease: [0.16, 1, 0.3, 1] }}
-        className="p-3.5 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between flex-1"
+        className="px-5 py-4 rounded-3xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-between"
       >
         <div>
           <div className="flex items-center justify-between mb-1.5">
-            <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-[#4b6b4f] bg-[#4b6b4f]/[0.10] px-2.5 py-0.5 rounded-full border border-[#4b6b4f]/25 font-['Urbanist',sans-serif]">
+            <span className="text-[14px] font-bold uppercase tracking-[0.14em] text-[#4b6b4f] bg-[#4b6b4f]/[0.10] px-2.5 py-0.5 rounded-full border border-[#4b6b4f]/25 font-['Urbanist',sans-serif]">
               Bateria e Aplicação Clínica
             </span>
             <span className="text-[14px] font-semibold text-[#5f6062]">
               Seleção Escalonada
             </span>
           </div>
-          <h4 className="text-[16px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight">
+          <h4 className="text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight">
             Tipologia de Instrumentos &amp; Decisão
           </h4>
-          <p className="text-[14px] text-[#5f6062] mt-0.5">
+          <p className="text-[16px] font-medium text-[#5f6062] mt-0.5">
             Estratificação de instrumentos padronizados para o protocolo:
           </p>
         </div>
 
         {/* 3 Tipologias em Grid */}
         <div className="grid grid-cols-3 gap-2 my-2">
-          <div className="p-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]">
-            <span className="text-[9.5px] font-bold uppercase tracking-wider text-[#4b6b4f] block">Genérico</span>
-            <p className="text-[14px] font-bold text-[#0f1012] leading-tight mt-0.5">PROMIS · SDQ · PedsQL</p>
-            <p className="text-[10px] text-[#5f6062] leading-tight mt-0.5">Não aplicar juntos.</p>
+          <div className="px-3 py-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]">
+            <span className="text-[14px] font-bold uppercase tracking-wider text-[#4b6b4f] block">Genérico</span>
+            <p className="text-[16px] font-bold text-[#0f1012] leading-tight mt-0.5">PROMIS · SDQ · PedsQL</p>
+            <p className="text-[15px] font-medium text-[#5f6062] leading-snug mt-0.5">Não aplicar juntos.</p>
           </div>
 
-          <div className="p-2 rounded-xl bg-[#f0faf2] border border-[#4b6b4f]/20">
-            <span className="text-[9.5px] font-bold uppercase tracking-wider text-[#4b6b4f] block">Específico</span>
-            <p className="text-[14px] font-bold text-[#4b6b4f] leading-tight mt-0.5">CLEFT-Q · FACE-Q</p>
-            <p className="text-[10px] text-[#5f6062] leading-tight mt-0.5">8–29a · 12 escalas.</p>
+          <div className="px-3 py-2 rounded-xl bg-[#f0faf2] border border-[#4b6b4f]/20">
+            <span className="text-[14px] font-bold uppercase tracking-wider text-[#4b6b4f] block">Específico</span>
+            <p className="text-[16px] font-bold text-[#4b6b4f] leading-tight mt-0.5">CLEFT-Q · FACE-Q</p>
+            <p className="text-[15px] font-medium text-[#5f6062] leading-snug mt-0.5">8–29a · 12 escalas.</p>
           </div>
 
-          <div className="p-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]">
-            <span className="text-[9.5px] font-bold uppercase tracking-wider text-[#4b6b4f] block">Risco Familiar</span>
-            <p className="text-[14px] font-bold text-[#0f1012] leading-tight mt-0.5">PAT-CV</p>
-            <p className="text-[10px] text-[#5f6062] leading-tight mt-0.5">Risco psicossocial.</p>
+          <div className="px-3 py-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]">
+            <span className="text-[14px] font-bold uppercase tracking-wider text-[#4b6b4f] block">Risco Familiar</span>
+            <p className="text-[16px] font-bold text-[#0f1012] leading-tight mt-0.5">PAT-CV</p>
+            <p className="text-[15px] font-medium text-[#5f6062] leading-snug mt-0.5">Risco psicossocial.</p>
           </div>
         </div>
 
         {/* Métrica de Impacto Clínico */}
         <div className="p-2 rounded-2xl bg-[#f8f9fa] border border-black/[0.05] flex items-center justify-between gap-3">
-          <p className="text-[14px] text-[#334155] leading-snug m-0">
+          <p className="text-[16px] font-medium text-[#334155] leading-snug m-0">
             Em 70 consultas com CLEFT-Q (média 12,7a), discordância com entrevista em 36%: a integração <strong className="text-[#0f1012] font-semibold">mudou a conduta em 11 consultas</strong>.
           </p>
           <span className="shrink-0 font-['Urbanist',sans-serif] text-[20px] font-bold text-[#4b6b4f] bg-white px-2 py-0.5 rounded-xl border border-[#4b6b4f]/20">
@@ -170,7 +170,7 @@ export default function Slide34RightCards({ isActive = true, className }: Slide3
           </span>
         </div>
 
-        <p className="text-[15px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between">
+        <p className="text-[15px] text-[#5f6062] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between gap-3">
           <span>Até 8 anos: observação e cuidadores</span>
           <span className="font-semibold text-[#4b6b4f]">Entrevista + PRO = Nova Informação</span>
         </p>

@@ -84,10 +84,10 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
               <g transform="translate(360, 245)" textAnchor="middle">
                 {/* Header: Nome + % */}
                 <rect
-                  x="-96"
-                  y="-14"
-                  width="192"
-                  height="26"
+                  x="-106"
+                  y="-15"
+                  width="212"
+                  height="28"
                   rx="13"
                   fill="#ffffff"
                   stroke="#0071e3"
@@ -98,10 +98,10 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
                   x="0"
                   y="4"
                   fontFamily="'Urbanist', sans-serif"
-                  fontSize="15"
+                  fontSize="16"
                   fontWeight="800"
                   fill="#0071e3"
-                  letterSpacing="0.06em"
+                  letterSpacing="0.05em"
                 >
                   UNIVERSAL · 59,9%
                 </text>
@@ -111,7 +111,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
                   x="0"
                   y="34"
                   fontFamily="'Satoshi', sans-serif"
-                  fontSize="15.5"
+                  fontSize="16"
                   fontWeight="600"
                   fill="#1e293b"
                 >
@@ -119,11 +119,11 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
                 </text>
                 <text
                   x="0"
-                  y="52"
+                  y="56"
                   fontFamily="'Satoshi', sans-serif"
                   fontSize="16"
                   fontWeight="500"
-                  fill="#64748b"
+                  fill="#475569"
                 >
                   breve · padronizado · repetível
                 </text>
@@ -157,10 +157,10 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
               <g transform="translate(360, 142)" textAnchor="middle">
                 {/* Header: Nome + % */}
                 <rect
-                  x="-92"
-                  y="-14"
-                  width="184"
-                  height="26"
+                  x="-104"
+                  y="-15"
+                  width="208"
+                  height="28"
                   rx="13"
                   fill="#ffffff"
                   stroke="#0071e3"
@@ -171,7 +171,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
                   x="0"
                   y="4"
                   fontFamily="'Urbanist', sans-serif"
-                  fontSize="14.5"
+                  fontSize="16"
                   fontWeight="800"
                   fill="#005bb5"
                   letterSpacing="0.06em"
@@ -182,9 +182,9 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
                 {/* Subtítulo e Método */}
                 <text
                   x="0"
-                  y="33"
+                  y="34"
                   fontFamily="'Satoshi', sans-serif"
-                  fontSize="15"
+                  fontSize="16"
                   fontWeight="600"
                   fill="#0f172a"
                 >
@@ -192,9 +192,9 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
                 </text>
                 <text
                   x="0"
-                  y="50"
+                  y="53"
                   fontFamily="'Satoshi', sans-serif"
-                  fontSize="11.5"
+                  fontSize="15"
                   fontWeight="500"
                   fill="#475569"
                 >
@@ -226,49 +226,51 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
               />
 
               {/* Textos Internos no terço inferior do ápice com 100% de margem e sem corte */}
-              <g transform="translate(360, 68)" textAnchor="middle">
+              <line x1="414" y1="62" x2="484" y2="44" stroke="#0071e3" strokeWidth="1.4" strokeOpacity="0.6" strokeDasharray="3 3" />
+              <circle cx="414" cy="62" r="3" fill="#0071e3" />
+              <g transform="translate(490, 44)" textAnchor="start">
                 {/* Pílula Compacta CLINICAL · 7,8% */}
                 <rect
-                  x="-54"
-                  y="-11"
-                  width="108"
-                  height="22"
-                  rx="11"
-                  fill="rgba(255,255,255,0.25)"
-                  stroke="#ffffff"
+                  x="0"
+                  y="-15"
+                  width="170"
+                  height="28"
+                  rx="14"
+                  fill="#0071e3"
+                  stroke="#005bb5"
                   strokeWidth="1.1"
-                  strokeOpacity="0.75"
                 />
                 <text
-                  x="0"
-                  y="4.5"
+                  x="85"
+                  y="5"
+                  textAnchor="middle"
                   fontFamily="'Urbanist', sans-serif"
-                  fontSize="11.5"
+                  fontSize="16"
                   fontWeight="800"
                   fill="#ffffff"
-                  letterSpacing="0.06em"
+                  letterSpacing="0.05em"
                 >
                   CLINICAL · 7,8%
                 </text>
 
                 {/* Subtítulo */}
                 <text
-                  x="0"
-                  y="22"
+                  x="2"
+                  y="36"
                   fontFamily="'Satoshi', sans-serif"
-                  fontSize="15"
+                  fontSize="16"
                   fontWeight="600"
-                  fill="#ffffff"
+                  fill="#0f172a"
                 >
                   avaliação diagnóstica
                 </text>
                 <text
-                  x="0"
-                  y="34"
+                  x="2"
+                  y="56"
                   fontFamily="'Satoshi', sans-serif"
                   fontSize="16"
                   fontWeight="500"
-                  fill="#e2e8f0"
+                  fill="#475569"
                 >
                   intervenção · encaminhamento
                 </text>
@@ -373,7 +375,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
           </div>
 
           {/* PAT-CV Note */}
-          <p className="m-0 flex-1 font-['Satoshi'] text-[15px] leading-snug text-slate-500 pl-3 border-l border-slate-200">
+          <p className="m-0 flex-1 font-['Satoshi'] text-[15px] leading-snug text-slate-600 pl-3 border-l border-slate-200">
             <strong className="text-slate-700">PAT-CV</strong> · 242 cuidadores e 217 crianças, 1 mês–17 anos. Amostra de validação — α = 0,86 · teste-reteste r = 0,77.
           </p>
         </div>
@@ -386,7 +388,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
         initial={{ opacity: 0, y: 12 }}
         animate={{ opacity: isActive ? 1 : 0, y: isActive ? 0 : 12 }}
         transition={{ duration: 0.45, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
-        className="group relative w-full overflow-hidden rounded-3xl border border-white/12 bg-[#0f1012] text-white shadow-[0_8px_30px_rgba(0,0,0,0.18)] hover:shadow-[0_12px_36px_rgba(0,113,227,0.22)] hover:border-[#0071e3]/40 transition-all duration-300 p-3.5 mt-1"
+        className="group relative w-full overflow-hidden rounded-3xl border border-white/12 bg-[#0f1012] text-white shadow-[0_8px_30px_rgba(0,0,0,0.18)] hover:shadow-[0_12px_36px_rgba(0,113,227,0.22)] hover:border-[#0071e3]/40 transition-all duration-300 px-4 py-3 mt-1"
       >
         {/* Ambient Glow Azul Apple */}
         <div className="absolute top-0 right-0 w-44 h-44 bg-[#0071e3]/20 rounded-full blur-3xl pointer-events-none" />
@@ -396,15 +398,15 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
           <div className="flex items-center justify-between gap-3 mb-1.5">
             <div className="flex items-center gap-2">
               <div className="flex h-7 w-7 items-center justify-center rounded-xl border border-white/15 bg-white/5 text-[#60a5fa] shadow-xs">
-                <ShieldAlert className="h-3.5 w-3.5" />
+                <ShieldAlert className="h-4 w-4" />
               </div>
-              <h3 className="text-[15.5px] font-bold tracking-tight text-white font-['Urbanist',sans-serif]">
+              <h3 className="text-[20px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight">
                 Podem furar direto para avaliação aprofundada
               </h3>
             </div>
 
-            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[9.5px] font-bold uppercase tracking-wider bg-[#0071e3]/20 text-[#93c5fd] border border-[#0071e3]/30">
-              <Zap className="w-2.5 h-2.5 text-[#60a5fa]" />
+            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[14px] font-bold uppercase tracking-wide bg-[#0071e3]/20 text-[#93c5fd] border border-[#0071e3]/30 shrink-0">
+              <Zap className="w-3.5 h-3.5 text-[#60a5fa]" />
               Critérios de Exceção
             </span>
           </div>
@@ -414,7 +416,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
             {criteriaTags.map((tag) => (
               <span
                 key={tag}
-                className="px-2 py-0.5 rounded-lg text-[10.5px] font-medium bg-white/[0.07] border border-white/12 text-slate-200 hover:bg-[#0071e3]/20 hover:border-[#0071e3]/40 hover:text-white transition-colors"
+                className="px-2 py-0.5 rounded-lg text-[15px] font-medium bg-white/[0.07] border border-white/12 text-slate-200 hover:bg-[#0071e3]/20 hover:border-[#0071e3]/40 hover:text-white transition-colors"
               >
                 {tag}
               </span>
@@ -422,19 +424,19 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
           </div>
 
           {/* Síntese Clínica de Fechamento */}
-          <p className="text-[16px] text-slate-300 leading-relaxed font-normal mt-1.5 pt-1.5 border-t border-white/10">
+          <p className="text-[17px] text-slate-300 leading-snug font-medium mt-1.5 pt-1.5 border-t border-white/10">
             Um bom protocolo não avalia profundamente todo mundo: <strong className="text-white font-semibold">garante que ninguém com necessidade relevante passe despercebido.</strong>
           </p>
 
           {/* Rodapé do Card */}
-          <div className="mt-1.5 pt-1.5 border-t border-white/10 flex items-center justify-between text-[10px]">
-            <div className="flex items-center gap-1.5 text-slate-400">
+          <div className="mt-1.5 pt-1.5 border-t border-white/10 flex items-center justify-between gap-2 text-[15px]">
+            <div className="flex items-center gap-1.5 text-slate-300">
               <span>Conduta:</span>
               <span className="text-[#93c5fd] font-semibold">Acesso Direto Sem Barreira</span>
             </div>
 
             <div className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-[#0071e3]/25 text-[#bfdbfe] border border-[#0071e3]/35 font-semibold">
-              <CheckCircle2 className="w-2.5 h-2.5 text-[#60a5fa]" />
+              <CheckCircle2 className="w-3.5 h-3.5 text-[#60a5fa]" />
               <span>Triagem Qualificada</span>
             </div>
           </div>

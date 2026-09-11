@@ -302,7 +302,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
                   className="grid grid-cols-[330px_repeat(4,1fr)] gap-x-2.5 items-center px-2 py-[2.5px] rounded-lg hover:bg-black/[0.02] transition-colors group/row"
                 >
                   <p
-                    className="m-0 text-[14px] font-medium text-[#2c2d30] tracking-[-0.1px] truncate group-hover/row:text-[#0f1012]"
+                    className="m-0 text-[16px] font-medium text-[#2c2d30] tracking-[-0.1px] leading-tight group-hover/row:text-[#0f1012]"
                     title={row.label}
                   >
                     {row.label}
@@ -355,7 +355,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
               >
                 <p
                   className={cn(
-                    "m-0 text-[14px] leading-snug font-medium transition-colors",
+                    "m-0 text-[15px] leading-snug font-medium transition-colors",
                     isPhaseActive ? "text-[#0071e3] font-semibold" : "text-[#3f4042]"
                   )}
                 >
@@ -370,7 +370,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
       {/* ========================================================================= */}
       {/* ÁREA DIREITA: RADIAL HUB (CIRCLE MENU) + PAINEL EDITORIAL UNIFICADO       */}
       {/* ========================================================================= */}
-      <div className="w-[360px] flex-none flex flex-col gap-2">
+      <div className="w-[380px] flex-none flex flex-col gap-2">
         {/* Hub Radial Interativo (CircleMenu) com Controle Spotlight */}
         <div className="p-2.5 rounded-2xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col items-center relative overflow-hidden">
           {/* Header do Hub com Botão Play/Pause */}
@@ -408,7 +408,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
           </div>
 
           {/* O CircleMenu propriamente dito */}
-          <div className="relative w-[210px] h-[190px] flex items-center justify-center my-1">
+          <div className="relative w-[210px] h-[190px] flex items-center justify-center mt-1 mb-6">
             {/* Órbita Guia com traço sutil */}
             <svg
               className="absolute inset-0 w-full h-full pointer-events-none"
@@ -460,7 +460,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
                   {/* Rótulo Flutuante do Nó */}
                   <span
                     className={cn(
-                      "absolute top-full mt-1 text-[10px] font-bold uppercase tracking-[0.05em] whitespace-nowrap transition-colors",
+                      "absolute top-full mt-1 text-[14px] font-bold uppercase tracking-[0.03em] whitespace-nowrap transition-colors",
                       isSelected ? "text-[#0071e3]" : "text-[#6a6b6d]"
                     )}
                   >
@@ -482,7 +482,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
               }}
             >
               <Layers size={18} />
-              <span className="text-[9px] font-bold tracking-[0.04em] uppercase mt-0.5">
+              <span className="text-[14px] font-bold tracking-[0.02em] uppercase mt-0.5 leading-none">
                 Eixo 6
               </span>
             </motion.div>
@@ -498,10 +498,10 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
                 {currentDisplayPhase.title}
               </span>
             </div>
-            <p className="m-0 text-[14px] text-[#0f1012] font-semibold leading-tight">
+            <p className="m-0 text-[15px] text-[#0f1012] font-semibold leading-snug">
               {currentDisplayPhase.question}
             </p>
-            <div className="flex items-center justify-between text-[13px] text-[#6a6b6d] pt-1 border-t border-black/[0.05] mt-0.5">
+            <div className="flex items-center justify-between gap-2 text-[14px] text-[#5f6062] pt-1 border-t border-black/[0.05] mt-0.5">
               <span>Foco: {currentDisplayPhase.focus}</span>
               <span className="font-medium text-[#0071e3]">{currentDisplayPhase.milestone}</span>
             </div>
@@ -514,7 +514,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
             <p className="m-0 text-[14px] font-bold tracking-[0.1em] uppercase text-[#5f6062]">
               Relevância relativa
             </p>
-            <span className="text-[13px] text-[#868788]">Qualitativa</span>
+            <span className="text-[14px] text-[#5f6062]">Qualitativa</span>
           </div>
           <div className="grid grid-cols-6 gap-1.5 my-2">
             {[1, 2, 3, 4, 5, 6].map((lvl) => (
@@ -525,11 +525,11 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
               />
             ))}
           </div>
-          <div className="flex justify-between text-[13px] text-[#6a6b6d]">
+          <div className="flex justify-between text-[14px] text-[#5f6062]">
             <span>menor</span>
             <span>maior</span>
           </div>
-          <p className="m-0 mt-1.5 text-[13px] leading-[1.35] text-[#6a6b6d]">
+          <p className="m-0 mt-1.5 text-[14px] leading-[1.35] text-[#5f6062]">
             Escala qualitativa — sem valores numéricos.
           </p>
         </div>
@@ -539,24 +539,24 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
           <p className="m-0 mb-1 text-[14px] font-bold tracking-[0.08em] uppercase text-[#0071e3]">
             Arquitetura longitudinal
           </p>
-          <p className="m-0 text-[14px] leading-snug text-[#2c2d30]">
+          <p className="m-0 text-[15px] leading-snug text-[#2c2d30]">
             Domínios avaliados em pontos-chave:{" "}
             <strong>diagnóstico, 18 meses, 3, 5 e 8 anos</strong> — depois{" "}
             <strong>8, 10, 12, 15, 18, 20 e 25 anos</strong>.
           </p>
-          <p className="m-0 mt-1 text-[13px] text-[#6a6b6d] leading-tight">
+          <p className="m-0 mt-1 text-[14px] text-[#5f6062] leading-snug">
             Exemplo de arquitetura, não calendário obrigatório.
           </p>
         </div>
 
         {/* Síntese do Eixo */}
         <div className="p-2.5 rounded-2xl bg-white border border-black/[0.08] shadow-sm">
-          <p className="m-0 font-['Urbanist',sans-serif] text-[16px] font-bold tracking-tight text-[#0071e3] leading-tight">
+          <p className="m-0 font-['Urbanist',sans-serif] text-[19px] font-bold tracking-tight text-[#0071e3] leading-tight">
             Domínios permanecem;
             <br />
             prioridades mudam.
           </p>
-          <p className="m-0 mt-1.5 text-[14px] leading-relaxed text-[#3f4042]">
+          <p className="m-0 mt-1.5 text-[15px] leading-snug text-[#3f4042]">
             Estável para permitir comparação longitudinal; flexível para perguntar o que importa em
             cada idade.
           </p>
