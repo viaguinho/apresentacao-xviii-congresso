@@ -15821,8 +15821,8 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 			}, e.id))
 		})
 	]
-}), $f = () => /* @__PURE__ */ (0, z.jsxs)("div", {
-	className: "w-full grid grid-cols-1 lg:grid-cols-[0.94fr_1.03fr_1.03fr] gap-6 h-full items-stretch",
+}), $f = () => /* @__PURE__ */ (0, z.jsxs)(z.Fragment, { children: [/* @__PURE__ */ (0, z.jsx)("style", { children: "\n        @media (min-width: 1024px) {\n          .s5-custom-grid { grid-template-columns: 0.94fr 1.03fr 1.03fr !important; }\n        }\n      " }), /* @__PURE__ */ (0, z.jsxs)("div", {
+	className: "w-full grid grid-cols-1 gap-6 h-full items-stretch s5-custom-grid",
 	children: [
 		/* @__PURE__ */ (0, z.jsx)(Qf, {
 			title: "Multidimensional",
@@ -16764,7 +16764,7 @@ var Uf = ({ className: e }) => /* @__PURE__ */ (0, z.jsxs)("svg", {
 			})
 		})
 	]
-}), ep = ({ data: e, className: t = "", isSlideActive: n = !0 }) => {
+})] }), ep = ({ data: e, className: t = "", isSlideActive: n = !0 }) => {
 	let r = (0, b.useRef)(null);
 	return /* @__PURE__ */ (0, z.jsxs)("div", {
 		ref: r,
