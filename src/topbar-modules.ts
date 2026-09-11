@@ -36,13 +36,13 @@ export function generateTopBarInnerHTML(currentEixo: EixoInfo): string {
     if (eixo.id < currentEixo.id) {
       // Eixo Concluído
       return `
-        <div style="display:inline-flex;align-items:center;gap:5px;padding:3.5px 10px;border-radius:9999px;background:#ecfdf5;color:#047857;border:1px solid rgba(5,150,105,0.3);font-size:11px;font-weight:500;white-space:nowrap;transition:all 0.2s ease;">
-          <svg style="width:12px;height:12px;color:#059669;flex-shrink:0;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <div style="display:inline-flex;align-items:center;gap:5px;padding:4px 11px;border-radius:9999px;background:#ecfdf5;color:#047857;border:1px solid rgba(5,150,105,0.3);font-size:14px;font-weight:500;white-space:nowrap;transition:all 0.2s ease;">
+          <svg style="width:14px;height:14px;color:#059669;flex-shrink:0;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
             <polyline points="22 4 12 14.01 9 11.01"></polyline>
           </svg>
           <span style="font-family:'Urbanist',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;">${eixo.num}</span>
-          <span style="opacity:0.8;font-size:10.5px;">· ${eixo.label}</span>
+          <span style="opacity:0.9;font-size:14px;">· ${eixo.label}</span>
         </div>
       `
     }
@@ -58,18 +58,18 @@ export function generateTopBarInnerHTML(currentEixo: EixoInfo): string {
       const glowRgba = `rgba(${r}, ${g}, ${b}, 0.38)`
 
       return `
-        <div style="display:inline-flex;align-items:center;gap:6px;padding:4px 13px;border-radius:9999px;background:${eixo.color};color:${textColor};border:1px solid ${eixo.color};font-size:11.5px;font-weight:700;box-shadow:0 3px 14px ${glowRgba}, 0 1px 3px rgba(0,0,0,0.08);white-space:nowrap;transition:all 0.2s ease;">
+        <div style="display:inline-flex;align-items:center;gap:6px;padding:5px 14px;border-radius:9999px;background:${eixo.color};color:${textColor};border:1px solid ${eixo.color};font-size:15px;font-weight:700;box-shadow:0 3px 14px ${glowRgba}, 0 1px 3px rgba(0,0,0,0.08);white-space:nowrap;transition:all 0.2s ease;">
           <span style="width:6px;height:6px;border-radius:9999px;background:${dotColor};display:inline-block;animation:pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;"></span>
           <span style="font-family:'Urbanist',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:0.05em;">${eixo.num}</span>
-          <span style="color:${textColor};font-size:11px;font-weight:600;">· ${eixo.label}</span>
+          <span style="color:${textColor};font-size:15px;font-weight:600;">· ${eixo.label}</span>
         </div>
       `
     }
     // Eixo Futuro / Discreto
     return `
-      <div style="display:inline-flex;align-items:center;gap:4px;padding:3.5px 9px;border-radius:9999px;background:rgba(0,0,0,0.02);color:#9ca3af;border:1px solid rgba(0,0,0,0.05);font-size:10.5px;white-space:nowrap;transition:all 0.2s ease;">
+      <div style="display:inline-flex;align-items:center;gap:4px;padding:4px 10px;border-radius:9999px;background:rgba(0,0,0,0.02);color:#5f6062;border:1px solid rgba(0,0,0,0.08);font-size:14px;white-space:nowrap;transition:all 0.2s ease;">
         <span style="font-family:'Urbanist',sans-serif;font-weight:600;">${eixo.num}</span>
-        <span style="font-size:10px;opacity:0.85;">${eixo.label}</span>
+        <span style="font-size:14px;font-weight:500;">${eixo.label}</span>
       </div>
     `
   }).join("")
@@ -78,7 +78,7 @@ export function generateTopBarInnerHTML(currentEixo: EixoInfo): string {
     <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
       ${pillsHTML}
     </div>
-    <div style="display:flex;align-items:center;gap:8px;font-size:12px;font-weight:500;color:#71717a;flex-shrink:0;">
+    <div style="display:flex;align-items:center;gap:8px;font-size:15px;font-weight:500;color:#52525b;flex-shrink:0;">
       <span style="width:6px;height:6px;border-radius:9999px;background:${currentEixo.color};"></span>
       <span style="font-family:'Urbanist',sans-serif;font-weight:700;color:${currentEixo.color};text-transform:uppercase;letter-spacing:0.06em;">${currentEixo.module}</span>
       <span>/ 07</span>
