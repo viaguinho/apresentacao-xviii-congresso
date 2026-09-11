@@ -73,7 +73,7 @@ export default function Slide30Cards({ isActive = true, className }: Slide30Card
             </div>
 
             <div className="flex items-center gap-1.5">
-              <span className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider bg-[#8a2f3f]/10 text-[#8a2f3f] border border-[#8a2f3f]/20">
+              <span className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full text-[14px] font-bold uppercase tracking-wider bg-[#8a2f3f]/10 text-[#8a2f3f] border border-[#8a2f3f]/20">
                 <BookmarkCheck className="w-4 h-4 text-[#8a2f3f]" />
                 Evidência Empírica Multicêntrica
               </span>
@@ -83,15 +83,15 @@ export default function Slide30Cards({ isActive = true, className }: Slide30Card
           {/* Middle Section: Cohort Stats & Main Finding */}
           <div className="space-y-1.5">
             <div>
-              <h3 className="text-[19px] font-bold tracking-tight text-[#1a1113] leading-tight font-['Urbanist',sans-serif]">
+              <h3 className="text-[24px] font-bold tracking-tight text-[#1a1113] leading-tight font-['Urbanist',sans-serif]">
                 n = 1.200 famílias · 6 centros de fissuras
               </h3>
-              <p className="text-[11.5px] font-semibold text-[#8a2f3f] mt-0.5">
+              <p className="text-[16px] font-semibold text-[#8a2f3f] mt-0.5">
                 Crerand et al. (2015) · Avaliação padronizada do clima relacional
               </p>
             </div>
 
-            <p className="text-[12.5px] text-[#423639] leading-relaxed font-normal pt-1">
+            <p className="text-[16px] text-[#423639] leading-snug font-normal pt-1">
               Os escores médios de coesão familiar, expressividade e conflito ficaram dentro da faixa média das amostras normativas, com diferenças relacionadas a fatores sociodemográficos e ao tipo de recomendação cirúrgica.
             </p>
           </div>
@@ -118,7 +118,7 @@ export default function Slide30Cards({ isActive = true, className }: Slide30Card
         initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: isActive ? 1 : 0, y: isActive ? 0 : 16 }}
         transition={{ duration: 0.45, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-        className="p-5 rounded-3xl bg-[#0f0c0e] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.22)] border border-[#8a2f3f]/25 relative overflow-hidden"
+        className="px-5 py-4 rounded-3xl bg-[#0f0c0e] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.22)] border border-[#8a2f3f]/25 relative overflow-hidden"
       >
         {/* Subtle Ambient Glow */}
         <div className="absolute top-0 right-0 w-52 h-52 bg-[#8a2f3f]/15 rounded-full blur-3xl pointer-events-none" />
@@ -126,18 +126,18 @@ export default function Slide30Cards({ isActive = true, className }: Slide30Card
         <div className="relative z-10">
           {/* Header */}
           <div className="flex items-center justify-between mb-2">
-            <span className="text-[10px] font-bold uppercase tracking-[0.18em] text-[#e88d9d]">
+            <span className="text-[14px] font-bold uppercase tracking-[0.18em] text-[#e88d9d]">
               Coorte de Nascimento · 1.163 Pais
             </span>
-            <span className="text-[10px] font-semibold text-zinc-300 bg-white/10 px-2.5 py-0.5 rounded-full border border-white/15">
+            <span className="text-[14px] font-semibold text-zinc-300 bg-white/10 px-2.5 py-0.5 rounded-full border border-white/15">
               Stock et al. (2025)
             </span>
           </div>
 
-          <h4 className="text-[17px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight">
+          <h4 className="text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight">
             Adaptação Parental: Fatores de Ajuste & Risco
           </h4>
-          <p className="text-[11.5px] font-normal text-zinc-400 mt-1 leading-relaxed">
+          <p className="text-[16px] font-normal text-zinc-400 mt-1 leading-snug">
             Em geral houve boa adaptação ao diagnóstico, com fatores de risco e proteção identificáveis. Não é um checklist diagnóstico:
           </p>
         </div>
@@ -148,7 +148,7 @@ export default function Slide30Cards({ isActive = true, className }: Slide30Card
           <div className="p-3 rounded-2xl bg-zinc-900/90 border border-emerald-500/20 shadow-xs flex flex-col justify-between">
             <div className="flex items-center gap-1.5 mb-2 pb-1.5 border-b border-white/5">
               <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
-              <span className="text-[10.5px] font-bold text-emerald-300 uppercase tracking-wide">
+              <span className="text-[14px] font-bold text-emerald-300 uppercase tracking-wide">
                 Associados a melhor ajuste
               </span>
             </div>
@@ -166,7 +166,7 @@ export default function Slide30Cards({ isActive = true, className }: Slide30Card
           <div className="p-3 rounded-2xl bg-zinc-900/90 border border-amber-500/20 shadow-xs flex flex-col justify-between">
             <div className="flex items-center gap-1.5 mb-2 pb-1.5 border-b border-white/5">
               <AlertTriangle className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-              <span className="text-[10.5px] font-bold text-amber-300 uppercase tracking-wide">
+              <span className="text-[14px] font-bold text-amber-300 uppercase tracking-wide">
                 Fatores de vulnerabilidade
               </span>
             </div>
@@ -184,7 +184,7 @@ export default function Slide30Cards({ isActive = true, className }: Slide30Card
         {/* Systematic Review & Clinical Takeaway Footer */}
         <div className="relative z-10 pt-2.5 border-t border-zinc-800/80 flex flex-col gap-2">
           <div className="flex items-center justify-between flex-wrap gap-2">
-            <span className="text-[10.5px] font-medium text-zinc-400">
+            <span className="text-[16px] font-medium text-zinc-400">
               126 estudos · 2009–2024 · três áreas da experiência parental:
             </span>
 
@@ -192,7 +192,7 @@ export default function Slide30Cards({ isActive = true, className }: Slide30Card
               {systematicReviewAreas.map((area, idx) => (
                 <span
                   key={idx}
-                  className="text-[9.5px] font-semibold text-[#f5c2cb] bg-[#8a2f3f]/30 px-2 py-0.5 rounded-full border border-[#8a2f3f]/40"
+                  className="text-[14px] font-semibold text-[#f5c2cb] bg-[#8a2f3f]/30 px-2 py-0.5 rounded-full border border-[#8a2f3f]/40"
                 >
                   {area}
                 </span>

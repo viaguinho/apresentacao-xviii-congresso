@@ -10,7 +10,7 @@ interface Slide24OrbitProps {
 
 export default function Slide24Orbit({ isActive = true }: Slide24OrbitProps) {
   return (
-    <div className="relative flex h-[520px] w-full max-w-[580px] mx-auto flex-col items-center justify-center overflow-hidden rounded-3xl bg-transparent select-none group">
+    <div className="relative flex h-[520px] w-full max-w-[720px] mx-auto flex-col items-center justify-center overflow-hidden rounded-3xl bg-transparent select-none group">
       {/* Glow concêntrico */}
       <div className="absolute inset-0 pointer-events-none flex items-center justify-center">
         <div className="w-[420px] h-[420px] rounded-full bg-[#0071e3]/[0.03] blur-3xl" />
@@ -90,7 +90,7 @@ export default function Slide24Orbit({ isActive = true }: Slide24OrbitProps) {
         pathClassName="stroke-[#0071e3]/15"
         strokeWidth={1.5}
       >
-        <div className="flex flex-col items-start px-3.5 py-2 rounded-2xl bg-white/95 border border-black/[0.08] shadow-[0_6px_20px_rgba(0,0,0,0.07)] backdrop-blur-md cursor-default max-w-[260px]">
+        <div className="flex flex-col items-start px-3.5 py-2 rounded-2xl bg-white/95 border border-black/[0.08] shadow-[0_6px_20px_rgba(0,0,0,0.07)] backdrop-blur-md cursor-default max-w-[230px]">
           <div className="flex items-center gap-1.5 w-full">
             <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
               <ShieldCheck className="w-2.5 h-2.5 stroke-[2.5]" />

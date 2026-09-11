@@ -210,13 +210,13 @@ export default function Slide29Circle({ isActive = true }: Slide29CircleProps) {
 
           <span
             style={{ color: activeItem.color }}
-            className="text-[9.5px] font-bold tracking-[0.14em] uppercase mt-1 transition-colors duration-300"
+            className="text-[14px] font-bold tracking-[0.14em] uppercase mt-1 transition-colors duration-300"
           >
             {isHovered || isManualPaused ? "pausado" : `foco ${activeItem.step}`}
           </span>
 
           {/* Pause / Play micro badge on hover */}
-          <div className="absolute -bottom-2.5 opacity-0 group-hover:opacity-100 transition-opacity bg-[#0f1012] text-white text-[9px] px-2 py-0.5 rounded-full flex items-center gap-1 shadow-md">
+          <div className="absolute -bottom-2.5 opacity-0 group-hover:opacity-100 transition-opacity bg-[#0f1012] text-white text-[16px] px-2 py-0.5 rounded-full flex items-center gap-1 shadow-md">
             {isManualPaused ? <Play className="w-2.5 h-2.5" /> : <Pause className="w-2.5 h-2.5" />}
             <span>{isManualPaused ? "retomar loop" : "pausar"}</span>
           </div>

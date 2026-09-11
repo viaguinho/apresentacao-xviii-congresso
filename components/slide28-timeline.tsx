@@ -88,32 +88,32 @@ export function Slide28Timeline({ isActive = true }: Slide28TimelineProps) {
   return (
     <div className="w-full select-none">
       <Card className="w-full bg-white/95 backdrop-blur-md border border-[#8a2f3f]/20 shadow-[0_12px_36px_rgba(138,47,63,0.06)] overflow-hidden">
-        <CardHeader className="pb-3 pt-5 px-8">
+        <CardHeader className="pb-2 pt-4 px-7">
           <div className="flex items-center justify-between">
             <div>
-              <CardTitle className="font-['Urbanist',sans-serif] text-[21px] font-bold text-[#0f1012] tracking-tight">
+              <CardTitle className="font-['Urbanist',sans-serif] text-[23px] font-bold text-[#0f1012] tracking-tight">
                 Trajetória Terapêutica Dupla: Desenvolvimento Humano × Processo de Cuidado
               </CardTitle>
-              <CardDescription className="font-['Satoshi',sans-serif] text-[15px] text-[#5f6062] mt-1">
+              <CardDescription className="font-['Satoshi',sans-serif] text-[17px] font-medium text-[#5f6062] mt-1">
                 A criança não apenas cresce com uma condição craniofacial — ela cresce atravessando uma sequência clínica assistencial interdependente.
               </CardDescription>
             </div>
             <div className="flex items-center gap-2 bg-[#f7ecee] px-3.5 py-1.5 rounded-full border border-[#8a2f3f]/20 shrink-0">
               <Clock className="w-5 h-5 text-[#8a2f3f]" />
-              <span className="font-['Urbanist',sans-serif] text-[16px] font-bold tracking-wider uppercase text-[#8a2f3f]">
+              <span className="font-['Urbanist',sans-serif] text-[15px] font-bold tracking-wider uppercase text-[#8a2f3f]">
                 O TIMING IMPORTA
               </span>
             </div>
           </div>
         </CardHeader>
 
-        <CardContent className="px-8 pb-5 pt-3">
-          <div className="relative flex flex-col gap-6">
+        <CardContent className="px-7 pb-4 pt-2">
+          <div className="relative flex flex-col gap-2.5">
             {/* TRILHO 1: DESENVOLVIMENTO (Superior) */}
             <div>
               <div className="flex items-center gap-2 mb-2">
                 <span className="w-2 h-2 rounded-full bg-[#0f1012]" />
-                <span className="font-['Urbanist',sans-serif] text-[12.5px] font-bold tracking-[0.1em] uppercase text-[#0f1012]">
+                <span className="font-['Urbanist',sans-serif] text-[14px] font-bold tracking-[0.1em] uppercase text-[#0f1012]">
                   Trajetória do Desenvolvimento Psicomotor & Social
                 </span>
               </div>
@@ -128,7 +128,7 @@ export function Slide28Timeline({ isActive = true }: Slide28TimelineProps) {
                   transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
                 />
 
-                <div className="grid grid-cols-5 gap-3 relative z-10">
+                <div className="grid grid-cols-5 gap-2 relative z-10">
                   {DUAL_TRACK_DATA.map((item, index) => (
                     <motion.div
                       key={`dev-${index}`}
@@ -142,13 +142,13 @@ export function Slide28Timeline({ isActive = true }: Slide28TimelineProps) {
                         <div className="w-1.5 h-1.5 rounded-full bg-[#0f1012]" />
                       </div>
 
-                      <span className="text-[10.5px] font-['Urbanist',sans-serif] font-bold text-[#71717a] uppercase tracking-wider">
+                      <span className="text-[14px] font-['Urbanist',sans-serif] font-bold text-[#71717a] uppercase tracking-wider">
                         {item.ageRef}
                       </span>
-                      <h4 className="font-['Urbanist',sans-serif] text-[15px] font-bold text-[#0f1012] leading-tight mt-0.5">
+                      <h4 className="font-['Urbanist',sans-serif] text-[19px] font-bold text-[#0f1012] leading-tight mt-0.5">
                         {item.development.title}
                       </h4>
-                      <p className="font-['Satoshi',sans-serif] text-[11.5px] text-[#52525b] mt-1 leading-snug line-clamp-2 px-1">
+                      <p className="font-['Satoshi',sans-serif] text-[16px] text-[#52525b] mt-1 leading-snug px-1">
                         {item.development.desc}
                       </p>
                     </motion.div>
@@ -158,7 +158,7 @@ export function Slide28Timeline({ isActive = true }: Slide28TimelineProps) {
             </div>
 
             {/* ZONA CENTRAL DE CONEXÃO & TIMING */}
-            <div className="relative py-1.5 flex items-center justify-center">
+            <div className="relative py-4 flex items-center justify-center">
               <div className="w-full h-px border-b border-dashed border-[#8a2f3f]/30" />
               <motion.div
                 initial={{ scale: 0.8, opacity: 0 }}
@@ -167,7 +167,7 @@ export function Slide28Timeline({ isActive = true }: Slide28TimelineProps) {
                 className="absolute bg-white px-4 py-1.5 rounded-full border border-[#8a2f3f]/30 shadow-xs flex items-center gap-2"
               >
                 <Activity className="w-3.5 h-3.5 text-[#8a2f3f]" />
-                <span className="font-['Urbanist',sans-serif] text-[11.5px] font-bold text-[#8a2f3f] tracking-wide">
+                <span className="font-['Urbanist',sans-serif] text-[16px] font-bold text-[#8a2f3f] tracking-wide">
                   Sincronia Clínica: Intervenções no Momento Desenvolvimental Adequado
                 </span>
               </motion.div>
@@ -177,7 +177,7 @@ export function Slide28Timeline({ isActive = true }: Slide28TimelineProps) {
             <div>
               <div className="flex items-center gap-2 mb-2">
                 <span className="w-2 h-2 rounded-full bg-[#8a2f3f]" />
-                <span className="font-['Urbanist',sans-serif] text-[12.5px] font-bold tracking-[0.1em] uppercase text-[#8a2f3f]">
+                <span className="font-['Urbanist',sans-serif] text-[14px] font-bold tracking-[0.1em] uppercase text-[#8a2f3f]">
                   Trajetória Assistencial Multidisciplinar (Equipe Hospitalar)
                 </span>
               </div>
@@ -192,7 +192,7 @@ export function Slide28Timeline({ isActive = true }: Slide28TimelineProps) {
                   transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
                 />
 
-                <div className="grid grid-cols-5 gap-3 relative z-10">
+                <div className="grid grid-cols-5 gap-2 relative z-10">
                   {DUAL_TRACK_DATA.map((item, index) => (
                     <motion.div
                       key={`care-${index}`}
@@ -206,13 +206,13 @@ export function Slide28Timeline({ isActive = true }: Slide28TimelineProps) {
                         <div className="w-1.5 h-1.5 rounded-full bg-[#8a2f3f]" />
                       </div>
 
-                      <span className="inline-flex items-center px-2 py-0.2 rounded-full text-[10px] font-['Urbanist',sans-serif] font-bold text-[#8a2f3f] bg-[#f7ecee] border border-[#8a2f3f]/20 uppercase">
+                      <span className="inline-flex items-center px-2 py-0.2 rounded-full text-[14px] font-['Urbanist',sans-serif] font-bold text-[#8a2f3f] bg-[#f7ecee] border border-[#8a2f3f]/20 uppercase">
                         {item.stage}
                       </span>
-                      <h4 className="font-['Urbanist',sans-serif] text-[15px] font-bold text-[#8a2f3f] leading-tight mt-0.5">
+                      <h4 className="font-['Urbanist',sans-serif] text-[19px] font-bold text-[#8a2f3f] leading-tight mt-0.5">
                         {item.assistential.title}
                       </h4>
-                      <p className="font-['Satoshi',sans-serif] text-[11.5px] text-[#52525b] mt-1 leading-snug line-clamp-2 px-1">
+                      <p className="font-['Satoshi',sans-serif] text-[16px] text-[#52525b] mt-1 leading-snug px-1">
                         {item.assistential.desc}
                       </p>
                     </motion.div>
@@ -222,15 +222,15 @@ export function Slide28Timeline({ isActive = true }: Slide28TimelineProps) {
             </div>
           </div>
 
-          <div className="mt-5 pt-3 border-t border-black/[0.06] flex items-center justify-between text-[15px] text-[#5f6062]">
-            <div className="flex items-center gap-2">
+          <div className="mt-3 pt-2.5 border-t border-black/[0.06] flex items-center justify-between gap-4 text-[16px] text-[#5f6062]">
+            <div className="flex items-center gap-2 flex-wrap">
               <HeartPulse className="w-5 h-5 text-[#8a2f3f] shrink-0" />
               <span className="font-semibold text-[#0f1012]">
                 Princípio Norteador do Protocolo:
               </span>
               <span>A intervenção bem-sucedida respeita a janela em que a habilidade ou demanda social está se estruturando.</span>
             </div>
-            <span className="font-['Urbanist',sans-serif] font-bold text-[11.5px] text-[#8a2f3f] uppercase tracking-wider shrink-0">
+            <span className="font-['Urbanist',sans-serif] font-bold text-[14px] text-[#8a2f3f] uppercase tracking-wider shrink-0">
               Eixo 5 · Síntese do Cuidado
             </span>
           </div>

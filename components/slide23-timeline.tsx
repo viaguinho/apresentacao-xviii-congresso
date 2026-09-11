@@ -37,7 +37,7 @@ export function Slide23Timeline({ isActive = true }: Slide23TimelineProps) {
               initial={{ scale: 0.8, opacity: 0 }}
               animate={isActive ? { scale: 1, opacity: 1 } : { scale: 0.8, opacity: 0 }}
               transition={{ delay: 0.5 + idx * 0.08 }}
-              className="inline-flex items-center px-2.5 py-0.5 rounded-full text-[11.5px] font-semibold bg-[#f1ecf5] text-[#6b4e83] border border-[#6b4e83]/20 shadow-xs"
+              className="inline-flex items-center px-2.5 py-0.5 rounded-full text-[14px] font-semibold bg-[#f1ecf5] text-[#6b4e83] border border-[#6b4e83]/20 shadow-xs"
             >
               {skill}
             </motion.span>
@@ -67,7 +67,7 @@ export function Slide23Timeline({ isActive = true }: Slide23TimelineProps) {
             <ArrowRight className="w-4 h-4 text-[#6b4e83]" />
             <span>Socialização horizontal com pares de mesma idade</span>
           </div>
-          <span className="text-[16px] font-['Urbanist',sans-serif] font-bold text-[#6b4e83] uppercase tracking-wider bg-[#f1ecf5] px-2.5 py-0.5 rounded-md border border-[#6b4e83]/20">
+          <span className="text-[14px] font-['Urbanist',sans-serif] font-bold text-[#6b4e83] uppercase tracking-wider bg-[#f1ecf5] px-2.5 py-0.5 rounded-md border border-[#6b4e83]/20">
             Módulo 04 · Eixo 4
           </span>
         </div>

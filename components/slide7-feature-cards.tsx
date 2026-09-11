@@ -14,6 +14,7 @@ const cardsData = [
     description: "Expressão gênica dinâmica e substrato biológico.",
     imageSrc: "assets/cards/dna-3d.png",
     color: "blue" as const,
+    imageClassName: "w-[138px] h-[138px] object-contain drop-shadow-[0_14px_22px_rgba(37,99,235,0.26)]",
   },
   {
     index: "02",
@@ -22,6 +23,7 @@ const cardsData = [
     description: "Circuitos cerebrais, conectividade e plasticidade.",
     imageSrc: "assets/cards/brain-neural-3d.png",
     color: "purple" as const,
+    imageClassName: "w-[138px] h-[138px] object-contain drop-shadow-[0_14px_22px_rgba(147,51,234,0.26)]",
   },
   {
     index: "03",
@@ -30,6 +32,7 @@ const cardsData = [
     description: "Ações observáveis, regulação e respostas ativas.",
     imageSrc: "assets/cards/behavior-action-3d.png",
     color: "orange" as const,
+    imageClassName: "w-[160px] h-[160px] object-contain drop-shadow-[0_14px_22px_rgba(245,158,11,0.26)]",
   },
   {
     index: "04",
@@ -38,6 +41,7 @@ const cardsData = [
     description: "Família, escola, pares e cultura em interação.",
     imageSrc: "assets/cards/environment-world-3d.png",
     color: "emerald" as const,
+    imageClassName: "w-[138px] h-[138px] object-contain drop-shadow-[0_14px_22px_rgba(16,185,129,0.26)]",
   },
 ];
 
@@ -83,7 +87,17 @@ export default function Slide7FeatureCards({ isActive = true }: Slide7FeatureCar
             description={card.description}
             imageSrc={card.imageSrc}
             color={card.color}
-            className="h-[252px] w-full max-w-none p-3 shadow-xs border-slate-200/70 hover:border-slate-300 transition-colors"
+            imageContainerClassName="top-1.5 bottom-[104px] z-10 flex items-center justify-center pointer-events-none"
+            imageClassName={card.imageClassName}
+            imageVariants={{
+              initial: { scale: 1, y: 0 },
+              hover: { scale: 1.06, y: -4 },
+            }}
+            tagClassName="text-[12px] font-bold tracking-wider px-2.5 py-0.5"
+            contentClassName="px-3 py-2 rounded-xl border border-white/80 shadow-xs"
+            titleClassName="text-[16px] font-bold text-slate-900 leading-snug tracking-tight"
+            descriptionClassName="mt-0.5 text-[13.5px] font-medium text-slate-600 leading-snug"
+            className="h-[270px] w-full max-w-none p-2.5 shadow-xs border-slate-200/70 hover:border-slate-300 transition-colors"
           />
         </motion.div>
       ))}

@@ -113,11 +113,11 @@ export default function Slide30Flow({ isActive = true, className }: Slide30FlowP
       {/* Top Header Information: Clean & Integrated without card look */}
       <div className="flex items-center justify-between pb-2 border-b border-[#8a2f3f]/15">
         <div className="flex items-center gap-2">
-          <span className="text-[10.5px] font-bold uppercase tracking-[0.16em] text-[#8a2f3f]">
+          <span className="text-[14px] font-bold uppercase tracking-[0.16em] text-[#8a2f3f]">
             Modelo Bioecológico · Circuito Transacional
           </span>
         </div>
-        <div className="flex items-center gap-1 text-[10px] font-semibold text-[#8a2f3f] bg-[#8a2f3f]/10 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/20">
+        <div className="flex items-center gap-1 text-[16px] font-semibold text-[#8a2f3f] bg-[#8a2f3f]/10 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/20">
           <Repeat className="w-4 h-4 animate-spin" style={{ animationDuration: "12s" }} />
           <span>Retroalimentação Contínua</span>
         </div>
@@ -234,7 +234,7 @@ export default function Slide30Flow({ isActive = true, className }: Slide30FlowP
           >
             <div className="flex items-center gap-1.5 mb-0.5">
               <span className="w-2 h-2 rounded-full bg-[#8a2f3f] animate-ping" />
-              <span className="text-[9px] font-black uppercase tracking-widest text-[#8a2f3f]">
+              <span className="text-[14px] font-black uppercase tracking-widest text-[#8a2f3f]">
                 Núcleo Sistêmico
               </span>
             </div>
@@ -242,11 +242,11 @@ export default function Slide30Flow({ isActive = true, className }: Slide30FlowP
             <h4 className="font-['Urbanist',sans-serif] text-[16.5px] font-black text-[#1a1113] tracking-tight leading-tight text-center">
               Sistema Familiar
             </h4>
-            <p className="text-[10px] font-semibold text-[#8a2f3f] text-center leading-tight">
+            <p className="text-[16px] font-semibold text-[#8a2f3f] text-center leading-tight">
               Dinâmica Transacional
             </p>
 
-            <div className="mt-1.5 pt-1 border-t border-[#8a2f3f]/15 flex items-center gap-1 text-[8.5px] font-medium text-[#6b585c]">
+            <div className="mt-1.5 pt-1 border-t border-[#8a2f3f]/15 flex items-center gap-1 text-[16px] font-medium text-[#6b585c]">
               <ArrowRightLeft className="w-2.5 h-2.5 text-[#8a2f3f]" />
               <span>Interdependência Mútua</span>
             </div>
@@ -279,17 +279,17 @@ export default function Slide30Flow({ isActive = true, className }: Slide30FlowP
                 <div className="w-6 h-6 rounded-lg bg-[#8a2f3f]/10 border border-[#8a2f3f]/20 flex items-center justify-center text-[#8a2f3f] shrink-0">
                   <Icon className="w-3.5 h-3.5" />
                 </div>
-                <span className={cn("text-[8.5px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full border", block.badgeStyle)}>
+                <span className={cn("text-[14px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full border", block.badgeStyle)}>
                   {block.badge}
                 </span>
               </div>
 
               {/* Bottom Row: Title & Subtitle */}
               <div>
-                <h5 className="font-['Urbanist',sans-serif] text-[15px] font-bold text-[#1a1113] leading-tight truncate">
+                <h5 className="font-['Urbanist',sans-serif] text-[15px] font-bold text-[#1a1113] leading-tight">
                   {block.title}
                 </h5>
-                <p className="text-[10px] text-[#554347] font-normal leading-tight mt-0.5 truncate">
+                <p className="text-[16px] text-[#554347] font-normal leading-tight mt-0.5">
                   {block.subtitle}
                 </p>
               </div>

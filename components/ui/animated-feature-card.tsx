@@ -26,6 +26,10 @@ export interface AnimatedFeatureCardProps extends HTMLMotionProps<"div"> {
   titleClassName?: string;
   /** Optional custom class for the description */
   descriptionClassName?: string;
+  /** Optional custom class for the category tag */
+  tagClassName?: string;
+  /** Optional custom motion variants for the central image */
+  imageVariants?: any;
 }
 
 // Define HSL color values for each variant
@@ -71,7 +75,7 @@ const colorVariants = {
 const AnimatedFeatureCard = React.forwardRef<
   HTMLDivElement,
   AnimatedFeatureCardProps
->(({ className, index, tag, title, description, imageSrc, color, imageClassName, imageContainerClassName, contentClassName, titleClassName, descriptionClassName, ...props }, ref) => {
+>(({ className, index, tag, title, description, imageSrc, color, imageClassName, imageContainerClassName, contentClassName, titleClassName, descriptionClassName, tagClassName, imageVariants, ...props }, ref) => {
   const cardStyle = colorVariants[color] as React.CSSProperties;
 
   return (
@@ -114,9 +118,9 @@ const AnimatedFeatureCard = React.forwardRef<
           "absolute inset-x-0 top-1 bottom-12 z-10 flex items-center justify-center pointer-events-none",
           imageContainerClassName
         )}
-        variants={{
+        variants={imageVariants || {
           initial: { scale: 1, y: 0 },
-          hover: { scale: 1.12, y: -8 },
+          hover: { scale: 1.08, y: -4 },
         }}
         transition={{ type: "spring", stiffness: 220, damping: 16 }}
       >
@@ -147,7 +151,10 @@ const AnimatedFeatureCard = React.forwardRef<
       >
         <div className="flex items-center justify-between mb-1">
           <span
-            className="inline-block rounded-full px-2.5 py-0.5 text-[14px] font-bold tracking-wider uppercase border shadow-2xs"
+            className={cn(
+              "inline-block rounded-full px-2.5 py-0.5 text-[14px] font-bold tracking-wider uppercase border shadow-2xs",
+              tagClassName
+            )}
             style={{
               backgroundColor: "var(--feature-color-dark)",
               color: "var(--feature-color)",

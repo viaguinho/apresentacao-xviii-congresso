@@ -28,7 +28,7 @@ export default function Slide27Cards({ isActive = true, className }: Slide27Card
   return (
     <div
       className={cn(
-        "w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[620px] mx-auto my-auto",
+        "w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[800px] mx-auto my-auto",
         className
       )}
     >
@@ -57,7 +57,7 @@ export default function Slide27Cards({ isActive = true, className }: Slide27Card
             </div>
 
             <div className="flex items-center gap-1.5">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-[#8a2f3f]/10 text-[#8a2f3f] border border-[#8a2f3f]/20">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-[#8a2f3f]/10 text-[#8a2f3f] border border-[#8a2f3f]/20">
                 <Sparkles className="w-4 h-4 text-[#8a2f3f]" />
                 408 Pacientes · 2–18 anos · 6 Grupos
               </span>
@@ -67,7 +67,7 @@ export default function Slide27Cards({ isActive = true, className }: Slide27Card
           {/* Middle Section */}
           <div className="space-y-2">
             <div>
-              <h3 className="text-[20px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
+              <h3 className="text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
                 Heterogeneidade Psicossocial nos Diagnósticos
               </h3>
               <p className="text-[16px] font-semibold text-[#8a2f3f] mt-0.5">
@@ -77,21 +77,21 @@ export default function Slide27Cards({ isActive = true, className }: Slide27Card
 
             {/* Diagnostic Group Chips */}
             <div className="pt-0.5">
-              <h4 className="text-[10px] font-bold uppercase tracking-[0.14em] text-zinc-500 mb-1">
+              <h4 className="text-[14px] font-bold uppercase tracking-[0.14em] text-zinc-500 mb-1">
                 GRUPOS ANATÔMICOS COMPARADOS:
               </h4>
               <div className="flex flex-wrap items-center gap-1 my-1">
                 {diagnosticGroups.map((grp) => (
                   <span
                     key={grp}
-                    className="px-2 py-0.5 rounded-lg text-[10px] font-semibold bg-white border border-black/[0.07] text-[#3f4042] shadow-2xs"
+                    className="px-2 py-0.5 rounded-lg text-[14px] font-semibold bg-white border border-black/[0.07] text-[#3f4042] shadow-2xs"
                   >
                     {grp}
                   </span>
                 ))}
               </div>
 
-              <p className="text-[16px] text-[#334155] leading-relaxed font-normal mt-1.5">
+              <p className="text-[16px] text-[#334155] leading-snug font-normal mt-1.5">
                 Os padrões de dificuldades psicossociais foram diferentes entre os 6 grupos: <strong className="text-[#0f1012] font-semibold">“anomalia craniofacial” não constitui um único fenótipo psicossocial</strong> previsível pela simples classificação cirúrgica.
               </p>
             </div>
@@ -104,7 +104,7 @@ export default function Slide27Cards({ isActive = true, className }: Slide27Card
               <span className="text-[#0f1012] font-bold">Fenótipo Heterogêneo</span>
             </div>
 
-            <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#8a2f3f] text-white text-[10.5px] font-bold shadow-xs">
+            <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#8a2f3f] text-white text-[16px] font-bold shadow-xs">
               <span>Anatomia ≠ Destino</span>
             </div>
           </div>
@@ -136,7 +136,7 @@ export default function Slide27Cards({ isActive = true, className }: Slide27Card
             </div>
 
             <div className="flex items-center gap-1.5">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-rose-500/10 text-rose-300 border border-rose-500/25">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-rose-500/10 text-rose-300 border border-rose-500/25">
                 <CheckCircle2 className="w-4 h-4 text-rose-400" />
                 Matriz Clínica Multidimensional
               </span>
@@ -146,7 +146,7 @@ export default function Slide27Cards({ isActive = true, className }: Slide27Card
           {/* Middle Section */}
           <div className="space-y-2">
             <div>
-              <h3 className="text-[20px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]">
+              <h3 className="text-[24px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]">
                 Organizar por Domínios, Não Apenas por Diagnóstico
               </h3>
               <p className="text-[16px] font-semibold text-rose-300 mt-0.5">
@@ -161,17 +161,17 @@ export default function Slide27Cards({ isActive = true, className }: Slide27Card
                   key={dom.name}
                   className="p-2 rounded-xl bg-white/[0.04] border border-white/10 text-left"
                 >
-                  <span className="text-[9.5px] font-bold uppercase tracking-wider text-rose-300 block mb-0.5">
+                  <span className="text-[14px] font-bold uppercase tracking-wider text-rose-300 block mb-0.5">
                     {dom.name}
                   </span>
-                  <span className="text-[10.5px] text-zinc-300 leading-snug block">
+                  <span className="text-[16px] text-zinc-300 leading-snug block">
                     {dom.desc}
                   </span>
                 </div>
               ))}
             </div>
 
-            <p className="text-[16px] text-zinc-300 leading-relaxed font-normal mt-1.5">
+            <p className="text-[16px] text-zinc-300 leading-snug font-normal mt-1.5">
               A pergunta clínica relevante não é apenas qual é o rótulo da anomalia, mas <strong className="text-white font-semibold">quais dimensões dessa condição interferem concretamente no desenvolvimento e na funcionalidade</strong> nesta etapa específica.
             </p>
           </div>
@@ -183,7 +183,7 @@ export default function Slide27Cards({ isActive = true, className }: Slide27Card
               <span className="text-white font-bold">Foco na Funcionalidade</span>
             </div>
 
-            <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-rose-500/20 text-rose-200 border border-rose-500/30 text-[10.5px] font-bold shadow-xs">
+            <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-rose-500/20 text-rose-200 border border-rose-500/30 text-[16px] font-bold shadow-xs">
               <span>Avaliação por Domínios</span>
             </div>
           </div>

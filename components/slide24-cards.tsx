@@ -26,7 +26,7 @@ export default function Slide24Cards({ isActive = true, className }: Slide24Card
   return (
     <div
       className={cn(
-        "w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[620px] mx-auto my-auto",
+        "w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[800px] mx-auto my-auto",
         className
       )}
     >
@@ -55,7 +55,7 @@ export default function Slide24Cards({ isActive = true, className }: Slide24Card
             </div>
 
             <div className="flex items-center gap-1.5">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-[#6b4e83]/10 text-[#6b4e83] border border-[#6b4e83]/20">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-[#6b4e83]/10 text-[#6b4e83] border border-[#6b4e83]/20">
                 <Sparkles className="w-4 h-4 text-[#6b4e83]" />
                 Evidência · n = 314 · 7–11 anos
               </span>
@@ -65,7 +65,7 @@ export default function Slide24Cards({ isActive = true, className }: Slide24Card
           {/* Middle Section */}
           <div className="space-y-2">
             <div>
-              <h3 className="text-[20px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
+              <h3 className="text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
                 Díade Protetora e Identificação com Pares
               </h3>
               <p className="text-[16px] font-semibold text-[#6b4e83] mt-0.5">
@@ -93,7 +93,7 @@ export default function Slide24Cards({ isActive = true, className }: Slide24Card
                 ))}
               </div>
 
-              <p className="text-[16px] text-[#334155] leading-relaxed font-normal mt-2">
+              <p className="text-[16px] text-[#334155] leading-snug font-normal mt-2">
                 Uma criança pode ser pouco popular e ainda ter uma amizade íntima e protetora — ou ser aceita pelo grupo sem possuir amizade próxima. <strong className="text-[#0f1012] font-semibold">A reciprocidade foi especialmente relevante para a autoestima e identificação social.</strong>
               </p>
             </div>
@@ -106,7 +106,7 @@ export default function Slide24Cards({ isActive = true, className }: Slide24Card
               <span className="text-[#0f1012] font-bold">Qualidade vs Quantidade</span>
             </div>
 
-            <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#6b4e83] text-white text-[10.5px] font-bold shadow-xs">
+            <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#6b4e83] text-white text-[16px] font-bold shadow-xs">
               <span>Reciprocidade Protege</span>
             </div>
           </div>
@@ -138,7 +138,7 @@ export default function Slide24Cards({ isActive = true, className }: Slide24Card
             </div>
 
             <div className="flex items-center gap-1.5">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-purple-500/10 text-purple-300 border border-purple-500/25">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-purple-500/10 text-purple-300 border border-purple-500/25">
                 <CheckCircle2 className="w-4 h-4 text-purple-400" />
                 Competência & Avaliação Clínica
               </span>
@@ -148,7 +148,7 @@ export default function Slide24Cards({ isActive = true, className }: Slide24Card
           {/* Middle Section */}
           <div className="space-y-2">
             <div>
-              <h3 className="text-[20px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]">
+              <h3 className="text-[24px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]">
                 Preferir Poucos Amigos ≠ Dificuldade Social
               </h3>
               <p className="text-[16px] font-semibold text-purple-300 mt-0.5">
@@ -158,23 +158,23 @@ export default function Slide24Cards({ isActive = true, className }: Slide24Card
 
             {/* Conflict Steps Chips */}
             <div className="pt-0.5">
-              <h4 className="text-[10px] font-bold uppercase tracking-[0.14em] text-zinc-400 mb-1.5">
+              <h4 className="text-[14px] font-bold uppercase tracking-[0.14em] text-zinc-400 mb-1.5">
                 COMO OCORRE A COMPETÊNCIA SOCIAL NOS CONFLITOS:
               </h4>
               <div className="flex flex-wrap items-center gap-1.5 my-1">
                 {conflictSteps.map((step, idx) => (
                   <div key={step} className="flex items-center gap-1">
-                    <span className="px-2 py-0.5 rounded-lg text-[10.5px] font-semibold bg-white/[0.06] border border-white/10 text-zinc-200">
+                    <span className="px-2 py-0.5 rounded-lg text-[14px] font-semibold bg-white/[0.06] border border-white/10 text-zinc-200">
                       {step}
                     </span>
                     {idx < conflictSteps.length - 1 && (
-                      <span className="text-[10px] text-purple-400 font-bold">→</span>
+                      <span className="text-[16px] text-purple-400 font-bold">→</span>
                     )}
                   </div>
                 ))}
               </div>
 
-              <p className="text-[16px] text-zinc-300 leading-relaxed font-normal mt-2">
+              <p className="text-[16px] text-zinc-300 leading-snug font-normal mt-2">
                 <strong className="text-white font-semibold">O que avaliar na clínica:</strong> Há reciprocidade? A criança deseja mais interação do que obtém? Consegue participar quando quer? Há sofrimento, exclusão ou prejuízo funcional?
               </p>
             </div>
@@ -187,7 +187,7 @@ export default function Slide24Cards({ isActive = true, className }: Slide24Card
               <span className="text-white font-bold">Prejuízo Funcional Real</span>
             </div>
 
-            <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-purple-500/20 text-purple-200 border border-purple-500/30 text-[10.5px] font-bold shadow-xs">
+            <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-purple-500/20 text-purple-200 border border-purple-500/30 text-[16px] font-bold shadow-xs">
               <span>Intencionalidade ≠ Déficit</span>
             </div>
           </div>
