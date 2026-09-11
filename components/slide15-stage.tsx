@@ -15,7 +15,7 @@ export default function Slide15Stage({ isActive = true }: Slide15StageProps) {
         className="absolute"
         style={{ left: "96px", top: "92px", width: "1528px" }}
       >
-        <p className="m-0 mb-2.5 text-[22px] font-semibold tracking-[0.12em] uppercase text-[#0d606a]">
+        <p className="m-0 mb-2.5 text-[22px] font-semibold tracking-[0.12em] uppercase text-[#0d6d66]">
           Eixo 2 · Desenvolvimento cognitivo
         </p>
         <h2 className="m-0 text-[44px] font-light tracking-[-1.2px] leading-[1.14]">
@@ -53,10 +53,10 @@ export default function Slide15Stage({ isActive = true }: Slide15StageProps) {
         className="absolute"
         style={{ left: "320px", top: "790px", width: "1280px" }}
       >
-        <div className="flex flex-col justify-between p-6 sm:p-7 rounded-[20px] bg-gradient-to-br from-white/95 to-[#f4f8fc]/85 border border-[#0071e3]/15 shadow-[0_12px_32px_-10px_rgba(0,0,0,0.06),0_2px_8px_-2px_rgba(0,0,0,0.03)] relative overflow-hidden">
-          <div className="absolute top-0 left-0 bottom-0 w-1.5 bg-gradient-to-b from-[#0071e3] to-[#21C6E0]" />
-          <span className="font-['Urbanist'] text-[15px] font-bold tracking-[0.14em] uppercase text-[#0d606a] mb-2 inline-flex items-center gap-1.5">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#0071e3]" />
+        <div className="flex flex-col justify-between p-6 sm:p-7 rounded-[20px] bg-gradient-to-br from-white/95 to-[#f4f8fc]/85 border border-[#0d6d66]/20 shadow-[0_12px_32px_-10px_rgba(0,0,0,0.06),0_2px_8px_-2px_rgba(0,0,0,0.03)] relative overflow-hidden">
+          <div className="absolute top-0 left-0 bottom-0 w-1.5 bg-gradient-to-b from-[#0d6d66] to-[#14b8a6]" />
+          <span className="font-['Urbanist'] text-[15px] font-bold tracking-[0.14em] uppercase text-[#0d6d66] mb-2 inline-flex items-center gap-1.5">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#0d6d66]" />
             Tese Central
           </span>
           <p className="m-0 text-[24px] font-medium leading-[1.38] tracking-[-0.3px] text-[#0f1012]">

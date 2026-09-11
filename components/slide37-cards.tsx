@@ -31,7 +31,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
   return (
     <div
       className={cn(
-        "w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[800px] mx-auto my-auto",
+        "w-full h-full flex flex-col justify-center gap-3 select-none font-['Satoshi',sans-serif] max-w-[800px] mx-auto my-auto",
         className
       )}
     >
@@ -46,7 +46,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
           "group relative w-full overflow-hidden rounded-3xl border border-black/[0.08]",
           "bg-gradient-to-br from-white via-[#fcfdff] to-[#edeff3]/70",
           "shadow-[0_4px_24px_rgba(51,65,92,0.06)] hover:shadow-[0_12px_36px_rgba(51,65,92,0.12)]",
-          "hover:border-[#33415c]/30 transition-all duration-400 ease-out p-5 flex flex-col justify-between"
+          "hover:border-[#33415c]/30 transition-all duration-400 ease-out px-5 py-4 flex flex-col justify-between"
         )}
       >
         {/* Decorative Gradient Mesh Accent */}
@@ -137,7 +137,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
           "group relative w-full overflow-hidden rounded-3xl border border-white/10",
           "bg-[#0f1012] text-white",
           "shadow-[0_6px_28px_rgba(0,0,0,0.14)] hover:shadow-[0_12px_36px_rgba(0,0,0,0.28)]",
-          "hover:border-[#33415c]/50 transition-all duration-400 ease-out p-5 flex flex-col justify-between"
+          "hover:border-[#33415c]/50 transition-all duration-400 ease-out px-5 py-4 flex flex-col justify-between"
         )}
       >
         {/* Ambient Glow */}
@@ -178,12 +178,12 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
                 {clinicalQuestions.map((q, idx) => (
                   <div
                     key={q}
-                    className="flex items-center gap-2 p-1.5 rounded-lg bg-white/[0.04] border border-white/10"
+                    className="flex items-center gap-2 px-2 py-1 rounded-lg bg-white/[0.04] border border-white/10"
                   >
-                    <span className="w-5 h-5 rounded-full bg-slate-500/30 text-slate-200 text-[16px] font-bold flex items-center justify-center shrink-0">
+                    <span className="w-6 h-6 rounded-full bg-slate-500/30 text-slate-200 text-[14px] font-bold flex items-center justify-center shrink-0">
                       {idx + 1}
                     </span>
-                    <span className="text-[15px] font-medium text-zinc-200 leading-tight">
+                    <span className="text-[16px] font-medium text-zinc-200 leading-tight">
                       {q}
                     </span>
                   </div>

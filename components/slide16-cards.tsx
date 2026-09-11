@@ -76,25 +76,25 @@ export default function Slide16Cards({ isActive = true, className }: Slide16Card
         transition={{ duration: 0.45, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
         className={cn(
           "group relative w-full overflow-hidden rounded-3xl border border-black/[0.08]",
-          "bg-gradient-to-br from-white via-[#fcfdff] to-[#e8f2fc]/60",
+          "bg-gradient-to-br from-white via-[#fcfdff] to-[#e6f5f3]/60",
           "shadow-[0_4px_24px_rgba(0,113,227,0.06)] hover:shadow-[0_12px_36px_rgba(0,113,227,0.12)]",
-          "hover:border-[#0071e3]/30 transition-all duration-400 ease-out p-5 flex flex-col justify-between"
+          "hover:border-[#0d6d66]/30 transition-all duration-400 ease-out p-5 flex flex-col justify-between"
         )}
       >
         {/* Subtle Decorative Gradient Mesh Accent */}
-        <div className="absolute top-0 right-0 -mr-16 -mt-16 w-56 h-56 rounded-full bg-gradient-to-br from-[#0071e3]/10 to-[#21C6E0]/20 blur-2xl pointer-events-none transition-transform duration-700 group-hover:scale-125" />
+        <div className="absolute top-0 right-0 -mr-16 -mt-16 w-56 h-56 rounded-full bg-gradient-to-br from-[#0d6d66]/10 to-[#14b8a6]/20 blur-2xl pointer-events-none transition-transform duration-700 group-hover:scale-125" />
 
         {/* Content Container */}
         <div className="relative z-10 flex flex-col justify-between h-full">
           {/* Top Section: Logo & Badge */}
           <div className="flex items-center justify-between gap-3 mb-2.5">
-            <div className="flex h-10 w-10 items-center justify-center rounded-2xl border border-[#0071e3]/20 bg-white/90 shadow-xs text-[#0071e3] transition-transform duration-300 group-hover:scale-105">
+            <div className="flex h-10 w-10 items-center justify-center rounded-2xl border border-[#0d6d66]/20 bg-white/90 shadow-xs text-[#0d6d66] transition-transform duration-300 group-hover:scale-105">
               <BookOpenCheck className="h-5 w-5" />
             </div>
 
             <div className="flex items-center gap-1.5">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-[#0071e3]/10 text-[#0071e3] border border-[#0071e3]/20">
-                <CheckCircle2 className="w-4 h-4 text-[#0071e3]" />
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-[#0d6d66]/10 text-[#0d6d66] border border-[#0d6d66]/20">
+                <CheckCircle2 className="w-4 h-4 text-[#0d6d66]" />
                 Meta-Análise Empírica
               </span>
             </div>
@@ -106,7 +106,7 @@ export default function Slide16Cards({ isActive = true, className }: Slide16Card
               <h3 className="text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
                 Spiegel et al. (2021)
               </h3>
-              <p className="text-[17px] font-semibold text-[#0071e3] mt-0.5">
+              <p className="text-[17px] font-semibold text-[#0d6d66] mt-0.5">
                 299 estudos · +65.000 crianças avaliadas no ensino fundamental
               </p>
             </div>
@@ -129,7 +129,7 @@ export default function Slide16Cards({ isActive = true, className }: Slide16Card
               <span className="text-[#0f1012] font-bold">N &gt; 65.000</span>
             </div>
 
-            <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#0071e3] text-white text-[15px] font-bold shadow-xs hover:bg-[#0071e3]/90 transition-colors">
+            <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#0d6d66] text-white text-[15px] font-bold shadow-xs hover:bg-[#0d6d66]/90 transition-colors">
               <span>Associação ≠ Causalidade</span>
               <ArrowRight className="w-4 h-4 ml-0.5" />
             </div>
@@ -147,7 +147,7 @@ export default function Slide16Cards({ isActive = true, className }: Slide16Card
         className="p-5 rounded-3xl bg-[#0f1012] text-white flex flex-col justify-between shadow-[0_6px_28px_rgba(0,0,0,0.12)] border border-white/10 relative overflow-hidden"
       >
         {/* Subtle Ambient Glow */}
-        <div className="absolute top-0 right-0 w-48 h-48 bg-[#0071e3]/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute top-0 right-0 w-48 h-48 bg-[#0d6d66]/10 rounded-full blur-3xl pointer-events-none" />
 
         <div className="relative z-10">
           {/* Header */}

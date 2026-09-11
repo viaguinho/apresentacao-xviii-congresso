@@ -49,9 +49,9 @@ const Card7 = React.forwardRef<HTMLDivElement, Card7Props>(
       <div
         ref={ref}
         className={cn(
-          "group relative w-full overflow-hidden rounded-2xl border border-[#21C6E0]/35",
-          "bg-gradient-to-br from-white via-[#fcfefd] to-[#21C6E0]/12",
-          "shadow-[0_4px_24px_rgba(33,198,224,0.1)] transition-all duration-300 ease-in-out",
+          "group relative w-full overflow-hidden rounded-2xl border border-[#0d6d66]/35",
+          "bg-gradient-to-br from-white via-[#fcfefd] to-[#0d6d66]/12",
+          "shadow-[0_4px_24px_rgba(13,109,102,0.1)] transition-all duration-300 ease-in-out",
           className
         )}
         {...props}
@@ -95,12 +95,12 @@ const Card7 = React.forwardRef<HTMLDivElement, Card7Props>(
           {/* Top Section: Logo + Badge */}
           <div className="flex items-center justify-between mb-2">
             {logo && (
-              <div className="flex h-9 w-9 items-center justify-center rounded-full border border-[#21C6E0]/40 bg-white/90 backdrop-blur-md shadow-xs text-[#0d606a]">
+              <div className="flex h-9 w-9 items-center justify-center rounded-full border border-[#0d6d66]/40 bg-white/90 backdrop-blur-md shadow-xs text-[#0d6d66]">
                 {logo}
               </div>
             )}
             {badge && (
-              <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[14px] font-bold uppercase tracking-wider bg-[#21C6E0]/20 text-[#0d606a] border border-[#21C6E0]/30">
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[14px] font-bold uppercase tracking-wider bg-[#0d6d66]/20 text-[#0d6d66] border border-[#0d6d66]/30">
                 {badge}
               </span>
             )}
@@ -113,7 +113,7 @@ const Card7 = React.forwardRef<HTMLDivElement, Card7Props>(
                 {title}
               </h3>
               {displaySubtitle && (
-                <p className="text-[15px] font-bold uppercase tracking-wider text-[#0d606a] mt-1">
+                <p className="text-[15px] font-bold uppercase tracking-wider text-[#0d6d66] mt-1">
                   {displaySubtitle}
                 </p>
               )}

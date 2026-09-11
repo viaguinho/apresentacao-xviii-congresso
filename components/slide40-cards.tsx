@@ -111,7 +111,7 @@ export default function Slide40Cards({
               "group relative border border-dashed border-zinc-300/90 hover:border-[#0071e3]/60",
               "rounded-xl p-5 bg-white/95 shadow-[0_2px_10px_rgba(0,0,0,0.02)]",
               "hover:shadow-[0_8px_24px_rgba(0,113,227,0.08)] hover:bg-[#fbfdff]",
-              "transition-all duration-300 flex flex-col justify-between min-h-[190px] select-none hover:-translate-y-0.5"
+              "transition-all duration-300 flex flex-col justify-between min-h-[262px] select-none hover:-translate-y-0.5"
             )}
           >
             {/* 4 Corner Plus Cross Icons (Ruixen Bento signature) */}
@@ -122,28 +122,28 @@ export default function Slide40Cards({
               <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#e8f2fc] text-[#0071e3] border border-[#0071e3]/20 shadow-xs transition-transform duration-300 group-hover:scale-105">
                 <IconComponent className="h-4.5 w-4.5" />
               </div>
-              <span className="inline-flex items-center px-2.5 py-0.5 rounded-md text-[10px] font-bold uppercase tracking-wider bg-zinc-100/90 text-zinc-600 border border-zinc-200/80 group-hover:border-[#0071e3]/25 group-hover:bg-[#e8f2fc]/50 group-hover:text-[#0071e3] transition-colors font-['Urbanist',sans-serif]">
+              <span className="inline-flex items-center px-2.5 py-0.5 rounded-md text-[14px] font-bold uppercase tracking-wide bg-zinc-100/90 text-zinc-600 border border-zinc-200/80 group-hover:border-[#0071e3]/25 group-hover:bg-[#e8f2fc]/50 group-hover:text-[#0071e3] transition-colors font-['Urbanist',sans-serif]">
                 {topic.eixoBadge}
               </span>
             </div>
 
             {/* Content: Title and verbatim description */}
             <div className="relative z-10 space-y-1.5 flex-1 flex flex-col justify-start">
-              <h3 className="font-['Urbanist',sans-serif] text-[18px] font-bold tracking-tight text-[#0f1012] leading-snug group-hover:text-[#0071e3] transition-colors duration-200">
+              <h3 className="font-['Urbanist',sans-serif] text-[22px] font-bold tracking-tight text-[#0f1012] leading-snug group-hover:text-[#0071e3] transition-colors duration-200">
                 {topic.title}
               </h3>
-              <p className="font-['Satoshi',sans-serif] text-[16px] leading-[1.44] text-[#3f4042]">
+              <p className="font-['Satoshi',sans-serif] text-[18px] font-medium leading-[1.4] text-[#3f4042]">
                 {topic.description}
               </p>
             </div>
 
             {/* Bottom Subtle Indicator Tag */}
             <div className="relative z-10 mt-3 pt-2 border-t border-zinc-100 flex items-center justify-between">
-              <span className="inline-flex items-center gap-1.5 text-[15px] font-semibold text-zinc-400 group-hover:text-[#0071e3]/80 transition-colors">
+              <span className="inline-flex items-center gap-1.5 text-[15px] font-semibold text-zinc-500 group-hover:text-[#0071e3]/80 transition-colors">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#0071e3]/60" />
                 {topic.footerTag}
               </span>
-              <span className="text-[10.5px] font-bold font-['Urbanist',sans-serif] text-zinc-400 group-hover:text-[#0071e3] transition-colors">
+              <span className="text-[14px] font-bold font-['Urbanist',sans-serif] text-zinc-500 group-hover:text-[#0071e3] transition-colors">
                 0{topic.number} / 06
               </span>
             </div>

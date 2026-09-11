@@ -23,17 +23,17 @@ export const SERIES: SeriesConfig[] = [
   {
     id: 'velocidade',
     name: 'Velocidade de Processamento',
-    color: '#0d606a',
+    color: '#0d6d66',
     gradientId: 'gradVelocidade',
-    gradientStops: ['#0d606a', '#21C6E0'],
+    gradientStops: ['#0d6d66', '#14b8a6'],
     data: [30, 58, 85, 94, 98, 99, 100],
   },
   {
     id: 'inibitorio',
     name: 'Controle Inibitório',
-    color: '#21C6E0',
+    color: '#0d6d66',
     gradientId: 'gradInibitorio',
-    gradientStops: ['#21C6E0', '#0284c7'],
+    gradientStops: ['#14b8a6', '#0d6d66'],
     data: [20, 42, 65, 80, 90, 95, 97],
   },
   {
@@ -93,8 +93,8 @@ export const IncidentReportCard: React.FC = () => {
       <div>
         {/* Header com Tag Apple inspirada no Slide 11 */}
         <div className="flex items-center justify-between mb-2">
-          <span className="inline-flex items-center gap-1.5 text-[14px] font-bold uppercase tracking-[0.1em] text-[#0d606a] bg-[#0d606a]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0d606a]/20">
-            <Activity className="w-3.5 h-3.5 text-[#0d606a]" />
+          <span className="inline-flex items-center gap-1.5 text-[14px] font-bold uppercase tracking-[0.1em] text-[#0d6d66] bg-[#0d6d66]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0d6d66]/20">
+            <Activity className="w-3.5 h-3.5 text-[#0d6d66]" />
             Tervo-Clemmens et al. (2023)
           </span>
           <span className="text-[15px] font-semibold text-[#5f6062]">
@@ -355,16 +355,16 @@ export const IncidentReportCard: React.FC = () => {
       {/* Marcadores de Fases Temporais Integradas (Design Refinado) */}
       <div className="pt-3 mt-3 border-t border-black/[0.06] flex flex-wrap items-center justify-between gap-2 text-[16px]">
         <div className="flex items-center gap-1.5 text-[#5f6062]">
-          <TrendingUp className="w-3.5 h-3.5 text-[#0d606a]" />
+          <TrendingUp className="w-3.5 h-3.5 text-[#0d6d66]" />
           <span className="font-semibold text-[#0f1012]">Fases desenvolvimentais:</span>
         </div>
 
         <div className="flex items-center gap-2 text-[15px]">
-          <span className="px-2.5 py-1 rounded-lg bg-[#0d606a]/[0.08] text-[#0d606a] font-semibold border border-[#0d606a]/20">
+          <span className="px-2.5 py-1 rounded-lg bg-[#0d6d66]/[0.08] text-[#0d6d66] font-semibold border border-[#0d6d66]/20">
             <strong>8–11a</strong> · Aceleração
           </span>
           <span className="text-[#c9cacc]">→</span>
-          <span className="px-2.5 py-1 rounded-lg bg-[#21C6E0]/[0.12] text-[#0d606a] font-semibold border border-[#21C6E0]/30">
+          <span className="px-2.5 py-1 rounded-lg bg-[#0d6d66]/[0.12] text-[#0d6d66] font-semibold border border-[#0d6d66]/30">
             <strong>14–17a</strong> · Transição
           </span>
           <span className="text-[#c9cacc]">→</span>

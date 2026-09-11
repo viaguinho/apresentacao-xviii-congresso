@@ -19,7 +19,7 @@ export const Slide18Stage: React.FC<Slide18StageProps> = ({ isActive = true }) =
 
       {/* Coluna Direita: Cards Dual (Padrão Slide 17) */}
       <div className="lg:col-span-6 xl:col-span-6 flex flex-col gap-2">
-        <h3 className="font-['Urbanist'] text-[28px] font-bold tracking-tight text-[#0d606a] mb-1">
+        <h3 className="font-['Urbanist'] text-[28px] font-bold tracking-tight text-[#0d6d66] mb-1">
           Média do grupo ≠ destino individual
         </h3>
         <Slide18Cards isActive={isActive} />

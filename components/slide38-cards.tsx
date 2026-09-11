@@ -12,7 +12,7 @@ export default function Slide38Cards({ isActive = true, className }: Slide38Card
   return (
     <div
       className={cn(
-        "w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[640px] mx-auto my-auto",
+        "w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[820px] mx-auto my-auto",
         className
       )}
     >
@@ -29,7 +29,7 @@ export default function Slide38Cards({ isActive = true, className }: Slide38Card
 
         <div className="relative z-10">
           <div className="flex items-center justify-between mb-1.5">
-            <span className="text-[14px] font-bold uppercase tracking-[0.2em] text-zinc-400 font-['Urbanist',sans-serif]">
+            <span className="text-[14px] font-bold uppercase tracking-[0.1em] text-zinc-400 font-['Urbanist',sans-serif]">
               Discordância Informativa
             </span>
             <span className="text-[14px] font-semibold text-slate-300 bg-[#33415c]/35 px-2.5 py-0.5 rounded-full border border-slate-400/30">
@@ -101,14 +101,14 @@ export default function Slide38Cards({ isActive = true, className }: Slide38Card
           <h4 className="text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight">
             Evolução das Fontes de Informação
           </h4>
-          <p className="text-[15px] text-[#5f6062] mt-0.5">
+          <p className="text-[16px] font-medium text-[#5f6062] mt-0.5">
             Quem informa melhor muda com a idade: peso relativo do relato do cuidador e do paciente:
           </p>
         </div>
 
         {/* Gráfico SVG de Transição Integrado */}
         <div className="my-1.5 bg-[#fcfdfe] rounded-2xl p-2 border border-black/[0.04]">
-          <svg viewBox="0 0 580 150" className="w-full h-auto max-h-[135px] display-block overflow-visible" aria-label="Curvas de transição de peso de informante">
+          <svg viewBox="0 0 580 150" className="w-full h-auto max-h-[172px] display-block overflow-visible" aria-label="Curvas de transição de peso de informante">
             <defs>
               <linearGradient id="slide38CaregiverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" stopColor="#1e293b" />
@@ -153,8 +153,8 @@ export default function Slide38Cards({ isActive = true, className }: Slide38Card
 
             {/* Tag Flutuante Central */}
             <g transform="translate(290, 18)">
-              <rect x="-80" y="-9" width="160" height="18" rx="9" fill="#ffffff" stroke="#33415c" strokeWidth="1" strokeOpacity="0.35" />
-              <text x="0" y="4" textAnchor="middle" fontFamily="'Urbanist', sans-serif" fontSize="16" fontWeight="800" fill="#1e293b">
+              <rect x="-138" y="-12" width="276" height="24" rx="12" fill="#ffffff" stroke="#33415c" strokeWidth="1" strokeOpacity="0.35" />
+              <text x="0" y="5.5" textAnchor="middle" fontFamily="'Urbanist', sans-serif" fontSize="16" fontWeight="800" fill="#1e293b">
                 ✦ TRANSIÇÃO DE PERSPECTIVA
               </text>
             </g>
@@ -165,7 +165,7 @@ export default function Slide38Cards({ isActive = true, className }: Slide38Card
           O relato do cuidador nunca chega a zero: à medida que a idade avança, o relato do jovem ganha precisão e protagonismo.
         </p>
 
-        <p className="text-[15px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between">
+        <p className="text-[15px] text-[#5f6062] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between gap-3">
           <span>Quem relata × O que relata</span>
           <span className="font-semibold text-[#33415c]">Integração de Perspectivas Complementares</span>
         </p>

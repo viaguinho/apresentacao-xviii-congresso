@@ -49,7 +49,7 @@ export const defaultEvidenceData: CognitiveEvidenceData = {
       domain: "Linguagem",
       label: "Linguagem",
       height: 85,
-      color: "bg-[#21C6E0]",
+      color: "bg-[#0d6d66]",
       badge: "Consistente (d = 0.55)",
     },
     {
@@ -165,7 +165,7 @@ const SleepTrackerCard = React.forwardRef<HTMLDivElement, SleepTrackerCardProps>
           </div>
 
           <div className="border-r border-gray-200/60 dark:border-gray-800 px-2">
-            <p className="font-['Urbanist'] text-2xl font-bold tracking-tight text-[#21C6E0]">
+            <p className="font-['Urbanist'] text-2xl font-bold tracking-tight text-[#0d6d66]">
               {topDomain}
             </p>
             <p className="text-[15px] font-medium text-[#5f6062] dark:text-gray-400 mt-0.5">
