@@ -35,3 +35,8 @@ Thumbs.db
 *.njsproj
 *.sln
 *.sw?
+
+# Generated PDFs & Export Scripts
+*.pdf
+scripts/export-pdf.js
+
