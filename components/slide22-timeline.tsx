@@ -51,9 +51,9 @@ export function Slide22Timeline({ isActive = true }: Slide22TimelineProps) {
           className="flex items-center gap-3 p-3.5 rounded-xl bg-white/80 border border-[#b5563a]/20 shadow-sm"
         >
           <div className="w-8 h-8 rounded-full bg-[#fbeee9] flex items-center justify-center shrink-0 text-[#b5563a]">
-            <Sparkles className="w-4 h-4" />
+            <Sparkles className="w-5 h-5" />
           </div>
-          <p className="font-['Satoshi',sans-serif] text-[14px] font-medium text-[#0f1012] leading-snug">
+          <p className="font-['Satoshi',sans-serif] text-[16px] font-medium text-[#0f1012] leading-snug">
             <span className="font-bold text-[#b5563a]">Princípio Clínico: </span>
             A aparência pode adquirir novo significado conforme mudam as demandas relacionais do desenvolvimento.
           </p>

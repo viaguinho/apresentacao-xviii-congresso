@@ -46,9 +46,9 @@ export default function Slide25Orbit({ isActive = true }: Slide25OrbitProps) {
       >
         <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-            <Home className="w-3 h-3" />
+            <Home className="w-4 h-4" />
           </div>
-          <span className="text-[13px] font-semibold text-[#0f1012] whitespace-nowrap">
+          <span className="text-[15px] font-semibold text-[#0f1012] whitespace-nowrap">
             família
           </span>
         </div>
@@ -64,9 +64,9 @@ export default function Slide25Orbit({ isActive = true }: Slide25OrbitProps) {
       >
         <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-            <Building2 className="w-3 h-3" />
+            <Building2 className="w-4 h-4" />
           </div>
-          <span className="text-[13px] font-semibold text-[#0f1012] whitespace-nowrap">
+          <span className="text-[15px] font-semibold text-[#0f1012] whitespace-nowrap">
             escola e comunidade
           </span>
         </div>
@@ -84,9 +84,9 @@ export default function Slide25Orbit({ isActive = true }: Slide25OrbitProps) {
       >
         <div className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-            <Users className="w-3 h-3" />
+            <Users className="w-4 h-4" />
           </div>
-          <span className="text-[13px] font-semibold text-[#0071e3] whitespace-nowrap">
+          <span className="text-[15px] font-semibold text-[#0071e3] whitespace-nowrap">
             amigos e grupo
           </span>
         </div>
@@ -103,9 +103,9 @@ export default function Slide25Orbit({ isActive = true }: Slide25OrbitProps) {
       >
         <div className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-            <Heart className="w-3 h-3" />
+            <Heart className="w-4 h-4" />
           </div>
-          <span className="text-[13px] font-semibold text-[#0f1012] whitespace-nowrap">
+          <span className="text-[15px] font-semibold text-[#0f1012] whitespace-nowrap">
             relações afetivas
           </span>
         </div>

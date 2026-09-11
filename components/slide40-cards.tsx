@@ -132,14 +132,14 @@ export default function Slide40Cards({
               <h3 className="font-['Urbanist',sans-serif] text-[18px] font-bold tracking-tight text-[#0f1012] leading-snug group-hover:text-[#0071e3] transition-colors duration-200">
                 {topic.title}
               </h3>
-              <p className="font-['Satoshi',sans-serif] text-[14px] leading-[1.44] text-[#3f4042]">
+              <p className="font-['Satoshi',sans-serif] text-[16px] leading-[1.44] text-[#3f4042]">
                 {topic.description}
               </p>
             </div>
 
             {/* Bottom Subtle Indicator Tag */}
             <div className="relative z-10 mt-3 pt-2 border-t border-zinc-100 flex items-center justify-between">
-              <span className="inline-flex items-center gap-1.5 text-[11px] font-semibold text-zinc-400 group-hover:text-[#0071e3]/80 transition-colors">
+              <span className="inline-flex items-center gap-1.5 text-[15px] font-semibold text-zinc-400 group-hover:text-[#0071e3]/80 transition-colors">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#0071e3]/60" />
                 {topic.footerTag}
               </span>

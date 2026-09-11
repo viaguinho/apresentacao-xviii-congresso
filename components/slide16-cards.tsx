@@ -94,7 +94,7 @@ export default function Slide16Cards({ isActive = true, className }: Slide16Card
 
             <div className="flex items-center gap-1.5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-[#0071e3]/10 text-[#0071e3] border border-[#0071e3]/20">
-                <CheckCircle2 className="w-3 h-3 text-[#0071e3]" />
+                <CheckCircle2 className="w-4 h-4 text-[#0071e3]" />
                 Meta-Análise Empírica
               </span>
             </div>
@@ -106,7 +106,7 @@ export default function Slide16Cards({ isActive = true, className }: Slide16Card
               <h3 className="text-[21px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
                 Spiegel et al. (2021)
               </h3>
-              <p className="text-[12px] font-semibold text-[#0071e3] mt-0.5">
+              <p className="text-[16px] font-semibold text-[#0071e3] mt-0.5">
                 299 estudos · +65.000 crianças avaliadas no ensino fundamental
               </p>
             </div>
@@ -115,7 +115,7 @@ export default function Slide16Cards({ isActive = true, className }: Slide16Card
               <h4 className="text-[10px] font-bold uppercase tracking-[0.14em] text-zinc-500 mb-1">
                 EVIDÊNCIA & ASSOCIAÇÃO
               </h4>
-              <p className="text-[13px] text-[#334155] leading-relaxed font-normal">
+              <p className="text-[15px] text-[#334155] leading-relaxed font-normal">
                 Associações significativas entre funções executivas e leitura, matemática e linguagem oral no ensino fundamental — com{" "}
                 <strong className="text-[#0f1012] font-semibold">memória de trabalho</strong> apresentando as correlações mais consistentes e de maior magnitude.
               </p>
@@ -124,14 +124,14 @@ export default function Slide16Cards({ isActive = true, className }: Slide16Card
 
           {/* Bottom Section: Principle Highlight & Action Pill */}
           <div className="mt-3 pt-2.5 border-t border-black/[0.06] flex items-center justify-between">
-            <div className="flex items-center gap-1.5 text-[11px] font-semibold text-zinc-500">
+            <div className="flex items-center gap-1.5 text-[15px] font-semibold text-zinc-500">
               <span>Rigor Metodológico:</span>
               <span className="text-[#0f1012] font-bold">N &gt; 65.000</span>
             </div>
 
-            <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#0071e3] text-white text-[11px] font-bold shadow-xs hover:bg-[#0071e3]/90 transition-colors">
+            <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#0071e3] text-white text-[15px] font-bold shadow-xs hover:bg-[#0071e3]/90 transition-colors">
               <span>Associação ≠ Causalidade</span>
-              <ArrowRight className="w-3 h-3 ml-0.5" />
+              <ArrowRight className="w-4 h-4 ml-0.5" />
             </div>
           </div>
         </div>
@@ -163,7 +163,7 @@ export default function Slide16Cards({ isActive = true, className }: Slide16Card
           <h4 className="text-xl font-bold tracking-tight text-white font-['Urbanist',sans-serif]">
             Ciclo de Auto-Regulação Cognitiva
           </h4>
-          <p className="text-[12px] font-normal text-zinc-400 mt-1 leading-relaxed">
+          <p className="text-[16px] font-normal text-zinc-400 mt-1 leading-relaxed">
             Aprender a monitorar ativamente a compreensão, identificar impasses e redirecionar a própria conduta:
           </p>
         </div>
@@ -193,7 +193,7 @@ export default function Slide16Cards({ isActive = true, className }: Slide16Card
                   </span>
                   <div
                     className={cn(
-                      "w-5 h-5 rounded-md flex items-center justify-center border text-xs",
+                      "w-5 h-5 rounded-md flex items-center justify-center border text-sm",
                       step.accent
                     )}
                   >
@@ -202,7 +202,7 @@ export default function Slide16Cards({ isActive = true, className }: Slide16Card
                 </div>
 
                 <div>
-                  <h5 className="text-[11px] font-bold text-white leading-tight">
+                  <h5 className="text-[15px] font-bold text-white leading-tight">
                     {step.title}
                   </h5>
                   <p className="text-[9.5px] text-zinc-400 leading-snug mt-0.5 hidden xl:block">
@@ -216,10 +216,10 @@ export default function Slide16Cards({ isActive = true, className }: Slide16Card
 
         {/* Bottom Principle Bar */}
         <div className="relative z-10 flex items-center justify-between pt-2 border-t border-zinc-800">
-          <span className="text-xs font-semibold text-zinc-400">
+          <span className="text-sm font-semibold text-zinc-400">
             Tese desenvolvimental:
           </span>
-          <span className="text-xs font-bold text-amber-300 bg-amber-400/10 px-3 py-0.5 rounded-full border border-amber-400/25">
+          <span className="text-sm font-bold text-amber-300 bg-amber-400/10 px-3 py-0.5 rounded-full border border-amber-400/25">
             Cognição ⇄ Aprendizagem Escolar
           </span>
         </div>

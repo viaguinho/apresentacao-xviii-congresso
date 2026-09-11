@@ -67,14 +67,14 @@ export default function Slide38Cards({ isActive = true, className }: Slide38Card
 
         {/* Axioma Integrador */}
         <div className="p-2.5 bg-zinc-900/95 rounded-2xl border border-zinc-800/90 relative z-10 mb-1">
-          <p className="text-[11px] text-zinc-200 leading-snug m-0">
+          <p className="text-[15px] text-zinc-200 leading-snug m-0">
             Duas perspectivas descrevem contextos diferentes da mesma realidade. <strong className="text-white font-semibold">Não tente fazer os relatos coincidirem. Integre-os na formulação clínica.</strong>
           </p>
         </div>
 
         <div className="flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10">
-          <span className="text-xs font-semibold text-zinc-400">Interpretação clínica:</span>
-          <span className="text-xs font-bold text-slate-300 bg-slate-500/20 px-2.5 py-0.5 rounded-full border border-slate-400/30">
+          <span className="text-sm font-semibold text-zinc-400">Interpretação clínica:</span>
+          <span className="text-sm font-bold text-slate-300 bg-slate-500/20 px-2.5 py-0.5 rounded-full border border-slate-400/30">
             Quem × O Quê × Contexto × Idade
           </span>
         </div>
@@ -94,14 +94,14 @@ export default function Slide38Cards({ isActive = true, className }: Slide38Card
             <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-[#33415c] bg-[#33415c]/[0.10] px-2.5 py-0.5 rounded-full border border-[#33415c]/25 font-['Urbanist',sans-serif]">
               Volpicelli et al. 2020 · Bous et al. 2020
             </span>
-            <span className="text-[11px] font-semibold text-[#5f6062]">
+            <span className="text-[15px] font-semibold text-[#5f6062]">
               Multi-informante
             </span>
           </div>
           <h4 className="text-[17px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight">
             Evolução das Fontes de Informação
           </h4>
-          <p className="text-[11px] text-[#5f6062] mt-0.5">
+          <p className="text-[15px] text-[#5f6062] mt-0.5">
             Quem informa melhor muda com a idade: peso relativo do relato do cuidador e do paciente:
           </p>
         </div>
@@ -133,9 +133,9 @@ export default function Slide38Cards({ isActive = true, className }: Slide38Card
 
             {/* Eixos */}
             <line x1="45" y1="110" x2="540" y2="110" stroke="#cbd5e1" strokeWidth="1.4" />
-            <text x="45" y="130" fontFamily="'Urbanist', sans-serif" fontSize="12" fontWeight="700" fill="#5f6062">criança pequena</text>
-            <text x="290" y="130" textAnchor="middle" fontFamily="'Urbanist', sans-serif" fontSize="12" fontWeight="700" fill="#5f6062">escolar</text>
-            <text x="540" y="130" textAnchor="end" fontFamily="'Urbanist', sans-serif" fontSize="12" fontWeight="700" fill="#33415c">adolescente</text>
+            <text x="45" y="130" fontFamily="'Urbanist', sans-serif" fontSize="16" fontWeight="700" fill="#5f6062">criança pequena</text>
+            <text x="290" y="130" textAnchor="middle" fontFamily="'Urbanist', sans-serif" fontSize="16" fontWeight="700" fill="#5f6062">escolar</text>
+            <text x="540" y="130" textAnchor="end" fontFamily="'Urbanist', sans-serif" fontSize="16" fontWeight="700" fill="#33415c">adolescente</text>
 
             {/* Área sob o autorrelato */}
             <path d="M45,95 C190,85 380,40 540,24 L540,110 L45,110 Z" fill="url(#slide38SelfArea)" />
@@ -154,7 +154,7 @@ export default function Slide38Cards({ isActive = true, className }: Slide38Card
             {/* Tag Flutuante Central */}
             <g transform="translate(290, 18)">
               <rect x="-80" y="-9" width="160" height="18" rx="9" fill="#ffffff" stroke="#33415c" strokeWidth="1" strokeOpacity="0.35" />
-              <text x="0" y="4" textAnchor="middle" fontFamily="'Urbanist', sans-serif" fontSize="10" fontWeight="800" fill="#1e293b">
+              <text x="0" y="4" textAnchor="middle" fontFamily="'Urbanist', sans-serif" fontSize="16" fontWeight="800" fill="#1e293b">
                 ✦ TRANSIÇÃO DE PERSPECTIVA
               </text>
             </g>
@@ -165,7 +165,7 @@ export default function Slide38Cards({ isActive = true, className }: Slide38Card
           O relato do cuidador nunca chega a zero: à medida que a idade avança, o relato do jovem ganha precisão e protagonismo.
         </p>
 
-        <p className="text-[11px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between">
+        <p className="text-[15px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between">
           <span>Quem relata × O que relata</span>
           <span className="font-semibold text-[#33415c]">Integração de Perspectivas Complementares</span>
         </p>

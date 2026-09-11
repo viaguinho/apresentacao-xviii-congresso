@@ -111,7 +111,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
                   x="0"
                   y="34"
                   fontFamily="'Satoshi', sans-serif"
-                  fontSize="13.5"
+                  fontSize="15.5"
                   fontWeight="600"
                   fill="#1e293b"
                 >
@@ -121,7 +121,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
                   x="0"
                   y="52"
                   fontFamily="'Satoshi', sans-serif"
-                  fontSize="12"
+                  fontSize="16"
                   fontWeight="500"
                   fill="#64748b"
                 >
@@ -184,7 +184,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
                   x="0"
                   y="33"
                   fontFamily="'Satoshi', sans-serif"
-                  fontSize="13"
+                  fontSize="15"
                   fontWeight="600"
                   fill="#0f172a"
                 >
@@ -256,7 +256,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
                   x="0"
                   y="22"
                   fontFamily="'Satoshi', sans-serif"
-                  fontSize="11"
+                  fontSize="15"
                   fontWeight="600"
                   fill="#ffffff"
                 >
@@ -266,7 +266,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
                   x="0"
                   y="34"
                   fontFamily="'Satoshi', sans-serif"
-                  fontSize="10"
+                  fontSize="16"
                   fontWeight="500"
                   fill="#e2e8f0"
                 >
@@ -285,7 +285,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
           <div className="flex flex-col items-center justify-between h-full w-5">
             {/* Seta Superior Minimalista */}
             <div className="w-5 h-5 rounded-full bg-[#0071e3] text-white flex items-center justify-center shadow-xs">
-              <svg className="w-3 h-3" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
                 <path d="M12 19V5M5 12l7-7 7 7" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </div>
@@ -307,7 +307,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
           {/* Coluna 2: Rótulo de Texto em Leitura Ascendente (De baixo para cima) */}
           <div className="flex items-center justify-center h-full">
             <span
-              className="font-['Urbanist'] text-[11px] font-bold text-slate-500 tracking-[0.16em] uppercase whitespace-nowrap"
+              className="font-['Urbanist'] text-[15px] font-bold text-slate-500 tracking-[0.16em] uppercase whitespace-nowrap"
               style={{
                 writingMode: "vertical-rl",
                 transform: "rotate(180deg)",
@@ -335,7 +335,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
             <p className="m-0 font-['Urbanist'] text-[22px] font-bold text-[#0071e3] leading-none">
               59,9%
             </p>
-            <p className="m-0 mt-0.5 font-['Satoshi'] text-[11px] font-semibold text-slate-500 uppercase tracking-wide">
+            <p className="m-0 mt-0.5 font-['Satoshi'] text-[15px] font-semibold text-slate-500 uppercase tracking-wide">
               universal
             </p>
           </div>
@@ -351,7 +351,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
             <p className="m-0 font-['Urbanist'] text-[22px] font-bold text-[#0071e3] leading-none">
               32,3%
             </p>
-            <p className="m-0 mt-0.5 font-['Satoshi'] text-[11px] font-semibold text-slate-500 uppercase tracking-wide">
+            <p className="m-0 mt-0.5 font-['Satoshi'] text-[15px] font-semibold text-slate-500 uppercase tracking-wide">
               targeted
             </p>
           </div>
@@ -367,13 +367,13 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
             <p className="m-0 font-['Urbanist'] text-[22px] font-bold text-[#0071e3] leading-none">
               7,8%
             </p>
-            <p className="m-0 mt-0.5 font-['Satoshi'] text-[11px] font-semibold text-slate-500 uppercase tracking-wide">
+            <p className="m-0 mt-0.5 font-['Satoshi'] text-[15px] font-semibold text-slate-500 uppercase tracking-wide">
               clinical
             </p>
           </div>
 
           {/* PAT-CV Note */}
-          <p className="m-0 flex-1 font-['Satoshi'] text-[11px] leading-snug text-slate-500 pl-3 border-l border-slate-200">
+          <p className="m-0 flex-1 font-['Satoshi'] text-[15px] leading-snug text-slate-500 pl-3 border-l border-slate-200">
             <strong className="text-slate-700">PAT-CV</strong> · 242 cuidadores e 217 crianças, 1 mês–17 anos. Amostra de validação — α = 0,86 · teste-reteste r = 0,77.
           </p>
         </div>
@@ -422,7 +422,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
           </div>
 
           {/* Síntese Clínica de Fechamento */}
-          <p className="text-[12px] text-slate-300 leading-relaxed font-normal mt-1.5 pt-1.5 border-t border-white/10">
+          <p className="text-[16px] text-slate-300 leading-relaxed font-normal mt-1.5 pt-1.5 border-t border-white/10">
             Um bom protocolo não avalia profundamente todo mundo: <strong className="text-white font-semibold">garante que ninguém com necessidade relevante passe despercebido.</strong>
           </p>
 

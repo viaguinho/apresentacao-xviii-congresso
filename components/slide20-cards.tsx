@@ -39,14 +39,14 @@ export default function Slide20Cards({ isActive = true, className }: Slide20Card
             <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-[#8c3e27] bg-[#b5563a]/[0.10] px-2.5 py-0.5 rounded-full border border-[#b5563a]/25 font-['Urbanist',sans-serif]">
               Riddell et al. (2024) · Meta-análise
             </span>
-            <span className="text-[11px] font-semibold text-[#5f6062]">
+            <span className="text-[15px] font-semibold text-[#5f6062]">
               129 estudos · N = 31.101
             </span>
           </div>
           <h4 className="text-[17px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight">
             Reconhecimento Emocional na Infância
           </h4>
-          <p className="text-[11px] text-[#5f6062] mt-0.5">
+          <p className="text-[15px] text-[#5f6062] mt-0.5">
             Acurácia progressiva no reconhecimento de expressões faciais entre 2 e 12 anos:
           </p>
         </div>
@@ -77,9 +77,9 @@ export default function Slide20Cards({ isActive = true, className }: Slide20Card
             <line x1="45" y1="15" x2="45" y2="125" stroke="#cbd5e1" strokeWidth="1.4" />
             <line x1="45" y1="125" x2="550" y2="125" stroke="#cbd5e1" strokeWidth="1.4" />
 
-            <text x="50" y="145" fontFamily="'Urbanist', sans-serif" fontSize="13" fontWeight="700" fill="#8c3e27">2 anos</text>
-            <text x="280" y="145" textAnchor="middle" fontFamily="'Urbanist', sans-serif" fontSize="12" fontWeight="600" fill="#71717a">6 anos</text>
-            <text x="545" y="145" textAnchor="end" fontFamily="'Urbanist', sans-serif" fontSize="13" fontWeight="700" fill="#8c3e27">12 anos</text>
+            <text x="50" y="145" fontFamily="'Urbanist', sans-serif" fontSize="15" fontWeight="700" fill="#8c3e27">2 anos</text>
+            <text x="280" y="145" textAnchor="middle" fontFamily="'Urbanist', sans-serif" fontSize="16" fontWeight="600" fill="#71717a">6 anos</text>
+            <text x="545" y="145" textAnchor="end" fontFamily="'Urbanist', sans-serif" fontSize="15" fontWeight="700" fill="#8c3e27">12 anos</text>
 
             {/* Área e Linha da Curva */}
             <path d="M50,118 C160,95 270,60 380,38 C440,28 490,24 545,20 L545,125 L50,125 Z" fill="url(#slide20CardArea)" />
@@ -104,19 +104,19 @@ export default function Slide20Cards({ isActive = true, className }: Slide20Card
         <div className="grid grid-cols-2 gap-2 my-1">
           <div className="p-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]">
             <span className="text-[10px] font-bold uppercase tracking-wider text-emerald-700 block">Felicidade</span>
-            <p className="text-[11px] text-[#5f6062] mt-0.5 leading-snug">
+            <p className="text-[15px] text-[#5f6062] mt-0.5 leading-snug">
               Mais precocemente e facilmente reconhecida.
             </p>
           </div>
           <div className="p-2 rounded-xl bg-[#f8f9fa] border border-black/[0.04]">
             <span className="text-[10px] font-bold uppercase tracking-wider text-amber-700 block">Medo e Nojo</span>
-            <p className="text-[11px] text-[#5f6062] mt-0.5 leading-snug">
+            <p className="text-[15px] text-[#5f6062] mt-0.5 leading-snug">
               Entre as mais tardias e difíceis de discriminar.
             </p>
           </div>
         </div>
 
-        <p className="text-[11px] text-[#6a6b6d] italic m-0 pt-1.5 border-t border-black/[0.05] flex items-center justify-between">
+        <p className="text-[15px] text-[#6a6b6d] italic m-0 pt-1.5 border-t border-black/[0.05] flex items-center justify-between">
           <span>129 estudos sintetizados</span>
           <span className="font-semibold text-[#8c3e27]">Acurácia melhora de 2 a 12 anos</span>
         </p>
@@ -159,8 +159,8 @@ export default function Slide20Cards({ isActive = true, className }: Slide20Card
                 key={dom.label}
                 className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-zinc-900/90 border border-zinc-800 hover:border-[#b5563a]/40 transition-colors"
               >
-                <Icon className="w-3 h-3 text-[#cf6647] shrink-0" />
-                <span className="text-[11px] font-semibold text-zinc-200">{dom.label}</span>
+                <Icon className="w-4 h-4 text-[#cf6647] shrink-0" />
+                <span className="text-[15px] font-semibold text-zinc-200">{dom.label}</span>
               </div>
             );
           })}
@@ -168,15 +168,15 @@ export default function Slide20Cards({ isActive = true, className }: Slide20Card
 
         {/* Bloco de Destaque com o Axioma Regulatório */}
         <div className="p-3 bg-zinc-900/95 rounded-2xl border border-zinc-800/90 flex items-start gap-2.5 relative z-10 my-1">
-          <Sliders className="w-4 h-4 text-[#cf6647] shrink-0 mt-0.5" />
-          <p className="text-xs text-zinc-200 leading-relaxed m-0 font-normal">
+          <Sliders className="w-5 h-5 text-[#cf6647] shrink-0 mt-0.5" />
+          <p className="text-sm text-zinc-200 leading-relaxed m-0 font-normal">
             Regular emoções exige mais do que controlar-se: é reconhecer o que está acontecendo, atribuir significado e selecionar uma resposta adequada ao contexto.
           </p>
         </div>
 
         <div className="flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10">
-          <span className="text-xs font-semibold text-zinc-400">Processo integrado:</span>
-          <span className="text-xs font-bold text-[#f8d7ce] bg-[#b5563a]/20 px-2.5 py-0.5 rounded-full border border-[#b5563a]/30">
+          <span className="text-sm font-semibold text-zinc-400">Processo integrado:</span>
+          <span className="text-sm font-bold text-[#f8d7ce] bg-[#b5563a]/20 px-2.5 py-0.5 rounded-full border border-[#b5563a]/30">
             Perceber ↔ Compreender ↔ Regular
           </span>
         </div>

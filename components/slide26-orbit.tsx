@@ -29,7 +29,7 @@ export default function Slide26Orbit({ isActive = true }: Slide26OrbitProps) {
         <span className="font-['Urbanist',sans-serif] text-[12.5px] font-bold tracking-[0.06em] text-[#0f1012] leading-tight text-center">
           PARTICIPAÇÃO
         </span>
-        <span className="font-['Urbanist',sans-serif] text-[12px] font-bold tracking-[0.06em] text-[#0071e3] leading-tight text-center">
+        <span className="font-['Urbanist',sans-serif] text-[16px] font-bold tracking-[0.06em] text-[#0071e3] leading-tight text-center">
           SOCIAL
         </span>
       </motion.div>
@@ -46,9 +46,9 @@ export default function Slide26Orbit({ isActive = true }: Slide26OrbitProps) {
       >
         <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-            <MessageSquare className="w-3 h-3" />
+            <MessageSquare className="w-4 h-4" />
           </div>
-          <span className="text-[12px] font-semibold text-[#0f1012] whitespace-nowrap">
+          <span className="text-[16px] font-semibold text-[#0f1012] whitespace-nowrap">
             fala e comunicação
           </span>
         </div>
@@ -64,9 +64,9 @@ export default function Slide26Orbit({ isActive = true }: Slide26OrbitProps) {
       >
         <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-            <BrainCircuit className="w-3 h-3" />
+            <BrainCircuit className="w-4 h-4" />
           </div>
-          <span className="text-[12px] font-semibold text-[#0f1012] whitespace-nowrap">
+          <span className="text-[16px] font-semibold text-[#0f1012] whitespace-nowrap">
             competências sociais
           </span>
         </div>
@@ -82,9 +82,9 @@ export default function Slide26Orbit({ isActive = true }: Slide26OrbitProps) {
       >
         <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-            <Sparkles className="w-3 h-3" />
+            <Sparkles className="w-4 h-4" />
           </div>
-          <span className="text-[12px] font-semibold text-[#0f1012] whitespace-nowrap">
+          <span className="text-[16px] font-semibold text-[#0f1012] whitespace-nowrap">
             aparência
           </span>
         </div>
@@ -102,7 +102,7 @@ export default function Slide26Orbit({ isActive = true }: Slide26OrbitProps) {
       >
         <div className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-            <Users className="w-3 h-3" />
+            <Users className="w-4 h-4" />
           </div>
           <span className="text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap">
             pares
@@ -121,7 +121,7 @@ export default function Slide26Orbit({ isActive = true }: Slide26OrbitProps) {
       >
         <div className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-            <History className="w-3 h-3" />
+            <History className="w-4 h-4" />
           </div>
           <span className="text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap">
             experiências
@@ -140,7 +140,7 @@ export default function Slide26Orbit({ isActive = true }: Slide26OrbitProps) {
       >
         <div className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-            <Globe className="w-3 h-3" />
+            <Globe className="w-4 h-4" />
           </div>
           <span className="text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap">
             contexto

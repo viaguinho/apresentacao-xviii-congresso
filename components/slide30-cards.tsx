@@ -74,7 +74,7 @@ export default function Slide30Cards({ isActive = true, className }: Slide30Card
 
             <div className="flex items-center gap-1.5">
               <span className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider bg-[#8a2f3f]/10 text-[#8a2f3f] border border-[#8a2f3f]/20">
-                <BookmarkCheck className="w-3 h-3 text-[#8a2f3f]" />
+                <BookmarkCheck className="w-4 h-4 text-[#8a2f3f]" />
                 Evidência Empírica Multicêntrica
               </span>
             </div>
@@ -98,12 +98,12 @@ export default function Slide30Cards({ isActive = true, className }: Slide30Card
 
           {/* Bottom Callout: Key Clinical Takeaway */}
           <div className="mt-3 pt-2.5 border-t border-[#8a2f3f]/10 flex items-center justify-between">
-            <div className="flex items-center gap-1.5 text-[11px] font-semibold text-[#6b585c]">
+            <div className="flex items-center gap-1.5 text-[15px] font-semibold text-[#6b585c]">
               <span>Faixa Normativa:</span>
               <span className="text-[#1a1113] font-bold">Coesão & Expressividade</span>
             </div>
 
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#8a2f3f] text-white text-[11px] font-bold shadow-xs hover:bg-[#6b212f] transition-colors">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#8a2f3f] text-white text-[15px] font-bold shadow-xs hover:bg-[#6b212f] transition-colors">
               <Scale className="w-3.5 h-3.5" />
               <span>Necessidade de cuidado adicional ≠ família disfuncional</span>
             </div>
@@ -154,7 +154,7 @@ export default function Slide30Cards({ isActive = true, className }: Slide30Card
             </div>
             <ul className="space-y-1.5">
               {protectionFactors.map((factor, idx) => (
-                <li key={idx} className="flex items-start gap-1.5 text-[11px] text-zinc-300 leading-snug">
+                <li key={idx} className="flex items-start gap-1.5 text-[15px] text-zinc-300 leading-snug">
                   <span className="w-1 h-1 rounded-full bg-emerald-400 mt-1.5 shrink-0" />
                   <span>{factor}</span>
                 </li>
@@ -172,7 +172,7 @@ export default function Slide30Cards({ isActive = true, className }: Slide30Card
             </div>
             <ul className="space-y-1.5">
               {vulnerabilityFactors.map((factor, idx) => (
-                <li key={idx} className="flex items-start gap-1.5 text-[11px] text-zinc-300 leading-snug">
+                <li key={idx} className="flex items-start gap-1.5 text-[15px] text-zinc-300 leading-snug">
                   <span className="w-1 h-1 rounded-full bg-amber-400 mt-1.5 shrink-0" />
                   <span>{factor}</span>
                 </li>
@@ -201,10 +201,10 @@ export default function Slide30Cards({ isActive = true, className }: Slide30Card
           </div>
 
           <div className="p-2.5 rounded-xl bg-gradient-to-r from-[#8a2f3f]/25 to-transparent border border-[#8a2f3f]/30 flex items-center justify-between">
-            <p className="text-[12px] font-semibold text-zinc-100 leading-snug">
+            <p className="text-[16px] font-semibold text-zinc-100 leading-snug">
               Ao avaliar a criança, avaliar também o sistema que sustenta sua trajetória.
             </p>
-            <Sparkles className="w-4 h-4 text-[#e88d9d] shrink-0 ml-2" />
+            <Sparkles className="w-5 h-5 text-[#e88d9d] shrink-0 ml-2" />
           </div>
         </div>
       </motion.div>

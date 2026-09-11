@@ -78,7 +78,7 @@ export default function Slide17Cards({ isActive = true, className }: Slide17Card
 
             <div className="flex items-center gap-1.5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-[#0071e3]/10 text-[#0071e3] border border-[#0071e3]/20">
-                <Sparkles className="w-3 h-3 text-[#0071e3]" />
+                <Sparkles className="w-4 h-4 text-[#0071e3]" />
                 Modelo Interativo Não-Linear
               </span>
             </div>
@@ -90,7 +90,7 @@ export default function Slide17Cards({ isActive = true, className }: Slide17Card
               <h3 className="text-[21px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
                 Desempenho Observado em Contexto
               </h3>
-              <p className="text-[12px] font-semibold text-[#0071e3] mt-0.5">
+              <p className="text-[16px] font-semibold text-[#0071e3] mt-0.5">
                 Superação do modelo dual simplificado · Interação dinâmica multifatorial
               </p>
             </div>
@@ -106,24 +106,24 @@ export default function Slide17Cards({ isActive = true, className }: Slide17Card
                     <motion.div
                       whileHover={{ y: -1, scale: 1.02 }}
                       className={cn(
-                        "px-2.5 py-1 rounded-xl text-[11px] font-semibold border transition-all duration-200 cursor-default flex items-center gap-1.5 shadow-2xs",
+                        "px-2.5 py-1 rounded-xl text-[15px] font-semibold border transition-all duration-200 cursor-default flex items-center gap-1.5 shadow-2xs",
                         factor.accent
                       )}
                     >
-                      <factor.icon className="w-3 h-3 shrink-0" />
+                      <factor.icon className="w-4 h-4 shrink-0" />
                       <span>{factor.label}</span>
                     </motion.div>
                     {i < formulaFactors.length - 1 && (
-                      <span className="text-[12px] font-bold text-[#0071e3]/70 select-none">×</span>
+                      <span className="text-[16px] font-bold text-[#0071e3]/70 select-none">×</span>
                     )}
                   </React.Fragment>
                 ))}
-                <span className="text-[12px] font-bold text-[#0071e3] ml-0.5 select-none">→</span>
+                <span className="text-[16px] font-bold text-[#0071e3] ml-0.5 select-none">→</span>
                 <motion.div
                   whileHover={{ y: -1, scale: 1.02 }}
-                  className="px-2.5 py-1 rounded-xl text-[11px] font-bold bg-[#0071e3] text-white shadow-xs flex items-center gap-1"
+                  className="px-2.5 py-1 rounded-xl text-[15px] font-bold bg-[#0071e3] text-white shadow-xs flex items-center gap-1"
                 >
-                  <CheckCircle2 className="w-3 h-3" />
+                  <CheckCircle2 className="w-4 h-4" />
                   <span>Decisão Observada</span>
                 </motion.div>
               </div>
@@ -136,12 +136,12 @@ export default function Slide17Cards({ isActive = true, className }: Slide17Card
 
           {/* Bottom Section: Principle Highlight & Action Pill */}
           <div className="mt-3 pt-2.5 border-t border-black/[0.06] flex items-center justify-between">
-            <div className="flex items-center gap-1.5 text-[11px] font-semibold text-zinc-500">
+            <div className="flex items-center gap-1.5 text-[15px] font-semibold text-zinc-500">
               <span>Fundamento:</span>
               <span className="text-[#0f1012] font-bold">Heterogeneidade Real</span>
             </div>
 
-            <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#0071e3] text-white text-[11px] font-bold shadow-xs hover:bg-[#0071e3]/90 transition-colors">
+            <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#0071e3] text-white text-[15px] font-bold shadow-xs hover:bg-[#0071e3]/90 transition-colors">
               <span>Decisão Real ≠ Teste Isolado</span>
             </div>
           </div>
@@ -175,7 +175,7 @@ export default function Slide17Cards({ isActive = true, className }: Slide17Card
 
             <div className="flex items-center gap-1.5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-cyan-500/10 text-cyan-300 border border-cyan-500/25">
-                <CheckCircle2 className="w-3 h-3 text-cyan-400" />
+                <CheckCircle2 className="w-4 h-4 text-cyan-400" />
                 Weil et al. (2013) · 11–41 anos
               </span>
             </div>
@@ -187,7 +187,7 @@ export default function Slide17Cards({ isActive = true, className }: Slide17Card
               <h3 className="text-[21px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]">
                 Refinamento da Acurácia Metacognitiva
               </h3>
-              <p className="text-[12px] font-semibold text-cyan-400 mt-0.5">
+              <p className="text-[16px] font-semibold text-cyan-400 mt-0.5">
                 Dissociação desenvolvimental entre capacidade perceptual básica e autoavaliação
               </p>
             </div>
@@ -235,12 +235,12 @@ export default function Slide17Cards({ isActive = true, className }: Slide17Card
 
           {/* Bottom Section: Principle Highlight & Action Pill */}
           <div className="mt-3 pt-2.5 border-t border-white/10 flex items-center justify-between">
-            <div className="flex items-center gap-1.5 text-[11px] font-semibold text-zinc-400">
+            <div className="flex items-center gap-1.5 text-[15px] font-semibold text-zinc-400">
               <span>Síntese:</span>
               <span className="text-white font-bold">Nem incapaz, nem pronto</span>
             </div>
 
-            <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-amber-400/15 text-amber-300 border border-amber-400/30 text-[11px] font-bold shadow-xs hover:bg-amber-400/25 transition-colors">
+            <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-amber-400/15 text-amber-300 border border-amber-400/30 text-[15px] font-bold shadow-xs hover:bg-amber-400/25 transition-colors">
               <span>Eficiência em Construção</span>
             </div>
           </div>

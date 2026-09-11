@@ -46,7 +46,7 @@ export default function Slide27Orbit({ isActive = true }: Slide27OrbitProps) {
       >
         <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-            <Activity className="w-3 h-3" />
+            <Activity className="w-4 h-4" />
           </div>
           <span className="text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap">
             função
@@ -64,7 +64,7 @@ export default function Slide27Orbit({ isActive = true }: Slide27OrbitProps) {
       >
         <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-            <Layers className="w-3 h-3" />
+            <Layers className="w-4 h-4" />
           </div>
           <span className="text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap">
             condições associadas
@@ -84,7 +84,7 @@ export default function Slide27Orbit({ isActive = true }: Slide27OrbitProps) {
       >
         <div className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-            <Eye className="w-3 h-3" />
+            <Eye className="w-4 h-4" />
           </div>
           <span className="text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap">
             morfologia e visibilidade
@@ -103,7 +103,7 @@ export default function Slide27Orbit({ isActive = true }: Slide27OrbitProps) {
       >
         <div className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-            <Stethoscope className="w-3 h-3" />
+            <Stethoscope className="w-4 h-4" />
           </div>
           <span className="text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap">
             trajetória de tratamento
@@ -122,7 +122,7 @@ export default function Slide27Orbit({ isActive = true }: Slide27OrbitProps) {
       >
         <div className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-            <Compass className="w-3 h-3" />
+            <Compass className="w-4 h-4" />
           </div>
           <span className="text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap">
             contexto

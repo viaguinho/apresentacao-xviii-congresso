@@ -127,10 +127,10 @@ const SlideCardShell: React.FC<CardProps> = ({
     >
       {/* Header com altura padronizada para alinhamento perfeito entre os cards */}
       <div className="pt-6 px-7 pb-4 border-b border-black/[0.04] dark:border-white/[0.04] bg-gradient-to-b from-blue-50/40 to-transparent dark:from-blue-950/20 min-h-[105px] flex flex-col justify-center">
-        <h3 className="text-[25px] font-bold tracking-tight text-[#0f1012] dark:text-white leading-tight">
+        <h3 className="text-[28px] font-bold tracking-tight text-[#0f1012] dark:text-white leading-tight">
           {title}
         </h3>
-        <p className="text-[14px] text-[#5f6062] dark:text-gray-400 mt-1.5 line-clamp-2 leading-relaxed font-sans">
+        <p className="text-[16px] text-[#5f6062] dark:text-gray-600 mt-1.5 line-clamp-2 leading-relaxed font-sans">
           {subtitle}
         </p>
       </div>
@@ -144,7 +144,7 @@ const SlideCardShell: React.FC<CardProps> = ({
                 className="w-2.5 h-2.5 rounded-full ring-1 ring-black/10"
                 style={{ backgroundColor: item.color }}
               />
-              <span className="text-gray-500 dark:text-gray-400 text-[11px] font-medium tracking-wide">
+              <span className="text-gray-700 dark:text-gray-600 text-[15px] font-medium tracking-wide">
                 {item.name}
               </span>
             </div>
@@ -155,7 +155,7 @@ const SlideCardShell: React.FC<CardProps> = ({
       )}
 
       {/* Center Visual / Graph Area */}
-      <div className="relative w-full flex-1 min-h-[255px] px-4 flex items-center justify-center overflow-hidden">
+      <div className="relative w-full flex-1 min-h-[275px] px-4 flex items-center justify-center overflow-hidden">
         {children}
       </div>
 
@@ -169,14 +169,14 @@ const SlideCardShell: React.FC<CardProps> = ({
             transition={{ delay: metric.delay }}
             className="flex w-full py-2.5 items-center justify-between gap-3"
           >
-            <div className="flex flex-row gap-2.5 items-center text-[13px] font-sans text-[#5f6062] dark:text-gray-300 truncate">
+            <div className="flex flex-row gap-2.5 items-center text-[15px] font-sans text-[#5f6062] dark:text-gray-300 truncate">
               <metric.Icon className="w-[18px] h-[18px] flex-none" />
               <span className="truncate font-medium" title={metric.tooltip}>
                 {metric.label}
               </span>
             </div>
             <div className="flex justify-end items-center flex-none">
-              <span className="font-bold text-[14.5px] tracking-tight text-[#0f1012] dark:text-white">
+              <span className="font-bold text-[16.5px] tracking-tight text-[#0f1012] dark:text-white">
                 {metric.value}
               </span>
             </div>
@@ -281,7 +281,7 @@ export const Slide5ConceptCards: React.FC = () => {
         metrics={multidimensionalMetrics}
         delay={0.05}
       >
-        <div className="w-full h-full min-h-[265px] flex items-center justify-center p-1">
+        <div className="w-full h-full min-h-[285px] flex items-center justify-center p-1">
           <svg viewBox="0 0 460 265" className="w-full h-full overflow-visible" aria-label="Diagrama radial multidimensional do desenvolvimento">
             <defs>
               <filter id="nodeShadow" x="-20%" y="-20%" width="140%" height="140%">
@@ -334,7 +334,7 @@ export const Slide5ConceptCards: React.FC = () => {
                 <path d="M12 14v-1.5a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3V14" fill="none" stroke="#0071e3" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
                 <circle cx="8" cy="4.5" r="2.8" fill="none" stroke="#0071e3" strokeWidth="1.8" />
               </g>
-              <text x="230" y="162" textAnchor="middle" fontFamily="'Urbanist', sans-serif" fontSize="11" fontWeight="800" fill="#0f1012" letterSpacing="0.08em">
+              <text x="230" y="162" textAnchor="middle" fontFamily="'Urbanist', sans-serif" fontSize="15" fontWeight="800" fill="#0f1012" letterSpacing="0.08em">
                 CRIANÇA
               </text>
             </g>
@@ -350,7 +350,7 @@ export const Slide5ConceptCards: React.FC = () => {
                 <path d="M9 3v11" stroke="#0071e3" strokeWidth="1.6" />
               </g>
             </g>
-            <text x="230" y="22" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="13.5" fontWeight="600" fill="#0f1012">
+            <text x="230" y="22" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="15.5" fontWeight="600" fill="#0f1012">
               cognição
             </text>
 
@@ -372,7 +372,7 @@ export const Slide5ConceptCards: React.FC = () => {
                 <line x1="6.5" y1="10.5" x2="11.5" y2="10.5" stroke="#5B14C5" strokeWidth="1.5" strokeLinecap="round" />
               </g>
             </g>
-            <text x="384" y="99" textAnchor="start" fontFamily="'Satoshi', sans-serif" fontSize="13.5" fontWeight="600" fill="#0f1012">
+            <text x="384" y="99" textAnchor="start" fontFamily="'Satoshi', sans-serif" fontSize="15.5" fontWeight="600" fill="#0f1012">
               linguagem
             </text>
 
@@ -383,7 +383,7 @@ export const Slide5ConceptCards: React.FC = () => {
                 <path d="M15 11c1.2-1.2 2.4-2.6 2.4-4.4A4.4 4.4 0 0 0 13 2.4c-1.4 0-2.4.4-3.6 1.6-1.2-1.2-2.2-1.6-3.6-1.6A4.4 4.4 0 0 0 2.2 6.8c0 1.8 1.2 3.2 2.4 4.4L10 16.5Z" fill="none" stroke="#E84045" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
               </g>
             </g>
-            <text x="325" y="249" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="13.5" fontWeight="600" fill="#0f1012">
+            <text x="325" y="249" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="15.5" fontWeight="600" fill="#0f1012">
               emoções
             </text>
 
@@ -394,7 +394,7 @@ export const Slide5ConceptCards: React.FC = () => {
                 <path d="M17 9h-3l-2.5 7.5L7.5 2 5 9H1" fill="none" stroke="#0f1012" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
               </g>
             </g>
-            <text x="135" y="249" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="13.5" fontWeight="600" fill="#0f1012">
+            <text x="135" y="249" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="15.5" fontWeight="600" fill="#0f1012">
               comportamento
             </text>
 
@@ -408,7 +408,7 @@ export const Slide5ConceptCards: React.FC = () => {
                 <path d="M12.5 2.6a3 3 0 0 1 0 5.8" fill="none" stroke="#40E5D1" strokeWidth="1.6" />
               </g>
             </g>
-            <text x="76" y="99" textAnchor="end" fontFamily="'Satoshi', sans-serif" fontSize="13.5" fontWeight="600" fill="#0f1012">
+            <text x="76" y="99" textAnchor="end" fontFamily="'Satoshi', sans-serif" fontSize="15.5" fontWeight="600" fill="#0f1012">
               hab. sociais
             </text>
           </svg>
@@ -448,10 +448,10 @@ export const Slide5ConceptCards: React.FC = () => {
             <line x1="70" y1="30" x2="70" y2="205" stroke="#9A9AAF" strokeWidth="1.5" />
             <line x1="65" y1="205" x2="470" y2="205" stroke="#9A9AAF" strokeWidth="1.5" />
 
-            <text x="270" y="232" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="13" fill="#5f6062" fontWeight="500">
+            <text x="270" y="232" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="15" fill="#5f6062" fontWeight="500">
               tempo (anos)
             </text>
-            <text x="24" y="115" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="13" fill="#5f6062" fontWeight="500" transform="rotate(-90 24 115)">
+            <text x="24" y="115" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="15" fill="#5f6062" fontWeight="500" transform="rotate(-90 24 115)">
               competências
             </text>
 
@@ -470,19 +470,19 @@ export const Slide5ConceptCards: React.FC = () => {
 
             <circle cx="150" cy="140" r="5" fill="#0071e3" />
             <circle cx="150" cy="140" r="10" fill="#0071e3" fillOpacity="0.15" />
-            <text x="145" y="125" fontFamily="'Satoshi', sans-serif" fontSize="12" fontWeight="600" fill="#0071e3">
+            <text x="145" y="125" fontFamily="'Satoshi', sans-serif" fontSize="16" fontWeight="600" fill="#0071e3">
               aceleração
             </text>
 
             <circle cx="275" cy="82" r="5" fill="#5B14C5" />
             <circle cx="275" cy="82" r="10" fill="#5B14C5" fillOpacity="0.15" />
-            <text x="275" y="66" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="12" fontWeight="600" fill="#5B14C5">
+            <text x="275" y="66" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="16" fontWeight="600" fill="#5B14C5">
               platô
             </text>
 
             <circle cx="465" cy="36" r="5" fill="#40E5D1" />
             <circle cx="465" cy="36" r="10" fill="#40E5D1" fillOpacity="0.2" />
-            <text x="460" y="24" textAnchor="end" fontFamily="'Satoshi', sans-serif" fontSize="12" fontWeight="600" fill="#028071">
+            <text x="460" y="24" textAnchor="end" fontFamily="'Satoshi', sans-serif" fontSize="16" fontWeight="600" fill="#028071">
               reorganização
             </text>
           </svg>
@@ -522,10 +522,10 @@ export const Slide5ConceptCards: React.FC = () => {
             <line x1="70" y1="30" x2="70" y2="205" stroke="#9A9AAF" strokeWidth="1.5" />
             <line x1="65" y1="205" x2="470" y2="205" stroke="#9A9AAF" strokeWidth="1.5" />
 
-            <text x="270" y="232" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="13" fill="#5f6062" fontWeight="500">
+            <text x="270" y="232" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="15" fill="#5f6062" fontWeight="500">
               tempo (anos)
             </text>
-            <text x="24" y="115" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="13" fill="#5f6062" fontWeight="500" transform="rotate(-90 24 115)">
+            <text x="24" y="115" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="15" fill="#5f6062" fontWeight="500" transform="rotate(-90 24 115)">
               competências
             </text>
 
@@ -575,7 +575,7 @@ export const Slide5ConceptCards: React.FC = () => {
 
             <circle cx="70" cy="198" r="7" fill="#0071e3" />
             <circle cx="70" cy="198" r="13" fill="#0071e3" fillOpacity="0.2" />
-            <text x="80" y="218" fontFamily="'Satoshi', sans-serif" fontSize="11" fontWeight="700" fill="#0071e3">
+            <text x="80" y="218" fontFamily="'Satoshi', sans-serif" fontSize="15" fontWeight="700" fill="#0071e3">
               origem comum
             </text>
           </svg>

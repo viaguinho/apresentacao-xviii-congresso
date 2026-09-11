@@ -24,10 +24,10 @@ export default function Slide10Plasticity({ isActive = true }: Slide10Plasticity
           <div>
             {/* Header com Tag Apple */}
             <div className="flex items-center justify-between mb-2">
-              <span className="text-[11px] font-bold uppercase tracking-[0.16em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0071e3]/20">
+              <span className="text-[15px] font-bold uppercase tracking-[0.16em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0071e3]/20">
                 A plasticidade muda com o tempo
               </span>
-              <span className="text-xs font-semibold text-[#5f6062]">
+              <span className="text-sm font-semibold text-[#5f6062]">
                 Knudsen (2004) · Gabard-Durnam & McLaughlin (2019)
               </span>
             </div>
@@ -154,7 +154,7 @@ export default function Slide10Plasticity({ isActive = true }: Slide10Plasticity
               {/* Destaque Plasticidade Residual Evidente */}
               <g transform="translate(710, 276)">
                 <rect x="-135" y="-18" width="270" height="24" rx="5" fill="#f2f2f4" stroke="#c9cacc" strokeWidth="1" />
-                <text x="0" y="-1" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="14" fontWeight="600" fill="#5f6062">
+                <text x="0" y="-1" textAnchor="middle" fontFamily="'Satoshi', sans-serif" fontSize="16" fontWeight="600" fill="#5f6062">
                   plasticidade residual evidente
                 </text>
               </g>
@@ -164,12 +164,12 @@ export default function Slide10Plasticity({ isActive = true }: Slide10Plasticity
           {/* Definições Conceituais Exatas do Slide Original */}
           <div className="grid grid-cols-2 gap-4 pt-3 border-t border-black/[0.06]">
             <div className="bg-[#f8f9fa] rounded-2xl p-3.5 border border-black/[0.04]">
-              <p className="m-0 text-[14px] font-normal leading-relaxed text-[#3f4042]">
+              <p className="m-0 text-[16px] font-normal leading-relaxed text-[#3f4042]">
                 <strong className="text-[#0071e3] font-semibold">Crítico:</strong> uma experiência específica é necessária dentro de uma janela temporal mais restrita.
               </p>
             </div>
             <div className="bg-[#f8f9fa] rounded-2xl p-3.5 border border-black/[0.04]">
-              <p className="m-0 text-[14px] font-normal leading-relaxed text-[#3f4042]">
+              <p className="m-0 text-[16px] font-normal leading-relaxed text-[#3f4042]">
                 <strong className="text-[#0f1012] font-semibold">Sensível:</strong> a experiência influencia de modo particularmente intenso numa fase — mas mudanças continuam possíveis depois.
               </p>
             </div>
@@ -190,7 +190,7 @@ export default function Slide10Plasticity({ isActive = true }: Slide10Plasticity
               <p className="text-lg font-semibold font-['Urbanist',sans-serif] tracking-tight text-[#0f1012] m-0 mb-1">
                 Não existe uma única curva de plasticidade
               </p>
-              <p className="text-xs text-[#6a6b6d] m-0 mb-2">
+              <p className="text-sm text-[#6a6b6d] m-0 mb-2">
                 Diferentes circuitos e domínios atingem seus picos em fases distintas
               </p>
             </div>
@@ -260,7 +260,7 @@ export default function Slide10Plasticity({ isActive = true }: Slide10Plasticity
               </svg>
             </div>
 
-            <p className="text-[12px] text-[#6a6b6d] m-0 italic pt-1 border-t border-black/[0.05]">
+            <p className="text-[16px] text-[#6a6b6d] m-0 italic pt-1 border-t border-black/[0.05]">
               Esquema conceitual — não representa idades universais.
             </p>
           </motion.div>
@@ -273,14 +273,14 @@ export default function Slide10Plasticity({ isActive = true }: Slide10Plasticity
             className="rounded-3xl p-5 bg-[#e8f2fc] border border-[#0071e3]/20 shadow-[0_4px_16px_rgba(0,113,227,0.06)]"
           >
             <div className="flex items-center justify-between mb-1.5">
-              <span className="text-[11px] font-bold uppercase tracking-[0.14em] text-[#0071e3]">
+              <span className="text-[15px] font-bold uppercase tracking-[0.14em] text-[#0071e3]">
                 Plasticidade significa
               </span>
               <span className="text-[10px] font-bold text-[#0071e3] bg-white/70 px-2 py-0.5 rounded-full border border-[#0071e3]/20">
                 Kolb et al. (2017)
               </span>
             </div>
-            <p className="text-base font-medium text-[#0f1012] leading-snug m-0">
+            <p className="text-lg font-medium text-[#0f1012] leading-snug m-0">
               O impacto da experiência depende de quando ela ocorre, sobre qual sistema atua e do estado desse sistema.
             </p>
           </motion.div>
@@ -307,10 +307,10 @@ export default function Slide10Plasticity({ isActive = true }: Slide10Plasticity
                 Obrigatório
               </span>
             </div>
-            <p className="text-base font-bold text-[#0f1012] tracking-tight">Período Crítico</p>
-            <p className="text-sm font-semibold text-[#0071e3] mt-0.5">Queda Pós-Janela</p>
+            <p className="text-lg font-bold text-[#0f1012] tracking-tight">Período Crítico</p>
+            <p className="text-base font-semibold text-[#0071e3] mt-0.5">Queda Pós-Janela</p>
           </div>
-          <p className="text-[11px] text-[#5f6062] leading-snug mt-2 pt-2 border-t border-black/[0.05]">
+          <p className="text-[15px] text-[#5f6062] leading-snug mt-2 pt-2 border-t border-black/[0.05]">
             Experiência estritamente necessária dentro de janela temporal restrita.
           </p>
         </motion.div>
@@ -331,10 +331,10 @@ export default function Slide10Plasticity({ isActive = true }: Slide10Plasticity
                 Prevalente
               </span>
             </div>
-            <p className="text-base font-bold text-[#0f1012] tracking-tight">Período Sensível</p>
-            <p className="text-sm font-semibold text-emerald-700 mt-0.5">Janela Flexível</p>
+            <p className="text-lg font-bold text-[#0f1012] tracking-tight">Período Sensível</p>
+            <p className="text-base font-semibold text-emerald-700 mt-0.5">Janela Flexível</p>
           </div>
-          <p className="text-[11px] text-[#5f6062] leading-snug mt-2 pt-2 border-t border-black/[0.05]">
+          <p className="text-[15px] text-[#5f6062] leading-snug mt-2 pt-2 border-t border-black/[0.05]">
             Influência intensa em fase específica, mas modificações continuam possíveis depois.
           </p>
         </motion.div>
@@ -355,10 +355,10 @@ export default function Slide10Plasticity({ isActive = true }: Slide10Plasticity
                 Modificável
               </span>
             </div>
-            <p className="text-base font-bold text-[#0f1012] tracking-tight">Capacidade Residual</p>
-            <p className="text-sm font-semibold text-[#0f1012] mt-0.5">Não é Ilimitada</p>
+            <p className="text-lg font-bold text-[#0f1012] tracking-tight">Capacidade Residual</p>
+            <p className="text-base font-semibold text-[#0f1012] mt-0.5">Não é Ilimitada</p>
           </div>
-          <p className="text-[11px] text-[#5f6062] leading-snug mt-2 pt-2 border-t border-black/[0.05]">
+          <p className="text-[15px] text-[#5f6062] leading-snug mt-2 pt-2 border-t border-black/[0.05]">
             O cérebro permanece modificável — mas sua capacidade de mudança não é constante.
           </p>
         </motion.div>
@@ -379,10 +379,10 @@ export default function Slide10Plasticity({ isActive = true }: Slide10Plasticity
                 Foco Prático
               </span>
             </div>
-            <p className="text-base font-bold text-[#0f1012] tracking-tight">O que, quando e como</p>
-            <p className="text-sm font-semibold text-purple-700 mt-0.5">Resposta & Grau</p>
+            <p className="text-lg font-bold text-[#0f1012] tracking-tight">O que, quando e como</p>
+            <p className="text-base font-semibold text-purple-700 mt-0.5">Resposta & Grau</p>
           </div>
-          <p className="text-[11px] text-[#5f6062] leading-snug mt-2 pt-2 border-t border-black/[0.05]">
+          <p className="text-[15px] text-[#5f6062] leading-snug mt-2 pt-2 border-t border-black/[0.05]">
             A clínica indaga o que é plástico, quando, em resposta a quê e em que grau.
           </p>
         </motion.div>

@@ -57,17 +57,17 @@ export function Slide23Timeline({ isActive = true }: Slide23TimelineProps) {
         isActive={isActive}
         className="border-[#6b4e83]/20 bg-gradient-to-br from-white/95 via-[#f1ecf5]/30 to-white/90 shadow-[0_12px_36px_rgba(107,78,131,0.06)]"
       >
-        <div className="flex items-center justify-between px-2 pt-1 text-[13px] text-[#5f6062] font-['Satoshi',sans-serif]">
+        <div className="flex items-center justify-between px-2 pt-1 text-[15px] text-[#5f6062] font-['Satoshi',sans-serif]">
           <div className="flex items-center gap-2">
-            <Users2 className="w-4 h-4 text-[#6b4e83]" />
+            <Users2 className="w-5 h-5 text-[#6b4e83]" />
             <span className="font-medium text-[#0f1012]">
               Trajetória relacional:
             </span>
             <span>Vínculo primário de apego</span>
-            <ArrowRight className="w-3 h-3 text-[#6b4e83]" />
+            <ArrowRight className="w-4 h-4 text-[#6b4e83]" />
             <span>Socialização horizontal com pares de mesma idade</span>
           </div>
-          <span className="text-[12px] font-['Urbanist',sans-serif] font-bold text-[#6b4e83] uppercase tracking-wider bg-[#f1ecf5] px-2.5 py-0.5 rounded-md border border-[#6b4e83]/20">
+          <span className="text-[16px] font-['Urbanist',sans-serif] font-bold text-[#6b4e83] uppercase tracking-wider bg-[#f1ecf5] px-2.5 py-0.5 rounded-md border border-[#6b4e83]/20">
             Módulo 04 · Eixo 4
           </span>
         </div>

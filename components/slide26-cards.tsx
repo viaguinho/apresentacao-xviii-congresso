@@ -22,7 +22,7 @@ export default function Slide26Cards({ isActive = true, className }: Slide26Card
   return (
     <div
       className={cn(
-        "w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[620px] mx-auto my-auto",
+        "w-full h-full flex flex-col justify-center gap-2.5 select-none font-['Satoshi',sans-serif] max-w-[620px] mx-auto my-auto",
         className
       )}
     >
@@ -37,7 +37,7 @@ export default function Slide26Cards({ isActive = true, className }: Slide26Card
           "group relative w-full overflow-hidden rounded-3xl border border-black/[0.08]",
           "bg-gradient-to-br from-white via-[#fcfdff] to-[#f1ecf5]/70",
           "shadow-[0_4px_24px_rgba(107,78,131,0.06)] hover:shadow-[0_12px_36px_rgba(107,78,131,0.12)]",
-          "hover:border-[#6b4e83]/30 transition-all duration-400 ease-out p-5 flex flex-col justify-between"
+          "hover:border-[#6b4e83]/30 transition-all duration-400 ease-out p-4 flex flex-col justify-between"
         )}
       >
         {/* Decorative Gradient Mesh Accent */}
@@ -52,7 +52,7 @@ export default function Slide26Cards({ isActive = true, className }: Slide26Card
 
             <div className="flex items-center gap-1.5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-[#6b4e83]/10 text-[#6b4e83] border border-[#6b4e83]/20">
-                <Sparkles className="w-3 h-3 text-[#6b4e83]" />
+                <Sparkles className="w-4 h-4 text-[#6b4e83]" />
                 n = 661 (fissuras visíveis e não visíveis)
               </span>
             </div>
@@ -64,7 +64,7 @@ export default function Slide26Cards({ isActive = true, className }: Slide26Card
               <h3 className="text-[20px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
                 O Risco Social Está na Interação — Não Apenas na Face
               </h3>
-              <p className="text-[12px] font-semibold text-[#6b4e83] mt-0.5">
+              <p className="text-[16px] font-semibold text-[#6b4e83] mt-0.5">
                 Visibilidade isolada ≠ rejeição imediata · Mediação relacional do estigma
               </p>
             </div>
@@ -92,14 +92,14 @@ export default function Slide26Cards({ isActive = true, className }: Slide26Card
               </div>
             </div>
 
-            <p className="text-[12px] text-[#334155] leading-relaxed font-normal mt-1.5">
+            <p className="text-[16px] text-[#334155] leading-relaxed font-normal mt-1.5">
               Aos 10 anos, a visibilidade isoladamente não se associou a maior insatisfação com aparência nem a assédio. Em adolescentes, <strong className="text-[#0f1012] font-semibold">a associação foi mediada pela experiência de assédio por pares</strong> (Estudo multi-informante, n = 146, 11–17 anos).
             </p>
           </div>
 
           {/* Bottom Section */}
           <div className="mt-2.5 pt-2 border-t border-black/[0.06] flex items-center justify-between">
-            <div className="flex items-center gap-1.5 text-[11px] font-semibold text-zinc-500">
+            <div className="flex items-center gap-1.5 text-[15px] font-semibold text-zinc-500">
               <span>Mecanismo:</span>
               <span className="text-[#0f1012] font-bold">Mediação Interpessoal</span>
             </div>
@@ -122,7 +122,7 @@ export default function Slide26Cards({ isActive = true, className }: Slide26Card
           "group relative w-full overflow-hidden rounded-3xl border border-white/10",
           "bg-[#0f1012] text-white",
           "shadow-[0_6px_28px_rgba(0,0,0,0.14)] hover:shadow-[0_12px_36px_rgba(0,0,0,0.28)]",
-          "hover:border-[#6b4e83]/40 transition-all duration-400 ease-out p-5 flex flex-col justify-between"
+          "hover:border-[#6b4e83]/40 transition-all duration-400 ease-out p-4 flex flex-col justify-between"
         )}
       >
         {/* Ambient Glow */}
@@ -137,7 +137,7 @@ export default function Slide26Cards({ isActive = true, className }: Slide26Card
 
             <div className="flex items-center gap-1.5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-purple-500/10 text-purple-300 border border-purple-500/25">
-                <CheckCircle2 className="w-3 h-3 text-purple-400" />
+                <CheckCircle2 className="w-4 h-4 text-purple-400" />
                 Diretriz do Protocolo de Psicologia
               </span>
             </div>
@@ -149,7 +149,7 @@ export default function Slide26Cards({ isActive = true, className }: Slide26Card
               <h3 className="text-[20px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]">
                 Protocolo Social — Investigar Ativamente em Cada Fase
               </h3>
-              <p className="text-[12px] font-semibold text-purple-300 mt-0.5">
+              <p className="text-[16px] font-semibold text-purple-300 mt-0.5">
                 Não presumir estigma — mas perguntar ativamente e sistematicamente sobre ele
               </p>
             </div>
@@ -170,7 +170,7 @@ export default function Slide26Cards({ isActive = true, className }: Slide26Card
                 ))}
               </div>
 
-              <p className="text-[12px] text-zinc-300 leading-relaxed font-normal mt-2">
+              <p className="text-[16px] text-zinc-300 leading-relaxed font-normal mt-2">
                 Avaliar o ecossistema social da criança é tão crucial quanto o acompanhamento cirúrgico e anatômico: a qualidade das interações e a proteção contra o estigma determinam a trajetória de adaptação.
               </p>
             </div>
@@ -178,7 +178,7 @@ export default function Slide26Cards({ isActive = true, className }: Slide26Card
 
           {/* Bottom Section */}
           <div className="mt-2.5 pt-2 border-t border-white/10 flex items-center justify-between">
-            <div className="flex items-center gap-1.5 text-[11px] font-semibold text-zinc-400">
+            <div className="flex items-center gap-1.5 text-[15px] font-semibold text-zinc-400">
               <span>Conduta:</span>
               <span className="text-white font-bold">Investigação Ativa</span>
             </div>

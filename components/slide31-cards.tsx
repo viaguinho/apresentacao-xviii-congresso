@@ -61,7 +61,7 @@ export default function Slide31Cards({ isActive = true, className }: Slide31Card
               <Stethoscope className="w-3.5 h-3.5 text-zinc-400 shrink-0" />
               <span className="text-[10px] font-bold uppercase tracking-wider text-zinc-400 font-['Urbanist',sans-serif]">Equipe</span>
             </div>
-            <p className="text-[11px] text-zinc-200 leading-snug font-medium m-0">
+            <p className="text-[15px] text-zinc-200 leading-snug font-medium m-0">
               “Qual resultado técnico podemos alcançar?”
             </p>
           </div>
@@ -71,7 +71,7 @@ export default function Slide31Cards({ isActive = true, className }: Slide31Card
               <Users className="w-3.5 h-3.5 text-zinc-400 shrink-0" />
               <span className="text-[10px] font-bold uppercase tracking-wider text-zinc-400 font-['Urbanist',sans-serif]">Família</span>
             </div>
-            <p className="text-[11px] text-zinc-200 leading-snug font-medium m-0">
+            <p className="text-[15px] text-zinc-200 leading-snug font-medium m-0">
               “O que acreditamos ser melhor para o futuro?”
             </p>
           </div>
@@ -81,7 +81,7 @@ export default function Slide31Cards({ isActive = true, className }: Slide31Card
               <User className="w-3.5 h-3.5 text-[#f8a5b2] shrink-0" />
               <span className="text-[10px] font-bold uppercase tracking-wider text-[#f8a5b2] font-['Urbanist',sans-serif]">Adolescente</span>
             </div>
-            <p className="text-[11px] text-white leading-snug font-semibold m-0">
+            <p className="text-[15px] text-white leading-snug font-semibold m-0">
               “O que é realmente importante para mim?”
             </p>
           </div>
@@ -92,8 +92,8 @@ export default function Slide31Cards({ isActive = true, className }: Slide31Card
         </p>
 
         <div className="flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10">
-          <span className="text-xs font-semibold text-zinc-400">Princípio decisório:</span>
-          <span className="text-xs font-bold text-[#f8d7dc] bg-[#8a2f3f]/25 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/35">
+          <span className="text-sm font-semibold text-zinc-400">Princípio decisório:</span>
+          <span className="text-sm font-bold text-[#f8d7dc] bg-[#8a2f3f]/25 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/35">
             Autonomia Crescente ≠ Decidir Sozinho
           </span>
         </div>
@@ -113,7 +113,7 @@ export default function Slide31Cards({ isActive = true, className }: Slide31Card
             <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-[#8a2f3f] bg-[#8a2f3f]/[0.10] px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/25 font-['Urbanist',sans-serif]">
               Atuação Interdisciplinar
             </span>
-            <span className="text-[11px] font-semibold text-[#5f6062]">
+            <span className="text-[15px] font-semibold text-[#5f6062]">
               Esclarecimento Clínico
             </span>
           </div>
@@ -130,7 +130,7 @@ export default function Slide31Cards({ isActive = true, className }: Slide31Card
           {psychologyRoles.map((role) => (
             <span
               key={role}
-              className="px-2.5 py-1 rounded-xl bg-[#f8f9fa] border border-black/[0.06] text-[11px] font-medium text-[#2d2e30]"
+              className="px-2.5 py-1 rounded-xl bg-[#f8f9fa] border border-black/[0.06] text-[15px] font-medium text-[#2d2e30]"
             >
               {role}
             </span>
@@ -144,7 +144,7 @@ export default function Slide31Cards({ isActive = true, className }: Slide31Card
           </p>
         </div>
 
-        <p className="text-[11px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between">
+        <p className="text-[15px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between">
           <span>Desafio do protocolo clínico:</span>
           <span className="font-semibold text-[#8a2f3f]">Saber quando, onde e para quem agir</span>
         </p>

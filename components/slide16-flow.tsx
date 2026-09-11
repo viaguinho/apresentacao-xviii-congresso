@@ -127,7 +127,7 @@ export default function Slide16Flow({ isActive = true, className }: Slide16FlowP
       <div className="relative z-20 flex items-center justify-between pb-3 border-b border-black/[0.05]">
         <div className="flex items-center gap-2.5">
           <div className="w-8 h-8 rounded-xl bg-[#0071e3]/10 border border-[#0071e3]/20 flex items-center justify-center text-[#0071e3]">
-            <GraduationCap className="w-4 h-4" />
+            <GraduationCap className="w-5 h-5" />
           </div>
           <div>
             <div className="flex items-center gap-2">
@@ -148,7 +148,7 @@ export default function Slide16Flow({ isActive = true, className }: Slide16FlowP
           <motion.div
             initial={{ opacity: 0, x: 8 }}
             animate={{ opacity: 1, x: 0 }}
-            className="hidden sm:flex items-center gap-1.5 px-3 py-1 rounded-lg bg-white/90 border border-[#0071e3]/30 shadow-xs text-[11px] font-medium text-[#0071e3]"
+            className="hidden sm:flex items-center gap-1.5 px-3 py-1 rounded-lg bg-white/90 border border-[#0071e3]/30 shadow-xs text-[15px] font-medium text-[#0071e3]"
           >
             <Sparkles className="w-3.5 h-3.5" />
             <span>{activeFunction.evidenceNote}</span>
@@ -263,15 +263,15 @@ export default function Slide16Flow({ isActive = true, className }: Slide16FlowP
                           color: isSelected ? "#ffffff" : fn.color,
                         }}
                       >
-                        <Icon className="w-4 h-4" />
+                        <Icon className="w-5 h-5" />
                       </div>
                       <div>
                         <div className="flex items-center gap-1.5">
-                          <h4 className="font-['Urbanist',sans-serif] text-[14.5px] font-bold text-[#0f1012] leading-tight">
+                          <h4 className="font-['Urbanist',sans-serif] text-[16.5px] font-bold text-[#0f1012] leading-tight">
                             {fn.name}
                           </h4>
                         </div>
-                        <p className="text-[11px] font-medium text-zinc-500 leading-tight">
+                        <p className="text-[15px] font-medium text-zinc-500 leading-tight">
                           {fn.subtitle}
                         </p>
                       </div>
@@ -289,7 +289,7 @@ export default function Slide16Flow({ isActive = true, className }: Slide16FlowP
                     </span>
                   </div>
 
-                  <p className="text-[11px] text-[#475569] mt-2 leading-relaxed">
+                  <p className="text-[15px] text-[#475569] mt-2 leading-relaxed">
                     {fn.role}
                   </p>
 
@@ -332,7 +332,7 @@ export default function Slide16Flow({ isActive = true, className }: Slide16FlowP
               <div className="flex items-center justify-between mb-3 pl-1">
                 <div className="flex items-center gap-2">
                   <div className="w-7 h-7 rounded-lg bg-[#0071e3] text-white flex items-center justify-center shadow-xs">
-                    <GraduationCap className="w-4 h-4" />
+                    <GraduationCap className="w-5 h-5" />
                   </div>
                   <div>
                     <h4 className="font-['Urbanist',sans-serif] text-[16px] font-bold text-[#0f1012] leading-tight">
@@ -378,7 +378,7 @@ export default function Slide16Flow({ isActive = true, className }: Slide16FlowP
                           color: dom.accent,
                         }}
                       >
-                        <Icon className="w-4 h-4" />
+                        <Icon className="w-5 h-5" />
                       </div>
 
                       <div className="flex-1 min-w-0">
@@ -420,10 +420,10 @@ export default function Slide16Flow({ isActive = true, className }: Slide16FlowP
             <ArrowRightLeft className="w-3.5 h-3.5" />
           </div>
           <div className="flex items-center gap-2 flex-wrap">
-            <span className="font-['Urbanist',sans-serif] text-[12px] font-bold uppercase tracking-wider text-[#0071e3]">
+            <span className="font-['Urbanist',sans-serif] text-[16px] font-bold uppercase tracking-wider text-[#0071e3]">
               Relação Bidirecional:
             </span>
-            <span className="text-[12px] text-[#334155] font-medium">
+            <span className="text-[16px] text-[#334155] font-medium">
               Cognição ⇄ Aprendizagem Escolar. A alfabetização e a instrução também refinam e consolidam as redes executivas frontais.
             </span>
           </div>

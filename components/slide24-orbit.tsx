@@ -26,7 +26,7 @@ export default function Slide24Orbit({ isActive = true }: Slide24OrbitProps) {
         <div className="w-9 h-9 rounded-full bg-[#e8f2fc] flex items-center justify-center mb-1 text-[#0071e3] shadow-inner">
           <HeartHandshake className="w-5 h-5 stroke-[2.2]" />
         </div>
-        <span className="font-['Urbanist',sans-serif] text-[13px] font-bold tracking-[0.08em] text-[#0f1012] text-center leading-tight">
+        <span className="font-['Urbanist',sans-serif] text-[15px] font-bold tracking-[0.08em] text-[#0f1012] text-center leading-tight">
           REDE<br />RELACIONAL
         </span>
       </motion.div>
@@ -42,7 +42,7 @@ export default function Slide24Orbit({ isActive = true }: Slide24OrbitProps) {
       >
         <div className="flex flex-col items-start px-3 py-1.5 rounded-2xl bg-white/95 border border-[#0071e3]/25 shadow-[0_3px_14px_rgba(0,113,227,0.08)] backdrop-blur-md cursor-default max-w-[170px]">
           <div className="flex items-center gap-1.5 w-full">
-            <div className="w-4 h-4 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
+            <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
               <UserCheck className="w-2.5 h-2.5 stroke-[2.5]" />
             </div>
             <span className="text-[12.5px] font-bold text-[#0071e3] leading-none whitespace-nowrap">
@@ -68,7 +68,7 @@ export default function Slide24Orbit({ isActive = true }: Slide24OrbitProps) {
       >
         <div className="flex flex-col items-start px-3 py-1.5 rounded-2xl bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default max-w-[210px]">
           <div className="flex items-center gap-1.5 w-full">
-            <div className="w-4 h-4 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
+            <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
               <Users className="w-2.5 h-2.5 stroke-[2.5]" />
             </div>
             <span className="text-[12.5px] font-bold text-[#0f1012] leading-none whitespace-nowrap">
@@ -92,7 +92,7 @@ export default function Slide24Orbit({ isActive = true }: Slide24OrbitProps) {
       >
         <div className="flex flex-col items-start px-3.5 py-2 rounded-2xl bg-white/95 border border-black/[0.08] shadow-[0_6px_20px_rgba(0,0,0,0.07)] backdrop-blur-md cursor-default max-w-[260px]">
           <div className="flex items-center gap-1.5 w-full">
-            <div className="w-4 h-4 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
+            <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
               <ShieldCheck className="w-2.5 h-2.5 stroke-[2.5]" />
             </div>
             <span className="text-[12.5px] font-bold text-[#0f1012] leading-none whitespace-nowrap">

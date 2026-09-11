@@ -81,7 +81,7 @@ export default function Slide21Cards({
 
             <div className="flex items-center gap-1.5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-[#33415c]/10 text-[#33415c] border border-[#33415c]/20 font-['Urbanist',sans-serif]">
-                <CheckCircle2 className="w-3 h-3 text-[#33415c]" />
+                <CheckCircle2 className="w-4 h-4 text-[#33415c]" />
                 Evolução do Autoconceito
               </span>
             </div>
@@ -150,7 +150,7 @@ export default function Slide21Cards({
 
           {/* Bottom Section */}
           <div className="mt-2 pt-2.5 border-t border-black/[0.06] flex items-center justify-between">
-            <div className="flex items-center gap-1.5 text-[11px] font-semibold text-zinc-500">
+            <div className="flex items-center gap-1.5 text-[15px] font-semibold text-zinc-500">
               <span>Transição:</span>
               <span className="text-[#0f1012] font-bold">Identidade em Contexto</span>
             </div>
@@ -202,14 +202,14 @@ export function Slide21RightCards({
           <h4 className="text-[18px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight">
             Significado Emocional da Característica Física
           </h4>
-          <p className="text-[12px] font-medium text-zinc-300 mt-1.5 leading-relaxed">
+          <p className="text-[16px] font-medium text-zinc-300 mt-1.5 leading-relaxed">
             A mesma condição adquire novo peso à medida que a autoimagem é reconfigurada:
           </p>
         </div>
 
         {/* Bloco de Citação / Destaque Principal */}
         <div className="p-3.5 bg-zinc-900/95 rounded-2xl border border-zinc-800/90 my-2.5 relative z-10">
-          <p className="text-[13px] text-zinc-100 font-medium leading-relaxed m-0 font-['Urbanist',sans-serif]">
+          <p className="text-[15px] text-zinc-100 font-medium leading-relaxed m-0 font-['Urbanist',sans-serif]">
             “A mesma característica física pode adquirir significado emocional diferente quando muda a forma como o jovem se percebe e imagina ser percebido.”
           </p>
         </div>
@@ -218,17 +218,17 @@ export function Slide21RightCards({
         <div className="grid grid-cols-2 gap-2 my-1 relative z-10">
           <div className="p-2 rounded-xl bg-zinc-900/80 border border-zinc-800">
             <span className="text-[10px] font-bold uppercase tracking-wider text-[#cf6647] block">Autoavaliação</span>
-            <p className="text-[11px] text-zinc-300 mt-0.5 leading-tight">Maior sensibilidade à mirada e julgamento de pares.</p>
+            <p className="text-[15px] text-zinc-300 mt-0.5 leading-tight">Maior sensibilidade à mirada e julgamento de pares.</p>
           </div>
           <div className="p-2 rounded-xl bg-zinc-900/80 border border-zinc-800">
             <span className="text-[10px] font-bold uppercase tracking-wider text-[#cf6647] block">Subjetivação</span>
-            <p className="text-[11px] text-zinc-300 mt-0.5 leading-tight">Da forma anatômica ao valor identitário construído.</p>
+            <p className="text-[15px] text-zinc-300 mt-0.5 leading-tight">Da forma anatômica ao valor identitário construído.</p>
           </div>
         </div>
 
         <div className="flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10">
-          <span className="text-xs font-semibold text-zinc-400">Fundamento clínico:</span>
-          <span className="text-xs font-bold text-[#f8d7ce] bg-[#b5563a]/20 px-2.5 py-0.5 rounded-full border border-[#b5563a]/30">
+          <span className="text-sm font-semibold text-zinc-400">Fundamento clínico:</span>
+          <span className="text-sm font-bold text-[#f8d7ce] bg-[#b5563a]/20 px-2.5 py-0.5 rounded-full border border-[#b5563a]/30">
             Avaliação Social Subjetiva
           </span>
         </div>
@@ -248,14 +248,14 @@ export function Slide21RightCards({
             <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-[#8c3e27] bg-[#b5563a]/[0.10] px-2.5 py-0.5 rounded-full border border-[#b5563a]/25 font-['Urbanist',sans-serif]">
               Processo Dinâmico
             </span>
-            <span className="text-[11px] font-semibold text-[#5f6062]">
+            <span className="text-[15px] font-semibold text-[#5f6062]">
               Capacidade × Demanda
             </span>
           </div>
           <h4 className="text-[17px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight">
             A Regulação Continua em Desenvolvimento
           </h4>
-          <p className="text-[11px] text-[#5f6062] mt-0.5">
+          <p className="text-[15px] text-[#5f6062] mt-0.5">
             A capacidade regulatória aumenta — mas as demandas emocionais e sociais também:
           </p>
         </div>
@@ -263,21 +263,21 @@ export function Slide21RightCards({
         {/* 2 Subcards Compactos de Dimensões */}
         <div className="grid grid-cols-2 gap-2 my-2.5">
           <div className="p-2.5 rounded-xl bg-[#f8f9fa] border border-black/[0.04]">
-            <div className="flex items-center gap-1.5 text-xs font-bold text-[#0f1012]">
+            <div className="flex items-center gap-1.5 text-sm font-bold text-[#0f1012]">
               <TrendingUp className="w-3.5 h-3.5 text-[#b5563a]" />
               <span>Capacidade</span>
             </div>
-            <p className="text-[11px] text-[#5f6062] mt-1 leading-snug">
+            <p className="text-[15px] text-[#5f6062] mt-1 leading-snug">
               Melhora nas estratégias cognitivas de reavaliação e modulação.
             </p>
           </div>
 
           <div className="p-2.5 rounded-xl bg-[#f8f9fa] border border-black/[0.04]">
-            <div className="flex items-center gap-1.5 text-xs font-bold text-[#0f1012]">
+            <div className="flex items-center gap-1.5 text-sm font-bold text-[#0f1012]">
               <Activity className="w-3.5 h-3.5 text-amber-700" />
               <span>Demandas</span>
             </div>
-            <p className="text-[11px] text-[#5f6062] mt-1 leading-snug">
+            <p className="text-[15px] text-[#5f6062] mt-1 leading-snug">
               Ambiência escolar, pertença grupal e novas cobranças relacionais.
             </p>
           </div>
@@ -287,7 +287,7 @@ export function Slide21RightCards({
           Período dinâmico, com melhora importante para muitos jovens e <strong className="text-[#0f1012] font-semibold">grande variabilidade interindividual</strong> na trajetória.
         </p>
 
-        <p className="text-[11px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between">
+        <p className="text-[15px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between">
           <span>Princípio: Não há linearidade rígida</span>
           <span className="font-semibold text-[#8c3e27]">Variabilidade Interindividual</span>
         </p>

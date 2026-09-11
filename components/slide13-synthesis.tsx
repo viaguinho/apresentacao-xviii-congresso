@@ -72,7 +72,7 @@ function ConvergingBeamTimeline() {
       {/* Estação Central: AGORA (Design Sutil Apple, sem ponto piscante) */}
       <div className="flex items-center gap-2 z-10 shrink-0 px-3.5 py-1 rounded-full bg-white/90 border border-black/[0.08] shadow-[0_1px_4px_rgba(0,0,0,0.03)] backdrop-blur-md">
         <span className="w-2 h-2 rounded-full bg-[#0071e3]" />
-        <span className="text-[12px] font-bold tracking-[0.14em] uppercase text-[#0f1012]">
+        <span className="text-[16px] font-bold tracking-[0.14em] uppercase text-[#0f1012]">
           agora
         </span>
       </div>
@@ -176,7 +176,7 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
           <div>
             <div className="flex items-center justify-between mb-1">
               <span className="inline-flex items-center gap-1.5 text-[9.5px] font-bold uppercase tracking-[0.16em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0071e3]/20">
-                <Camera className="w-3 h-3" />
+                <Camera className="w-4 h-4" />
                 Fotografia
               </span>
               <span className="text-[10px] font-semibold text-[#5f6062]">
@@ -186,7 +186,7 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
             <h3 className="text-[19px] font-bold tracking-tight text-[#0f1012] font-['Urbanist',sans-serif] leading-tight">
               Como está agora?
             </h3>
-            <p className="text-[11px] text-[#5f6062] mt-0.5 leading-snug">
+            <p className="text-[15px] text-[#5f6062] mt-0.5 leading-snug">
               Avaliação pontual e estática do desempenho no momento da consulta.
             </p>
           </div>
@@ -217,7 +217,7 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
               </g>
 
               {/* Rótulos dos Eixos */}
-              <text x="55" y="206" fontFamily="'Satoshi', sans-serif" fontSize="11" fontWeight="600" fill="#64748b">
+              <text x="55" y="206" fontFamily="'Satoshi', sans-serif" fontSize="15" fontWeight="600" fill="#64748b">
                 idade / tempo
               </text>
               <text
@@ -225,7 +225,7 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
                 y="100"
                 textAnchor="middle"
                 fontFamily="'Satoshi', sans-serif"
-                fontSize="11"
+                fontSize="15"
                 fontWeight="600"
                 fill="#64748b"
                 transform="rotate(-90 18 100)"
@@ -251,7 +251,7 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
                   y="-23"
                   textAnchor="middle"
                   fontFamily="'Satoshi', sans-serif"
-                  fontSize="12"
+                  fontSize="16"
                   fontWeight="700"
                   fill="#ffffff"
                 >
@@ -283,7 +283,7 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
           <div>
             <div className="flex items-center justify-between mb-1">
               <span className="inline-flex items-center gap-1.5 text-[9.5px] font-bold uppercase tracking-[0.16em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0071e3]/20">
-                <TrendingUp className="w-3 h-3" />
+                <TrendingUp className="w-4 h-4" />
                 Trajetória
               </span>
               <span className="text-[10px] font-semibold text-[#5f6062]">
@@ -293,7 +293,7 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
             <h3 className="text-[19px] font-bold tracking-tight text-[#0f1012] font-['Urbanist',sans-serif] leading-tight">
               Como vem mudando?
             </h3>
-            <p className="text-[11px] text-[#5f6062] mt-0.5 leading-snug">
+            <p className="text-[15px] text-[#5f6062] mt-0.5 leading-snug">
               A evolução no tempo revela o ritmo e o sentido real do desenvolvimento.
             </p>
           </div>
@@ -323,7 +323,7 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
               </g>
 
               {/* Rótulos dos Eixos */}
-              <text x="55" y="206" fontFamily="'Satoshi', sans-serif" fontSize="11" fontWeight="600" fill="#64748b">
+              <text x="55" y="206" fontFamily="'Satoshi', sans-serif" fontSize="15" fontWeight="600" fill="#64748b">
                 idade / tempo
               </text>
               <text
@@ -331,7 +331,7 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
                 y="100"
                 textAnchor="middle"
                 fontFamily="'Satoshi', sans-serif"
-                fontSize="11"
+                fontSize="15"
                 fontWeight="600"
                 fill="#64748b"
                 transform="rotate(-90 18 100)"
@@ -379,7 +379,7 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
                   y="-23"
                   textAnchor="middle"
                   fontFamily="'Satoshi', sans-serif"
-                  fontSize="12"
+                  fontSize="16"
                   fontWeight="700"
                   fill="#ffffff"
                 >
@@ -410,7 +410,7 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
           <div>
             <div className="flex items-center justify-between mb-1">
               <span className="inline-flex items-center gap-1.5 text-[9.5px] font-bold uppercase tracking-[0.16em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0071e3]/20">
-                <Compass className="w-3 h-3" />
+                <Compass className="w-4 h-4" />
                 Contexto
               </span>
               <span className="text-[10px] font-semibold text-[#5f6062]">
@@ -420,7 +420,7 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
             <h3 className="text-[19px] font-bold tracking-tight text-[#0f1012] font-['Urbanist',sans-serif] leading-tight">
               Onde, quando e diante de quê?
             </h3>
-            <p className="text-[11px] text-[#5f6062] mt-0.5 leading-snug">
+            <p className="text-[15px] text-[#5f6062] mt-0.5 leading-snug">
               A capacidade funcional varia conforme os suportes e desafios de cada contexto.
             </p>
           </div>
@@ -458,7 +458,7 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
           {/* Takeaway Obrigatório Preservado */}
           <div className="p-2.5 rounded-2xl bg-[#f8f9fa] border border-black/[0.04] mt-1 flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-[#0071e3] shrink-0" />
-            <p className="m-0 text-[12px] font-semibold text-[#0f1012] leading-snug">
+            <p className="m-0 text-[16px] font-semibold text-[#0f1012] leading-snug">
               As demandas mudam com a etapa: comunicação, autonomia, aprendizagem e pares, identidade.
             </p>
           </div>
@@ -473,10 +473,10 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
         transition={{ duration: 0.4, delay: 0.2, ease: "easeOut" }}
         className="my-1.5 flex items-center gap-3 bg-[#f8fbfe] border border-[#0071e3]/20 rounded-2xl px-5 py-2.5 shadow-[0_2px_12px_rgba(0,113,227,0.04)]"
       >
-        <span className="font-['Urbanist',sans-serif] text-[11px] font-bold tracking-[0.14em] uppercase text-[#0071e3] bg-[#0071e3]/10 border border-[#0071e3]/20 px-2.5 py-1 rounded-md shrink-0">
+        <span className="font-['Urbanist',sans-serif] text-[15px] font-bold tracking-[0.14em] uppercase text-[#0071e3] bg-[#0071e3]/10 border border-[#0071e3]/20 px-2.5 py-1 rounded-md shrink-0">
           IMPLICAÇÃO CLÍNICA
         </span>
-        <p className="m-0 text-[14px] font-medium leading-snug text-[#0f1012]">
+        <p className="m-0 text-[16px] font-medium leading-snug text-[#0f1012]">
           <strong className="text-[#0071e3] font-bold">Funcionalidade:</strong> isso interfere na capacidade da criança de aprender, comunicar-se, regular-se, relacionar-se ou participar ativamente da vida cotidiana?
         </p>
       </motion.div>

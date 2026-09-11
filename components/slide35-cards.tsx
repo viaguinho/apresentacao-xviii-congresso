@@ -38,14 +38,14 @@ export default function Slide35Cards({ isActive = true, className }: Slide35Card
             <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-[#4b6b4f] bg-[#4b6b4f]/[0.10] px-2.5 py-0.5 rounded-full border border-[#4b6b4f]/25 font-['Urbanist',sans-serif]">
               Fluxo do Protocolo
             </span>
-            <span className="text-[11px] font-semibold text-[#5f6062]">
+            <span className="text-[15px] font-semibold text-[#5f6062]">
               Tempo &amp; Gatilhos Clínicos
             </span>
           </div>
           <h4 className="text-[17px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight">
             Avaliação Programada vs. Disparada por Evento
           </h4>
-          <p className="text-[11px] text-[#5f6062] mt-0.5">
+          <p className="text-[15px] text-[#5f6062] mt-0.5">
             Duas vias complementares de vigilância longitudinal:
           </p>
         </div>
@@ -54,11 +54,11 @@ export default function Slide35Cards({ isActive = true, className }: Slide35Card
         <div className="grid grid-cols-2 gap-2 my-2.5">
           <div className="p-2.5 rounded-xl bg-[#f8f9fa] border border-black/[0.04] flex flex-col justify-between">
             <div>
-              <div className="flex items-center gap-1.5 text-xs font-bold text-[#0f1012] mb-1">
+              <div className="flex items-center gap-1.5 text-sm font-bold text-[#0f1012] mb-1">
                 <Calendar className="w-3.5 h-3.5 text-[#4b6b4f]" />
                 <span>Programada</span>
               </div>
-              <p className="text-[11px] text-[#5f6062] leading-snug m-0">
+              <p className="text-[15px] text-[#5f6062] leading-snug m-0">
                 Dx → 18m → 3a → 5a → 8a; depois 8a → 10a → 12a → 15a → 18a.
               </p>
             </div>
@@ -67,11 +67,11 @@ export default function Slide35Cards({ isActive = true, className }: Slide35Card
 
           <div className="p-2.5 rounded-xl bg-[#f8f9fa] border border-black/[0.04] flex flex-col justify-between">
             <div>
-              <div className="flex items-center gap-1.5 text-xs font-bold text-[#0f1012] mb-1">
+              <div className="flex items-center gap-1.5 text-sm font-bold text-[#0f1012] mb-1">
                 <BellRing className="w-3.5 h-3.5 text-amber-700" />
                 <span>Por Evento</span>
               </div>
-              <p className="text-[11px] text-[#5f6062] leading-snug m-0">
+              <p className="text-[15px] text-[#5f6062] leading-snug m-0">
                 Cirurgias, transição escolar, bullying, fonação, aparência ou demanda expressa.
               </p>
             </div>
@@ -79,7 +79,7 @@ export default function Slide35Cards({ isActive = true, className }: Slide35Card
           </div>
         </div>
 
-        <p className="text-[11px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between">
+        <p className="text-[15px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between">
           <span>O calendário cronológico não pode impedir:</span>
           <span className="font-semibold text-[#4b6b4f]">Avaliar quando a trajetória muda</span>
         </p>
@@ -120,7 +120,7 @@ export default function Slide35Cards({ isActive = true, className }: Slide35Card
               key={flag}
               className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-red-950/30 border border-red-800/40 text-[10.5px] font-medium text-red-200"
             >
-              <AlertTriangle className="w-3 h-3 text-red-400 shrink-0" />
+              <AlertTriangle className="w-4 h-4 text-red-400 shrink-0" />
               {flag}
             </span>
           ))}
@@ -128,14 +128,14 @@ export default function Slide35Cards({ isActive = true, className }: Slide35Card
 
         {/* Evidência e Racional Ético */}
         <div className="p-2.5 bg-zinc-900/95 rounded-2xl border border-zinc-800/90 relative z-10 mb-1">
-          <p className="text-[11px] text-zinc-200 leading-snug m-0">
+          <p className="text-[15px] text-zinc-200 leading-snug m-0">
             Em 305 pacientes com fissura (≥6 anos), 16,7% relataram ideação suicida prévia; piores escores no CLEFT-Q correlacionaram-se ao risco. <strong className="text-white font-semibold">O PRO não é diagnóstico de suicídio:</strong> funciona como sentinela que dispara avaliação imediata.
           </p>
         </div>
 
         <div className="flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10">
-          <span className="text-xs font-semibold text-zinc-400">Diretriz:</span>
-          <span className="text-xs font-bold text-red-300 bg-red-500/15 px-2.5 py-0.5 rounded-full border border-red-500/30">
+          <span className="text-sm font-semibold text-zinc-400">Diretriz:</span>
+          <span className="text-sm font-bold text-red-300 bg-red-500/15 px-2.5 py-0.5 rounded-full border border-red-500/30">
             Prioridade de Segurança
           </span>
         </div>

@@ -24,12 +24,12 @@ export default function Slide35Orbit({ isActive = true }: Slide35OrbitProps) {
         className="relative z-20 flex flex-col items-center justify-center w-[160px] h-[160px] rounded-full bg-white/95 border-2 border-[#0071e3]/30 shadow-[0_8px_32px_rgba(0,113,227,0.12)] backdrop-blur-md text-center p-3 transition-transform hover:scale-105"
       >
         <div className="w-8 h-8 rounded-full bg-[#e8f2fc] flex items-center justify-center mb-1 text-[#0071e3] shadow-inner">
-          <RefreshCw className="w-4 h-4 stroke-[2.2]" />
+          <RefreshCw className="w-5 h-5 stroke-[2.2]" />
         </div>
-        <span className="font-['Urbanist',sans-serif] text-[13px] font-bold tracking-[0.08em] text-[#0071e3] leading-none uppercase">
+        <span className="font-['Urbanist',sans-serif] text-[15px] font-bold tracking-[0.08em] text-[#0071e3] leading-none uppercase">
           Ciclo Clínico
         </span>
-        <div className="mt-1.5 pt-1.5 border-t border-black/[0.06] text-[11px] font-semibold text-[#0f1012] leading-tight flex flex-col">
+        <div className="mt-1.5 pt-1.5 border-t border-black/[0.06] text-[15px] font-semibold text-[#0f1012] leading-tight flex flex-col">
           <span>idade + trajetória</span>
           <span className="text-[#5f6062] font-medium">+ contexto + função</span>
         </div>
@@ -50,7 +50,7 @@ export default function Slide35Orbit({ isActive = true }: Slide35OrbitProps) {
           <div className="w-5 h-5 rounded-full bg-[#0071e3] text-white flex items-center justify-center shrink-0 text-[10px] font-bold">
             1
           </div>
-          <span className="text-[12px] font-bold text-[#0071e3] tracking-wide whitespace-nowrap">
+          <span className="text-[16px] font-bold text-[#0071e3] tracking-wide whitespace-nowrap">
             RASTREAR
           </span>
         </div>
@@ -68,7 +68,7 @@ export default function Slide35Orbit({ isActive = true }: Slide35OrbitProps) {
           <div className="w-5 h-5 rounded-full bg-[#e8f2fc] text-[#0071e3] flex items-center justify-center shrink-0 text-[10px] font-bold">
             2
           </div>
-          <span className="text-[12px] font-bold text-[#0f1012] tracking-wide whitespace-nowrap">
+          <span className="text-[16px] font-bold text-[#0f1012] tracking-wide whitespace-nowrap">
             CONTEXTUALIZAR
           </span>
         </div>
@@ -86,7 +86,7 @@ export default function Slide35Orbit({ isActive = true }: Slide35OrbitProps) {
           <div className="w-5 h-5 rounded-full bg-[#e8f2fc] text-[#0071e3] flex items-center justify-center shrink-0 text-[10px] font-bold">
             3
           </div>
-          <span className="text-[12px] font-bold text-[#0f1012] tracking-wide whitespace-nowrap">
+          <span className="text-[16px] font-bold text-[#0f1012] tracking-wide whitespace-nowrap">
             ESTRATIFICAR
           </span>
         </div>
@@ -104,7 +104,7 @@ export default function Slide35Orbit({ isActive = true }: Slide35OrbitProps) {
           <div className="w-5 h-5 rounded-full bg-[#e8f2fc] text-[#0071e3] flex items-center justify-center shrink-0 text-[10px] font-bold">
             4
           </div>
-          <span className="text-[12px] font-bold text-[#0f1012] tracking-wide whitespace-nowrap">
+          <span className="text-[16px] font-bold text-[#0f1012] tracking-wide whitespace-nowrap">
             AGIR
           </span>
         </div>
@@ -122,7 +122,7 @@ export default function Slide35Orbit({ isActive = true }: Slide35OrbitProps) {
           <div className="w-5 h-5 rounded-full bg-[#e8f2fc] text-[#0071e3] flex items-center justify-center shrink-0 text-[10px] font-bold">
             5
           </div>
-          <span className="text-[12px] font-bold text-[#0f1012] tracking-wide whitespace-nowrap">
+          <span className="text-[16px] font-bold text-[#0f1012] tracking-wide whitespace-nowrap">
             REAVALIAR
           </span>
         </div>

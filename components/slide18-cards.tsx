@@ -41,7 +41,7 @@ export default function Slide18Cards({ isActive = true, className }: Slide18Card
           <h4 className="text-[19px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight">
             Fala Alterada ≠ Linguagem Alterada ≠ Inteligência Reduzida
           </h4>
-          <p className="text-[12px] font-medium text-zinc-300 mt-1.5 leading-relaxed">
+          <p className="text-[16px] font-medium text-zinc-300 mt-1.5 leading-relaxed">
             Diferenciação estrutural e neurocognitiva na prática clínica com anomalias craniofaciais.
           </p>
         </div>
@@ -78,8 +78,8 @@ export default function Slide18Cards({ isActive = true, className }: Slide18Card
             O objetivo não é procurar um déficit cognitivo da fissura, mas identificar quais processos favorecem ou limitam a aprendizagem e a participação naquele momento específico da trajetória.
           </p>
           <div className="flex items-center justify-between pt-2 border-t border-zinc-800">
-            <span className="text-xs font-semibold text-zinc-400">Diretriz clínica:</span>
-            <span className="text-xs font-bold text-teal-300 bg-teal-500/15 px-2.5 py-0.5 rounded-full border border-teal-400/25">
+            <span className="text-sm font-semibold text-zinc-400">Diretriz clínica:</span>
+            <span className="text-sm font-bold text-teal-300 bg-teal-500/15 px-2.5 py-0.5 rounded-full border border-teal-400/25">
               Perfis Singulares ≠ Destino
             </span>
           </div>
@@ -100,14 +100,14 @@ export default function Slide18Cards({ isActive = true, className }: Slide18Card
             <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-[#0d6d66] bg-[#0d6d66]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0d6d66]/20 font-['Urbanist',sans-serif]">
               Evidência Empírica · CPT
             </span>
-            <span className="text-[11px] font-semibold text-[#5f6062]">
+            <span className="text-[15px] font-semibold text-[#5f6062]">
               Estudo unicêntrico · 6–16 anos
             </span>
           </div>
-          <h4 className="text-base font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif]">
+          <h4 className="text-lg font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif]">
             Atenção Sustentada em Tarefa Contínua
           </h4>
-          <p className="text-[11px] text-[#5f6062] mt-0.5">
+          <p className="text-[15px] text-[#5f6062] mt-0.5">
             Comparação controlada de desempenho em medidas contínuas:
           </p>
         </div>
@@ -115,22 +115,22 @@ export default function Slide18Cards({ isActive = true, className }: Slide18Card
         {/* Métricas e Achados em Mini-Grid Elegante estilo Slide 11 */}
         <div className="grid grid-cols-2 gap-2 my-2.5">
           <div className="p-2.5 rounded-xl bg-[#f8f9fa] border border-black/[0.04]">
-            <div className="flex items-center justify-between text-xs font-bold text-[#0f1012]">
+            <div className="flex items-center justify-between text-sm font-bold text-[#0f1012]">
               <span className="font-['Urbanist',sans-serif] text-[#71717a]">Grupo Controle</span>
               <span className="text-[10px] text-zinc-400 font-semibold">N basal</span>
             </div>
             <div className="font-['Urbanist',sans-serif] text-[22px] font-bold tracking-tight text-[#0f1012] mt-0.5">
-              59,46 <span className="text-[12px] font-normal text-[#71717a]">± 14,90</span>
+              59,46 <span className="text-[16px] font-normal text-[#71717a]">± 14,90</span>
             </div>
           </div>
 
           <div className="p-2.5 rounded-xl bg-[#f0faf9] border border-[#0d6d66]/20">
-            <div className="flex items-center justify-between text-xs font-bold text-[#0d6d66]">
+            <div className="flex items-center justify-between text-sm font-bold text-[#0d6d66]">
               <span className="font-['Urbanist',sans-serif]">Fissura Orofacial</span>
               <span className="text-[10px] font-bold text-[#0d6d66] bg-[#0d6d66]/10 px-1.5 py-0.2 rounded">p = 0,022</span>
             </div>
             <div className="font-['Urbanist',sans-serif] text-[22px] font-bold tracking-tight text-[#0d6d66] mt-0.5">
-              51,03 <span className="text-[12px] font-normal text-[#0d6d66]/70">± 15,66</span>
+              51,03 <span className="text-[16px] font-normal text-[#0d6d66]/70">± 15,66</span>
             </div>
           </div>
         </div>
@@ -139,7 +139,7 @@ export default function Slide18Cards({ isActive = true, className }: Slide18Card
           Nas demais tarefas executivas avaliadas não houve diferenças significativas e nenhum participante apresentou escores abaixo da média nos domínios do WISC-IV: <strong className="text-[#0f1012] font-semibold">resultado de grupo, não um perfil universal</strong>.
         </p>
 
-        <p className="text-[11px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between">
+        <p className="text-[15px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between">
           <span>Evidência: WISC-IV preservado</span>
           <span className="font-semibold text-[#0d6d66]">Média de grupo ≠ Destino individual</span>
         </p>

@@ -25,7 +25,7 @@ export default function Slide9Stage({ isActive = true }: Slide9StageProps) {
           tag="ENDÓGENO"
           title="Biologia individual"
           description={
-            <div className="flex flex-col gap-1 mt-1 text-[11px] font-medium text-slate-600">
+            <div className="flex flex-col gap-1 mt-1 text-[15px] font-medium text-slate-600">
               <span className="flex items-center gap-1.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#0071e3]" />
                 Predisposição genética
@@ -65,12 +65,12 @@ export default function Slide9Stage({ isActive = true }: Slide9StageProps) {
             <span className="font-['Urbanist',sans-serif] text-[10px] font-bold uppercase tracking-wider text-[#0071e3] bg-blue-50 border border-blue-200/60 px-2 py-0.5 rounded">
               Ecologia do Desenvolvimento
             </span>
-            <span className="font-['Satoshi',sans-serif] text-[12px] font-semibold text-slate-700">
+            <span className="font-['Satoshi',sans-serif] text-[16px] font-semibold text-slate-700">
               Camadas dinâmicas em torno da criança
             </span>
           </div>
-          <div className="flex items-center gap-1.5 text-[11px] font-medium text-slate-500 bg-white/80 border border-slate-200/70 px-2 py-0.5 rounded-full shadow-2xs">
-            <ArrowLeftRight className="w-3 h-3 text-[#0071e3]" />
+          <div className="flex items-center gap-1.5 text-[15px] font-medium text-slate-500 bg-white/80 border border-slate-200/70 px-2 py-0.5 rounded-full shadow-2xs">
+            <ArrowLeftRight className="w-4 h-4 text-[#0071e3]" />
             <span>Influências recíprocas</span>
           </div>
         </div>
@@ -82,7 +82,7 @@ export default function Slide9Stage({ isActive = true }: Slide9StageProps) {
 
         {/* Developmental timeline bar at the base of the orbits */}
         <div className="w-full mt-1 pt-1.5 border-t border-slate-200/70 flex flex-col gap-1">
-          <div className="flex items-center justify-between text-[11px] font-semibold font-['Urbanist',sans-serif] text-slate-600">
+          <div className="flex items-center justify-between text-[15px] font-semibold font-['Urbanist',sans-serif] text-slate-600">
             <span className="flex items-center gap-1 text-[#0071e3]">
               <span className="w-1.5 h-1.5 rounded-full bg-[#0071e3]" />
               Nascimento
@@ -113,7 +113,7 @@ export default function Slide9Stage({ isActive = true }: Slide9StageProps) {
           tag="EXÓGENO"
           title="Experiência e contexto"
           description={
-            <div className="flex flex-col gap-1 mt-1 text-[11px] font-medium text-slate-600">
+            <div className="flex flex-col gap-1 mt-1 text-[15px] font-medium text-slate-600">
               <span className="flex items-center gap-1.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-600" />
                 Cuidado responsivo &amp; apego

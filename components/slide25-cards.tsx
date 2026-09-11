@@ -79,17 +79,17 @@ export default function Slide25Cards({ isActive = true, className }: Slide25Card
               >
                 <div className="flex items-center gap-1.5 mb-1">
                   <Icon className="w-3.5 h-3.5 text-[#a882c7] shrink-0" />
-                  <span className="text-[11px] font-bold text-zinc-200 font-['Urbanist',sans-serif]">{p.label}</span>
+                  <span className="text-[15px] font-bold text-zinc-200 font-['Urbanist',sans-serif]">{p.label}</span>
                 </div>
-                <p className="text-[11px] text-zinc-400 leading-snug font-normal m-0">{p.desc}</p>
+                <p className="text-[15px] text-zinc-400 leading-snug font-normal m-0">{p.desc}</p>
               </div>
             );
           })}
         </div>
 
         <div className="flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10">
-          <span className="text-xs font-semibold text-zinc-400">Axioma sistêmico:</span>
-          <span className="text-xs font-bold text-[#e9dff0] bg-[#6b4e83]/25 px-2.5 py-0.5 rounded-full border border-[#6b4e83]/35">
+          <span className="text-sm font-semibold text-zinc-400">Axioma sistêmico:</span>
+          <span className="text-sm font-bold text-[#e9dff0] bg-[#6b4e83]/25 px-2.5 py-0.5 rounded-full border border-[#6b4e83]/35">
             Reorientação Social ≠ Substituição da Família
           </span>
         </div>
@@ -109,7 +109,7 @@ export default function Slide25Cards({ isActive = true, className }: Slide25Card
             <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-[#6b4e83] bg-[#6b4e83]/[0.10] px-2.5 py-0.5 rounded-full border border-[#6b4e83]/20 font-['Urbanist',sans-serif]">
               Evidência Empírica · Meta-análise
             </span>
-            <span className="text-[11px] font-semibold text-[#5f6062]">
+            <span className="text-[15px] font-semibold text-[#5f6062]">
               60 estudos · 233 efeitos
             </span>
           </div>
@@ -140,7 +140,7 @@ export default function Slide25Cards({ isActive = true, className }: Slide25Card
           Os pares passam a fornecer informação crítica sobre identidade, pertencimento, normas e valor social.
         </p>
 
-        <p className="text-[11px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between">
+        <p className="text-[15px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between">
           <span>Papel formativo na adolescência</span>
           <span className="font-semibold text-[#6b4e83]">Mecanismo de Socialização</span>
         </p>

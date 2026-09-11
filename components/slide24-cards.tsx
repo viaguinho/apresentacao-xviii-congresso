@@ -56,7 +56,7 @@ export default function Slide24Cards({ isActive = true, className }: Slide24Card
 
             <div className="flex items-center gap-1.5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-[#6b4e83]/10 text-[#6b4e83] border border-[#6b4e83]/20">
-                <Sparkles className="w-3 h-3 text-[#6b4e83]" />
+                <Sparkles className="w-4 h-4 text-[#6b4e83]" />
                 Evidência · n = 314 · 7–11 anos
               </span>
             </div>
@@ -68,7 +68,7 @@ export default function Slide24Cards({ isActive = true, className }: Slide24Card
               <h3 className="text-[20px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
                 Díade Protetora e Identificação com Pares
               </h3>
-              <p className="text-[12px] font-semibold text-[#6b4e83] mt-0.5">
+              <p className="text-[16px] font-semibold text-[#6b4e83] mt-0.5">
                 Maunder & Monks (2019) · Diferenciação entre popularidade e apego entre pares
               </p>
             </div>
@@ -80,20 +80,20 @@ export default function Slide24Cards({ isActive = true, className }: Slide24Card
                   <div key={step.label} className="flex items-center gap-1.5">
                     <span
                       className={cn(
-                        "px-2.5 py-1 rounded-xl text-[11px] font-bold border shadow-2xs",
+                        "px-2.5 py-1 rounded-xl text-[15px] font-bold border shadow-2xs",
                         step.accent
                       )}
                     >
                       {step.label}
                     </span>
                     {i < relationalSteps.length - 1 && (
-                      <ArrowRight className="w-3 h-3 text-[#6b4e83]/70 shrink-0" />
+                      <ArrowRight className="w-4 h-4 text-[#6b4e83]/70 shrink-0" />
                     )}
                   </div>
                 ))}
               </div>
 
-              <p className="text-[12px] text-[#334155] leading-relaxed font-normal mt-2">
+              <p className="text-[16px] text-[#334155] leading-relaxed font-normal mt-2">
                 Uma criança pode ser pouco popular e ainda ter uma amizade íntima e protetora — ou ser aceita pelo grupo sem possuir amizade próxima. <strong className="text-[#0f1012] font-semibold">A reciprocidade foi especialmente relevante para a autoestima e identificação social.</strong>
               </p>
             </div>
@@ -101,7 +101,7 @@ export default function Slide24Cards({ isActive = true, className }: Slide24Card
 
           {/* Bottom Section */}
           <div className="mt-2.5 pt-2 border-t border-black/[0.06] flex items-center justify-between">
-            <div className="flex items-center gap-1.5 text-[11px] font-semibold text-zinc-500">
+            <div className="flex items-center gap-1.5 text-[15px] font-semibold text-zinc-500">
               <span>Fundamento:</span>
               <span className="text-[#0f1012] font-bold">Qualidade vs Quantidade</span>
             </div>
@@ -139,7 +139,7 @@ export default function Slide24Cards({ isActive = true, className }: Slide24Card
 
             <div className="flex items-center gap-1.5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-purple-500/10 text-purple-300 border border-purple-500/25">
-                <CheckCircle2 className="w-3 h-3 text-purple-400" />
+                <CheckCircle2 className="w-4 h-4 text-purple-400" />
                 Competência & Avaliação Clínica
               </span>
             </div>
@@ -151,7 +151,7 @@ export default function Slide24Cards({ isActive = true, className }: Slide24Card
               <h3 className="text-[20px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]">
                 Preferir Poucos Amigos ≠ Dificuldade Social
               </h3>
-              <p className="text-[12px] font-semibold text-purple-300 mt-0.5">
+              <p className="text-[16px] font-semibold text-purple-300 mt-0.5">
                 Conflito não é ausência de competência — é a arena de aprendizagem relacional
               </p>
             </div>
@@ -174,7 +174,7 @@ export default function Slide24Cards({ isActive = true, className }: Slide24Card
                 ))}
               </div>
 
-              <p className="text-[12px] text-zinc-300 leading-relaxed font-normal mt-2">
+              <p className="text-[16px] text-zinc-300 leading-relaxed font-normal mt-2">
                 <strong className="text-white font-semibold">O que avaliar na clínica:</strong> Há reciprocidade? A criança deseja mais interação do que obtém? Consegue participar quando quer? Há sofrimento, exclusão ou prejuízo funcional?
               </p>
             </div>
@@ -182,7 +182,7 @@ export default function Slide24Cards({ isActive = true, className }: Slide24Card
 
           {/* Bottom Section */}
           <div className="mt-2.5 pt-2 border-t border-white/10 flex items-center justify-between">
-            <div className="flex items-center gap-1.5 text-[11px] font-semibold text-zinc-400">
+            <div className="flex items-center gap-1.5 text-[15px] font-semibold text-zinc-400">
               <span>Critério:</span>
               <span className="text-white font-bold">Prejuízo Funcional Real</span>
             </div>

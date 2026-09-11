@@ -24,9 +24,9 @@ export default function Slide38Orbit({ isActive = true }: Slide38OrbitProps) {
         className="relative z-20 flex flex-col items-center justify-center w-[136px] h-[136px] rounded-full bg-white/95 border-2 border-[#0071e3]/30 shadow-[0_8px_32px_rgba(0,113,227,0.12)] backdrop-blur-md transition-transform hover:scale-105 text-center p-2"
       >
         <div className="w-8 h-8 rounded-full bg-[#e8f2fc] flex items-center justify-center mb-1 text-[#0071e3] shadow-inner">
-          <Layers className="w-4 h-4 stroke-[2.2]" />
+          <Layers className="w-5 h-5 stroke-[2.2]" />
         </div>
-        <span className="font-['Urbanist',sans-serif] text-[12px] font-bold tracking-[0.06em] text-[#0071e3] leading-tight">
+        <span className="font-['Urbanist',sans-serif] text-[16px] font-bold tracking-[0.06em] text-[#0071e3] leading-tight">
           PERSPECTIVAS
         </span>
         <span className="font-['Urbanist',sans-serif] text-[10.5px] font-semibold tracking-[0.04em] text-[#0f1012] leading-tight">
@@ -48,9 +48,9 @@ export default function Slide38Orbit({ isActive = true }: Slide38OrbitProps) {
         <div className="flex flex-col items-start p-2.5 rounded-2xl bg-white/95 border border-black/[0.08] shadow-[0_4px_18px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default w-[220px]">
           <div className="flex items-center gap-1.5 w-full">
             <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-              <User className="w-3 h-3 stroke-[2.5]" />
+              <User className="w-4 h-4 stroke-[2.5]" />
             </div>
-            <span className="text-[13px] font-bold text-[#0071e3] leading-none">
+            <span className="text-[15px] font-bold text-[#0071e3] leading-none">
               autorrelato
             </span>
           </div>
@@ -71,9 +71,9 @@ export default function Slide38Orbit({ isActive = true }: Slide38OrbitProps) {
         <div className="flex flex-col items-start p-2.5 rounded-2xl bg-white/95 border border-black/[0.08] shadow-[0_4px_18px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default w-[210px]">
           <div className="flex items-center gap-1.5 w-full">
             <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-              <Stethoscope className="w-3 h-3 stroke-[2.5]" />
+              <Stethoscope className="w-4 h-4 stroke-[2.5]" />
             </div>
-            <span className="text-[13px] font-bold text-[#0071e3] leading-none">
+            <span className="text-[15px] font-bold text-[#0071e3] leading-none">
               equipe
             </span>
           </div>
@@ -94,9 +94,9 @@ export default function Slide38Orbit({ isActive = true }: Slide38OrbitProps) {
         <div className="flex flex-col items-start p-2.5 rounded-2xl bg-white/95 border border-black/[0.08] shadow-[0_4px_18px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default w-[220px]">
           <div className="flex items-center gap-1.5 w-full">
             <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-              <HeartHandshake className="w-3 h-3 stroke-[2.5]" />
+              <HeartHandshake className="w-4 h-4 stroke-[2.5]" />
             </div>
-            <span className="text-[13px] font-bold text-[#0071e3] leading-none">
+            <span className="text-[15px] font-bold text-[#0071e3] leading-none">
               pais e cuidadores
             </span>
           </div>
@@ -117,9 +117,9 @@ export default function Slide38Orbit({ isActive = true }: Slide38OrbitProps) {
         <div className="flex flex-col items-start p-2.5 rounded-2xl bg-white/95 border border-black/[0.08] shadow-[0_4px_18px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default w-[210px]">
           <div className="flex items-center gap-1.5 w-full">
             <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-              <GraduationCap className="w-3 h-3 stroke-[2.5]" />
+              <GraduationCap className="w-4 h-4 stroke-[2.5]" />
             </div>
-            <span className="text-[13px] font-bold text-[#0071e3] leading-none">
+            <span className="text-[15px] font-bold text-[#0071e3] leading-none">
               escola
             </span>
           </div>

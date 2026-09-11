@@ -78,7 +78,7 @@ export default function Slide28Cards({
                   </span>
                 </div>
                 <div className="h-7 w-[1px] bg-zinc-800 shrink-0" />
-                <p className="text-[11px] text-zinc-300 leading-snug font-medium">
+                <p className="text-[15px] text-zinc-300 leading-snug font-medium">
                   apresentavam <strong className="text-white font-semibold">perda auditiva</strong> (predominantemente condutiva).
                 </p>
               </div>
@@ -120,7 +120,7 @@ export default function Slide28Cards({
                 Dificuldade Escolar
               </h4>
 
-              <p className="text-[11px] font-medium text-zinc-300 mt-1.5 leading-snug">
+              <p className="text-[15px] font-medium text-zinc-300 mt-1.5 leading-snug">
                 Não atribuir automaticamente à aparência; investigar:
               </p>
 
@@ -242,7 +242,7 @@ export default function Slide28Cards({
 
             {/* 2. Frase de Fechamento Complementar */}
             <div className="mt-3 pt-2.5 border-t border-white/[0.08]">
-              <p className="text-[12px] text-zinc-200 leading-relaxed italic font-['Satoshi',sans-serif]">
+              <p className="text-[16px] text-zinc-200 leading-relaxed italic font-['Satoshi',sans-serif]">
                 “Em uma condição tratada longitudinalmente, a <strong className="text-white font-semibold not-italic">história médica</strong> também se torna parte da <strong className="text-[#f09ca8] font-semibold not-italic">história do desenvolvimento</strong>.”
               </p>
             </div>

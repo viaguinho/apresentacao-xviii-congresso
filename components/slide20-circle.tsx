@@ -204,7 +204,7 @@ export default function Slide20Circle({ isActive = true }: Slide20CircleProps) {
           </motion.div>
 
           {/* Central Typography */}
-          <span className="font-['Urbanist',sans-serif] text-[14.5px] font-bold tracking-tight text-[#0f1012] leading-tight text-center px-2">
+          <span className="font-['Urbanist',sans-serif] text-[16.5px] font-bold tracking-tight text-[#0f1012] leading-tight text-center px-2">
             competência emocional
           </span>
 
@@ -351,7 +351,7 @@ export default function Slide20Circle({ isActive = true }: Slide20CircleProps) {
                           {item.title}
                         </span>
                       </div>
-                      <span className="font-['Satoshi',sans-serif] text-[13px] font-medium text-[#5f6062] leading-snug mt-0.5">
+                      <span className="font-['Satoshi',sans-serif] text-[15px] font-medium text-[#5f6062] leading-snug mt-0.5">
                         {item.desc}
                       </span>
                     </div>

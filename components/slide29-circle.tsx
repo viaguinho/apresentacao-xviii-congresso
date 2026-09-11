@@ -351,7 +351,7 @@ export default function Slide29Circle({ isActive = true }: Slide29CircleProps) {
                           {item.title}
                         </span>
                       </div>
-                      <span className="font-['Satoshi',sans-serif] text-[13px] font-medium text-[#5f6062] leading-snug mt-0.5">
+                      <span className="font-['Satoshi',sans-serif] text-[15px] font-medium text-[#5f6062] leading-snug mt-0.5">
                         {item.desc}
                       </span>
                     </div>

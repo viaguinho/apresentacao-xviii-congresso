@@ -12,7 +12,7 @@ export const Slide18Stage: React.FC<Slide18StageProps> = ({ isActive = true }) =
       {/* Coluna Esquerda: Gráfico Meta-análise Apple Health */}
       <div className="lg:col-span-6 xl:col-span-6 flex flex-col gap-3">
         <SleepTrackerCard isActive={isActive} />
-        <p className="font-['Satoshi'] text-[13px] font-normal leading-relaxed text-[#6a6b6d] dark:text-gray-400">
+        <p className="font-['Satoshi'] text-[15px] font-normal leading-relaxed text-[#6a6b6d] dark:text-gray-600">
           Escala de consistência da evidência, não de gravidade. Na meta-análise de Roberts et al. (29 estudos), linguagem foi o único domínio com déficit moderado, significativo, não heterogêneo e sem indicação de viés de publicação; revisões posteriores encontram resultados heterogêneos nos demais domínios.
         </p>
       </div>

@@ -61,7 +61,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
 
             <div className="flex items-center gap-1.5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-[#33415c]/10 text-[#33415c] border border-[#33415c]/20">
-                <Sparkles className="w-3 h-3 text-[#33415c]" />
+                <Sparkles className="w-4 h-4 text-[#33415c]" />
                 Funcionalidade & Contexto
               </span>
             </div>
@@ -73,7 +73,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
               <h3 className="text-[20px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
                 Sintomas e Prejuízo Funcional Não São a Mesma Coisa
               </h3>
-              <p className="text-[12px] font-semibold text-[#33415c] mt-0.5">
+              <p className="text-[16px] font-semibold text-[#33415c] mt-0.5">
                 O prejuízo funcional é o componente nuclear da relevância diagnóstica
               </p>
             </div>
@@ -93,7 +93,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
 
               {/* Context Multi-informant mini row */}
               <div className="mt-2 p-2 rounded-xl bg-white/80 border border-black/[0.06] flex items-center justify-between px-3">
-                <span className="text-[11px] font-bold text-[#0f1012]">
+                <span className="text-[15px] font-bold text-[#0f1012]">
                   “Só acontece na escola” não torna o dado menos verdadeiro:
                 </span>
                 <div className="flex items-center gap-2">
@@ -106,7 +106,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
                 </div>
               </div>
 
-              <p className="text-[12px] text-[#334155] leading-relaxed font-normal mt-1.5">
+              <p className="text-[16px] text-[#334155] leading-relaxed font-normal mt-1.5">
                 A variabilidade entre situações pode ser informação clinicamente significativa — não erro entre avaliadores — e ajuda a localizar o mecanismo concreto do problema.
               </p>
             </div>
@@ -114,7 +114,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
 
           {/* Bottom Section */}
           <div className="mt-2.5 pt-2 border-t border-black/[0.06] flex items-center justify-between">
-            <div className="flex items-center gap-1.5 text-[11px] font-semibold text-zinc-500">
+            <div className="flex items-center gap-1.5 text-[15px] font-semibold text-zinc-500">
               <span>Fundamento:</span>
               <span className="text-[#0f1012] font-bold">Avaliação Situacional</span>
             </div>
@@ -152,7 +152,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
 
             <div className="flex items-center gap-1.5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-slate-500/15 text-slate-300 border border-slate-500/30">
-                <CheckCircle2 className="w-3 h-3 text-slate-300" />
+                <CheckCircle2 className="w-4 h-4 text-slate-300" />
                 Raciocínio Clínico em 5 Etapas
               </span>
             </div>
@@ -164,7 +164,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
               <h3 className="text-[20px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]">
                 O Significado Muda com a Idade: Checklist Diagnóstico
               </h3>
-              <p className="text-[12px] font-semibold text-slate-300 mt-0.5">
+              <p className="text-[16px] font-semibold text-slate-300 mt-0.5">
                 Dependência dos pais aos 3 anos ≠ dependência dos pais aos 16 anos
               </p>
             </div>
@@ -180,10 +180,10 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
                     key={q}
                     className="flex items-center gap-2 p-1.5 rounded-lg bg-white/[0.04] border border-white/10"
                   >
-                    <span className="w-4 h-4 rounded-full bg-slate-500/30 text-slate-200 text-[9.5px] font-bold flex items-center justify-center shrink-0">
+                    <span className="w-5 h-5 rounded-full bg-slate-500/30 text-slate-200 text-[9.5px] font-bold flex items-center justify-center shrink-0">
                       {idx + 1}
                     </span>
-                    <span className="text-[11px] font-medium text-zinc-200 leading-tight">
+                    <span className="text-[15px] font-medium text-zinc-200 leading-tight">
                       {q}
                     </span>
                   </div>
@@ -194,7 +194,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
 
           {/* Bottom Section */}
           <div className="mt-2.5 pt-2 border-t border-white/10 flex items-center justify-between">
-            <div className="flex items-center gap-1.5 text-[11px] font-semibold text-zinc-400">
+            <div className="flex items-center gap-1.5 text-[15px] font-semibold text-zinc-400">
               <span>Conduta:</span>
               <span className="text-white font-bold">Investigação Sistêmica</span>
             </div>

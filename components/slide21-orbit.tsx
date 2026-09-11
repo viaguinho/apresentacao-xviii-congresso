@@ -46,7 +46,7 @@ export default function Slide21Orbit({ isActive = true }: Slide21OrbitProps) {
       >
         <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-            <Sparkles className="w-3 h-3" />
+            <Sparkles className="w-4 h-4" />
           </div>
           <span className="text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap">
             aparência
@@ -64,7 +64,7 @@ export default function Slide21Orbit({ isActive = true }: Slide21OrbitProps) {
       >
         <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-            <GraduationCap className="w-3 h-3" />
+            <GraduationCap className="w-4 h-4" />
           </div>
           <span className="text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap">
             acadêmico
@@ -82,7 +82,7 @@ export default function Slide21Orbit({ isActive = true }: Slide21OrbitProps) {
       >
         <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_3px_12px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-            <Compass className="w-3 h-3" />
+            <Compass className="w-4 h-4" />
           </div>
           <span className="text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap">
             valores
@@ -102,9 +102,9 @@ export default function Slide21Orbit({ isActive = true }: Slide21OrbitProps) {
       >
         <div className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-            <Users className="w-3 h-3" />
+            <Users className="w-4 h-4" />
           </div>
-          <span className="text-[13px] font-semibold text-[#0f1012] whitespace-nowrap">
+          <span className="text-[15px] font-semibold text-[#0f1012] whitespace-nowrap">
             social
           </span>
         </div>
@@ -121,9 +121,9 @@ export default function Slide21Orbit({ isActive = true }: Slide21OrbitProps) {
       >
         <div className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-            <HeartHandshake className="w-3 h-3" />
+            <HeartHandshake className="w-4 h-4" />
           </div>
-          <span className="text-[13px] font-semibold text-[#0f1012] whitespace-nowrap">
+          <span className="text-[15px] font-semibold text-[#0f1012] whitespace-nowrap">
             prossocial
           </span>
         </div>
@@ -140,9 +140,9 @@ export default function Slide21Orbit({ isActive = true }: Slide21OrbitProps) {
       >
         <div className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
-            <Smile className="w-3 h-3" />
+            <Smile className="w-4 h-4" />
           </div>
-          <span className="text-[13px] font-semibold text-[#0f1012] whitespace-nowrap">
+          <span className="text-[15px] font-semibold text-[#0f1012] whitespace-nowrap">
             emocional
           </span>
         </div>

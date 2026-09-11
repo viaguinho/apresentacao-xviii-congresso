@@ -94,13 +94,13 @@ export function Slide28Timeline({ isActive = true }: Slide28TimelineProps) {
               <CardTitle className="font-['Urbanist',sans-serif] text-[21px] font-bold text-[#0f1012] tracking-tight">
                 Trajetória Terapêutica Dupla: Desenvolvimento Humano × Processo de Cuidado
               </CardTitle>
-              <CardDescription className="font-['Satoshi',sans-serif] text-[13px] text-[#5f6062] mt-1">
+              <CardDescription className="font-['Satoshi',sans-serif] text-[15px] text-[#5f6062] mt-1">
                 A criança não apenas cresce com uma condição craniofacial — ela cresce atravessando uma sequência clínica assistencial interdependente.
               </CardDescription>
             </div>
             <div className="flex items-center gap-2 bg-[#f7ecee] px-3.5 py-1.5 rounded-full border border-[#8a2f3f]/20 shrink-0">
-              <Clock className="w-4 h-4 text-[#8a2f3f]" />
-              <span className="font-['Urbanist',sans-serif] text-[12px] font-bold tracking-wider uppercase text-[#8a2f3f]">
+              <Clock className="w-5 h-5 text-[#8a2f3f]" />
+              <span className="font-['Urbanist',sans-serif] text-[16px] font-bold tracking-wider uppercase text-[#8a2f3f]">
                 O TIMING IMPORTA
               </span>
             </div>
@@ -222,9 +222,9 @@ export function Slide28Timeline({ isActive = true }: Slide28TimelineProps) {
             </div>
           </div>
 
-          <div className="mt-5 pt-3 border-t border-black/[0.06] flex items-center justify-between text-[13px] text-[#5f6062]">
+          <div className="mt-5 pt-3 border-t border-black/[0.06] flex items-center justify-between text-[15px] text-[#5f6062]">
             <div className="flex items-center gap-2">
-              <HeartPulse className="w-4 h-4 text-[#8a2f3f] shrink-0" />
+              <HeartPulse className="w-5 h-5 text-[#8a2f3f] shrink-0" />
               <span className="font-semibold text-[#0f1012]">
                 Princípio Norteador do Protocolo:
               </span>

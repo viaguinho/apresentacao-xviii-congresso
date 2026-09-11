@@ -58,7 +58,7 @@ export default function Slide27Cards({ isActive = true, className }: Slide27Card
 
             <div className="flex items-center gap-1.5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-[#8a2f3f]/10 text-[#8a2f3f] border border-[#8a2f3f]/20">
-                <Sparkles className="w-3 h-3 text-[#8a2f3f]" />
+                <Sparkles className="w-4 h-4 text-[#8a2f3f]" />
                 408 Pacientes · 2–18 anos · 6 Grupos
               </span>
             </div>
@@ -70,7 +70,7 @@ export default function Slide27Cards({ isActive = true, className }: Slide27Card
               <h3 className="text-[20px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
                 Heterogeneidade Psicossocial nos Diagnósticos
               </h3>
-              <p className="text-[12px] font-semibold text-[#8a2f3f] mt-0.5">
+              <p className="text-[16px] font-semibold text-[#8a2f3f] mt-0.5">
                 Mesmo diagnóstico ≠ mesma experiência · Mesma anatomia ≠ mesma trajetória
               </p>
             </div>
@@ -91,7 +91,7 @@ export default function Slide27Cards({ isActive = true, className }: Slide27Card
                 ))}
               </div>
 
-              <p className="text-[12px] text-[#334155] leading-relaxed font-normal mt-1.5">
+              <p className="text-[16px] text-[#334155] leading-relaxed font-normal mt-1.5">
                 Os padrões de dificuldades psicossociais foram diferentes entre os 6 grupos: <strong className="text-[#0f1012] font-semibold">“anomalia craniofacial” não constitui um único fenótipo psicossocial</strong> previsível pela simples classificação cirúrgica.
               </p>
             </div>
@@ -99,7 +99,7 @@ export default function Slide27Cards({ isActive = true, className }: Slide27Card
 
           {/* Bottom Section */}
           <div className="mt-2.5 pt-2 border-t border-black/[0.06] flex items-center justify-between">
-            <div className="flex items-center gap-1.5 text-[11px] font-semibold text-zinc-500">
+            <div className="flex items-center gap-1.5 text-[15px] font-semibold text-zinc-500">
               <span>Evidência:</span>
               <span className="text-[#0f1012] font-bold">Fenótipo Heterogêneo</span>
             </div>
@@ -137,7 +137,7 @@ export default function Slide27Cards({ isActive = true, className }: Slide27Card
 
             <div className="flex items-center gap-1.5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-rose-500/10 text-rose-300 border border-rose-500/25">
-                <CheckCircle2 className="w-3 h-3 text-rose-400" />
+                <CheckCircle2 className="w-4 h-4 text-rose-400" />
                 Matriz Clínica Multidimensional
               </span>
             </div>
@@ -149,7 +149,7 @@ export default function Slide27Cards({ isActive = true, className }: Slide27Card
               <h3 className="text-[20px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]">
                 Organizar por Domínios, Não Apenas por Diagnóstico
               </h3>
-              <p className="text-[12px] font-semibold text-rose-300 mt-0.5">
+              <p className="text-[16px] font-semibold text-rose-300 mt-0.5">
                 Quais dimensões da condição estão entrando na trajetória desta criança?
               </p>
             </div>
@@ -171,14 +171,14 @@ export default function Slide27Cards({ isActive = true, className }: Slide27Card
               ))}
             </div>
 
-            <p className="text-[12px] text-zinc-300 leading-relaxed font-normal mt-1.5">
+            <p className="text-[16px] text-zinc-300 leading-relaxed font-normal mt-1.5">
               A pergunta clínica relevante não é apenas qual é o rótulo da anomalia, mas <strong className="text-white font-semibold">quais dimensões dessa condição interferem concretamente no desenvolvimento e na funcionalidade</strong> nesta etapa específica.
             </p>
           </div>
 
           {/* Bottom Section */}
           <div className="mt-2.5 pt-2 border-t border-white/10 flex items-center justify-between">
-            <div className="flex items-center gap-1.5 text-[11px] font-semibold text-zinc-400">
+            <div className="flex items-center gap-1.5 text-[15px] font-semibold text-zinc-400">
               <span>Diretriz:</span>
               <span className="text-white font-bold">Foco na Funcionalidade</span>
             </div>

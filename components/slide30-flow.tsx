@@ -118,7 +118,7 @@ export default function Slide30Flow({ isActive = true, className }: Slide30FlowP
           </span>
         </div>
         <div className="flex items-center gap-1 text-[10px] font-semibold text-[#8a2f3f] bg-[#8a2f3f]/10 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/20">
-          <Repeat className="w-3 h-3 animate-spin" style={{ animationDuration: "12s" }} />
+          <Repeat className="w-4 h-4 animate-spin" style={{ animationDuration: "12s" }} />
           <span>Retroalimentação Contínua</span>
         </div>
       </div>
@@ -239,7 +239,7 @@ export default function Slide30Flow({ isActive = true, className }: Slide30FlowP
               </span>
             </div>
 
-            <h4 className="font-['Urbanist',sans-serif] text-[14.5px] font-black text-[#1a1113] tracking-tight leading-tight text-center">
+            <h4 className="font-['Urbanist',sans-serif] text-[16.5px] font-black text-[#1a1113] tracking-tight leading-tight text-center">
               Sistema Familiar
             </h4>
             <p className="text-[10px] font-semibold text-[#8a2f3f] text-center leading-tight">
@@ -286,7 +286,7 @@ export default function Slide30Flow({ isActive = true, className }: Slide30FlowP
 
               {/* Bottom Row: Title & Subtitle */}
               <div>
-                <h5 className="font-['Urbanist',sans-serif] text-[13px] font-bold text-[#1a1113] leading-tight truncate">
+                <h5 className="font-['Urbanist',sans-serif] text-[15px] font-bold text-[#1a1113] leading-tight truncate">
                   {block.title}
                 </h5>
                 <p className="text-[10px] text-[#554347] font-normal leading-tight mt-0.5 truncate">
@@ -300,7 +300,7 @@ export default function Slide30Flow({ isActive = true, className }: Slide30FlowP
 
       {/* Bottom Floating Legend Bar */}
       <div className="flex items-center justify-center pt-2 border-t border-[#8a2f3f]/10">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-[#8a2f3f]/15 shadow-xs text-[11px] text-[#554347]">
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-[#8a2f3f]/15 shadow-xs text-[15px] text-[#554347]">
           <Sparkles className="w-3.5 h-3.5 text-[#8a2f3f]" />
           <span>
             <strong className="text-[#1a1113] font-semibold">Mútua influência:</strong> Os 4 polos retroalimentam o desenvolvimento da criança e o ajuste dos pais.

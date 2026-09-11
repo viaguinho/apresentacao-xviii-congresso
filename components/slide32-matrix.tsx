@@ -225,15 +225,15 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
   const itemSize = 42;
 
   return (
-    <div className="w-full h-full flex flex-row gap-7 items-start min-h-0 font-['Satoshi',sans-serif] text-[#0f1012]">
+    <div className="w-full h-full flex flex-row gap-4 items-start min-h-0 font-['Satoshi',sans-serif] text-[#0f1012]">
       {/* ========================================================================= */}
       {/* ÁREA ESQUERDA: MATRIZ DE HEATMAP COMPLETA (14 ITENS + 4 FASES + PERGUNTAS) */}
       {/* ========================================================================= */}
-      <div className="flex-1 flex flex-col min-h-0 bg-white/60 backdrop-blur-sm p-4 rounded-2xl border border-black/[0.06] shadow-[0_4px_24px_rgba(0,0,0,0.02)]">
+      <div className="flex-1 flex flex-col min-h-0 bg-white/60 backdrop-blur-sm p-2.5 rounded-2xl border border-black/[0.06] shadow-[0_4px_24px_rgba(0,0,0,0.02)]">
         {/* Cabeçalho das Colunas de Faixa Etária */}
-        <div className="grid grid-cols-[330px_repeat(4,1fr)] gap-x-2.5 items-end px-2 pb-2.5 border-b border-black/[0.08]">
+        <div className="grid grid-cols-[330px_repeat(4,1fr)] gap-x-2.5 items-end px-2 pb-2 border-b border-black/[0.08]">
           <div className="flex items-center gap-2">
-            <span className="text-[11px] font-bold uppercase tracking-[0.14em] text-[#5f6062]">
+            <span className="text-[14px] font-bold uppercase tracking-[0.14em] text-[#5f6062]">
               Domínios e Linhas de Cuidado
             </span>
           </div>
@@ -264,7 +264,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
                 )}
                 <span
                   className={cn(
-                    "font-['Urbanist',sans-serif] text-[20px] font-bold tracking-tight transition-colors leading-tight",
+                    "font-['Urbanist',sans-serif] text-[18px] font-bold tracking-tight transition-colors leading-tight",
                     isPhaseActive ? "text-[#0071e3]" : "text-[#0f1012]"
                   )}
                 >
@@ -272,7 +272,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
                 </span>
                 <span
                   className={cn(
-                    "text-[11px] font-bold uppercase tracking-[0.06em] mt-0.5 transition-colors",
+                    "text-[14px] font-bold uppercase tracking-[0.06em] mt-0.5 transition-colors",
                     isPhaseActive ? "text-[#0071e3]" : "text-[#0071e3]/70"
                   )}
                 >
@@ -289,7 +289,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
             <div key={group.tag} className="flex flex-col">
               {/* Divisor de Grupo */}
               <div className="flex items-center gap-3 px-2 mt-2 mb-1">
-                <span className="font-['Urbanist',sans-serif] text-[13px] font-bold uppercase tracking-[0.1em] text-[#0071e3] whitespace-nowrap">
+                <span className="font-['Urbanist',sans-serif] text-[14px] font-bold uppercase tracking-[0.1em] text-[#0071e3] whitespace-nowrap">
                   {group.tag}
                 </span>
                 <div className="flex-1 h-[1px] bg-gradient-to-r from-[#0071e3]/25 via-[#0071e3]/10 to-transparent" />
@@ -302,7 +302,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
                   className="grid grid-cols-[330px_repeat(4,1fr)] gap-x-2.5 items-center px-2 py-[2.5px] rounded-lg hover:bg-black/[0.02] transition-colors group/row"
                 >
                   <p
-                    className="m-0 text-[15px] font-medium text-[#2c2d30] tracking-[-0.1px] truncate group-hover/row:text-[#0f1012]"
+                    className="m-0 text-[14px] font-medium text-[#2c2d30] tracking-[-0.1px] truncate group-hover/row:text-[#0f1012]"
                     title={row.label}
                   >
                     {row.label}
@@ -334,7 +334,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
         {/* Perguntas Norteadoras por Faixa Etária (Rodapé da Matriz) */}
         <div className="grid grid-cols-[330px_repeat(4,1fr)] gap-x-2.5 items-stretch px-2 pt-2.5 mt-1 border-t border-black/[0.08]">
           <div className="flex items-center">
-            <span className="font-['Urbanist',sans-serif] text-[12px] font-bold uppercase tracking-[0.1em] text-[#0071e3]">
+            <span className="font-['Urbanist',sans-serif] text-[16px] font-bold uppercase tracking-[0.1em] text-[#0071e3]">
               Pergunta-Chave por Fase
             </span>
           </div>
@@ -355,7 +355,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
               >
                 <p
                   className={cn(
-                    "m-0 text-[12px] leading-snug font-medium transition-colors",
+                    "m-0 text-[14px] leading-snug font-medium transition-colors",
                     isPhaseActive ? "text-[#0071e3] font-semibold" : "text-[#3f4042]"
                   )}
                 >
@@ -370,14 +370,14 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
       {/* ========================================================================= */}
       {/* ÁREA DIREITA: RADIAL HUB (CIRCLE MENU) + PAINEL EDITORIAL UNIFICADO       */}
       {/* ========================================================================= */}
-      <div className="w-[360px] flex-none flex flex-col gap-3.5">
+      <div className="w-[360px] flex-none flex flex-col gap-2">
         {/* Hub Radial Interativo (CircleMenu) com Controle Spotlight */}
-        <div className="p-4 rounded-2xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col items-center relative overflow-hidden">
+        <div className="p-2.5 rounded-2xl bg-white border border-black/[0.08] shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col items-center relative overflow-hidden">
           {/* Header do Hub com Botão Play/Pause */}
           <div className="w-full flex items-center justify-between pb-2 mb-1 border-b border-black/[0.06]">
             <div className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-[#0071e3] animate-pulse" />
-              <span className="text-[11px] font-bold uppercase tracking-[0.12em] text-[#5f6062]">
+              <span className="text-[15px] font-bold uppercase tracking-[0.12em] text-[#5f6062]">
                 Hub de Fases · Eixo 6
               </span>
             </div>
@@ -386,7 +386,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
               type="button"
               onClick={() => setIsAutoPlay(!isAutoPlay)}
               className={cn(
-                "flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-semibold transition-all cursor-pointer",
+                "flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[15px] font-semibold transition-all cursor-pointer",
                 isAutoPlay
                   ? "bg-[#0071e3]/10 text-[#0071e3] hover:bg-[#0071e3]/15"
                   : "bg-black/[0.05] text-[#6a6b6d] hover:bg-black/[0.08]"
@@ -395,12 +395,12 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
             >
               {isAutoPlay ? (
                 <>
-                  <Pause size={12} className="fill-current" />
+                  <Pause size={16} className="fill-current" />
                   <span>Spotlight</span>
                 </>
               ) : (
                 <>
-                  <Play size={12} className="fill-current" />
+                  <Play size={16} className="fill-current" />
                   <span>Pausado</span>
                 </>
               )}
@@ -491,17 +491,17 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
           {/* Destaque da Fase Selecionada em Card Dinâmico */}
           <div className="w-full mt-2 bg-[#f8fbfe] border border-[#0071e3]/20 rounded-xl p-2.5 flex flex-col gap-1">
             <div className="flex items-center justify-between">
-              <span className="text-[11px] font-bold uppercase tracking-[0.1em] text-[#0071e3]">
+              <span className="text-[14px] font-bold uppercase tracking-[0.1em] text-[#0071e3]">
                 Fase em Foco · {currentDisplayPhase.range}
               </span>
-              <span className="text-[11px] font-semibold text-[#5f6062]">
+              <span className="text-[14px] font-semibold text-[#5f6062]">
                 {currentDisplayPhase.title}
               </span>
             </div>
-            <p className="m-0 text-[13px] text-[#0f1012] font-semibold leading-tight">
+            <p className="m-0 text-[14px] text-[#0f1012] font-semibold leading-tight">
               {currentDisplayPhase.question}
             </p>
-            <div className="flex items-center justify-between text-[11px] text-[#6a6b6d] pt-1 border-t border-black/[0.05] mt-0.5">
+            <div className="flex items-center justify-between text-[13px] text-[#6a6b6d] pt-1 border-t border-black/[0.05] mt-0.5">
               <span>Foco: {currentDisplayPhase.focus}</span>
               <span className="font-medium text-[#0071e3]">{currentDisplayPhase.milestone}</span>
             </div>
@@ -509,12 +509,12 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
         </div>
 
         {/* Legenda de Relevância Relativa */}
-        <div className="p-3.5 rounded-2xl bg-white border border-black/[0.08] shadow-[0_2px_12px_rgba(0,0,0,0.02)]">
+        <div className="p-2.5 rounded-2xl bg-white border border-black/[0.08] shadow-[0_2px_12px_rgba(0,0,0,0.02)]">
           <div className="flex justify-between items-center">
-            <p className="m-0 text-[12px] font-bold tracking-[0.1em] uppercase text-[#5f6062]">
+            <p className="m-0 text-[14px] font-bold tracking-[0.1em] uppercase text-[#5f6062]">
               Relevância relativa
             </p>
-            <span className="text-[11px] text-[#868788]">Qualitativa</span>
+            <span className="text-[13px] text-[#868788]">Qualitativa</span>
           </div>
           <div className="grid grid-cols-6 gap-1.5 my-2">
             {[1, 2, 3, 4, 5, 6].map((lvl) => (
@@ -525,18 +525,18 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
               />
             ))}
           </div>
-          <div className="flex justify-between text-[11px] text-[#6a6b6d]">
+          <div className="flex justify-between text-[13px] text-[#6a6b6d]">
             <span>menor</span>
             <span>maior</span>
           </div>
-          <p className="m-0 mt-1.5 text-[11px] leading-[1.35] text-[#6a6b6d]">
+          <p className="m-0 mt-1.5 text-[13px] leading-[1.35] text-[#6a6b6d]">
             Escala qualitativa — sem valores numéricos.
           </p>
         </div>
 
         {/* Bloco de Arquitetura Longitudinal */}
-        <div className="p-3.5 rounded-2xl bg-[#f4f9fe] border border-[#0071e3]/[0.18] shadow-sm">
-          <p className="m-0 mb-1 text-[12px] font-bold tracking-[0.08em] uppercase text-[#0071e3]">
+        <div className="p-2.5 rounded-2xl bg-[#f4f9fe] border border-[#0071e3]/[0.18] shadow-sm">
+          <p className="m-0 mb-1 text-[14px] font-bold tracking-[0.08em] uppercase text-[#0071e3]">
             Arquitetura longitudinal
           </p>
           <p className="m-0 text-[14px] leading-snug text-[#2c2d30]">
@@ -544,19 +544,19 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
             <strong>diagnóstico, 18 meses, 3, 5 e 8 anos</strong> — depois{" "}
             <strong>8, 10, 12, 15, 18, 20 e 25 anos</strong>.
           </p>
-          <p className="m-0 mt-1 text-[11px] text-[#6a6b6d] leading-tight">
+          <p className="m-0 mt-1 text-[13px] text-[#6a6b6d] leading-tight">
             Exemplo de arquitetura, não calendário obrigatório.
           </p>
         </div>
 
         {/* Síntese do Eixo */}
-        <div className="p-3.5 rounded-2xl bg-white border border-black/[0.08] shadow-sm">
-          <p className="m-0 font-['Urbanist',sans-serif] text-[18px] font-bold tracking-tight text-[#0071e3] leading-tight">
+        <div className="p-2.5 rounded-2xl bg-white border border-black/[0.08] shadow-sm">
+          <p className="m-0 font-['Urbanist',sans-serif] text-[16px] font-bold tracking-tight text-[#0071e3] leading-tight">
             Domínios permanecem;
             <br />
             prioridades mudam.
           </p>
-          <p className="m-0 mt-1.5 text-[13px] leading-relaxed text-[#3f4042]">
+          <p className="m-0 mt-1.5 text-[14px] leading-relaxed text-[#3f4042]">
             Estável para permitir comparação longitudinal; flexível para perguntar o que importa em
             cada idade.
           </p>

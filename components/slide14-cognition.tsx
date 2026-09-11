@@ -77,10 +77,10 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
       <div className="w-full shrink-0 z-10">
         <div className="flex items-center justify-between bg-gradient-to-r from-[#21C6E0]/15 via-[#eaf9fa] to-transparent px-4 py-1.5 rounded-lg border-l-4 border-[#21C6E0]">
           <div className="flex items-center gap-2.5">
-            <span className="font-['Urbanist'] text-[11px] font-bold uppercase tracking-wider text-[#0d606a] bg-[#21C6E0]/20 px-2 py-0.5 rounded border border-[#21C6E0]/30">
+            <span className="font-['Urbanist'] text-[15px] font-bold uppercase tracking-wider text-[#0d606a] bg-[#21C6E0]/20 px-2 py-0.5 rounded border border-[#21C6E0]/30">
               Ponte Conceitual
             </span>
-            <p className="text-[13px] font-medium text-[#0d606a]">
+            <p className="text-[15px] font-medium text-[#0d606a]">
               Dos fundamentos sistêmicos (Eixo 1) <ArrowRight className="w-3.5 h-3.5 inline mx-1 text-[#21C6E0]" /> À arquitetura e maturação das funções mentais (Eixo 2)
             </p>
           </div>
@@ -110,12 +110,12 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
           <div className="flex flex-col bg-transparent relative">
             <div className="flex items-center justify-between mb-1.5 shrink-0">
               <div className="flex items-center gap-2">
-                <Layers className="w-4 h-4 text-[#21C6E0]" />
-                <span className="font-['Urbanist'] text-[12px] font-bold uppercase tracking-widest text-[#0d606a]">
+                <Layers className="w-5 h-5 text-[#21C6E0]" />
+                <span className="font-['Urbanist'] text-[16px] font-bold uppercase tracking-widest text-[#0d606a]">
                   Hierarquia Funcional Interdependente
                 </span>
               </div>
-              <span className="text-[11px] text-zinc-400 font-medium">
+              <span className="text-[15px] text-zinc-400 font-medium">
                 Conexões ascendentes e descendentes contínuas
               </span>
             </div>
@@ -145,12 +145,12 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
 
               {/* CAMADA 4: FUNÇÕES DE ORDEM SUPERIOR */}
               <div className="relative p-2.5 rounded-xl border bg-white/95 border-black/[0.08] shadow-[0_1px_4px_rgba(0,0,0,0.02)]">
-                <div className="absolute -left-[28px] top-1/2 -translate-y-1/2 w-4 h-4 rounded-full bg-white border-[1.5px] border-[#21C6E0]/70 flex items-center justify-center shadow-xs">
+                <div className="absolute -left-[28px] top-1/2 -translate-y-1/2 w-5 h-5 rounded-full bg-white border-[1.5px] border-[#21C6E0]/70 flex items-center justify-center shadow-xs">
                   <div className="w-1.5 h-1.5 rounded-full bg-[#0d606a]" />
                 </div>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2.5">
-                    <span className="w-5 h-5 rounded-md bg-[#21C6E0]/15 text-[#0d606a] font-['Urbanist'] font-bold text-[11px] flex items-center justify-center shrink-0">
+                    <span className="w-5 h-5 rounded-md bg-[#21C6E0]/15 text-[#0d606a] font-['Urbanist'] font-bold text-[15px] flex items-center justify-center shrink-0">
                       4
                     </span>
                     <div>
@@ -170,16 +170,16 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
 
               {/* CAMADA 3: FUNÇÕES EXECUTIVAS NUCLEARES (NÚCLEO DIAMOND 2013) */}
               <div className="relative p-2.5 rounded-xl border-2 bg-gradient-to-r from-[#21C6E0]/15 via-white to-white border-[#21C6E0]/70 shadow-[0_2px_8px_rgba(33,198,224,0.06)]">
-                <div className="absolute -left-[28px] top-1/2 -translate-y-1/2 w-4 h-4 rounded-full bg-white border-[1.5px] border-[#21C6E0] flex items-center justify-center shadow-xs ring-2 ring-[#21C6E0]/20">
+                <div className="absolute -left-[28px] top-1/2 -translate-y-1/2 w-5 h-5 rounded-full bg-white border-[1.5px] border-[#21C6E0] flex items-center justify-center shadow-xs ring-2 ring-[#21C6E0]/20">
                   <div className="w-1.5 h-1.5 rounded-full bg-[#21C6E0]" />
                 </div>
                 <div className="flex items-center justify-between mb-1">
                   <div className="flex items-center gap-2.5">
-                    <span className="w-5 h-5 rounded-md bg-[#21C6E0] text-zinc-900 font-['Urbanist'] font-bold text-[11px] flex items-center justify-center shadow-xs shrink-0">
+                    <span className="w-5 h-5 rounded-md bg-[#21C6E0] text-zinc-900 font-['Urbanist'] font-bold text-[15px] flex items-center justify-center shadow-xs shrink-0">
                       3
                     </span>
                     <div className="flex items-center gap-2">
-                      <h3 className="font-['Urbanist'] text-[14px] font-extrabold text-[#0d606a] leading-tight">
+                      <h3 className="font-['Urbanist'] text-[16px] font-extrabold text-[#0d606a] leading-tight">
                         Funções Executivas Nucleares
                       </h3>
                       <span className="text-[9px] font-bold uppercase tracking-wider bg-[#21C6E0] text-zinc-900 px-1.5 py-0.5 rounded">
@@ -222,12 +222,12 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
 
               {/* CAMADA 2: MEMÓRIA & LINGUAGEM */}
               <div className="relative p-2.5 rounded-xl border bg-white/95 border-black/[0.08] shadow-[0_1px_4px_rgba(0,0,0,0.02)]">
-                <div className="absolute -left-[28px] top-1/2 -translate-y-1/2 w-4 h-4 rounded-full bg-white border-[1.5px] border-[#14b8a6]/70 flex items-center justify-center shadow-xs">
+                <div className="absolute -left-[28px] top-1/2 -translate-y-1/2 w-5 h-5 rounded-full bg-white border-[1.5px] border-[#14b8a6]/70 flex items-center justify-center shadow-xs">
                   <div className="w-1.5 h-1.5 rounded-full bg-[#14b8a6]" />
                 </div>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2.5">
-                    <span className="w-5 h-5 rounded-md bg-[#21C6E0]/15 text-[#0d606a] font-['Urbanist'] font-bold text-[11px] flex items-center justify-center shrink-0">
+                    <span className="w-5 h-5 rounded-md bg-[#21C6E0]/15 text-[#0d606a] font-['Urbanist'] font-bold text-[15px] flex items-center justify-center shrink-0">
                       2
                     </span>
                     <div>
@@ -247,12 +247,12 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
 
               {/* CAMADA 1: ATENÇÃO & PERCEPÇÃO */}
               <div className="relative p-2.5 rounded-xl border bg-white/95 border-black/[0.08] shadow-[0_1px_4px_rgba(0,0,0,0.02)]">
-                <div className="absolute -left-[28px] top-1/2 -translate-y-1/2 w-4 h-4 rounded-full bg-white border-[1.5px] border-zinc-400/70 flex items-center justify-center shadow-xs">
+                <div className="absolute -left-[28px] top-1/2 -translate-y-1/2 w-5 h-5 rounded-full bg-white border-[1.5px] border-zinc-400/70 flex items-center justify-center shadow-xs">
                   <div className="w-1.5 h-1.5 rounded-full bg-zinc-500" />
                 </div>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2.5">
-                    <span className="w-5 h-5 rounded-md bg-zinc-100 text-zinc-700 font-['Urbanist'] font-bold text-[11px] flex items-center justify-center shrink-0">
+                    <span className="w-5 h-5 rounded-md bg-zinc-100 text-zinc-700 font-['Urbanist'] font-bold text-[15px] flex items-center justify-center shrink-0">
                       1
                     </span>
                     <div>
@@ -277,7 +277,7 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
           <div className="bg-white p-3 rounded-2xl border border-black/[0.07] shadow-sm flex flex-col justify-between">
             <div className="flex items-center justify-between mb-1">
               <div className="flex items-center gap-2">
-                <TrendingUp className="w-4 h-4 text-[#21C6E0]" />
+                <TrendingUp className="w-5 h-5 text-[#21C6E0]" />
                 <span className="font-['Urbanist'] text-[12.5px] font-bold text-[#0f1012]">
                   Maturação Heterocrônica · Janelas Críticas & Ritmos
                 </span>
@@ -378,7 +378,7 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
           {/* NOVO CARD DE QI BASEADO NO CARD-7 */}
           <Card7
             videoSrc="assets/blue-cubes-animation.mp4"
-            logo={<Sparkles className="w-4 h-4 text-[#21C6E0]" />}
+            logo={<Sparkles className="w-5 h-5 text-[#21C6E0]" />}
             badge="Alerta Clínico"
             title="QI ≠ cognição inteira"
             subtitle="Neuropsicologia do Desenvolvimento"
@@ -387,7 +387,7 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
           >
             {/* Box de Recomendação Clínica */}
             <div className="mt-2.5 p-2.5 rounded-xl bg-white/90 backdrop-blur-xs border border-[#21C6E0]/35 shadow-xs">
-              <div className="flex items-start gap-2 text-[11px] font-semibold text-[#0d606a] leading-snug">
+              <div className="flex items-start gap-2 text-[15px] font-semibold text-[#0d606a] leading-snug">
                 <Sparkles className="w-3.5 h-3.5 text-[#21C6E0] shrink-0 mt-0.5" />
                 <span>Avaliação clínica requer perfil multifacetado, não apenas um escore composto.</span>
               </div>
@@ -410,7 +410,7 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
         <span className="font-['Urbanist'] text-[10px] font-bold tracking-wider uppercase text-[#0d606a] bg-[#21C6E0]/15 px-2 py-0.5 rounded border border-[#21C6E0]/30">
           REF
         </span>
-        <p className="text-[11px] leading-tight text-zinc-500">
+        <p className="text-[15px] leading-tight text-zinc-500">
           Diamond A. <em>Annu Rev Psychol.</em> 2013;64:135-168. · Anderson P. <em>Child Neuropsychol.</em> 2002;8(2):71-82. · Shokrkon A, Nicoladis E. <em>Front Psychol.</em> 2022;13:848696.
         </p>
       </div>

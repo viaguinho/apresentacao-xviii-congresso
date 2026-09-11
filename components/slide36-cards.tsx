@@ -52,7 +52,7 @@ export default function Slide36Cards({ isActive = true, className }: Slide36Card
 
             <div className="flex items-center gap-1.5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-[#33415c]/10 text-[#33415c] border border-[#33415c]/20">
-                <Sparkles className="w-3 h-3 text-[#33415c]" />
+                <Sparkles className="w-4 h-4 text-[#33415c]" />
                 Vigilância Contínua ≠ Rastreio Pontual
               </span>
             </div>
@@ -64,7 +64,7 @@ export default function Slide36Cards({ isActive = true, className }: Slide36Card
               <h3 className="text-[20px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
                 Transversal ("Como Está?") × Longitudinal ("Como Muda?")
               </h3>
-              <p className="text-[12px] font-semibold text-[#33415c] mt-0.5">
+              <p className="text-[16px] font-semibold text-[#33415c] mt-0.5">
                 Uma medida pontual informa apenas posição estática — não a direção evolutiva
               </p>
             </div>
@@ -85,7 +85,7 @@ export default function Slide36Cards({ isActive = true, className }: Slide36Card
                 ))}
               </div>
 
-              <p className="text-[12px] text-[#334155] leading-relaxed font-normal mt-1.5">
+              <p className="text-[16px] text-[#334155] leading-relaxed font-normal mt-1.5">
                 A vigilância do desenvolvimento é um processo contínuo e repetido (história, preocupações, observação e seguimento). Marcos auxiliam a vigilância, mas <strong className="text-[#0f1012] font-semibold">não substituem instrumentos padronizados</strong> quando há preocupação clínica.
               </p>
             </div>
@@ -93,7 +93,7 @@ export default function Slide36Cards({ isActive = true, className }: Slide36Card
 
           {/* Bottom Section */}
           <div className="mt-2.5 pt-2 border-t border-black/[0.06] flex items-center justify-between">
-            <div className="flex items-center gap-1.5 text-[11px] font-semibold text-zinc-500">
+            <div className="flex items-center gap-1.5 text-[15px] font-semibold text-zinc-500">
               <span>Princípio:</span>
               <span className="text-[#0f1012] font-bold">Variável de Mudança</span>
             </div>
@@ -131,7 +131,7 @@ export default function Slide36Cards({ isActive = true, className }: Slide36Card
 
             <div className="flex items-center gap-1.5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-wider bg-slate-500/15 text-slate-300 border border-slate-500/30">
-                <CheckCircle2 className="w-3 h-3 text-slate-300" />
+                <CheckCircle2 className="w-4 h-4 text-slate-300" />
                 Exemplo Clínico Ilustrativo
               </span>
             </div>
@@ -143,7 +143,7 @@ export default function Slide36Cards({ isActive = true, className }: Slide36Card
               <h3 className="text-[20px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]">
                 Mesma Fotografia Clínica — Histórias Opostas
               </h3>
-              <p className="text-[12px] font-semibold text-slate-300 mt-0.5">
+              <p className="text-[16px] font-semibold text-slate-300 mt-0.5">
                 Duas crianças com idêntico escore de satisfação com aparência hoje
               </p>
             </div>
@@ -154,7 +154,7 @@ export default function Slide36Cards({ isActive = true, className }: Slide36Card
                 <span className="text-[9px] font-bold uppercase tracking-wider text-emerald-400 block mb-0.5">
                   Trajetória Ascendente
                 </span>
-                <span className="text-[11px] font-bold text-emerald-200 leading-tight block">
+                <span className="text-[15px] font-bold text-emerald-200 leading-tight block">
                   Estável e adaptada há vários anos consecutivos
                 </span>
               </div>
@@ -163,20 +163,20 @@ export default function Slide36Cards({ isActive = true, className }: Slide36Card
                 <span className="text-[9px] font-bold uppercase tracking-wider text-rose-400 block mb-0.5">
                   Trajetória Descendente
                 </span>
-                <span className="text-[11px] font-bold text-rose-200 leading-tight block">
+                <span className="text-[15px] font-bold text-rose-200 leading-tight block">
                   Queda progressiva na transição para a adolescência
                 </span>
               </div>
             </div>
 
-            <p className="text-[12px] text-zinc-300 leading-relaxed font-normal mt-1.5">
+            <p className="text-[16px] text-zinc-300 leading-relaxed font-normal mt-1.5">
               <strong className="text-white font-semibold">O escore atual é realmente a informação mais importante?</strong> Avaliar apenas o estado estático hoje esconde a direção da trajetória e pode atrasar intervenções preventivas oportunas.
             </p>
           </div>
 
           {/* Bottom Section */}
           <div className="mt-2.5 pt-2 border-t border-white/10 flex items-center justify-between">
-            <div className="flex items-center gap-1.5 text-[11px] font-semibold text-zinc-400">
+            <div className="flex items-center gap-1.5 text-[15px] font-semibold text-zinc-400">
               <span>Alerta:</span>
               <span className="text-white font-bold">O Filme Supera a Foto</span>
             </div>

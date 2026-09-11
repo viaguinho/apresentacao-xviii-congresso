@@ -48,7 +48,7 @@ export default function Slide23Cards({ isActive = true, className }: Slide23Card
           <h4 className="text-[19px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight">
             Competência Social ≠ Extroversão
           </h4>
-          <p className="text-[12px] font-medium text-zinc-300 mt-1.5 leading-relaxed">
+          <p className="text-[16px] font-medium text-zinc-300 mt-1.5 leading-relaxed">
             É alcançar objetivos sociais preservando, ao mesmo tempo, relações adequadas e recíprocas com os outros.
           </p>
         </div>
@@ -63,15 +63,15 @@ export default function Slide23Cards({ isActive = true, className }: Slide23Card
                 className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-zinc-900/90 border border-zinc-800 hover:border-[#6b4e83]/40 transition-colors"
               >
                 <Icon className="w-3.5 h-3.5 text-[#a882c7] shrink-0" />
-                <span className="text-[11px] font-medium text-zinc-200">{item.label}</span>
+                <span className="text-[15px] font-medium text-zinc-200">{item.label}</span>
               </div>
             );
           })}
         </div>
 
         <div className="flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10">
-          <span className="text-xs font-semibold text-zinc-400">Equilíbrio funcional:</span>
-          <span className="text-xs font-bold text-[#e9dff0] bg-[#6b4e83]/25 px-2.5 py-0.5 rounded-full border border-[#6b4e83]/35">
+          <span className="text-sm font-semibold text-zinc-400">Equilíbrio funcional:</span>
+          <span className="text-sm font-bold text-[#e9dff0] bg-[#6b4e83]/25 px-2.5 py-0.5 rounded-full border border-[#6b4e83]/35">
             Objetivos Pessoais ↔ Vínculo com Pares
           </span>
         </div>
@@ -91,7 +91,7 @@ export default function Slide23Cards({ isActive = true, className }: Slide23Card
             <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-[#6b4e83] bg-[#6b4e83]/[0.10] px-2.5 py-0.5 rounded-full border border-[#6b4e83]/20 font-['Urbanist',sans-serif]">
               Evidência Empírica · Meta-análise
             </span>
-            <span className="text-[11px] font-semibold text-[#5f6062]">
+            <span className="text-[15px] font-semibold text-[#5f6062]">
               80 amostras · N = 4.441
             </span>
           </div>
@@ -108,7 +108,7 @@ export default function Slide23Cards({ isActive = true, className }: Slide23Card
           <div>
             <span className="text-[10px] font-bold uppercase tracking-wider text-[#6b4e83] block">Tamanho de Efeito Meta-analítico</span>
             <div className="font-['Urbanist',sans-serif] text-[24px] font-bold tracking-tight text-[#6b4e83]">
-              d = 0,39 <span className="text-[12px] font-normal text-zinc-600">(IC 95% 0,32–0,47)</span>
+              d = 0,39 <span className="text-[16px] font-normal text-zinc-600">(IC 95% 0,32–0,47)</span>
             </div>
           </div>
           <span className="text-[10.5px] font-bold text-[#6b4e83] bg-white px-2.5 py-1 rounded-full border border-[#6b4e83]/20 shadow-2xs">
@@ -120,7 +120,7 @@ export default function Slide23Cards({ isActive = true, className }: Slide23Card
           A associação permaneceu significativa quando a competência social foi avaliada em idades escolares posteriores.
         </p>
 
-        <p className="text-[11px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between">
+        <p className="text-[15px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between">
           <span>Associação probabilística — não determinística</span>
           <span className="font-semibold text-[#6b4e83]">A base não é destino</span>
         </p>

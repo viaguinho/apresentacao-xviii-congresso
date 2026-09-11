@@ -195,7 +195,7 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
             {/* Header com Tag Apple */}
             <div className="flex items-center justify-between mb-1">
               <span className="inline-flex items-center gap-1.5 text-[9.5px] font-bold uppercase tracking-[0.14em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2 py-0.5 rounded-full border border-[#0071e3]/20">
-                <Activity className="w-3 h-3" />
+                <Activity className="w-4 h-4" />
                 Mapeamento de Trajetórias
               </span>
               <span className="text-[10.5px] font-semibold text-[#5f6062]">
@@ -203,7 +203,7 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
               </span>
             </div>
 
-            <h3 className="text-base font-bold tracking-tight text-[#0f1012] leading-tight">
+            <h3 className="text-lg font-bold tracking-tight text-[#0f1012] leading-tight">
               Mesmo Risco, Trajetórias Diferentes
             </h3>
             <p className="text-[10.5px] text-[#5f6062] mt-0.5 leading-snug">
@@ -258,10 +258,10 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
                 <line x1="70" y1="245" x2="445" y2="245" stroke="#cbd5e1" strokeWidth="1.5" />
                 <line x1="70" y1="130" x2="445" y2="130" stroke="#f1f5f9" strokeWidth="1" strokeDasharray="3 3" />
 
-                <text x="70" y="260" fontFamily="'Satoshi', sans-serif" fontSize="11" fontWeight="600" fill="#64748b">
+                <text x="70" y="260" fontFamily="'Satoshi', sans-serif" fontSize="15" fontWeight="600" fill="#64748b">
                   infância precoce
                 </text>
-                <text x="440" y="260" textAnchor="end" fontFamily="'Satoshi', sans-serif" fontSize="11" fontWeight="600" fill="#64748b">
+                <text x="440" y="260" textAnchor="end" fontFamily="'Satoshi', sans-serif" fontSize="15" fontWeight="600" fill="#64748b">
                   adolescência
                 </text>
 
@@ -270,7 +270,7 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
                   y="130"
                   textAnchor="middle"
                   fontFamily="'Satoshi', sans-serif"
-                  fontSize="11"
+                  fontSize="15"
                   fontWeight="600"
                   fill="#64748b"
                   transform="rotate(-90 22 130)"
@@ -323,7 +323,7 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
               </g>
 
               {/* Rótulos Completos no Lado Direito — 100% Visíveis com margem ampla */}
-              <g fontFamily="'Satoshi', sans-serif" fontSize="11" fontWeight="700">
+              <g fontFamily="'Satoshi', sans-serif" fontSize="15" fontWeight="700">
                 <text x="430" y="38" fill="#0071e3">
                   Superação
                 </text>
@@ -357,7 +357,7 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
             {/* Header */}
             <div className="flex items-center justify-between mb-1">
               <span className="inline-flex items-center gap-1.5 text-[9.5px] font-bold uppercase tracking-[0.14em] text-[#0071e3] bg-[#0071e3]/[0.08] px-2 py-0.5 rounded-full border border-[#0071e3]/20">
-                <ShieldCheck className="w-3 h-3" />
+                <ShieldCheck className="w-4 h-4" />
                 Sistemas da Resiliência
               </span>
               <span className="text-[9.5px] font-bold uppercase text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200">
@@ -370,7 +370,7 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
               <p className="m-0 text-[9px] font-bold uppercase tracking-wider text-[#0071e3]">
                 Definição Operacional
               </p>
-              <p className="m-0 mt-0.5 text-[11px] font-medium text-[#0f1012] leading-snug">
+              <p className="m-0 mt-0.5 text-[15px] font-medium text-[#0f1012] leading-snug">
                 Capacidade de um sistema dinâmico de adaptar-se diante de desafios que ameaçam seu funcionamento ou desenvolvimento.
               </p>
             </div>
@@ -406,7 +406,7 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
                 <span className="text-[12.5px] font-bold text-[#0f1012] leading-tight">
                   da criança
                 </span>
-                <span className="text-[9px] text-gray-500 mt-0.5">biologia &amp; agência</span>
+                <span className="text-[9px] text-gray-700 mt-0.5">biologia &amp; agência</span>
               </CircularBeam>
             </motion.div>
 
@@ -438,7 +438,7 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
                 <span className="text-[12.5px] font-bold text-[#0f1012] leading-tight">
                   responde
                 </span>
-                <span className="text-[9px] text-gray-500 mt-0.5">enfrentamento</span>
+                <span className="text-[9px] text-gray-700 mt-0.5">enfrentamento</span>
               </CircularBeam>
             </motion.div>
 
@@ -456,13 +456,13 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
                 <span className="text-[9px] font-extrabold uppercase tracking-[0.12em] text-indigo-700 bg-indigo-50 px-1.5 py-0.2 rounded-sm border border-indigo-200/60 mb-0.5">
                   ecológico
                 </span>
-                <span className="text-[12px] font-bold text-[#0f1012] leading-tight">
+                <span className="text-[16px] font-bold text-[#0f1012] leading-tight">
                   recursos ao redor
                 </span>
-                <span className="text-[12px] font-bold text-[#0071e3] leading-tight">
+                <span className="text-[16px] font-bold text-[#0071e3] leading-tight">
                   da criança
                 </span>
-                <span className="text-[9.5px] text-gray-500 mt-0.5">família · escola · rede</span>
+                <span className="text-[9.5px] text-gray-700 mt-0.5">família · escola · rede</span>
               </CircularBeam>
             </div>
 
@@ -481,7 +481,7 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
           <div className="bg-gradient-to-r from-[#e8f2fc] to-indigo-50/60 rounded-xl p-2 border border-[#0071e3]/20">
             <div className="flex items-center gap-1.5 mb-0.5">
               <Sparkles className="w-3.5 h-3.5 text-[#0071e3] shrink-0" />
-              <p className="m-0 text-[11px] font-bold text-[#0071e3] leading-snug">
+              <p className="m-0 text-[15px] font-bold text-[#0071e3] leading-snug">
                 Parte importante da resiliência da criança está fora da própria criança.
               </p>
             </div>
@@ -601,7 +601,7 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
               <span className="text-[8.5px] font-extrabold uppercase tracking-widest text-[#0071e3] bg-[#0071e3]/10 px-2 py-0.5 rounded-md border border-[#0071e3]/20 shrink-0">
                 Princípio Central
               </span>
-              <p className="text-xs md:text-sm font-bold text-[#0f1012] m-0 tracking-tight">
+              <p className="text-sm md:text-base font-bold text-[#0f1012] m-0 tracking-tight">
                 Risco aumenta probabilidades. Resiliência modifica trajetórias.
               </p>
             </div>
@@ -650,7 +650,7 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
                     {k.badge}
                   </span>
                 </div>
-                <p className="text-[11px] font-bold text-[#0f1012] tracking-tight m-0">
+                <p className="text-[15px] font-bold text-[#0f1012] tracking-tight m-0">
                   {k.title}
                 </p>
               </div>

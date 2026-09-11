@@ -31,7 +31,7 @@ export default function Slide29Cards({ isActive = true, className }: Slide29Card
             <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-[#8a2f3f] bg-[#8a2f3f]/[0.10] px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/25 font-['Urbanist',sans-serif]">
               Desfechos Centrados no Paciente
             </span>
-            <span className="text-[11px] font-semibold text-[#5f6062]">
+            <span className="text-[15px] font-semibold text-[#5f6062]">
               136 entrevistas · 6 países
             </span>
           </div>
@@ -46,37 +46,37 @@ export default function Slide29Cards({ isActive = true, className }: Slide29Card
         {/* 3 Subcards de Dimensões em Mini-Grid */}
         <div className="grid grid-cols-3 gap-2 my-2">
           <div className="p-2.5 rounded-xl bg-[#f8f9fa] border border-black/[0.04]">
-            <div className="flex items-center gap-1.5 text-xs font-bold text-[#0f1012] mb-1">
+            <div className="flex items-center gap-1.5 text-sm font-bold text-[#0f1012] mb-1">
               <Smile className="w-3.5 h-3.5 text-[#8a2f3f]" />
               <span>Aparência</span>
             </div>
-            <p className="text-[11px] text-[#5f6062] leading-snug m-0">
+            <p className="text-[15px] text-[#5f6062] leading-snug m-0">
               Face, nariz, lábios, dentes, mandíbula e cicatriz.
             </p>
           </div>
 
           <div className="p-2.5 rounded-xl bg-[#f8f9fa] border border-black/[0.04]">
-            <div className="flex items-center gap-1.5 text-xs font-bold text-[#0f1012] mb-1">
+            <div className="flex items-center gap-1.5 text-sm font-bold text-[#0f1012] mb-1">
               <Activity className="w-3.5 h-3.5 text-[#8a2f3f]" />
               <span>Função</span>
             </div>
-            <p className="text-[11px] text-[#5f6062] leading-snug m-0">
+            <p className="text-[15px] text-[#5f6062] leading-snug m-0">
               Fala compreensível, alimentação, sucção e fonação.
             </p>
           </div>
 
           <div className="p-2.5 rounded-xl bg-[#f8f9fa] border border-black/[0.04]">
-            <div className="flex items-center gap-1.5 text-xs font-bold text-[#0f1012] mb-1">
+            <div className="flex items-center gap-1.5 text-sm font-bold text-[#0f1012] mb-1">
               <Heart className="w-3.5 h-3.5 text-[#8a2f3f]" />
               <span>Qualidade de Vida</span>
             </div>
-            <p className="text-[11px] text-[#5f6062] leading-snug m-0">
+            <p className="text-[15px] text-[#5f6062] leading-snug m-0">
               Psicológica, social, escolar e conforto com a fala.
             </p>
           </div>
         </div>
 
-        <p className="text-[11px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between">
+        <p className="text-[15px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between">
           <span>Os participantes relatam:</span>
           <span className="font-semibold text-[#8a2f3f]">Preocupações mudam ao longo do tempo</span>
         </p>
@@ -116,7 +116,7 @@ export default function Slide29Cards({ isActive = true, className }: Slide29Card
             <span className="text-[10px] font-bold uppercase tracking-wider text-zinc-400 block mb-1 font-['Urbanist',sans-serif]">
               Profissional
             </span>
-            <p className="text-[12px] text-zinc-200 font-medium leading-snug m-0">
+            <p className="text-[16px] text-zinc-200 font-medium leading-snug m-0">
               “Tecnicamente, o resultado cirúrgico está muito bom.”
             </p>
           </div>
@@ -125,7 +125,7 @@ export default function Slide29Cards({ isActive = true, className }: Slide29Card
             <span className="text-[10px] font-bold uppercase tracking-wider text-[#f8a5b2] block mb-1 font-['Urbanist',sans-serif]">
               Paciente
             </span>
-            <p className="text-[12px] text-white font-medium leading-snug m-0">
+            <p className="text-[16px] text-white font-medium leading-snug m-0">
               “Mas isso resolveu aquilo que era importante para mim?”
             </p>
           </div>
@@ -139,8 +139,8 @@ export default function Slide29Cards({ isActive = true, className }: Slide29Card
         </div>
 
         <div className="flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10">
-          <span className="text-xs font-semibold text-zinc-400">Axioma de conduta:</span>
-          <span className="text-xs font-bold text-[#f8d7dc] bg-[#8a2f3f]/25 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/35">
+          <span className="text-sm font-semibold text-zinc-400">Axioma de conduta:</span>
+          <span className="text-sm font-bold text-[#f8d7dc] bg-[#8a2f3f]/25 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/35">
             Cuidado Centrado na Experiência
           </span>
         </div>

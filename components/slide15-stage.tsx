@@ -55,7 +55,7 @@ export default function Slide15Stage({ isActive = true }: Slide15StageProps) {
       >
         <div className="flex flex-col justify-between p-6 sm:p-7 rounded-[20px] bg-gradient-to-br from-white/95 to-[#f4f8fc]/85 border border-[#0071e3]/15 shadow-[0_12px_32px_-10px_rgba(0,0,0,0.06),0_2px_8px_-2px_rgba(0,0,0,0.03)] relative overflow-hidden">
           <div className="absolute top-0 left-0 bottom-0 w-1.5 bg-gradient-to-b from-[#0071e3] to-[#21C6E0]" />
-          <span className="font-['Urbanist'] text-[11px] font-bold tracking-[0.14em] uppercase text-[#0d606a] mb-2 inline-flex items-center gap-1.5">
+          <span className="font-['Urbanist'] text-[15px] font-bold tracking-[0.14em] uppercase text-[#0d606a] mb-2 inline-flex items-center gap-1.5">
             <span className="w-1.5 h-1.5 rounded-full bg-[#0071e3]" />
             Tese Central
           </span>
