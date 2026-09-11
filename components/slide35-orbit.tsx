@@ -47,7 +47,7 @@ export default function Slide35Orbit({ isActive = true }: Slide35OrbitProps) {
         strokeDasharray="6 4"
       >
         <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-[#0071e3]/30 shadow-[0_4px_16px_rgba(0,113,227,0.10)] backdrop-blur-md cursor-default">
-          <div className="w-5 h-5 rounded-full bg-[#0071e3] text-white flex items-center justify-center shrink-0 text-[10px] font-bold">
+          <div className="w-6 h-6 rounded-full bg-[#0071e3] text-white flex items-center justify-center shrink-0 text-[14px] font-bold">
             1
           </div>
           <span className="text-[16px] font-bold text-[#0071e3] tracking-wide whitespace-nowrap">
@@ -65,7 +65,7 @@ export default function Slide35Orbit({ isActive = true }: Slide35OrbitProps) {
         path={false}
       >
         <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
-          <div className="w-5 h-5 rounded-full bg-[#e8f2fc] text-[#0071e3] flex items-center justify-center shrink-0 text-[10px] font-bold">
+          <div className="w-6 h-6 rounded-full bg-[#e8f2fc] text-[#0071e3] flex items-center justify-center shrink-0 text-[14px] font-bold">
             2
           </div>
           <span className="text-[16px] font-bold text-[#0f1012] tracking-wide whitespace-nowrap">
@@ -83,7 +83,7 @@ export default function Slide35Orbit({ isActive = true }: Slide35OrbitProps) {
         path={false}
       >
         <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
-          <div className="w-5 h-5 rounded-full bg-[#e8f2fc] text-[#0071e3] flex items-center justify-center shrink-0 text-[10px] font-bold">
+          <div className="w-6 h-6 rounded-full bg-[#e8f2fc] text-[#0071e3] flex items-center justify-center shrink-0 text-[14px] font-bold">
             3
           </div>
           <span className="text-[16px] font-bold text-[#0f1012] tracking-wide whitespace-nowrap">
@@ -101,7 +101,7 @@ export default function Slide35Orbit({ isActive = true }: Slide35OrbitProps) {
         path={false}
       >
         <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
-          <div className="w-5 h-5 rounded-full bg-[#e8f2fc] text-[#0071e3] flex items-center justify-center shrink-0 text-[10px] font-bold">
+          <div className="w-6 h-6 rounded-full bg-[#e8f2fc] text-[#0071e3] flex items-center justify-center shrink-0 text-[14px] font-bold">
             4
           </div>
           <span className="text-[16px] font-bold text-[#0f1012] tracking-wide whitespace-nowrap">
@@ -119,7 +119,7 @@ export default function Slide35Orbit({ isActive = true }: Slide35OrbitProps) {
         path={false}
       >
         <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/95 border border-black/[0.08] shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-md cursor-default">
-          <div className="w-5 h-5 rounded-full bg-[#e8f2fc] text-[#0071e3] flex items-center justify-center shrink-0 text-[10px] font-bold">
+          <div className="w-6 h-6 rounded-full bg-[#e8f2fc] text-[#0071e3] flex items-center justify-center shrink-0 text-[14px] font-bold">
             5
           </div>
           <span className="text-[16px] font-bold text-[#0f1012] tracking-wide whitespace-nowrap">

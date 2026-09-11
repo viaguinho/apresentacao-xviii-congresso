@@ -83,32 +83,32 @@ export default function AdvancedStats({ isActive = true, className }: AdvancedSt
 
               <div>
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#e07a5f] bg-[#b5563a]/25 px-2.5 py-0.5 rounded-full border border-[#b5563a]/40">
+                  <span className="text-[14px] font-bold uppercase tracking-[0.1em] text-[#e07a5f] bg-[#b5563a]/25 px-2.5 py-0.5 rounded-full border border-[#b5563a]/40">
                     Tese Central · Eixo 3
                   </span>
                   <Sparkles className="w-3.5 h-3.5 text-[#e07a5f]" />
                 </div>
-                <h4 className="text-[20px] font-bold tracking-tight font-['Urbanist',sans-serif] text-white leading-tight">
+                <h4 className="text-[23px] font-bold tracking-tight font-['Urbanist',sans-serif] text-white leading-tight">
                   Autonomia ≠ Independência
                 </h4>
-                <p className="text-[12.5px] text-zinc-300 font-normal leading-relaxed mt-1.5">
+                <p className="text-[16px] text-zinc-300 font-medium leading-snug mt-1.5">
                   A maturação emocional não elimina a necessidade do outro: pessoas maduras continuam usando vínculos interpessoais como amortecedores de estresse.
                 </p>
               </div>
 
-              <div className="mt-5 pt-3 border-t border-white/[0.1]">
-                <div className="flex justify-between items-end mb-2">
+              <div className="mt-3 pt-3 border-t border-white/[0.1]">
+                <div className="flex justify-between items-end flex-wrap gap-2 mb-2">
                   <span className="text-[18px] font-bold tracking-tight text-white font-['Urbanist',sans-serif]">
                     Recurso Permanente
                   </span>
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-[#e07a5f] bg-[#b5563a]/25 px-2 py-0.5 rounded border border-[#b5563a]/35">
+                  <span className="text-[14px] font-bold uppercase tracking-wide text-[#e07a5f] bg-[#b5563a]/25 px-2 py-0.5 rounded border border-[#b5563a]/35">
                     Ao Longo de Toda a Vida
                   </span>
                 </div>
                 <div className="w-full h-2 bg-white/10 rounded-full overflow-hidden p-0.5">
                   <div className="h-full bg-gradient-to-r from-[#0071e3] via-[#b5563a] to-[#0d606a] w-full rounded-full shadow-[0_0_8px_rgba(181,86,58,0.5)]" />
                 </div>
-                <p className="text-[11px] text-zinc-400 mt-1.5 leading-tight">
+                <p className="text-[15px] font-medium text-zinc-300 mt-1.5 leading-snug">
                   O vínculo seguro permanece como o modulador primário sob estresse agudo.
                 </p>
               </div>
@@ -126,29 +126,29 @@ export default function AdvancedStats({ isActive = true, className }: AdvancedSt
                   <HeartHandshake className="w-4 h-4" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-[14.5px] text-zinc-900 font-['Urbanist',sans-serif] leading-tight">
+                  <h4 className="font-bold text-[20px] text-zinc-900 font-['Urbanist',sans-serif] leading-tight">
                     Três Vias Familiares
                   </h4>
-                  <span className="text-[10px] text-zinc-400 font-medium">Morris et al. (2007)</span>
+                  <span className="text-[14px] text-zinc-500 font-medium">Morris et al. (2007)</span>
                 </div>
               </div>
 
-              <div className="flex flex-col gap-1.5 text-[11.5px]">
-                <div className="flex items-start gap-2 p-1.5 rounded-lg bg-white/80 border border-black/[0.04]">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#475569] mt-1.5 shrink-0" />
-                  <p className="text-zinc-600 leading-tight">
+              <div className="flex flex-col gap-1.5 text-[16px]">
+                <div className="flex items-start gap-2 px-2 py-1.5 rounded-lg bg-white/80 border border-black/[0.04]">
+                  <span className="w-2 h-2 rounded-full bg-[#475569] mt-2 shrink-0" />
+                  <p className="text-zinc-600 leading-snug">
                     <strong className="text-zinc-900 font-semibold">Modelagem:</strong> observação de respostas e expressão adulta
                   </p>
                 </div>
-                <div className="flex items-start gap-2 p-1.5 rounded-lg bg-white/80 border border-black/[0.04]">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#b5563a] mt-1.5 shrink-0" />
-                  <p className="text-zinc-600 leading-tight">
+                <div className="flex items-start gap-2 px-2 py-1.5 rounded-lg bg-white/80 border border-black/[0.04]">
+                  <span className="w-2 h-2 rounded-full bg-[#b5563a] mt-2 shrink-0" />
+                  <p className="text-zinc-600 leading-snug">
                     <strong className="text-zinc-900 font-semibold">Socialização:</strong> nomeação e validação afetiva contingente
                   </p>
                 </div>
-                <div className="flex items-start gap-2 p-1.5 rounded-lg bg-white/80 border border-black/[0.04]">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#0d606a] mt-1.5 shrink-0" />
-                  <p className="text-zinc-600 leading-tight">
+                <div className="flex items-start gap-2 px-2 py-1.5 rounded-lg bg-white/80 border border-black/[0.04]">
+                  <span className="w-2 h-2 rounded-full bg-[#0d606a] mt-2 shrink-0" />
+                  <p className="text-zinc-600 leading-snug">
                     <strong className="text-zinc-900 font-semibold">Clima Emocional:</strong> previsibilidade, apego e calor afetivo
                   </p>
                 </div>
@@ -158,7 +158,7 @@ export default function AdvancedStats({ isActive = true, className }: AdvancedSt
         </div>
 
         {/* Linha dos 4 KPIs Desenvolvimentais (Sem nenhuma porcentagem) */}
-        <div className="grid grid-cols-4 gap-4 pt-5">
+        <div className="grid grid-cols-4 gap-4 pt-4">
           {developmentalKpis.map((kpi, index) => (
             <TimelineAnimation
               animationNum={4 + index}
@@ -166,12 +166,12 @@ export default function AdvancedStats({ isActive = true, className }: AdvancedSt
               isActive={isActive}
               key={kpi.phase}
               className={cn(
-                'p-4 lg:p-5 rounded-2xl border bg-white border-black/[0.06] shadow-xs transition-all duration-300 group',
+                'px-4 py-3.5 rounded-2xl border bg-white border-black/[0.06] shadow-xs transition-all duration-300 group',
                 'hover:border-[#b5563a]/40 hover:bg-gradient-to-b hover:from-white hover:to-[#fdf6f3] hover:shadow-md'
               )}
             >
               <div className="flex items-center justify-between mb-2">
-                <p className="text-[10px] font-bold text-zinc-400 uppercase tracking-wider font-['Urbanist',sans-serif]">
+                <p className="text-[14px] font-bold text-zinc-500 uppercase tracking-wide font-['Urbanist',sans-serif]">
                   {kpi.phase}
                 </p>
                 <span
@@ -181,12 +181,12 @@ export default function AdvancedStats({ isActive = true, className }: AdvancedSt
               </div>
 
               <div className="mb-2">
-                <h4 className="text-[17px] font-bold text-zinc-900 tracking-tight font-['Urbanist',sans-serif] leading-snug">
+                <h4 className="text-[20px] font-bold text-zinc-900 tracking-tight font-['Urbanist',sans-serif] leading-snug">
                   {kpi.status}
                 </h4>
                 <div className="mt-1">
                   <span
-                    className="text-[9.5px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md border inline-block"
+                    className="text-[14px] font-bold uppercase tracking-wide px-2 py-0.5 rounded-md border inline-block"
                     style={{
                       backgroundColor: `${kpi.accent}12`,
                       color: kpi.accent,
@@ -198,10 +198,10 @@ export default function AdvancedStats({ isActive = true, className }: AdvancedSt
                 </div>
               </div>
 
-              <p className="text-[11.5px] font-semibold text-zinc-700">
+              <p className="text-[16px] font-semibold text-zinc-700">
                 {kpi.sublabel}
               </p>
-              <p className="text-[11px] text-zinc-500 mt-1 leading-snug">
+              <p className="text-[16px] font-medium text-zinc-600 mt-1 leading-snug">
                 {kpi.desc}
               </p>
             </TimelineAnimation>

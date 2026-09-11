@@ -19,10 +19,10 @@ const POSITIONS = [
   {
     id: "perceber",
     step: "01",
-    targetX: -215,
-    targetY: -124,
-    startX: -440,
-    startY: -250,
+    targetX: -240,
+    targetY: -139,
+    startX: -493,
+    startY: -280,
     title: "perceber",
     desc: "face, voz, corpo, contexto",
     icon: Eye,
@@ -34,10 +34,10 @@ const POSITIONS = [
   {
     id: "compreender",
     step: "02",
-    targetX: 215,
-    targetY: -124,
-    startX: 440,
-    startY: -250,
+    targetX: 240,
+    targetY: -139,
+    startX: 493,
+    startY: -280,
     title: "compreender",
     desc: "situação, intenção, consequência",
     icon: Brain,
@@ -50,9 +50,9 @@ const POSITIONS = [
     id: "regular",
     step: "03",
     targetX: 0,
-    targetY: 175,
+    targetY: 196,
     startX: 0,
-    startY: 360,
+    startY: 403,
     title: "regular",
     desc: "intensidade, duração, expressão",
     icon: Sliders,
@@ -116,7 +116,7 @@ export default function Slide20Circle({ isActive = true }: Slide20CircleProps) {
 
   return (
     <div
-      className="relative flex h-[520px] w-full max-w-[820px] mx-auto items-center justify-center select-none overflow-visible"
+      className="relative flex h-[520px] w-full max-w-[860px] mx-auto items-center justify-center select-none overflow-visible"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -204,19 +204,19 @@ export default function Slide20Circle({ isActive = true }: Slide20CircleProps) {
           </motion.div>
 
           {/* Central Typography */}
-          <span className="font-['Urbanist',sans-serif] text-[16.5px] font-bold tracking-tight text-[#0f1012] leading-tight text-center px-2">
+          <span className="font-['Urbanist',sans-serif] text-[18px] font-bold tracking-tight text-[#0f1012] leading-tight text-center px-2">
             competência emocional
           </span>
 
           <span
             style={{ color: activeItem.color }}
-            className="text-[9.5px] font-bold tracking-[0.14em] uppercase mt-1 transition-colors duration-300"
+            className="text-[14px] font-bold tracking-[0.08em] uppercase mt-1 transition-colors duration-300"
           >
             {isHovered || isManualPaused ? "pausado" : `foco ${activeItem.step}`}
           </span>
 
           {/* Pause / Play micro badge on hover */}
-          <div className="absolute -bottom-2.5 opacity-0 group-hover:opacity-100 transition-opacity bg-[#0f1012] text-white text-[9px] px-2 py-0.5 rounded-full flex items-center gap-1 shadow-md">
+          <div className="absolute -bottom-2.5 opacity-0 group-hover:opacity-100 transition-opacity bg-[#0f1012] text-white text-[14px] px-2 py-0.5 rounded-full flex items-center gap-1 shadow-md whitespace-nowrap">
             {isManualPaused ? <Play className="w-2.5 h-2.5" /> : <Pause className="w-2.5 h-2.5" />}
             <span>{isManualPaused ? "retomar loop" : "pausar"}</span>
           </div>
@@ -327,7 +327,7 @@ export default function Slide20Circle({ isActive = true }: Slide20CircleProps) {
                     }}
                     className={cn(
                       "relative z-10 flex items-center gap-3.5 px-4 py-3 rounded-[15px] backdrop-blur-xl transition-all duration-200",
-                      "w-[236px]"
+                      "w-[264px]"
                     )}
                   >
                     {/* Icon Container with chromatic tint */}
@@ -342,16 +342,16 @@ export default function Slide20Circle({ isActive = true }: Slide20CircleProps) {
                     </div>
 
                     {/* Text Details */}
-                    <div className="flex flex-col text-left overflow-hidden">
+                    <div className="flex flex-col text-left min-w-0">
                       <div className="flex items-center gap-1.5">
                         <span
                           style={{ color: item.color }}
-                          className="font-['Satoshi',sans-serif] text-[18px] font-bold tracking-tight capitalize"
+                          className="font-['Satoshi',sans-serif] text-[20px] font-bold tracking-tight capitalize"
                         >
                           {item.title}
                         </span>
                       </div>
-                      <span className="font-['Satoshi',sans-serif] text-[15px] font-medium text-[#5f6062] leading-snug mt-0.5">
+                      <span className="font-['Satoshi',sans-serif] text-[16px] font-medium text-[#52525b] leading-snug mt-0.5">
                         {item.desc}
                       </span>
                     </div>

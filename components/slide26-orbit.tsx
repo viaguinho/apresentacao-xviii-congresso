@@ -26,7 +26,7 @@ export default function Slide26Orbit({ isActive = true }: Slide26OrbitProps) {
         <div className="w-9 h-9 rounded-full bg-[#e8f2fc] flex items-center justify-center mb-1 text-[#0071e3] shadow-inner">
           <Share2 className="w-5 h-5 stroke-[2.2]" />
         </div>
-        <span className="font-['Urbanist',sans-serif] text-[12.5px] font-bold tracking-[0.06em] text-[#0f1012] leading-tight text-center">
+        <span className="font-['Urbanist',sans-serif] text-[15px] font-bold tracking-[0.06em] text-[#0f1012] leading-tight text-center">
           PARTICIPAÇÃO
         </span>
         <span className="font-['Urbanist',sans-serif] text-[16px] font-bold tracking-[0.06em] text-[#0071e3] leading-tight text-center">
@@ -104,7 +104,7 @@ export default function Slide26Orbit({ isActive = true }: Slide26OrbitProps) {
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
             <Users className="w-4 h-4" />
           </div>
-          <span className="text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap">
+          <span className="text-[15px] font-semibold text-[#0f1012] whitespace-nowrap">
             pares
           </span>
         </div>
@@ -123,7 +123,7 @@ export default function Slide26Orbit({ isActive = true }: Slide26OrbitProps) {
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
             <History className="w-4 h-4" />
           </div>
-          <span className="text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap">
+          <span className="text-[15px] font-semibold text-[#0f1012] whitespace-nowrap">
             experiências
           </span>
         </div>
@@ -142,7 +142,7 @@ export default function Slide26Orbit({ isActive = true }: Slide26OrbitProps) {
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
             <Globe className="w-4 h-4" />
           </div>
-          <span className="text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap">
+          <span className="text-[15px] font-semibold text-[#0f1012] whitespace-nowrap">
             contexto
           </span>
         </div>

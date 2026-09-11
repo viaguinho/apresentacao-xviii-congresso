@@ -26,10 +26,10 @@ export default function Slide27Orbit({ isActive = true }: Slide27OrbitProps) {
         <div className="w-9 h-9 rounded-full bg-[#e8f2fc] flex items-center justify-center mb-1 text-[#0071e3] shadow-inner">
           <Target className="w-5 h-5 stroke-[2.2]" />
         </div>
-        <span className="font-['Urbanist',sans-serif] text-[12.5px] font-bold tracking-[0.06em] text-[#0f1012] leading-tight text-center">
+        <span className="font-['Urbanist',sans-serif] text-[15px] font-bold tracking-[0.06em] text-[#0f1012] leading-tight text-center">
           DESFECHO
         </span>
-        <span className="font-['Urbanist',sans-serif] text-[10.5px] font-bold tracking-[0.04em] text-[#0071e3] leading-tight text-center">
+        <span className="font-['Urbanist',sans-serif] text-[14px] font-bold tracking-[0.04em] text-[#0071e3] leading-tight text-center">
           DESENVOLVIMENTAL
         </span>
       </motion.div>
@@ -48,7 +48,7 @@ export default function Slide27Orbit({ isActive = true }: Slide27OrbitProps) {
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
             <Activity className="w-4 h-4" />
           </div>
-          <span className="text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap">
+          <span className="text-[15px] font-semibold text-[#0f1012] whitespace-nowrap">
             função
           </span>
         </div>
@@ -66,7 +66,7 @@ export default function Slide27Orbit({ isActive = true }: Slide27OrbitProps) {
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
             <Layers className="w-4 h-4" />
           </div>
-          <span className="text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap">
+          <span className="text-[15px] font-semibold text-[#0f1012] whitespace-nowrap">
             condições associadas
           </span>
         </div>
@@ -86,7 +86,7 @@ export default function Slide27Orbit({ isActive = true }: Slide27OrbitProps) {
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
             <Eye className="w-4 h-4" />
           </div>
-          <span className="text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap">
+          <span className="text-[15px] font-semibold text-[#0f1012] whitespace-nowrap">
             morfologia e visibilidade
           </span>
         </div>
@@ -105,7 +105,7 @@ export default function Slide27Orbit({ isActive = true }: Slide27OrbitProps) {
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
             <Stethoscope className="w-4 h-4" />
           </div>
-          <span className="text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap">
+          <span className="text-[15px] font-semibold text-[#0f1012] whitespace-nowrap">
             trajetória de tratamento
           </span>
         </div>
@@ -124,7 +124,7 @@ export default function Slide27Orbit({ isActive = true }: Slide27OrbitProps) {
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
             <Compass className="w-4 h-4" />
           </div>
-          <span className="text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap">
+          <span className="text-[15px] font-semibold text-[#0f1012] whitespace-nowrap">
             contexto
           </span>
         </div>

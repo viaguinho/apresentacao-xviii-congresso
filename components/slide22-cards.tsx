@@ -70,12 +70,12 @@ export function Slide22Cards({ isActive = true }: Slide22CardsProps) {
             description={card.description}
             imageSrc={card.imageSrc}
             color={card.color}
-            contentClassName="min-h-[175px] p-4 flex flex-col justify-start"
-            titleClassName="text-[16px] md:text-[17px] font-bold text-slate-900 tracking-tight mb-1"
-            descriptionClassName="text-[12.5px] md:text-[15px] leading-relaxed text-slate-600 font-normal"
-            imageContainerClassName="bottom-[148px] top-[-10px] flex items-end justify-center pointer-events-none"
+            contentClassName="min-h-[210px] p-4 flex flex-col justify-start"
+            titleClassName="text-[20px] font-bold text-slate-900 tracking-tight mb-1 leading-tight"
+            descriptionClassName="text-[16px] leading-snug text-slate-700 font-medium"
+            imageContainerClassName="bottom-[190px] top-[-10px] flex items-end justify-center pointer-events-none"
             imageClassName="w-44 h-44 md:w-48 md:h-48 object-contain drop-shadow-[0_18px_24px_rgba(181,86,58,0.22)]"
-            className="h-[350px] w-full max-w-none p-3.5 shadow-xs border-stone-200/80 hover:border-[#b5563a]/40 transition-colors"
+            className="h-[400px] w-full max-w-none p-3.5 shadow-xs border-stone-200/80 hover:border-[#b5563a]/40 transition-colors"
           />
         </motion.div>
       ))}

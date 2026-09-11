@@ -29,7 +29,7 @@ export default function Slide38Orbit({ isActive = true }: Slide38OrbitProps) {
         <span className="font-['Urbanist',sans-serif] text-[16px] font-bold tracking-[0.06em] text-[#0071e3] leading-tight">
           PERSPECTIVAS
         </span>
-        <span className="font-['Urbanist',sans-serif] text-[10.5px] font-semibold tracking-[0.04em] text-[#0f1012] leading-tight">
+        <span className="font-['Urbanist',sans-serif] text-[14px] font-semibold tracking-[0.04em] text-[#0f1012] leading-tight">
           COMPLEMENTARES
         </span>
       </motion.div>
@@ -54,7 +54,7 @@ export default function Slide38Orbit({ isActive = true }: Slide38OrbitProps) {
               autorrelato
             </span>
           </div>
-          <p className="text-[10px] font-medium text-[#5f6062] mt-1.5 leading-snug">
+          <p className="text-[15px] font-medium text-[#52525b] mt-1.5 leading-snug">
             experiência subjetiva · ansiedade · tristeza · aparência · pertencimento
           </p>
         </div>
@@ -77,7 +77,7 @@ export default function Slide38Orbit({ isActive = true }: Slide38OrbitProps) {
               equipe
             </span>
           </div>
-          <p className="text-[10px] font-medium text-[#5f6062] mt-1.5 leading-snug">
+          <p className="text-[15px] font-medium text-[#52525b] mt-1.5 leading-snug">
             função · comunicação · tratamento · evolução clínica
           </p>
         </div>
@@ -100,7 +100,7 @@ export default function Slide38Orbit({ isActive = true }: Slide38OrbitProps) {
               pais e cuidadores
             </span>
           </div>
-          <p className="text-[10px] font-medium text-[#5f6062] mt-1.5 leading-snug">
+          <p className="text-[15px] font-medium text-[#52525b] mt-1.5 leading-snug">
             trajetória · cotidiano · organização · mudanças no tempo
           </p>
         </div>
@@ -123,7 +123,7 @@ export default function Slide38Orbit({ isActive = true }: Slide38OrbitProps) {
               escola
             </span>
           </div>
-          <p className="text-[10px] font-medium text-[#5f6062] mt-1.5 leading-snug">
+          <p className="text-[15px] font-medium text-[#52525b] mt-1.5 leading-snug">
             participação · pares · aprendizagem · atenção
           </p>
         </div>

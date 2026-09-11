@@ -88,12 +88,12 @@ export function RoadmapCard({
       {(title || description) && (
         <CardHeader className="pb-3 pt-5 px-6">
           {title && (
-            <CardTitle className="font-['Urbanist',sans-serif] text-[20px] font-bold tracking-tight text-[#0f1012]">
+            <CardTitle className="font-['Urbanist',sans-serif] text-[23px] font-bold tracking-tight text-[#0f1012]">
               {title}
             </CardTitle>
           )}
           {description && (
-            <CardDescription className="font-['Satoshi',sans-serif] text-[13px] text-[#5f6062] mt-0.5 leading-relaxed">
+            <CardDescription className="font-['Satoshi',sans-serif] text-[17px] font-medium text-[#5f6062] mt-0.5 leading-snug">
               {description}
             </CardDescription>
           )}
@@ -153,7 +153,7 @@ export function RoadmapCard({
                   {/* Quarter / Phase Badge */}
                   <div className="mb-2">
                     <span
-                      className="inline-flex items-center px-2.5 py-0.5 rounded-full text-[11px] font-['Urbanist',sans-serif] font-bold tracking-[0.06em] uppercase transition-colors"
+                      className="inline-flex items-center px-2.5 py-0.5 rounded-full text-[14px] font-['Urbanist',sans-serif] font-bold tracking-[0.04em] uppercase transition-colors"
                       style={{
                         backgroundColor: isHighlight ? theme.badgeBg : "#f2f2f4",
                         color: isHighlight ? theme.badgeText : "#6a6b6d",
@@ -165,13 +165,13 @@ export function RoadmapCard({
                   </div>
 
                   {/* Title */}
-                  <h4 className="font-['Urbanist',sans-serif] text-[15px] font-bold text-[#0f1012] leading-snug tracking-tight px-1 group-hover/item:text-black transition-colors">
+                  <h4 className="font-['Urbanist',sans-serif] text-[19px] font-bold text-[#0f1012] leading-snug tracking-tight px-1 group-hover/item:text-black transition-colors">
                     {item.title}
                   </h4>
 
                   {/* Description */}
                   {item.description && (
-                    <p className="font-['Satoshi',sans-serif] text-[12.5px] text-[#52525b] mt-1.5 leading-relaxed px-1">
+                    <p className="font-['Satoshi',sans-serif] text-[16px] font-medium text-[#52525b] mt-1.5 leading-snug px-1">
                       {item.description}
                     </p>
                   )}
@@ -184,7 +184,7 @@ export function RoadmapCard({
           </div>
         </div>
 
-        {children && <div className="mt-6 pt-4 border-t border-black/[0.06]">{children}</div>}
+        {children && <div className="mt-5 pt-4 border-t border-black/[0.06]">{children}</div>}
       </CardContent>
     </Card>
   );

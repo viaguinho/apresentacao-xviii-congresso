@@ -29,7 +29,7 @@ export default function Slide25Orbit({ isActive = true }: Slide25OrbitProps) {
         <span className="font-['Urbanist',sans-serif] text-[16px] font-bold tracking-[0.12em] text-[#0f1012]">
           JOVEM
         </span>
-        <span className="text-[10px] font-semibold text-[#0071e3] tracking-wider uppercase -mt-0.5">
+        <span className="text-[14px] font-semibold text-[#0071e3] tracking-wider uppercase mt-0">
           Identidade
         </span>
       </motion.div>

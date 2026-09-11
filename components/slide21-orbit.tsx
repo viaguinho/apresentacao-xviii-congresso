@@ -10,7 +10,7 @@ interface Slide21OrbitProps {
 
 export default function Slide21Orbit({ isActive = true }: Slide21OrbitProps) {
   return (
-    <div className="relative flex h-[480px] w-full max-w-[540px] mx-auto flex-col items-center justify-center overflow-hidden rounded-3xl bg-transparent select-none group">
+    <div className="relative flex h-[480px] w-full max-w-[560px] mx-auto flex-col items-center justify-center overflow-hidden rounded-3xl bg-transparent select-none group">
       {/* Background ambient radial glow */}
       <div className="absolute inset-0 pointer-events-none flex items-center justify-center">
         <div className="w-[360px] h-[360px] rounded-full bg-[#0071e3]/[0.03] blur-3xl" />
@@ -29,7 +29,7 @@ export default function Slide21Orbit({ isActive = true }: Slide21OrbitProps) {
         <span className="font-['Urbanist',sans-serif] text-[16px] font-bold tracking-[0.12em] text-[#0f1012]">
           SELF
         </span>
-        <span className="text-[10px] font-semibold text-[#0071e3] tracking-wider uppercase -mt-0.5">
+        <span className="text-[14px] font-semibold text-[#0071e3] tracking-wider uppercase mt-0">
           Núcleo
         </span>
       </motion.div>
@@ -48,7 +48,7 @@ export default function Slide21Orbit({ isActive = true }: Slide21OrbitProps) {
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
             <Sparkles className="w-4 h-4" />
           </div>
-          <span className="text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap">
+          <span className="text-[15px] font-semibold text-[#0f1012] whitespace-nowrap">
             aparência
           </span>
         </div>
@@ -66,7 +66,7 @@ export default function Slide21Orbit({ isActive = true }: Slide21OrbitProps) {
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
             <GraduationCap className="w-4 h-4" />
           </div>
-          <span className="text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap">
+          <span className="text-[15px] font-semibold text-[#0f1012] whitespace-nowrap">
             acadêmico
           </span>
         </div>
@@ -84,7 +84,7 @@ export default function Slide21Orbit({ isActive = true }: Slide21OrbitProps) {
           <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
             <Compass className="w-4 h-4" />
           </div>
-          <span className="text-[12.5px] font-semibold text-[#0f1012] whitespace-nowrap">
+          <span className="text-[15px] font-semibold text-[#0f1012] whitespace-nowrap">
             valores
           </span>
         </div>
@@ -96,7 +96,7 @@ export default function Slide21Orbit({ isActive = true }: Slide21OrbitProps) {
         className="border-none bg-transparent"
         duration={36}
         delay={0}
-        radius={195}
+        radius={178}
         reverse
         pathClassName="stroke-[#0071e3]/15"
       >
@@ -115,7 +115,7 @@ export default function Slide21Orbit({ isActive = true }: Slide21OrbitProps) {
         className="border-none bg-transparent"
         duration={36}
         delay={12}
-        radius={195}
+        radius={178}
         reverse
         path={false}
       >
@@ -134,7 +134,7 @@ export default function Slide21Orbit({ isActive = true }: Slide21OrbitProps) {
         className="border-none bg-transparent"
         duration={36}
         delay={24}
-        radius={195}
+        radius={178}
         reverse
         path={false}
       >

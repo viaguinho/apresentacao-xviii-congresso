@@ -45,11 +45,11 @@ export default function Slide24Orbit({ isActive = true }: Slide24OrbitProps) {
             <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
               <UserCheck className="w-2.5 h-2.5 stroke-[2.5]" />
             </div>
-            <span className="text-[12.5px] font-bold text-[#0071e3] leading-none whitespace-nowrap">
+            <span className="text-[15px] font-bold text-[#0071e3] leading-none whitespace-nowrap">
               amizade
             </span>
           </div>
-          <span className="text-[10px] font-medium text-[#5f6062] mt-0.5 leading-tight">
+          <span className="text-[15px] font-medium text-[#52525b] mt-0.5 leading-tight">
             reciprocidade
           </span>
         </div>
@@ -71,11 +71,11 @@ export default function Slide24Orbit({ isActive = true }: Slide24OrbitProps) {
             <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
               <Users className="w-2.5 h-2.5 stroke-[2.5]" />
             </div>
-            <span className="text-[12.5px] font-bold text-[#0f1012] leading-none whitespace-nowrap">
+            <span className="text-[15px] font-bold text-[#0f1012] leading-none whitespace-nowrap">
               aceitação e status
             </span>
           </div>
-          <span className="text-[10px] font-medium text-[#5f6062] mt-0.5 leading-tight">
+          <span className="text-[15px] font-medium text-[#52525b] mt-0.5 leading-tight">
             reputação · participação no grupo
           </span>
         </div>
@@ -95,11 +95,11 @@ export default function Slide24Orbit({ isActive = true }: Slide24OrbitProps) {
             <div className="w-5 h-5 rounded-full bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center shrink-0">
               <ShieldCheck className="w-2.5 h-2.5 stroke-[2.5]" />
             </div>
-            <span className="text-[12.5px] font-bold text-[#0f1012] leading-none whitespace-nowrap">
+            <span className="text-[15px] font-bold text-[#0f1012] leading-none whitespace-nowrap">
               pertencimento
             </span>
           </div>
-          <p className="text-[10px] font-medium text-[#5f6062] mt-1 leading-snug">
+          <p className="text-[15px] font-medium text-[#52525b] mt-1 leading-snug">
             “eu faço parte daqui?” · identificação · inclusão · segurança
           </p>
         </div>
