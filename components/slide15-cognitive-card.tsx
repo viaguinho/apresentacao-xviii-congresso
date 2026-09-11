@@ -1,6 +1,5 @@
 "use client"
 
-import React from "react"
 import { motion } from "framer-motion"
 import { Activity } from "lucide-react"
 import { CognitivePlaceCard } from "@/components/ui/card-22"

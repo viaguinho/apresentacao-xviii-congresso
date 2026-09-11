@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import { motion } from "framer-motion";
 import { AnimatedFeatureCard } from "./ui/animated-feature-card";
 import { OrbitingCirclesGlobe } from "./ui/orbiting-circles-02";

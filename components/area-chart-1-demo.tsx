@@ -1,4 +1,3 @@
-import React from 'react';
 import IncidentReportCard from '@/components/ui/area-chart-1'; 
 
 export default function IncidentReportCardDemoPage() {

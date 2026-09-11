@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { motion, useAnimationControls } from "framer-motion";
 import { Eye, Brain, Sliders, Sparkles, Pause, Play } from "lucide-react";
 import { cn } from "@/lib/utils";
