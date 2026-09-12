@@ -29,7 +29,7 @@ export default function Slide12bClinical({ isActive = true }: Slide12bClinicalPr
         <div className="shrink-0 flex flex-col gap-5">
           <div className="flex items-center gap-4">
             <span className="text-[16px] font-bold uppercase tracking-[0.08em] text-[#0071e3] bg-[#0071e3]/10 px-3 py-1 rounded-full border border-[#0071e3]/20">
-              Princípio Risco / Desfecho
+              Princípio risco / desfecho
             </span>
             <span className="text-[18px] font-semibold text-[#5f6062]">
               Probabilístico
@@ -60,10 +60,10 @@ export default function Slide12bClinical({ isActive = true }: Slide12bClinicalPr
           </span>
         </div>
         <h4 className="text-[34px] font-bold tracking-tight text-[#0f1012] mt-6 leading-tight">
-          Nas Anomalias Craniofaciais
+          Nas anomalias craniofaciais
         </h4>
         <p className="text-[25px] font-medium text-[#0f1012] mt-4 leading-[1.45]">
-          É uma condição de risco potencial — não um destino psicossocial. O risco deve ser compreendido no contexto de múltiplas condições individuais e familiares.
+          É uma condição de risco potencial, não um destino psicossocial. O risco deve ser compreendido no contexto de múltiplas condições individuais e familiares.
         </p>
 
         <div className="mt-auto px-6 py-5 bg-white/90 rounded-2xl border border-[#0071e3]/15">
@@ -87,7 +87,7 @@ export default function Slide12bClinical({ isActive = true }: Slide12bClinicalPr
           </span>
         </div>
         <h4 className="text-[34px] font-bold tracking-tight text-white leading-tight mt-6">
-          Raciocínio Clínico em Trajetória
+          Raciocínio clínico em trajetória
         </h4>
 
         <div className="flex-1 flex flex-col justify-center gap-4 my-5">
@@ -113,7 +113,7 @@ export default function Slide12bClinical({ isActive = true }: Slide12bClinicalPr
         <div className="flex items-center justify-between gap-3 pt-4 border-t border-zinc-800 text-[19px]">
           <span className="text-zinc-400">Objetivo Clínico:</span>
           <span className="font-bold text-emerald-400">
-            Alvos Concretos de Intervenção
+            Alvos concretos de intervenção
           </span>
         </div>
       </motion.div>

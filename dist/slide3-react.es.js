@@ -17170,7 +17170,7 @@ var $f = ({ className: e }) => /* @__PURE__ */ (0, B.jsxs)("svg", {
 		data: [
 			{
 				step: 1,
-				category: "Etapa 1 · Coorte Longitudinal",
+				category: "Etapa 1 · Coorte longitudinal",
 				badge: "L-CID Study",
 				title: "Acompanhar as mesmas crianças ao longo do tempo",
 				description: ">500 crianças do estudo L-CID · faixa etária ~7–14 anos · três ondas de avaliação com protocolo idêntico:",
@@ -17202,10 +17202,10 @@ var $f = ({ className: e }) => /* @__PURE__ */ (0, B.jsxs)("svg", {
 			},
 			{
 				step: 2,
-				category: "Etapa 2 · Paradigma Experimental",
+				category: "Etapa 2 · Paradigma experimental",
 				badge: "SNAT + fMRI",
 				title: "Provocar e medir resposta à rejeição social",
-				description: "Social Network Aggression Task (SNAT) — feedback de pares (positivo, neutro ou negativo) com mensuração dupla:",
+				description: "Social Network Aggression Task (SNAT) com feedback de pares (positivo, neutro ou negativo) e mensuração dupla:",
 				detail: /* @__PURE__ */ (0, B.jsxs)("div", {
 					className: "flex flex-col gap-1.5 w-full",
 					children: [/* @__PURE__ */ (0, B.jsxs)("div", {
@@ -17213,7 +17213,7 @@ var $f = ({ className: e }) => /* @__PURE__ */ (0, B.jsxs)("svg", {
 						children: [/* @__PURE__ */ (0, B.jsx)("span", {
 							className: "font-semibold text-[#e11d48] bg-rose-50 px-2 py-0.5 rounded border border-rose-200 text-[15px] shrink-0",
 							children: "Comportamental"
-						}), /* @__PURE__ */ (0, B.jsx)("span", { children: "Duração do som aversivo (*noise blast*) contra o avaliador" })]
+						}), /* @__PURE__ */ (0, B.jsx)("span", { children: "Duração do som aversivo (noise blast) contra o avaliador" })]
 					}), /* @__PURE__ */ (0, B.jsxs)("div", {
 						className: "flex items-center gap-2 text-[16px] font-medium text-[#3f4042]",
 						children: [/* @__PURE__ */ (0, B.jsx)("span", {
@@ -17225,7 +17225,7 @@ var $f = ({ className: e }) => /* @__PURE__ */ (0, B.jsxs)("svg", {
 			},
 			{
 				step: 3,
-				category: "Etapa 3 · Modelagem Estatística",
+				category: "Etapa 3 · Modelagem estatística",
 				badge: "Bayesian MLM",
 				title: "Transformar medidas em trajetórias de desenvolvimento",
 				description: "Modelo bayesiano multinível de curvas de crescimento separando componentes populacionais de individuais:",
@@ -17235,7 +17235,7 @@ var $f = ({ className: e }) => /* @__PURE__ */ (0, B.jsxs)("svg", {
 						className: "bg-slate-50/90 rounded-lg p-2 border border-slate-200/60",
 						children: [/* @__PURE__ */ (0, B.jsx)("div", {
 							className: "text-[14px] uppercase tracking-wider font-bold text-[#0071e3]",
-							children: "Efeitos Fixos"
+							children: "Efeitos fixos"
 						}), /* @__PURE__ */ (0, B.jsx)("div", {
 							className: "text-[16px] font-medium text-[#0f1012] leading-tight mt-0.5",
 							children: "Trajetória média da população"
@@ -17244,7 +17244,7 @@ var $f = ({ className: e }) => /* @__PURE__ */ (0, B.jsxs)("svg", {
 						className: "bg-slate-50/90 rounded-lg p-2 border border-slate-200/60",
 						children: [/* @__PURE__ */ (0, B.jsx)("div", {
 							className: "text-[14px] uppercase tracking-wider font-bold text-[#0071e3]",
-							children: "Efeitos Aleatórios"
+							children: "Efeitos aleatórios"
 						}), /* @__PURE__ */ (0, B.jsx)("div", {
 							className: "text-[16px] font-medium text-[#0f1012] leading-tight mt-0.5",
 							children: "Variação individual na inclinação"
@@ -19357,8 +19357,8 @@ function fg({ isActive: e = !0 }) {
 						]
 					}),
 					imageSrc: "assets/cards/biology-dna-neural-3d.png",
-					imageClassName: "w-32 h-32 md:w-36 md:h-36",
-					imageContainerClassName: "top-4 bottom-[210px]",
+					imageClassName: "w-52 h-52 md:w-60 md:h-60 drop-shadow-[0_14px_22px_rgba(0,0,0,0.16)]",
+					imageContainerClassName: "top-2 bottom-[195px]",
 					color: "blue",
 					className: "h-[500px] w-full max-w-none shadow-sm border-slate-200/80 hover:border-blue-400/50 transition-colors"
 				})
@@ -19478,8 +19478,8 @@ function fg({ isActive: e = !0 }) {
 						]
 					}),
 					imageSrc: "assets/cards/experience-social-3d.png",
-					imageClassName: "w-32 h-32 md:w-36 md:h-36",
-					imageContainerClassName: "top-4 bottom-[210px]",
+					imageClassName: "w-52 h-52 md:w-60 md:h-60 drop-shadow-[0_14px_22px_rgba(0,0,0,0.16)]",
+					imageContainerClassName: "top-2 bottom-[195px]",
 					color: "emerald",
 					className: "h-[500px] w-full max-w-none shadow-sm border-slate-200/80 hover:border-emerald-400/50 transition-colors"
 				})
@@ -19748,7 +19748,7 @@ function pg({ isActive: e = !0 }) {
 								children: [/* @__PURE__ */ (0, B.jsx)("strong", {
 									className: "text-[#0f1012] font-semibold",
 									children: "Sensível:"
-								}), " a experiência influencia de modo particularmente intenso numa fase — mas mudanças continuam possíveis depois."]
+								}), " a experiência influencia de modo particularmente intenso numa fase, mas mudanças continuam possíveis depois."]
 							})
 						})]
 					})
@@ -19874,7 +19874,7 @@ function pg({ isActive: e = !0 }) {
 						}),
 						/* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[16px] font-medium text-[#5f6062] m-0 italic pt-1 border-t border-black/[0.05]",
-							children: "Esquema conceitual — não representa idades universais."
+							children: "Esquema conceitual: não representa idades universais."
 						})
 					]
 				}), /* @__PURE__ */ (0, B.jsxs)(H.div, {
@@ -20026,7 +20026,7 @@ function pg({ isActive: e = !0 }) {
 						})
 					] }), /* @__PURE__ */ (0, B.jsx)("p", {
 						className: "text-[17px] font-medium text-[#52525b] leading-snug mt-2 pt-2 border-t border-black/[0.05]",
-						children: "O cérebro permanece modificável — mas sua capacidade de mudança não é constante."
+						children: "O cérebro permanece modificável, mas sua capacidade de mudança não é constante."
 					})]
 				}),
 				/* @__PURE__ */ (0, B.jsxs)(H.div, {
@@ -21075,7 +21075,7 @@ function Rg({ isActive: e = !0 }) {
 						}),
 						/* @__PURE__ */ (0, B.jsx)("h3", {
 							className: "text-2xl font-semibold tracking-tight text-[#0f1012] leading-tight",
-							children: "Efeitos que se Propagam entre Domínios e ao Longo do Tempo"
+							children: "Efeitos que se propagam entre domínios e ao longo do tempo"
 						}),
 						/* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[17px] font-medium text-[#5f6062] mt-0.5 leading-snug",
@@ -21471,7 +21471,7 @@ function Rg({ isActive: e = !0 }) {
 							className: "flex items-center justify-between pt-1.5 border-t border-zinc-800",
 							children: [/* @__PURE__ */ (0, B.jsx)("span", {
 								className: "text-[16px] font-semibold text-zinc-400",
-								children: "Princípio fundamental:"
+								children: "Princípio:"
 							}), /* @__PURE__ */ (0, B.jsx)("span", {
 								className: "text-[16px] font-bold text-amber-300 bg-amber-400/10 px-2.5 py-0.5 rounded-full border border-amber-400/25",
 								children: "Cascata ≠ Destino"
@@ -21512,7 +21512,7 @@ function Rg({ isActive: e = !0 }) {
 							}),
 							/* @__PURE__ */ (0, B.jsx)("h4", {
 								className: "text-[20px] font-bold text-[#0f1012] tracking-tight leading-tight",
-								children: "Um Exemplo: Aprender a Sentar"
+								children: "Um exemplo: aprender a sentar"
 							}),
 							/* @__PURE__ */ (0, B.jsx)("p", {
 								className: "text-[16px] font-medium text-[#5f6062] mt-0.5 leading-snug",
@@ -21566,7 +21566,7 @@ function Rg({ isActive: e = !0 }) {
 						}),
 						/* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[16px] font-medium text-[#5f6062] italic m-0 pt-1.5 border-t border-black/[0.05]",
-							children: "Exemplo de cascata — não uma sequência linear obrigatória."
+							children: "Exemplo de cascata, não uma sequência linear obrigatória."
 						})
 					]
 				})]
@@ -21696,7 +21696,7 @@ function Bg({ isActive: e = !0 }) {
 		{
 			id: "positive",
 			name: "Superação",
-			fullName: "Superação / Adaptação Positiva",
+			fullName: "Superação / adaptação positiva",
 			color: "#0071e3",
 			dPath: "M 80,195 C 150,120 230,50 415,35",
 			areaPath: "M 80,195 C 150,120 230,50 415,35 L 415,245 L 80,245 Z"
@@ -21759,7 +21759,7 @@ function Bg({ isActive: e = !0 }) {
 						}),
 						/* @__PURE__ */ (0, B.jsx)("h3", {
 							className: "text-[27px] font-bold tracking-tight text-[#0f1012] leading-tight mt-1.5",
-							children: "Mesmo Risco, Trajetórias Diferentes"
+							children: "Mesmo risco, trajetórias diferentes"
 						}),
 						/* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[18px] font-medium text-[#5f6062] mt-1 leading-snug",
@@ -21885,45 +21885,74 @@ function Bg({ isActive: e = !0 }) {
 											})
 										]
 									}),
-									/* @__PURE__ */ (0, B.jsx)("path", {
-										d: a[0].areaPath,
-										fill: "url(#gradPositivo)",
-										opacity: t === null || t === "positive" ? 1 : .15
-									}),
-									/* @__PURE__ */ (0, B.jsx)("path", {
-										d: a[1].areaPath,
-										fill: "url(#gradRecuperacao)",
-										opacity: t === null || t === "recovery" ? 1 : .15
-									}),
-									/* @__PURE__ */ (0, B.jsx)("path", {
-										d: a[2].areaPath,
-										fill: "url(#gradCumulativo)",
-										opacity: t === null || t === "cumulative" ? 1 : .15
-									}),
-									/* @__PURE__ */ (0, B.jsx)("path", {
+									[
+										["gradPositivo", "positive"],
+										["gradRecuperacao", "recovery"],
+										["gradCumulativo", "cumulative"]
+									].map(([e, n], r) => /* @__PURE__ */ (0, B.jsx)(H.path, {
+										d: a[r].areaPath,
+										fill: `url(#${e})`,
+										initial: { opacity: 0 },
+										animate: { opacity: t === null || t === n ? 1 : .15 },
+										transition: {
+											duration: .5,
+											delay: .75 + r * .12
+										}
+									}, e)),
+									/* @__PURE__ */ (0, B.jsx)(H.path, {
 										d: a[0].dPath,
 										fill: "none",
 										stroke: "#0071e3",
 										strokeWidth: t === "positive" ? "3.8" : "3",
 										strokeLinecap: "round",
-										className: "transition-all duration-300"
+										className: "transition-all duration-300",
+										initial: { pathLength: 0 },
+										animate: { pathLength: 1 },
+										transition: {
+											duration: 1.1,
+											delay: .15,
+											ease: [
+												.16,
+												1,
+												.3,
+												1
+											]
+										}
 									}),
-									/* @__PURE__ */ (0, B.jsx)("path", {
+									/* @__PURE__ */ (0, B.jsx)(H.path, {
 										d: a[1].dPath,
 										fill: "none",
 										stroke: "#0f1012",
 										strokeWidth: t === "recovery" ? "3.8" : "2.5",
 										strokeLinecap: "round",
-										className: "transition-all duration-300"
+										className: "transition-all duration-300",
+										initial: { pathLength: 0 },
+										animate: { pathLength: 1 },
+										transition: {
+											duration: 1.1,
+											delay: .27,
+											ease: [
+												.16,
+												1,
+												.3,
+												1
+											]
+										}
 									}),
-									/* @__PURE__ */ (0, B.jsx)("path", {
+									/* @__PURE__ */ (0, B.jsx)(H.path, {
 										d: a[2].dPath,
 										fill: "none",
 										stroke: "#64748b",
 										strokeWidth: t === "cumulative" ? "3.8" : "2.2",
 										strokeLinecap: "round",
 										strokeDasharray: "5 3",
-										className: "transition-all duration-300"
+										className: "transition-all duration-300",
+										initial: { opacity: 0 },
+										animate: { opacity: 1 },
+										transition: {
+											duration: .8,
+											delay: .39
+										}
 									}),
 									/* @__PURE__ */ (0, B.jsxs)("g", {
 										transform: "translate(80, 195)",
@@ -22345,7 +22374,7 @@ function Vg({ isActive: e = !0 }) {
 							className: "flex items-center gap-4",
 							children: [/* @__PURE__ */ (0, B.jsx)("span", {
 								className: "text-[16px] font-bold uppercase tracking-[0.08em] text-[#0071e3] bg-[#0071e3]/10 px-3 py-1 rounded-full border border-[#0071e3]/20",
-								children: "Princípio Risco / Desfecho"
+								children: "Princípio risco / desfecho"
 							}), /* @__PURE__ */ (0, B.jsx)("span", {
 								className: "text-[18px] font-semibold text-[#5f6062]",
 								children: "Probabilístico"
@@ -22385,11 +22414,11 @@ function Vg({ isActive: e = !0 }) {
 					}),
 					/* @__PURE__ */ (0, B.jsx)("h4", {
 						className: "text-[34px] font-bold tracking-tight text-[#0f1012] mt-6 leading-tight",
-						children: "Nas Anomalias Craniofaciais"
+						children: "Nas anomalias craniofaciais"
 					}),
 					/* @__PURE__ */ (0, B.jsx)("p", {
 						className: "text-[25px] font-medium text-[#0f1012] mt-4 leading-[1.45]",
-						children: "É uma condição de risco potencial — não um destino psicossocial. O risco deve ser compreendido no contexto de múltiplas condições individuais e familiares."
+						children: "É uma condição de risco potencial, não um destino psicossocial. O risco deve ser compreendido no contexto de múltiplas condições individuais e familiares."
 					}),
 					/* @__PURE__ */ (0, B.jsx)("div", {
 						className: "mt-auto px-6 py-5 bg-white/90 rounded-2xl border border-[#0071e3]/15",
@@ -22416,7 +22445,7 @@ function Vg({ isActive: e = !0 }) {
 					}),
 					/* @__PURE__ */ (0, B.jsx)("h4", {
 						className: "text-[34px] font-bold tracking-tight text-white leading-tight mt-6",
-						children: "Raciocínio Clínico em Trajetória"
+						children: "Raciocínio clínico em trajetória"
 					}),
 					/* @__PURE__ */ (0, B.jsxs)("div", {
 						className: "flex-1 flex flex-col justify-center gap-4 my-5",
@@ -22447,7 +22476,7 @@ function Vg({ isActive: e = !0 }) {
 							children: "Objetivo Clínico:"
 						}), /* @__PURE__ */ (0, B.jsx)("span", {
 							className: "font-bold text-emerald-400",
-							children: "Alvos Concretos de Intervenção"
+							children: "Alvos concretos de intervenção"
 						})]
 					})
 				]
@@ -23088,7 +23117,7 @@ function t_({ isActive: e = !0 }) {
 								className: "p-2.5 rounded-2xl bg-[#f8f9fa] border border-black/[0.04] mt-1 flex items-center gap-2",
 								children: [/* @__PURE__ */ (0, B.jsx)("span", { className: "w-1.5 h-1.5 rounded-full bg-[#0071e3] shrink-0" }), /* @__PURE__ */ (0, B.jsx)("p", {
 									className: "m-0 text-[17px] font-semibold text-[#0f1012] leading-snug",
-									children: "Um ponto informa posição — não direção."
+									children: "Um ponto informa posição, não direção."
 								})]
 							})
 						]
@@ -23325,7 +23354,7 @@ function t_({ isActive: e = !0 }) {
 										children: [/* @__PURE__ */ (0, B.jsx)(xm, { className: "w-4 h-4" }), "Contexto"]
 									}), /* @__PURE__ */ (0, B.jsx)("span", {
 										className: "text-[14px] font-semibold text-[#5f6062]",
-										children: "Ecossistema Dinâmico"
+										children: "Ecossistema dinâmico"
 									})]
 								}),
 								/* @__PURE__ */ (0, B.jsx)("h3", {
@@ -23503,7 +23532,7 @@ function r_({ isActive: e = !0 }) {
 								className: "flex items-center gap-2.5",
 								children: [/* @__PURE__ */ (0, B.jsx)(Gm, { className: "w-6 h-6 text-[#0d6d66]" }), /* @__PURE__ */ (0, B.jsx)("span", {
 									className: "font-['Urbanist'] text-[18px] font-bold uppercase tracking-widest text-[#0d6d66]",
-									children: "Hierarquia Funcional Interdependente"
+									children: "Hierarquia funcional interdependente"
 								})]
 							}), /* @__PURE__ */ (0, B.jsx)("span", {
 								className: "text-[16px] text-zinc-500 font-medium text-right",
@@ -23548,14 +23577,14 @@ function r_({ isActive: e = !0 }) {
 												children: "4"
 											}), /* @__PURE__ */ (0, B.jsxs)("div", { children: [/* @__PURE__ */ (0, B.jsx)("h3", {
 												className: "font-['Urbanist'] text-[23px] font-bold text-[#0f1012] leading-tight",
-												children: "Funções Cognitivas de Ordem Superior"
+												children: "Funções cognitivas de ordem superior"
 											}), /* @__PURE__ */ (0, B.jsx)("p", {
 												className: "text-[18px] text-zinc-600 font-medium leading-snug mt-0.5",
-												children: "Metacognição · Raciocínio Abstrato · Resolução de Problemas · Tomada de Decisão"
+												children: "Metacognição · raciocínio abstrato · resolução de problemas · tomada de decisão"
 											})] })]
 										}), /* @__PURE__ */ (0, B.jsx)("span", {
 											className: "text-[15px] font-semibold text-emerald-800 bg-emerald-50 px-2.5 py-1 rounded-md border border-emerald-200 shrink-0",
-											children: "Maturação Tardia (Adolescência+)"
+											children: "Maturação tardia (adolescência+)"
 										})]
 									})]
 								}),
@@ -23577,7 +23606,7 @@ function r_({ isActive: e = !0 }) {
 													className: "flex items-center gap-2.5",
 													children: [/* @__PURE__ */ (0, B.jsx)("h3", {
 														className: "font-['Urbanist'] text-[24px] font-extrabold text-[#0d6d66] leading-tight whitespace-nowrap",
-														children: "Funções Executivas Nucleares"
+														children: "Funções executivas nucleares"
 													}), /* @__PURE__ */ (0, B.jsx)("span", {
 														className: "text-[15px] font-bold uppercase tracking-wide bg-[#0d6d66] text-white px-2 py-0.5 rounded whitespace-nowrap",
 														children: "Núcleo Diamond (2013)"
@@ -23655,7 +23684,7 @@ function r_({ isActive: e = !0 }) {
 											})] })]
 										}), /* @__PURE__ */ (0, B.jsx)("span", {
 											className: "text-[15px] font-semibold text-teal-800 bg-teal-50 px-2.5 py-1 rounded-md border border-teal-200 shrink-0",
-											children: "Interação Bidirecional Contínua"
+											children: "Interação bidirecional contínua"
 										})]
 									})]
 								}),
@@ -23680,7 +23709,7 @@ function r_({ isActive: e = !0 }) {
 											})] })]
 										}), /* @__PURE__ */ (0, B.jsx)("span", {
 											className: "text-[15px] font-semibold text-zinc-700 bg-zinc-100 px-2.5 py-1 rounded-md shrink-0",
-											children: "Maturação Inicial (0–3 anos)"
+											children: "Maturação inicial (0–3 anos)"
 										})]
 									})]
 								})
@@ -23698,13 +23727,13 @@ function r_({ isActive: e = !0 }) {
 									className: "flex items-center gap-2",
 									children: [/* @__PURE__ */ (0, B.jsx)(Gh, { className: "w-6 h-6 text-[#0d6d66] shrink-0" }), /* @__PURE__ */ (0, B.jsx)("span", {
 										className: "font-['Urbanist'] text-[21px] font-bold text-[#0f1012] leading-tight tracking-[-0.01em]",
-										children: "Maturação Heterocrônica · Janelas Críticas & Ritmos"
+										children: "Maturação heterocrônica · janelas críticas e ritmos"
 									})]
 								}), /* @__PURE__ */ (0, B.jsxs)("div", {
 									className: "flex items-center gap-2 shrink-0",
 									children: [/* @__PURE__ */ (0, B.jsx)(ym, { className: "w-[18px] h-[18px] text-[#0d6d66]" }), /* @__PURE__ */ (0, B.jsx)("span", {
 										className: "text-[15px] font-semibold text-[#0d6d66] bg-[#0d6d66]/20 border border-[#0d6d66]/30 px-2.5 py-1 rounded",
-										children: "Ritmos Diferentes por Domínio"
+										children: "Ritmos diferentes por domínio"
 									})]
 								})]
 							}),
@@ -24104,7 +24133,7 @@ function f_({ variant: e = "wave", size: t = 420, renderScale: n = .75, classNam
 }
 //#endregion
 //#region components/ui/card-22.tsx
-var p_ = ({ title: e = "Atenção, Memória & Linguagem", subtitle: t = "Associação bidirecional • Primeira Infância", overviewHeading: n = "Síntese Científica", overview: r = "Já no primeiro ano ocorrem mudanças importantes em atenção sustentada e seletiva, acompanhadas de melhora em reconhecimento e em formas iniciais de memória de trabalho. Linguagem e funções executivas desenvolvem-se de modo associado, sem direção causal única.", className: i, ...a }) => {
+var p_ = ({ title: e = "Atenção, memória e linguagem", subtitle: t = "Associação bidirecional • Primeira Infância", overviewHeading: n = "Síntese Científica", overview: r = "Já no primeiro ano ocorrem mudanças importantes em atenção sustentada e seletiva, acompanhadas de melhora em reconhecimento e em formas iniciais de memória de trabalho. Linguagem e funções executivas desenvolvem-se de modo associado, sem direção causal única.", className: i, ...a }) => {
 	let o = {
 		hidden: {
 			opacity: 0,
@@ -24252,7 +24281,7 @@ function m_({ isActive: e = !0 }) {
 				},
 				children: /* @__PURE__ */ (0, B.jsx)(p_, {
 					className: "w-full",
-					title: "Atenção, Memória & Linguagem",
+					title: "Atenção, memória e linguagem",
 					subtitle: "Associação bidirecional • Primeira Infância",
 					overviewHeading: "Síntese Científica",
 					overview: "Já no primeiro ano ocorrem mudanças importantes em atenção sustentada e seletiva, acompanhadas de melhora em reconhecimento e em formas iniciais de memória de trabalho. Linguagem e funções executivas desenvolvem-se de modo associado, sem direção causal única."
@@ -24732,7 +24761,7 @@ function v_({ isActive: e = !0, className: t }) {
 							}), /* @__PURE__ */ (0, B.jsxs)("p", {
 								className: "text-[17px] text-[#334155] leading-snug font-medium",
 								children: [
-									"Associações significativas entre funções executivas e leitura, matemática e linguagem oral no ensino fundamental — com",
+									"Associações significativas entre funções executivas e leitura, matemática e linguagem oral no ensino fundamental, com",
 									" ",
 									/* @__PURE__ */ (0, B.jsx)("strong", {
 										className: "text-[#0f1012] font-semibold",
@@ -24790,12 +24819,12 @@ function v_({ isActive: e = !0, className: t }) {
 								children: "Metacognição"
 							}), /* @__PURE__ */ (0, B.jsx)("span", {
 								className: "text-[14px] font-semibold text-zinc-300 bg-white/10 px-2.5 py-0.5 rounded-full border border-white/15",
-								children: "Controle do Próprio Pensamento"
+								children: "Controle do próprio pensamento"
 							})]
 						}),
 						/* @__PURE__ */ (0, B.jsx)("h4", {
 							className: "text-[23px] font-bold tracking-tight text-white font-['Urbanist',sans-serif]",
-							children: "Ciclo de Auto-Regulação Cognitiva"
+							children: "Ciclo de autorregulação cognitiva"
 						}),
 						/* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[17px] font-medium text-zinc-300 mt-1 leading-snug",
@@ -24841,7 +24870,7 @@ function v_({ isActive: e = !0, className: t }) {
 						children: "Tese desenvolvimental:"
 					}), /* @__PURE__ */ (0, B.jsx)("span", {
 						className: "text-[16px] font-bold text-amber-300 bg-amber-400/10 px-3 py-0.5 rounded-full border border-amber-400/25",
-						children: "Cognição ⇄ Aprendizagem Escolar"
+						children: "Cognição ⇄ aprendizagem escolar"
 					})]
 				})
 			]
@@ -24936,7 +24965,7 @@ var S_ = () => {
 				}),
 				/* @__PURE__ */ (0, B.jsx)("h3", {
 					className: "text-[26px] font-semibold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
-					children: "Maturação das Funções Executivas"
+					children: "Maturação das funções executivas"
 				}),
 				/* @__PURE__ */ (0, B.jsx)("p", {
 					className: "text-[17px] font-medium text-[#5f6062] mt-1 mb-3",
@@ -25071,35 +25100,64 @@ var S_ = () => {
 								children: e
 							})] }, e);
 						}),
-						b_.map((o) => {
-							let s = o.data.map((e, t) => ({
+						b_.map((o, s) => {
+							let c = o.data.map((e, t) => ({
 								x: i(t),
 								y: a(e)
-							})), c = x_(s), l = e && e !== o.id, u = e === o.id, d = s[s.length - 1], f = s[0], p = `${c} L ${d.x} 210 L ${f.x} 210 Z`;
+							})), l = x_(c), u = e && e !== o.id, d = e === o.id, f = c[c.length - 1], p = c[0], m = `${l} L ${f.x} 210 L ${p.x} 210 Z`;
 							return /* @__PURE__ */ (0, B.jsxs)("g", {
 								className: "transition-opacity duration-300",
-								style: { opacity: l ? .25 : 1 },
+								style: { opacity: u ? .25 : 1 },
 								children: [
-									/* @__PURE__ */ (0, B.jsx)("path", {
-										d: p,
+									/* @__PURE__ */ (0, B.jsx)(H.path, {
+										d: m,
 										fill: `url(#area-${o.id})`,
-										opacity: u ? .85 : .4,
-										className: "transition-opacity duration-300"
+										className: "transition-opacity duration-300",
+										initial: { opacity: 0 },
+										animate: { opacity: d ? .85 : .4 },
+										transition: {
+											duration: .6,
+											delay: .5 + s * .12
+										}
 									}),
-									/* @__PURE__ */ (0, B.jsx)("path", {
-										d: c,
+									/* @__PURE__ */ (0, B.jsx)(H.path, {
+										d: l,
 										fill: "none",
 										stroke: `url(#${o.gradientId})`,
-										strokeWidth: u ? 4.5 : 3.5,
+										strokeWidth: d ? 4.5 : 3.5,
 										strokeLinecap: "round",
-										filter: u ? "url(#lineGlow)" : void 0,
-										className: "transition-all duration-300"
+										filter: d ? "url(#lineGlow)" : void 0,
+										className: "transition-all duration-300",
+										initial: { pathLength: 0 },
+										animate: { pathLength: 1 },
+										transition: {
+											duration: 1.1,
+											delay: .15 + s * .12,
+											ease: [
+												.16,
+												1,
+												.3,
+												1
+											]
+										}
 									}),
-									s.map((e, i) => {
-										let a = n?.series === o.id && n?.index === i, s = i === 0 || i === 2 || i === 4 || i === 6;
-										return /* @__PURE__ */ (0, B.jsxs)("g", {
+									c.map((e, i) => {
+										let a = n?.series === o.id && n?.index === i, c = i === 0 || i === 2 || i === 4 || i === 6;
+										return /* @__PURE__ */ (0, B.jsxs)(H.g, {
 											transform: `translate(${e.x}, ${e.y})`,
 											className: "cursor-pointer",
+											initial: {
+												opacity: 0,
+												scale: .4
+											},
+											animate: {
+												opacity: 1,
+												scale: 1
+											},
+											transition: {
+												duration: .3,
+												delay: .6 + s * .12 + i * .05
+											},
 											onMouseEnter: () => {
 												r({
 													series: o.id,
@@ -25111,13 +25169,13 @@ var S_ = () => {
 											},
 											children: [
 												/* @__PURE__ */ (0, B.jsx)("circle", {
-													r: a ? 14 : s ? 9 : 6,
+													r: a ? 14 : c ? 9 : 6,
 													fill: o.gradientStops[1],
 													fillOpacity: a ? .35 : .16,
 													className: "transition-all duration-200"
 												}),
 												/* @__PURE__ */ (0, B.jsx)("circle", {
-													r: a ? 6.5 : s ? 4.5 : 3.5,
+													r: a ? 6.5 : c ? 4.5 : 3.5,
 													fill: o.gradientStops[0],
 													className: "transition-all duration-200"
 												}),
@@ -25212,7 +25270,7 @@ function w_({ isActive: e = !0, className: t }) {
 			accent: "bg-amber-50 text-amber-700 border-amber-200/80 hover:bg-amber-100/70"
 		},
 		{
-			label: "Pares & Contexto Social",
+			label: "Pares e contexto social",
 			icon: tg,
 			accent: "bg-purple-50 text-purple-700 border-purple-200/80 hover:bg-purple-100/70"
 		},
@@ -25256,7 +25314,7 @@ function w_({ isActive: e = !0, className: t }) {
 							className: "flex items-center gap-1.5",
 							children: /* @__PURE__ */ (0, B.jsxs)("span", {
 								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wide bg-[#0d6d66]/10 text-[#0d6d66] border border-[#0d6d66]/20",
-								children: [/* @__PURE__ */ (0, B.jsx)(Fh, { className: "w-4 h-4 text-[#0d6d66]" }), "Modelo Interativo Não-Linear"]
+								children: [/* @__PURE__ */ (0, B.jsx)(Fh, { className: "w-4 h-4 text-[#0d6d66]" }), "Modelo interativo não linear"]
 							})
 						})]
 					}),
@@ -25264,7 +25322,7 @@ function w_({ isActive: e = !0, className: t }) {
 						className: "space-y-2",
 						children: [/* @__PURE__ */ (0, B.jsxs)("div", { children: [/* @__PURE__ */ (0, B.jsx)("h3", {
 							className: "text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
-							children: "Desempenho Observado em Contexto"
+							children: "Desempenho observado em contexto"
 						}), /* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[17px] font-semibold text-[#0d6d66] mt-0.5 leading-snug",
 							children: "Superação do modelo dual simplificado · Interação dinâmica multifatorial"
@@ -25306,7 +25364,7 @@ function w_({ isActive: e = !0, className: t }) {
 								/* @__PURE__ */ (0, B.jsxs)("p", {
 									className: "text-[17px] text-[#334155] leading-snug font-medium mt-2",
 									children: [
-										"Incentivos contextuais e pares modificam a tomada de decisão na adolescência — gerando resultados substancialmente mais heterogêneos do que a tese dual de ",
+										"Incentivos contextuais e pares modificam a tomada de decisão na adolescência, gerando resultados substancialmente mais heterogêneos do que a tese dual de ",
 										/* @__PURE__ */ (0, B.jsx)("strong", {
 											className: "text-[#0f1012] font-semibold",
 											children: "\"límbico desenvolvido vs. pré-frontal imaturo\""
@@ -25327,7 +25385,7 @@ function w_({ isActive: e = !0, className: t }) {
 							})]
 						}), /* @__PURE__ */ (0, B.jsx)("div", {
 							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#0d6d66] text-white text-[15px] font-bold shadow-xs hover:bg-[#0d6d66]/90 transition-colors",
-							children: /* @__PURE__ */ (0, B.jsx)("span", { children: "Decisão Real ≠ Teste Isolado" })
+							children: /* @__PURE__ */ (0, B.jsx)("span", { children: "Decisão real ≠ teste isolado" })
 						})]
 					})
 				]
@@ -25372,7 +25430,7 @@ function w_({ isActive: e = !0, className: t }) {
 						className: "space-y-2",
 						children: [/* @__PURE__ */ (0, B.jsxs)("div", { children: [/* @__PURE__ */ (0, B.jsx)("h3", {
 							className: "text-[24px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]",
-							children: "Refinamento da Acurácia Metacognitiva"
+							children: "Refinamento da acurácia metacognitiva"
 						}), /* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[17px] font-semibold text-cyan-400 mt-0.5 leading-snug",
 							children: "Dissociação desenvolvimental entre capacidade perceptual básica e autoavaliação"
@@ -25685,7 +25743,7 @@ function D_({ isActive: e = !0, className: t }) {
 							className: "flex items-center justify-between mb-2",
 							children: [/* @__PURE__ */ (0, B.jsx)("span", {
 								className: "text-[14px] font-bold uppercase tracking-[0.1em] text-zinc-400 font-['Urbanist',sans-serif]",
-								children: "Axioma Clínico Transdisciplinar"
+								children: "Axioma clínico transdisciplinar"
 							}), /* @__PURE__ */ (0, B.jsx)("span", {
 								className: "text-[14px] font-semibold text-teal-200 bg-[#0d6d66]/30 px-2 py-0.5 rounded-full border border-teal-500/30",
 								children: "Eixo 2 · Cognição"
@@ -25693,7 +25751,7 @@ function D_({ isActive: e = !0, className: t }) {
 						}),
 						/* @__PURE__ */ (0, B.jsx)("h4", {
 							className: "text-[22px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
-							children: "Fala Alterada ≠ Linguagem Alterada ≠ Inteligência Reduzida"
+							children: "Fala alterada ≠ linguagem alterada ≠ inteligência reduzida"
 						}),
 						/* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[17px] font-medium text-zinc-300 mt-1 leading-snug",
@@ -25757,7 +25815,7 @@ function D_({ isActive: e = !0, className: t }) {
 							children: "Diretriz clínica:"
 						}), /* @__PURE__ */ (0, B.jsx)("span", {
 							className: "text-[16px] font-bold text-teal-300 bg-teal-500/15 px-2.5 py-0.5 rounded-full border border-teal-400/25",
-							children: "Perfis Singulares ≠ Destino"
+							children: "Perfis singulares ≠ destino"
 						})]
 					})]
 				})
@@ -25788,7 +25846,7 @@ function D_({ isActive: e = !0, className: t }) {
 						className: "flex items-center justify-between mb-1.5",
 						children: [/* @__PURE__ */ (0, B.jsx)("span", {
 							className: "text-[14px] font-bold uppercase tracking-[0.08em] text-[#0d6d66] bg-[#0d6d66]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0d6d66]/20 font-['Urbanist',sans-serif]",
-							children: "Evidência Empírica · CPT"
+							children: "Evidência empírica · CPT"
 						}), /* @__PURE__ */ (0, B.jsx)("span", {
 							className: "text-[15px] font-semibold text-[#5f6062]",
 							children: "Estudo unicêntrico · 6–16 anos"
@@ -25796,7 +25854,7 @@ function D_({ isActive: e = !0, className: t }) {
 					}),
 					/* @__PURE__ */ (0, B.jsx)("h4", {
 						className: "text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif]",
-						children: "Atenção Sustentada em Tarefa Contínua"
+						children: "Atenção sustentada em tarefa contínua"
 					}),
 					/* @__PURE__ */ (0, B.jsx)("p", {
 						className: "text-[16px] font-medium text-[#5f6062] mt-0.5",
@@ -42238,7 +42296,7 @@ function bQ({ isActive: e = !0, className: t }) {
 									className: "flex items-center justify-between mb-2",
 									children: [/* @__PURE__ */ (0, B.jsx)("span", {
 										className: "text-[14px] font-bold uppercase tracking-[0.1em] text-[#e07a5f] bg-[#b5563a]/25 px-2.5 py-0.5 rounded-full border border-[#b5563a]/40",
-										children: "Tese Central · Eixo 3"
+										children: "Tese central · Eixo 3"
 									}), /* @__PURE__ */ (0, B.jsx)(Fh, { className: "w-3.5 h-3.5 text-[#e07a5f]" })]
 								}),
 								/* @__PURE__ */ (0, B.jsx)("h4", {
@@ -42260,7 +42318,7 @@ function bQ({ isActive: e = !0, className: t }) {
 											children: "Recurso Permanente"
 										}), /* @__PURE__ */ (0, B.jsx)("span", {
 											className: "text-[14px] font-bold uppercase tracking-wide text-[#e07a5f] bg-[#b5563a]/25 px-2 py-0.5 rounded border border-[#b5563a]/35",
-											children: "Ao Longo de Toda a Vida"
+											children: "Ao longo de toda a vida"
 										})]
 									}),
 									/* @__PURE__ */ (0, B.jsx)("div", {
@@ -42286,7 +42344,7 @@ function bQ({ isActive: e = !0, className: t }) {
 								children: /* @__PURE__ */ (0, B.jsx)(Fm, { className: "w-4 h-4" })
 							}), /* @__PURE__ */ (0, B.jsxs)("div", { children: [/* @__PURE__ */ (0, B.jsx)("h4", {
 								className: "font-bold text-[20px] text-zinc-900 font-['Urbanist',sans-serif] leading-tight",
-								children: "Três Vias Familiares"
+								children: "Três vias familiares"
 							}), /* @__PURE__ */ (0, B.jsx)("span", {
 								className: "text-[14px] text-zinc-500 font-medium",
 								children: "Morris et al. (2007)"
@@ -42734,7 +42792,7 @@ function TQ({ isActive: e = !0, className: t }) {
 					}),
 					/* @__PURE__ */ (0, B.jsx)("h4", {
 						className: "text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
-						children: "Reconhecimento Emocional na Infância"
+						children: "Reconhecimento emocional na infância"
 					}),
 					/* @__PURE__ */ (0, B.jsx)("p", {
 						className: "text-[16px] font-medium text-[#5f6062] mt-0.5",
@@ -43012,7 +43070,7 @@ function TQ({ isActive: e = !0, className: t }) {
 						}),
 						/* @__PURE__ */ (0, B.jsx)("h4", {
 							className: "text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
-							children: "E Dependem de Outros Domínios"
+							children: "E dependem de outros domínios"
 						}),
 						/* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[16px] font-medium text-zinc-300 mt-1 leading-snug",
@@ -43047,7 +43105,7 @@ function TQ({ isActive: e = !0, className: t }) {
 						children: "Processo integrado:"
 					}), /* @__PURE__ */ (0, B.jsx)("span", {
 						className: "text-[16px] font-bold text-[#f8d7ce] bg-[#b5563a]/20 px-2.5 py-0.5 rounded-full border border-[#b5563a]/30",
-						children: "Perceber ↔ Compreender ↔ Regular"
+						children: "Perceber ↔ compreender ↔ regular"
 					})]
 				})
 			]
@@ -43299,7 +43357,7 @@ function kQ({ isActive: e = !0, className: t }) {
 						className: "space-y-1",
 						children: [/* @__PURE__ */ (0, B.jsx)("h3", {
 							className: "text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
-							children: "A Pergunta Que o Jovem Faz Sobre Si"
+							children: "A pergunta que o jovem faz sobre si"
 						}), /* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[16px] font-semibold text-[#33415c] leading-snug",
 							children: "Da observação de comportamentos concretos à integração abstrata da identidade"
@@ -43395,7 +43453,7 @@ function AQ({ isActive: e = !0, className: t }) {
 						}),
 						/* @__PURE__ */ (0, B.jsx)("h4", {
 							className: "text-[22px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
-							children: "Significado Emocional da Característica Física"
+							children: "Significado emocional da característica física"
 						}),
 						/* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[16px] font-medium text-zinc-300 mt-1 leading-snug",
@@ -43439,7 +43497,7 @@ function AQ({ isActive: e = !0, className: t }) {
 						children: "Fundamento clínico:"
 					}), /* @__PURE__ */ (0, B.jsx)("span", {
 						className: "text-[16px] font-bold text-[#f8d7ce] bg-[#b5563a]/20 px-2.5 py-0.5 rounded-full border border-[#b5563a]/30",
-						children: "Avaliação Social Subjetiva"
+						children: "Avaliação social subjetiva"
 					})]
 				})
 			]
@@ -43477,11 +43535,11 @@ function AQ({ isActive: e = !0, className: t }) {
 					}),
 					/* @__PURE__ */ (0, B.jsx)("h4", {
 						className: "text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
-						children: "A Regulação Continua em Desenvolvimento"
+						children: "A regulação continua em desenvolvimento"
 					}),
 					/* @__PURE__ */ (0, B.jsx)("p", {
 						className: "text-[16px] font-medium text-[#5f6062] mt-0.5 leading-snug",
-						children: "A capacidade regulatória aumenta — mas as demandas emocionais e sociais também:"
+						children: "A capacidade regulatória aumenta, mas as demandas emocionais e sociais também:"
 					})
 				] }),
 				/* @__PURE__ */ (0, B.jsxs)("div", {
@@ -43691,7 +43749,7 @@ function NQ({ isActive: e = !0 }) {
 	return /* @__PURE__ */ (0, B.jsx)("div", {
 		className: "w-full flex flex-col gap-6 select-none",
 		children: /* @__PURE__ */ (0, B.jsx)(MQ, {
-			title: "Tarefas Emocionais ao Longo do Desenvolvimento",
+			title: "Tarefas emocionais ao longo do desenvolvimento",
 			description: "A condição anatômica pode permanecer semelhante; a tarefa emocional da criança evolui qualitativamente.",
 			items: [
 				{
@@ -43755,7 +43813,7 @@ function NQ({ isActive: e = !0 }) {
 var PQ = [{
 	index: "01",
 	tag: "AOS 10 ANOS · n = 845",
-	title: "Infância Escolar & Domínios",
+	title: "Infância escolar e domínios",
 	description: "A condição adicional à fissura associou-se ao ajuste psicológico no maior número de domínios; a insatisfação com aparência não se associou aos demais domínios de risco.",
 	imageSrc: "assets/cards/memoji-10y.png",
 	color: "amber"
@@ -43836,13 +43894,13 @@ function zQ({ isActive: e = !0 }) {
 		},
 		{
 			quarter: "1–2 Anos",
-			title: "O Parceiro Social se Diversifica",
+			title: "O parceiro social se diversifica",
 			description: "Observar pares em volta · aproximar-se fisicamente · imitar comportamentos · iniciar interação lúdica · responder às iniciativas.",
 			status: "in-progress"
 		},
 		{
 			quarter: "3–5 Anos",
-			title: "Os Pares como Laboratório Social",
+			title: "Os pares como laboratório social",
 			description: "A arena de testes interpessoais onde as habilidades sociocomunicativas são construídas na prática:",
 			status: "in-progress",
 			detail: /* @__PURE__ */ (0, B.jsx)("div", {
@@ -43961,7 +44019,7 @@ function BQ({ isActive: e = !0, className: t }) {
 						}),
 						/* @__PURE__ */ (0, B.jsx)("h4", {
 							className: "text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
-							children: "Competência Social ≠ Extroversão"
+							children: "Competência social ≠ extroversão"
 						}),
 						/* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[16px] font-medium text-zinc-300 mt-1.5 leading-snug",
@@ -43989,7 +44047,7 @@ function BQ({ isActive: e = !0, className: t }) {
 						children: "Equilíbrio funcional:"
 					}), /* @__PURE__ */ (0, B.jsx)("span", {
 						className: "text-[16px] font-bold text-[#e9dff0] bg-[#6b4e83]/25 px-2.5 py-0.5 rounded-full border border-[#6b4e83]/35",
-						children: "Objetivos Pessoais ↔ Vínculo com Pares"
+						children: "Objetivos pessoais ↔ vínculo com pares"
 					})]
 				})
 			]
@@ -44019,7 +44077,7 @@ function BQ({ isActive: e = !0, className: t }) {
 						className: "flex items-center justify-between mb-1.5",
 						children: [/* @__PURE__ */ (0, B.jsx)("span", {
 							className: "text-[14px] font-bold uppercase tracking-[0.14em] text-[#6b4e83] bg-[#6b4e83]/[0.10] px-2.5 py-0.5 rounded-full border border-[#6b4e83]/20 font-['Urbanist',sans-serif]",
-							children: "Evidência Empírica · Meta-análise"
+							children: "Evidência empírica · meta-análise"
 						}), /* @__PURE__ */ (0, B.jsx)("span", {
 							className: "text-[15px] font-semibold text-[#5f6062]",
 							children: "80 amostras · N = 4.441"
@@ -44027,7 +44085,7 @@ function BQ({ isActive: e = !0, className: t }) {
 					}),
 					/* @__PURE__ */ (0, B.jsx)("h4", {
 						className: "text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
-						children: "Vínculo Inicial e Competência com Pares"
+						children: "Vínculo inicial e competência com pares"
 					}),
 					/* @__PURE__ */ (0, B.jsx)("p", {
 						className: "text-[16px] text-[#5f6062] mt-0.5",
@@ -44038,7 +44096,7 @@ function BQ({ isActive: e = !0, className: t }) {
 					className: "p-3 rounded-2xl bg-[#f7f4f9] border border-[#6b4e83]/20 my-2 flex items-center justify-between",
 					children: [/* @__PURE__ */ (0, B.jsxs)("div", { children: [/* @__PURE__ */ (0, B.jsx)("span", {
 						className: "text-[14px] font-bold uppercase tracking-wider text-[#6b4e83] block",
-						children: "Tamanho de Efeito Meta-analítico"
+						children: "Tamanho de efeito meta-analítico"
 					}), /* @__PURE__ */ (0, B.jsxs)("div", {
 						className: "font-['Urbanist',sans-serif] text-[24px] font-bold tracking-tight text-[#6b4e83]",
 						children: ["d = 0,39 ", /* @__PURE__ */ (0, B.jsx)("span", {
@@ -44047,7 +44105,7 @@ function BQ({ isActive: e = !0, className: t }) {
 						})]
 					})] }), /* @__PURE__ */ (0, B.jsx)("span", {
 						className: "text-[14px] font-bold text-[#6b4e83] bg-white px-2.5 py-1 rounded-full border border-[#6b4e83]/20 shadow-2xs",
-						children: "Associação Robusta"
+						children: "Associação robusta"
 					})]
 				}),
 				/* @__PURE__ */ (0, B.jsx)("p", {
@@ -44056,7 +44114,7 @@ function BQ({ isActive: e = !0, className: t }) {
 				}),
 				/* @__PURE__ */ (0, B.jsxs)("p", {
 					className: "text-[15px] text-[#6a6b6d] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between",
-					children: [/* @__PURE__ */ (0, B.jsx)("span", { children: "Associação probabilística — não determinística" }), /* @__PURE__ */ (0, B.jsx)("span", {
+					children: [/* @__PURE__ */ (0, B.jsx)("span", { children: "Associação probabilística, não determinística" }), /* @__PURE__ */ (0, B.jsx)("span", {
 						className: "font-semibold text-[#6b4e83]",
 						children: "A base não é destino"
 					})]
@@ -44247,7 +44305,7 @@ function HQ({ isActive: e = !0, className: t }) {
 						className: "space-y-2",
 						children: [/* @__PURE__ */ (0, B.jsxs)("div", { children: [/* @__PURE__ */ (0, B.jsx)("h3", {
 							className: "text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
-							children: "Díade Protetora e Identificação com Pares"
+							children: "Díade protetora e identificação com pares"
 						}), /* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[16px] font-semibold text-[#6b4e83] mt-0.5",
 							children: "Maunder & Monks (2019) · Diferenciação entre popularidade e apego entre pares"
@@ -44264,7 +44322,7 @@ function HQ({ isActive: e = !0, className: t }) {
 								}, e.label))
 							}), /* @__PURE__ */ (0, B.jsxs)("p", {
 								className: "text-[16px] text-[#334155] leading-snug font-normal mt-2",
-								children: ["Uma criança pode ser pouco popular e ainda ter uma amizade íntima e protetora — ou ser aceita pelo grupo sem possuir amizade próxima. ", /* @__PURE__ */ (0, B.jsx)("strong", {
+								children: ["Uma criança pode ser pouco popular e ainda ter uma amizade íntima e protetora, ou ser aceita pelo grupo sem possuir amizade próxima. ", /* @__PURE__ */ (0, B.jsx)("strong", {
 									className: "text-[#0f1012] font-semibold",
 									children: "A reciprocidade foi especialmente relevante para a autoestima e identificação social."
 								})]
@@ -44318,7 +44376,7 @@ function HQ({ isActive: e = !0, className: t }) {
 							className: "flex items-center gap-1.5",
 							children: /* @__PURE__ */ (0, B.jsxs)("span", {
 								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-purple-500/10 text-purple-300 border border-purple-500/25",
-								children: [/* @__PURE__ */ (0, B.jsx)(pm, { className: "w-4 h-4 text-purple-400" }), "Competência & Avaliação Clínica"]
+								children: [/* @__PURE__ */ (0, B.jsx)(pm, { className: "w-4 h-4 text-purple-400" }), "Competência e avaliação clínica"]
 							})
 						})]
 					}),
@@ -44326,10 +44384,10 @@ function HQ({ isActive: e = !0, className: t }) {
 						className: "space-y-2",
 						children: [/* @__PURE__ */ (0, B.jsxs)("div", { children: [/* @__PURE__ */ (0, B.jsx)("h3", {
 							className: "text-[24px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]",
-							children: "Preferir Poucos Amigos ≠ Dificuldade Social"
+							children: "Preferir poucos amigos ≠ dificuldade social"
 						}), /* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[16px] font-semibold text-purple-300 mt-0.5",
-							children: "Conflito não é ausência de competência — é a arena de aprendizagem relacional"
+							children: "Conflito não é ausência de competência: é a arena de aprendizagem relacional"
 						})] }), /* @__PURE__ */ (0, B.jsxs)("div", {
 							className: "pt-0.5",
 							children: [
@@ -44366,7 +44424,7 @@ function HQ({ isActive: e = !0, className: t }) {
 							className: "flex items-center gap-1.5 text-[15px] font-semibold text-zinc-400",
 							children: [/* @__PURE__ */ (0, B.jsx)("span", { children: "Critério:" }), /* @__PURE__ */ (0, B.jsx)("span", {
 								className: "text-white font-bold",
-								children: "Prejuízo Funcional Real"
+								children: "Prejuízo funcional real"
 							})]
 						}), /* @__PURE__ */ (0, B.jsx)("div", {
 							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-purple-500/20 text-purple-200 border border-purple-500/30 text-[16px] font-bold shadow-xs",
@@ -44451,67 +44509,44 @@ var UQ = {
 		children: v
 	}) : v;
 }, qQ = ({ setIsOpen: e, isOpen: t, itemsLength: n, closeAnimationCallback: r, openIcon: i, closeIcon: a, triggerSize: o = UQ.itemSize, customTrigger: s }) => {
-	let c = _d(), l = _d(), u = Array.from({ length: Math.max(1, n - 1) }).map((e, t) => t + 1).reduce((e, t, n) => {
+	let c = _d(), l = Array.from({ length: Math.max(1, n - 1) }).map((e, t) => t + 1).reduce((e, t, n) => {
 		let r = n * .15;
 		return e.push(1 + r), e;
-	}, []), d = async () => {
-		l.start({
-			translateX: [
-				0,
-				2,
-				-2,
-				0,
-				2,
-				-2,
-				0
-			],
-			transition: {
-				duration: UQ.closeStagger,
-				ease: "linear",
-				repeat: Infinity,
-				repeatType: "loop"
-			}
-		});
-		for (let e = 0; e < u.length; e++) await c.start({
-			height: Math.min(o * u[e], o + o / 2),
-			width: Math.min(o * u[e], o + o / 2),
-			transition: {
-				duration: UQ.closeStagger / 2,
-				ease: "linear"
-			}
-		}), e !== u.length - 1 && await new Promise((e) => setTimeout(e, UQ.closeStagger * 1e3));
-		l.stop(), l.start({
-			translateX: 0,
-			transition: { duration: 0 }
-		}), c.start({
-			height: o,
-			width: o,
-			transition: {
-				duration: .1,
-				ease: "backInOut"
-			}
-		});
-	}, f = b.useRef(!0), p = b.useRef(t);
+	}, []), u = async () => {
+		if (!s) {
+			for (let e = 0; e < l.length; e++) await c.start({
+				height: Math.min(o * l[e], o + o / 2),
+				width: Math.min(o * l[e], o + o / 2),
+				transition: {
+					duration: UQ.closeStagger / 2,
+					ease: "linear"
+				}
+			}), e !== l.length - 1 && await new Promise((e) => setTimeout(e, UQ.closeStagger * 1e3));
+			c.start({
+				height: o,
+				width: o,
+				transition: {
+					duration: .1,
+					ease: "backInOut"
+				}
+			});
+		}
+	}, d = b.useRef(!0), f = b.useRef(t);
 	b.useEffect(() => {
-		if (f.current) {
-			f.current = !1, p.current = t;
+		if (d.current) {
+			d.current = !1, f.current = t;
 			return;
 		}
-		p.current && !t && (r(), d()), p.current = t;
-	}, [t]);
-	let m = () => {
+		f.current && !t && (r(), s || u()), f.current = t;
+	}, [t, s]);
+	let p = () => {
 		e(!t);
 	};
-	return s ? /* @__PURE__ */ (0, B.jsx)(H.div, {
-		animate: l,
-		className: "z-20 cursor-pointer",
-		onClick: m,
-		children: /* @__PURE__ */ (0, B.jsx)(H.div, {
-			animate: c,
-			children: s
-		})
-	}) : /* @__PURE__ */ (0, B.jsx)(H.div, {
-		animate: l,
+	return s ? /* @__PURE__ */ (0, B.jsx)("div", {
+		className: "z-20 cursor-pointer select-none",
+		onClick: p,
+		children: s
+	}) : /* @__PURE__ */ (0, B.jsx)("div", {
 		className: "z-50",
 		children: /* @__PURE__ */ (0, B.jsx)(H.button, {
 			animate: c,
@@ -44520,7 +44555,7 @@ var UQ = {
 				width: o
 			},
 			className: q(WQ.trigger.container, t && WQ.trigger.active),
-			onClick: m,
+			onClick: p,
 			children: /* @__PURE__ */ (0, B.jsx)(Wc, {
 				mode: "popLayout",
 				children: t ? /* @__PURE__ */ (0, B.jsx)(H.span, {
@@ -44646,24 +44681,10 @@ var UQ = {
 //#endregion
 //#region components/slide25-orbit.tsx
 function YQ({ isActive: e = !0 }) {
-	let [t, n] = (0, b.useState)(!0), [r, i] = (0, b.useState)(!1);
+	let [t, n] = (0, b.useState)(!0);
 	return (0, b.useEffect)(() => {
 		e && n(!0);
-	}, [e]), (0, b.useEffect)(() => {
-		if (!e) return;
-		let i;
-		return r || (i = t ? setTimeout(() => {
-			n(!1);
-		}, 8e3) : setTimeout(() => {
-			n(!0);
-		}, 2e3)), () => clearTimeout(i);
-	}, [
-		e,
-		t,
-		r
-	]), /* @__PURE__ */ (0, B.jsxs)("div", {
-		onMouseEnter: () => i(!0),
-		onMouseLeave: () => i(!1),
+	}, [e]), /* @__PURE__ */ (0, B.jsxs)("div", {
 		className: "relative flex h-[480px] w-full mx-auto items-center justify-center select-none font-['Satoshi',sans-serif]",
 		children: [/* @__PURE__ */ (0, B.jsxs)("div", {
 			className: "absolute inset-0 pointer-events-none flex items-center justify-center",
@@ -44731,7 +44752,7 @@ function YQ({ isActive: e = !0 }) {
 					}
 				],
 				customTrigger: /* @__PURE__ */ (0, B.jsxs)("div", {
-					className: q("relative z-20 flex flex-col items-center justify-center w-[128px] h-[128px] rounded-full bg-white/95 border-2 shadow-[0_12px_36px_rgba(107,78,131,0.16)] backdrop-blur-md transition-all duration-300 hover:scale-105 group select-none cursor-pointer", t ? "border-[#6b4e83]/40 shadow-[0_12px_36px_rgba(107,78,131,0.22)]" : "border-zinc-300 opacity-95"),
+					className: q("relative z-20 flex flex-col items-center justify-center w-[128px] h-[128px] rounded-full bg-white border-2 shadow-[0_12px_36px_rgba(107,78,131,0.16)] transform-gpu transition-all duration-300 hover:scale-105 group select-none cursor-pointer", t ? "border-[#6b4e83]/40 shadow-[0_12px_36px_rgba(107,78,131,0.22)]" : "border-zinc-300 opacity-95"),
 					children: [
 						/* @__PURE__ */ (0, B.jsx)("div", {
 							className: "w-11 h-11 rounded-full bg-[#f1ecf5] border border-[#6b4e83]/20 flex items-center justify-center mb-1 text-[#6b4e83] shadow-inner group-hover:bg-[#6b4e83] group-hover:text-white transition-colors",
@@ -44838,7 +44859,7 @@ function XQ({ isActive: e = !0, className: t }) {
 							className: "flex items-center justify-between mb-1.5",
 							children: [/* @__PURE__ */ (0, B.jsx)("span", {
 								className: "text-[14px] font-bold uppercase tracking-[0.2em] text-zinc-400 font-['Urbanist',sans-serif]",
-								children: "Reorientação Social na Adolescência"
+								children: "Reorientação social na adolescência"
 							}), /* @__PURE__ */ (0, B.jsx)("span", {
 								className: "text-[14px] font-semibold text-[#e9dff0] bg-[#6b4e83]/30 px-2.5 py-0.5 rounded-full border border-[#6b4e83]/40",
 								children: "Eixo 4 · Social"
@@ -44846,7 +44867,7 @@ function XQ({ isActive: e = !0, className: t }) {
 						}),
 						/* @__PURE__ */ (0, B.jsx)("h4", {
 							className: "text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
-							children: "Os Pares como Nova Referência para o “Eu”"
+							children: "Os pares como nova referência para o “eu”"
 						}),
 						/* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[16px] font-medium text-zinc-300 mt-1 leading-snug",
@@ -44880,7 +44901,7 @@ function XQ({ isActive: e = !0, className: t }) {
 						children: "Axioma sistêmico:"
 					}), /* @__PURE__ */ (0, B.jsx)("span", {
 						className: "text-[16px] font-bold text-[#e9dff0] bg-[#6b4e83]/25 px-2.5 py-0.5 rounded-full border border-[#6b4e83]/35",
-						children: "Reorientação Social ≠ Substituição da Família"
+						children: "Reorientação social ≠ substituição da família"
 					})]
 				})
 			]
@@ -44910,7 +44931,7 @@ function XQ({ isActive: e = !0, className: t }) {
 						className: "flex items-center justify-between mb-1.5",
 						children: [/* @__PURE__ */ (0, B.jsx)("span", {
 							className: "text-[14px] font-bold uppercase tracking-[0.14em] text-[#6b4e83] bg-[#6b4e83]/[0.10] px-2.5 py-0.5 rounded-full border border-[#6b4e83]/20 font-['Urbanist',sans-serif]",
-							children: "Evidência Empírica · Meta-análise"
+							children: "Evidência empírica · meta-análise"
 						}), /* @__PURE__ */ (0, B.jsx)("span", {
 							className: "text-[15px] font-semibold text-[#5f6062]",
 							children: "60 estudos · 233 efeitos"
@@ -44918,11 +44939,11 @@ function XQ({ isActive: e = !0, className: t }) {
 					}),
 					/* @__PURE__ */ (0, B.jsx)("h4", {
 						className: "text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
-						children: "A Influência dos Pares é um Mecanismo"
+						children: "A influência dos pares é um mecanismo"
 					}),
 					/* @__PURE__ */ (0, B.jsx)("p", {
 						className: "text-[16px] text-[#5f6062] mt-0.5",
-						children: "Mecanismo de mediação contextual — não um desfecho negativo por si só:"
+						children: "Mecanismo de mediação contextual, não um desfecho negativo por si só:"
 					})
 				] }),
 				/* @__PURE__ */ (0, B.jsxs)("div", {
@@ -45158,7 +45179,7 @@ function QQ({ isActive: e = !0, className: t }) {
 						children: [
 							/* @__PURE__ */ (0, B.jsxs)("div", { children: [/* @__PURE__ */ (0, B.jsx)("h3", {
 								className: "text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
-								children: "O Risco Social Está na Interação — Não Apenas na Face"
+								children: "O risco social está na interação, não apenas na face"
 							}), /* @__PURE__ */ (0, B.jsx)("p", {
 								className: "text-[16px] font-semibold text-[#6b4e83] mt-0.5",
 								children: "Visibilidade isolada ≠ rejeição imediata · Mediação relacional do estigma"
@@ -45183,7 +45204,7 @@ function QQ({ isActive: e = !0, className: t }) {
 										className: "flex items-center gap-1 text-emerald-700 mb-0.5",
 										children: [/* @__PURE__ */ (0, B.jsx)(kh, { className: "w-3.5 h-3.5" }), /* @__PURE__ */ (0, B.jsx)("span", {
 											className: "text-[14px] font-bold uppercase tracking-wider",
-											children: "Ter um Bom Amigo"
+											children: "Ter um bom amigo"
 										})]
 									}), /* @__PURE__ */ (0, B.jsx)("p", {
 										className: "text-[16px] font-semibold text-emerald-900 leading-snug",
@@ -45251,7 +45272,7 @@ function QQ({ isActive: e = !0, className: t }) {
 							className: "flex items-center gap-1.5",
 							children: /* @__PURE__ */ (0, B.jsxs)("span", {
 								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-purple-500/10 text-purple-300 border border-purple-500/25",
-								children: [/* @__PURE__ */ (0, B.jsx)(pm, { className: "w-4 h-4 text-purple-400" }), "Diretriz do Protocolo de Psicologia"]
+								children: [/* @__PURE__ */ (0, B.jsx)(pm, { className: "w-4 h-4 text-purple-400" }), "Diretriz do protocolo de psicologia"]
 							})
 						})]
 					}),
@@ -45259,10 +45280,10 @@ function QQ({ isActive: e = !0, className: t }) {
 						className: "space-y-2",
 						children: [/* @__PURE__ */ (0, B.jsxs)("div", { children: [/* @__PURE__ */ (0, B.jsx)("h3", {
 							className: "text-[24px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]",
-							children: "Protocolo Social — Investigar Ativamente em Cada Fase"
+							children: "Protocolo social: investigar ativamente em cada fase"
 						}), /* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[16px] font-semibold text-purple-300 mt-0.5",
-							children: "Não presumir estigma — mas perguntar ativamente e sistematicamente sobre ele"
+							children: "Não presumir estigma, mas perguntar ativamente e sistematicamente sobre ele"
 						})] }), /* @__PURE__ */ (0, B.jsxs)("div", {
 							className: "pt-0.5",
 							children: [
@@ -45286,7 +45307,7 @@ function QQ({ isActive: e = !0, className: t }) {
 								}),
 								/* @__PURE__ */ (0, B.jsx)("p", {
 									className: "text-[16px] text-zinc-300 leading-snug font-normal mt-2",
-									children: "Avaliar o ecossistema social da criança é tão crucial quanto o acompanhamento cirúrgico e anatômico: a qualidade das interações e a proteção contra o estigma determinam a trajetória de adaptação."
+									children: "Avaliar o ecossistema social da criança é tão importante quanto o acompanhamento cirúrgico e anatômico: a qualidade das interações e a proteção contra o estigma determinam a trajetória de adaptação."
 								})
 							]
 						})]
@@ -45301,7 +45322,7 @@ function QQ({ isActive: e = !0, className: t }) {
 							})]
 						}), /* @__PURE__ */ (0, B.jsx)("div", {
 							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-purple-500/20 text-purple-200 border border-purple-500/30 text-[16px] font-bold shadow-xs",
-							children: /* @__PURE__ */ (0, B.jsx)("span", { children: "Perguntar em Cada Fase" })
+							children: /* @__PURE__ */ (0, B.jsx)("span", { children: "Perguntar em cada fase" })
 						})]
 					})
 				]
@@ -45349,8 +45370,25 @@ var $Q = [{
 	]
 }];
 function e$({ isActive: e = !0 }) {
-	return /* @__PURE__ */ (0, B.jsxs)("div", {
+	return /* @__PURE__ */ (0, B.jsxs)(H.div, {
 		className: "relative w-full h-[500px] overflow-hidden flex justify-center select-none group",
+		initial: {
+			opacity: 0,
+			scale: .96
+		},
+		animate: {
+			opacity: 1,
+			scale: 1
+		},
+		transition: {
+			duration: .6,
+			ease: [
+				.16,
+				1,
+				.3,
+				1
+			]
+		},
 		children: [
 			/* @__PURE__ */ (0, B.jsx)("style", { children: "\n        @keyframes orbit-cw {\n          from { transform: rotate(var(--start-angle)) }\n          to   { transform: rotate(calc(var(--start-angle) + 360deg)) }\n        }\n        @keyframes orbit-ccw {\n          from { transform: rotate(var(--start-angle)) }\n          to   { transform: rotate(calc(var(--start-angle) - 360deg)) }\n        }\n        @keyframes counter-cw {\n          from { transform: rotate(var(--counter-offset, 0deg)) }\n          to   { transform: rotate(calc(var(--counter-offset, 0deg) - 360deg)) }\n        }\n        @keyframes counter-ccw {\n          from { transform: rotate(var(--counter-offset, 0deg)) }\n          to   { transform: rotate(calc(var(--counter-offset, 0deg) + 360deg)) }\n        }\n      " }),
 			/* @__PURE__ */ (0, B.jsx)("div", {
@@ -45362,9 +45400,9 @@ function e$({ isActive: e = !0 }) {
 				children: /* @__PURE__ */ (0, B.jsx)(bp, { particleCount: 3200 })
 			}),
 			/* @__PURE__ */ (0, B.jsx)("div", {
-				className: "absolute bottom-[80px] left-1/2 -translate-x-1/2 z-20 pointer-events-auto flex flex-col items-center",
+				className: "absolute bottom-[80px] left-1/2 -translate-x-1/2 z-20 pointer-events-auto flex flex-col items-center transform-gpu",
 				children: /* @__PURE__ */ (0, B.jsxs)("div", {
-					className: "w-[164px] h-[164px] rounded-full bg-white/95 border-2 border-[#8a2f3f]/30 shadow-[0_8px_32px_rgba(138,47,63,0.18)] backdrop-blur-md flex flex-col items-center justify-center text-center p-2 transition-transform duration-300 hover:scale-105 cursor-default select-none",
+					className: "w-[164px] h-[164px] rounded-full bg-white border-2 border-[#8a2f3f]/30 shadow-[0_8px_32px_rgba(138,47,63,0.18)] flex flex-col items-center justify-center text-center p-2 transition-transform duration-300 hover:scale-105 cursor-default select-none",
 					children: [
 						/* @__PURE__ */ (0, B.jsx)("div", {
 							className: "w-9 h-9 rounded-full bg-[#f7ecee] text-[#8a2f3f] flex items-center justify-center shrink-0 mb-1.5 shadow-inner",
@@ -45388,14 +45426,14 @@ function e$({ isActive: e = !0 }) {
 					children: e.icons.map((t, i) => {
 						let a = t.icon;
 						return /* @__PURE__ */ (0, B.jsx)("div", {
-							className: "absolute top-0 left-1/2 h-1/2 -ml-28 origin-bottom flex flex-col justify-start items-center pointer-events-auto",
+							className: "absolute top-0 left-1/2 h-1/2 -ml-28 origin-bottom flex flex-col justify-start items-center pointer-events-none",
 							style: {
 								width: "224px",
 								"--start-angle": `${t.angle}deg`,
 								animation: `${n} ${e.duration}s linear infinite`
 							},
 							children: /* @__PURE__ */ (0, B.jsx)("div", {
-								className: "-mt-5 relative z-10 transition-transform duration-200 hover:scale-105",
+								className: "-mt-5 relative z-10 transition-transform duration-200 hover:scale-105 pointer-events-auto",
 								style: {
 									"--counter-offset": `${-t.angle}deg`,
 									animation: `${r} ${e.duration}s linear infinite`
@@ -45463,7 +45501,7 @@ function t$({ isActive: e = !0, className: t }) {
 						className: "space-y-2",
 						children: [/* @__PURE__ */ (0, B.jsxs)("div", { children: [/* @__PURE__ */ (0, B.jsx)("h3", {
 							className: "text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
-							children: "Heterogeneidade Psicossocial nos Diagnósticos"
+							children: "Heterogeneidade psicossocial nos diagnósticos"
 						}), /* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[16px] font-semibold text-[#8a2f3f] mt-0.5",
 							children: "Mesmo diagnóstico ≠ mesma experiência · Mesma anatomia ≠ mesma trajetória"
@@ -45549,7 +45587,7 @@ function t$({ isActive: e = !0, className: t }) {
 							className: "flex items-center gap-1.5",
 							children: /* @__PURE__ */ (0, B.jsxs)("span", {
 								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-rose-500/10 text-rose-300 border border-rose-500/25",
-								children: [/* @__PURE__ */ (0, B.jsx)(pm, { className: "w-4 h-4 text-rose-400" }), "Matriz Clínica Multidimensional"]
+								children: [/* @__PURE__ */ (0, B.jsx)(pm, { className: "w-4 h-4 text-rose-400" }), "Matriz clínica multidimensional"]
 							})
 						})]
 					}),
@@ -45558,7 +45596,7 @@ function t$({ isActive: e = !0, className: t }) {
 						children: [
 							/* @__PURE__ */ (0, B.jsxs)("div", { children: [/* @__PURE__ */ (0, B.jsx)("h3", {
 								className: "text-[24px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]",
-								children: "Organizar por Domínios, Não Apenas por Diagnóstico"
+								children: "Organizar por domínios, não apenas por diagnóstico"
 							}), /* @__PURE__ */ (0, B.jsx)("p", {
 								className: "text-[16px] font-semibold text-rose-300 mt-0.5",
 								children: "Quais dimensões da condição estão entrando na trajetória desta criança?"
@@ -45695,10 +45733,10 @@ function r$({ isActive: e = !0 }) {
 					className: "flex items-center justify-between",
 					children: [/* @__PURE__ */ (0, B.jsxs)("div", { children: [/* @__PURE__ */ (0, B.jsx)(Yg, {
 						className: "font-['Urbanist',sans-serif] text-[23px] font-bold text-[#0f1012] tracking-tight",
-						children: "Trajetória Terapêutica Dupla: Desenvolvimento Humano × Processo de Cuidado"
+						children: "Trajetória terapêutica dupla: desenvolvimento humano × processo de cuidado"
 					}), /* @__PURE__ */ (0, B.jsx)(Xg, {
 						className: "font-['Satoshi',sans-serif] text-[17px] font-medium text-[#5f6062] mt-1",
-						children: "A criança não apenas cresce com uma condição craniofacial — ela cresce atravessando uma sequência clínica assistencial interdependente."
+						children: "A criança não apenas cresce com uma condição craniofacial: ela cresce atravessando uma sequência clínica assistencial interdependente."
 					})] }), /* @__PURE__ */ (0, B.jsxs)("div", {
 						className: "flex items-center gap-2 bg-[#f7ecee] px-3.5 py-1.5 rounded-full border border-[#8a2f3f]/20 shrink-0",
 						children: [/* @__PURE__ */ (0, B.jsx)(ym, { className: "w-5 h-5 text-[#8a2f3f]" }), /* @__PURE__ */ (0, B.jsx)("span", {
@@ -45716,7 +45754,7 @@ function r$({ isActive: e = !0 }) {
 							className: "flex items-center gap-2 mb-2",
 							children: [/* @__PURE__ */ (0, B.jsx)("span", { className: "w-2 h-2 rounded-full bg-[#0f1012]" }), /* @__PURE__ */ (0, B.jsx)("span", {
 								className: "font-['Urbanist',sans-serif] text-[14px] font-bold tracking-[0.1em] uppercase text-[#0f1012]",
-								children: "Trajetória do Desenvolvimento Psicomotor & Social"
+								children: "Trajetória do desenvolvimento psicomotor e social"
 							})]
 						}), /* @__PURE__ */ (0, B.jsxs)("div", {
 							className: "relative w-full",
@@ -45798,7 +45836,7 @@ function r$({ isActive: e = !0 }) {
 								className: "absolute bg-white px-4 py-1.5 rounded-full border border-[#8a2f3f]/30 shadow-xs flex items-center gap-2",
 								children: [/* @__PURE__ */ (0, B.jsx)(Fp, { className: "w-3.5 h-3.5 text-[#8a2f3f]" }), /* @__PURE__ */ (0, B.jsx)("span", {
 									className: "font-['Urbanist',sans-serif] text-[16px] font-bold text-[#8a2f3f] tracking-wide",
-									children: "Sincronia Clínica: Intervenções no Momento Desenvolvimental Adequado"
+									children: "Sincronia clínica: intervenções no momento desenvolvimental adequado"
 								})]
 							})]
 						}),
@@ -45806,7 +45844,7 @@ function r$({ isActive: e = !0 }) {
 							className: "flex items-center gap-2 mb-2",
 							children: [/* @__PURE__ */ (0, B.jsx)("span", { className: "w-2 h-2 rounded-full bg-[#8a2f3f]" }), /* @__PURE__ */ (0, B.jsx)("span", {
 								className: "font-['Urbanist',sans-serif] text-[14px] font-bold tracking-[0.1em] uppercase text-[#8a2f3f]",
-								children: "Trajetória Assistencial Multidisciplinar (Equipe Hospitalar)"
+								children: "Trajetória assistencial multidisciplinar (equipe hospitalar)"
 							})]
 						}), /* @__PURE__ */ (0, B.jsxs)("div", {
 							className: "relative w-full",
@@ -45877,13 +45915,13 @@ function r$({ isActive: e = !0 }) {
 							/* @__PURE__ */ (0, B.jsx)(Lm, { className: "w-5 h-5 text-[#8a2f3f] shrink-0" }),
 							/* @__PURE__ */ (0, B.jsx)("span", {
 								className: "font-semibold text-[#0f1012]",
-								children: "Princípio Norteador do Protocolo:"
+								children: "Princípio norteador do protocolo:"
 							}),
 							/* @__PURE__ */ (0, B.jsx)("span", { children: "A intervenção bem-sucedida respeita a janela em que a habilidade ou demanda social está se estruturando." })
 						]
 					}), /* @__PURE__ */ (0, B.jsx)("span", {
 						className: "font-['Urbanist',sans-serif] font-bold text-[14px] text-[#8a2f3f] uppercase tracking-wider shrink-0",
-						children: "Eixo 5 · Síntese do Cuidado"
+						children: "Eixo 5 · Síntese do cuidado"
 					})]
 				})]
 			})]
@@ -45939,7 +45977,7 @@ function i$({ isActive: e = !0, className: t }) {
 							}),
 							/* @__PURE__ */ (0, B.jsx)("h4", {
 								className: "text-[19px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
-								children: "Audição, Fala e Linguagem"
+								children: "Audição, fala e linguagem"
 							}),
 							/* @__PURE__ */ (0, B.jsxs)("div", {
 								className: "mt-2.5 p-2.5 rounded-xl bg-zinc-900/90 border border-zinc-800/90 flex items-center gap-3",
@@ -46051,7 +46089,7 @@ function i$({ isActive: e = !0, className: t }) {
 							}),
 							/* @__PURE__ */ (0, B.jsx)("h4", {
 								className: "text-[19px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
-								children: "O Tratamento Tem Carga"
+								children: "O tratamento tem carga"
 							}),
 							/* @__PURE__ */ (0, B.jsxs)("div", {
 								className: "grid grid-cols-2 gap-2 mt-2",
@@ -46125,7 +46163,7 @@ function i$({ isActive: e = !0, className: t }) {
 									})]
 								}), /* @__PURE__ */ (0, B.jsx)("span", {
 									className: "text-[14px] font-bold text-[#e8909c] bg-[#8a2f3f]/20 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/35 uppercase tracking-wider shrink-0",
-									children: "O Timing Importa"
+									children: "O timing importa"
 								})]
 							}),
 							/* @__PURE__ */ (0, B.jsxs)("p", {
@@ -46475,7 +46513,7 @@ function c$({ isActive: e = !0, className: t }) {
 						className: "flex items-center justify-between mb-1.5",
 						children: [/* @__PURE__ */ (0, B.jsx)("span", {
 							className: "text-[14px] font-bold uppercase tracking-[0.14em] text-[#8a2f3f] bg-[#8a2f3f]/[0.10] px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/25 font-['Urbanist',sans-serif]",
-							children: "Desfechos Centrados no Paciente"
+							children: "Desfechos centrados no paciente"
 						}), /* @__PURE__ */ (0, B.jsx)("span", {
 							className: "text-[15px] font-semibold text-[#5f6062]",
 							children: "136 entrevistas · 6 países"
@@ -46483,7 +46521,7 @@ function c$({ isActive: e = !0, className: t }) {
 					}),
 					/* @__PURE__ */ (0, B.jsx)("h4", {
 						className: "text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
-						children: "O Que Realmente Importa para os Pacientes"
+						children: "O que importa para os pacientes"
 					}),
 					/* @__PURE__ */ (0, B.jsx)("p", {
 						className: "text-[16px] text-[#5f6062] mt-0.5",
@@ -46570,7 +46608,7 @@ function c$({ isActive: e = !0, className: t }) {
 						}),
 						/* @__PURE__ */ (0, B.jsx)("h4", {
 							className: "text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
-							children: "Resultado Técnico ≠ Desfecho Percebido"
+							children: "Resultado técnico ≠ desfecho percebido"
 						}),
 						/* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[16px] font-medium text-zinc-300 mt-1 leading-snug",
@@ -46605,7 +46643,7 @@ function c$({ isActive: e = !0, className: t }) {
 					children: /* @__PURE__ */ (0, B.jsxs)("p", {
 						className: "text-[16px] text-zinc-200 leading-snug m-0",
 						children: [
-							"Um bom resultado técnico é necessário — mas não suficiente para definir um bom desfecho. Avaliação objetiva e medidas relatadas pelo paciente (PROs) são ",
+							"Um bom resultado técnico é necessário, mas não suficiente para definir um bom desfecho. Avaliação objetiva e medidas relatadas pelo paciente (PROs) são ",
 							/* @__PURE__ */ (0, B.jsx)("strong", {
 								className: "text-white font-semibold",
 								children: "complementares"
@@ -46621,7 +46659,7 @@ function c$({ isActive: e = !0, className: t }) {
 						children: "Axioma de conduta:"
 					}), /* @__PURE__ */ (0, B.jsx)("span", {
 						className: "text-[16px] font-bold text-[#f8d7dc] bg-[#8a2f3f]/25 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/35",
-						children: "Cuidado Centrado na Experiência"
+						children: "Cuidado centrado na experiência"
 					})]
 				})
 			]
@@ -46683,7 +46721,7 @@ function u$({ isActive: e = !0, className: t }) {
 					className: "flex items-center gap-2",
 					children: /* @__PURE__ */ (0, B.jsx)("span", {
 						className: "text-[15px] font-bold uppercase tracking-[0.12em] text-[#8a2f3f]",
-						children: "Modelo Bioecológico · Circuito Transacional"
+						children: "Modelo bioecológico · circuito transacional"
 					})
 				}), /* @__PURE__ */ (0, B.jsxs)("div", {
 					className: "flex items-center gap-1.5 text-[16px] font-semibold text-[#8a2f3f] bg-[#8a2f3f]/10 px-3 py-1 rounded-full border border-[#8a2f3f]/20 whitespace-nowrap shrink-0",
@@ -47008,7 +47046,7 @@ function d$({ isActive: e = !0, className: t }) {
 							className: "flex items-center gap-1.5",
 							children: /* @__PURE__ */ (0, B.jsxs)("span", {
 								className: "inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full text-[14px] font-bold uppercase tracking-wider bg-[#8a2f3f]/10 text-[#8a2f3f] border border-[#8a2f3f]/20",
-								children: [/* @__PURE__ */ (0, B.jsx)(Zp, { className: "w-4 h-4 text-[#8a2f3f]" }), "Evidência Empírica Multicêntrica"]
+								children: [/* @__PURE__ */ (0, B.jsx)(Zp, { className: "w-4 h-4 text-[#8a2f3f]" }), "Evidência empírica multicêntrica"]
 							})
 						})]
 					}),
@@ -47069,7 +47107,7 @@ function d$({ isActive: e = !0, className: t }) {
 							className: "flex items-center justify-between mb-2",
 							children: [/* @__PURE__ */ (0, B.jsx)("span", {
 								className: "text-[14px] font-bold uppercase tracking-[0.18em] text-[#e88d9d]",
-								children: "Coorte de Nascimento · 1.163 Pais"
+								children: "Coorte de nascimento · 1.163 pais"
 							}), /* @__PURE__ */ (0, B.jsx)("span", {
 								className: "text-[14px] font-semibold text-zinc-300 bg-white/10 px-2.5 py-0.5 rounded-full border border-white/15",
 								children: "Stock et al. (2025)"
@@ -47077,7 +47115,7 @@ function d$({ isActive: e = !0, className: t }) {
 						}),
 						/* @__PURE__ */ (0, B.jsx)("h4", {
 							className: "text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
-							children: "Adaptação Parental: Fatores de Ajuste & Risco"
+							children: "Adaptação parental: fatores de ajuste e risco"
 						}),
 						/* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[16px] font-normal text-zinc-400 mt-1 leading-snug",
@@ -47200,7 +47238,7 @@ function f$({ isActive: e = !0, className: t }) {
 						}),
 						/* @__PURE__ */ (0, B.jsx)("h4", {
 							className: "text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
-							children: "Na Adolescência, Tratar É Compartilhar Decisões"
+							children: "Na adolescência, tratar é compartilhar decisões"
 						}),
 						/* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[16px] font-medium text-zinc-300 mt-1 leading-snug",
@@ -47263,7 +47301,7 @@ function f$({ isActive: e = !0, className: t }) {
 						children: "Princípio decisório:"
 					}), /* @__PURE__ */ (0, B.jsx)("span", {
 						className: "text-[16px] font-bold text-[#f8d7dc] bg-[#8a2f3f]/25 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/35",
-						children: "Autonomia Crescente ≠ Decidir Sozinho"
+						children: "Autonomia crescente ≠ decidir sozinho"
 					})]
 				})
 			]
@@ -47301,7 +47339,7 @@ function f$({ isActive: e = !0, className: t }) {
 					}),
 					/* @__PURE__ */ (0, B.jsx)("h4", {
 						className: "text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
-						children: "A Psicologia no Processo Decisório"
+						children: "A psicologia no processo decisório"
 					}),
 					/* @__PURE__ */ (0, B.jsx)("p", {
 						className: "text-[16px] text-[#5f6062] mt-0.5",
@@ -47326,7 +47364,7 @@ function f$({ isActive: e = !0, className: t }) {
 					className: "p-2.5 rounded-2xl bg-[#fdf5f6] border border-[#8a2f3f]/20 my-1",
 					children: /* @__PURE__ */ (0, B.jsx)("p", {
 						className: "text-[16px] text-[#8a2f3f] font-semibold m-0 leading-snug",
-						children: "Sem atribuir à Psicologia a função de autorizar ou vetar cirurgia — a escuta apoia a deliberação conjunta."
+						children: "Sem atribuir à Psicologia a função de autorizar ou vetar cirurgia: a escuta apoia a deliberação conjunta."
 					})
 				}),
 				/* @__PURE__ */ (0, B.jsxs)("p", {
@@ -47353,7 +47391,7 @@ var p$ = [
 		color: "#4b6b4f",
 		bgLight: "rgba(75, 107, 79, 0.08)",
 		question: "“Está construindo as bases para aprender, comunicar-se e regular-se?”",
-		focus: "Linguagem, Comportamento e Família",
+		focus: "Linguagem, comportamento e família",
 		milestone: "Diagnóstico, 18m, 3 e 5 anos"
 	},
 	{
@@ -47366,7 +47404,7 @@ var p$ = [
 		color: "#2563eb",
 		bgLight: "rgba(37, 99, 235, 0.08)",
 		question: "“Está conseguindo aprender, participar e pertencer?”",
-		focus: "Cognição, Socialização e Bullying",
+		focus: "Cognição, socialização e bullying",
 		milestone: "8 e 10 anos"
 	},
 	{
@@ -47379,7 +47417,7 @@ var p$ = [
 		color: "#4f46e5",
 		bgLight: "rgba(79, 70, 229, 0.08)",
 		question: "“Como integra a condição à forma como se percebe?”",
-		focus: "Autoestima, Imagem Corporal e Amizades",
+		focus: "Autoestima, imagem corporal e amizades",
 		milestone: "12 e 15 anos"
 	},
 	{
@@ -47392,7 +47430,7 @@ var p$ = [
 		color: "#0284c7",
 		bgLight: "rgba(2, 132, 199, 0.08)",
 		question: "“Está construindo autonomia e identidade além da condição?”",
-		focus: "Autonomia, Decisões e Futuro",
+		focus: "Autonomia, decisões e futuro",
 		milestone: "18, 20 e 25 anos"
 	}
 ], m$ = {
@@ -47592,7 +47630,7 @@ function v$({ isActive: e = !0 }) {
 							className: "flex items-center gap-2",
 							children: /* @__PURE__ */ (0, B.jsx)("span", {
 								className: "text-[14px] font-bold uppercase tracking-[0.14em] text-[#5f6062]",
-								children: "Domínios e Linhas de Cuidado"
+								children: "Domínios e linhas de cuidado"
 							})
 						}), p$.map((e, t) => {
 							let n = l === t;
@@ -47699,7 +47737,7 @@ function v$({ isActive: e = !0 }) {
 								className: "flex items-center gap-2",
 								children: [/* @__PURE__ */ (0, B.jsx)("span", { className: "w-2 h-2 rounded-full bg-[#4b6b4f] animate-pulse" }), /* @__PURE__ */ (0, B.jsx)("span", {
 									className: "text-[15px] font-bold uppercase tracking-[0.12em] text-[#5f6062]",
-									children: "Hub de Fases · Eixo 6"
+									children: "Hub de fases · Eixo 6"
 								})]
 							}), /* @__PURE__ */ (0, B.jsx)("button", {
 								type: "button",
@@ -47840,7 +47878,7 @@ function v$({ isActive: e = !0 }) {
 						}),
 						/* @__PURE__ */ (0, B.jsx)("p", {
 							className: "m-0 mt-1.5 text-[14px] leading-[1.35] text-[#5f6062]",
-							children: "Escala qualitativa — sem valores numéricos."
+							children: "Escala qualitativa, sem valores numéricos."
 						})
 					]
 				}),
@@ -48242,7 +48280,7 @@ function y$({ isActive: e = !0 }) {
 							children: [/* @__PURE__ */ (0, B.jsx)("strong", {
 								className: "text-slate-700",
 								children: "PAT-CV"
-							}), " · 242 cuidadores e 217 crianças, 1 mês–17 anos. Amostra de validação — α = 0,86 · teste-reteste r = 0,77."]
+							}), " · 242 cuidadores e 217 crianças, 1 mês–17 anos. Amostra de validação: α = 0,86 · teste-reteste r = 0,77."]
 						})
 					]
 				})
@@ -48312,7 +48350,7 @@ function y$({ isActive: e = !0 }) {
 								className: "flex items-center gap-1.5 text-slate-300",
 								children: [/* @__PURE__ */ (0, B.jsx)("span", { children: "Conduta:" }), /* @__PURE__ */ (0, B.jsx)("span", {
 									className: "text-[#bbf7d0] font-semibold",
-									children: "Acesso Direto Sem Barreira"
+									children: "Acesso direto sem barreira"
 								})]
 							}), /* @__PURE__ */ (0, B.jsxs)("div", {
 								className: "inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-[#4b6b4f]/25 text-[#dcfce7] border border-[#4b6b4f]/35 font-semibold",
@@ -48402,7 +48440,7 @@ function x$({ isActive: e = !0, className: t }) {
 							className: "flex items-center justify-between mb-1.5",
 							children: [/* @__PURE__ */ (0, B.jsx)("span", {
 								className: "text-[14px] font-bold uppercase tracking-[0.1em] text-zinc-400 font-['Urbanist',sans-serif]",
-								children: "Evidência Empírica de Informantes"
+								children: "Evidência empírica de informantes"
 							}), /* @__PURE__ */ (0, B.jsx)("span", {
 								className: "text-[14px] font-semibold text-[#d5e4d7] bg-[#4b6b4f]/30 px-2.5 py-0.5 rounded-full border border-[#4b6b4f]/40",
 								children: "Eixo 6 · Protocolo"
@@ -48410,11 +48448,11 @@ function x$({ isActive: e = !0, className: t }) {
 						}),
 						/* @__PURE__ */ (0, B.jsx)("h4", {
 							className: "text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
-							children: "Pais e Filhos Realmente Discordam"
+							children: "Pais e filhos realmente discordam"
 						}),
 						/* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[16px] font-medium text-zinc-300 mt-1 leading-snug",
-							children: "A discrepância entre respondentes é frequente e contém informação clínica valiosa:"
+							children: "A discrepância entre respondentes é frequente e é clinicamente informativa:"
 						})
 					]
 				}),
@@ -48427,7 +48465,7 @@ function x$({ isActive: e = !0, className: t }) {
 							children: "PROMIS · 221 Crianças"
 						}), /* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[16px] text-zinc-300 leading-snug m-0",
-							children: "Divergência por idade e domínio — sem correlação em ansiedade entre 8–10 anos."
+							children: "Divergência por idade e domínio, sem correlação em ansiedade entre 8–10 anos."
 						})]
 					}), /* @__PURE__ */ (0, B.jsxs)("div", {
 						className: "p-2.5 rounded-2xl bg-zinc-900/90 border border-zinc-800",
@@ -48451,7 +48489,7 @@ function x$({ isActive: e = !0, className: t }) {
 						children: "Diretriz:"
 					}), /* @__PURE__ */ (0, B.jsx)("span", {
 						className: "text-[16px] font-bold text-emerald-300 bg-emerald-500/15 px-2.5 py-0.5 rounded-full border border-emerald-500/30",
-						children: "Integrar, Não Anular"
+						children: "Integrar, não anular"
 					})]
 				})
 			]
@@ -48481,7 +48519,7 @@ function x$({ isActive: e = !0, className: t }) {
 						className: "flex items-center justify-between mb-1.5",
 						children: [/* @__PURE__ */ (0, B.jsx)("span", {
 							className: "text-[14px] font-bold uppercase tracking-[0.14em] text-[#4b6b4f] bg-[#4b6b4f]/[0.10] px-2.5 py-0.5 rounded-full border border-[#4b6b4f]/25 font-['Urbanist',sans-serif]",
-							children: "Bateria e Aplicação Clínica"
+							children: "Bateria e aplicação clínica"
 						}), /* @__PURE__ */ (0, B.jsx)("span", {
 							className: "text-[14px] font-semibold text-[#5f6062]",
 							children: "Seleção Escalonada"
@@ -48573,7 +48611,7 @@ function x$({ isActive: e = !0, className: t }) {
 					className: "text-[15px] text-[#5f6062] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between gap-3",
 					children: [/* @__PURE__ */ (0, B.jsx)("span", { children: "Até 8 anos: observação e cuidadores" }), /* @__PURE__ */ (0, B.jsx)("span", {
 						className: "font-semibold text-[#4b6b4f]",
-						children: "Entrevista + PRO = Nova Informação"
+						children: "Entrevista + PRO = nova informação"
 					})]
 				})
 			]
@@ -48710,7 +48748,7 @@ function E$({ isActive: e = !0, className: t }) {
 	}, u = (() => {
 		if (c === "center") return {
 			tag: "CONVERGÊNCIA MULTI-INFORMANTE",
-			highlight: "As quatro perspectivas convergem — mas não necessariamente coincidem.",
+			highlight: "As quatro perspectivas convergem, mas não necessariamente coincidem.",
 			detail: "A discordância entre informantes não é erro de mensuração: reflete a expressão genuína da criança em ecossistemas de vida distintos."
 		};
 		let e = C$[c];
@@ -48763,7 +48801,7 @@ function E$({ isActive: e = !0, className: t }) {
 				className: "bg-[#f4f7f4] rounded-xl px-3.5 py-2 mt-1 border border-[#4b6b4f]/10",
 				children: [/* @__PURE__ */ (0, B.jsx)("p", {
 					className: "m-0 text-[14px] font-bold uppercase tracking-wider text-[#4b6b4f]",
-					children: "Princípio Clínico Multi-Informante"
+					children: "Princípio clínico multi-informante"
 				}), /* @__PURE__ */ (0, B.jsx)("p", {
 					className: "m-0 mt-0.5 text-[17px] font-medium text-[#0f1012] leading-snug",
 					children: "Nenhuma lente detém a totalidade do quadro. A convergência entre informantes mapeia a trajetória real da criança sem anular as divergências."
@@ -49248,7 +49286,7 @@ function O$({ isActive: e = !0, className: t }) {
 							children: "Dx → 18m → 3a → 5a → 8a; depois 8a → 10a → 12a → 15a → 18a."
 						})] }), /* @__PURE__ */ (0, B.jsx)("span", {
 							className: "text-[16px] text-zinc-400 italic mt-1 block",
-							children: "Exemplo — calendário flexível."
+							children: "Exemplo: calendário flexível."
 						})]
 					}), /* @__PURE__ */ (0, B.jsxs)("div", {
 						className: "p-2.5 rounded-xl bg-[#f8f9fa] border border-black/[0.04] flex flex-col justify-between",
@@ -49309,7 +49347,7 @@ function O$({ isActive: e = !0, className: t }) {
 						}),
 						/* @__PURE__ */ (0, B.jsx)("h4", {
 							className: "text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
-							children: "Gatilhos de Proteção e Urgência"
+							children: "Gatilhos de proteção e urgência"
 						}),
 						/* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[16px] font-medium text-zinc-300 mt-1 leading-snug",
@@ -49359,71 +49397,85 @@ function O$({ isActive: e = !0, className: t }) {
 }
 //#endregion
 //#region components/ui/expanding-cards.tsx
-var k$ = b.forwardRef(({ className: e, items: t, defaultActiveIndex: n = 0, triggerOn: r = "click", ...i }, a) => {
-	let [o, s] = b.useState(n), [c, l] = b.useState(!1);
+function k$({ src: e, isActive: t, mediaClassName: n }) {
+	let r = b.useRef(null);
+	return b.useEffect(() => {
+		t && r.current && (r.current.currentTime = 0, r.current.play().catch(() => {}));
+	}, [t]), /* @__PURE__ */ (0, B.jsx)("video", {
+		ref: r,
+		src: e,
+		autoPlay: !0,
+		loop: !0,
+		muted: !0,
+		playsInline: !0,
+		className: q("absolute inset-0 h-full w-full object-cover transition-all duration-500 ease-out group-data-[active=true]:scale-100 group-data-[active=true]:grayscale-0 scale-105 grayscale pointer-events-none", n)
+	});
+}
+var A$ = b.forwardRef(({ className: e, items: t, activeIndex: n = 0, onCardClick: r, triggerOn: i = "click", ...a }, o) => {
+	let [s, c] = b.useState(!1);
 	b.useEffect(() => {
 		let e = () => {
-			l(window.innerWidth >= 768);
+			c(window.innerWidth >= 768);
 		};
 		return e(), window.addEventListener("resize", e), () => window.removeEventListener("resize", e);
 	}, []);
-	let u = b.useMemo(() => o === null ? {} : c ? { gridTemplateColumns: t.map((e, t) => t === o ? "5fr" : "1fr").join(" ") } : { gridTemplateRows: t.map((e, t) => t === o ? "5fr" : "1fr").join(" ") }, [
-		o,
+	let l = b.useMemo(() => n === null ? {} : s ? { gridTemplateColumns: t.map((e, t) => t === n ? "5.5fr" : "1fr").join(" ") } : { gridTemplateRows: t.map((e, t) => t === n ? "5.5fr" : "1fr").join(" ") }, [
+		n,
 		t.length,
-		c
-	]), d = (e) => {
-		s(e);
+		s
+	]), u = (e, t) => {
+		t && t.stopPropagation(), r && r(e);
 	};
 	return /* @__PURE__ */ (0, B.jsx)("ul", {
-		className: q("w-full max-w-6xl gap-2", "grid", "h-[600px] md:h-[500px]", "transition-[grid-template-columns,grid-template-rows] duration-500 ease-out", e),
+		className: q("w-full max-w-[1720px] gap-3.5", "grid", "h-[700px] md:h-[700px]", "transition-[grid-template-columns,grid-template-rows] duration-500 ease-out", e),
 		style: {
-			...u,
-			...c ? { gridTemplateRows: "1fr" } : { gridTemplateColumns: "1fr" }
+			...l,
+			...s ? { gridTemplateRows: "1fr" } : { gridTemplateColumns: "1fr" }
 		},
-		ref: a,
-		...i,
+		ref: o,
+		...a,
 		children: t.map((e, t) => /* @__PURE__ */ (0, B.jsxs)("li", {
-			className: q("group relative cursor-pointer overflow-hidden rounded-xl border border-white/15 bg-black/60 text-card-foreground shadow-2xl transition-all duration-300 hover:border-white/30", "md:min-w-[80px]", "min-h-0 min-w-0"),
+			className: q("group relative cursor-pointer overflow-hidden rounded-2xl border border-white/15 bg-black/60 text-card-foreground shadow-2xl transition-all duration-300 hover:border-white/30", "md:min-w-[100px]", "min-h-0 min-w-0"),
 			onMouseEnter: () => {
-				r === "hover" && d(t);
+				i === "hover" && u(t);
 			},
-			onClick: () => d(t),
+			onClick: (e) => u(t, e),
 			tabIndex: 0,
-			"data-active": o === t,
+			"data-active": n === t,
 			children: [
-				e.imgSrc?.endsWith(".mp4") || e.imgSrc?.endsWith(".webm") ? /* @__PURE__ */ (0, B.jsx)("video", {
+				e.imgSrc?.endsWith(".mp4") || e.imgSrc?.endsWith(".webm") ? /* @__PURE__ */ (0, B.jsx)(k$, {
 					src: e.imgSrc,
-					autoPlay: !0,
-					loop: !0,
-					muted: !0,
-					playsInline: !0,
-					onTimeUpdate: (e) => {
-						e.currentTarget.currentTime >= 6 && (e.currentTarget.currentTime = 0);
-					},
-					className: q("absolute inset-0 h-full w-full object-cover transition-all duration-500 ease-out group-data-[active=true]:scale-100 group-data-[active=true]:grayscale-0 scale-105 grayscale pointer-events-none", e.mediaClassName)
+					isActive: n === t,
+					mediaClassName: e.mediaClassName
 				}) : /* @__PURE__ */ (0, B.jsx)("img", {
 					src: e.imgSrc,
 					alt: e.title,
 					className: q("absolute inset-0 h-full w-full object-cover transition-all duration-500 ease-out group-data-[active=true]:scale-100 group-data-[active=true]:grayscale-0 scale-105 grayscale", e.mediaClassName)
 				}),
-				/* @__PURE__ */ (0, B.jsx)("div", { className: "absolute inset-0 bg-gradient-to-t from-black/95 via-black/50 to-transparent" }),
+				/* @__PURE__ */ (0, B.jsx)("div", { className: "absolute inset-0 bg-gradient-to-t from-black/95 via-black/40 to-transparent pointer-events-none" }),
 				/* @__PURE__ */ (0, B.jsxs)("article", {
-					className: "absolute inset-0 flex flex-col justify-end gap-2 p-4",
+					className: "absolute inset-0 flex flex-col justify-end gap-3 p-7 pointer-events-none",
 					children: [
-						/* @__PURE__ */ (0, B.jsx)("h3", {
-							className: "hidden origin-left rotate-90 text-sm font-light uppercase tracking-wider text-white/80 opacity-100 transition-all duration-300 ease-out md:block group-data-[active=true]:opacity-0",
-							children: e.title
-						}),
 						/* @__PURE__ */ (0, B.jsx)("div", {
-							className: "text-white/90 opacity-0 transition-all duration-300 delay-75 ease-out group-data-[active=true]:opacity-100",
+							className: "absolute top-6 left-1/2 -translate-x-1/2 text-white/50 group-hover:text-white/80 transition-colors duration-300 md:block group-data-[active=true]:opacity-0",
 							children: e.icon
 						}),
 						/* @__PURE__ */ (0, B.jsx)("h3", {
-							className: "text-xl font-bold text-white opacity-0 transition-all duration-300 delay-150 ease-out group-data-[active=true]:opacity-100",
+							className: "hidden origin-left rotate-90 text-base font-semibold uppercase tracking-widest text-white/70 opacity-100 transition-all duration-300 ease-out md:block group-data-[active=true]:opacity-0 select-none whitespace-nowrap",
+							children: e.title
+						}),
+						/* @__PURE__ */ (0, B.jsx)("div", {
+							className: "text-white opacity-0 transition-all duration-300 delay-75 ease-out group-data-[active=true]:opacity-100 inline-flex items-center justify-center w-12 h-12 rounded-xl bg-white/10 backdrop-blur-md border border-white/20",
+							children: e.icon
+						}),
+						/* @__PURE__ */ (0, B.jsx)("h3", {
+							className: "text-2xl md:text-3xl font-bold text-white opacity-0 transition-all duration-300 delay-150 ease-out group-data-[active=true]:opacity-100 tracking-tight",
+							style: { fontFamily: "Urbanist, sans-serif" },
 							children: e.title
 						}),
 						/* @__PURE__ */ (0, B.jsx)("p", {
-							className: "w-full max-w-xs text-sm text-white/80 opacity-0 transition-all duration-300 delay-225 ease-out group-data-[active=true]:opacity-100",
+							className: "w-full max-w-2xl text-base md:text-lg text-slate-200 opacity-0 transition-all duration-300 delay-225 ease-out group-data-[active=true]:opacity-100 leading-relaxed font-normal",
+							style: { fontFamily: "Satoshi, sans-serif" },
 							children: e.description
 						})
 					]
@@ -49432,25 +49484,25 @@ var k$ = b.forwardRef(({ className: e, items: t, defaultActiveIndex: n = 0, trig
 		}, e.id))
 	});
 });
-k$.displayName = "ExpandingCards";
+A$.displayName = "ExpandingCards";
 //#endregion
 //#region components/slide40b-brain.tsx
-var A$ = [
+var j$ = [
 	{
 		id: "cerebro-base",
-		title: "A Base Material",
+		title: "A base material",
 		description: "O cérebro humano contém cerca de 86 bilhões de neurônios. Não existe mente sem esta base biológica.",
 		imgSrc: "assets/1.mp4",
-		icon: /* @__PURE__ */ (0, B.jsx)(tm, { size: 24 }),
+		icon: /* @__PURE__ */ (0, B.jsx)(tm, { size: 26 }),
 		linkHref: "#"
 	},
 	{
 		id: "redes-neurais",
-		title: "Redes Conectadas",
+		title: "Redes conectadas",
 		description: "Cada neurônio pode fazer até 10.000 conexões sinápticas. É a rede que cria a complexidade da mente.",
 		imgSrc: "assets/2.mp4",
 		mediaClassName: "object-cover object-center w-full h-full scale-100 group-data-[active=true]:scale-100",
-		icon: /* @__PURE__ */ (0, B.jsx)(sh, { size: 24 }),
+		icon: /* @__PURE__ */ (0, B.jsx)(sh, { size: 26 }),
 		linkHref: "#"
 	},
 	{
@@ -49458,15 +49510,15 @@ var A$ = [
 		title: "Neuroplasticidade",
 		description: "O cérebro muda constantemente sua estrutura e função em resposta à experiência e ao aprendizado.",
 		imgSrc: "assets/3.mp4",
-		icon: /* @__PURE__ */ (0, B.jsx)(lg, { size: 24 }),
+		icon: /* @__PURE__ */ (0, B.jsx)(lg, { size: 26 }),
 		linkHref: "#"
 	},
 	{
 		id: "cognicao",
-		title: "Cognição e Pensamento",
+		title: "Cognição e pensamento",
 		description: "A partir do disparo coordenado de redes, emergem funções complexas como memória, atenção e tomada de decisão.",
 		imgSrc: "assets/4.mp4",
-		icon: /* @__PURE__ */ (0, B.jsx)(qm, { size: 24 }),
+		icon: /* @__PURE__ */ (0, B.jsx)(qm, { size: 26 }),
 		linkHref: "#"
 	},
 	{
@@ -49474,32 +49526,42 @@ var A$ = [
 		title: "Consciência",
 		description: "O maior mistério da neurociência: como a atividade elétrica e química se traduz na experiência subjetiva.",
 		imgSrc: "assets/5.png",
-		icon: /* @__PURE__ */ (0, B.jsx)(Fp, { size: 24 }),
+		icon: /* @__PURE__ */ (0, B.jsx)(Fp, { size: 26 }),
 		linkHref: "#"
 	}
 ];
-function j$() {
+function M$() {
+	let [e, t] = (0, b.useState)(0), n = (0, b.useCallback)(() => {
+		t((e) => (e + 1) % j$.length);
+	}, []), r = (0, b.useCallback)((e) => {
+		e.preventDefault(), t((e) => (e - 1 + j$.length) % j$.length);
+	}, []);
 	return /* @__PURE__ */ (0, B.jsxs)("div", {
-		className: "flex w-full flex-col items-center justify-center space-y-6 bg-transparent relative",
+		className: "flex w-full h-full flex-col items-center justify-center space-y-5 bg-transparent relative cursor-default",
+		onClick: (e) => {
+			e.button === 0 && n();
+		},
+		onContextMenu: r,
 		children: [
-			/* @__PURE__ */ (0, B.jsx)("div", { className: "absolute -top-10 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-blue-600/10 blur-[120px] pointer-events-none rounded-full" }),
+			/* @__PURE__ */ (0, B.jsx)("div", { className: "absolute -top-10 left-1/2 -translate-x-1/2 w-[800px] h-[350px] bg-blue-600/15 blur-[140px] pointer-events-none rounded-full" }),
 			/* @__PURE__ */ (0, B.jsxs)("div", {
-				className: "text-center w-full max-w-4xl mx-auto mb-2 relative z-10",
+				className: "text-center w-full max-w-5xl mx-auto relative z-10 pointer-events-none",
 				children: [/* @__PURE__ */ (0, B.jsx)("h1", {
-					className: "text-4xl md:text-5xl font-bold tracking-tight text-white",
+					className: "text-5xl md:text-6xl font-bold tracking-tight text-white",
 					style: { fontFamily: "Urbanist, sans-serif" },
 					children: "Não existe mente sem cérebro"
 				}), /* @__PURE__ */ (0, B.jsx)("p", {
-					className: "mt-3 text-xl md:text-2xl font-light text-slate-300 tracking-wide",
+					className: "mt-2 text-2xl md:text-3xl font-light text-slate-300 tracking-wide",
 					style: { fontFamily: "Satoshi, sans-serif" },
 					children: "Então como o cérebro funciona?"
 				})]
 			}),
 			/* @__PURE__ */ (0, B.jsx)("div", {
-				className: "w-full flex justify-center relative z-10",
-				children: /* @__PURE__ */ (0, B.jsx)(k$, {
-					items: A$,
-					defaultActiveIndex: 0
+				className: "w-full flex justify-center relative z-10 px-2 cursor-pointer",
+				children: /* @__PURE__ */ (0, B.jsx)(A$, {
+					items: j$,
+					activeIndex: e,
+					onCardClick: (e) => t(e)
 				})
 			})
 		]
@@ -49507,7 +49569,7 @@ function j$() {
 }
 //#endregion
 //#region components/slide36-cards.tsx
-function M$({ isActive: e = !0, className: t }) {
+function N$({ isActive: e = !0, className: t }) {
 	return /* @__PURE__ */ (0, B.jsxs)("div", {
 		className: q("w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[800px] mx-auto my-auto", t),
 		children: [/* @__PURE__ */ (0, B.jsxs)(H.div, {
@@ -49542,7 +49604,7 @@ function M$({ isActive: e = !0, className: t }) {
 							className: "flex items-center gap-1.5",
 							children: /* @__PURE__ */ (0, B.jsxs)("span", {
 								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-[#33415c]/10 text-[#33415c] border border-[#33415c]/20",
-								children: [/* @__PURE__ */ (0, B.jsx)(Fh, { className: "w-4 h-4 text-[#33415c]" }), "Vigilância Contínua ≠ Rastreio Pontual"]
+								children: [/* @__PURE__ */ (0, B.jsx)(Fh, { className: "w-4 h-4 text-[#33415c]" }), "Vigilância contínua ≠ rastreio pontual"]
 							})
 						})]
 					}),
@@ -49550,10 +49612,10 @@ function M$({ isActive: e = !0, className: t }) {
 						className: "space-y-2",
 						children: [/* @__PURE__ */ (0, B.jsxs)("div", { children: [/* @__PURE__ */ (0, B.jsx)("h3", {
 							className: "text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
-							children: "Transversal (\"Como Está?\") × Longitudinal (\"Como Muda?\")"
+							children: "Transversal (“como está?”) × longitudinal (“como muda?”)"
 						}), /* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[16px] font-semibold text-[#33415c] mt-0.5",
-							children: "Uma medida pontual informa apenas posição estática — não a direção evolutiva"
+							children: "Uma medida pontual informa apenas posição estática, não a direção evolutiva"
 						})] }), /* @__PURE__ */ (0, B.jsxs)("div", {
 							className: "pt-0.5",
 							children: [
@@ -49636,7 +49698,7 @@ function M$({ isActive: e = !0, className: t }) {
 							className: "flex items-center gap-1.5",
 							children: /* @__PURE__ */ (0, B.jsxs)("span", {
 								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-slate-500/15 text-slate-300 border border-slate-500/30",
-								children: [/* @__PURE__ */ (0, B.jsx)(pm, { className: "w-4 h-4 text-slate-300" }), "Exemplo Clínico Ilustrativo"]
+								children: [/* @__PURE__ */ (0, B.jsx)(pm, { className: "w-4 h-4 text-slate-300" }), "Exemplo clínico ilustrativo"]
 							})
 						})]
 					}),
@@ -49645,7 +49707,7 @@ function M$({ isActive: e = !0, className: t }) {
 						children: [
 							/* @__PURE__ */ (0, B.jsxs)("div", { children: [/* @__PURE__ */ (0, B.jsx)("h3", {
 								className: "text-[24px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]",
-								children: "Mesma Fotografia Clínica — Histórias Opostas"
+								children: "Mesma fotografia clínica, histórias opostas"
 							}), /* @__PURE__ */ (0, B.jsx)("p", {
 								className: "text-[16px] font-semibold text-slate-300 mt-0.5",
 								children: "Duas crianças com idêntico escore de satisfação com aparência hoje"
@@ -49687,11 +49749,11 @@ function M$({ isActive: e = !0, className: t }) {
 							className: "flex items-center gap-1.5 text-[15px] font-semibold text-zinc-400",
 							children: [/* @__PURE__ */ (0, B.jsx)("span", { children: "Alerta:" }), /* @__PURE__ */ (0, B.jsx)("span", {
 								className: "text-white font-bold",
-								children: "O Filme Supera a Foto"
+								children: "O filme supera a foto"
 							})]
 						}), /* @__PURE__ */ (0, B.jsx)("div", {
 							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-slate-500/20 text-slate-200 border border-slate-500/30 text-[16px] font-bold shadow-xs",
-							children: /* @__PURE__ */ (0, B.jsx)("span", { children: "Para Onde a Curva Aponta?" })
+							children: /* @__PURE__ */ (0, B.jsx)("span", { children: "Para onde a curva aponta?" })
 						})]
 					})
 				]
@@ -49701,7 +49763,7 @@ function M$({ isActive: e = !0, className: t }) {
 }
 //#endregion
 //#region components/slide37-cards.tsx
-function N$({ isActive: e = !0, className: t }) {
+function P$({ isActive: e = !0, className: t }) {
 	return /* @__PURE__ */ (0, B.jsxs)("div", {
 		className: q("w-full h-full flex flex-col justify-center gap-3 select-none font-['Satoshi',sans-serif] max-w-[800px] mx-auto my-auto", t),
 		children: [/* @__PURE__ */ (0, B.jsxs)(H.div, {
@@ -49744,7 +49806,7 @@ function N$({ isActive: e = !0, className: t }) {
 						className: "space-y-2",
 						children: [/* @__PURE__ */ (0, B.jsxs)("div", { children: [/* @__PURE__ */ (0, B.jsx)("h3", {
 							className: "text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]",
-							children: "Sintomas e Prejuízo Funcional Não São a Mesma Coisa"
+							children: "Sintomas e prejuízo funcional não são a mesma coisa"
 						}), /* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[16px] font-semibold text-[#33415c] mt-0.5",
 							children: "O prejuízo funcional é o componente nuclear da relevância diagnóstica"
@@ -49784,7 +49846,7 @@ function N$({ isActive: e = !0, className: t }) {
 								}),
 								/* @__PURE__ */ (0, B.jsx)("p", {
 									className: "text-[16px] text-[#334155] leading-snug font-normal mt-1.5",
-									children: "A variabilidade entre situações pode ser informação clinicamente significativa — não erro entre avaliadores — e ajuda a localizar o mecanismo concreto do problema."
+									children: "A variabilidade entre situações pode ser informação clinicamente significativa, não erro entre avaliadores, e ajuda a localizar o mecanismo concreto do problema."
 								})
 							]
 						})]
@@ -49799,7 +49861,7 @@ function N$({ isActive: e = !0, className: t }) {
 							})]
 						}), /* @__PURE__ */ (0, B.jsx)("div", {
 							className: "inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#33415c] text-white text-[16px] font-bold shadow-xs",
-							children: /* @__PURE__ */ (0, B.jsx)("span", { children: "Prejuízo Funcional Real" })
+							children: /* @__PURE__ */ (0, B.jsx)("span", { children: "Prejuízo funcional real" })
 						})]
 					})
 				]
@@ -49836,7 +49898,7 @@ function N$({ isActive: e = !0, className: t }) {
 							className: "flex items-center gap-1.5",
 							children: /* @__PURE__ */ (0, B.jsxs)("span", {
 								className: "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-slate-500/15 text-slate-300 border border-slate-500/30",
-								children: [/* @__PURE__ */ (0, B.jsx)(pm, { className: "w-4 h-4 text-slate-300" }), "Raciocínio Clínico em 5 Etapas"]
+								children: [/* @__PURE__ */ (0, B.jsx)(pm, { className: "w-4 h-4 text-slate-300" }), "Raciocínio clínico em 5 etapas"]
 							})
 						})]
 					}),
@@ -49844,7 +49906,7 @@ function N$({ isActive: e = !0, className: t }) {
 						className: "space-y-2",
 						children: [/* @__PURE__ */ (0, B.jsxs)("div", { children: [/* @__PURE__ */ (0, B.jsx)("h3", {
 							className: "text-[24px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]",
-							children: "O Significado Muda com a Idade: Checklist Diagnóstico"
+							children: "O significado muda com a idade: checklist diagnóstico"
 						}), /* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[16px] font-semibold text-slate-300 mt-0.5",
 							children: "Dependência dos pais aos 3 anos ≠ dependência dos pais aos 16 anos"
@@ -49894,7 +49956,7 @@ function N$({ isActive: e = !0, className: t }) {
 }
 //#endregion
 //#region components/slide37-integration.tsx
-var P$ = [
+var F$ = [
 	{
 		id: "node-1",
 		number: "1",
@@ -49960,7 +50022,7 @@ var P$ = [
 		pathD: "M 328 243 H 318 Q 306 243 306 231 V 182 Q 306 170 294 170 H 288",
 		delay: .7
 	}
-], F$ = ({ d: e, id: t, delay: n = 0, isFocused: r = !1 }) => /* @__PURE__ */ (0, B.jsxs)(B.Fragment, { children: [
+], I$ = ({ d: e, id: t, delay: n = 0, isFocused: r = !1 }) => /* @__PURE__ */ (0, B.jsxs)(B.Fragment, { children: [
 	/* @__PURE__ */ (0, B.jsx)("path", {
 		d: e,
 		stroke: "#33415c",
@@ -50026,12 +50088,12 @@ var P$ = [
 		}), /* @__PURE__ */ (0, B.jsxs)("feMerge", { children: [/* @__PURE__ */ (0, B.jsx)("feMergeNode", { in: "blur" }), /* @__PURE__ */ (0, B.jsx)("feMergeNode", { in: "SourceGraphic" })] })]
 	})] })
 ] });
-function I$({ isActive: e = !0, className: t }) {
+function L$({ isActive: e = !0, className: t }) {
 	let n = (0, b.useId)(), [r, i] = (0, b.useState)(0), [a, o] = (0, b.useState)(!1);
 	return (0, b.useEffect)(() => {
 		if (!e || a) return;
 		let t = setInterval(() => {
-			i((e) => (e + 1) % P$.length);
+			i((e) => (e + 1) % F$.length);
 		}, 4e3);
 		return () => clearInterval(t);
 	}, [e, a]), /* @__PURE__ */ (0, B.jsxs)("div", {
@@ -50042,7 +50104,7 @@ function I$({ isActive: e = !0, className: t }) {
 				viewBox: "0 0 896 450",
 				fill: "none",
 				xmlns: "http://www.w3.org/2000/svg",
-				children: P$.map((e, t) => /* @__PURE__ */ (0, B.jsx)(F$, {
+				children: F$.map((e, t) => /* @__PURE__ */ (0, B.jsx)(I$, {
 					d: e.pathD,
 					id: `${n}-${e.id}`,
 					delay: e.delay,
@@ -50134,7 +50196,7 @@ function I$({ isActive: e = !0, className: t }) {
 					]
 				})
 			}),
-			P$.map((t, n) => {
+			F$.map((t, n) => {
 				let a = t.icon, s = r === n;
 				return /* @__PURE__ */ (0, B.jsxs)(H.div, {
 					initial: {
@@ -50196,7 +50258,7 @@ function I$({ isActive: e = !0, className: t }) {
 }
 //#endregion
 //#region components/slide38-orbit.tsx
-function L$({ isActive: e = !0 }) {
+function R$({ isActive: e = !0 }) {
 	return /* @__PURE__ */ (0, B.jsxs)("div", {
 		className: "relative flex h-[520px] w-full max-w-[620px] mx-auto flex-col items-center justify-center overflow-hidden rounded-3xl bg-transparent select-none group",
 		children: [
@@ -50337,7 +50399,7 @@ function L$({ isActive: e = !0 }) {
 }
 //#endregion
 //#region components/slide38-cards.tsx
-function R$({ isActive: e = !0, className: t }) {
+function z$({ isActive: e = !0, className: t }) {
 	return /* @__PURE__ */ (0, B.jsxs)("div", {
 		className: q("w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[820px] mx-auto my-auto", t),
 		children: [/* @__PURE__ */ (0, B.jsxs)(H.div, {
@@ -50377,7 +50439,7 @@ function R$({ isActive: e = !0, className: t }) {
 						}),
 						/* @__PURE__ */ (0, B.jsx)("h4", {
 							className: "text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight",
-							children: "Discrepância Não É Erro: É Informação"
+							children: "Discrepância não é erro: é informação"
 						}),
 						/* @__PURE__ */ (0, B.jsx)("p", {
 							className: "text-[16px] font-medium text-zinc-300 mt-1 leading-snug",
@@ -50424,7 +50486,7 @@ function R$({ isActive: e = !0, className: t }) {
 						children: "Interpretação clínica:"
 					}), /* @__PURE__ */ (0, B.jsx)("span", {
 						className: "text-[16px] font-bold text-slate-300 bg-slate-500/20 px-2.5 py-0.5 rounded-full border border-slate-400/30",
-						children: "Quem × O Quê × Contexto × Idade"
+						children: "Quem × o quê × contexto × idade"
 					})]
 				})
 			]
@@ -50462,7 +50524,7 @@ function R$({ isActive: e = !0, className: t }) {
 					}),
 					/* @__PURE__ */ (0, B.jsx)("h4", {
 						className: "text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight",
-						children: "Evolução das Fontes de Informação"
+						children: "Evolução das fontes de informação"
 					}),
 					/* @__PURE__ */ (0, B.jsx)("p", {
 						className: "text-[16px] font-medium text-[#5f6062] mt-0.5",
@@ -50666,7 +50728,7 @@ function R$({ isActive: e = !0, className: t }) {
 					className: "text-[15px] text-[#5f6062] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between gap-3",
 					children: [/* @__PURE__ */ (0, B.jsx)("span", { children: "Quem relata × O que relata" }), /* @__PURE__ */ (0, B.jsx)("span", {
 						className: "font-semibold text-[#33415c]",
-						children: "Integração de Perspectivas Complementares"
+						children: "Integração de perspectivas complementares"
 					})]
 				})
 			]
@@ -50675,7 +50737,7 @@ function R$({ isActive: e = !0, className: t }) {
 }
 //#endregion
 //#region components/ui/ruixen-bento-cards.tsx
-var z$ = ({ className: e }) => /* @__PURE__ */ (0, B.jsx)("svg", {
+var B$ = ({ className: e }) => /* @__PURE__ */ (0, B.jsx)("svg", {
 	xmlns: "http://www.w3.org/2000/svg",
 	fill: "none",
 	viewBox: "0 0 24 24",
@@ -50689,17 +50751,17 @@ var z$ = ({ className: e }) => /* @__PURE__ */ (0, B.jsx)("svg", {
 		strokeLinejoin: "round",
 		d: "M12 6v12m6-6H6"
 	})
-}), B$ = ({ className: e }) => /* @__PURE__ */ (0, B.jsxs)(B.Fragment, { children: [
-	/* @__PURE__ */ (0, B.jsx)(z$, { className: q("absolute -top-3 -left-3", e) }),
-	/* @__PURE__ */ (0, B.jsx)(z$, { className: q("absolute -top-3 -right-3", e) }),
-	/* @__PURE__ */ (0, B.jsx)(z$, { className: q("absolute -bottom-3 -left-3", e) }),
-	/* @__PURE__ */ (0, B.jsx)(z$, { className: q("absolute -bottom-3 -right-3", e) })
-] }), V$ = [
+}), V$ = ({ className: e }) => /* @__PURE__ */ (0, B.jsxs)(B.Fragment, { children: [
+	/* @__PURE__ */ (0, B.jsx)(B$, { className: q("absolute -top-3 -left-3", e) }),
+	/* @__PURE__ */ (0, B.jsx)(B$, { className: q("absolute -top-3 -right-3", e) }),
+	/* @__PURE__ */ (0, B.jsx)(B$, { className: q("absolute -bottom-3 -left-3", e) }),
+	/* @__PURE__ */ (0, B.jsx)(B$, { className: q("absolute -bottom-3 -right-3", e) })
+] }), H$ = [
 	{
 		number: 1,
 		eixoBadge: "EIXO 1 · TRAJETÓRIA",
 		title: "1 · Desenvolvimento é trajetória",
-		description: "Processo multidimensional, dinâmico, não necessariamente linear e heterogêneo. Importa onde a criança está — mas também de onde veio, para onde vai e em que velocidade muda.",
+		description: "Processo multidimensional, dinâmico, não necessariamente linear e heterogêneo. Importa onde a criança está, mas também de onde veio, para onde vai e em que velocidade muda.",
 		footerTag: "Direção & Velocidade",
 		icon: Gh
 	},
@@ -50723,7 +50785,7 @@ var z$ = ({ className: e }) => /* @__PURE__ */ (0, B.jsx)("svg", {
 		number: 4,
 		eixoBadge: "EIXO 4 · SOCIAL",
 		title: "4 · Social é participar e pertencer",
-		description: "De cuidadores a pares, amizade, pertencimento e identidade social. A tarefa social muda com a idade — portanto, o que deve ser avaliado também muda.",
+		description: "De cuidadores a pares, amizade, pertencimento e identidade social. A tarefa social muda com a idade e, por isso, o que deve ser avaliado também muda.",
 		footerTag: "Pertencimento & Parceria",
 		icon: tg
 	},
@@ -50740,14 +50802,14 @@ var z$ = ({ className: e }) => /* @__PURE__ */ (0, B.jsx)("svg", {
 		eixoBadge: "EIXO 6 · PROTOCOLO",
 		title: "6 · O protocolo precisa ser desenvolvimental",
 		description: "Domínios permanecem, prioridades mudam. Rastreamento universal + aprofundamento conforme risco + instrumentos específicos + entrevista + múltiplos informantes.",
-		footerTag: "Stepped Care & Informantes",
+		footerTag: "Stepped care e informantes",
 		icon: _m
 	}
 ];
-function H$({ isActive: e = !0, className: t }) {
+function U$({ isActive: e = !0, className: t }) {
 	return /* @__PURE__ */ (0, B.jsx)("div", {
 		className: q("w-full grid grid-cols-3 gap-4 lg:gap-5", t),
-		children: V$.map((t, n) => {
+		children: H$.map((t, n) => {
 			let r = t.icon;
 			return /* @__PURE__ */ (0, B.jsxs)(H.div, {
 				initial: {
@@ -50770,7 +50832,7 @@ function H$({ isActive: e = !0, className: t }) {
 				},
 				className: q("group relative border border-dashed border-zinc-300/90 hover:border-[#0071e3]/60", "rounded-xl p-5 bg-white/95 shadow-[0_2px_10px_rgba(0,0,0,0.02)]", "hover:shadow-[0_8px_24px_rgba(0,113,227,0.08)] hover:bg-[#fbfdff]", "transition-all duration-300 flex flex-col justify-between min-h-[262px] select-none hover:-translate-y-0.5"),
 				children: [
-					/* @__PURE__ */ (0, B.jsx)(B$, { className: "text-zinc-400 group-hover:text-[#0071e3] transition-colors duration-300" }),
+					/* @__PURE__ */ (0, B.jsx)(V$, { className: "text-zinc-400 group-hover:text-[#0071e3] transition-colors duration-300" }),
 					/* @__PURE__ */ (0, B.jsxs)("div", {
 						className: "relative z-10 flex items-center justify-between gap-3 mb-2.5",
 						children: [/* @__PURE__ */ (0, B.jsx)("div", {
@@ -50812,7 +50874,7 @@ function H$({ isActive: e = !0, className: t }) {
 }
 //#endregion
 //#region src/topbar-modules.ts
-var U$ = [
+var W$ = [
 	{
 		id: 1,
 		label: "Dinâmica Sistêmica",
@@ -50820,8 +50882,8 @@ var U$ = [
 		color: "#0071e3",
 		bgTint: "#e8f2fc",
 		module: "Módulo 01",
-		startSlide: 5,
-		endSlide: 15
+		startSlide: 6,
+		endSlide: 16
 	},
 	{
 		id: 2,
@@ -50830,8 +50892,8 @@ var U$ = [
 		color: "#0d6d66",
 		bgTint: "#e6f5f3",
 		module: "Módulo 02",
-		startSlide: 16,
-		endSlide: 20
+		startSlide: 17,
+		endSlide: 21
 	},
 	{
 		id: 3,
@@ -50840,8 +50902,8 @@ var U$ = [
 		color: "#b5563a",
 		bgTint: "#fbeee9",
 		module: "Módulo 03",
-		startSlide: 21,
-		endSlide: 24
+		startSlide: 22,
+		endSlide: 25
 	},
 	{
 		id: 4,
@@ -50850,8 +50912,8 @@ var U$ = [
 		color: "#6b4e83",
 		bgTint: "#f1ecf5",
 		module: "Módulo 04",
-		startSlide: 25,
-		endSlide: 28
+		startSlide: 26,
+		endSlide: 29
 	},
 	{
 		id: 5,
@@ -50860,8 +50922,8 @@ var U$ = [
 		color: "#8a2f3f",
 		bgTint: "#f7ecee",
 		module: "Módulo 05",
-		startSlide: 29,
-		endSlide: 33
+		startSlide: 30,
+		endSlide: 34
 	},
 	{
 		id: 6,
@@ -50870,8 +50932,8 @@ var U$ = [
 		color: "#4b6b4f",
 		bgTint: "#eef3ec",
 		module: "Módulo 06",
-		startSlide: 34,
-		endSlide: 37
+		startSlide: 35,
+		endSlide: 38
 	},
 	{
 		id: 7,
@@ -50880,17 +50942,17 @@ var U$ = [
 		color: "#33415c",
 		bgTint: "#edeff3",
 		module: "Módulo 07",
-		startSlide: 38,
-		endSlide: 41
+		startSlide: 39,
+		endSlide: 42
 	}
 ];
-function W$(e) {
-	return e < 5 || e > 41 ? null : U$.find((t) => e >= t.startSlide && e <= t.endSlide) || null;
-}
 function G$(e) {
+	return e < 6 || e > 42 ? null : W$.find((t) => e >= t.startSlide && e <= t.endSlide) || null;
+}
+function K$(e) {
 	return `
     <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
-      ${U$.map((t) => {
+      ${W$.map((t) => {
 		if (t.id < e.id) return `
         <div style="display:inline-flex;align-items:center;gap:5px;padding:4px 11px;border-radius:9999px;background:#ecfdf5;color:#047857;border:1px solid rgba(5,150,105,0.3);font-size:14px;font-weight:500;white-space:nowrap;transition:all 0.2s ease;">
           <svg style="width:14px;height:14px;color:#059669;flex-shrink:0;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -50926,7 +50988,7 @@ function G$(e) {
     </div>
   `;
 }
-function K$() {
+function q$() {
 	let e = document.querySelector("deck-stage");
 	if (e && e._index !== void 0) return e._index + 1;
 	let t = document.querySelector("section[data-deck-active]");
@@ -50936,39 +50998,49 @@ function K$() {
 	}
 	return 1;
 }
-var q$ = null;
-function J$() {
-	document.querySelectorAll("[data-injected-topbar=\"true\"]").forEach((e) => e.remove());
-}
+var J$ = null;
 function Y$() {
-	J$();
-	let e = W$(K$()), t = document.querySelector("deck-stage")?.shadowRoot?.querySelector(".canvas");
-	if (t) {
-		if (!q$ || !t.contains(q$)) {
-			let e = t.querySelector("#deck-global-module-topbar");
-			e ? q$ = e : (q$ = document.createElement("div"), q$.id = "deck-global-module-topbar", q$.style.cssText = "\n        position: absolute;\n        top: 22px;\n        left: 80px;\n        right: 80px;\n        display: flex;\n        align-items: center;\n        justify-content: space-between;\n        border-bottom: 1px solid rgba(0,0,0,0.06);\n        padding-bottom: 10px;\n        font-family: 'Satoshi', system-ui, sans-serif;\n        box-sizing: border-box;\n        z-index: 99999;\n        user-select: none;\n        background: transparent;\n        pointer-events: auto;\n        transition: opacity 0.2s ease;\n      ", t.appendChild(q$));
-		}
-		if (!e) {
-			q$.style.display = "none", q$.style.opacity = "0";
-			return;
-		}
-		q$.style.display = "flex", q$.style.opacity = "1", q$.innerHTML = G$(e);
-	}
+	document.querySelectorAll("[data-injected-topbar=\"true\"]").forEach((e) => e.remove());
 }
 function X$() {
 	Y$();
+	let e = G$(q$()), t = document.querySelector("deck-stage")?.shadowRoot?.querySelector(".canvas");
+	if (t) {
+		if (!J$ || !t.contains(J$)) {
+			let e = t.querySelector("#deck-global-module-topbar");
+			e ? J$ = e : (J$ = document.createElement("div"), J$.id = "deck-global-module-topbar", J$.style.cssText = "\n        position: absolute;\n        top: 22px;\n        left: 80px;\n        right: 80px;\n        display: flex;\n        align-items: center;\n        justify-content: space-between;\n        border-bottom: 1px solid rgba(0,0,0,0.06);\n        padding-bottom: 10px;\n        font-family: 'Satoshi', system-ui, sans-serif;\n        box-sizing: border-box;\n        z-index: 99999;\n        user-select: none;\n        background: transparent;\n        pointer-events: auto;\n        transition: opacity 0.2s ease;\n      ", t.appendChild(J$));
+		}
+		if (!e) {
+			J$.style.display = "none", J$.style.opacity = "0";
+			return;
+		}
+		J$.style.display = "flex", J$.style.opacity = "1", J$.innerHTML = K$(e);
+	}
+}
+function Z$() {
+	X$();
 	let e = document.querySelector("deck-stage");
 	e && !e._hasGlobalTopBarListener && (e._hasGlobalTopBarListener = !0, e.addEventListener("slidechange", () => {
-		Y$();
+		X$();
 	}));
 }
 //#endregion
 //#region src/main.tsx
+var Q$ = /* @__PURE__ */ new WeakMap(), $$ = /* @__PURE__ */ new WeakMap();
+function e1(e) {
+	let t = e.closest("section");
+	if (!t) return 0;
+	let n = t.hasAttribute("data-deck-active"), r = $$.get(t) ?? !1, i = Q$.get(t) ?? 0;
+	return n && !r && (i += 1, Q$.set(t, i)), $$.set(t, n), i;
+}
 function Q(e, t, n) {
 	if (e) try {
 		e.setAttribute("data-mounted", "true");
 		let n = e._reactRoot;
-		n || (n = vd.createRoot(e), e._reactRoot = n), n.render(t);
+		n || (n = vd.createRoot(e), e._reactRoot = n), n.render(/* @__PURE__ */ (0, B.jsx)("div", {
+			style: { display: "contents" },
+			children: t
+		}, e1(e)));
 	} catch {
 		try {
 			let n = vd.createRoot(e);
@@ -50978,131 +51050,119 @@ function Q(e, t, n) {
 		}
 	}
 }
-function Z$(e) {
+function t1(e) {
 	Q(document.getElementById("slide3-react-root"), /* @__PURE__ */ (0, B.jsx)(Qf, { isActive: e }), "HaloReel");
 }
-function Q$(e) {
+function n1(e) {
 	Q(document.getElementById("slide5-react-root"), /* @__PURE__ */ (0, B.jsx)(lp, {}), "Slide5ConceptCards");
 }
-function $$(e) {
+function r1(e) {
 	Q(document.getElementById("slide6-timeline-root"), /* @__PURE__ */ (0, B.jsx)(dp, { isActive: e }), "Slide6MethodTimeline");
 }
-function e1(e) {
+function i1(e) {
 	Q(document.getElementById("slide7-cards-root"), /* @__PURE__ */ (0, B.jsx)(_p, { isActive: e }), "Slide7FeatureCards");
 }
-function t1(e) {
+function a1(e) {
 	Q(document.getElementById("slide9-orbit-root"), /* @__PURE__ */ (0, B.jsx)(fg, { isActive: e }), "Slide9Stage");
 }
-function n1(e) {
+function o1(e) {
 	Q(document.getElementById("slide10-react-root"), /* @__PURE__ */ (0, B.jsx)(pg, { isActive: e }), "Slide10Plasticity");
 }
-function r1(e) {
+function s1(e) {
 	Q(document.getElementById("slide10b-legend-root"), /* @__PURE__ */ (0, B.jsx)(Lg, {}), "Slide10bLegend"), Q(document.getElementById("slide10b-react-root"), /* @__PURE__ */ (0, B.jsx)(Ig, { isActive: e }), "Slide10bMechanisms");
 }
-function i1(e) {
+function c1(e) {
 	Q(document.getElementById("slide11-react-root"), /* @__PURE__ */ (0, B.jsx)(Rg, { isActive: e }), "Slide11Cascades");
 }
-function a1(e) {
+function l1(e) {
 	Q(document.getElementById("slide12-react-root"), /* @__PURE__ */ (0, B.jsx)(Bg, { isActive: e }), "Slide12Resilience");
 }
-function o1(e) {
+function u1(e) {
 	Q(document.getElementById("slide12b-react-root"), /* @__PURE__ */ (0, B.jsx)(Vg, { isActive: e }), "Slide12bClinical");
 }
-function s1(e) {
+function d1(e) {
 	Q(document.getElementById("slide13-react-root"), /* @__PURE__ */ (0, B.jsx)(t_, { isActive: e }), "Slide13Synthesis");
 }
-function c1(e) {
+function f1(e) {
 	Q(document.getElementById("slide14-react-root"), /* @__PURE__ */ (0, B.jsx)(r_, { isActive: e }), "Slide14Cognition");
 }
-function l1(e) {
+function p1(e) {
 	Q(document.getElementById("slide15-react-root"), /* @__PURE__ */ (0, B.jsx)(m_, { isActive: e }), "Slide15Stage");
 }
-function u1(e) {
+function m1(e) {
 	Q(document.getElementById("slide16-react-root"), /* @__PURE__ */ (0, B.jsx)(__, { isActive: e }), "Slide16Flow"), Q(document.getElementById("slide16-cards-root"), /* @__PURE__ */ (0, B.jsx)(v_, { isActive: e }), "Slide16Cards");
 }
-function d1(e) {
+function h1(e) {
 	Q(document.getElementById("slide17-react-root"), /* @__PURE__ */ (0, B.jsx)(C_, { isActive: e }), "Slide17Stage"), Q(document.getElementById("slide17-cards-root"), /* @__PURE__ */ (0, B.jsx)(w_, { isActive: e }), "Slide17Cards");
 }
-function f1(e) {
+function g1(e) {
 	Q(document.getElementById("slide18-react-root"), /* @__PURE__ */ (0, B.jsx)(O_, { isActive: e }), "Slide18Stage");
 }
-function p1(e) {
+function _1(e) {
 	Q(document.getElementById("slide19-react-root"), /* @__PURE__ */ (0, B.jsx)(xQ, { isActive: e }), "Slide19Stage");
 }
-function m1(e) {
+function v1(e) {
 	Q(document.getElementById("slide20-circle-root"), /* @__PURE__ */ (0, B.jsx)(wQ, { isActive: e }), "Slide20Circle"), Q(document.getElementById("slide20-cards-root"), /* @__PURE__ */ (0, B.jsx)(TQ, { isActive: e }), "Slide20Cards");
 }
-function h1(e) {
+function y1(e) {
 	Q(document.getElementById("slide21-orbit-root"), /* @__PURE__ */ (0, B.jsx)(DQ, { isActive: e }), "Slide21Orbit"), Q(document.getElementById("slide21-cards-root"), /* @__PURE__ */ (0, B.jsx)(kQ, { isActive: e }), "Slide21Cards"), Q(document.getElementById("slide21-right-cards-root"), /* @__PURE__ */ (0, B.jsx)(AQ, { isActive: e }), "Slide21RightCards");
 }
-function g1(e) {
+function b1(e) {
 	Q(document.getElementById("slide22-timeline-root"), /* @__PURE__ */ (0, B.jsx)(NQ, { isActive: e }), "Slide22Timeline"), Q(document.getElementById("slide22-cards-root"), /* @__PURE__ */ (0, B.jsx)(LQ, { isActive: e }), "Slide22Cards");
 }
-function _1(e) {
+function x1(e) {
 	Q(document.getElementById("slide23-timeline-root"), /* @__PURE__ */ (0, B.jsx)(zQ, { isActive: e }), "Slide23Timeline"), Q(document.getElementById("slide23-cards-root"), /* @__PURE__ */ (0, B.jsx)(BQ, { isActive: e }), "Slide23Cards");
 }
-function v1(e) {
+function S1(e) {
 	Q(document.getElementById("slide24-orbit-root"), /* @__PURE__ */ (0, B.jsx)(VQ, { isActive: e }), "Slide24Orbit"), Q(document.getElementById("slide24-cards-root"), /* @__PURE__ */ (0, B.jsx)(HQ, { isActive: e }), "Slide24Cards");
 }
-function y1(e) {
+function C1(e) {
 	Q(document.getElementById("slide25-orbit-root"), /* @__PURE__ */ (0, B.jsx)(YQ, { isActive: e }), "Slide25Orbit"), Q(document.getElementById("slide25-cards-root"), /* @__PURE__ */ (0, B.jsx)(XQ, { isActive: e }), "Slide25Cards");
 }
-function b1(e) {
+function w1(e) {
 	Q(document.getElementById("slide26-orbit-root"), /* @__PURE__ */ (0, B.jsx)(ZQ, { isActive: e }), "Slide26Orbit"), Q(document.getElementById("slide26-cards-root"), /* @__PURE__ */ (0, B.jsx)(QQ, { isActive: e }), "Slide26Cards");
 }
-function x1(e) {
+function T1(e) {
 	Q(document.getElementById("slide27-orbit-root"), /* @__PURE__ */ (0, B.jsx)(e$, { isActive: e }), "Slide27Orbit"), Q(document.getElementById("slide27-cards-root"), /* @__PURE__ */ (0, B.jsx)(t$, { isActive: e }), "Slide27Cards");
 }
-function S1(e) {
-	Q(document.getElementById("slide36-cards-root"), /* @__PURE__ */ (0, B.jsx)(M$, { isActive: e }), "Slide36Cards");
-}
-function C1(e) {
-	Q(document.getElementById("slide37-integration-root"), /* @__PURE__ */ (0, B.jsx)(I$, { isActive: e }), "Slide37Integration"), Q(document.getElementById("slide37-cards-root"), /* @__PURE__ */ (0, B.jsx)(N$, { isActive: e }), "Slide37Cards");
-}
-function w1(e) {
-	Q(document.getElementById("slide28-timeline-root"), /* @__PURE__ */ (0, B.jsx)(r$, { isActive: e }), "Slide28Timeline"), Q(document.getElementById("slide28-cards-root"), /* @__PURE__ */ (0, B.jsx)(i$, { isActive: e }), "Slide28Cards");
-}
-function T1(e) {
-	Q(document.getElementById("slide29-circle-root"), /* @__PURE__ */ (0, B.jsx)(s$, { isActive: e }), "Slide29Circle"), Q(document.getElementById("slide29-cards-root"), /* @__PURE__ */ (0, B.jsx)(c$, { isActive: e }), "Slide29Cards");
-}
 function E1(e) {
-	Q(document.getElementById("slide30-flow-root"), /* @__PURE__ */ (0, B.jsx)(u$, { isActive: e }), "Slide30Flow"), Q(document.getElementById("slide30-cards-root"), /* @__PURE__ */ (0, B.jsx)(d$, { isActive: e }), "Slide30Cards");
+	Q(document.getElementById("slide36-cards-root"), /* @__PURE__ */ (0, B.jsx)(N$, { isActive: e }), "Slide36Cards");
 }
 function D1(e) {
-	Q(document.getElementById("slide31-cards-root"), /* @__PURE__ */ (0, B.jsx)(f$, { isActive: e }), "Slide31Cards");
+	Q(document.getElementById("slide37-integration-root"), /* @__PURE__ */ (0, B.jsx)(L$, { isActive: e }), "Slide37Integration"), Q(document.getElementById("slide37-cards-root"), /* @__PURE__ */ (0, B.jsx)(P$, { isActive: e }), "Slide37Cards");
 }
 function O1(e) {
-	Q(document.getElementById("slide32-react-root"), /* @__PURE__ */ (0, B.jsx)(v$, { isActive: e }), "Slide32Matrix");
+	Q(document.getElementById("slide28-timeline-root"), /* @__PURE__ */ (0, B.jsx)(r$, { isActive: e }), "Slide28Timeline"), Q(document.getElementById("slide28-cards-root"), /* @__PURE__ */ (0, B.jsx)(i$, { isActive: e }), "Slide28Cards");
 }
 function k1(e) {
-	Q(document.getElementById("slide33-react-root"), /* @__PURE__ */ (0, B.jsx)(y$, { isActive: e }), "Slide33Funnel");
+	Q(document.getElementById("slide29-circle-root"), /* @__PURE__ */ (0, B.jsx)(s$, { isActive: e }), "Slide29Circle"), Q(document.getElementById("slide29-cards-root"), /* @__PURE__ */ (0, B.jsx)(c$, { isActive: e }), "Slide29Cards");
 }
 function A1(e) {
-	Q(document.getElementById("slide34-circle-root"), /* @__PURE__ */ (0, B.jsx)(E$, { isActive: e }), "Slide34Circle"), Q(document.getElementById("slide34-banner-root"), /* @__PURE__ */ (0, B.jsx)(b$, { isActive: e }), "Slide34BannerCard"), Q(document.getElementById("slide34-cards-root"), /* @__PURE__ */ (0, B.jsx)(x$, { isActive: e }), "Slide34RightCards");
+	Q(document.getElementById("slide30-flow-root"), /* @__PURE__ */ (0, B.jsx)(u$, { isActive: e }), "Slide30Flow"), Q(document.getElementById("slide30-cards-root"), /* @__PURE__ */ (0, B.jsx)(d$, { isActive: e }), "Slide30Cards");
 }
 function j1(e) {
-	Q(document.getElementById("slide35-orbit-root"), /* @__PURE__ */ (0, B.jsx)(D$, { isActive: e }), "Slide35Orbit"), Q(document.getElementById("slide35-cards-root"), /* @__PURE__ */ (0, B.jsx)(O$, { isActive: e }), "Slide35Cards");
+	Q(document.getElementById("slide31-cards-root"), /* @__PURE__ */ (0, B.jsx)(f$, { isActive: e }), "Slide31Cards");
 }
 function M1(e) {
-	Q(document.getElementById("slide38-orbit-root"), /* @__PURE__ */ (0, B.jsx)(L$, { isActive: e }), "Slide38Orbit"), Q(document.getElementById("slide38-cards-root"), /* @__PURE__ */ (0, B.jsx)(R$, { isActive: e }), "Slide38Cards");
+	Q(document.getElementById("slide32-react-root"), /* @__PURE__ */ (0, B.jsx)(v$, { isActive: e }), "Slide32Matrix");
 }
 function N1(e) {
-	Q(document.getElementById("slide40-cards-root"), /* @__PURE__ */ (0, B.jsx)(H$, { isActive: e }), "Slide40Cards");
+	Q(document.getElementById("slide33-react-root"), /* @__PURE__ */ (0, B.jsx)(y$, { isActive: e }), "Slide33Funnel");
 }
-function P1() {
-	Q(document.getElementById("slide40b-brain-root"), /* @__PURE__ */ (0, B.jsx)(j$, {}), "Slide40bBrain");
+function P1(e) {
+	Q(document.getElementById("slide34-circle-root"), /* @__PURE__ */ (0, B.jsx)(E$, { isActive: e }), "Slide34Circle"), Q(document.getElementById("slide34-banner-root"), /* @__PURE__ */ (0, B.jsx)(b$, { isActive: e }), "Slide34BannerCard"), Q(document.getElementById("slide34-cards-root"), /* @__PURE__ */ (0, B.jsx)(x$, { isActive: e }), "Slide34RightCards");
 }
-function F1() {
-	$();
+function F1(e) {
+	Q(document.getElementById("slide35-orbit-root"), /* @__PURE__ */ (0, B.jsx)(D$, { isActive: e }), "Slide35Orbit"), Q(document.getElementById("slide35-cards-root"), /* @__PURE__ */ (0, B.jsx)(O$, { isActive: e }), "Slide35Cards");
 }
-function I1() {
-	$();
+function I1(e) {
+	Q(document.getElementById("slide38-orbit-root"), /* @__PURE__ */ (0, B.jsx)(R$, { isActive: e }), "Slide38Orbit"), Q(document.getElementById("slide38-cards-root"), /* @__PURE__ */ (0, B.jsx)(z$, { isActive: e }), "Slide38Cards");
 }
-function L1() {
-	$();
+function L1(e) {
+	Q(document.getElementById("slide40-cards-root"), /* @__PURE__ */ (0, B.jsx)(U$, { isActive: e }), "Slide40Cards");
 }
 function R1() {
-	$();
+	Q(document.getElementById("slide40b-brain-root"), /* @__PURE__ */ (0, B.jsx)(M$, {}), "Slide40bBrain");
 }
 function z1() {
 	$();
@@ -51197,14 +51257,26 @@ function m0() {
 function h0() {
 	$();
 }
+function g0() {
+	$();
+}
+function _0() {
+	$();
+}
+function v0() {
+	$();
+}
+function y0() {
+	$();
+}
 function $() {
-	let e = document.querySelector("section[data-screen-label=\"03\"]"), t = document.querySelector("section[data-screen-label=\"05\"]"), n = document.querySelector("section[data-screen-label=\"06\"]"), r = document.querySelector("section[data-screen-label=\"07\"]"), i = document.querySelector("section[data-screen-label=\"09\"]"), a = document.querySelector("section[data-screen-label=\"10\"]"), o = document.querySelector("section[data-screen-label=\"11\"]"), s = document.querySelector("section[data-screen-label=\"12\"]"), c = document.querySelector("section[data-screen-label=\"13\"]"), l = document.querySelector("section[data-screen-label=\"14\"]"), u = document.querySelector("section[data-screen-label=\"15\"]"), d = document.querySelector("section[data-screen-label=\"16\"]"), f = document.querySelector("section[data-screen-label=\"17\"]"), p = document.querySelector("section[data-screen-label=\"18\"]"), m = document.querySelector("section[data-screen-label=\"19\"]"), h = document.querySelector("deck-stage"), g = h && h._index !== void 0 ? h._index === 2 : e?.hasAttribute("data-deck-active") ?? !1, _ = h && h._index !== void 0 ? h._index === 4 : t?.hasAttribute("data-deck-active") ?? !1, v = h && h._index !== void 0 ? h._index === 5 : n?.hasAttribute("data-deck-active") ?? !1, y = h && h._index !== void 0 ? h._index === 6 : r?.hasAttribute("data-deck-active") ?? !1, b = h && h._index !== void 0 ? h._index === 8 : i?.hasAttribute("data-deck-active") ?? !1, x = h && h._index !== void 0 ? h._index === 9 : a?.hasAttribute("data-deck-active") ?? !1, S = h && h._index !== void 0 ? h._index === 10 : o?.hasAttribute("data-deck-active") ?? !1, C = h && h._index !== void 0 ? h._index === 11 : s?.hasAttribute("data-deck-active") ?? !1, w = h && h._index !== void 0 ? h._index === 12 : c?.hasAttribute("data-deck-active") ?? !1, T = h && h._index !== void 0 ? h._index === 13 : l?.hasAttribute("data-deck-active") ?? !1, E = h && h._index !== void 0 ? h._index === 14 : u?.hasAttribute("data-deck-active") ?? !1, D = h && h._index !== void 0 ? h._index === 15 : d?.hasAttribute("data-deck-active") ?? !1, O = h && h._index !== void 0 ? h._index === 16 : f?.hasAttribute("data-deck-active") ?? !1, k = h && h._index !== void 0 ? h._index === 17 : p?.hasAttribute("data-deck-active") ?? !1, ee = h && h._index !== void 0 ? h._index === 18 : m?.hasAttribute("data-deck-active") ?? !1, A = document.querySelector("section[data-screen-label=\"20\"]"), j = h && h._index !== void 0 ? h._index === 19 : A?.hasAttribute("data-deck-active") ?? !1, M = typeof document < "u" && document.body.classList.contains("export-all-active");
-	Z$(M || g), Q$(M || _), $$(M || v), e1(M || y), t1(M || b), n1(M || x), r1(M || S), i1(M || C), a1(M || w), o1(M || T), s1(M || E), c1(M || D), l1(M || O), u1(M || k), d1(M || ee), f1(M || j), p1(!0), m1(!0);
+	let e = document.querySelector("section[data-screen-label=\"03\"]"), t = document.querySelector("section[data-screen-label=\"05\"]"), n = document.querySelector("section[data-screen-label=\"06\"]"), r = document.querySelector("section[data-screen-label=\"07\"]"), i = document.querySelector("section[data-screen-label=\"09\"]"), a = document.querySelector("section[data-screen-label=\"10\"]"), o = document.querySelector("section[data-screen-label=\"11\"]"), s = document.querySelector("section[data-screen-label=\"12\"]"), c = document.querySelector("section[data-screen-label=\"13\"]"), l = document.querySelector("section[data-screen-label=\"14\"]"), u = document.querySelector("section[data-screen-label=\"15\"]"), d = document.querySelector("section[data-screen-label=\"16\"]"), f = document.querySelector("section[data-screen-label=\"17\"]"), p = document.querySelector("section[data-screen-label=\"18\"]"), m = document.querySelector("section[data-screen-label=\"19\"]"), h = document.querySelector("deck-stage"), g = h && h._index !== void 0 ? h._index === 2 : e?.hasAttribute("data-deck-active") ?? !1, _ = h && h._index !== void 0 ? h._index === 5 : t?.hasAttribute("data-deck-active") ?? !1, v = h && h._index !== void 0 ? h._index === 6 : n?.hasAttribute("data-deck-active") ?? !1, y = h && h._index !== void 0 ? h._index === 7 : r?.hasAttribute("data-deck-active") ?? !1, b = h && h._index !== void 0 ? h._index === 9 : i?.hasAttribute("data-deck-active") ?? !1, x = h && h._index !== void 0 ? h._index === 10 : a?.hasAttribute("data-deck-active") ?? !1, S = h && h._index !== void 0 ? h._index === 11 : o?.hasAttribute("data-deck-active") ?? !1, C = h && h._index !== void 0 ? h._index === 12 : s?.hasAttribute("data-deck-active") ?? !1, w = h && h._index !== void 0 ? h._index === 13 : c?.hasAttribute("data-deck-active") ?? !1, T = h && h._index !== void 0 ? h._index === 14 : l?.hasAttribute("data-deck-active") ?? !1, E = h && h._index !== void 0 ? h._index === 15 : u?.hasAttribute("data-deck-active") ?? !1, D = h && h._index !== void 0 ? h._index === 16 : d?.hasAttribute("data-deck-active") ?? !1, O = h && h._index !== void 0 ? h._index === 17 : f?.hasAttribute("data-deck-active") ?? !1, k = h && h._index !== void 0 ? h._index === 18 : p?.hasAttribute("data-deck-active") ?? !1, ee = h && h._index !== void 0 ? h._index === 19 : m?.hasAttribute("data-deck-active") ?? !1, A = document.querySelector("section[data-screen-label=\"20\"]"), j = h && h._index !== void 0 ? h._index === 20 : A?.hasAttribute("data-deck-active") ?? !1, M = typeof document < "u" && document.body.classList.contains("export-all-active");
+	t1(M || g), n1(M || _), r1(M || v), i1(M || y), a1(M || b), o1(M || x), s1(M || S), c1(M || C), l1(M || w), u1(M || T), d1(M || E), f1(M || D), p1(M || O), m1(M || k), h1(M || ee), g1(M || j), _1(!0), v1(!0);
 	let N = (e) => document.querySelector(`section[data-screen-label^="${e}"], section[data-screen-label="${e}"]`), te = N("21"), P = N("22"), F = N("23"), ne = N("24"), re = N("25"), ie = N("26"), I = N("27"), L = N("28"), ae = N("29"), oe = N("30"), se = N("31"), ce = N("32"), le = N("33"), ue = N("34"), de = N("35"), fe = N("36"), pe = N("37"), me = N("38"), he = N("40"), ge = te?.hasAttribute("data-deck-active") ?? !1, _e = P?.hasAttribute("data-deck-active") ?? !1, ve = F?.hasAttribute("data-deck-active") ?? !1, ye = ne?.hasAttribute("data-deck-active") ?? !1, be = re?.hasAttribute("data-deck-active") ?? !1, xe = ie?.hasAttribute("data-deck-active") ?? !1, Se = I?.hasAttribute("data-deck-active") ?? !1, Ce = L?.hasAttribute("data-deck-active") ?? !1, we = ae?.hasAttribute("data-deck-active") ?? !1, Te = oe?.hasAttribute("data-deck-active") ?? !1, Ee = se?.hasAttribute("data-deck-active") ?? !1, De = ce?.hasAttribute("data-deck-active") ?? !1, Oe = le?.hasAttribute("data-deck-active") ?? !1, ke = ue?.hasAttribute("data-deck-active") ?? !1, Ae = de?.hasAttribute("data-deck-active") ?? !1, je = fe?.hasAttribute("data-deck-active") ?? !1, Me = pe?.hasAttribute("data-deck-active") ?? !1, Ne = me?.hasAttribute("data-deck-active") ?? !1, Pe = he?.hasAttribute("data-deck-active") ?? !1;
-	h1(ge || !0), g1(_e || !0), _1(ve || !0), v1(ye || !0), y1(be || !0), b1(xe || !0), x1(Se || !0), w1(Ce || !0), T1(we || !0), E1(Te || !0), D1(Ee || !0), O1(De || !0), k1(Oe || !0), A1(ke || !0), j1(Ae || !0), S1(je || !0), C1(Me || !0), M1(Ne || !0), N1(Pe || !0), P1(), X$();
+	y1(ge || !0), b1(_e || !0), x1(ve || !0), S1(ye || !0), C1(be || !0), w1(xe || !0), T1(Se || !0), O1(Ce || !0), k1(we || !0), A1(Te || !0), j1(Ee || !0), M1(De || !0), N1(Oe || !0), P1(ke || !0), F1(Ae || !0), E1(je || !0), D1(Me || !0), I1(Ne || !0), L1(Pe || !0), R1(), Z$();
 }
 if (typeof window < "u") {
-	window.initSlide3HaloReel = F1, window.initSlide5ConceptCards = I1, window.initSlide6Timeline = L1, window.initSlide7Cards = R1, window.initSlide9Orbiting = z1, window.initSlide10Plasticity = B1, window.initSlide10bMechanisms = V1, window.initSlide11Cascades = H1, window.initSlide12Resilience = U1, window.initSlide12bClinical = W1, window.initSlide13Synthesis = G1, window.initSlide14Cognition = K1, window.initSlide15Pills = q1, window.initSlide16Flow = J1, window.initSlide17AreaChart = Y1, window.initSlide18Stage = X1, window.initSlide19Stats = Z1, window.initSlide20Circle = Q1, window.initSlide21Orbit = $1, window.initSlide21Cards = $1, window.initSlide22Cards = e0, window.initSlide23Cards = _1, window.initSlide24Orbit = t0, window.initSlide25Orbit = n0, window.initSlide26Orbit = r0, window.initSlide27Orbit = i0, window.initSlide28Cards = w1, window.initSlide29Circle = o0, window.initSlide30Flow = s0, window.initSlide31Cards = D1, window.initSlide32Matrix = c0, window.initSlide33Funnel = () => $(), window.initSlide34Cards = A1, window.initSlide34Circle = A1, window.initSlide35Orbit = u0, window.initSlide36Cards = d0, window.initSlide37Cards = f0, window.initSlide38Orbit = p0, window.initSlide38Cards = p0, window.initSlide40Cards = m0, window.initSlide40bBrain = h0, window.initAllSlideModuleTopbars = X$, window.syncSlideVisibility = $, document.readyState === "complete" || document.readyState === "interactive" ? ($(), setTimeout($, 50), setTimeout($, 200), setTimeout($, 600)) : document.addEventListener("DOMContentLoaded", () => {
+	window.initSlide3HaloReel = z1, window.initSlide5ConceptCards = B1, window.initSlide6Timeline = V1, window.initSlide7Cards = H1, window.initSlide9Orbiting = U1, window.initSlide10Plasticity = W1, window.initSlide10bMechanisms = G1, window.initSlide11Cascades = K1, window.initSlide12Resilience = q1, window.initSlide12bClinical = J1, window.initSlide13Synthesis = Y1, window.initSlide14Cognition = X1, window.initSlide15Pills = Z1, window.initSlide16Flow = Q1, window.initSlide17AreaChart = $1, window.initSlide18Stage = e0, window.initSlide19Stats = t0, window.initSlide20Circle = n0, window.initSlide21Orbit = r0, window.initSlide21Cards = r0, window.initSlide22Cards = i0, window.initSlide23Cards = x1, window.initSlide24Orbit = a0, window.initSlide25Orbit = o0, window.initSlide26Orbit = s0, window.initSlide27Orbit = c0, window.initSlide28Cards = O1, window.initSlide29Circle = u0, window.initSlide30Flow = d0, window.initSlide31Cards = j1, window.initSlide32Matrix = f0, window.initSlide33Funnel = () => $(), window.initSlide34Cards = P1, window.initSlide34Circle = P1, window.initSlide35Orbit = m0, window.initSlide36Cards = h0, window.initSlide37Cards = g0, window.initSlide38Orbit = _0, window.initSlide38Cards = _0, window.initSlide40Cards = v0, window.initSlide40bBrain = y0, window.initAllSlideModuleTopbars = Z$, window.syncSlideVisibility = $, document.readyState === "complete" || document.readyState === "interactive" ? ($(), setTimeout($, 50), setTimeout($, 200), setTimeout($, 600)) : document.addEventListener("DOMContentLoaded", () => {
 		$(), setTimeout($, 100), setTimeout($, 400);
 	}), window.addEventListener("load", () => {
 		$(), setTimeout($, 200);
@@ -51249,4 +51321,4 @@ if (typeof window < "u") {
 	});
 }
 //#endregion
-export { F1 as mountHaloReel, B1 as mountSlide10, V1 as mountSlide10b, H1 as mountSlide11, U1 as mountSlide12, W1 as mountSlide12b, G1 as mountSlide13, K1 as mountSlide14, q1 as mountSlide15, J1 as mountSlide16, Y1 as mountSlide17, X1 as mountSlide18, Z1 as mountSlide19, Q1 as mountSlide20, $1 as mountSlide21, e0 as mountSlide22, t0 as mountSlide24, n0 as mountSlide25, r0 as mountSlide26, i0 as mountSlide27, a0 as mountSlide28, o0 as mountSlide29, s0 as mountSlide30, c0 as mountSlide32, l0 as mountSlide34, u0 as mountSlide35, d0 as mountSlide36, f0 as mountSlide37, p0 as mountSlide38, m0 as mountSlide40, h0 as mountSlide40b, I1 as mountSlide5, L1 as mountSlide6, R1 as mountSlide7, z1 as mountSlide9 };
+export { z1 as mountHaloReel, W1 as mountSlide10, G1 as mountSlide10b, K1 as mountSlide11, q1 as mountSlide12, J1 as mountSlide12b, Y1 as mountSlide13, X1 as mountSlide14, Z1 as mountSlide15, Q1 as mountSlide16, $1 as mountSlide17, e0 as mountSlide18, t0 as mountSlide19, n0 as mountSlide20, r0 as mountSlide21, i0 as mountSlide22, a0 as mountSlide24, o0 as mountSlide25, s0 as mountSlide26, c0 as mountSlide27, l0 as mountSlide28, u0 as mountSlide29, d0 as mountSlide30, f0 as mountSlide32, p0 as mountSlide34, m0 as mountSlide35, h0 as mountSlide36, g0 as mountSlide37, _0 as mountSlide38, v0 as mountSlide40, y0 as mountSlide40b, B1 as mountSlide5, V1 as mountSlide6, H1 as mountSlide7, U1 as mountSlide9 };

@@ -66,7 +66,7 @@ export default function Slide24Cards({ isActive = true, className }: Slide24Card
           <div className="space-y-2">
             <div>
               <h3 className="text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
-                Díade Protetora e Identificação com Pares
+                Díade protetora e identificação com pares
               </h3>
               <p className="text-[16px] font-semibold text-[#6b4e83] mt-0.5">
                 Maunder & Monks (2019) · Diferenciação entre popularidade e apego entre pares
@@ -94,7 +94,7 @@ export default function Slide24Cards({ isActive = true, className }: Slide24Card
               </div>
 
               <p className="text-[16px] text-[#334155] leading-snug font-normal mt-2">
-                Uma criança pode ser pouco popular e ainda ter uma amizade íntima e protetora — ou ser aceita pelo grupo sem possuir amizade próxima. <strong className="text-[#0f1012] font-semibold">A reciprocidade foi especialmente relevante para a autoestima e identificação social.</strong>
+                Uma criança pode ser pouco popular e ainda ter uma amizade íntima e protetora, ou ser aceita pelo grupo sem possuir amizade próxima. <strong className="text-[#0f1012] font-semibold">A reciprocidade foi especialmente relevante para a autoestima e identificação social.</strong>
               </p>
             </div>
           </div>
@@ -140,7 +140,7 @@ export default function Slide24Cards({ isActive = true, className }: Slide24Card
             <div className="flex items-center gap-1.5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-purple-500/10 text-purple-300 border border-purple-500/25">
                 <CheckCircle2 className="w-4 h-4 text-purple-400" />
-                Competência & Avaliação Clínica
+                Competência e avaliação clínica
               </span>
             </div>
           </div>
@@ -149,10 +149,10 @@ export default function Slide24Cards({ isActive = true, className }: Slide24Card
           <div className="space-y-2">
             <div>
               <h3 className="text-[24px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]">
-                Preferir Poucos Amigos ≠ Dificuldade Social
+                Preferir poucos amigos ≠ dificuldade social
               </h3>
               <p className="text-[16px] font-semibold text-purple-300 mt-0.5">
-                Conflito não é ausência de competência — é a arena de aprendizagem relacional
+                Conflito não é ausência de competência: é a arena de aprendizagem relacional
               </p>
             </div>
 
@@ -184,7 +184,7 @@ export default function Slide24Cards({ isActive = true, className }: Slide24Card
           <div className="mt-2.5 pt-2 border-t border-white/10 flex items-center justify-between">
             <div className="flex items-center gap-1.5 text-[15px] font-semibold text-zinc-400">
               <span>Critério:</span>
-              <span className="text-white font-bold">Prejuízo Funcional Real</span>
+              <span className="text-white font-bold">Prejuízo funcional real</span>
             </div>
 
             <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-purple-500/20 text-purple-200 border border-purple-500/30 text-[16px] font-bold shadow-xs">

@@ -68,7 +68,7 @@ export default function Slide27Cards({ isActive = true, className }: Slide27Card
           <div className="space-y-2">
             <div>
               <h3 className="text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
-                Heterogeneidade Psicossocial nos Diagnósticos
+                Heterogeneidade psicossocial nos diagnósticos
               </h3>
               <p className="text-[16px] font-semibold text-[#8a2f3f] mt-0.5">
                 Mesmo diagnóstico ≠ mesma experiência · Mesma anatomia ≠ mesma trajetória
@@ -138,7 +138,7 @@ export default function Slide27Cards({ isActive = true, className }: Slide27Card
             <div className="flex items-center gap-1.5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-rose-500/10 text-rose-300 border border-rose-500/25">
                 <CheckCircle2 className="w-4 h-4 text-rose-400" />
-                Matriz Clínica Multidimensional
+                Matriz clínica multidimensional
               </span>
             </div>
           </div>
@@ -147,7 +147,7 @@ export default function Slide27Cards({ isActive = true, className }: Slide27Card
           <div className="space-y-2">
             <div>
               <h3 className="text-[24px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]">
-                Organizar por Domínios, Não Apenas por Diagnóstico
+                Organizar por domínios, não apenas por diagnóstico
               </h3>
               <p className="text-[16px] font-semibold text-rose-300 mt-0.5">
                 Quais dimensões da condição estão entrando na trajetória desta criança?

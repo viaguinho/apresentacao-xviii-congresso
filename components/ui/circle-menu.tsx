@@ -1,7 +1,7 @@
 'use client';
 
 import { AnimatePresence, motion, useAnimationControls } from 'framer-motion';
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -179,7 +179,6 @@ export const MenuTrigger = ({
   customTrigger
 }: MenuTriggerProps) => {
   const animate = useAnimationControls();
-  const shakeAnimation = useAnimationControls();
 
   const scaleTransition = Array.from({ length: Math.max(1, itemsLength - 1) })
     .map((_, index) => index + 1)
@@ -190,15 +189,7 @@ export const MenuTrigger = ({
     }, [] as number[]);
 
   const closeAnimation = async () => {
-    shakeAnimation.start({
-      translateX: [0, 2, -2, 0, 2, -2, 0],
-      transition: {
-        duration: CONSTANTS.closeStagger,
-        ease: 'linear',
-        repeat: Infinity,
-        repeatType: 'loop'
-      }
-    });
+    if (customTrigger) return;
     for (let i = 0; i < scaleTransition.length; i++) {
       await animate.start({
         height: Math.min(
@@ -218,14 +209,6 @@ export const MenuTrigger = ({
         await new Promise((resolve) => setTimeout(resolve, CONSTANTS.closeStagger * 1000));
       }
     }
-
-    shakeAnimation.stop();
-    shakeAnimation.start({
-      translateX: 0,
-      transition: {
-        duration: 0
-      }
-    });
 
     animate.start({
       height: triggerSize,
@@ -248,10 +231,12 @@ export const MenuTrigger = ({
     }
     if (prevOpenRef.current && !isOpen) {
       closeAnimationCallback();
-      closeAnimation();
+      if (!customTrigger) {
+        closeAnimation();
+      }
     }
     prevOpenRef.current = isOpen;
-  }, [isOpen]);
+  }, [isOpen, customTrigger]);
 
   const handleToggle = () => {
     setIsOpen(!isOpen);
@@ -259,16 +244,14 @@ export const MenuTrigger = ({
 
   if (customTrigger) {
     return (
-      <motion.div animate={shakeAnimation} className="z-20 cursor-pointer" onClick={handleToggle}>
-        <motion.div animate={animate}>
-          {customTrigger}
-        </motion.div>
-      </motion.div>
+      <div className="z-20 cursor-pointer select-none" onClick={handleToggle}>
+        {customTrigger}
+      </div>
     );
   }
 
   return (
-    <motion.div animate={shakeAnimation} className="z-50">
+    <div className="z-50">
       <motion.button
         animate={animate}
         style={{
@@ -324,7 +307,7 @@ export const MenuTrigger = ({
           )}
         </AnimatePresence>
       </motion.button>
-    </motion.div>
+    </div>
   );
 };
 

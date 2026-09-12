@@ -37,7 +37,7 @@ export default function Slide38Cards({ isActive = true, className }: Slide38Card
             </span>
           </div>
           <h4 className="text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight">
-            Discrepância Não É Erro: É Informação
+            Discrepância não é erro: é informação
           </h4>
           <p className="text-[16px] font-medium text-zinc-300 mt-1 leading-snug">
             221 crianças (8–17 anos, PROMIS): a concordância variou amplamente com a idade e o domínio avaliado.
@@ -75,13 +75,13 @@ export default function Slide38Cards({ isActive = true, className }: Slide38Card
         <div className="flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10">
           <span className="text-[16px] font-semibold text-zinc-400">Interpretação clínica:</span>
           <span className="text-[16px] font-bold text-slate-300 bg-slate-500/20 px-2.5 py-0.5 rounded-full border border-slate-400/30">
-            Quem × O Quê × Contexto × Idade
+            Quem × o quê × contexto × idade
           </span>
         </div>
       </motion.div>
 
       {/* =========================================================================
-          CARD 2: Card Clean Light Apple — Evolução das Fontes de Informação (Eixo 7)
+          CARD 2: Card Clean Light Apple — Evolução das fontes de informação (Eixo 7)
           ========================================================================= */}
       <motion.div
         initial={{ opacity: 0, y: 14 }}
@@ -99,7 +99,7 @@ export default function Slide38Cards({ isActive = true, className }: Slide38Card
             </span>
           </div>
           <h4 className="text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight">
-            Evolução das Fontes de Informação
+            Evolução das fontes de informação
           </h4>
           <p className="text-[16px] font-medium text-[#5f6062] mt-0.5">
             Quem informa melhor muda com a idade: peso relativo do relato do cuidador e do paciente:
@@ -167,7 +167,7 @@ export default function Slide38Cards({ isActive = true, className }: Slide38Card
 
         <p className="text-[15px] text-[#5f6062] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between gap-3">
           <span>Quem relata × O que relata</span>
-          <span className="font-semibold text-[#33415c]">Integração de Perspectivas Complementares</span>
+          <span className="font-semibold text-[#33415c]">Integração de perspectivas complementares</span>
         </p>
       </motion.div>
     </div>

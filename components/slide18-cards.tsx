@@ -18,7 +18,7 @@ export default function Slide18Cards({ isActive = true, className }: Slide18Card
       )}
     >
       {/* =========================================================================
-          CARD 1: Card Obsidian Escuro Apple — Axioma Clínico Transdisciplinar (Eixo 2)
+          CARD 1: Card Obsidian Escuro Apple — Axioma clínico transdisciplinar (Eixo 2)
           ========================================================================= */}
       <motion.div
         initial={{ opacity: 0, y: 14 }}
@@ -32,14 +32,14 @@ export default function Slide18Cards({ isActive = true, className }: Slide18Card
         <div className="relative z-10">
           <div className="flex items-center justify-between mb-2">
             <span className="text-[14px] font-bold uppercase tracking-[0.1em] text-zinc-400 font-['Urbanist',sans-serif]">
-              Axioma Clínico Transdisciplinar
+              Axioma clínico transdisciplinar
             </span>
             <span className="text-[14px] font-semibold text-teal-200 bg-[#0d6d66]/30 px-2 py-0.5 rounded-full border border-teal-500/30">
               Eixo 2 · Cognição
             </span>
           </div>
           <h4 className="text-[22px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight">
-            Fala Alterada ≠ Linguagem Alterada ≠ Inteligência Reduzida
+            Fala alterada ≠ linguagem alterada ≠ inteligência reduzida
           </h4>
           <p className="text-[17px] font-medium text-zinc-300 mt-1 leading-snug">
             Diferenciação estrutural e neurocognitiva na prática clínica com anomalias craniofaciais.
@@ -80,7 +80,7 @@ export default function Slide18Cards({ isActive = true, className }: Slide18Card
           <div className="flex items-center justify-between pt-2 border-t border-zinc-800">
             <span className="text-[16px] font-semibold text-zinc-400">Diretriz clínica:</span>
             <span className="text-[16px] font-bold text-teal-300 bg-teal-500/15 px-2.5 py-0.5 rounded-full border border-teal-400/25">
-              Perfis Singulares ≠ Destino
+              Perfis singulares ≠ destino
             </span>
           </div>
         </div>
@@ -98,14 +98,14 @@ export default function Slide18Cards({ isActive = true, className }: Slide18Card
         <div>
           <div className="flex items-center justify-between mb-1.5">
             <span className="text-[14px] font-bold uppercase tracking-[0.08em] text-[#0d6d66] bg-[#0d6d66]/[0.08] px-2.5 py-0.5 rounded-full border border-[#0d6d66]/20 font-['Urbanist',sans-serif]">
-              Evidência Empírica · CPT
+              Evidência empírica · CPT
             </span>
             <span className="text-[15px] font-semibold text-[#5f6062]">
               Estudo unicêntrico · 6–16 anos
             </span>
           </div>
           <h4 className="text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif]">
-            Atenção Sustentada em Tarefa Contínua
+            Atenção sustentada em tarefa contínua
           </h4>
           <p className="text-[16px] font-medium text-[#5f6062] mt-0.5">
             Comparação controlada de desempenho em medidas contínuas:

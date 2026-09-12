@@ -71,7 +71,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
           <div className="space-y-2">
             <div>
               <h3 className="text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
-                Sintomas e Prejuízo Funcional Não São a Mesma Coisa
+                Sintomas e prejuízo funcional não são a mesma coisa
               </h3>
               <p className="text-[16px] font-semibold text-[#33415c] mt-0.5">
                 O prejuízo funcional é o componente nuclear da relevância diagnóstica
@@ -107,7 +107,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
               </div>
 
               <p className="text-[16px] text-[#334155] leading-snug font-normal mt-1.5">
-                A variabilidade entre situações pode ser informação clinicamente significativa — não erro entre avaliadores — e ajuda a localizar o mecanismo concreto do problema.
+                A variabilidade entre situações pode ser informação clinicamente significativa, não erro entre avaliadores, e ajuda a localizar o mecanismo concreto do problema.
               </p>
             </div>
           </div>
@@ -120,7 +120,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
             </div>
 
             <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#33415c] text-white text-[16px] font-bold shadow-xs">
-              <span>Prejuízo Funcional Real</span>
+              <span>Prejuízo funcional real</span>
             </div>
           </div>
         </div>
@@ -153,7 +153,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
             <div className="flex items-center gap-1.5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-slate-500/15 text-slate-300 border border-slate-500/30">
                 <CheckCircle2 className="w-4 h-4 text-slate-300" />
-                Raciocínio Clínico em 5 Etapas
+                Raciocínio clínico em 5 etapas
               </span>
             </div>
           </div>
@@ -162,7 +162,7 @@ export default function Slide37Cards({ isActive = true, className }: Slide37Card
           <div className="space-y-2">
             <div>
               <h3 className="text-[24px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]">
-                O Significado Muda com a Idade: Checklist Diagnóstico
+                O significado muda com a idade: checklist diagnóstico
               </h3>
               <p className="text-[16px] font-semibold text-slate-300 mt-0.5">
                 Dependência dos pais aos 3 anos ≠ dependência dos pais aos 16 anos

@@ -24,7 +24,6 @@ interface SocialSystem extends CircleMenuItem {
 
 export default function Slide25Orbit({ isActive = true }: Slide25OrbitProps) {
   const [isOpen, setIsOpen] = useState(true);
-  const [isHovered, setIsHovered] = useState(false);
 
   // Sincroniza com a ativação do slide
   useEffect(() => {
@@ -33,29 +32,8 @@ export default function Slide25Orbit({ isActive = true }: Slide25OrbitProps) {
     }
   }, [isActive]);
 
-  // Animação automática em Loop com boa margem de tempo
-  useEffect(() => {
-    if (!isActive) return;
-
-    let timer: NodeJS.Timeout;
-
-    // Pausa o loop enquanto o usuário passa o cursor para leitura confortável
-    if (!isHovered) {
-      if (isOpen) {
-        // Permanece aberto por 8 segundos (ampla margem para leitura completa)
-        timer = setTimeout(() => {
-          setIsOpen(false);
-        }, 8000);
-      } else {
-        // Pausa recolhido por 2 segundos antes de reabrir
-        timer = setTimeout(() => {
-          setIsOpen(true);
-        }, 2000);
-      }
-    }
-
-    return () => clearTimeout(timer);
-  }, [isActive, isOpen, isHovered]);
+  // Os quatro polos abrem na entrada do slide e permanecem abertos: recolher
+  // automaticamente escondia o conteúdo durante a apresentação.
 
   // 4 Polos em cruz, dimensionados para caber na coluna esquerda (46fr ≈ 765px) sem invadir a margem:
   // - Amigos e Grupo / Escola e Comunidade: targetX = ±226px (cartões de 296px + hub de 128px + respiro)
@@ -113,8 +91,6 @@ export default function Slide25Orbit({ isActive = true }: Slide25OrbitProps) {
 
   return (
     <div
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
       className="relative flex h-[480px] w-full mx-auto items-center justify-center select-none font-['Satoshi',sans-serif]"
     >
       {/* Glow suave atmosférico concêntrico */}
@@ -136,7 +112,7 @@ export default function Slide25Orbit({ isActive = true }: Slide25OrbitProps) {
           customTrigger={
             <div
               className={cn(
-                "relative z-20 flex flex-col items-center justify-center w-[128px] h-[128px] rounded-full bg-white/95 border-2 shadow-[0_12px_36px_rgba(107,78,131,0.16)] backdrop-blur-md transition-all duration-300 hover:scale-105 group select-none cursor-pointer",
+                "relative z-20 flex flex-col items-center justify-center w-[128px] h-[128px] rounded-full bg-white border-2 shadow-[0_12px_36px_rgba(107,78,131,0.16)] transform-gpu transition-all duration-300 hover:scale-105 group select-none cursor-pointer",
                 isOpen
                   ? "border-[#6b4e83]/40 shadow-[0_12px_36px_rgba(107,78,131,0.22)]"
                   : "border-zinc-300 opacity-95"

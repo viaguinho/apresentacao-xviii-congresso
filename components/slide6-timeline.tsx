@@ -11,7 +11,7 @@ export const Slide6MethodTimeline: React.FC<Slide6TimelineProps> = ({ isActive =
   const stepsData: TimelineEntry[] = [
     {
       step: 1,
-      category: "Etapa 1 · Coorte Longitudinal",
+      category: "Etapa 1 · Coorte longitudinal",
       badge: "L-CID Study",
       title: "Acompanhar as mesmas crianças ao longo do tempo",
       description: ">500 crianças do estudo L-CID · faixa etária ~7–14 anos · três ondas de avaliação com protocolo idêntico:",
@@ -36,17 +36,17 @@ export const Slide6MethodTimeline: React.FC<Slide6TimelineProps> = ({ isActive =
     },
     {
       step: 2,
-      category: "Etapa 2 · Paradigma Experimental",
+      category: "Etapa 2 · Paradigma experimental",
       badge: "SNAT + fMRI",
       title: "Provocar e medir resposta à rejeição social",
-      description: "Social Network Aggression Task (SNAT) — feedback de pares (positivo, neutro ou negativo) com mensuração dupla:",
+      description: "Social Network Aggression Task (SNAT) com feedback de pares (positivo, neutro ou negativo) e mensuração dupla:",
       detail: (
         <div className="flex flex-col gap-1.5 w-full">
           <div className="flex items-center gap-2 text-[16px] font-medium text-[#3f4042]">
             <span className="font-semibold text-[#e11d48] bg-rose-50 px-2 py-0.5 rounded border border-rose-200 text-[15px] shrink-0">
               Comportamental
             </span>
-            <span>Duração do som aversivo (*noise blast*) contra o avaliador</span>
+            <span>Duração do som aversivo (noise blast) contra o avaliador</span>
           </div>
           <div className="flex items-center gap-2 text-[16px] font-medium text-[#3f4042]">
             <span className="font-semibold text-[#0071e3] bg-blue-50 px-2 py-0.5 rounded border border-blue-200 text-[15px] shrink-0">
@@ -59,18 +59,18 @@ export const Slide6MethodTimeline: React.FC<Slide6TimelineProps> = ({ isActive =
     },
     {
       step: 3,
-      category: "Etapa 3 · Modelagem Estatística",
+      category: "Etapa 3 · Modelagem estatística",
       badge: "Bayesian MLM",
       title: "Transformar medidas em trajetórias de desenvolvimento",
       description: "Modelo bayesiano multinível de curvas de crescimento separando componentes populacionais de individuais:",
       detail: (
         <div className="grid grid-cols-2 gap-2 w-full">
           <div className="bg-slate-50/90 rounded-lg p-2 border border-slate-200/60">
-            <div className="text-[14px] uppercase tracking-wider font-bold text-[#0071e3]">Efeitos Fixos</div>
+            <div className="text-[14px] uppercase tracking-wider font-bold text-[#0071e3]">Efeitos fixos</div>
             <div className="text-[16px] font-medium text-[#0f1012] leading-tight mt-0.5">Trajetória média da população</div>
           </div>
           <div className="bg-slate-50/90 rounded-lg p-2 border border-slate-200/60">
-            <div className="text-[14px] uppercase tracking-wider font-bold text-[#0071e3]">Efeitos Aleatórios</div>
+            <div className="text-[14px] uppercase tracking-wider font-bold text-[#0071e3]">Efeitos aleatórios</div>
             <div className="text-[16px] font-medium text-[#0f1012] leading-tight mt-0.5">Variação individual na inclinação</div>
           </div>
         </div>

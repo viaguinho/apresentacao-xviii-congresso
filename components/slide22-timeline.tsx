@@ -37,7 +37,7 @@ export function Slide22Timeline({ isActive = true }: Slide22TimelineProps) {
     <div className="w-full flex flex-col gap-6 select-none">
       {/* RoadmapCard Adaptado ao Eixo 3 (Terracota #b5563a) */}
       <RoadmapCard
-        title="Tarefas Emocionais ao Longo do Desenvolvimento"
+        title="Tarefas emocionais ao longo do desenvolvimento"
         description="A condição anatômica pode permanecer semelhante; a tarefa emocional da criança evolui qualitativamente."
         items={items}
         colorTheme="terracotta"

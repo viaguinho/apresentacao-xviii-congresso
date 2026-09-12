@@ -53,7 +53,7 @@ export default function Slide36Cards({ isActive = true, className }: Slide36Card
             <div className="flex items-center gap-1.5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-[#33415c]/10 text-[#33415c] border border-[#33415c]/20">
                 <Sparkles className="w-4 h-4 text-[#33415c]" />
-                Vigilância Contínua ≠ Rastreio Pontual
+                Vigilância contínua ≠ rastreio pontual
               </span>
             </div>
           </div>
@@ -62,10 +62,10 @@ export default function Slide36Cards({ isActive = true, className }: Slide36Card
           <div className="space-y-2">
             <div>
               <h3 className="text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
-                Transversal ("Como Está?") × Longitudinal ("Como Muda?")
+                Transversal (“como está?”) × longitudinal (“como muda?”)
               </h3>
               <p className="text-[16px] font-semibold text-[#33415c] mt-0.5">
-                Uma medida pontual informa apenas posição estática — não a direção evolutiva
+                Uma medida pontual informa apenas posição estática, não a direção evolutiva
               </p>
             </div>
 
@@ -132,7 +132,7 @@ export default function Slide36Cards({ isActive = true, className }: Slide36Card
             <div className="flex items-center gap-1.5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-slate-500/15 text-slate-300 border border-slate-500/30">
                 <CheckCircle2 className="w-4 h-4 text-slate-300" />
-                Exemplo Clínico Ilustrativo
+                Exemplo clínico ilustrativo
               </span>
             </div>
           </div>
@@ -141,7 +141,7 @@ export default function Slide36Cards({ isActive = true, className }: Slide36Card
           <div className="space-y-2">
             <div>
               <h3 className="text-[24px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]">
-                Mesma Fotografia Clínica — Histórias Opostas
+                Mesma fotografia clínica, histórias opostas
               </h3>
               <p className="text-[16px] font-semibold text-slate-300 mt-0.5">
                 Duas crianças com idêntico escore de satisfação com aparência hoje
@@ -178,11 +178,11 @@ export default function Slide36Cards({ isActive = true, className }: Slide36Card
           <div className="mt-2.5 pt-2 border-t border-white/10 flex items-center justify-between">
             <div className="flex items-center gap-1.5 text-[15px] font-semibold text-zinc-400">
               <span>Alerta:</span>
-              <span className="text-white font-bold">O Filme Supera a Foto</span>
+              <span className="text-white font-bold">O filme supera a foto</span>
             </div>
 
             <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-slate-500/20 text-slate-200 border border-slate-500/30 text-[16px] font-bold shadow-xs">
-              <span>Para Onde a Curva Aponta?</span>
+              <span>Para onde a curva aponta?</span>
             </div>
           </div>
         </div>

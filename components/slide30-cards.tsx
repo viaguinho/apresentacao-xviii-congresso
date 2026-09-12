@@ -2,16 +2,12 @@
 
 import { motion } from "framer-motion";
 import {
-  Users,
   CheckCircle2,
   AlertTriangle,
-  Heart,
   Scale,
   Sparkles,
-  ArrowRight,
   BookmarkCheck,
   Building2,
-  Activity,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -48,7 +44,7 @@ export default function Slide30Cards({ isActive = true, className }: Slide30Card
       )}
     >
       {/* =========================================================================
-          CARD 1: Bloco de Evidência Empírica Multicêntrica (Padrão Claro Eixo 5)
+          CARD 1: Bloco de Evidência empírica multicêntrica (Padrão Claro Eixo 5)
           ========================================================================= */}
       <motion.div
         initial={{ opacity: 0, y: 16 }}
@@ -74,7 +70,7 @@ export default function Slide30Cards({ isActive = true, className }: Slide30Card
             <div className="flex items-center gap-1.5">
               <span className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full text-[14px] font-bold uppercase tracking-wider bg-[#8a2f3f]/10 text-[#8a2f3f] border border-[#8a2f3f]/20">
                 <BookmarkCheck className="w-4 h-4 text-[#8a2f3f]" />
-                Evidência Empírica Multicêntrica
+                Evidência empírica multicêntrica
               </span>
             </div>
           </div>
@@ -126,7 +122,7 @@ export default function Slide30Cards({ isActive = true, className }: Slide30Card
           {/* Header */}
           <div className="flex items-center justify-between mb-2">
             <span className="text-[14px] font-bold uppercase tracking-[0.18em] text-[#e88d9d]">
-              Coorte de Nascimento · 1.163 Pais
+              Coorte de nascimento · 1.163 pais
             </span>
             <span className="text-[14px] font-semibold text-zinc-300 bg-white/10 px-2.5 py-0.5 rounded-full border border-white/15">
               Stock et al. (2025)
@@ -134,7 +130,7 @@ export default function Slide30Cards({ isActive = true, className }: Slide30Card
           </div>
 
           <h4 className="text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight">
-            Adaptação Parental: Fatores de Ajuste & Risco
+            Adaptação parental: fatores de ajuste e risco
           </h4>
           <p className="text-[16px] font-normal text-zinc-400 mt-1 leading-snug">
             Em geral houve boa adaptação ao diagnóstico, com fatores de risco e proteção identificáveis. Não é um checklist diagnóstico:

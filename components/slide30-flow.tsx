@@ -114,7 +114,7 @@ export default function Slide30Flow({ isActive = true, className }: Slide30FlowP
       <div className="flex items-center justify-between gap-4 pb-2 border-b border-[#8a2f3f]/15">
         <div className="flex items-center gap-2">
           <span className="text-[15px] font-bold uppercase tracking-[0.12em] text-[#8a2f3f]">
-            Modelo Bioecológico · Circuito Transacional
+            Modelo bioecológico · circuito transacional
           </span>
         </div>
         <div className="flex items-center gap-1.5 text-[16px] font-semibold text-[#8a2f3f] bg-[#8a2f3f]/10 px-3 py-1 rounded-full border border-[#8a2f3f]/20 whitespace-nowrap shrink-0">

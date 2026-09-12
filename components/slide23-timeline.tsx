@@ -20,13 +20,13 @@ export function Slide23Timeline({ isActive = true }: Slide23TimelineProps) {
     },
     {
       quarter: "1–2 Anos",
-      title: "O Parceiro Social se Diversifica",
+      title: "O parceiro social se diversifica",
       description: "Observar pares em volta · aproximar-se fisicamente · imitar comportamentos · iniciar interação lúdica · responder às iniciativas.",
       status: "in-progress",
     },
     {
       quarter: "3–5 Anos",
-      title: "Os Pares como Laboratório Social",
+      title: "Os pares como laboratório social",
       description: "A arena de testes interpessoais onde as habilidades sociocomunicativas são construídas na prática:",
       status: "in-progress",
       detail: (

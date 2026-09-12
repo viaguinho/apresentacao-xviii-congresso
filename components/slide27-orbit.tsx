@@ -1,5 +1,6 @@
 "use client";
 
+import { motion } from "framer-motion";
 import React from "react";
 import ParticleSphereAnimation from "@/components/ui/orbiting-circles-02-utils/particalsphear";
 import { Eye, Activity, Stethoscope, Compass, Layers, Target } from "lucide-react";
@@ -60,7 +61,12 @@ const orbits = [
 
 export default function Slide27Orbit({ isActive: _isActive = true }: Slide27OrbitProps) {
   return (
-    <div className="relative w-full h-[500px] overflow-hidden flex justify-center select-none group">
+    <motion.div
+      className="relative w-full h-[500px] overflow-hidden flex justify-center select-none group"
+      initial={{ opacity: 0, scale: 0.96 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+    >
       <style>{`
         @keyframes orbit-cw {
           from { transform: rotate(var(--start-angle)) }
@@ -92,9 +98,9 @@ export default function Slide27Orbit({ isActive: _isActive = true }: Slide27Orbi
         />
       </div>
 
-      {/* Círculo refinado central ("DESFECHO DESENVOLVIMENTAL") posicionado um pouco mais para baixo dentro da órbita principal */}
-      <div className="absolute bottom-[80px] left-1/2 -translate-x-1/2 z-20 pointer-events-auto flex flex-col items-center">
-        <div className="w-[164px] h-[164px] rounded-full bg-white/95 border-2 border-[#8a2f3f]/30 shadow-[0_8px_32px_rgba(138,47,63,0.18)] backdrop-blur-md flex flex-col items-center justify-center text-center p-2 transition-transform duration-300 hover:scale-105 cursor-default select-none">
+      {/* Círculo refinado central ("DESFECHO DESENVOLVIMENTAL") posicionado com base estável sem jitter de subpixel/backdrop-filter */}
+      <div className="absolute bottom-[80px] left-1/2 -translate-x-1/2 z-20 pointer-events-auto flex flex-col items-center transform-gpu">
+        <div className="w-[164px] h-[164px] rounded-full bg-white border-2 border-[#8a2f3f]/30 shadow-[0_8px_32px_rgba(138,47,63,0.18)] flex flex-col items-center justify-center text-center p-2 transition-transform duration-300 hover:scale-105 cursor-default select-none">
           <div className="w-9 h-9 rounded-full bg-[#f7ecee] text-[#8a2f3f] flex items-center justify-center shrink-0 mb-1.5 shadow-inner">
             <Target className="w-5 h-5 stroke-[2.2]" />
           </div>
@@ -122,7 +128,7 @@ export default function Slide27Orbit({ isActive: _isActive = true }: Slide27Orbi
               return (
                 <div
                   key={iconIndex}
-                  className="absolute top-0 left-1/2 h-1/2 -ml-28 origin-bottom flex flex-col justify-start items-center pointer-events-auto"
+                  className="absolute top-0 left-1/2 h-1/2 -ml-28 origin-bottom flex flex-col justify-start items-center pointer-events-none"
                   style={
                     {
                       width: "224px",
@@ -132,7 +138,7 @@ export default function Slide27Orbit({ isActive: _isActive = true }: Slide27Orbi
                   }
                 >
                   <div
-                    className="-mt-5 relative z-10 transition-transform duration-200 hover:scale-105"
+                    className="-mt-5 relative z-10 transition-transform duration-200 hover:scale-105 pointer-events-auto"
                     style={
                       {
                         "--counter-offset": `${-iconData.angle}deg`,
@@ -155,6 +161,6 @@ export default function Slide27Orbit({ isActive: _isActive = true }: Slide27Orbi
           </div>
         );
       })}
-    </div>
+    </motion.div>
   );
 }

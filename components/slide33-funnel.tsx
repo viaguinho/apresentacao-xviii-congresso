@@ -376,7 +376,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
 
           {/* PAT-CV Note */}
           <p className="m-0 flex-1 font-['Satoshi'] text-[15px] leading-snug text-slate-600 pl-3 border-l border-slate-200">
-            <strong className="text-slate-700">PAT-CV</strong> · 242 cuidadores e 217 crianças, 1 mês–17 anos. Amostra de validação — α = 0,86 · teste-reteste r = 0,77.
+            <strong className="text-slate-700">PAT-CV</strong> · 242 cuidadores e 217 crianças, 1 mês–17 anos. Amostra de validação: α = 0,86 · teste-reteste r = 0,77.
           </p>
         </div>
       </div>
@@ -432,7 +432,7 @@ export default function Slide33Funnel({ isActive = true }: Slide33FunnelProps) {
           <div className="mt-1.5 pt-1.5 border-t border-white/10 flex items-center justify-between gap-2 text-[15px]">
             <div className="flex items-center gap-1.5 text-slate-300">
               <span>Conduta:</span>
-              <span className="text-[#bbf7d0] font-semibold">Acesso Direto Sem Barreira</span>
+              <span className="text-[#bbf7d0] font-semibold">Acesso direto sem barreira</span>
             </div>
 
             <div className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-[#4b6b4f]/25 text-[#dcfce7] border border-[#4b6b4f]/35 font-semibold">

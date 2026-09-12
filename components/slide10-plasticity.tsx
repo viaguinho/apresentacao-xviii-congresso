@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { cn } from "@/lib/utils"
+import {  } from "@/lib/utils"
 
 interface Slide10PlasticityProps {
   isActive?: boolean
@@ -169,7 +169,7 @@ export default function Slide10Plasticity({ isActive = true }: Slide10Plasticity
             </div>
             <div className="bg-[#f8f9fa] rounded-2xl px-4 py-3 border border-black/[0.04]">
               <p className="m-0 text-[17px] font-medium leading-snug text-[#3f4042]">
-                <strong className="text-[#0f1012] font-semibold">Sensível:</strong> a experiência influencia de modo particularmente intenso numa fase — mas mudanças continuam possíveis depois.
+                <strong className="text-[#0f1012] font-semibold">Sensível:</strong> a experiência influencia de modo particularmente intenso numa fase, mas mudanças continuam possíveis depois.
               </p>
             </div>
           </div>
@@ -260,7 +260,7 @@ export default function Slide10Plasticity({ isActive = true }: Slide10Plasticity
             </div>
 
             <p className="text-[16px] font-medium text-[#5f6062] m-0 italic pt-1 border-t border-black/[0.05]">
-              Esquema conceitual — não representa idades universais.
+              Esquema conceitual: não representa idades universais.
             </p>
           </motion.div>
 
@@ -358,7 +358,7 @@ export default function Slide10Plasticity({ isActive = true }: Slide10Plasticity
             <p className="text-[18px] font-semibold text-[#0f1012] mt-0.5">Não é Ilimitada</p>
           </div>
           <p className="text-[17px] font-medium text-[#52525b] leading-snug mt-2 pt-2 border-t border-black/[0.05]">
-            O cérebro permanece modificável — mas sua capacidade de mudança não é constante.
+            O cérebro permanece modificável, mas sua capacidade de mudança não é constante.
           </p>
         </motion.div>
 

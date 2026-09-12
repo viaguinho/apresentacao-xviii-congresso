@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { motion } from "framer-motion"
-import { Eye, Hand, MessageSquare, Users, Activity, Sparkles, RefreshCw, ArrowUpRight, ArrowDownRight, Layers } from "lucide-react"
+import { Eye, Hand, MessageSquare, Users, Activity, Sparkles, Layers } from "lucide-react"
 import { cn } from "@/lib/utils"
 
 interface Slide11CascadesProps {
@@ -75,7 +75,7 @@ export default function Slide11Cascades({ isActive = true }: Slide11CascadesProp
               </span>
             </div>
             <h3 className="text-2xl font-semibold tracking-tight text-[#0f1012] leading-tight">
-              Efeitos que se Propagam entre Domínios e ao Longo do Tempo
+              Efeitos que se propagam entre domínios e ao longo do tempo
             </h3>
             <p className="text-[17px] font-medium text-[#5f6062] mt-0.5 leading-snug">
               Mudanças em um sistema criam novas possibilidades de ação e reconfiguram a experiência da criança.
@@ -384,7 +384,7 @@ export default function Slide11Cascades({ isActive = true }: Slide11CascadesProp
 
             <div className="flex items-center justify-between pt-1.5 border-t border-zinc-800">
               <span className="text-[16px] font-semibold text-zinc-400">
-                Princípio fundamental:
+                Princípio:
               </span>
               <span className="text-[16px] font-bold text-amber-300 bg-amber-400/10 px-2.5 py-0.5 rounded-full border border-amber-400/25">
                 Cascata ≠ Destino
@@ -409,7 +409,7 @@ export default function Slide11Cascades({ isActive = true }: Slide11CascadesProp
                 </span>
               </div>
               <h4 className="text-[20px] font-bold text-[#0f1012] tracking-tight leading-tight">
-                Um Exemplo: Aprender a Sentar
+                Um exemplo: aprender a sentar
               </h4>
               <p className="text-[16px] font-medium text-[#5f6062] mt-0.5 leading-snug">
                 Uma habilidade motora isolada reconfigura quatro dimensões cognitivas e sociais:
@@ -460,7 +460,7 @@ export default function Slide11Cascades({ isActive = true }: Slide11CascadesProp
             </div>
 
             <p className="text-[16px] font-medium text-[#5f6062] italic m-0 pt-1.5 border-t border-black/[0.05]">
-              Exemplo de cascata — não uma sequência linear obrigatória.
+              Exemplo de cascata, não uma sequência linear obrigatória.
             </p>
           </motion.div>
 

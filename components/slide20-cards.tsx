@@ -44,7 +44,7 @@ export default function Slide20Cards({ isActive = true, className }: Slide20Card
             </span>
           </div>
           <h4 className="text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight">
-            Reconhecimento Emocional na Infância
+            Reconhecimento emocional na infância
           </h4>
           <p className="text-[16px] font-medium text-[#5f6062] mt-0.5">
             Acurácia progressiva no reconhecimento de expressões faciais entre 2 e 12 anos:
@@ -143,7 +143,7 @@ export default function Slide20Cards({ isActive = true, className }: Slide20Card
             </span>
           </div>
           <h4 className="text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight">
-            E Dependem de Outros Domínios
+            E dependem de outros domínios
           </h4>
           <p className="text-[16px] font-medium text-zinc-300 mt-1 leading-snug">
             O reconhecimento e a regulação emocional constroem-se em estreita interdependência:
@@ -177,7 +177,7 @@ export default function Slide20Cards({ isActive = true, className }: Slide20Card
         <div className="flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10">
           <span className="text-[16px] font-semibold text-zinc-400">Processo integrado:</span>
           <span className="text-[16px] font-bold text-[#f8d7ce] bg-[#b5563a]/20 px-2.5 py-0.5 rounded-full border border-[#b5563a]/30">
-            Perceber ↔ Compreender ↔ Regular
+            Perceber ↔ compreender ↔ regular
           </span>
         </div>
       </motion.div>

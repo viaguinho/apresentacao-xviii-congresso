@@ -29,14 +29,14 @@ export default function Slide29Cards({ isActive = true, className }: Slide29Card
         <div>
           <div className="flex items-center justify-between mb-1.5">
             <span className="text-[14px] font-bold uppercase tracking-[0.14em] text-[#8a2f3f] bg-[#8a2f3f]/[0.10] px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/25 font-['Urbanist',sans-serif]">
-              Desfechos Centrados no Paciente
+              Desfechos centrados no paciente
             </span>
             <span className="text-[15px] font-semibold text-[#5f6062]">
               136 entrevistas · 6 países
             </span>
           </div>
           <h4 className="text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight">
-            O Que Realmente Importa para os Pacientes
+            O que importa para os pacientes
           </h4>
           <p className="text-[16px] text-[#5f6062] mt-0.5">
             Preocupações nucleares identificadas internacionalmente em estudos com PROs:
@@ -103,7 +103,7 @@ export default function Slide29Cards({ isActive = true, className }: Slide29Card
             </span>
           </div>
           <h4 className="text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight">
-            Resultado Técnico ≠ Desfecho Percebido
+            Resultado técnico ≠ desfecho percebido
           </h4>
           <p className="text-[16px] font-medium text-zinc-300 mt-1 leading-snug">
             Perguntas diferentes que precisam convergir na formulação do cuidado:
@@ -134,14 +134,14 @@ export default function Slide29Cards({ isActive = true, className }: Slide29Card
         {/* Axioma de Conclusão */}
         <div className="p-2.5 bg-zinc-900/95 rounded-2xl border border-zinc-800/90 relative z-10 mb-1">
           <p className="text-[16px] text-zinc-200 leading-snug m-0">
-            Um bom resultado técnico é necessário — mas não suficiente para definir um bom desfecho. Avaliação objetiva e medidas relatadas pelo paciente (PROs) são <strong className="text-white font-semibold">complementares</strong>.
+            Um bom resultado técnico é necessário, mas não suficiente para definir um bom desfecho. Avaliação objetiva e medidas relatadas pelo paciente (PROs) são <strong className="text-white font-semibold">complementares</strong>.
           </p>
         </div>
 
         <div className="flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10">
           <span className="text-[16px] font-semibold text-zinc-400">Axioma de conduta:</span>
           <span className="text-[16px] font-bold text-[#f8d7dc] bg-[#8a2f3f]/25 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/35">
-            Cuidado Centrado na Experiência
+            Cuidado centrado na experiência
           </span>
         </div>
       </motion.div>

@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { AnimatedFeatureCard } from "./ui/animated-feature-card";
 import { OrbitingCirclesGlobe } from "./ui/orbiting-circles-02";
-import { ArrowLeftRight, Clock } from "lucide-react";
+import { ArrowLeftRight } from "lucide-react";
 
 interface Slide9StageProps {
   isActive?: boolean;
@@ -44,8 +44,8 @@ export default function Slide9Stage({ isActive = true }: Slide9StageProps) {
             </div>
           }
           imageSrc="assets/cards/biology-dna-neural-3d.png"
-          imageClassName="w-32 h-32 md:w-36 md:h-36"
-          imageContainerClassName="top-4 bottom-[210px]"
+          imageClassName="w-52 h-52 md:w-60 md:h-60 drop-shadow-[0_14px_22px_rgba(0,0,0,0.16)]"
+          imageContainerClassName="top-2 bottom-[195px]"
           color="blue"
           className="h-[500px] w-full max-w-none shadow-sm border-slate-200/80 hover:border-blue-400/50 transition-colors"
         />
@@ -132,8 +132,8 @@ export default function Slide9Stage({ isActive = true }: Slide9StageProps) {
             </div>
           }
           imageSrc="assets/cards/experience-social-3d.png"
-          imageClassName="w-32 h-32 md:w-36 md:h-36"
-          imageContainerClassName="top-4 bottom-[210px]"
+          imageClassName="w-52 h-52 md:w-60 md:h-60 drop-shadow-[0_14px_22px_rgba(0,0,0,0.16)]"
+          imageContainerClassName="top-2 bottom-[195px]"
           color="emerald"
           className="h-[500px] w-full max-w-none shadow-sm border-slate-200/80 hover:border-emerald-400/50 transition-colors"
         />

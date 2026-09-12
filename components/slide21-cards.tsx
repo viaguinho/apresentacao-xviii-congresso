@@ -90,7 +90,7 @@ export default function Slide21Cards({
           {/* Title & Subtitle */}
           <div className="space-y-1">
             <h3 className="text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
-              A Pergunta Que o Jovem Faz Sobre Si
+              A pergunta que o jovem faz sobre si
             </h3>
             <p className="text-[16px] font-semibold text-[#33415c] leading-snug">
               Da observação de comportamentos concretos à integração abstrata da identidade
@@ -200,7 +200,7 @@ export function Slide21RightCards({
             </span>
           </div>
           <h4 className="text-[22px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight">
-            Significado Emocional da Característica Física
+            Significado emocional da característica física
           </h4>
           <p className="text-[16px] font-medium text-zinc-300 mt-1 leading-snug">
             A mesma condição adquire novo peso à medida que a autoimagem é reconfigurada:
@@ -229,7 +229,7 @@ export function Slide21RightCards({
         <div className="flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10">
           <span className="text-[16px] font-semibold text-zinc-400">Fundamento clínico:</span>
           <span className="text-[16px] font-bold text-[#f8d7ce] bg-[#b5563a]/20 px-2.5 py-0.5 rounded-full border border-[#b5563a]/30">
-            Avaliação Social Subjetiva
+            Avaliação social subjetiva
           </span>
         </div>
       </motion.div>
@@ -253,10 +253,10 @@ export function Slide21RightCards({
             </span>
           </div>
           <h4 className="text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight">
-            A Regulação Continua em Desenvolvimento
+            A regulação continua em desenvolvimento
           </h4>
           <p className="text-[16px] font-medium text-[#5f6062] mt-0.5 leading-snug">
-            A capacidade regulatória aumenta — mas as demandas emocionais e sociais também:
+            A capacidade regulatória aumenta, mas as demandas emocionais e sociais também:
           </p>
         </div>
 

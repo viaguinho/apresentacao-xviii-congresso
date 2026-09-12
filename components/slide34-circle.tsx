@@ -9,9 +9,7 @@ import {
   HeartHandshake,
   GraduationCap,
   Stethoscope,
-  Clock,
   Play,
-  Pause,
 } from "lucide-react"
 import { cn } from "@/lib/utils"
 
@@ -227,7 +225,7 @@ export default function Slide34Circle({ isActive = true, className }: Slide34Cir
     if (activeId === "center") {
       return {
         tag: "CONVERGÊNCIA MULTI-INFORMANTE",
-        highlight: "As quatro perspectivas convergem — mas não necessariamente coincidem.",
+        highlight: "As quatro perspectivas convergem, mas não necessariamente coincidem.",
         detail:
           "A discordância entre informantes não é erro de mensuração: reflete a expressão genuína da criança em ecossistemas de vida distintos.",
       }
@@ -293,7 +291,7 @@ export default function Slide34Circle({ isActive = true, className }: Slide34Cir
         {/* Definição Operacional / Princípio Clínico */}
         <div className="bg-[#f4f7f4] rounded-xl px-3.5 py-2 mt-1 border border-[#4b6b4f]/10">
           <p className="m-0 text-[14px] font-bold uppercase tracking-wider text-[#4b6b4f]">
-            Princípio Clínico Multi-Informante
+            Princípio clínico multi-informante
           </p>
           <p className="m-0 mt-0.5 text-[17px] font-medium text-[#0f1012] leading-snug">
             Nenhuma lente detém a totalidade do quadro. A convergência entre informantes mapeia a trajetória real da criança sem anular as divergências.

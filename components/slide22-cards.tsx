@@ -11,7 +11,7 @@ const evidenceCardsData = [
   {
     index: "01",
     tag: "AOS 10 ANOS · n = 845",
-    title: "Infância Escolar & Domínios",
+    title: "Infância escolar e domínios",
     description:
       "A condição adicional à fissura associou-se ao ajuste psicológico no maior número de domínios; a insatisfação com aparência não se associou aos demais domínios de risco.",
     imageSrc: "assets/cards/memoji-10y.png",

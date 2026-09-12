@@ -66,17 +66,17 @@ export default function Slide34RightCards({ isActive = true, className }: Slide3
         <div className="relative z-10">
           <div className="flex items-center justify-between mb-1.5">
             <span className="text-[14px] font-bold uppercase tracking-[0.1em] text-zinc-400 font-['Urbanist',sans-serif]">
-              Evidência Empírica de Informantes
+              Evidência empírica de informantes
             </span>
             <span className="text-[14px] font-semibold text-[#d5e4d7] bg-[#4b6b4f]/30 px-2.5 py-0.5 rounded-full border border-[#4b6b4f]/40">
               Eixo 6 · Protocolo
             </span>
           </div>
           <h4 className="text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight">
-            Pais e Filhos Realmente Discordam
+            Pais e filhos realmente discordam
           </h4>
           <p className="text-[16px] font-medium text-zinc-300 mt-1 leading-snug">
-            A discrepância entre respondentes é frequente e contém informação clínica valiosa:
+            A discrepância entre respondentes é frequente e é clinicamente informativa:
           </p>
         </div>
 
@@ -87,7 +87,7 @@ export default function Slide34RightCards({ isActive = true, className }: Slide3
               PROMIS · 221 Crianças
             </span>
             <p className="text-[16px] text-zinc-300 leading-snug m-0">
-              Divergência por idade e domínio — sem correlação em ansiedade entre 8–10 anos.
+              Divergência por idade e domínio, sem correlação em ansiedade entre 8–10 anos.
             </p>
           </div>
 
@@ -108,7 +108,7 @@ export default function Slide34RightCards({ isActive = true, className }: Slide3
         <div className="flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10">
           <span className="text-[16px] font-semibold text-zinc-400">Diretriz:</span>
           <span className="text-[16px] font-bold text-emerald-300 bg-emerald-500/15 px-2.5 py-0.5 rounded-full border border-emerald-500/30">
-            Integrar, Não Anular
+            Integrar, não anular
           </span>
         </div>
       </motion.div>
@@ -125,7 +125,7 @@ export default function Slide34RightCards({ isActive = true, className }: Slide3
         <div>
           <div className="flex items-center justify-between mb-1.5">
             <span className="text-[14px] font-bold uppercase tracking-[0.14em] text-[#4b6b4f] bg-[#4b6b4f]/[0.10] px-2.5 py-0.5 rounded-full border border-[#4b6b4f]/25 font-['Urbanist',sans-serif]">
-              Bateria e Aplicação Clínica
+              Bateria e aplicação clínica
             </span>
             <span className="text-[14px] font-semibold text-[#5f6062]">
               Seleção Escalonada
@@ -172,7 +172,7 @@ export default function Slide34RightCards({ isActive = true, className }: Slide3
 
         <p className="text-[15px] text-[#5f6062] italic m-0 pt-2 border-t border-black/[0.05] flex items-center justify-between gap-3">
           <span>Até 8 anos: observação e cuidadores</span>
-          <span className="font-semibold text-[#4b6b4f]">Entrevista + PRO = Nova Informação</span>
+          <span className="font-semibold text-[#4b6b4f]">Entrevista + PRO = nova informação</span>
         </p>
       </motion.div>
     </div>

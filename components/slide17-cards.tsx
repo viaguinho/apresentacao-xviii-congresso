@@ -4,7 +4,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import {
   Brain,
-  ArrowRight,
   Sparkles,
   Zap,
   Users,
@@ -33,7 +32,7 @@ export default function Slide17Cards({ isActive = true, className }: Slide17Card
       accent: "bg-amber-50 text-amber-700 border-amber-200/80 hover:bg-amber-100/70",
     },
     {
-      label: "Pares & Contexto Social",
+      label: "Pares e contexto social",
       icon: Users,
       accent: "bg-purple-50 text-purple-700 border-purple-200/80 hover:bg-purple-100/70",
     },
@@ -79,7 +78,7 @@ export default function Slide17Cards({ isActive = true, className }: Slide17Card
             <div className="flex items-center gap-1.5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wide bg-[#0d6d66]/10 text-[#0d6d66] border border-[#0d6d66]/20">
                 <Sparkles className="w-4 h-4 text-[#0d6d66]" />
-                Modelo Interativo Não-Linear
+                Modelo interativo não linear
               </span>
             </div>
           </div>
@@ -88,7 +87,7 @@ export default function Slide17Cards({ isActive = true, className }: Slide17Card
           <div className="space-y-2">
             <div>
               <h3 className="text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
-                Desempenho Observado em Contexto
+                Desempenho observado em contexto
               </h3>
               <p className="text-[17px] font-semibold text-[#0d6d66] mt-0.5 leading-snug">
                 Superação do modelo dual simplificado · Interação dinâmica multifatorial
@@ -129,7 +128,7 @@ export default function Slide17Cards({ isActive = true, className }: Slide17Card
               </div>
 
               <p className="text-[17px] text-[#334155] leading-snug font-medium mt-2">
-                Incentivos contextuais e pares modificam a tomada de decisão na adolescência — gerando resultados substancialmente mais heterogêneos do que a tese dual de <strong className="text-[#0f1012] font-semibold">"límbico desenvolvido vs. pré-frontal imaturo"</strong>.
+                Incentivos contextuais e pares modificam a tomada de decisão na adolescência, gerando resultados substancialmente mais heterogêneos do que a tese dual de <strong className="text-[#0f1012] font-semibold">"límbico desenvolvido vs. pré-frontal imaturo"</strong>.
               </p>
             </div>
           </div>
@@ -142,7 +141,7 @@ export default function Slide17Cards({ isActive = true, className }: Slide17Card
             </div>
 
             <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#0d6d66] text-white text-[15px] font-bold shadow-xs hover:bg-[#0d6d66]/90 transition-colors">
-              <span>Decisão Real ≠ Teste Isolado</span>
+              <span>Decisão real ≠ teste isolado</span>
             </div>
           </div>
         </div>
@@ -185,7 +184,7 @@ export default function Slide17Cards({ isActive = true, className }: Slide17Card
           <div className="space-y-2">
             <div>
               <h3 className="text-[24px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]">
-                Refinamento da Acurácia Metacognitiva
+                Refinamento da acurácia metacognitiva
               </h3>
               <p className="text-[17px] font-semibold text-cyan-400 mt-0.5 leading-snug">
                 Dissociação desenvolvimental entre capacidade perceptual básica e autoavaliação

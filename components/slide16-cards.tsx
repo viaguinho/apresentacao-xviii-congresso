@@ -116,7 +116,7 @@ export default function Slide16Cards({ isActive = true, className }: Slide16Card
                 EVIDÊNCIA & ASSOCIAÇÃO
               </h4>
               <p className="text-[17px] text-[#334155] leading-snug font-medium">
-                Associações significativas entre funções executivas e leitura, matemática e linguagem oral no ensino fundamental — com{" "}
+                Associações significativas entre funções executivas e leitura, matemática e linguagem oral no ensino fundamental, com{" "}
                 <strong className="text-[#0f1012] font-semibold">memória de trabalho</strong> apresentando as correlações mais consistentes e de maior magnitude.
               </p>
             </div>
@@ -156,12 +156,12 @@ export default function Slide16Cards({ isActive = true, className }: Slide16Card
               Metacognição
             </span>
             <span className="text-[14px] font-semibold text-zinc-300 bg-white/10 px-2.5 py-0.5 rounded-full border border-white/15">
-              Controle do Próprio Pensamento
+              Controle do próprio pensamento
             </span>
           </div>
 
           <h4 className="text-[23px] font-bold tracking-tight text-white font-['Urbanist',sans-serif]">
-            Ciclo de Auto-Regulação Cognitiva
+            Ciclo de autorregulação cognitiva
           </h4>
           <p className="text-[17px] font-medium text-zinc-300 mt-1 leading-snug">
             Aprender a monitorar ativamente a compreensão, identificar impasses e redirecionar a própria conduta:
@@ -220,7 +220,7 @@ export default function Slide16Cards({ isActive = true, className }: Slide16Card
             Tese desenvolvimental:
           </span>
           <span className="text-[16px] font-bold text-amber-300 bg-amber-400/10 px-3 py-0.5 rounded-full border border-amber-400/25">
-            Cognição ⇄ Aprendizagem Escolar
+            Cognição ⇄ aprendizagem escolar
           </span>
         </div>
       </motion.div>

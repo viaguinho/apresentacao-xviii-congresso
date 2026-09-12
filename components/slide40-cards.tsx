@@ -33,7 +33,7 @@ const TAKE_HOME_TOPICS: TakeHomeMessageItem[] = [
     eixoBadge: "EIXO 1 · TRAJETÓRIA",
     title: "1 · Desenvolvimento é trajetória",
     description:
-      "Processo multidimensional, dinâmico, não necessariamente linear e heterogêneo. Importa onde a criança está — mas também de onde veio, para onde vai e em que velocidade muda.",
+      "Processo multidimensional, dinâmico, não necessariamente linear e heterogêneo. Importa onde a criança está, mas também de onde veio, para onde vai e em que velocidade muda.",
     footerTag: "Direção & Velocidade",
     icon: TrendingUp,
   },
@@ -60,7 +60,7 @@ const TAKE_HOME_TOPICS: TakeHomeMessageItem[] = [
     eixoBadge: "EIXO 4 · SOCIAL",
     title: "4 · Social é participar e pertencer",
     description:
-      "De cuidadores a pares, amizade, pertencimento e identidade social. A tarefa social muda com a idade — portanto, o que deve ser avaliado também muda.",
+      "De cuidadores a pares, amizade, pertencimento e identidade social. A tarefa social muda com a idade e, por isso, o que deve ser avaliado também muda.",
     footerTag: "Pertencimento & Parceria",
     icon: Users,
   },
@@ -79,7 +79,7 @@ const TAKE_HOME_TOPICS: TakeHomeMessageItem[] = [
     title: "6 · O protocolo precisa ser desenvolvimental",
     description:
       "Domínios permanecem, prioridades mudam. Rastreamento universal + aprofundamento conforme risco + instrumentos específicos + entrevista + múltiplos informantes.",
-    footerTag: "Stepped Care & Informantes",
+    footerTag: "Stepped care e informantes",
     icon: ClipboardCheck,
   },
 ];

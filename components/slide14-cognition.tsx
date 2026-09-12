@@ -110,7 +110,7 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
               <div className="flex items-center gap-2.5">
                 <Layers className="w-6 h-6 text-[#0d6d66]" />
                 <span className="font-['Urbanist'] text-[18px] font-bold uppercase tracking-widest text-[#0d6d66]">
-                  Hierarquia Funcional Interdependente
+                  Hierarquia funcional interdependente
                 </span>
               </div>
               <span className="text-[16px] text-zinc-500 font-medium text-right">
@@ -153,15 +153,15 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
                     </span>
                     <div>
                       <h3 className="font-['Urbanist'] text-[23px] font-bold text-[#0f1012] leading-tight">
-                        Funções Cognitivas de Ordem Superior
+                        Funções cognitivas de ordem superior
                       </h3>
                       <p className="text-[18px] text-zinc-600 font-medium leading-snug mt-0.5">
-                        Metacognição · Raciocínio Abstrato · Resolução de Problemas · Tomada de Decisão
+                        Metacognição · raciocínio abstrato · resolução de problemas · tomada de decisão
                       </p>
                     </div>
                   </div>
                   <span className="text-[15px] font-semibold text-emerald-800 bg-emerald-50 px-2.5 py-1 rounded-md border border-emerald-200 shrink-0">
-                    Maturação Tardia (Adolescência+)
+                    Maturação tardia (adolescência+)
                   </span>
                 </div>
               </div>
@@ -178,7 +178,7 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
                   <div className="min-w-0">
                     <div className="flex items-center gap-2.5">
                       <h3 className="font-['Urbanist'] text-[24px] font-extrabold text-[#0d6d66] leading-tight whitespace-nowrap">
-                        Funções Executivas Nucleares
+                        Funções executivas nucleares
                       </h3>
                       <span className="text-[15px] font-bold uppercase tracking-wide bg-[#0d6d66] text-white px-2 py-0.5 rounded whitespace-nowrap">
                         Núcleo Diamond (2013)
@@ -238,7 +238,7 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
                     </div>
                   </div>
                   <span className="text-[15px] font-semibold text-teal-800 bg-teal-50 px-2.5 py-1 rounded-md border border-teal-200 shrink-0">
-                    Interação Bidirecional Contínua
+                    Interação bidirecional contínua
                   </span>
                 </div>
               </div>
@@ -263,7 +263,7 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
                     </div>
                   </div>
                   <span className="text-[15px] font-semibold text-zinc-700 bg-zinc-100 px-2.5 py-1 rounded-md shrink-0">
-                    Maturação Inicial (0–3 anos)
+                    Maturação inicial (0–3 anos)
                   </span>
                 </div>
               </div>
@@ -282,13 +282,13 @@ export default function Slide14Cognition({ isActive = true }: Slide14CognitionPr
               <div className="flex items-center gap-2">
                 <TrendingUp className="w-6 h-6 text-[#0d6d66] shrink-0" />
                 <span className="font-['Urbanist'] text-[21px] font-bold text-[#0f1012] leading-tight tracking-[-0.01em]">
-                  Maturação Heterocrônica · Janelas Críticas & Ritmos
+                  Maturação heterocrônica · janelas críticas e ritmos
                 </span>
               </div>
               <div className="flex items-center gap-2 shrink-0">
                 <Clock className="w-[18px] h-[18px] text-[#0d6d66]" />
                 <span className="text-[15px] font-semibold text-[#0d6d66] bg-[#0d6d66]/20 border border-[#0d6d66]/30 px-2.5 py-1 rounded">
-                  Ritmos Diferentes por Domínio
+                  Ritmos diferentes por domínio
                 </span>
               </div>
             </div>

@@ -54,14 +54,14 @@ export default function Slide25Cards({ isActive = true, className }: Slide25Card
         <div className="relative z-10">
           <div className="flex items-center justify-between mb-1.5">
             <span className="text-[14px] font-bold uppercase tracking-[0.2em] text-zinc-400 font-['Urbanist',sans-serif]">
-              Reorientação Social na Adolescência
+              Reorientação social na adolescência
             </span>
             <span className="text-[14px] font-semibold text-[#e9dff0] bg-[#6b4e83]/30 px-2.5 py-0.5 rounded-full border border-[#6b4e83]/40">
               Eixo 4 · Social
             </span>
           </div>
           <h4 className="text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight">
-            Os Pares como Nova Referência para o “Eu”
+            Os pares como nova referência para o “eu”
           </h4>
           <p className="text-[16px] font-medium text-zinc-300 mt-1 leading-snug">
             Pertencer, ser avaliado e compreender a perspectiva alheia ganham nova relevância:
@@ -90,7 +90,7 @@ export default function Slide25Cards({ isActive = true, className }: Slide25Card
         <div className="flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10">
           <span className="text-[16px] font-semibold text-zinc-400">Axioma sistêmico:</span>
           <span className="text-[16px] font-bold text-[#e9dff0] bg-[#6b4e83]/25 px-2.5 py-0.5 rounded-full border border-[#6b4e83]/35">
-            Reorientação Social ≠ Substituição da Família
+            Reorientação social ≠ substituição da família
           </span>
         </div>
       </motion.div>
@@ -107,17 +107,17 @@ export default function Slide25Cards({ isActive = true, className }: Slide25Card
         <div>
           <div className="flex items-center justify-between mb-1.5">
             <span className="text-[14px] font-bold uppercase tracking-[0.14em] text-[#6b4e83] bg-[#6b4e83]/[0.10] px-2.5 py-0.5 rounded-full border border-[#6b4e83]/20 font-['Urbanist',sans-serif]">
-              Evidência Empírica · Meta-análise
+              Evidência empírica · meta-análise
             </span>
             <span className="text-[15px] font-semibold text-[#5f6062]">
               60 estudos · 233 efeitos
             </span>
           </div>
           <h4 className="text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight">
-            A Influência dos Pares é um Mecanismo
+            A influência dos pares é um mecanismo
           </h4>
           <p className="text-[16px] text-[#5f6062] mt-0.5">
-            Mecanismo de mediação contextual — não um desfecho negativo por si só:
+            Mecanismo de mediação contextual, não um desfecho negativo por si só:
           </p>
         </div>
 

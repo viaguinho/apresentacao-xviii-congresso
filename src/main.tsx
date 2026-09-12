@@ -59,6 +59,30 @@ import Slide40Cards from '../components/slide40-cards'
 import { initAllSlideModuleTopbars } from './topbar-modules'
 import '../src/index.css'
 
+/**
+ * Contador de ativações por section: toda vez que um slide passa de inativo para ativo o
+ * contador sobe e vira a `key` da ilha React dentro dele. Com uma key nova o React remonta
+ * o componente e a animação de entrada toca de novo. Antes todas as ilhas eram montadas no
+ * carregamento da página, então a entrada já tinha terminado quando o apresentador chegava
+ * ao slide e nada se movia na projeção.
+ */
+const slideRunCounts = new WeakMap<Element, number>();
+const slideWasActive = new WeakMap<Element, boolean>();
+
+function slideRunKey(rootElement: HTMLElement): number {
+  const section = rootElement.closest('section');
+  if (!section) return 0;
+  const isActive = section.hasAttribute('data-deck-active');
+  const wasActive = slideWasActive.get(section) ?? false;
+  let run = slideRunCounts.get(section) ?? 0;
+  if (isActive && !wasActive) {
+    run += 1;
+    slideRunCounts.set(section, run);
+  }
+  slideWasActive.set(section, isActive);
+  return run;
+}
+
 function mountReactRoot(rootElement: HTMLElement | null, component: ReactNode, name: string) {
   if (!rootElement) return;
   try {
@@ -68,7 +92,7 @@ function mountReactRoot(rootElement: HTMLElement | null, component: ReactNode, n
       root = ReactDOM.createRoot(rootElement);
       (rootElement as any)._reactRoot = root;
     }
-    root.render(component);
+    root.render(<div key={slideRunKey(rootElement)} style={{ display: 'contents' }}>{component}</div>);
   } catch (e) {
     try {
       const root = ReactDOM.createRoot(rootElement);
@@ -415,64 +439,64 @@ function syncSlideVisibility() {
     : (slide3?.hasAttribute('data-deck-active') ?? false);
 
   const isSlide5 = (stage && stage._index !== undefined)
-    ? stage._index === 4
+    ? stage._index === 5
     : (slide5?.hasAttribute('data-deck-active') ?? false);
 
   const isSlide6 = (stage && stage._index !== undefined)
-    ? stage._index === 5
+    ? stage._index === 6
     : (slide6?.hasAttribute('data-deck-active') ?? false);
 
   const isSlide7 = (stage && stage._index !== undefined)
-    ? stage._index === 6
+    ? stage._index === 7
     : (slide7?.hasAttribute('data-deck-active') ?? false);
 
   const isSlide9 = (stage && stage._index !== undefined)
-    ? stage._index === 8
+    ? stage._index === 9
     : (slide9?.hasAttribute('data-deck-active') ?? false);
 
   const isSlide10 = (stage && stage._index !== undefined)
-    ? stage._index === 9
+    ? stage._index === 10
     : (slide10?.hasAttribute('data-deck-active') ?? false);
 
   const isSlide11 = (stage && stage._index !== undefined)
-    ? stage._index === 10
+    ? stage._index === 11
     : (slide11?.hasAttribute('data-deck-active') ?? false);
 
   const isSlide12 = (stage && stage._index !== undefined)
-    ? stage._index === 11
+    ? stage._index === 12
     : (slide12?.hasAttribute('data-deck-active') ?? false);
 
   const isSlide13 = (stage && stage._index !== undefined)
-    ? stage._index === 12
+    ? stage._index === 13
     : (slide13?.hasAttribute('data-deck-active') ?? false);
 
   const isSlide14 = (stage && stage._index !== undefined)
-    ? stage._index === 13
+    ? stage._index === 14
     : (slide14?.hasAttribute('data-deck-active') ?? false);
 
   const isSlide15 = (stage && stage._index !== undefined)
-    ? stage._index === 14
+    ? stage._index === 15
     : (slide15?.hasAttribute('data-deck-active') ?? false);
 
   const isSlide16 = (stage && stage._index !== undefined)
-    ? stage._index === 15
+    ? stage._index === 16
     : (slide16?.hasAttribute('data-deck-active') ?? false);
 
   const isSlide17 = (stage && stage._index !== undefined)
-    ? stage._index === 16
+    ? stage._index === 17
     : (slide17?.hasAttribute('data-deck-active') ?? false);
 
   const isSlide18 = (stage && stage._index !== undefined)
-    ? stage._index === 17
+    ? stage._index === 18
     : (slide18?.hasAttribute('data-deck-active') ?? false);
 
   const isSlide19 = (stage && stage._index !== undefined)
-    ? stage._index === 18
+    ? stage._index === 19
     : (slide19?.hasAttribute('data-deck-active') ?? false);
 
   const slide20 = document.querySelector('section[data-screen-label="20"]');
   const isSlide20 = (stage && stage._index !== undefined)
-    ? stage._index === 19
+    ? stage._index === 20
     : (slide20?.hasAttribute('data-deck-active') ?? false);
 
   const isExportAll = typeof document !== 'undefined' && document.body.classList.contains('export-all-active');

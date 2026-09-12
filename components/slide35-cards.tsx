@@ -62,7 +62,7 @@ export default function Slide35Cards({ isActive = true, className }: Slide35Card
                 Dx → 18m → 3a → 5a → 8a; depois 8a → 10a → 12a → 15a → 18a.
               </p>
             </div>
-            <span className="text-[16px] text-zinc-400 italic mt-1 block">Exemplo — calendário flexível.</span>
+            <span className="text-[16px] text-zinc-400 italic mt-1 block">Exemplo: calendário flexível.</span>
           </div>
 
           <div className="p-2.5 rounded-xl bg-[#f8f9fa] border border-black/[0.04] flex flex-col justify-between">
@@ -106,7 +106,7 @@ export default function Slide35Cards({ isActive = true, className }: Slide35Card
             </span>
           </div>
           <h4 className="text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight">
-            Gatilhos de Proteção e Urgência
+            Gatilhos de proteção e urgência
           </h4>
           <p className="text-[16px] font-medium text-zinc-300 mt-1 leading-snug">
             Situações que sobrepõem qualquer agendamento e exigem suporte ágil:

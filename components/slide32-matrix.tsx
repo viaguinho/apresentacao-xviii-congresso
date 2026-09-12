@@ -29,7 +29,7 @@ const PHASES = [
     color: "#4b6b4f",
     bgLight: "rgba(75, 107, 79, 0.08)",
     question: "“Está construindo as bases para aprender, comunicar-se e regular-se?”",
-    focus: "Linguagem, Comportamento e Família",
+    focus: "Linguagem, comportamento e família",
     milestone: "Diagnóstico, 18m, 3 e 5 anos"
   },
   {
@@ -42,7 +42,7 @@ const PHASES = [
     color: "#2563eb",
     bgLight: "rgba(37, 99, 235, 0.08)",
     question: "“Está conseguindo aprender, participar e pertencer?”",
-    focus: "Cognição, Socialização e Bullying",
+    focus: "Cognição, socialização e bullying",
     milestone: "8 e 10 anos"
   },
   {
@@ -55,7 +55,7 @@ const PHASES = [
     color: "#4f46e5",
     bgLight: "rgba(79, 70, 229, 0.08)",
     question: "“Como integra a condição à forma como se percebe?”",
-    focus: "Autoestima, Imagem Corporal e Amizades",
+    focus: "Autoestima, imagem corporal e amizades",
     milestone: "12 e 15 anos"
   },
   {
@@ -68,7 +68,7 @@ const PHASES = [
     color: "#0284c7",
     bgLight: "rgba(2, 132, 199, 0.08)",
     question: "“Está construindo autonomia e identidade além da condição?”",
-    focus: "Autonomia, Decisões e Futuro",
+    focus: "Autonomia, decisões e futuro",
     milestone: "18, 20 e 25 anos"
   }
 ];
@@ -235,7 +235,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
         <div className="grid grid-cols-[330px_repeat(4,1fr)] gap-x-2.5 items-end px-2 pb-2 border-b border-black/[0.08]">
           <div className="flex items-center gap-2">
             <span className="text-[14px] font-bold uppercase tracking-[0.14em] text-[#5f6062]">
-              Domínios e Linhas de Cuidado
+              Domínios e linhas de cuidado
             </span>
           </div>
 
@@ -392,7 +392,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
             <div className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-[#4b6b4f] animate-pulse" />
               <span className="text-[15px] font-bold uppercase tracking-[0.12em] text-[#5f6062]">
-                Hub de Fases · Eixo 6
+                Hub de fases · Eixo 6
               </span>
             </div>
 
@@ -544,7 +544,7 @@ export default function Slide32Matrix({ isActive = true }: Slide32MatrixProps) {
             <span>maior</span>
           </div>
           <p className="m-0 mt-1.5 text-[14px] leading-[1.35] text-[#5f6062]">
-            Escala qualitativa — sem valores numéricos.
+            Escala qualitativa, sem valores numéricos.
           </p>
         </div>
 

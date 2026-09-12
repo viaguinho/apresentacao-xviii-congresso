@@ -84,7 +84,7 @@ export default function AdvancedStats({ isActive = true, className }: AdvancedSt
               <div>
                 <div className="flex items-center justify-between mb-2">
                   <span className="text-[14px] font-bold uppercase tracking-[0.1em] text-[#e07a5f] bg-[#b5563a]/25 px-2.5 py-0.5 rounded-full border border-[#b5563a]/40">
-                    Tese Central · Eixo 3
+                    Tese central · Eixo 3
                   </span>
                   <Sparkles className="w-3.5 h-3.5 text-[#e07a5f]" />
                 </div>
@@ -102,7 +102,7 @@ export default function AdvancedStats({ isActive = true, className }: AdvancedSt
                     Recurso Permanente
                   </span>
                   <span className="text-[14px] font-bold uppercase tracking-wide text-[#e07a5f] bg-[#b5563a]/25 px-2 py-0.5 rounded border border-[#b5563a]/35">
-                    Ao Longo de Toda a Vida
+                    Ao longo de toda a vida
                   </span>
                 </div>
                 <div className="w-full h-2 bg-white/10 rounded-full overflow-hidden p-0.5">
@@ -114,7 +114,7 @@ export default function AdvancedStats({ isActive = true, className }: AdvancedSt
               </div>
             </TimelineAnimation>
 
-            {/* Card Inferior: As Três Vias Familiares (Morris et al.) */}
+            {/* Card Inferior: As Três vias familiares (Morris et al.) */}
             <TimelineAnimation
               animationNum={3}
               timelineRef={timelineRef}
@@ -127,7 +127,7 @@ export default function AdvancedStats({ isActive = true, className }: AdvancedSt
                 </div>
                 <div>
                   <h4 className="font-bold text-[20px] text-zinc-900 font-['Urbanist',sans-serif] leading-tight">
-                    Três Vias Familiares
+                    Três vias familiares
                   </h4>
                   <span className="text-[14px] text-zinc-500 font-medium">Morris et al. (2007)</span>
                 </div>

@@ -123,7 +123,7 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
     {
       id: "positive",
       name: "Superação",
-      fullName: "Superação / Adaptação Positiva",
+      fullName: "Superação / adaptação positiva",
       color: "#0071e3",
       dPath: "M 80,195 C 150,120 230,50 415,35",
       areaPath: "M 80,195 C 150,120 230,50 415,35 L 415,245 L 80,245 Z",
@@ -203,7 +203,7 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
             </div>
 
             <h3 className="text-[27px] font-bold tracking-tight text-[#0f1012] leading-tight mt-1.5">
-              Mesmo Risco, Trajetórias Diferentes
+              Mesmo risco, trajetórias diferentes
             </h3>
             <p className="text-[18px] font-medium text-[#5f6062] mt-1 leading-snug">
               O impacto do risco diverge conforme os recursos protetores e o momento da intervenção.
@@ -261,29 +261,42 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
                 </text>
               </g>
 
-              {/* Áreas preenchidas */}
-              <path d={trajectories[0].areaPath} fill="url(#gradPositivo)" opacity={selectedTrajectory === null || selectedTrajectory === "positive" ? 1 : 0.15} />
-              <path d={trajectories[1].areaPath} fill="url(#gradRecuperacao)" opacity={selectedTrajectory === null || selectedTrajectory === "recovery" ? 1 : 0.15} />
-              <path d={trajectories[2].areaPath} fill="url(#gradCumulativo)" opacity={selectedTrajectory === null || selectedTrajectory === "cumulative" ? 1 : 0.15} />
+              {/* Áreas preenchidas (entram depois que a curva é desenhada) */}
+              {[["gradPositivo", "positive"], ["gradRecuperacao", "recovery"], ["gradCumulativo", "cumulative"]].map(([grad, id], i) => (
+                <motion.path
+                  key={grad}
+                  d={trajectories[i].areaPath}
+                  fill={`url(#${grad})`}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: selectedTrajectory === null || selectedTrajectory === id ? 1 : 0.15 }}
+                  transition={{ duration: 0.5, delay: 0.75 + i * 0.12 }}
+                />
+              ))}
 
               {/* Curvas Vetoriais */}
-              <path
+              <motion.path
                 d={trajectories[0].dPath}
                 fill="none"
                 stroke="#0071e3"
                 strokeWidth={selectedTrajectory === "positive" ? "3.8" : "3"}
                 strokeLinecap="round"
                 className="transition-all duration-300"
+                initial={{ pathLength: 0 }}
+                animate={{ pathLength: 1 }}
+                transition={{ duration: 1.1, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
               />
-              <path
+              <motion.path
                 d={trajectories[1].dPath}
                 fill="none"
                 stroke="#0f1012"
                 strokeWidth={selectedTrajectory === "recovery" ? "3.8" : "2.5"}
                 strokeLinecap="round"
                 className="transition-all duration-300"
+                initial={{ pathLength: 0 }}
+                animate={{ pathLength: 1 }}
+                transition={{ duration: 1.1, delay: 0.27, ease: [0.16, 1, 0.3, 1] }}
               />
-              <path
+              <motion.path
                 d={trajectories[2].dPath}
                 fill="none"
                 stroke="#64748b"
@@ -291,6 +304,9 @@ export default function Slide12Resilience({ isActive = true }: Slide12Resilience
                 strokeLinecap="round"
                 strokeDasharray="5 3"
                 className="transition-all duration-300"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.8, delay: 0.39 }}
               />
 
               {/* Ponto de Início: Desafio */}

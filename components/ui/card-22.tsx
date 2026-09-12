@@ -14,7 +14,7 @@ export interface CognitivePlaceCardProps extends Omit<HTMLMotionProps<"div">, "t
 }
 
 export const CognitivePlaceCard = ({
-  title = "Atenção, Memória & Linguagem",
+  title = "Atenção, memória e linguagem",
   subtitle = "Associação bidirecional • Primeira Infância",
   overviewHeading = "Síntese Científica",
   overview = "Já no primeiro ano ocorrem mudanças importantes em atenção sustentada e seletiva, acompanhadas de melhora em reconhecimento e em formas iniciais de memória de trabalho. Linguagem e funções executivas desenvolvem-se de modo associado, sem direção causal única.",

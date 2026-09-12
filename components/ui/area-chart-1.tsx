@@ -1,7 +1,8 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Activity, TrendingUp, Sparkles } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { Activity, TrendingUp } from 'lucide-react';
 
 export interface ChartDataPoint {
   age: string;
@@ -103,7 +104,7 @@ export const IncidentReportCard: React.FC = () => {
         </div>
 
         <h3 className="text-[26px] font-semibold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
-          Maturação das Funções Executivas
+          Maturação das funções executivas
         </h3>
         <p className="text-[17px] font-medium text-[#5f6062] mt-1 mb-3">
           Trajetórias normativas de maturação neurocognitiva observadas entre 8 e 35 anos.
@@ -246,7 +247,7 @@ export const IncidentReportCard: React.FC = () => {
           })}
 
           {/* Curvas Bézier das 3 Séries */}
-          {SERIES.map((s) => {
+          {SERIES.map((s, si) => {
             const pts = s.data.map((val, i) => ({ x: getX(i), y: getY(val) }));
             const bezier = getBezierPath(pts);
             const isDimmed = hoveredSeries && hoveredSeries !== s.id;
@@ -262,16 +263,18 @@ export const IncidentReportCard: React.FC = () => {
                 className="transition-opacity duration-300"
                 style={{ opacity: isDimmed ? 0.25 : 1 }}
               >
-                {/* Preenchimento de Área Suave */}
-                <path
+                {/* Preenchimento de Área Suave (entra depois do traço ser desenhado) */}
+                <motion.path
                   d={areaPath}
                   fill={`url(#area-${s.id})`}
-                  opacity={isHovered ? 0.85 : 0.4}
                   className="transition-opacity duration-300"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: isHovered ? 0.85 : 0.4 }}
+                  transition={{ duration: 0.6, delay: 0.5 + si * 0.12 }}
                 />
 
-                {/* Traço Principal com Gradiente */}
-                <path
+                {/* Traço Principal com Gradiente (desenhado da esquerda para a direita) */}
+                <motion.path
                   d={bezier}
                   fill="none"
                   stroke={`url(#${s.gradientId})`}
@@ -279,6 +282,9 @@ export const IncidentReportCard: React.FC = () => {
                   strokeLinecap="round"
                   filter={isHovered ? 'url(#lineGlow)' : undefined}
                   className="transition-all duration-300"
+                  initial={{ pathLength: 0 }}
+                  animate={{ pathLength: 1 }}
+                  transition={{ duration: 1.1, delay: 0.15 + si * 0.12, ease: [0.16, 1, 0.3, 1] }}
                 />
 
                 {/* Nós Luminosos Multicamadas Estilo Slide 11 */}
@@ -288,10 +294,13 @@ export const IncidentReportCard: React.FC = () => {
                   const isKeyMilestone = i === 0 || i === 2 || i === 4 || i === 6; // 8a, 14a, 20a, 35a
 
                   return (
-                    <g
+                    <motion.g
                       key={i}
                       transform={`translate(${pt.x}, ${pt.y})`}
                       className="cursor-pointer"
+                      initial={{ opacity: 0, scale: 0.4 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      transition={{ duration: 0.3, delay: 0.6 + si * 0.12 + i * 0.05 }}
                       onMouseEnter={() => {
                         setHoveredPoint({ series: s.id, index: i });
                         setHoveredSeries(s.id);
@@ -343,7 +352,7 @@ export const IncidentReportCard: React.FC = () => {
                           </text>
                         </g>
                       )}
-                    </g>
+                    </motion.g>
                   );
                 })}
               </g>

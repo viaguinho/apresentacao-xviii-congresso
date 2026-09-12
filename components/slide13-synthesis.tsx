@@ -267,7 +267,7 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
           <div className="p-2.5 rounded-2xl bg-[#f8f9fa] border border-black/[0.04] mt-1 flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-[#0071e3] shrink-0" />
             <p className="m-0 text-[17px] font-semibold text-[#0f1012] leading-snug">
-              Um ponto informa posição — não direção.
+              Um ponto informa posição, não direção.
             </p>
           </div>
         </motion.div>
@@ -414,7 +414,7 @@ export default function Slide13Synthesis({ isActive = true }: Slide13SynthesisPr
                 Contexto
               </span>
               <span className="text-[14px] font-semibold text-[#5f6062]">
-                Ecossistema Dinâmico
+                Ecossistema dinâmico
               </span>
             </div>
             <h3 className="text-[23px] font-bold tracking-tight text-[#0f1012] font-['Urbanist',sans-serif] leading-tight mt-1">

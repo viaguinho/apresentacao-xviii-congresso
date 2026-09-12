@@ -47,7 +47,7 @@ export default function Slide31Cards({ isActive = true, className }: Slide31Card
             </span>
           </div>
           <h4 className="text-[21px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight">
-            Na Adolescência, Tratar É Compartilhar Decisões
+            Na adolescência, tratar é compartilhar decisões
           </h4>
           <p className="text-[16px] font-medium text-zinc-300 mt-1 leading-snug">
             Três perspectivas distintas que necessitam de alinhamento e escuta mútua:
@@ -94,7 +94,7 @@ export default function Slide31Cards({ isActive = true, className }: Slide31Card
         <div className="flex items-center justify-between pt-2 border-t border-zinc-800 relative z-10">
           <span className="text-[16px] font-semibold text-zinc-400">Princípio decisório:</span>
           <span className="text-[16px] font-bold text-[#f8d7dc] bg-[#8a2f3f]/25 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/35">
-            Autonomia Crescente ≠ Decidir Sozinho
+            Autonomia crescente ≠ decidir sozinho
           </span>
         </div>
       </motion.div>
@@ -118,7 +118,7 @@ export default function Slide31Cards({ isActive = true, className }: Slide31Card
             </span>
           </div>
           <h4 className="text-[21px] font-bold text-[#0f1012] tracking-tight font-['Urbanist',sans-serif] leading-tight">
-            A Psicologia no Processo Decisório
+            A psicologia no processo decisório
           </h4>
           <p className="text-[16px] text-[#5f6062] mt-0.5">
             Papel de escuta clínica, alinhamento de expectativas e mediação reflexiva:
@@ -140,7 +140,7 @@ export default function Slide31Cards({ isActive = true, className }: Slide31Card
         {/* Nota de Alerta Ético / Delimitação de Função */}
         <div className="p-2.5 rounded-2xl bg-[#fdf5f6] border border-[#8a2f3f]/20 my-1">
           <p className="text-[16px] text-[#8a2f3f] font-semibold m-0 leading-snug">
-            Sem atribuir à Psicologia a função de autorizar ou vetar cirurgia — a escuta apoia a deliberação conjunta.
+            Sem atribuir à Psicologia a função de autorizar ou vetar cirurgia: a escuta apoia a deliberação conjunta.
           </p>
         </div>
 

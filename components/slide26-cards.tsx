@@ -62,7 +62,7 @@ export default function Slide26Cards({ isActive = true, className }: Slide26Card
           <div className="space-y-2">
             <div>
               <h3 className="text-[24px] font-bold tracking-tight text-[#0f1012] leading-tight font-['Urbanist',sans-serif]">
-                O Risco Social Está na Interação — Não Apenas na Face
+                O risco social está na interação, não apenas na face
               </h3>
               <p className="text-[16px] font-semibold text-[#6b4e83] mt-0.5">
                 Visibilidade isolada ≠ rejeição imediata · Mediação relacional do estigma
@@ -84,7 +84,7 @@ export default function Slide26Cards({ isActive = true, className }: Slide26Card
               <div className="p-2.5 rounded-2xl bg-emerald-50/80 border border-emerald-200/70 text-left">
                 <div className="flex items-center gap-1 text-emerald-700 mb-0.5">
                   <ShieldCheck className="w-3.5 h-3.5" />
-                  <span className="text-[14px] font-bold uppercase tracking-wider">Ter um Bom Amigo</span>
+                  <span className="text-[14px] font-bold uppercase tracking-wider">Ter um bom amigo</span>
                 </div>
                 <p className="text-[16px] font-semibold text-emerald-900 leading-snug">
                   Fator protetor: prediz menor dificuldade psicossocial
@@ -138,7 +138,7 @@ export default function Slide26Cards({ isActive = true, className }: Slide26Card
             <div className="flex items-center gap-1.5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[14px] font-bold uppercase tracking-wider bg-purple-500/10 text-purple-300 border border-purple-500/25">
                 <CheckCircle2 className="w-4 h-4 text-purple-400" />
-                Diretriz do Protocolo de Psicologia
+                Diretriz do protocolo de psicologia
               </span>
             </div>
           </div>
@@ -147,10 +147,10 @@ export default function Slide26Cards({ isActive = true, className }: Slide26Card
           <div className="space-y-2">
             <div>
               <h3 className="text-[24px] font-bold tracking-tight text-white leading-tight font-['Urbanist',sans-serif]">
-                Protocolo Social — Investigar Ativamente em Cada Fase
+                Protocolo social: investigar ativamente em cada fase
               </h3>
               <p className="text-[16px] font-semibold text-purple-300 mt-0.5">
-                Não presumir estigma — mas perguntar ativamente e sistematicamente sobre ele
+                Não presumir estigma, mas perguntar ativamente e sistematicamente sobre ele
               </p>
             </div>
 
@@ -171,7 +171,7 @@ export default function Slide26Cards({ isActive = true, className }: Slide26Card
               </div>
 
               <p className="text-[16px] text-zinc-300 leading-snug font-normal mt-2">
-                Avaliar o ecossistema social da criança é tão crucial quanto o acompanhamento cirúrgico e anatômico: a qualidade das interações e a proteção contra o estigma determinam a trajetória de adaptação.
+                Avaliar o ecossistema social da criança é tão importante quanto o acompanhamento cirúrgico e anatômico: a qualidade das interações e a proteção contra o estigma determinam a trajetória de adaptação.
               </p>
             </div>
           </div>
@@ -184,7 +184,7 @@ export default function Slide26Cards({ isActive = true, className }: Slide26Card
             </div>
 
             <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-purple-500/20 text-purple-200 border border-purple-500/30 text-[16px] font-bold shadow-xs">
-              <span>Perguntar em Cada Fase</span>
+              <span>Perguntar em cada fase</span>
             </div>
           </div>
         </div>

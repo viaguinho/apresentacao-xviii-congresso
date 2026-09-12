@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Activity } from "lucide-react"
+import {  } from "lucide-react"
 import { CognitivePlaceCard } from "@/components/ui/card-22"
 
 interface Slide15CognitiveCardProps {
@@ -18,7 +18,7 @@ export default function Slide15CognitiveCard({ isActive = true }: Slide15Cogniti
     >
       <CognitivePlaceCard
         className="w-full"
-        title="Atenção, Memória & Linguagem"
+        title="Atenção, memória e linguagem"
         subtitle="Associação bidirecional • Primeira Infância"
         overviewHeading="Síntese Científica"
         overview="Já no primeiro ano ocorrem mudanças importantes em atenção sustentada e seletiva, acompanhadas de melhora em reconhecimento e em formas iniciais de memória de trabalho. Linguagem e funções executivas desenvolvem-se de modo associado, sem direção causal única."

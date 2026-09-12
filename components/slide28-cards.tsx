@@ -6,7 +6,6 @@ import {
   GraduationCap,
   Scale,
   Clock,
-  Sparkles,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -43,7 +42,7 @@ export default function Slide28Cards({
           <div className="absolute top-0 right-1/4 w-80 h-32 bg-[#8a2f3f]/15 rounded-full blur-3xl pointer-events-none group-hover:bg-[#8a2f3f]/25 transition-all duration-500" />
 
           {/* -----------------------------------------------------------------------
-              SEÇÃO 1: Audição, Fala e Linguagem
+              SEÇÃO 1: Audição, fala e linguagem
               ----------------------------------------------------------------------- */}
           <div className="flex-1 min-w-0 px-4 py-3 flex flex-col justify-between relative z-10">
             <div>
@@ -64,7 +63,7 @@ export default function Slide28Cards({
 
               {/* Título Principal */}
               <h4 className="text-[19px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight">
-                Audição, Fala e Linguagem
+                Audição, fala e linguagem
               </h4>
 
               {/* Métrica em Linha com Respiração */}
@@ -149,7 +148,7 @@ export default function Slide28Cards({
           </div>
 
           {/* -----------------------------------------------------------------------
-              SEÇÃO 3: O Tratamento Tem Carga
+              SEÇÃO 3: O tratamento tem carga
               ----------------------------------------------------------------------- */}
           <div className="flex-1 min-w-0 px-4 py-3 flex flex-col justify-between relative z-10">
             <div>
@@ -170,7 +169,7 @@ export default function Slide28Cards({
 
               {/* Título Principal */}
               <h4 className="text-[19px] font-bold tracking-tight text-white font-['Urbanist',sans-serif] leading-tight">
-                O Tratamento Tem Carga
+                O tratamento tem carga
               </h4>
 
               {/* Contraste Carga vs Ganhos */}
@@ -231,7 +230,7 @@ export default function Slide28Cards({
                 </span>
               </div>
               <span className="text-[14px] font-bold text-[#e8909c] bg-[#8a2f3f]/20 px-2.5 py-0.5 rounded-full border border-[#8a2f3f]/35 uppercase tracking-wider shrink-0">
-                O Timing Importa
+                O timing importa
               </span>
             </div>
 
