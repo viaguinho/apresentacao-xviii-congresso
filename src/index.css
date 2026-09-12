@@ -192,3 +192,31 @@
   z-index: 4;
 }
 
+
+/* ==========================================================================
+   Print / Export to PDF Styles
+   ========================================================================== */
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 0;
+  }
+  
+  body, html {
+    width: 100% !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+  
+  section[data-screen-label] {
+    page-break-after: always !important;
+    break-after: page !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    position: relative !important;
+    display: flex !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    overflow: hidden !important;
+  }
+}

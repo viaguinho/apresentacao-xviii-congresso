@@ -1,6 +1,7 @@
 /// <reference types="vite/client" />
 import type { ReactNode } from 'react'
 import ReactDOM from 'react-dom/client'
+import { MotionConfig } from 'framer-motion'
 import DemoOne from '../components/demo'
 import Slide5ConceptCards from '../components/slide5-cards'
 import Slide6MethodTimeline from '../components/slide6-timeline'
@@ -84,6 +85,8 @@ function slideRunKey(rootElement: HTMLElement): number {
 }
 
 function mountReactRoot(rootElement: HTMLElement | null, component: ReactNode, name: string) {
+  const isPrintMode = typeof window !== 'undefined' && new URLSearchParams(window.location.search).get('print') === 'true';
+  const wrappedComponent = isPrintMode ? <MotionConfig transition={{ duration: 0 }}>{component}</MotionConfig> : component;
   if (!rootElement) return;
   try {
     rootElement.setAttribute('data-mounted', 'true');
@@ -92,12 +95,12 @@ function mountReactRoot(rootElement: HTMLElement | null, component: ReactNode, n
       root = ReactDOM.createRoot(rootElement);
       (rootElement as any)._reactRoot = root;
     }
-    root.render(<div key={slideRunKey(rootElement)} style={{ display: 'contents' }}>{component}</div>);
+    root.render(<div key={slideRunKey(rootElement)} style={{ display: 'contents' }}>{wrappedComponent}</div>);
   } catch (e) {
     try {
       const root = ReactDOM.createRoot(rootElement);
       (rootElement as any)._reactRoot = root;
-      root.render(component);
+      root.render(wrappedComponent);
     } catch (err) {
       console.error(`[${name}] Mount error:`, err);
     }
@@ -590,6 +593,9 @@ function syncSlideVisibility() {
 }
 
 if (typeof window !== 'undefined') {
+  if (new URLSearchParams(window.location.search).get('print') === 'true') {
+    document.body.classList.add('export-all-active');
+  }
   (window as any).initSlide3HaloReel = mountHaloReel;
   (window as any).initSlide5ConceptCards = mountSlide5;
   (window as any).initSlide6Timeline = mountSlide6;
