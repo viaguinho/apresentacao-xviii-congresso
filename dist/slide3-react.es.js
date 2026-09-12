@@ -16022,959 +16022,951 @@ var ep = ({ className: e }) => /* @__PURE__ */ (0, B.jsxs)("svg", {
 			}, e.id))
 		})
 	]
-}), up = () => {
-	let [e, t] = b.useState(1);
-	return b.useEffect(() => {
-		let n = (n) => {
-			n.key === "ArrowRight" || n.key === "PageDown" || n.key === " " ? e < 3 && (n.stopPropagation(), n.preventDefault(), t((e) => e + 1)) : (n.key === "ArrowLeft" || n.key === "PageUp") && e > 1 && (n.stopPropagation(), n.preventDefault(), t((e) => e - 1));
-		};
-		return window.addEventListener("keydown", n, { capture: !0 }), () => window.removeEventListener("keydown", n, { capture: !0 });
-	}, [e]), /* @__PURE__ */ (0, B.jsxs)("div", {
-		className: "w-full grid gap-6 h-full items-stretch",
-		style: { gridTemplateColumns: "0.94fr 1.03fr 1.03fr" },
-		children: [
-			e >= 1 && /* @__PURE__ */ (0, B.jsx)(lp, {
-				title: "Multidimensional",
-				subtitle: "cognição, linguagem, comportamento, emoções, habilidades sociais",
-				metrics: [
-					{
-						id: "m1",
-						Icon: ep,
-						label: "Domínios Centrais",
-						tooltip: "Cinco eixos articulados no desenvolvimento infantil",
-						value: "5 Eixos",
-						delay: .1
-					},
-					{
-						id: "m2",
-						Icon: tp,
-						label: "Interconectividade",
-						tooltip: "Nível de influência mútua entre as dimensões",
-						value: "Sistêmica",
-						delay: .15
-					},
-					{
-						id: "m3",
-						Icon: np,
-						label: "Avaliação Clínica",
-						tooltip: "Necessidade de abordagem abrangente e integrada",
-						value: "Global",
-						delay: .2
-					}
-				],
-				delay: .05,
-				children: /* @__PURE__ */ (0, B.jsx)("div", {
-					className: "w-full h-full min-h-[285px] flex items-center justify-center p-1",
-					children: /* @__PURE__ */ (0, B.jsxs)("svg", {
-						viewBox: "0 0 460 265",
-						className: "w-full h-full overflow-visible",
-						"aria-label": "Diagrama radial multidimensional do desenvolvimento",
-						children: [
-							/* @__PURE__ */ (0, B.jsxs)("defs", { children: [
-								/* @__PURE__ */ (0, B.jsx)("filter", {
-									id: "nodeShadow",
-									x: "-20%",
-									y: "-20%",
-									width: "140%",
-									height: "140%",
-									children: /* @__PURE__ */ (0, B.jsx)("feDropShadow", {
-										dx: "0",
-										dy: "4",
-										stdDeviation: "4",
-										floodColor: "#0f1012",
-										floodOpacity: "0.08"
-									})
-								}),
-								/* @__PURE__ */ (0, B.jsx)("filter", {
-									id: "hubShadow",
-									x: "-30%",
-									y: "-30%",
-									width: "160%",
-									height: "160%",
-									children: /* @__PURE__ */ (0, B.jsx)("feDropShadow", {
-										dx: "0",
-										dy: "8",
-										stdDeviation: "8",
-										floodColor: "#0071e3",
-										floodOpacity: "0.14"
-									})
-								}),
-								/* @__PURE__ */ (0, B.jsxs)("linearGradient", {
-									id: "grad-cognicao",
-									x1: "230",
-									y1: "106",
-									x2: "230",
-									y2: "74",
-									gradientUnits: "userSpaceOnUse",
-									children: [/* @__PURE__ */ (0, B.jsx)("stop", {
-										offset: "0%",
-										stopColor: "#0071e3",
-										stopOpacity: "0.35"
-									}), /* @__PURE__ */ (0, B.jsx)("stop", {
-										offset: "100%",
-										stopColor: "#0071e3",
-										stopOpacity: "1"
-									})]
-								}),
-								/* @__PURE__ */ (0, B.jsxs)("linearGradient", {
-									id: "grad-linguagem",
-									x1: "264",
-									y1: "130",
-									x2: "338",
-									y2: "100",
-									gradientUnits: "userSpaceOnUse",
-									children: [/* @__PURE__ */ (0, B.jsx)("stop", {
-										offset: "0%",
-										stopColor: "#0071e3",
-										stopOpacity: "0.35"
-									}), /* @__PURE__ */ (0, B.jsx)("stop", {
-										offset: "100%",
-										stopColor: "#5B14C5",
-										stopOpacity: "1"
-									})]
-								}),
-								/* @__PURE__ */ (0, B.jsxs)("linearGradient", {
-									id: "grad-emocoes",
-									x1: "254",
-									y1: "168",
-									x2: "310",
-									y2: "202",
-									gradientUnits: "userSpaceOnUse",
-									children: [/* @__PURE__ */ (0, B.jsx)("stop", {
-										offset: "0%",
-										stopColor: "#0071e3",
-										stopOpacity: "0.35"
-									}), /* @__PURE__ */ (0, B.jsx)("stop", {
-										offset: "100%",
-										stopColor: "#E84045",
-										stopOpacity: "1"
-									})]
-								}),
-								/* @__PURE__ */ (0, B.jsxs)("linearGradient", {
-									id: "grad-comportamento",
-									x1: "206",
-									y1: "168",
-									x2: "150",
-									y2: "202",
-									gradientUnits: "userSpaceOnUse",
-									children: [/* @__PURE__ */ (0, B.jsx)("stop", {
-										offset: "0%",
-										stopColor: "#0071e3",
-										stopOpacity: "0.35"
-									}), /* @__PURE__ */ (0, B.jsx)("stop", {
-										offset: "100%",
-										stopColor: "#0f1012",
-										stopOpacity: "1"
-									})]
-								}),
-								/* @__PURE__ */ (0, B.jsxs)("linearGradient", {
-									id: "grad-sociais",
-									x1: "196",
-									y1: "130",
-									x2: "122",
-									y2: "100",
-									gradientUnits: "userSpaceOnUse",
-									children: [/* @__PURE__ */ (0, B.jsx)("stop", {
-										offset: "0%",
-										stopColor: "#0071e3",
-										stopOpacity: "0.35"
-									}), /* @__PURE__ */ (0, B.jsx)("stop", {
-										offset: "100%",
-										stopColor: "#40E5D1",
-										stopOpacity: "1"
-									})]
+}), up = () => /* @__PURE__ */ (0, B.jsxs)("div", {
+	className: "w-full grid gap-6 h-full items-stretch",
+	style: { gridTemplateColumns: "0.94fr 1.03fr 1.03fr" },
+	children: [
+		/* @__PURE__ */ (0, B.jsx)(lp, {
+			title: "Multidimensional",
+			subtitle: "cognição, linguagem, comportamento, emoções, habilidades sociais",
+			metrics: [
+				{
+					id: "m1",
+					Icon: ep,
+					label: "Domínios Centrais",
+					tooltip: "Cinco eixos articulados no desenvolvimento infantil",
+					value: "5 Eixos",
+					delay: .1
+				},
+				{
+					id: "m2",
+					Icon: tp,
+					label: "Interconectividade",
+					tooltip: "Nível de influência mútua entre as dimensões",
+					value: "Sistêmica",
+					delay: .15
+				},
+				{
+					id: "m3",
+					Icon: np,
+					label: "Avaliação Clínica",
+					tooltip: "Necessidade de abordagem abrangente e integrada",
+					value: "Global",
+					delay: .2
+				}
+			],
+			delay: .05,
+			children: /* @__PURE__ */ (0, B.jsx)("div", {
+				className: "w-full h-full min-h-[285px] flex items-center justify-center p-1",
+				children: /* @__PURE__ */ (0, B.jsxs)("svg", {
+					viewBox: "0 0 460 265",
+					className: "w-full h-full overflow-visible",
+					"aria-label": "Diagrama radial multidimensional do desenvolvimento",
+					children: [
+						/* @__PURE__ */ (0, B.jsxs)("defs", { children: [
+							/* @__PURE__ */ (0, B.jsx)("filter", {
+								id: "nodeShadow",
+								x: "-20%",
+								y: "-20%",
+								width: "140%",
+								height: "140%",
+								children: /* @__PURE__ */ (0, B.jsx)("feDropShadow", {
+									dx: "0",
+									dy: "4",
+									stdDeviation: "4",
+									floodColor: "#0f1012",
+									floodOpacity: "0.08"
 								})
-							] }),
-							/* @__PURE__ */ (0, B.jsx)("line", {
+							}),
+							/* @__PURE__ */ (0, B.jsx)("filter", {
+								id: "hubShadow",
+								x: "-30%",
+								y: "-30%",
+								width: "160%",
+								height: "160%",
+								children: /* @__PURE__ */ (0, B.jsx)("feDropShadow", {
+									dx: "0",
+									dy: "8",
+									stdDeviation: "8",
+									floodColor: "#0071e3",
+									floodOpacity: "0.14"
+								})
+							}),
+							/* @__PURE__ */ (0, B.jsxs)("linearGradient", {
+								id: "grad-cognicao",
 								x1: "230",
 								y1: "106",
 								x2: "230",
-								y2: "76",
-								stroke: "url(#grad-cognicao)",
-								strokeWidth: "2.8",
-								strokeLinecap: "round"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("line", {
-								x1: "262",
-								y1: "130",
-								x2: "338",
-								y2: "102",
-								stroke: "url(#grad-linguagem)",
-								strokeWidth: "2.8",
-								strokeLinecap: "round"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("line", {
-								x1: "254",
-								y1: "168",
-								x2: "308",
-								y2: "202",
-								stroke: "url(#grad-emocoes)",
-								strokeWidth: "2.8",
-								strokeLinecap: "round"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("line", {
-								x1: "206",
-								y1: "168",
-								x2: "152",
-								y2: "202",
-								stroke: "url(#grad-comportamento)",
-								strokeWidth: "2.8",
-								strokeLinecap: "round"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("line", {
-								x1: "198",
-								y1: "130",
-								x2: "122",
-								y2: "102",
-								stroke: "url(#grad-sociais)",
-								strokeWidth: "2.8",
-								strokeLinecap: "round"
-							}),
-							/* @__PURE__ */ (0, B.jsxs)("g", {
-								filter: "url(#hubShadow)",
-								children: [
-									/* @__PURE__ */ (0, B.jsx)("circle", {
-										cx: "230",
-										cy: "146",
-										r: "42",
-										fill: "#ffffff",
-										stroke: "#0071e3",
-										strokeWidth: "2.4"
-									}),
-									/* @__PURE__ */ (0, B.jsx)("circle", {
-										cx: "230",
-										cy: "146",
-										r: "48",
-										fill: "none",
-										stroke: "#0071e3",
-										strokeWidth: "1",
-										strokeOpacity: "0.15",
-										strokeDasharray: "3 3"
-									}),
-									/* @__PURE__ */ (0, B.jsx)("circle", {
-										cx: "230",
-										cy: "133",
-										r: "14",
-										fill: "#e8f2fc"
-									}),
-									/* @__PURE__ */ (0, B.jsxs)("g", {
-										transform: "translate(222, 125)",
-										children: [/* @__PURE__ */ (0, B.jsx)("path", {
-											d: "M12 14v-1.5a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3V14",
-											fill: "none",
-											stroke: "#0071e3",
-											strokeWidth: "1.8",
-											strokeLinecap: "round",
-											strokeLinejoin: "round"
-										}), /* @__PURE__ */ (0, B.jsx)("circle", {
-											cx: "8",
-											cy: "4.5",
-											r: "2.8",
-											fill: "none",
-											stroke: "#0071e3",
-											strokeWidth: "1.8"
-										})]
-									}),
-									/* @__PURE__ */ (0, B.jsx)("text", {
-										x: "230",
-										y: "162",
-										textAnchor: "middle",
-										fontFamily: "'Urbanist', sans-serif",
-										fontSize: "15",
-										fontWeight: "800",
-										fill: "#0f1012",
-										letterSpacing: "0.08em",
-										children: "CRIANÇA"
-									})
-								]
-							}),
-							/* @__PURE__ */ (0, B.jsxs)("g", {
-								filter: "url(#nodeShadow)",
-								children: [/* @__PURE__ */ (0, B.jsx)("circle", {
-									cx: "230",
-									cy: "56",
-									r: "20",
-									fill: "#ffffff",
-									stroke: "#0071e3",
-									strokeWidth: "2"
-								}), /* @__PURE__ */ (0, B.jsxs)("g", {
-									transform: "translate(221, 47)",
-									children: [
-										/* @__PURE__ */ (0, B.jsx)("path", {
-											d: "M9 3a2.5 2.5 0 1 0-5 .1 3.2 3.2 0 0 0-2 4.6 3.2 3.2 0 0 0 .4 5.3A3.2 3.2 0 1 0 9 14Z",
-											fill: "none",
-											stroke: "#0071e3",
-											strokeWidth: "1.6"
-										}),
-										/* @__PURE__ */ (0, B.jsx)("path", {
-											d: "M9 3a2.5 2.5 0 1 1 5 .1 3.2 3.2 0 0 1 2 4.6 3.2 3.2 0 0 1-.4 5.3A3.2 3.2 0 1 1 9 14Z",
-											fill: "none",
-											stroke: "#0071e3",
-											strokeWidth: "1.6"
-										}),
-										/* @__PURE__ */ (0, B.jsx)("path", {
-											d: "M9 3v11",
-											stroke: "#0071e3",
-											strokeWidth: "1.6"
-										})
-									]
-								})]
-							}),
-							/* @__PURE__ */ (0, B.jsx)("text", {
-								x: "230",
-								y: "22",
-								textAnchor: "middle",
-								fontFamily: "'Satoshi', sans-serif",
-								fontSize: "15.5",
-								fontWeight: "600",
-								fill: "#0f1012",
-								children: "cognição"
-							}),
-							/* @__PURE__ */ (0, B.jsxs)("g", {
-								filter: "url(#nodeShadow)",
-								children: [/* @__PURE__ */ (0, B.jsx)("circle", {
-									cx: "356",
-									cy: "94",
-									r: "20",
-									fill: "#ffffff",
-									stroke: "#5B14C5",
-									strokeWidth: "2"
-								}), /* @__PURE__ */ (0, B.jsxs)("g", {
-									transform: "translate(346, 84)",
-									children: [
-										/* @__PURE__ */ (0, B.jsx)("path", {
-											d: "M17 3H5a3 3 0 0 0-3 3v6a3 3 0 0 0 3 3h1.5v3.2l3.8-3.2H17a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3Z",
-											fill: "none",
-											stroke: "#5B14C5",
-											strokeWidth: "1.7",
-											strokeLinecap: "round",
-											strokeLinejoin: "round"
-										}),
-										/* @__PURE__ */ (0, B.jsx)("line", {
-											x1: "6.5",
-											y1: "7.2",
-											x2: "14.5",
-											y2: "7.2",
-											stroke: "#5B14C5",
-											strokeWidth: "1.5",
-											strokeLinecap: "round"
-										}),
-										/* @__PURE__ */ (0, B.jsx)("line", {
-											x1: "6.5",
-											y1: "10.5",
-											x2: "11.5",
-											y2: "10.5",
-											stroke: "#5B14C5",
-											strokeWidth: "1.5",
-											strokeLinecap: "round"
-										})
-									]
-								})]
-							}),
-							/* @__PURE__ */ (0, B.jsx)("text", {
-								x: "384",
-								y: "99",
-								textAnchor: "start",
-								fontFamily: "'Satoshi', sans-serif",
-								fontSize: "15.5",
-								fontWeight: "600",
-								fill: "#0f1012",
-								children: "linguagem"
-							}),
-							/* @__PURE__ */ (0, B.jsxs)("g", {
-								filter: "url(#nodeShadow)",
-								children: [/* @__PURE__ */ (0, B.jsx)("circle", {
-									cx: "325",
-									cy: "214",
-									r: "20",
-									fill: "#ffffff",
-									stroke: "#E84045",
-									strokeWidth: "2"
-								}), /* @__PURE__ */ (0, B.jsx)("g", {
-									transform: "translate(316, 205)",
-									children: /* @__PURE__ */ (0, B.jsx)("path", {
-										d: "M15 11c1.2-1.2 2.4-2.6 2.4-4.4A4.4 4.4 0 0 0 13 2.4c-1.4 0-2.4.4-3.6 1.6-1.2-1.2-2.2-1.6-3.6-1.6A4.4 4.4 0 0 0 2.2 6.8c0 1.8 1.2 3.2 2.4 4.4L10 16.5Z",
-										fill: "none",
-										stroke: "#E84045",
-										strokeWidth: "1.6",
-										strokeLinecap: "round",
-										strokeLinejoin: "round"
-									})
-								})]
-							}),
-							/* @__PURE__ */ (0, B.jsx)("text", {
-								x: "325",
-								y: "249",
-								textAnchor: "middle",
-								fontFamily: "'Satoshi', sans-serif",
-								fontSize: "15.5",
-								fontWeight: "600",
-								fill: "#0f1012",
-								children: "emoções"
-							}),
-							/* @__PURE__ */ (0, B.jsxs)("g", {
-								filter: "url(#nodeShadow)",
-								children: [/* @__PURE__ */ (0, B.jsx)("circle", {
-									cx: "135",
-									cy: "214",
-									r: "20",
-									fill: "#ffffff",
-									stroke: "#0f1012",
-									strokeWidth: "2"
-								}), /* @__PURE__ */ (0, B.jsx)("g", {
-									transform: "translate(126, 205)",
-									children: /* @__PURE__ */ (0, B.jsx)("path", {
-										d: "M17 9h-3l-2.5 7.5L7.5 2 5 9H1",
-										fill: "none",
-										stroke: "#0f1012",
-										strokeWidth: "1.6",
-										strokeLinecap: "round",
-										strokeLinejoin: "round"
-									})
-								})]
-							}),
-							/* @__PURE__ */ (0, B.jsx)("text", {
-								x: "135",
-								y: "249",
-								textAnchor: "middle",
-								fontFamily: "'Satoshi', sans-serif",
-								fontSize: "15.5",
-								fontWeight: "600",
-								fill: "#0f1012",
-								children: "comportamento"
-							}),
-							/* @__PURE__ */ (0, B.jsxs)("g", {
-								filter: "url(#nodeShadow)",
-								children: [/* @__PURE__ */ (0, B.jsx)("circle", {
-									cx: "104",
-									cy: "94",
-									r: "20",
-									fill: "#ffffff",
-									stroke: "#40E5D1",
-									strokeWidth: "2"
-								}), /* @__PURE__ */ (0, B.jsxs)("g", {
-									transform: "translate(95, 85)",
-									children: [
-										/* @__PURE__ */ (0, B.jsx)("path", {
-											d: "M13 16v-1.5a3 3 0 0 0-3-3H5a3 3 0 0 0-3 3V16",
-											fill: "none",
-											stroke: "#40E5D1",
-											strokeWidth: "1.6",
-											strokeLinecap: "round",
-											strokeLinejoin: "round"
-										}),
-										/* @__PURE__ */ (0, B.jsx)("circle", {
-											cx: "7.5",
-											cy: "5.5",
-											r: "3",
-											fill: "none",
-											stroke: "#40E5D1",
-											strokeWidth: "1.6"
-										}),
-										/* @__PURE__ */ (0, B.jsx)("path", {
-											d: "M17 16v-1.5a3 3 0 0 0-2.3-2.9",
-											fill: "none",
-											stroke: "#40E5D1",
-											strokeWidth: "1.6",
-											strokeLinecap: "round",
-											strokeLinejoin: "round"
-										}),
-										/* @__PURE__ */ (0, B.jsx)("path", {
-											d: "M12.5 2.6a3 3 0 0 1 0 5.8",
-											fill: "none",
-											stroke: "#40E5D1",
-											strokeWidth: "1.6"
-										})
-									]
-								})]
-							}),
-							/* @__PURE__ */ (0, B.jsx)("text", {
-								x: "76",
-								y: "99",
-								textAnchor: "end",
-								fontFamily: "'Satoshi', sans-serif",
-								fontSize: "15.5",
-								fontWeight: "600",
-								fill: "#0f1012",
-								children: "hab. sociais"
-							})
-						]
-					})
-				})
-			}),
-			e >= 2 && /* @__PURE__ */ (0, B.jsx)(lp, {
-				title: "Dinâmico e não linear",
-				subtitle: "acelerações, platôs e reorganizações estruturais",
-				legends: [
-					{
-						name: "Curva de Competências",
-						color: "#0071e3"
-					},
-					{
-						name: "Platô",
-						color: "#5B14C5"
-					},
-					{
-						name: "Reorganização",
-						color: "#40E5D1"
-					}
-				],
-				metrics: [
-					{
-						id: "d1",
-						Icon: rp,
-						label: "Ritmo Temporal",
-						tooltip: "Padrão não linear de evolução de competências",
-						value: "Não linear",
-						delay: .1
-					},
-					{
-						id: "d2",
-						Icon: ip,
-						label: "Fases de Platô",
-						tooltip: "Momentos transitórios de estabilização funcional",
-						value: "Transitórias",
-						delay: .15
-					},
-					{
-						id: "d3",
-						Icon: ap,
-						label: "Saltos Qualitativos",
-						tooltip: "Reorganizações estruturais ao longo dos anos",
-						value: "Reorganização",
-						delay: .2
-					}
-				],
-				delay: .15,
-				children: /* @__PURE__ */ (0, B.jsx)("div", {
-					className: "w-full h-full p-1 flex items-center justify-center",
-					children: /* @__PURE__ */ (0, B.jsxs)("svg", {
-						viewBox: "0 0 500 240",
-						className: "w-full h-full overflow-visible",
-						"aria-label": "Curva de desenvolvimento não linear com aceleração, platô e reorganização",
-						children: [
-							/* @__PURE__ */ (0, B.jsx)("defs", { children: /* @__PURE__ */ (0, B.jsxs)("linearGradient", {
-								id: "curveGradient",
-								x1: "0",
-								y1: "0",
-								x2: "0",
-								y2: "1",
-								children: [
-									/* @__PURE__ */ (0, B.jsx)("stop", {
-										offset: "0%",
-										stopColor: "#0071e3",
-										stopOpacity: "0.45"
-									}),
-									/* @__PURE__ */ (0, B.jsx)("stop", {
-										offset: "50%",
-										stopColor: "#5B14C5",
-										stopOpacity: "0.18"
-									}),
-									/* @__PURE__ */ (0, B.jsx)("stop", {
-										offset: "100%",
-										stopColor: "#40E5D1",
-										stopOpacity: "0.0"
-									})
-								]
-							}) }),
-							/* @__PURE__ */ (0, B.jsxs)("g", {
-								stroke: "#7E7E8F",
-								strokeWidth: "0.8",
-								strokeOpacity: "0.22",
-								strokeDasharray: "3 3",
-								children: [
-									/* @__PURE__ */ (0, B.jsx)("line", {
-										x1: "70",
-										y1: "40",
-										x2: "470",
-										y2: "40"
-									}),
-									/* @__PURE__ */ (0, B.jsx)("line", {
-										x1: "70",
-										y1: "80",
-										x2: "470",
-										y2: "80"
-									}),
-									/* @__PURE__ */ (0, B.jsx)("line", {
-										x1: "70",
-										y1: "120",
-										x2: "470",
-										y2: "120"
-									}),
-									/* @__PURE__ */ (0, B.jsx)("line", {
-										x1: "70",
-										y1: "160",
-										x2: "470",
-										y2: "160"
-									}),
-									/* @__PURE__ */ (0, B.jsx)("line", {
-										x1: "70",
-										y1: "200",
-										x2: "470",
-										y2: "200"
-									})
-								]
-							}),
-							/* @__PURE__ */ (0, B.jsx)("line", {
-								x1: "70",
-								y1: "30",
-								x2: "70",
-								y2: "205",
-								stroke: "#9A9AAF",
-								strokeWidth: "1.5"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("line", {
-								x1: "65",
-								y1: "205",
-								x2: "470",
-								y2: "205",
-								stroke: "#9A9AAF",
-								strokeWidth: "1.5"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("text", {
-								x: "270",
-								y: "232",
-								textAnchor: "middle",
-								fontFamily: "'Satoshi', sans-serif",
-								fontSize: "15",
-								fill: "#5f6062",
-								fontWeight: "500",
-								children: "tempo (anos)"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("text", {
-								x: "24",
-								y: "115",
-								textAnchor: "middle",
-								fontFamily: "'Satoshi', sans-serif",
-								fontSize: "15",
-								fill: "#5f6062",
-								fontWeight: "500",
-								transform: "rotate(-90 24 115)",
-								children: "competências"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("path", {
-								d: "M70,198 C140,194 165,95 230,82 L320,82 C376,80 410,48 465,36 L465,205 L70,205 Z",
-								fill: "url(#curveGradient)"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("path", {
-								d: "M70,198 C140,194 165,95 230,82 L320,82 C376,80 410,48 465,36",
-								fill: "none",
-								stroke: "#0071e3",
-								strokeWidth: "3.5",
-								strokeLinecap: "round"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("circle", {
-								cx: "150",
-								cy: "140",
-								r: "5",
-								fill: "#0071e3"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("circle", {
-								cx: "150",
-								cy: "140",
-								r: "10",
-								fill: "#0071e3",
-								fillOpacity: "0.15"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("text", {
-								x: "164",
-								y: "160",
-								fontFamily: "'Satoshi', sans-serif",
-								fontSize: "16",
-								fontWeight: "600",
-								fill: "#0071e3",
-								children: "aceleração"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("circle", {
-								cx: "275",
-								cy: "82",
-								r: "5",
-								fill: "#5B14C5"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("circle", {
-								cx: "275",
-								cy: "82",
-								r: "10",
-								fill: "#5B14C5",
-								fillOpacity: "0.15"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("text", {
-								x: "275",
-								y: "66",
-								textAnchor: "middle",
-								fontFamily: "'Satoshi', sans-serif",
-								fontSize: "16",
-								fontWeight: "600",
-								fill: "#5B14C5",
-								children: "platô"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("circle", {
-								cx: "465",
-								cy: "36",
-								r: "5",
-								fill: "#40E5D1"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("circle", {
-								cx: "465",
-								cy: "36",
-								r: "10",
-								fill: "#40E5D1",
-								fillOpacity: "0.2"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("text", {
-								x: "460",
-								y: "24",
-								textAnchor: "end",
-								fontFamily: "'Satoshi', sans-serif",
-								fontSize: "16",
-								fontWeight: "600",
-								fill: "#028071",
-								children: "reorganização"
-							})
-						]
-					})
-				})
-			}),
-			e >= 3 && /* @__PURE__ */ (0, B.jsx)(lp, {
-				title: "Heterogêneo",
-				subtitle: "crianças da mesma idade não percorrem a mesma trajetória",
-				legends: [
-					{
-						name: "Trajetória Acelerada",
-						color: "#0071e3"
-					},
-					{
-						name: "Típica 1",
-						color: "#0f1012"
-					},
-					{
-						name: "Típica 2",
-						color: "#5B14C5"
-					},
-					{
-						name: "Oscilante",
-						color: "#40E5D1"
-					}
-				],
-				metrics: [
-					{
-						id: "h1",
-						Icon: op,
-						label: "Variabilidade Interindividual",
-						tooltip: "Grau de dispersão entre crianças da mesma idade",
-						value: "Significativa",
-						delay: .1
-					},
-					{
-						id: "h2",
-						Icon: sp,
-						label: "Origem Cronológica",
-						tooltip: "Mesma faixa etária de observação inicial",
-						value: "Sincronizada",
-						delay: .15
-					},
-					{
-						id: "h3",
-						Icon: cp,
-						label: "Trajetórias Individuais",
-						tooltip: "Caminhos de desenvolvimento únicos e singulares",
-						value: "Divergentes",
-						delay: .2
-					}
-				],
-				delay: .25,
-				children: /* @__PURE__ */ (0, B.jsx)("div", {
-					className: "w-full h-full p-1 flex items-center justify-center",
-					children: /* @__PURE__ */ (0, B.jsxs)("svg", {
-						viewBox: "0 0 500 240",
-						className: "w-full h-full overflow-visible",
-						"aria-label": "Quatro trajetórias individuais divergentes a partir de um mesmo ponto",
-						children: [
-							/* @__PURE__ */ (0, B.jsx)("defs", { children: /* @__PURE__ */ (0, B.jsxs)("linearGradient", {
-								id: "hetGradient",
-								x1: "0",
-								y1: "0",
-								x2: "0",
-								y2: "1",
+								y2: "74",
+								gradientUnits: "userSpaceOnUse",
 								children: [/* @__PURE__ */ (0, B.jsx)("stop", {
 									offset: "0%",
 									stopColor: "#0071e3",
-									stopOpacity: "0.25"
+									stopOpacity: "0.35"
+								}), /* @__PURE__ */ (0, B.jsx)("stop", {
+									offset: "100%",
+									stopColor: "#0071e3",
+									stopOpacity: "1"
+								})]
+							}),
+							/* @__PURE__ */ (0, B.jsxs)("linearGradient", {
+								id: "grad-linguagem",
+								x1: "264",
+								y1: "130",
+								x2: "338",
+								y2: "100",
+								gradientUnits: "userSpaceOnUse",
+								children: [/* @__PURE__ */ (0, B.jsx)("stop", {
+									offset: "0%",
+									stopColor: "#0071e3",
+									stopOpacity: "0.35"
 								}), /* @__PURE__ */ (0, B.jsx)("stop", {
 									offset: "100%",
 									stopColor: "#5B14C5",
-									stopOpacity: "0.0"
+									stopOpacity: "1"
 								})]
-							}) }),
-							/* @__PURE__ */ (0, B.jsxs)("g", {
-								stroke: "#7E7E8F",
-								strokeWidth: "0.8",
-								strokeOpacity: "0.22",
-								strokeDasharray: "3 3",
+							}),
+							/* @__PURE__ */ (0, B.jsxs)("linearGradient", {
+								id: "grad-emocoes",
+								x1: "254",
+								y1: "168",
+								x2: "310",
+								y2: "202",
+								gradientUnits: "userSpaceOnUse",
+								children: [/* @__PURE__ */ (0, B.jsx)("stop", {
+									offset: "0%",
+									stopColor: "#0071e3",
+									stopOpacity: "0.35"
+								}), /* @__PURE__ */ (0, B.jsx)("stop", {
+									offset: "100%",
+									stopColor: "#E84045",
+									stopOpacity: "1"
+								})]
+							}),
+							/* @__PURE__ */ (0, B.jsxs)("linearGradient", {
+								id: "grad-comportamento",
+								x1: "206",
+								y1: "168",
+								x2: "150",
+								y2: "202",
+								gradientUnits: "userSpaceOnUse",
+								children: [/* @__PURE__ */ (0, B.jsx)("stop", {
+									offset: "0%",
+									stopColor: "#0071e3",
+									stopOpacity: "0.35"
+								}), /* @__PURE__ */ (0, B.jsx)("stop", {
+									offset: "100%",
+									stopColor: "#0f1012",
+									stopOpacity: "1"
+								})]
+							}),
+							/* @__PURE__ */ (0, B.jsxs)("linearGradient", {
+								id: "grad-sociais",
+								x1: "196",
+								y1: "130",
+								x2: "122",
+								y2: "100",
+								gradientUnits: "userSpaceOnUse",
+								children: [/* @__PURE__ */ (0, B.jsx)("stop", {
+									offset: "0%",
+									stopColor: "#0071e3",
+									stopOpacity: "0.35"
+								}), /* @__PURE__ */ (0, B.jsx)("stop", {
+									offset: "100%",
+									stopColor: "#40E5D1",
+									stopOpacity: "1"
+								})]
+							})
+						] }),
+						/* @__PURE__ */ (0, B.jsx)("line", {
+							x1: "230",
+							y1: "106",
+							x2: "230",
+							y2: "76",
+							stroke: "url(#grad-cognicao)",
+							strokeWidth: "2.8",
+							strokeLinecap: "round"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("line", {
+							x1: "262",
+							y1: "130",
+							x2: "338",
+							y2: "102",
+							stroke: "url(#grad-linguagem)",
+							strokeWidth: "2.8",
+							strokeLinecap: "round"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("line", {
+							x1: "254",
+							y1: "168",
+							x2: "308",
+							y2: "202",
+							stroke: "url(#grad-emocoes)",
+							strokeWidth: "2.8",
+							strokeLinecap: "round"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("line", {
+							x1: "206",
+							y1: "168",
+							x2: "152",
+							y2: "202",
+							stroke: "url(#grad-comportamento)",
+							strokeWidth: "2.8",
+							strokeLinecap: "round"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("line", {
+							x1: "198",
+							y1: "130",
+							x2: "122",
+							y2: "102",
+							stroke: "url(#grad-sociais)",
+							strokeWidth: "2.8",
+							strokeLinecap: "round"
+						}),
+						/* @__PURE__ */ (0, B.jsxs)("g", {
+							filter: "url(#hubShadow)",
+							children: [
+								/* @__PURE__ */ (0, B.jsx)("circle", {
+									cx: "230",
+									cy: "146",
+									r: "42",
+									fill: "#ffffff",
+									stroke: "#0071e3",
+									strokeWidth: "2.4"
+								}),
+								/* @__PURE__ */ (0, B.jsx)("circle", {
+									cx: "230",
+									cy: "146",
+									r: "48",
+									fill: "none",
+									stroke: "#0071e3",
+									strokeWidth: "1",
+									strokeOpacity: "0.15",
+									strokeDasharray: "3 3"
+								}),
+								/* @__PURE__ */ (0, B.jsx)("circle", {
+									cx: "230",
+									cy: "133",
+									r: "14",
+									fill: "#e8f2fc"
+								}),
+								/* @__PURE__ */ (0, B.jsxs)("g", {
+									transform: "translate(222, 125)",
+									children: [/* @__PURE__ */ (0, B.jsx)("path", {
+										d: "M12 14v-1.5a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3V14",
+										fill: "none",
+										stroke: "#0071e3",
+										strokeWidth: "1.8",
+										strokeLinecap: "round",
+										strokeLinejoin: "round"
+									}), /* @__PURE__ */ (0, B.jsx)("circle", {
+										cx: "8",
+										cy: "4.5",
+										r: "2.8",
+										fill: "none",
+										stroke: "#0071e3",
+										strokeWidth: "1.8"
+									})]
+								}),
+								/* @__PURE__ */ (0, B.jsx)("text", {
+									x: "230",
+									y: "162",
+									textAnchor: "middle",
+									fontFamily: "'Urbanist', sans-serif",
+									fontSize: "15",
+									fontWeight: "800",
+									fill: "#0f1012",
+									letterSpacing: "0.08em",
+									children: "CRIANÇA"
+								})
+							]
+						}),
+						/* @__PURE__ */ (0, B.jsxs)("g", {
+							filter: "url(#nodeShadow)",
+							children: [/* @__PURE__ */ (0, B.jsx)("circle", {
+								cx: "230",
+								cy: "56",
+								r: "20",
+								fill: "#ffffff",
+								stroke: "#0071e3",
+								strokeWidth: "2"
+							}), /* @__PURE__ */ (0, B.jsxs)("g", {
+								transform: "translate(221, 47)",
 								children: [
-									/* @__PURE__ */ (0, B.jsx)("line", {
-										x1: "70",
-										y1: "40",
-										x2: "470",
-										y2: "40"
+									/* @__PURE__ */ (0, B.jsx)("path", {
+										d: "M9 3a2.5 2.5 0 1 0-5 .1 3.2 3.2 0 0 0-2 4.6 3.2 3.2 0 0 0 .4 5.3A3.2 3.2 0 1 0 9 14Z",
+										fill: "none",
+										stroke: "#0071e3",
+										strokeWidth: "1.6"
 									}),
-									/* @__PURE__ */ (0, B.jsx)("line", {
-										x1: "70",
-										y1: "80",
-										x2: "470",
-										y2: "80"
+									/* @__PURE__ */ (0, B.jsx)("path", {
+										d: "M9 3a2.5 2.5 0 1 1 5 .1 3.2 3.2 0 0 1 2 4.6 3.2 3.2 0 0 1-.4 5.3A3.2 3.2 0 1 1 9 14Z",
+										fill: "none",
+										stroke: "#0071e3",
+										strokeWidth: "1.6"
 									}),
-									/* @__PURE__ */ (0, B.jsx)("line", {
-										x1: "70",
-										y1: "120",
-										x2: "470",
-										y2: "120"
-									}),
-									/* @__PURE__ */ (0, B.jsx)("line", {
-										x1: "70",
-										y1: "160",
-										x2: "470",
-										y2: "160"
-									}),
-									/* @__PURE__ */ (0, B.jsx)("line", {
-										x1: "70",
-										y1: "200",
-										x2: "470",
-										y2: "200"
+									/* @__PURE__ */ (0, B.jsx)("path", {
+										d: "M9 3v11",
+										stroke: "#0071e3",
+										strokeWidth: "1.6"
 									})
 								]
-							}),
-							/* @__PURE__ */ (0, B.jsx)("line", {
-								x1: "70",
-								y1: "30",
-								x2: "70",
-								y2: "205",
-								stroke: "#9A9AAF",
-								strokeWidth: "1.5"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("line", {
-								x1: "65",
-								y1: "205",
-								x2: "470",
-								y2: "205",
-								stroke: "#9A9AAF",
-								strokeWidth: "1.5"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("text", {
-								x: "270",
-								y: "232",
-								textAnchor: "middle",
-								fontFamily: "'Satoshi', sans-serif",
-								fontSize: "15",
-								fill: "#5f6062",
-								fontWeight: "500",
-								children: "tempo (anos)"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("text", {
-								x: "24",
-								y: "115",
-								textAnchor: "middle",
-								fontFamily: "'Satoshi', sans-serif",
-								fontSize: "15",
-								fill: "#5f6062",
-								fontWeight: "500",
-								transform: "rotate(-90 24 115)",
-								children: "competências"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("path", {
-								d: "M70,198 C150,172 270,120 455,58 L455,205 L70,205 Z",
-								fill: "url(#hetGradient)"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("path", {
-								d: "M70,198 C150,172 270,120 455,58",
-								fill: "none",
-								stroke: "#0071e3",
-								strokeWidth: "3.5",
-								strokeLinecap: "round"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("circle", {
-								cx: "455",
-								cy: "58",
-								r: "6",
-								fill: "#0071e3"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("circle", {
-								cx: "455",
-								cy: "58",
-								r: "10",
-								fill: "#0071e3",
-								fillOpacity: "0.2"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("path", {
-								d: "M70,198 C120,130 180,105 455,80",
-								fill: "none",
-								stroke: "#0f1012",
-								strokeWidth: "2.4",
-								strokeDasharray: "6 4",
-								strokeLinecap: "round"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("circle", {
-								cx: "455",
-								cy: "80",
-								r: "5",
-								fill: "#0f1012"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("path", {
-								d: "M70,198 C160,195 230,105 455,100",
-								fill: "none",
+							})]
+						}),
+						/* @__PURE__ */ (0, B.jsx)("text", {
+							x: "230",
+							y: "22",
+							textAnchor: "middle",
+							fontFamily: "'Satoshi', sans-serif",
+							fontSize: "15.5",
+							fontWeight: "600",
+							fill: "#0f1012",
+							children: "cognição"
+						}),
+						/* @__PURE__ */ (0, B.jsxs)("g", {
+							filter: "url(#nodeShadow)",
+							children: [/* @__PURE__ */ (0, B.jsx)("circle", {
+								cx: "356",
+								cy: "94",
+								r: "20",
+								fill: "#ffffff",
 								stroke: "#5B14C5",
-								strokeWidth: "2.4",
-								strokeLinecap: "round"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("circle", {
-								cx: "455",
-								cy: "100",
-								r: "5",
-								fill: "#5B14C5"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("path", {
-								d: "M70,198 C115,170 155,185 210,130 C265,75 320,150 455,42",
-								fill: "none",
+								strokeWidth: "2"
+							}), /* @__PURE__ */ (0, B.jsxs)("g", {
+								transform: "translate(346, 84)",
+								children: [
+									/* @__PURE__ */ (0, B.jsx)("path", {
+										d: "M17 3H5a3 3 0 0 0-3 3v6a3 3 0 0 0 3 3h1.5v3.2l3.8-3.2H17a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3Z",
+										fill: "none",
+										stroke: "#5B14C5",
+										strokeWidth: "1.7",
+										strokeLinecap: "round",
+										strokeLinejoin: "round"
+									}),
+									/* @__PURE__ */ (0, B.jsx)("line", {
+										x1: "6.5",
+										y1: "7.2",
+										x2: "14.5",
+										y2: "7.2",
+										stroke: "#5B14C5",
+										strokeWidth: "1.5",
+										strokeLinecap: "round"
+									}),
+									/* @__PURE__ */ (0, B.jsx)("line", {
+										x1: "6.5",
+										y1: "10.5",
+										x2: "11.5",
+										y2: "10.5",
+										stroke: "#5B14C5",
+										strokeWidth: "1.5",
+										strokeLinecap: "round"
+									})
+								]
+							})]
+						}),
+						/* @__PURE__ */ (0, B.jsx)("text", {
+							x: "384",
+							y: "99",
+							textAnchor: "start",
+							fontFamily: "'Satoshi', sans-serif",
+							fontSize: "15.5",
+							fontWeight: "600",
+							fill: "#0f1012",
+							children: "linguagem"
+						}),
+						/* @__PURE__ */ (0, B.jsxs)("g", {
+							filter: "url(#nodeShadow)",
+							children: [/* @__PURE__ */ (0, B.jsx)("circle", {
+								cx: "325",
+								cy: "214",
+								r: "20",
+								fill: "#ffffff",
+								stroke: "#E84045",
+								strokeWidth: "2"
+							}), /* @__PURE__ */ (0, B.jsx)("g", {
+								transform: "translate(316, 205)",
+								children: /* @__PURE__ */ (0, B.jsx)("path", {
+									d: "M15 11c1.2-1.2 2.4-2.6 2.4-4.4A4.4 4.4 0 0 0 13 2.4c-1.4 0-2.4.4-3.6 1.6-1.2-1.2-2.2-1.6-3.6-1.6A4.4 4.4 0 0 0 2.2 6.8c0 1.8 1.2 3.2 2.4 4.4L10 16.5Z",
+									fill: "none",
+									stroke: "#E84045",
+									strokeWidth: "1.6",
+									strokeLinecap: "round",
+									strokeLinejoin: "round"
+								})
+							})]
+						}),
+						/* @__PURE__ */ (0, B.jsx)("text", {
+							x: "325",
+							y: "249",
+							textAnchor: "middle",
+							fontFamily: "'Satoshi', sans-serif",
+							fontSize: "15.5",
+							fontWeight: "600",
+							fill: "#0f1012",
+							children: "emoções"
+						}),
+						/* @__PURE__ */ (0, B.jsxs)("g", {
+							filter: "url(#nodeShadow)",
+							children: [/* @__PURE__ */ (0, B.jsx)("circle", {
+								cx: "135",
+								cy: "214",
+								r: "20",
+								fill: "#ffffff",
+								stroke: "#0f1012",
+								strokeWidth: "2"
+							}), /* @__PURE__ */ (0, B.jsx)("g", {
+								transform: "translate(126, 205)",
+								children: /* @__PURE__ */ (0, B.jsx)("path", {
+									d: "M17 9h-3l-2.5 7.5L7.5 2 5 9H1",
+									fill: "none",
+									stroke: "#0f1012",
+									strokeWidth: "1.6",
+									strokeLinecap: "round",
+									strokeLinejoin: "round"
+								})
+							})]
+						}),
+						/* @__PURE__ */ (0, B.jsx)("text", {
+							x: "135",
+							y: "249",
+							textAnchor: "middle",
+							fontFamily: "'Satoshi', sans-serif",
+							fontSize: "15.5",
+							fontWeight: "600",
+							fill: "#0f1012",
+							children: "comportamento"
+						}),
+						/* @__PURE__ */ (0, B.jsxs)("g", {
+							filter: "url(#nodeShadow)",
+							children: [/* @__PURE__ */ (0, B.jsx)("circle", {
+								cx: "104",
+								cy: "94",
+								r: "20",
+								fill: "#ffffff",
 								stroke: "#40E5D1",
-								strokeWidth: "2.4",
-								strokeDasharray: "3 3",
-								strokeLinecap: "round"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("circle", {
-								cx: "455",
-								cy: "42",
-								r: "5",
-								fill: "#40E5D1"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("circle", {
-								cx: "70",
-								cy: "198",
-								r: "7",
-								fill: "#0071e3"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("circle", {
-								cx: "70",
-								cy: "198",
-								r: "13",
-								fill: "#0071e3",
-								fillOpacity: "0.2"
-							}),
-							/* @__PURE__ */ (0, B.jsx)("text", {
-								x: "80",
-								y: "218",
-								fontFamily: "'Satoshi', sans-serif",
-								fontSize: "15",
-								fontWeight: "700",
-								fill: "#0071e3",
-								children: "origem comum"
-							})
-						]
-					})
+								strokeWidth: "2"
+							}), /* @__PURE__ */ (0, B.jsxs)("g", {
+								transform: "translate(95, 85)",
+								children: [
+									/* @__PURE__ */ (0, B.jsx)("path", {
+										d: "M13 16v-1.5a3 3 0 0 0-3-3H5a3 3 0 0 0-3 3V16",
+										fill: "none",
+										stroke: "#40E5D1",
+										strokeWidth: "1.6",
+										strokeLinecap: "round",
+										strokeLinejoin: "round"
+									}),
+									/* @__PURE__ */ (0, B.jsx)("circle", {
+										cx: "7.5",
+										cy: "5.5",
+										r: "3",
+										fill: "none",
+										stroke: "#40E5D1",
+										strokeWidth: "1.6"
+									}),
+									/* @__PURE__ */ (0, B.jsx)("path", {
+										d: "M17 16v-1.5a3 3 0 0 0-2.3-2.9",
+										fill: "none",
+										stroke: "#40E5D1",
+										strokeWidth: "1.6",
+										strokeLinecap: "round",
+										strokeLinejoin: "round"
+									}),
+									/* @__PURE__ */ (0, B.jsx)("path", {
+										d: "M12.5 2.6a3 3 0 0 1 0 5.8",
+										fill: "none",
+										stroke: "#40E5D1",
+										strokeWidth: "1.6"
+									})
+								]
+							})]
+						}),
+						/* @__PURE__ */ (0, B.jsx)("text", {
+							x: "76",
+							y: "99",
+							textAnchor: "end",
+							fontFamily: "'Satoshi', sans-serif",
+							fontSize: "15.5",
+							fontWeight: "600",
+							fill: "#0f1012",
+							children: "hab. sociais"
+						})
+					]
 				})
 			})
-		]
-	});
-}, dp = ({ data: e, className: t = "", isSlideActive: n = !0 }) => {
+		}),
+		/* @__PURE__ */ (0, B.jsx)(lp, {
+			title: "Dinâmico e não linear",
+			subtitle: "acelerações, platôs e reorganizações estruturais",
+			legends: [
+				{
+					name: "Curva de Competências",
+					color: "#0071e3"
+				},
+				{
+					name: "Platô",
+					color: "#5B14C5"
+				},
+				{
+					name: "Reorganização",
+					color: "#40E5D1"
+				}
+			],
+			metrics: [
+				{
+					id: "d1",
+					Icon: rp,
+					label: "Ritmo Temporal",
+					tooltip: "Padrão não linear de evolução de competências",
+					value: "Não linear",
+					delay: .1
+				},
+				{
+					id: "d2",
+					Icon: ip,
+					label: "Fases de Platô",
+					tooltip: "Momentos transitórios de estabilização funcional",
+					value: "Transitórias",
+					delay: .15
+				},
+				{
+					id: "d3",
+					Icon: ap,
+					label: "Saltos Qualitativos",
+					tooltip: "Reorganizações estruturais ao longo dos anos",
+					value: "Reorganização",
+					delay: .2
+				}
+			],
+			delay: .15,
+			children: /* @__PURE__ */ (0, B.jsx)("div", {
+				className: "w-full h-full p-1 flex items-center justify-center",
+				children: /* @__PURE__ */ (0, B.jsxs)("svg", {
+					viewBox: "0 0 500 240",
+					className: "w-full h-full overflow-visible",
+					"aria-label": "Curva de desenvolvimento não linear com aceleração, platô e reorganização",
+					children: [
+						/* @__PURE__ */ (0, B.jsx)("defs", { children: /* @__PURE__ */ (0, B.jsxs)("linearGradient", {
+							id: "curveGradient",
+							x1: "0",
+							y1: "0",
+							x2: "0",
+							y2: "1",
+							children: [
+								/* @__PURE__ */ (0, B.jsx)("stop", {
+									offset: "0%",
+									stopColor: "#0071e3",
+									stopOpacity: "0.45"
+								}),
+								/* @__PURE__ */ (0, B.jsx)("stop", {
+									offset: "50%",
+									stopColor: "#5B14C5",
+									stopOpacity: "0.18"
+								}),
+								/* @__PURE__ */ (0, B.jsx)("stop", {
+									offset: "100%",
+									stopColor: "#40E5D1",
+									stopOpacity: "0.0"
+								})
+							]
+						}) }),
+						/* @__PURE__ */ (0, B.jsxs)("g", {
+							stroke: "#7E7E8F",
+							strokeWidth: "0.8",
+							strokeOpacity: "0.22",
+							strokeDasharray: "3 3",
+							children: [
+								/* @__PURE__ */ (0, B.jsx)("line", {
+									x1: "70",
+									y1: "40",
+									x2: "470",
+									y2: "40"
+								}),
+								/* @__PURE__ */ (0, B.jsx)("line", {
+									x1: "70",
+									y1: "80",
+									x2: "470",
+									y2: "80"
+								}),
+								/* @__PURE__ */ (0, B.jsx)("line", {
+									x1: "70",
+									y1: "120",
+									x2: "470",
+									y2: "120"
+								}),
+								/* @__PURE__ */ (0, B.jsx)("line", {
+									x1: "70",
+									y1: "160",
+									x2: "470",
+									y2: "160"
+								}),
+								/* @__PURE__ */ (0, B.jsx)("line", {
+									x1: "70",
+									y1: "200",
+									x2: "470",
+									y2: "200"
+								})
+							]
+						}),
+						/* @__PURE__ */ (0, B.jsx)("line", {
+							x1: "70",
+							y1: "30",
+							x2: "70",
+							y2: "205",
+							stroke: "#9A9AAF",
+							strokeWidth: "1.5"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("line", {
+							x1: "65",
+							y1: "205",
+							x2: "470",
+							y2: "205",
+							stroke: "#9A9AAF",
+							strokeWidth: "1.5"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("text", {
+							x: "270",
+							y: "232",
+							textAnchor: "middle",
+							fontFamily: "'Satoshi', sans-serif",
+							fontSize: "15",
+							fill: "#5f6062",
+							fontWeight: "500",
+							children: "tempo (anos)"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("text", {
+							x: "24",
+							y: "115",
+							textAnchor: "middle",
+							fontFamily: "'Satoshi', sans-serif",
+							fontSize: "15",
+							fill: "#5f6062",
+							fontWeight: "500",
+							transform: "rotate(-90 24 115)",
+							children: "competências"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("path", {
+							d: "M70,198 C140,194 165,95 230,82 L320,82 C376,80 410,48 465,36 L465,205 L70,205 Z",
+							fill: "url(#curveGradient)"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("path", {
+							d: "M70,198 C140,194 165,95 230,82 L320,82 C376,80 410,48 465,36",
+							fill: "none",
+							stroke: "#0071e3",
+							strokeWidth: "3.5",
+							strokeLinecap: "round"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("circle", {
+							cx: "150",
+							cy: "140",
+							r: "5",
+							fill: "#0071e3"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("circle", {
+							cx: "150",
+							cy: "140",
+							r: "10",
+							fill: "#0071e3",
+							fillOpacity: "0.15"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("text", {
+							x: "164",
+							y: "160",
+							fontFamily: "'Satoshi', sans-serif",
+							fontSize: "16",
+							fontWeight: "600",
+							fill: "#0071e3",
+							children: "aceleração"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("circle", {
+							cx: "275",
+							cy: "82",
+							r: "5",
+							fill: "#5B14C5"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("circle", {
+							cx: "275",
+							cy: "82",
+							r: "10",
+							fill: "#5B14C5",
+							fillOpacity: "0.15"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("text", {
+							x: "275",
+							y: "66",
+							textAnchor: "middle",
+							fontFamily: "'Satoshi', sans-serif",
+							fontSize: "16",
+							fontWeight: "600",
+							fill: "#5B14C5",
+							children: "platô"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("circle", {
+							cx: "465",
+							cy: "36",
+							r: "5",
+							fill: "#40E5D1"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("circle", {
+							cx: "465",
+							cy: "36",
+							r: "10",
+							fill: "#40E5D1",
+							fillOpacity: "0.2"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("text", {
+							x: "460",
+							y: "24",
+							textAnchor: "end",
+							fontFamily: "'Satoshi', sans-serif",
+							fontSize: "16",
+							fontWeight: "600",
+							fill: "#028071",
+							children: "reorganização"
+						})
+					]
+				})
+			})
+		}),
+		/* @__PURE__ */ (0, B.jsx)(lp, {
+			title: "Heterogêneo",
+			subtitle: "crianças da mesma idade não percorrem a mesma trajetória",
+			legends: [
+				{
+					name: "Trajetória Acelerada",
+					color: "#0071e3"
+				},
+				{
+					name: "Típica 1",
+					color: "#0f1012"
+				},
+				{
+					name: "Típica 2",
+					color: "#5B14C5"
+				},
+				{
+					name: "Oscilante",
+					color: "#40E5D1"
+				}
+			],
+			metrics: [
+				{
+					id: "h1",
+					Icon: op,
+					label: "Variabilidade Interindividual",
+					tooltip: "Grau de dispersão entre crianças da mesma idade",
+					value: "Significativa",
+					delay: .1
+				},
+				{
+					id: "h2",
+					Icon: sp,
+					label: "Origem Cronológica",
+					tooltip: "Mesma faixa etária de observação inicial",
+					value: "Sincronizada",
+					delay: .15
+				},
+				{
+					id: "h3",
+					Icon: cp,
+					label: "Trajetórias Individuais",
+					tooltip: "Caminhos de desenvolvimento únicos e singulares",
+					value: "Divergentes",
+					delay: .2
+				}
+			],
+			delay: .25,
+			children: /* @__PURE__ */ (0, B.jsx)("div", {
+				className: "w-full h-full p-1 flex items-center justify-center",
+				children: /* @__PURE__ */ (0, B.jsxs)("svg", {
+					viewBox: "0 0 500 240",
+					className: "w-full h-full overflow-visible",
+					"aria-label": "Quatro trajetórias individuais divergentes a partir de um mesmo ponto",
+					children: [
+						/* @__PURE__ */ (0, B.jsx)("defs", { children: /* @__PURE__ */ (0, B.jsxs)("linearGradient", {
+							id: "hetGradient",
+							x1: "0",
+							y1: "0",
+							x2: "0",
+							y2: "1",
+							children: [/* @__PURE__ */ (0, B.jsx)("stop", {
+								offset: "0%",
+								stopColor: "#0071e3",
+								stopOpacity: "0.25"
+							}), /* @__PURE__ */ (0, B.jsx)("stop", {
+								offset: "100%",
+								stopColor: "#5B14C5",
+								stopOpacity: "0.0"
+							})]
+						}) }),
+						/* @__PURE__ */ (0, B.jsxs)("g", {
+							stroke: "#7E7E8F",
+							strokeWidth: "0.8",
+							strokeOpacity: "0.22",
+							strokeDasharray: "3 3",
+							children: [
+								/* @__PURE__ */ (0, B.jsx)("line", {
+									x1: "70",
+									y1: "40",
+									x2: "470",
+									y2: "40"
+								}),
+								/* @__PURE__ */ (0, B.jsx)("line", {
+									x1: "70",
+									y1: "80",
+									x2: "470",
+									y2: "80"
+								}),
+								/* @__PURE__ */ (0, B.jsx)("line", {
+									x1: "70",
+									y1: "120",
+									x2: "470",
+									y2: "120"
+								}),
+								/* @__PURE__ */ (0, B.jsx)("line", {
+									x1: "70",
+									y1: "160",
+									x2: "470",
+									y2: "160"
+								}),
+								/* @__PURE__ */ (0, B.jsx)("line", {
+									x1: "70",
+									y1: "200",
+									x2: "470",
+									y2: "200"
+								})
+							]
+						}),
+						/* @__PURE__ */ (0, B.jsx)("line", {
+							x1: "70",
+							y1: "30",
+							x2: "70",
+							y2: "205",
+							stroke: "#9A9AAF",
+							strokeWidth: "1.5"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("line", {
+							x1: "65",
+							y1: "205",
+							x2: "470",
+							y2: "205",
+							stroke: "#9A9AAF",
+							strokeWidth: "1.5"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("text", {
+							x: "270",
+							y: "232",
+							textAnchor: "middle",
+							fontFamily: "'Satoshi', sans-serif",
+							fontSize: "15",
+							fill: "#5f6062",
+							fontWeight: "500",
+							children: "tempo (anos)"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("text", {
+							x: "24",
+							y: "115",
+							textAnchor: "middle",
+							fontFamily: "'Satoshi', sans-serif",
+							fontSize: "15",
+							fill: "#5f6062",
+							fontWeight: "500",
+							transform: "rotate(-90 24 115)",
+							children: "competências"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("path", {
+							d: "M70,198 C150,172 270,120 455,58 L455,205 L70,205 Z",
+							fill: "url(#hetGradient)"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("path", {
+							d: "M70,198 C150,172 270,120 455,58",
+							fill: "none",
+							stroke: "#0071e3",
+							strokeWidth: "3.5",
+							strokeLinecap: "round"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("circle", {
+							cx: "455",
+							cy: "58",
+							r: "6",
+							fill: "#0071e3"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("circle", {
+							cx: "455",
+							cy: "58",
+							r: "10",
+							fill: "#0071e3",
+							fillOpacity: "0.2"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("path", {
+							d: "M70,198 C120,130 180,105 455,80",
+							fill: "none",
+							stroke: "#0f1012",
+							strokeWidth: "2.4",
+							strokeDasharray: "6 4",
+							strokeLinecap: "round"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("circle", {
+							cx: "455",
+							cy: "80",
+							r: "5",
+							fill: "#0f1012"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("path", {
+							d: "M70,198 C160,195 230,105 455,100",
+							fill: "none",
+							stroke: "#5B14C5",
+							strokeWidth: "2.4",
+							strokeLinecap: "round"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("circle", {
+							cx: "455",
+							cy: "100",
+							r: "5",
+							fill: "#5B14C5"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("path", {
+							d: "M70,198 C115,170 155,185 210,130 C265,75 320,150 455,42",
+							fill: "none",
+							stroke: "#40E5D1",
+							strokeWidth: "2.4",
+							strokeDasharray: "3 3",
+							strokeLinecap: "round"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("circle", {
+							cx: "455",
+							cy: "42",
+							r: "5",
+							fill: "#40E5D1"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("circle", {
+							cx: "70",
+							cy: "198",
+							r: "7",
+							fill: "#0071e3"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("circle", {
+							cx: "70",
+							cy: "198",
+							r: "13",
+							fill: "#0071e3",
+							fillOpacity: "0.2"
+						}),
+						/* @__PURE__ */ (0, B.jsx)("text", {
+							x: "80",
+							y: "218",
+							fontFamily: "'Satoshi', sans-serif",
+							fontSize: "15",
+							fontWeight: "700",
+							fill: "#0071e3",
+							children: "origem comum"
+						})
+					]
+				})
+			})
+		})
+	]
+}), dp = ({ data: e, className: t = "", isSlideActive: n = !0 }) => {
 	let r = (0, b.useRef)(null);
 	return /* @__PURE__ */ (0, B.jsxs)("div", {
 		ref: r,
@@ -49562,7 +49554,14 @@ var N$ = [
 	}
 ];
 function P$() {
-	let [e, t] = (0, b.useState)(0), n = (0, b.useCallback)(() => {
+	let [e, t] = (0, b.useState)(0);
+	(0, b.useEffect)(() => {
+		let n = (n) => {
+			n.key === "ArrowRight" || n.key === "PageDown" || n.key === " " ? e < N$.length - 1 && (n.stopPropagation(), n.preventDefault(), t((e) => e + 1)) : (n.key === "ArrowLeft" || n.key === "PageUp") && e > 0 && (n.stopPropagation(), n.preventDefault(), t((e) => e - 1));
+		};
+		return window.addEventListener("keydown", n, { capture: !0 }), () => window.removeEventListener("keydown", n, { capture: !0 });
+	}, [e]);
+	let n = (0, b.useCallback)(() => {
 		t((e) => (e + 1) % N$.length);
 	}, []), r = (0, b.useCallback)((e) => {
 		e.preventDefault(), t((e) => (e - 1 + N$.length) % N$.length);

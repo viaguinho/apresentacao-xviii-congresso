@@ -188,29 +188,6 @@ const SlideCardShell: React.FC<CardProps> = ({
 };
 
 export const Slide5ConceptCards: React.FC = () => {
-  const [visibleCount, setVisibleCount] = React.useState(1);
-
-  React.useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === 'ArrowRight' || e.key === 'PageDown' || e.key === ' ') {
-        if (visibleCount < 3) {
-          e.stopPropagation();
-          e.preventDefault();
-          setVisibleCount(prev => prev + 1);
-        }
-      } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
-        if (visibleCount > 1) {
-          e.stopPropagation();
-          e.preventDefault();
-          setVisibleCount(prev => prev - 1);
-        }
-      }
-    };
-
-    window.addEventListener('keydown', handleKeyDown, { capture: true });
-    return () => window.removeEventListener('keydown', handleKeyDown, { capture: true });
-  }, [visibleCount]);
-
   // 1. Métricas do Card 1: Multidimensional
   const multidimensionalMetrics: MetricItem[] = [
     {
@@ -298,7 +275,6 @@ export const Slide5ConceptCards: React.FC = () => {
   return (
     <div className="w-full grid gap-6 h-full items-stretch" style={{ gridTemplateColumns: '0.94fr 1.03fr 1.03fr' }}>
       {/* CARD 1: MULTIDIMENSIONAL */}
-      {visibleCount >= 1 && (
       <SlideCardShell
         title="Multidimensional"
         subtitle="cognição, linguagem, comportamento, emoções, habilidades sociais"
@@ -438,10 +414,8 @@ export const Slide5ConceptCards: React.FC = () => {
           </svg>
         </div>
       </SlideCardShell>
-      )}
 
       {/* CARD 2: DINÂMICO E NÃO LINEAR */}
-      {visibleCount >= 2 && (
       <SlideCardShell
         title="Dinâmico e não linear"
         subtitle="acelerações, platôs e reorganizações estruturais"
@@ -514,10 +488,8 @@ export const Slide5ConceptCards: React.FC = () => {
           </svg>
         </div>
       </SlideCardShell>
-      )}
 
       {/* CARD 3: HETEROGÊNEO */}
-      {visibleCount >= 3 && (
       <SlideCardShell
         title="Heterogêneo"
         subtitle="crianças da mesma idade não percorrem a mesma trajetória"
@@ -609,7 +581,6 @@ export const Slide5ConceptCards: React.FC = () => {
           </svg>
         </div>
       </SlideCardShell>
-      )}
     </div>
   );
 };

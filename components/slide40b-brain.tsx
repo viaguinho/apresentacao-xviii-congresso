@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react";
+import React, { useState, useCallback, useEffect } from "react";
 import { Brain, Network, Zap, Lightbulb, Activity } from "lucide-react";
 import { ExpandingCards, CardItem } from "./ui/expanding-cards";
 
@@ -48,6 +48,27 @@ const brainWonders: CardItem[] = [
 
 export default function Slide40bBrain() {
   const [activeIndex, setActiveIndex] = useState(0);
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'ArrowRight' || e.key === 'PageDown' || e.key === ' ') {
+        if (activeIndex < brainWonders.length - 1) {
+          e.stopPropagation();
+          e.preventDefault();
+          setActiveIndex(prev => prev + 1);
+        }
+      } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+        if (activeIndex > 0) {
+          e.stopPropagation();
+          e.preventDefault();
+          setActiveIndex(prev => prev - 1);
+        }
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown, { capture: true });
+    return () => window.removeEventListener('keydown', handleKeyDown, { capture: true });
+  }, [activeIndex]);
 
   const advance = useCallback(() => {
     setActiveIndex((current) => (current + 1) % brainWonders.length);
