@@ -43,3 +43,6 @@ scripts/export-pdf.js
 
 # Build do arquivo único
 .standalone-cache/
+
+# Backups de editor
+*.bak
