@@ -20,6 +20,17 @@ interface ExpandingCardsProps extends React.HTMLAttributes<HTMLUListElement> {
   triggerOn?: "click" | "hover";
 }
 
+/**
+ * Detecta midia em video tanto por extensao de arquivo (uso normal, servido do
+ * disco) quanto por `data:video/...` — o build standalone embute os videos como
+ * data URI e nesse formato nao existe extensao para inspecionar.
+ */
+function isVideoSource(src?: string): boolean {
+  if (!src) return false;
+  if (src.startsWith("data:")) return src.startsWith("data:video");
+  return /\.(mp4|webm|mov|m4v)(\?|#|$)/i.test(src);
+}
+
 function VideoCard({
   src,
   isActive,
@@ -129,7 +140,7 @@ export const ExpandingCards = React.forwardRef<
           tabIndex={0}
           data-active={activeIndex === index}
         >
-          {item.imgSrc?.endsWith(".mp4") || item.imgSrc?.endsWith(".webm") ? (
+          {isVideoSource(item.imgSrc) ? (
             <VideoCard
               src={item.imgSrc}
               isActive={activeIndex === index}

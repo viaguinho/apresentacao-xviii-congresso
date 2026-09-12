@@ -40,3 +40,6 @@ Thumbs.db
 *.pdf
 scripts/export-pdf.js
 
+
+# Build do arquivo único
+.standalone-cache/

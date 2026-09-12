@@ -49397,7 +49397,10 @@ function O$({ isActive: e = !0, className: t }) {
 }
 //#endregion
 //#region components/ui/expanding-cards.tsx
-function k$({ src: e, isActive: t, mediaClassName: n }) {
+function k$(e) {
+	return e ? e.startsWith("data:") ? e.startsWith("data:video") : /\.(mp4|webm|mov|m4v)(\?|#|$)/i.test(e) : !1;
+}
+function A$({ src: e, isActive: t, mediaClassName: n }) {
 	let r = b.useRef(null);
 	return b.useEffect(() => {
 		t && r.current && (r.current.currentTime = 0, r.current.play().catch(() => {}));
@@ -49411,7 +49414,7 @@ function k$({ src: e, isActive: t, mediaClassName: n }) {
 		className: q("absolute inset-0 h-full w-full object-cover transition-all duration-500 ease-out group-data-[active=true]:scale-100 group-data-[active=true]:grayscale-0 scale-105 grayscale pointer-events-none", n)
 	});
 }
-var A$ = b.forwardRef(({ className: e, items: t, activeIndex: n = 0, onCardClick: r, triggerOn: i = "click", ...a }, o) => {
+var j$ = b.forwardRef(({ className: e, items: t, activeIndex: n = 0, onCardClick: r, triggerOn: i = "click", ...a }, o) => {
 	let [s, c] = b.useState(!1);
 	b.useEffect(() => {
 		let e = () => {
@@ -49443,7 +49446,7 @@ var A$ = b.forwardRef(({ className: e, items: t, activeIndex: n = 0, onCardClick
 			tabIndex: 0,
 			"data-active": n === t,
 			children: [
-				e.imgSrc?.endsWith(".mp4") || e.imgSrc?.endsWith(".webm") ? /* @__PURE__ */ (0, B.jsx)(k$, {
+				k$(e.imgSrc) ? /* @__PURE__ */ (0, B.jsx)(A$, {
 					src: e.imgSrc,
 					isActive: n === t,
 					mediaClassName: e.mediaClassName
@@ -49484,10 +49487,10 @@ var A$ = b.forwardRef(({ className: e, items: t, activeIndex: n = 0, onCardClick
 		}, e.id))
 	});
 });
-A$.displayName = "ExpandingCards";
+j$.displayName = "ExpandingCards";
 //#endregion
 //#region components/slide40b-brain.tsx
-var j$ = [
+var M$ = [
 	{
 		id: "cerebro-base",
 		title: "A base material",
@@ -49530,11 +49533,11 @@ var j$ = [
 		linkHref: "#"
 	}
 ];
-function M$() {
+function N$() {
 	let [e, t] = (0, b.useState)(0), n = (0, b.useCallback)(() => {
-		t((e) => (e + 1) % j$.length);
+		t((e) => (e + 1) % M$.length);
 	}, []), r = (0, b.useCallback)((e) => {
-		e.preventDefault(), t((e) => (e - 1 + j$.length) % j$.length);
+		e.preventDefault(), t((e) => (e - 1 + M$.length) % M$.length);
 	}, []);
 	return /* @__PURE__ */ (0, B.jsxs)("div", {
 		className: "flex w-full h-full flex-col items-center justify-center space-y-5 bg-transparent relative cursor-default",
@@ -49558,8 +49561,8 @@ function M$() {
 			}),
 			/* @__PURE__ */ (0, B.jsx)("div", {
 				className: "w-full flex justify-center relative z-10 px-2 cursor-pointer",
-				children: /* @__PURE__ */ (0, B.jsx)(A$, {
-					items: j$,
+				children: /* @__PURE__ */ (0, B.jsx)(j$, {
+					items: M$,
 					activeIndex: e,
 					onCardClick: (e) => t(e)
 				})
@@ -49569,7 +49572,7 @@ function M$() {
 }
 //#endregion
 //#region components/slide36-cards.tsx
-function N$({ isActive: e = !0, className: t }) {
+function P$({ isActive: e = !0, className: t }) {
 	return /* @__PURE__ */ (0, B.jsxs)("div", {
 		className: q("w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[800px] mx-auto my-auto", t),
 		children: [/* @__PURE__ */ (0, B.jsxs)(H.div, {
@@ -49763,7 +49766,7 @@ function N$({ isActive: e = !0, className: t }) {
 }
 //#endregion
 //#region components/slide37-cards.tsx
-function P$({ isActive: e = !0, className: t }) {
+function F$({ isActive: e = !0, className: t }) {
 	return /* @__PURE__ */ (0, B.jsxs)("div", {
 		className: q("w-full h-full flex flex-col justify-center gap-3 select-none font-['Satoshi',sans-serif] max-w-[800px] mx-auto my-auto", t),
 		children: [/* @__PURE__ */ (0, B.jsxs)(H.div, {
@@ -49956,7 +49959,7 @@ function P$({ isActive: e = !0, className: t }) {
 }
 //#endregion
 //#region components/slide37-integration.tsx
-var F$ = [
+var I$ = [
 	{
 		id: "node-1",
 		number: "1",
@@ -50022,7 +50025,7 @@ var F$ = [
 		pathD: "M 328 243 H 318 Q 306 243 306 231 V 182 Q 306 170 294 170 H 288",
 		delay: .7
 	}
-], I$ = ({ d: e, id: t, delay: n = 0, isFocused: r = !1 }) => /* @__PURE__ */ (0, B.jsxs)(B.Fragment, { children: [
+], L$ = ({ d: e, id: t, delay: n = 0, isFocused: r = !1 }) => /* @__PURE__ */ (0, B.jsxs)(B.Fragment, { children: [
 	/* @__PURE__ */ (0, B.jsx)("path", {
 		d: e,
 		stroke: "#33415c",
@@ -50088,12 +50091,12 @@ var F$ = [
 		}), /* @__PURE__ */ (0, B.jsxs)("feMerge", { children: [/* @__PURE__ */ (0, B.jsx)("feMergeNode", { in: "blur" }), /* @__PURE__ */ (0, B.jsx)("feMergeNode", { in: "SourceGraphic" })] })]
 	})] })
 ] });
-function L$({ isActive: e = !0, className: t }) {
+function R$({ isActive: e = !0, className: t }) {
 	let n = (0, b.useId)(), [r, i] = (0, b.useState)(0), [a, o] = (0, b.useState)(!1);
 	return (0, b.useEffect)(() => {
 		if (!e || a) return;
 		let t = setInterval(() => {
-			i((e) => (e + 1) % F$.length);
+			i((e) => (e + 1) % I$.length);
 		}, 4e3);
 		return () => clearInterval(t);
 	}, [e, a]), /* @__PURE__ */ (0, B.jsxs)("div", {
@@ -50104,7 +50107,7 @@ function L$({ isActive: e = !0, className: t }) {
 				viewBox: "0 0 896 450",
 				fill: "none",
 				xmlns: "http://www.w3.org/2000/svg",
-				children: F$.map((e, t) => /* @__PURE__ */ (0, B.jsx)(I$, {
+				children: I$.map((e, t) => /* @__PURE__ */ (0, B.jsx)(L$, {
 					d: e.pathD,
 					id: `${n}-${e.id}`,
 					delay: e.delay,
@@ -50196,7 +50199,7 @@ function L$({ isActive: e = !0, className: t }) {
 					]
 				})
 			}),
-			F$.map((t, n) => {
+			I$.map((t, n) => {
 				let a = t.icon, s = r === n;
 				return /* @__PURE__ */ (0, B.jsxs)(H.div, {
 					initial: {
@@ -50258,7 +50261,7 @@ function L$({ isActive: e = !0, className: t }) {
 }
 //#endregion
 //#region components/slide38-orbit.tsx
-function R$({ isActive: e = !0 }) {
+function z$({ isActive: e = !0 }) {
 	return /* @__PURE__ */ (0, B.jsxs)("div", {
 		className: "relative flex h-[520px] w-full max-w-[620px] mx-auto flex-col items-center justify-center overflow-hidden rounded-3xl bg-transparent select-none group",
 		children: [
@@ -50399,7 +50402,7 @@ function R$({ isActive: e = !0 }) {
 }
 //#endregion
 //#region components/slide38-cards.tsx
-function z$({ isActive: e = !0, className: t }) {
+function B$({ isActive: e = !0, className: t }) {
 	return /* @__PURE__ */ (0, B.jsxs)("div", {
 		className: q("w-full h-full flex flex-col justify-center gap-3.5 select-none font-['Satoshi',sans-serif] max-w-[820px] mx-auto my-auto", t),
 		children: [/* @__PURE__ */ (0, B.jsxs)(H.div, {
@@ -50737,7 +50740,7 @@ function z$({ isActive: e = !0, className: t }) {
 }
 //#endregion
 //#region components/ui/ruixen-bento-cards.tsx
-var B$ = ({ className: e }) => /* @__PURE__ */ (0, B.jsx)("svg", {
+var V$ = ({ className: e }) => /* @__PURE__ */ (0, B.jsx)("svg", {
 	xmlns: "http://www.w3.org/2000/svg",
 	fill: "none",
 	viewBox: "0 0 24 24",
@@ -50751,12 +50754,12 @@ var B$ = ({ className: e }) => /* @__PURE__ */ (0, B.jsx)("svg", {
 		strokeLinejoin: "round",
 		d: "M12 6v12m6-6H6"
 	})
-}), V$ = ({ className: e }) => /* @__PURE__ */ (0, B.jsxs)(B.Fragment, { children: [
-	/* @__PURE__ */ (0, B.jsx)(B$, { className: q("absolute -top-3 -left-3", e) }),
-	/* @__PURE__ */ (0, B.jsx)(B$, { className: q("absolute -top-3 -right-3", e) }),
-	/* @__PURE__ */ (0, B.jsx)(B$, { className: q("absolute -bottom-3 -left-3", e) }),
-	/* @__PURE__ */ (0, B.jsx)(B$, { className: q("absolute -bottom-3 -right-3", e) })
-] }), H$ = [
+}), H$ = ({ className: e }) => /* @__PURE__ */ (0, B.jsxs)(B.Fragment, { children: [
+	/* @__PURE__ */ (0, B.jsx)(V$, { className: q("absolute -top-3 -left-3", e) }),
+	/* @__PURE__ */ (0, B.jsx)(V$, { className: q("absolute -top-3 -right-3", e) }),
+	/* @__PURE__ */ (0, B.jsx)(V$, { className: q("absolute -bottom-3 -left-3", e) }),
+	/* @__PURE__ */ (0, B.jsx)(V$, { className: q("absolute -bottom-3 -right-3", e) })
+] }), U$ = [
 	{
 		number: 1,
 		eixoBadge: "EIXO 1 · TRAJETÓRIA",
@@ -50806,10 +50809,10 @@ var B$ = ({ className: e }) => /* @__PURE__ */ (0, B.jsx)("svg", {
 		icon: _m
 	}
 ];
-function U$({ isActive: e = !0, className: t }) {
+function W$({ isActive: e = !0, className: t }) {
 	return /* @__PURE__ */ (0, B.jsx)("div", {
 		className: q("w-full grid grid-cols-3 gap-4 lg:gap-5", t),
-		children: H$.map((t, n) => {
+		children: U$.map((t, n) => {
 			let r = t.icon;
 			return /* @__PURE__ */ (0, B.jsxs)(H.div, {
 				initial: {
@@ -50832,7 +50835,7 @@ function U$({ isActive: e = !0, className: t }) {
 				},
 				className: q("group relative border border-dashed border-zinc-300/90 hover:border-[#0071e3]/60", "rounded-xl p-5 bg-white/95 shadow-[0_2px_10px_rgba(0,0,0,0.02)]", "hover:shadow-[0_8px_24px_rgba(0,113,227,0.08)] hover:bg-[#fbfdff]", "transition-all duration-300 flex flex-col justify-between min-h-[262px] select-none hover:-translate-y-0.5"),
 				children: [
-					/* @__PURE__ */ (0, B.jsx)(V$, { className: "text-zinc-400 group-hover:text-[#0071e3] transition-colors duration-300" }),
+					/* @__PURE__ */ (0, B.jsx)(H$, { className: "text-zinc-400 group-hover:text-[#0071e3] transition-colors duration-300" }),
 					/* @__PURE__ */ (0, B.jsxs)("div", {
 						className: "relative z-10 flex items-center justify-between gap-3 mb-2.5",
 						children: [/* @__PURE__ */ (0, B.jsx)("div", {
@@ -50874,7 +50877,7 @@ function U$({ isActive: e = !0, className: t }) {
 }
 //#endregion
 //#region src/topbar-modules.ts
-var W$ = [
+var G$ = [
 	{
 		id: 1,
 		label: "Dinâmica Sistêmica",
@@ -50946,13 +50949,13 @@ var W$ = [
 		endSlide: 42
 	}
 ];
-function G$(e) {
-	return e < 6 || e > 42 ? null : W$.find((t) => e >= t.startSlide && e <= t.endSlide) || null;
-}
 function K$(e) {
+	return e < 6 || e > 42 ? null : G$.find((t) => e >= t.startSlide && e <= t.endSlide) || null;
+}
+function q$(e) {
 	return `
     <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
-      ${W$.map((t) => {
+      ${G$.map((t) => {
 		if (t.id < e.id) return `
         <div style="display:inline-flex;align-items:center;gap:5px;padding:4px 11px;border-radius:9999px;background:#ecfdf5;color:#047857;border:1px solid rgba(5,150,105,0.3);font-size:14px;font-weight:500;white-space:nowrap;transition:all 0.2s ease;">
           <svg style="width:14px;height:14px;color:#059669;flex-shrink:0;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -50988,7 +50991,7 @@ function K$(e) {
     </div>
   `;
 }
-function q$() {
+function J$() {
 	let e = document.querySelector("deck-stage");
 	if (e && e._index !== void 0) return e._index + 1;
 	let t = document.querySelector("section[data-deck-active]");
@@ -50998,40 +51001,40 @@ function q$() {
 	}
 	return 1;
 }
-var J$ = null;
-function Y$() {
-	document.querySelectorAll("[data-injected-topbar=\"true\"]").forEach((e) => e.remove());
-}
+var Y$ = null;
 function X$() {
-	Y$();
-	let e = G$(q$()), t = document.querySelector("deck-stage")?.shadowRoot?.querySelector(".canvas");
-	if (t) {
-		if (!J$ || !t.contains(J$)) {
-			let e = t.querySelector("#deck-global-module-topbar");
-			e ? J$ = e : (J$ = document.createElement("div"), J$.id = "deck-global-module-topbar", J$.style.cssText = "\n        position: absolute;\n        top: 22px;\n        left: 80px;\n        right: 80px;\n        display: flex;\n        align-items: center;\n        justify-content: space-between;\n        border-bottom: 1px solid rgba(0,0,0,0.06);\n        padding-bottom: 10px;\n        font-family: 'Satoshi', system-ui, sans-serif;\n        box-sizing: border-box;\n        z-index: 99999;\n        user-select: none;\n        background: transparent;\n        pointer-events: auto;\n        transition: opacity 0.2s ease;\n      ", t.appendChild(J$));
-		}
-		if (!e) {
-			J$.style.display = "none", J$.style.opacity = "0";
-			return;
-		}
-		J$.style.display = "flex", J$.style.opacity = "1", J$.innerHTML = K$(e);
-	}
+	document.querySelectorAll("[data-injected-topbar=\"true\"]").forEach((e) => e.remove());
 }
 function Z$() {
 	X$();
+	let e = K$(J$()), t = document.querySelector("deck-stage")?.shadowRoot?.querySelector(".canvas");
+	if (t) {
+		if (!Y$ || !t.contains(Y$)) {
+			let e = t.querySelector("#deck-global-module-topbar");
+			e ? Y$ = e : (Y$ = document.createElement("div"), Y$.id = "deck-global-module-topbar", Y$.style.cssText = "\n        position: absolute;\n        top: 22px;\n        left: 80px;\n        right: 80px;\n        display: flex;\n        align-items: center;\n        justify-content: space-between;\n        border-bottom: 1px solid rgba(0,0,0,0.06);\n        padding-bottom: 10px;\n        font-family: 'Satoshi', system-ui, sans-serif;\n        box-sizing: border-box;\n        z-index: 99999;\n        user-select: none;\n        background: transparent;\n        pointer-events: auto;\n        transition: opacity 0.2s ease;\n      ", t.appendChild(Y$));
+		}
+		if (!e) {
+			Y$.style.display = "none", Y$.style.opacity = "0";
+			return;
+		}
+		Y$.style.display = "flex", Y$.style.opacity = "1", Y$.innerHTML = q$(e);
+	}
+}
+function Q$() {
+	Z$();
 	let e = document.querySelector("deck-stage");
 	e && !e._hasGlobalTopBarListener && (e._hasGlobalTopBarListener = !0, e.addEventListener("slidechange", () => {
-		X$();
+		Z$();
 	}));
 }
 //#endregion
 //#region src/main.tsx
-var Q$ = /* @__PURE__ */ new WeakMap(), $$ = /* @__PURE__ */ new WeakMap();
-function e1(e) {
+var $$ = /* @__PURE__ */ new WeakMap(), e1 = /* @__PURE__ */ new WeakMap();
+function t1(e) {
 	let t = e.closest("section");
 	if (!t) return 0;
-	let n = t.hasAttribute("data-deck-active"), r = $$.get(t) ?? !1, i = Q$.get(t) ?? 0;
-	return n && !r && (i += 1, Q$.set(t, i)), $$.set(t, n), i;
+	let n = t.hasAttribute("data-deck-active"), r = e1.get(t) ?? !1, i = $$.get(t) ?? 0;
+	return n && !r && (i += 1, $$.set(t, i)), e1.set(t, n), i;
 }
 function Q(e, t, n) {
 	if (e) try {
@@ -51040,7 +51043,7 @@ function Q(e, t, n) {
 		n || (n = vd.createRoot(e), e._reactRoot = n), n.render(/* @__PURE__ */ (0, B.jsx)("div", {
 			style: { display: "contents" },
 			children: t
-		}, e1(e)));
+		}, t1(e)));
 	} catch {
 		try {
 			let n = vd.createRoot(e);
@@ -51050,122 +51053,119 @@ function Q(e, t, n) {
 		}
 	}
 }
-function t1(e) {
+function n1(e) {
 	Q(document.getElementById("slide3-react-root"), /* @__PURE__ */ (0, B.jsx)(Qf, { isActive: e }), "HaloReel");
 }
-function n1(e) {
+function r1(e) {
 	Q(document.getElementById("slide5-react-root"), /* @__PURE__ */ (0, B.jsx)(lp, {}), "Slide5ConceptCards");
 }
-function r1(e) {
+function i1(e) {
 	Q(document.getElementById("slide6-timeline-root"), /* @__PURE__ */ (0, B.jsx)(dp, { isActive: e }), "Slide6MethodTimeline");
 }
-function i1(e) {
+function a1(e) {
 	Q(document.getElementById("slide7-cards-root"), /* @__PURE__ */ (0, B.jsx)(_p, { isActive: e }), "Slide7FeatureCards");
 }
-function a1(e) {
+function o1(e) {
 	Q(document.getElementById("slide9-orbit-root"), /* @__PURE__ */ (0, B.jsx)(fg, { isActive: e }), "Slide9Stage");
 }
-function o1(e) {
+function s1(e) {
 	Q(document.getElementById("slide10-react-root"), /* @__PURE__ */ (0, B.jsx)(pg, { isActive: e }), "Slide10Plasticity");
 }
-function s1(e) {
+function c1(e) {
 	Q(document.getElementById("slide10b-legend-root"), /* @__PURE__ */ (0, B.jsx)(Lg, {}), "Slide10bLegend"), Q(document.getElementById("slide10b-react-root"), /* @__PURE__ */ (0, B.jsx)(Ig, { isActive: e }), "Slide10bMechanisms");
 }
-function c1(e) {
+function l1(e) {
 	Q(document.getElementById("slide11-react-root"), /* @__PURE__ */ (0, B.jsx)(Rg, { isActive: e }), "Slide11Cascades");
 }
-function l1(e) {
+function u1(e) {
 	Q(document.getElementById("slide12-react-root"), /* @__PURE__ */ (0, B.jsx)(Bg, { isActive: e }), "Slide12Resilience");
 }
-function u1(e) {
+function d1(e) {
 	Q(document.getElementById("slide12b-react-root"), /* @__PURE__ */ (0, B.jsx)(Vg, { isActive: e }), "Slide12bClinical");
 }
-function d1(e) {
+function f1(e) {
 	Q(document.getElementById("slide13-react-root"), /* @__PURE__ */ (0, B.jsx)(t_, { isActive: e }), "Slide13Synthesis");
 }
-function f1(e) {
+function p1(e) {
 	Q(document.getElementById("slide14-react-root"), /* @__PURE__ */ (0, B.jsx)(r_, { isActive: e }), "Slide14Cognition");
 }
-function p1(e) {
+function m1(e) {
 	Q(document.getElementById("slide15-react-root"), /* @__PURE__ */ (0, B.jsx)(m_, { isActive: e }), "Slide15Stage");
 }
-function m1(e) {
+function h1(e) {
 	Q(document.getElementById("slide16-react-root"), /* @__PURE__ */ (0, B.jsx)(__, { isActive: e }), "Slide16Flow"), Q(document.getElementById("slide16-cards-root"), /* @__PURE__ */ (0, B.jsx)(v_, { isActive: e }), "Slide16Cards");
 }
-function h1(e) {
+function g1(e) {
 	Q(document.getElementById("slide17-react-root"), /* @__PURE__ */ (0, B.jsx)(C_, { isActive: e }), "Slide17Stage"), Q(document.getElementById("slide17-cards-root"), /* @__PURE__ */ (0, B.jsx)(w_, { isActive: e }), "Slide17Cards");
 }
-function g1(e) {
+function _1(e) {
 	Q(document.getElementById("slide18-react-root"), /* @__PURE__ */ (0, B.jsx)(O_, { isActive: e }), "Slide18Stage");
 }
-function _1(e) {
+function v1(e) {
 	Q(document.getElementById("slide19-react-root"), /* @__PURE__ */ (0, B.jsx)(xQ, { isActive: e }), "Slide19Stage");
 }
-function v1(e) {
+function y1(e) {
 	Q(document.getElementById("slide20-circle-root"), /* @__PURE__ */ (0, B.jsx)(wQ, { isActive: e }), "Slide20Circle"), Q(document.getElementById("slide20-cards-root"), /* @__PURE__ */ (0, B.jsx)(TQ, { isActive: e }), "Slide20Cards");
 }
-function y1(e) {
+function b1(e) {
 	Q(document.getElementById("slide21-orbit-root"), /* @__PURE__ */ (0, B.jsx)(DQ, { isActive: e }), "Slide21Orbit"), Q(document.getElementById("slide21-cards-root"), /* @__PURE__ */ (0, B.jsx)(kQ, { isActive: e }), "Slide21Cards"), Q(document.getElementById("slide21-right-cards-root"), /* @__PURE__ */ (0, B.jsx)(AQ, { isActive: e }), "Slide21RightCards");
 }
-function b1(e) {
+function x1(e) {
 	Q(document.getElementById("slide22-timeline-root"), /* @__PURE__ */ (0, B.jsx)(NQ, { isActive: e }), "Slide22Timeline"), Q(document.getElementById("slide22-cards-root"), /* @__PURE__ */ (0, B.jsx)(LQ, { isActive: e }), "Slide22Cards");
 }
-function x1(e) {
+function S1(e) {
 	Q(document.getElementById("slide23-timeline-root"), /* @__PURE__ */ (0, B.jsx)(zQ, { isActive: e }), "Slide23Timeline"), Q(document.getElementById("slide23-cards-root"), /* @__PURE__ */ (0, B.jsx)(BQ, { isActive: e }), "Slide23Cards");
 }
-function S1(e) {
+function C1(e) {
 	Q(document.getElementById("slide24-orbit-root"), /* @__PURE__ */ (0, B.jsx)(VQ, { isActive: e }), "Slide24Orbit"), Q(document.getElementById("slide24-cards-root"), /* @__PURE__ */ (0, B.jsx)(HQ, { isActive: e }), "Slide24Cards");
 }
-function C1(e) {
+function w1(e) {
 	Q(document.getElementById("slide25-orbit-root"), /* @__PURE__ */ (0, B.jsx)(YQ, { isActive: e }), "Slide25Orbit"), Q(document.getElementById("slide25-cards-root"), /* @__PURE__ */ (0, B.jsx)(XQ, { isActive: e }), "Slide25Cards");
 }
-function w1(e) {
+function T1(e) {
 	Q(document.getElementById("slide26-orbit-root"), /* @__PURE__ */ (0, B.jsx)(ZQ, { isActive: e }), "Slide26Orbit"), Q(document.getElementById("slide26-cards-root"), /* @__PURE__ */ (0, B.jsx)(QQ, { isActive: e }), "Slide26Cards");
 }
-function T1(e) {
+function E1(e) {
 	Q(document.getElementById("slide27-orbit-root"), /* @__PURE__ */ (0, B.jsx)(e$, { isActive: e }), "Slide27Orbit"), Q(document.getElementById("slide27-cards-root"), /* @__PURE__ */ (0, B.jsx)(t$, { isActive: e }), "Slide27Cards");
 }
-function E1(e) {
-	Q(document.getElementById("slide36-cards-root"), /* @__PURE__ */ (0, B.jsx)(N$, { isActive: e }), "Slide36Cards");
-}
 function D1(e) {
-	Q(document.getElementById("slide37-integration-root"), /* @__PURE__ */ (0, B.jsx)(L$, { isActive: e }), "Slide37Integration"), Q(document.getElementById("slide37-cards-root"), /* @__PURE__ */ (0, B.jsx)(P$, { isActive: e }), "Slide37Cards");
+	Q(document.getElementById("slide36-cards-root"), /* @__PURE__ */ (0, B.jsx)(P$, { isActive: e }), "Slide36Cards");
 }
 function O1(e) {
-	Q(document.getElementById("slide28-timeline-root"), /* @__PURE__ */ (0, B.jsx)(r$, { isActive: e }), "Slide28Timeline"), Q(document.getElementById("slide28-cards-root"), /* @__PURE__ */ (0, B.jsx)(i$, { isActive: e }), "Slide28Cards");
+	Q(document.getElementById("slide37-integration-root"), /* @__PURE__ */ (0, B.jsx)(R$, { isActive: e }), "Slide37Integration"), Q(document.getElementById("slide37-cards-root"), /* @__PURE__ */ (0, B.jsx)(F$, { isActive: e }), "Slide37Cards");
 }
 function k1(e) {
-	Q(document.getElementById("slide29-circle-root"), /* @__PURE__ */ (0, B.jsx)(s$, { isActive: e }), "Slide29Circle"), Q(document.getElementById("slide29-cards-root"), /* @__PURE__ */ (0, B.jsx)(c$, { isActive: e }), "Slide29Cards");
+	Q(document.getElementById("slide28-timeline-root"), /* @__PURE__ */ (0, B.jsx)(r$, { isActive: e }), "Slide28Timeline"), Q(document.getElementById("slide28-cards-root"), /* @__PURE__ */ (0, B.jsx)(i$, { isActive: e }), "Slide28Cards");
 }
 function A1(e) {
-	Q(document.getElementById("slide30-flow-root"), /* @__PURE__ */ (0, B.jsx)(u$, { isActive: e }), "Slide30Flow"), Q(document.getElementById("slide30-cards-root"), /* @__PURE__ */ (0, B.jsx)(d$, { isActive: e }), "Slide30Cards");
+	Q(document.getElementById("slide29-circle-root"), /* @__PURE__ */ (0, B.jsx)(s$, { isActive: e }), "Slide29Circle"), Q(document.getElementById("slide29-cards-root"), /* @__PURE__ */ (0, B.jsx)(c$, { isActive: e }), "Slide29Cards");
 }
 function j1(e) {
-	Q(document.getElementById("slide31-cards-root"), /* @__PURE__ */ (0, B.jsx)(f$, { isActive: e }), "Slide31Cards");
+	Q(document.getElementById("slide30-flow-root"), /* @__PURE__ */ (0, B.jsx)(u$, { isActive: e }), "Slide30Flow"), Q(document.getElementById("slide30-cards-root"), /* @__PURE__ */ (0, B.jsx)(d$, { isActive: e }), "Slide30Cards");
 }
 function M1(e) {
-	Q(document.getElementById("slide32-react-root"), /* @__PURE__ */ (0, B.jsx)(v$, { isActive: e }), "Slide32Matrix");
+	Q(document.getElementById("slide31-cards-root"), /* @__PURE__ */ (0, B.jsx)(f$, { isActive: e }), "Slide31Cards");
 }
 function N1(e) {
-	Q(document.getElementById("slide33-react-root"), /* @__PURE__ */ (0, B.jsx)(y$, { isActive: e }), "Slide33Funnel");
+	Q(document.getElementById("slide32-react-root"), /* @__PURE__ */ (0, B.jsx)(v$, { isActive: e }), "Slide32Matrix");
 }
 function P1(e) {
-	Q(document.getElementById("slide34-circle-root"), /* @__PURE__ */ (0, B.jsx)(E$, { isActive: e }), "Slide34Circle"), Q(document.getElementById("slide34-banner-root"), /* @__PURE__ */ (0, B.jsx)(b$, { isActive: e }), "Slide34BannerCard"), Q(document.getElementById("slide34-cards-root"), /* @__PURE__ */ (0, B.jsx)(x$, { isActive: e }), "Slide34RightCards");
+	Q(document.getElementById("slide33-react-root"), /* @__PURE__ */ (0, B.jsx)(y$, { isActive: e }), "Slide33Funnel");
 }
 function F1(e) {
-	Q(document.getElementById("slide35-orbit-root"), /* @__PURE__ */ (0, B.jsx)(D$, { isActive: e }), "Slide35Orbit"), Q(document.getElementById("slide35-cards-root"), /* @__PURE__ */ (0, B.jsx)(O$, { isActive: e }), "Slide35Cards");
+	Q(document.getElementById("slide34-circle-root"), /* @__PURE__ */ (0, B.jsx)(E$, { isActive: e }), "Slide34Circle"), Q(document.getElementById("slide34-banner-root"), /* @__PURE__ */ (0, B.jsx)(b$, { isActive: e }), "Slide34BannerCard"), Q(document.getElementById("slide34-cards-root"), /* @__PURE__ */ (0, B.jsx)(x$, { isActive: e }), "Slide34RightCards");
 }
 function I1(e) {
-	Q(document.getElementById("slide38-orbit-root"), /* @__PURE__ */ (0, B.jsx)(R$, { isActive: e }), "Slide38Orbit"), Q(document.getElementById("slide38-cards-root"), /* @__PURE__ */ (0, B.jsx)(z$, { isActive: e }), "Slide38Cards");
+	Q(document.getElementById("slide35-orbit-root"), /* @__PURE__ */ (0, B.jsx)(D$, { isActive: e }), "Slide35Orbit"), Q(document.getElementById("slide35-cards-root"), /* @__PURE__ */ (0, B.jsx)(O$, { isActive: e }), "Slide35Cards");
 }
 function L1(e) {
-	Q(document.getElementById("slide40-cards-root"), /* @__PURE__ */ (0, B.jsx)(U$, { isActive: e }), "Slide40Cards");
+	Q(document.getElementById("slide38-orbit-root"), /* @__PURE__ */ (0, B.jsx)(z$, { isActive: e }), "Slide38Orbit"), Q(document.getElementById("slide38-cards-root"), /* @__PURE__ */ (0, B.jsx)(B$, { isActive: e }), "Slide38Cards");
 }
-function R1() {
-	Q(document.getElementById("slide40b-brain-root"), /* @__PURE__ */ (0, B.jsx)(M$, {}), "Slide40bBrain");
+function R1(e) {
+	Q(document.getElementById("slide40-cards-root"), /* @__PURE__ */ (0, B.jsx)(W$, { isActive: e }), "Slide40Cards");
 }
 function z1() {
-	$();
+	Q(document.getElementById("slide40b-brain-root"), /* @__PURE__ */ (0, B.jsx)(N$, {}), "Slide40bBrain");
 }
 function B1() {
 	$();
@@ -51269,14 +51269,17 @@ function v0() {
 function y0() {
 	$();
 }
+function b0() {
+	$();
+}
 function $() {
 	let e = document.querySelector("section[data-screen-label=\"03\"]"), t = document.querySelector("section[data-screen-label=\"05\"]"), n = document.querySelector("section[data-screen-label=\"06\"]"), r = document.querySelector("section[data-screen-label=\"07\"]"), i = document.querySelector("section[data-screen-label=\"09\"]"), a = document.querySelector("section[data-screen-label=\"10\"]"), o = document.querySelector("section[data-screen-label=\"11\"]"), s = document.querySelector("section[data-screen-label=\"12\"]"), c = document.querySelector("section[data-screen-label=\"13\"]"), l = document.querySelector("section[data-screen-label=\"14\"]"), u = document.querySelector("section[data-screen-label=\"15\"]"), d = document.querySelector("section[data-screen-label=\"16\"]"), f = document.querySelector("section[data-screen-label=\"17\"]"), p = document.querySelector("section[data-screen-label=\"18\"]"), m = document.querySelector("section[data-screen-label=\"19\"]"), h = document.querySelector("deck-stage"), g = h && h._index !== void 0 ? h._index === 2 : e?.hasAttribute("data-deck-active") ?? !1, _ = h && h._index !== void 0 ? h._index === 5 : t?.hasAttribute("data-deck-active") ?? !1, v = h && h._index !== void 0 ? h._index === 6 : n?.hasAttribute("data-deck-active") ?? !1, y = h && h._index !== void 0 ? h._index === 7 : r?.hasAttribute("data-deck-active") ?? !1, b = h && h._index !== void 0 ? h._index === 9 : i?.hasAttribute("data-deck-active") ?? !1, x = h && h._index !== void 0 ? h._index === 10 : a?.hasAttribute("data-deck-active") ?? !1, S = h && h._index !== void 0 ? h._index === 11 : o?.hasAttribute("data-deck-active") ?? !1, C = h && h._index !== void 0 ? h._index === 12 : s?.hasAttribute("data-deck-active") ?? !1, w = h && h._index !== void 0 ? h._index === 13 : c?.hasAttribute("data-deck-active") ?? !1, T = h && h._index !== void 0 ? h._index === 14 : l?.hasAttribute("data-deck-active") ?? !1, E = h && h._index !== void 0 ? h._index === 15 : u?.hasAttribute("data-deck-active") ?? !1, D = h && h._index !== void 0 ? h._index === 16 : d?.hasAttribute("data-deck-active") ?? !1, O = h && h._index !== void 0 ? h._index === 17 : f?.hasAttribute("data-deck-active") ?? !1, k = h && h._index !== void 0 ? h._index === 18 : p?.hasAttribute("data-deck-active") ?? !1, ee = h && h._index !== void 0 ? h._index === 19 : m?.hasAttribute("data-deck-active") ?? !1, A = document.querySelector("section[data-screen-label=\"20\"]"), j = h && h._index !== void 0 ? h._index === 20 : A?.hasAttribute("data-deck-active") ?? !1, M = typeof document < "u" && document.body.classList.contains("export-all-active");
-	t1(M || g), n1(M || _), r1(M || v), i1(M || y), a1(M || b), o1(M || x), s1(M || S), c1(M || C), l1(M || w), u1(M || T), d1(M || E), f1(M || D), p1(M || O), m1(M || k), h1(M || ee), g1(M || j), _1(!0), v1(!0);
+	n1(M || g), r1(M || _), i1(M || v), a1(M || y), o1(M || b), s1(M || x), c1(M || S), l1(M || C), u1(M || w), d1(M || T), f1(M || E), p1(M || D), m1(M || O), h1(M || k), g1(M || ee), _1(M || j), v1(!0), y1(!0);
 	let N = (e) => document.querySelector(`section[data-screen-label^="${e}"], section[data-screen-label="${e}"]`), te = N("21"), P = N("22"), F = N("23"), ne = N("24"), re = N("25"), ie = N("26"), I = N("27"), L = N("28"), ae = N("29"), oe = N("30"), se = N("31"), ce = N("32"), le = N("33"), ue = N("34"), de = N("35"), fe = N("36"), pe = N("37"), me = N("38"), he = N("40"), ge = te?.hasAttribute("data-deck-active") ?? !1, _e = P?.hasAttribute("data-deck-active") ?? !1, ve = F?.hasAttribute("data-deck-active") ?? !1, ye = ne?.hasAttribute("data-deck-active") ?? !1, be = re?.hasAttribute("data-deck-active") ?? !1, xe = ie?.hasAttribute("data-deck-active") ?? !1, Se = I?.hasAttribute("data-deck-active") ?? !1, Ce = L?.hasAttribute("data-deck-active") ?? !1, we = ae?.hasAttribute("data-deck-active") ?? !1, Te = oe?.hasAttribute("data-deck-active") ?? !1, Ee = se?.hasAttribute("data-deck-active") ?? !1, De = ce?.hasAttribute("data-deck-active") ?? !1, Oe = le?.hasAttribute("data-deck-active") ?? !1, ke = ue?.hasAttribute("data-deck-active") ?? !1, Ae = de?.hasAttribute("data-deck-active") ?? !1, je = fe?.hasAttribute("data-deck-active") ?? !1, Me = pe?.hasAttribute("data-deck-active") ?? !1, Ne = me?.hasAttribute("data-deck-active") ?? !1, Pe = he?.hasAttribute("data-deck-active") ?? !1;
-	y1(ge || !0), b1(_e || !0), x1(ve || !0), S1(ye || !0), C1(be || !0), w1(xe || !0), T1(Se || !0), O1(Ce || !0), k1(we || !0), A1(Te || !0), j1(Ee || !0), M1(De || !0), N1(Oe || !0), P1(ke || !0), F1(Ae || !0), E1(je || !0), D1(Me || !0), I1(Ne || !0), L1(Pe || !0), R1(), Z$();
+	b1(ge || !0), x1(_e || !0), S1(ve || !0), C1(ye || !0), w1(be || !0), T1(xe || !0), E1(Se || !0), k1(Ce || !0), A1(we || !0), j1(Te || !0), M1(Ee || !0), N1(De || !0), P1(Oe || !0), F1(ke || !0), I1(Ae || !0), D1(je || !0), O1(Me || !0), L1(Ne || !0), R1(Pe || !0), z1(), Q$();
 }
 if (typeof window < "u") {
-	window.initSlide3HaloReel = z1, window.initSlide5ConceptCards = B1, window.initSlide6Timeline = V1, window.initSlide7Cards = H1, window.initSlide9Orbiting = U1, window.initSlide10Plasticity = W1, window.initSlide10bMechanisms = G1, window.initSlide11Cascades = K1, window.initSlide12Resilience = q1, window.initSlide12bClinical = J1, window.initSlide13Synthesis = Y1, window.initSlide14Cognition = X1, window.initSlide15Pills = Z1, window.initSlide16Flow = Q1, window.initSlide17AreaChart = $1, window.initSlide18Stage = e0, window.initSlide19Stats = t0, window.initSlide20Circle = n0, window.initSlide21Orbit = r0, window.initSlide21Cards = r0, window.initSlide22Cards = i0, window.initSlide23Cards = x1, window.initSlide24Orbit = a0, window.initSlide25Orbit = o0, window.initSlide26Orbit = s0, window.initSlide27Orbit = c0, window.initSlide28Cards = O1, window.initSlide29Circle = u0, window.initSlide30Flow = d0, window.initSlide31Cards = j1, window.initSlide32Matrix = f0, window.initSlide33Funnel = () => $(), window.initSlide34Cards = P1, window.initSlide34Circle = P1, window.initSlide35Orbit = m0, window.initSlide36Cards = h0, window.initSlide37Cards = g0, window.initSlide38Orbit = _0, window.initSlide38Cards = _0, window.initSlide40Cards = v0, window.initSlide40bBrain = y0, window.initAllSlideModuleTopbars = Z$, window.syncSlideVisibility = $, document.readyState === "complete" || document.readyState === "interactive" ? ($(), setTimeout($, 50), setTimeout($, 200), setTimeout($, 600)) : document.addEventListener("DOMContentLoaded", () => {
+	window.initSlide3HaloReel = B1, window.initSlide5ConceptCards = V1, window.initSlide6Timeline = H1, window.initSlide7Cards = U1, window.initSlide9Orbiting = W1, window.initSlide10Plasticity = G1, window.initSlide10bMechanisms = K1, window.initSlide11Cascades = q1, window.initSlide12Resilience = J1, window.initSlide12bClinical = Y1, window.initSlide13Synthesis = X1, window.initSlide14Cognition = Z1, window.initSlide15Pills = Q1, window.initSlide16Flow = $1, window.initSlide17AreaChart = e0, window.initSlide18Stage = t0, window.initSlide19Stats = n0, window.initSlide20Circle = r0, window.initSlide21Orbit = i0, window.initSlide21Cards = i0, window.initSlide22Cards = a0, window.initSlide23Cards = S1, window.initSlide24Orbit = o0, window.initSlide25Orbit = s0, window.initSlide26Orbit = c0, window.initSlide27Orbit = l0, window.initSlide28Cards = k1, window.initSlide29Circle = d0, window.initSlide30Flow = f0, window.initSlide31Cards = M1, window.initSlide32Matrix = p0, window.initSlide33Funnel = () => $(), window.initSlide34Cards = F1, window.initSlide34Circle = F1, window.initSlide35Orbit = h0, window.initSlide36Cards = g0, window.initSlide37Cards = _0, window.initSlide38Orbit = v0, window.initSlide38Cards = v0, window.initSlide40Cards = y0, window.initSlide40bBrain = b0, window.initAllSlideModuleTopbars = Q$, window.syncSlideVisibility = $, document.readyState === "complete" || document.readyState === "interactive" ? ($(), setTimeout($, 50), setTimeout($, 200), setTimeout($, 600)) : document.addEventListener("DOMContentLoaded", () => {
 		$(), setTimeout($, 100), setTimeout($, 400);
 	}), window.addEventListener("load", () => {
 		$(), setTimeout($, 200);
@@ -51321,4 +51324,4 @@ if (typeof window < "u") {
 	});
 }
 //#endregion
-export { z1 as mountHaloReel, W1 as mountSlide10, G1 as mountSlide10b, K1 as mountSlide11, q1 as mountSlide12, J1 as mountSlide12b, Y1 as mountSlide13, X1 as mountSlide14, Z1 as mountSlide15, Q1 as mountSlide16, $1 as mountSlide17, e0 as mountSlide18, t0 as mountSlide19, n0 as mountSlide20, r0 as mountSlide21, i0 as mountSlide22, a0 as mountSlide24, o0 as mountSlide25, s0 as mountSlide26, c0 as mountSlide27, l0 as mountSlide28, u0 as mountSlide29, d0 as mountSlide30, f0 as mountSlide32, p0 as mountSlide34, m0 as mountSlide35, h0 as mountSlide36, g0 as mountSlide37, _0 as mountSlide38, v0 as mountSlide40, y0 as mountSlide40b, B1 as mountSlide5, V1 as mountSlide6, H1 as mountSlide7, U1 as mountSlide9 };
+export { B1 as mountHaloReel, G1 as mountSlide10, K1 as mountSlide10b, q1 as mountSlide11, J1 as mountSlide12, Y1 as mountSlide12b, X1 as mountSlide13, Z1 as mountSlide14, Q1 as mountSlide15, $1 as mountSlide16, e0 as mountSlide17, t0 as mountSlide18, n0 as mountSlide19, r0 as mountSlide20, i0 as mountSlide21, a0 as mountSlide22, o0 as mountSlide24, s0 as mountSlide25, c0 as mountSlide26, l0 as mountSlide27, u0 as mountSlide28, d0 as mountSlide29, f0 as mountSlide30, p0 as mountSlide32, m0 as mountSlide34, h0 as mountSlide35, g0 as mountSlide36, _0 as mountSlide37, v0 as mountSlide38, y0 as mountSlide40, b0 as mountSlide40b, V1 as mountSlide5, H1 as mountSlide6, U1 as mountSlide7, W1 as mountSlide9 };

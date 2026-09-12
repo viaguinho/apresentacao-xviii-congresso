@@ -34,11 +34,6 @@ const rootFilesToCopy = [
   'deck-stage.js',
   'support.js',
   'slide16-flow.js',
-  'gsap-init.js',
-  'logo.svg',
-  'banner-landing-page-1.png',
-  'liquid-logo-loop fundo branco.webm',
-  'liquid-logo-loop fundo prata.webm',
 ];
 
 for (const file of rootFilesToCopy) {
